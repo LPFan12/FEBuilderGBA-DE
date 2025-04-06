@@ -22,6 +22,7 @@ namespace FEBuilderGBA
             func_lang.Items.Add("en=English");    ///No Translate
             func_lang.Items.Add("zh=中文");       ///No Translate
             func_lang.Items.Add("de=Deutsch");    ///No Translate
+            func_lang.Items.Add("dealt=Deutsch");    ///No Translate
 
             InputFormRef.markupJumpLabel(X_EXPLAIN_NECESSARY_PROGRAM);
             this.Icon = Properties.Resources.icon_settings;
