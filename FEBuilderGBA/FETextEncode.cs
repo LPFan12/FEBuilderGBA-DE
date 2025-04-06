@@ -662,7 +662,7 @@ namespace FEBuilderGBA
                     g_RepalceSPCode.Add("(ﾓｰｻﾄﾞｩｰｸﾞ)"); g_RepalceSPCode.Add("∞┴∠∧");///No Translate
                     g_RepalceSPCode.Add("(ﾃﾞｽｶﾞｰｺﾞｲﾙ)"); g_RepalceSPCode.Add("∇∈∋├");///No Translate
                     g_RepalceSPCode.Add("(ﾄﾞﾗｺﾞﾝｿﾞﾝﾋﾞ)"); g_RepalceSPCode.Add("≠≡≦≧");///No Translate
-                    g_RepalceSPCode.Add("(ｺﾞｰｺﾞﾝの卵)"); g_RepalceSPCode.Add("∪∫∬∴");///No Translate
+                    g_RepalceSPCode.Add("ゴーゴンエッグ"); g_RepalceSPCode.Add("∪∫∬∴");///No Translate
                 }
                 else if (Program.ROM.RomInfo.version == 7)
                 {
