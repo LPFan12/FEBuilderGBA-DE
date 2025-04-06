@@ -21,6 +21,7 @@ namespace FEBuilderGBA
             func_lang.Items.Add("ja=日本語");     ///No Translate
             func_lang.Items.Add("en=English");    ///No Translate
             func_lang.Items.Add("zh=中文");       ///No Translate
+            func_lang.Items.Add("de=Deutsch");    ///No Translate
 
             InputFormRef.markupJumpLabel(X_EXPLAIN_NECESSARY_PROGRAM);
             this.Icon = Properties.Resources.icon_settings;
@@ -1225,6 +1226,8 @@ namespace FEBuilderGBA
           , AR_TBL = 6
           , KR_TBL = 7
           , KO_TBL = 8
+          , DE_TBL = 9
+          , DE-Alt_TBL = 10
           , NoChace = 99
         };
         static textencoding_enum g_Cache_textencoding;
