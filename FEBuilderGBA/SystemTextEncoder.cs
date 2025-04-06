@@ -116,7 +116,7 @@ namespace FEBuilderGBA
                 this.Encoder = null;
                 return true;
             }
-            else if (textencoding == OptionForm.textencoding_enum.DE_ALT_TBL)
+            else if (textencoding == OptionForm.textencoding_enum.DE_alt_TBL)
             {
                 string resoucefilename = System.IO.Path.Combine(Program.BaseDirectory, "config", "translate", "de_alt_tbl", rom.RomInfo.TitleToFilename + ".tbl");
                 if (! File.Exists(resoucefilename))
