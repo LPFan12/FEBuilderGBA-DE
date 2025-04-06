@@ -654,27 +654,27 @@ namespace FEBuilderGBA
             {
                 if (Program.ROM.RomInfo.version == 8)
                 {
-                    g_RepalceSPCode.Add("(ｻﾝﾀﾞｰｽﾄｰﾑ)"); g_RepalceSPCode.Add("нопр");///No Translate
-                    g_RepalceSPCode.Add("(ﾌｫﾚｽﾄﾅｲﾄ)"); g_RepalceSPCode.Add("⊂⊃┌┐");///No Translate
-                    g_RepalceSPCode.Add("(ﾄﾞﾗｺﾞﾝﾏｽﾀｰ)"); g_RepalceSPCode.Add("абвг");///No Translate
-                    g_RepalceSPCode.Add("(ﾜｲﾊﾞｰﾝﾅｲﾄ)"); g_RepalceSPCode.Add("шщъы");///No Translate
-                    g_RepalceSPCode.Add("(ﾌｧﾙｺﾝﾅｲﾄ)"); g_RepalceSPCode.Add("жзий");///No Translate
-                    g_RepalceSPCode.Add("(ﾓｰｻﾄﾞｩｰｸﾞ)"); g_RepalceSPCode.Add("∞┴∠∧");///No Translate
-                    g_RepalceSPCode.Add("(ﾃﾞｽｶﾞｰｺﾞｲﾙ)"); g_RepalceSPCode.Add("∇∈∋├");///No Translate
-                    g_RepalceSPCode.Add("(ﾄﾞﾗｺﾞﾝｿﾞﾝﾋﾞ)"); g_RepalceSPCode.Add("≠≡≦≧");///No Translate
+                    g_RepalceSPCode.Add("サンダーストーム"); g_RepalceSPCode.Add("нопр");///No Translate
+                    g_RepalceSPCode.Add("フォレストナイト"); g_RepalceSPCode.Add("⊂⊃┌┐");///No Translate
+                    g_RepalceSPCode.Add("ドラゴンマスター"); g_RepalceSPCode.Add("абвг");///No Translate
+                    g_RepalceSPCode.Add("ワイバーンナイト"); g_RepalceSPCode.Add("шщъы");///No Translate
+                    g_RepalceSPCode.Add("ファルコンナイト"); g_RepalceSPCode.Add("жзий");///No Translate
+                    g_RepalceSPCode.Add("モーサドゥーグ"); g_RepalceSPCode.Add("∞┴∠∧");///No Translate
+                    g_RepalceSPCode.Add("デスガーゴイル"); g_RepalceSPCode.Add("∇∈∋├");///No Translate
+                    g_RepalceSPCode.Add("ドラゴンゾンビ"); g_RepalceSPCode.Add("≠≡≦≧");///No Translate
                     g_RepalceSPCode.Add("ゴーゴンエッグ"); g_RepalceSPCode.Add("∪∫∬∴");///No Translate
                 }
                 else if (Program.ROM.RomInfo.version == 7)
                 {
-                    g_RepalceSPCode.Add("(ｻﾝﾀﾞｰｽﾄｰﾑ)"); g_RepalceSPCode.Add("⑮⑯⑰⑱⑲⑳α");///No Translate
-                    g_RepalceSPCode.Add("(ﾌｧﾙｺﾝﾅｲﾄ)"); g_RepalceSPCode.Add("⑧⑨⑩⑪⑫⑬⑭");///No Translate
-                    g_RepalceSPCode.Add("(ﾄﾞﾗｺﾞﾝﾏｽﾀｰ)"); g_RepalceSPCode.Add("①②③④⑤⑥⑦");///No Translate
+                    g_RepalceSPCode.Add("サンダーストーム"); g_RepalceSPCode.Add("⑮⑯⑰⑱⑲⑳α");///No Translate
+                    g_RepalceSPCode.Add("(ファルコンナイト)"); g_RepalceSPCode.Add("⑧⑨⑩⑪⑫⑬⑭");///No Translate
+                    g_RepalceSPCode.Add("ドラゴンマスター"); g_RepalceSPCode.Add("①②③④⑤⑥⑦");///No Translate
                 }
                 else if (Program.ROM.RomInfo.version == 6)
                 {
-                    g_RepalceSPCode.Add("(ｻﾝﾀﾞｰｽﾄｰﾑ)"); g_RepalceSPCode.Add("①②③④⑤⑥⑦");///No Translate
-                    g_RepalceSPCode.Add("(ﾌｧﾙｺﾝﾅｲﾄ)"); g_RepalceSPCode.Add("ⅠⅡⅢⅣⅤⅥⅦ");///No Translate
-                    g_RepalceSPCode.Add("(ﾄﾞﾗｺﾞﾝﾏｽﾀｰ)"); g_RepalceSPCode.Add("⑪⑫⑬⑭⑮⑯⑰");///No Translate
+                    g_RepalceSPCode.Add("サンダーストーム"); g_RepalceSPCode.Add("①②③④⑤⑥⑦");///No Translate
+                    g_RepalceSPCode.Add("ファルコンナイト"); g_RepalceSPCode.Add("ⅠⅡⅢⅣⅤⅥⅦ");///No Translate
+                    g_RepalceSPCode.Add("ドラゴンマスター"); g_RepalceSPCode.Add("⑪⑫⑬⑭⑮⑯⑰");///No Translate
                 }
             }
             else
