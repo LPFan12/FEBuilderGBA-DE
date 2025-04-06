@@ -104,6 +104,30 @@ namespace FEBuilderGBA
                 this.Encoder = null;
                 return true;
             }
+            else if (textencoding == OptionForm.textencoding_enum.DE_TBL)
+            {
+                string resoucefilename = System.IO.Path.Combine(Program.BaseDirectory, "config", "translate", "de_tbl", rom.RomInfo.TitleToFilename + ".tbl");
+                if (! File.Exists(resoucefilename))
+                {
+                    Log.Error("tbl not found. filename:{0}", resoucefilename);
+                    return false;
+                }
+                this.TBLEncode = new SystemTextEncoderTBLEncode(resoucefilename);
+                this.Encoder = null;
+                return true;
+            }
+            else if (textencoding == OptionForm.textencoding_enum.DE_ALT_TBL)
+            {
+                string resoucefilename = System.IO.Path.Combine(Program.BaseDirectory, "config", "translate", "de_alt_tbl", rom.RomInfo.TitleToFilename + ".tbl");
+                if (! File.Exists(resoucefilename))
+                {
+                    Log.Error("tbl not found. filename:{0}", resoucefilename);
+                    return false;
+                }
+                this.TBLEncode = new SystemTextEncoderTBLEncode(resoucefilename);
+                this.Encoder = null;
+                return true;
+            }
             else if (textencoding == OptionForm.textencoding_enum.KO_TBL)
             {
                 string resoucefilename = System.IO.Path.Combine(Program.BaseDirectory, "config", "translate", "ko_tbl", rom.RomInfo.TitleToFilename + ".tbl");
