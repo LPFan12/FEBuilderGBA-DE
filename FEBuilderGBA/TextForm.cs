@@ -2642,6 +2642,14 @@ namespace FEBuilderGBA
                 {//倍角スペースを半角スペースへ
                     return text.Replace('　', ' ');
                 }
+		else if (textencoding == OptionForm.textencoding_enum.DE_TBL)
+                {//倍角スペースを半角スペースへ
+                    return text.Replace('　', ' ');
+                }
+		else if (textencoding == OptionForm.textencoding_enum.FR_TBL)
+                {//倍角スペースを半角スペースへ
+                    return text.Replace('　', ' ');
+                }
                 else if (textencoding == OptionForm.textencoding_enum.KO_TBL)
                 {
                     return text.Replace(' ', '　');
