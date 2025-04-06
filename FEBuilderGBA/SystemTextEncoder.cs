@@ -116,18 +116,6 @@ namespace FEBuilderGBA
                 this.Encoder = null;
                 return true;
             }
-            else if (textencoding == OptionForm.textencoding_enum.DEalt_TBL)
-            {
-                string resoucefilename = System.IO.Path.Combine(Program.BaseDirectory, "config", "translate", "dealt_tbl", rom.RomInfo.TitleToFilename + ".tbl");
-                if (! File.Exists(resoucefilename))
-                {
-                    Log.Error("tbl not found. filename:{0}", resoucefilename);
-                    return false;
-                }
-                this.TBLEncode = new SystemTextEncoderTBLEncode(resoucefilename);
-                this.Encoder = null;
-                return true;
-            }
             else if (textencoding == OptionForm.textencoding_enum.KO_TBL)
             {
                 string resoucefilename = System.IO.Path.Combine(Program.BaseDirectory, "config", "translate", "ko_tbl", rom.RomInfo.TitleToFilename + ".tbl");
