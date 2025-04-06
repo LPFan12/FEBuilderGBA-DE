@@ -2967,7 +2967,7 @@
             "7=kr_TBL(korean)",
             "8=ko_TBL(korean)",
             "9=de_TBL(deutsch)",
-            "10=de_alt_TBL(deutsch)"});
+            "10=dealt_TBL(deutsch)"});
             this.func_textextencodingtencoding.Location = new System.Drawing.Point(275, 398);
             this.func_textextencodingtencoding.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
             this.func_textextencodingtencoding.Name = "func_textextencodingtencoding";
