@@ -24,7 +24,7 @@ Momentan geplante Änderungen:
 Die Koreanische Zeichentabelle
 ===
 
-Sie stammt ursprünglich aus einer anderen inoffiziellen Version beim (https://github.com/delvier/FEBuilderGBA), welche von der Version aus der diese basiert übernommen wurde.
+Sie stammt ursprünglich aus einer anderen inoffiziellen Version beim (https://github.com/delvier/FEBuilderGBA), welche von der Version auf der diese basiert übernommen wurde.
 
 Die benutzte Tabelle ist **Johab**, welche anscheinend nur Hangul-Sylben unterstützt(Ich kenne mich da selbst nicht so aus). Es ist denkbar, dass in der Zukunft irgendwann andere Zeichentabellen auch unterstützt werden, aber aus absehbare Zeit ist zu empfehlen die Datei __FE\[678\].tbl__ im Ordner __./config/translate/ko_tbl__ zu ersetzen, wenn man alternative Zeichentabellen wie Wansung oder Windows-949 nutzen will.
 
