@@ -1,24 +1,33 @@
-README
+README(Unfertig)
 ===
 
-[![MSBuild](https://github.com/laqieer/FEBuilderGBA/actions/workflows/msbuild.yml/badge.svg)](https://github.com/laqieer/FEBuilderGBA/actions/workflows/msbuild.yml)
-![GitHub Release](https://img.shields.io/github/v/release/laqieer/FEBuilderGBA)
-[<img src="https://raw.githubusercontent.com/oprypin/nightly.link/master/logo.svg" alt="Nightly Build" height="16" style="height: 16px; vertical-align: sub">Nightly Build](https://nightly.link/laqieer/FEBuilderGBA/workflows/msbuild/master)
+[![MSBuild](https://github.com/LPFan12/FEBuilderGBA-DE/actions/workflows/msbuild.yml/badge.svg)](https://github.com/LPFan12/FEBuilderGBA-DE/actions/workflows/msbuild.yml)
 
-This fork is an integration of several forks of FEBuilderGBA and continues development based on it.
+Diese Version von FEBuilderGBA wird speziell für die deutsche Fire Emblem Community erweitert, aber ich hoffe darauf zu achten, dass sie auch für andere Sprachen verwendbar bleibt. Sie basiert auf der Version bei (https://github.com/laqieer/FEBuilderGBA).
 
-README for Korean character table
+Unsere Änderungen und Pläne
+===
+Momentane Änderungen: 
+-Für FE6 wurden zwei Zeichentabellen ergänzt, eine für den noch unfertigen LPFan-Deutschpatch und eine für den Emblemier-Deutschpatch(Beide beim Emblemier Discord-Server zu finden https://discord.gg/3xXQkPT). Für diese Deutschpatches muss die Text-Enkodierung in den Optionen jedes Mal neu eingestellt werden wenn die jeweilige ROM im Editor geladen wird(Eine automatische Erkennung ist auf absehbare Zeit nicht zu erwarten), Bilderhilfe kommt später an diese Stelle.
+-Ein paar Klassen/Itemnamen wurden in den japanischen Spielversionen auf verwirrende Weise ersetzt. In einem Fall (beim Gorgonenei in FE8) führte dies bereits in der Vergangenheit zu einer großen Verwirrung in der englischsprachigen Community weil der ersetzte Name anders war als der tatsächliche im Spiel. Dies wurde korrigiert, damit diese Namen im Editor genauso angezeigt werden wie im Spiel auch.
+
+Momentan geplante Änderungen:
+-Unterstüzung für alle offiziellen Spielversionen die noch nicht unterstützt sind(Europa, Prototypen, Chinesische Version von FE6).
+-FEBuilderGBA selbst eine deutsche Übersetzung geben.
+-Das Programm wenn möglich vollständiger und benutzerfreundlicher machen.
+
+Die Koreanische Zeichentabelle
 ===
 
-It is from an [unofficial build](https://github.com/delvier/FEBuilderGBA) of FEBuilderGBA that supports Korean character table.
+Sie stammt ursprünglich aus einer anderen inoffiziellen Version beim (https://github.com/delvier/FEBuilderGBA), welche von der Version aus der diese basiert übernommen wurde.
 
-The character table used is **Johab**, only for the Hangul Syllables part. If you want to use another character table like Wansung or Windows-949, you may replace __FE\[678\].tbl__ in __./config/translate/ko_tbl__.
+Die benutzte Tabelle ist **Johab**, welche anscheinend nur Hangul-Sylben unterstützt(Ich kenne mich da selbst nicht so aus). Es ist denkbar, dass in der Zukunft irgendwann andere Zeichentabellen auch unterstützt werden, aber aus absehbare Zeit ist zu empfehlen die Datei __FE\[678\].tbl__ im Ordner __./config/translate/ko_tbl__ zu ersetzen, wenn man alternative Zeichentabellen wie Wansung oder Windows-949 nutzen will.
 
-Since this fork is incomplete, there might be some issues that raw code points appear can be occurred, e.g. '@61A0' rather than '마' (0xA061) appears. This is likely because the upper bytes from 0xA0 to 0xDF are used for single-byte representation in Shift JIS and Windows-932.
+Die koreanische Unterstützung ist unvollständig, weshalb manche Zeichen nicht richtig angezeigt werden, z.b. '@61A0' anstatt '마' (0xA061). Dies ist möglicherweise weil die oberen Bytes von 0xA0 bis 0xDF in Shift-JIS und Windows-932 für Einzelbyte-Darstellungen verwendet werden.
 
-You should change "Text Encoding in ROM" in Options manually every time the ROM is loaded.
+Wie bei den deutschen Tabellen muss man momentan die Text-Enkodierung bei jedem Öffnen der ROM im Editor in den Optionen manuell einstellen wenn man sie verwenden will.
 
-Original README
+Ursprüngliche FEBuilderGBA Informationen(Momentan unübersetzt/uneditiert)
 ===
 
 FE_Builder_GBA
