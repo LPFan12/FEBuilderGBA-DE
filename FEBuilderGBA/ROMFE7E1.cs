@@ -140,7 +140,7 @@ namespace FEBuilderGBA
             cc_sun_bracelet_pointer = 0x27544;  //CCアイテム 太陽の腕輪 天の刻印
             unit_increase_height_pointer = 0x722C;  //ステータス画面で背を伸ばす
             unit_increase_height_switch2_address = 0x721C;
-            op_class_demo_pointer = 0xCE68E4; //OPクラスデモ
+            op_class_demo_pointer = 0xDE65C0; //Ist das der richtige Pointer?
             op_class_font_pointer = 0x0;  //OPクラス日本語フォント
             op_class_font_palette_pointer = 0x0;  // OPクラス紹介フォントのパレット
             status_font_pointer = 0x6118;  //ステータス画面用のフォント
