@@ -54,7 +54,7 @@ namespace FEBuilderGBA
             map_setting_clear_conditon_text_pos = 0x8E; //マップの右上に表示されているクリア条件の定義場所 
             map_setting_name_text_pos = 0x74; //マップ名のテキスト定義場所 
             map_config_pointer = 0x191C8;      //マップ設定の開始位置(config)
-            map_obj_pointer = 0x019230;         //マップ設定の開始位置(obj) objとpalは同時参照があるので、同一値である必要がある 
+            map_obj_pointer = 0x01965C;         //Ist das der richtige Pointer? 
             map_pal_pointer = 0x019264;         //マップ設定の開始位置(pal) objとpalは同時参照があるので、同一値である必要がある 
             map_tileanime1_pointer = 0x02D364;  //マップ設定の開始位置(titleanime1)titleanime1とtitleanime2は同時参照があるので、同一値である必要がある 
             map_tileanime2_pointer = 0x02DEA4;  //マップ設定の開始位置(titleanime2)titleanime1とtitleanime2は同時参照があるので、同一値である必要がある 
