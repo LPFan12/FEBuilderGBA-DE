@@ -33,7 +33,7 @@ namespace FEBuilderGBA
             icon_orignal_address = 0xC5EA4; // アイコンの初期値
             icon_orignal_max = 0xAC; // アイコンの最大数
 
-            icon_palette_pointer = 0x4D40; // アイコンのパレットの開始位置
+            icon_palette_pointer = 0x4D78; //Ist das der richtige Pointer?
             unit_wait_icon_pointer = 0x024DA0; // ユニット待機アイコンの開始位置
             unit_wait_barista_anime_address = 0x25844;  // ユニット待機アイコンのバリスタのアニメ指定アドレス
             unit_wait_barista_id = 0x52;  // ユニット待機アイコンのバリスタの位置
@@ -64,7 +64,7 @@ namespace FEBuilderGBA
             map_worldmapevent_pointer = 0x0; //マップ設定の開始位置(worldmap (FE6のみ))
             map_map_pointer_list_default_size = 0xF7; //PLIST拡張をしていない時のバニラでのPLISTの数
             image_battle_animelist_pointer = 0x0541F4;   // 戦闘アニメリストの開始位置
-            support_unit_pointer = 0xBDCE78;   // 支援相手の開始位置
+            support_unit_pointer = 0xCDC968;   //Ist das der richtige Pointer?
             support_talk_pointer = 0x78A94;   // 支援会話の開始位置
             unit_palette_color_pointer = 0x0;  // ユニットのパレット(カラー)の開始位置
             unit_palette_class_pointer = 0x0;  // ユニットのパレット(クラス)の開始位置
@@ -245,7 +245,7 @@ namespace FEBuilderGBA
             monster_wmap_probability_after_2_pointer = 0x0;
             battle_bg_pointer = 0x06AFB0; //戦闘背景
             battle_terrain_pointer = 0x4D100; //戦闘地形
-            senseki_comment_pointer = 0x9A844; //戦績コメント
+            senseki_comment_pointer = 0x09AB20; //Ist das der richtige Pointer?
             unit_custom_battle_anime_pointer = 0x528e4; //ユニット専用アニメ FE7にある
 
             magic_effect_pointer = 0x558B4; //魔法効果へのポインタ
