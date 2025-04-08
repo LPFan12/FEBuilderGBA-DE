@@ -38,12 +38,12 @@ namespace FEBuilderGBA
             unit_wait_barista_anime_address = 0x25844;  // ユニット待機アイコンのバリスタのアニメ指定アドレス
             unit_wait_barista_id = 0x52;  // ユニット待機アイコンのバリスタの位置
             unit_icon_palette_address = 0x0D13F4; //Ist das die richtige Addresse?
-            unit_icon_enemey_palette_address = 0x0D14B4; //Ist das die richtige Addresse?
-            unit_icon_npc_palette_address = 0x1945D4; //ユニット(友軍)のパレットの開始位置
-            unit_icon_gray_palette_address = 0x1945F4; // ユニット(グレー))のパレットの開始位置
-            unit_icon_four_palette_address = 0x194614; // ユニット(4軍))のパレットの開始位置
-            unit_icon_lightrune_palette_address = 0x194634; // ユニット(光の結界)のパレットの開始位置
-            unit_icon_sepia_palette_address = 0x194654; // ユニット(セピア)のパレットの開始位置
+            unit_icon_enemey_palette_address = 0x0D1414; //Ist das die richtige Addresse?
+            unit_icon_npc_palette_address = 0x0D1434; //Ist das die richtige Addresse?
+            unit_icon_gray_palette_address = 0x0D1454; //Ist das die richtige Addresse?
+            unit_icon_four_palette_address = 0x0D1474; //Ist das die richtige Addresse?
+            unit_icon_lightrune_palette_address = 0x0D1494; //Ist das die richtige Addresse?
+            unit_icon_sepia_palette_address = 0x0D14B4; //Ist das die richtige Addresse?
 
             unit_move_icon_pointer = 0x6D574; // ユニット移動アイコンの開始位置
             lightrune_uniticon_id = 0x57; // ユニット(光の結界)のユニットアイコンのID
