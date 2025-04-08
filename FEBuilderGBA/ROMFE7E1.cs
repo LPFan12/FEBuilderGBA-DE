@@ -37,8 +37,8 @@ namespace FEBuilderGBA
             unit_wait_icon_pointer = 0x024DA0; // ユニット待機アイコンの開始位置
             unit_wait_barista_anime_address = 0x25844;  // ユニット待機アイコンのバリスタのアニメ指定アドレス
             unit_wait_barista_id = 0x52;  // ユニット待機アイコンのバリスタの位置
-            unit_icon_palette_address = 0x194594; //ユニットのパレットの開始位置
-            unit_icon_enemey_palette_address = 0x1945B4; //ユニット(敵軍)のパレットの開始位置
+            unit_icon_palette_address = 0x0D13F4; //Ist das die richtige Addresse?
+            unit_icon_enemey_palette_address = 0x0D14B4; //Ist das die richtige Addresse?
             unit_icon_npc_palette_address = 0x1945D4; //ユニット(友軍)のパレットの開始位置
             unit_icon_gray_palette_address = 0x1945F4; // ユニット(グレー))のパレットの開始位置
             unit_icon_four_palette_address = 0x194614; // ユニット(4軍))のパレットの開始位置
@@ -58,7 +58,7 @@ namespace FEBuilderGBA
             map_pal_pointer = 0x019264;         //マップ設定の開始位置(pal) objとpalは同時参照があるので、同一値である必要がある 
             map_tileanime1_pointer = 0x02D364;  //マップ設定の開始位置(titleanime1)titleanime1とtitleanime2は同時参照があるので、同一値である必要がある 
             map_tileanime2_pointer = 0x02DEA4;  //マップ設定の開始位置(titleanime2)titleanime1とtitleanime2は同時参照があるので、同一値である必要がある 
-            map_map_pointer_pointer = 0x03159C; //マップ設定の開始位置(map)
+            map_map_pointer_pointer = 0x031BBC; //Ist das der richtige Pointer?
             map_mapchange_pointer = 0x0315B8;   //マップ設定の開始位置(mapchange)
             map_event_pointer = 0x315D4;       //マップ設定の開始位置(event)
             map_worldmapevent_pointer = 0x0; //マップ設定の開始位置(worldmap (FE6のみ))
