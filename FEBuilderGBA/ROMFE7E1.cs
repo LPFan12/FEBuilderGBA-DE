@@ -30,7 +30,7 @@ namespace FEBuilderGBA
             portrait_pointer = 0x6b30; //顔ベースアドレス
             portrait_datasize = 28;
             icon_pointer = 0x4E20; // アイコンの開始位置
-            icon_orignal_address = 0xC5EA4; // アイコンの初期値
+            icon_orignal_address = 0x1E64E0; //Sollte die richtige Addresse sein.
             icon_orignal_max = 0xAC; // アイコンの最大数
 
             icon_palette_pointer = 0x4D78; //Ist das der richtige Pointer?
@@ -72,7 +72,7 @@ namespace FEBuilderGBA
             terrain_recovery_pointer = 0x019F58; //Ist das der richtige Pointer?
             terrain_bad_status_recovery_pointer = 0x019F68; //Ist das der richtige Pointer?
             terrain_show_infomation_pointer = 0x085728; //Ist das der richtige Pointer?
-            ballista_movcost_pointer = 0x187E8; //地形ウィンドウに情報表示 全クラス共通
+            ballista_movcost_pointer = 0x018BF0; //Ist das der richtige Pointer?
             ccbranch_pointer = 0x0; // CC分岐の開始位置
             ccbranch2_pointer = 0x0; // CC分岐の開始位置2 見習いのCCにのみ利用 CC分岐の開始位置+1の場所を指す
             class_alphaname_pointer = 0x0; // クラスのアルファベット表記の開始位置
@@ -82,7 +82,7 @@ namespace FEBuilderGBA
             image_unit_palette_pointer = 0x054144; //Ist das der richtige Pointer?
             item_pointer = 0x174D4; //アイテムの開始位置
             item_datasize = 36; // アイテムのデータサイズ
-            item_effect_pointer = 0x052B24; // アイテムエフェクトの開始位置
+            item_effect_pointer = 0x052A48; //Ist das der richtige Pointer?
             sound_table_pointer = 0x3F5C; //Ist das der richtige Pointer?
             sound_room_pointer = 0x01B890; //Ist das der richtige Pointer?
             sound_room_datasize = 16; // サウンドルームのデータサイズ
