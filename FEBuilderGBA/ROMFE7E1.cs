@@ -59,7 +59,7 @@ namespace FEBuilderGBA
             map_tileanime1_pointer = 0x02D948;  //Ist das der richtige Pointer? 
             map_tileanime2_pointer = 0x02E48C;  //Ist das der richtige Pointer?
             map_map_pointer_pointer = 0x031BBC; //Ist das der richtige Pointer?
-            map_mapchange_pointer = 0x0315B8;   //マップ設定の開始位置(mapchange)
+            map_mapchange_pointer = 0x031BD8;   //Ist das der richtige Pointer?
             map_event_pointer = 0x031BF4;       //Ist das der richtige Pointer?
             map_worldmapevent_pointer = 0x0; //マップ設定の開始位置(worldmap (FE6のみ))
             map_map_pointer_list_default_size = 0xF7; //PLIST拡張をしていない時のバニラでのPLISTの数
@@ -97,7 +97,7 @@ namespace FEBuilderGBA
             map_exit_point_pointer = 0x39970; // 離脱ポxxイント開始サイズ
             map_exit_point_npc_blockadd = 0x30; // arr[+0x30] からNPCらしい.
             map_exit_point_blank = 0x1D3A5C; // 一つも離脱ポインタがない時のNULLマーク 共通で使われる.
-            sound_boss_bgm_pointer = 0x68148; // ボスBGMの開始位置
+            sound_boss_bgm_pointer = 0x068228; // ボスBGMの開始位置
             sound_foot_steps_pointer = 0x0; // クラス足音の開始位置
             sound_foot_steps_switch2_address = 0x0;
             worldmap_point_pointer = 0x0; // ワールドマップ拠点の開始位置
@@ -150,9 +150,9 @@ namespace FEBuilderGBA
             op_prologue_image_pointer = 0x0; // OP字幕
             op_prologue_palette_color_pointer = 0x0; // OP字幕のパレット ???
 
-            arena_class_near_weapon_pointer = 0x2EB58; //闘技場 近接武器クラス 
-            arena_class_far_weapon_pointer = 0x2EB64; // 闘技場 遠距離武器クラス
-            arena_class_magic_weapon_pointer = 0x2EBB4; // 闘技場 魔法武器クラス
+            arena_class_near_weapon_pointer = 0x02F140; //Ist das der richtige Pointer?
+            arena_class_far_weapon_pointer = 0x02F14C; //Ist das der richtige Pointer?
+            arena_class_magic_weapon_pointer = 0x02F19C; //Ist das der richtige Pointer?
             arena_enemy_weapon_basic_pointer = 0x2F1C0; // 闘技場 敵武器テーブル基本武器
             arena_enemy_weapon_rankup_pointer = 0x2EDDC; // 闘技場 敵武器テーブルランクアップ武器
             link_arena_deny_unit_pointer = 0; //通信闘技場 禁止ユニット 
@@ -246,7 +246,7 @@ namespace FEBuilderGBA
             battle_bg_pointer = 0x06AFB0; //戦闘背景
             battle_terrain_pointer = 0x4D100; //戦闘地形
             senseki_comment_pointer = 0x09AB20; //Ist das der richtige Pointer?
-            unit_custom_battle_anime_pointer = 0x528e4; //ユニット専用アニメ FE7にある
+            unit_custom_battle_anime_pointer = 0x052804; //Ist das der richtige Pointer?
 
             magic_effect_pointer = 0x558B4; //魔法効果へのポインタ
             magic_effect_original_data_count = 0x3e; //もともとあった魔法数
@@ -419,7 +419,7 @@ namespace FEBuilderGBA
             status_game_option_order2_pointer = 0xCE5874; //ゲームオプションの並び順2 FE7のみ
             status_game_option_order_count_address = 0xCE5868; //ゲームオプションの個数
             status_units_menu_pointer = 0x8AC88; //部隊メニュー
-            tactician_affinity_pointer = 0x1C024; //軍師属性(FE7のみ)
+            tactician_affinity_pointer = 0x01C444; //軍師属性(FE7のみ)
             event_final_serif_pointer = 0x7DC48; //終章セリフ(FE7のみ)
             compress_image_borderline_address = 0xCBEE4; //これ以降に圧縮画像が登場するというアドレス
             builddate_address = 0x0;
