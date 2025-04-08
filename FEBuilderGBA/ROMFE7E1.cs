@@ -26,7 +26,7 @@ namespace FEBuilderGBA
             max_luck_address = 0x29a5e; // 最大レベルの幸運の値を格納しているアドレス
             class_pointer = 0x178f0; //クラスの開始位置
             class_datasize = 84;  // ユニットのデータサイズ
-            bg_pointer = 0xB874; //BGベースアドレス
+            bg_pointer = 0xB9D0; //Ist das der richtige Pointer? 
             portrait_pointer = 0x6b30; //顔ベースアドレス
             portrait_datasize = 28;
             icon_pointer = 0x4E20; // アイコンの開始位置
@@ -84,11 +84,11 @@ namespace FEBuilderGBA
             item_datasize = 36; // アイテムのデータサイズ
             item_effect_pointer = 0x052B24; // アイテムエフェクトの開始位置
             sound_table_pointer = 0x3F50; // ソングテーブルの開始位置
-            sound_room_pointer = 0x1B468; //サウンドルームの開始位置
+            sound_room_pointer = 0x01B890; //Ist das der richtige Pointer?
             sound_room_datasize = 16; // サウンドルームのデータサイズ
-            sound_room_cg_pointer = 0xAB4C0; // サウンドルームの背景リスト(FE7のみ)
-            event_ballte_talk_pointer = 0x792e0; //交戦時セリフの開始位置
-            event_ballte_talk2_pointer = 0x79454; // 交戦時セリフの開始位置2 (FE6だとボス汎用会話テーブルがある)
+            sound_room_cg_pointer = 0x0ABA04; //Ist das der richtige Pointer?
+            event_ballte_talk_pointer = 0x0793E4; //Ist das der richtige Pointer?
+            event_ballte_talk2_pointer = 0x079558; //Ist das der richtige Pointer?
             event_haiku_pointer = 0x79550; //死亡時セリフの開始位置
             event_haiku_tutorial_1_pointer = 0x7955C; // リン編チュートリアル 死亡時セリフの開始位置 FE7のみ
             event_haiku_tutorial_2_pointer = 0x79558; // エリウッド編チュートリアル 死亡時セリフの開始位置 FE7のみ
@@ -97,7 +97,7 @@ namespace FEBuilderGBA
             map_exit_point_pointer = 0x39970; // 離脱ポxxイント開始サイズ
             map_exit_point_npc_blockadd = 0x30; // arr[+0x30] からNPCらしい.
             map_exit_point_blank = 0x1D3A5C; // 一つも離脱ポインタがない時のNULLマーク 共通で使われる.
-            sound_boss_bgm_pointer = 0x068228; // ボスBGMの開始位置
+            sound_boss_bgm_pointer = 0x068228; //Ist das der richtige Pointer?
             sound_foot_steps_pointer = 0x0; // クラス足音の開始位置
             sound_foot_steps_switch2_address = 0x0;
             worldmap_point_pointer = 0x0; // ワールドマップ拠点の開始位置
@@ -419,7 +419,7 @@ namespace FEBuilderGBA
             status_game_option_order2_pointer = 0xCE5874; //ゲームオプションの並び順2 FE7のみ
             status_game_option_order_count_address = 0xCE5868; //ゲームオプションの個数
             status_units_menu_pointer = 0x8AC88; //部隊メニュー
-            tactician_affinity_pointer = 0x01C444; //軍師属性(FE7のみ)
+            tactician_affinity_pointer = 0x01C444; //Ist das der richtige Pointer?
             event_final_serif_pointer = 0x7DC48; //終章セリフ(FE7のみ)
             compress_image_borderline_address = 0xCBEE4; //これ以降に圧縮画像が登場するというアドレス
             builddate_address = 0x0;
