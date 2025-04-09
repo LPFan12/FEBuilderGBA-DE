@@ -27,7 +27,7 @@ namespace FEBuilderGBA
             class_pointer = 0x178f0; //クラスの開始位置
             class_datasize = 84;  // ユニットのデータサイズ
             bg_pointer = 0xB9D0; //Ist das der richtige Pointer? 
-            portrt_pointer = 0x6b30; //顔ベースアドレス
+            portrait_pointer = 0x6b30; //顔ベースアドレス
             portrait_datasize = 28;
             icon_pointer = 0x4E20; // アイコンの開始位置
             icon_orignal_address = 0x1E64E0; //Sollte die richtige Addresse sein.
