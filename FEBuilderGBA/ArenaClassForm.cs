@@ -20,7 +20,7 @@ namespace FEBuilderGBA
             this.InputFormRef = Init(this);
             this.InputFormRef.MakeGeneralAddressListContextMenu(true);
 
-            if (Program.ROM.RomInfo.version >= 8)
+            if (Program.ROM.RomInfo.version == 8)
             {
                 X_FE8J_COMMENT.Visible = true;
             }
