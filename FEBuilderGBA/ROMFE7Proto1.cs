@@ -82,7 +82,7 @@ namespace FEBuilderGBA
             image_unit_palette_pointer = 0x564E8; // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             item_pointer = 0x15C98; // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             item_datasize = 36; // アイテムのデータサイズ
-            item_effect_pointer = 0x05330C; // アイテムエフェクトの開始位置
+            item_effect_pointer = 0x054EB4; // Ist das der richtige Pointer?
             sound_table_pointer = 0xBA7E8; // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             sound_room_pointer = 0x1C2A0; // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             sound_room_datasize = 16; // サウンドルームのデータサイズ
