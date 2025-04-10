@@ -444,7 +444,7 @@ namespace FEBuilderGBA
             extends_address = 0x09000000;  //拡張領域
             orignal_crc32 = 0xf0c10e72; //無改造ROMのCRC32
             is_multibyte = true;    // マルチバイトを利用するか？
-            version = 7;    // Wir brauchen einen eigenen Modus weil für bestimmte Sachen brauchen wir den FE7 Modus(z.b. Portraits) und für manche andere Sachen(z.b. Unterstütungsgesprächs-Liste) brauchen wir den FE6 modus und keiner der beiden ist für einige dritte Sachen geeignet.
+            version = 206;    // Eigene Romversion für den Prototypen. Alle direkten "== 7" und "<= 8" checks wurden bereits dafür dupliziert damit das Verhalten möglichst ungeändert bleibt, aber andere Sachen fehlen eventuell noch.
 
             OverwriteROMConstants(rom);
         }
