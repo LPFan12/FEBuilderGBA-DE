@@ -974,6 +974,7 @@
     <Compile Include="R.cs" />
     <Compile Include="Rom.cs" />
     <Compile Include="ROMFE6JP.cs" />
+    <Compile Include="ROMFE6CH.cs" />
     <Compile Include="ROMFE7JP.cs" />
     <Compile Include="ROMFE7U.cs" />
     <Compile Include="ROMFE7E1.cs" />
