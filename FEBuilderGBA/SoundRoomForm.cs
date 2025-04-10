@@ -148,6 +148,18 @@ namespace FEBuilderGBA
                     FEBuilderGBA.Address.AddAddress(list,songname, (uint)length , addr+12 ,name , FEBuilderGBA.Address.DataTypeEnum.BIN);
                 }
             }
+            if (Program.ROM.RomInfo.version == 7B)
+            {
+                //FE7だと、曲名は C-String
+                uint addr = InputFormRef.BaseAddress;
+                for (int i = 0; i < InputFormRef.DataCount; i++, addr += InputFormRef.BlockSize)
+                {
+                    uint songname = Program.ROM.p32(addr + 12);
+                    int length;
+                    Program.ROM.getString(songname, out length);
+                    FEBuilderGBA.Address.AddAddress(list,songname, (uint)length , addr+12 ,name , FEBuilderGBA.Address.DataTypeEnum.BIN);
+                }
+            }
         }
         public static void MakeVarsIDArray(List<UseValsID> list)
         {
