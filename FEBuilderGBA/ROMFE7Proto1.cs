@@ -38,12 +38,12 @@ namespace FEBuilderGBA
             unit_wait_barista_anime_address = 0x025CD0;  // ユニット待機アイコンのバリスタのアニメ指定アドレス
             unit_wait_barista_id = 0x52;  // ユニット待機アイコンのバリスタの位置
             unit_icon_palette_address = 0x187774; // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
-            unit_icon_enemey_palette_address = 0x190108; // ユニット(敵軍)のパレットの開始位置
-            unit_icon_npc_palette_address = 0x190128; // ユニット(友軍)のパレットの開始位置
-            unit_icon_gray_palette_address = 0x190148; // ユニット(グレー))のパレットの開始位置
-            unit_icon_four_palette_address = 0x190168; // ユニット(4軍))のパレットの開始位置
-            unit_icon_lightrune_palette_address = 0x190188; // ユニット(光の結界)のパレットの開始位置
-            unit_icon_sepia_palette_address = 0x1901A8; // ユニット(セピア)のパレットの開始位置
+            unit_icon_enemey_palette_address = 0x187794; // Ist das die richtige Addresse?
+            unit_icon_npc_palette_address = 0x1877B4; // Ist das die richtige Addresse?
+            unit_icon_gray_palette_address = 0x1877D4; // Ist das die richtige Addresse?
+            unit_icon_four_palette_address = 0x1877F4; // Ist das die richtige Addresse?
+            unit_icon_lightrune_palette_address = 0x187814; // Ist das die richtige Addresse?
+            unit_icon_sepia_palette_address = 0x0; // Scheint nicht zu existieren?
 
             unit_move_icon_pointer = 0x6FDE0; // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             lightrune_uniticon_id = 0x57; // ユニット(光の結界)のユニットアイコンのID
@@ -64,8 +64,9 @@ namespace FEBuilderGBA
             map_worldmapevent_pointer = 0x0; //マップ設定の開始位置(worldmap (FE6のみ))
             map_map_pointer_list_default_size = 0xFC; //PLIST拡張をしていない時のバニラでのPLISTの数
             image_battle_animelist_pointer = 0x564E4;   // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
-            support_unit_pointer = 0xC4C184;   // 支援相手の開始位置
-            support_talk_pointer = 0x79264;   // 支援相手の開始位置
+            support_unit_pointer = 0xB782A8;   // Ist das der richtige Pointer?
+            support_talk_pointer = 0x07B0E8;   // Ist das der richtige Pointer?
+            support_talk_datasize = 16; //Genau wie FE6. Hoffentlich wird dieser Wert angenommen und man muss ihn nicht irgendwo anders einstellen.
             unit_palette_color_pointer = 0x0;  // ユニットのパレット(カラー)の開始位置
             unit_palette_class_pointer = 0x0;  // ユニットのパレット(クラス)の開始位置
             support_attribute_pointer = 0x26E24;  //支援効果の開始位置
@@ -140,7 +141,7 @@ namespace FEBuilderGBA
             cc_sun_bracelet_pointer = 0x279d0;  //CCアイテム 太陽の腕輪 天の刻印
             unit_increase_height_pointer = 0x70bc;  //ステータス画面で背を伸ばす
             unit_increase_height_switch2_address = 0x70ac;
-            op_class_demo_pointer = 0xdb01e8; //OPクラスデモ
+            op_class_demo_pointer = 0x0; //Scheint nicht zu existieren?(ist es eventuell unbenutzt?)
             op_class_font_pointer = 0x0;  //OPクラス日本語フォント
             op_class_font_palette_pointer = 0x0;  // OPクラス紹介フォントのパレット
             status_font_pointer = 0x5FA8;  //ステータス画面用のフォント
@@ -246,7 +247,7 @@ namespace FEBuilderGBA
             battle_bg_pointer = 0x6C8A4; //Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             battle_terrain_pointer = 0x4F54C; //Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             senseki_comment_pointer = 0x9b21c; //戦績コメント
-            unit_custom_battle_anime_pointer = 0x530CC; //ユニット専用アニメ FE7にある
+            unit_custom_battle_anime_pointer = 0xC72718; //Ist das der richtige Pointer?
             magic_effect_pointer = 0x5609C; //魔法効果へのポインタ
             magic_effect_original_data_count = 0x03e; //もともとあった魔法数
             system_move_allowicon_pointer = 0x3042c;//移動するときの矢印アイコン
