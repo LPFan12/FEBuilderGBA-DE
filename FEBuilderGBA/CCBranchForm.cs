@@ -191,6 +191,15 @@ namespace FEBuilderGBA
                 //下位クラスなのでCCできる.
                 return 1;
             }
+            if (Program.ROM.RomInfo.version == 206)
+            {//FE7までは分岐がないので、CCクラスを参照する.
+                if (ClassForm.isHighClass(shien_classs_id))
+                {//上位クラスなので、もう CCではない
+                    return 0;
+                }
+                //下位クラスなのでCCできる.
+                return 1;
+            }
 
 
             int ccount1 = 0;
