@@ -906,6 +906,28 @@ namespace FEBuilderGBA
                     }
                 }
             }
+	    if (Program.ROM.RomInfo.version == 206)
+            {
+                if (Program.ROM.RomInfo.is_multibyte)
+                {
+                    if (code.Script.LowCode.IndexOf("65000000") == 0)
+                    {
+                        return true;
+                    }
+                    if (code.Script.LowCode.IndexOf("82000000") == 0)
+                    {
+                        return true;
+                    }
+                    
+                }
+                else
+                {
+                    if (code.Script.LowCode.IndexOf("84000000") == 0)
+                    {
+                        return true;
+                    }
+                }
+            }
             if (Program.ROM.RomInfo.version == 6)
             {
                 if (code.Script.LowCode.IndexOf("3F000000") == 0)
