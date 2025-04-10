@@ -245,6 +245,10 @@ namespace FEBuilderGBA
             {
                 return UnitFE7Form.GetHighClassFE7(uid);
             }
+            if (Program.ROM.RomInfo.version == 206)
+            {
+                return UnitFE7Form.GetHighClassFE7(uid);
+            }
             Debug.Assert(false); //未実装
             return U.NOT_FOUND;
 
@@ -861,6 +865,10 @@ namespace FEBuilderGBA
                 return (cid == 0x01);
             }
             else if (Program.ROM.RomInfo.version <= 7)
+            {
+                return (cid >= 0x01 && cid <= 0x03);
+            }
+            else if (Program.ROM.RomInfo.version == 206)
             {
                 return (cid >= 0x01 && cid <= 0x03);
             }
