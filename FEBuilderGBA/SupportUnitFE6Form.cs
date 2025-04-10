@@ -107,7 +107,7 @@ namespace FEBuilderGBA
             }
             else if (Program.ROM.RomInfo.version == 206)
             {
-                SupportTalkFE7BForm f = (SupportTalkFE7BForm)InputFormRef.JumpForm<SupportTalkFE7BForm>(U.NOT_FOUND);
+                SupportTalkFE6Form f = (SupportTalkFE6Form)InputFormRef.JumpForm<SupportTalkFE6Form>(U.NOT_FOUND);
                 f.JumpTo(uid, (uint)src.Value);
             }
             else if (Program.ROM.RomInfo.version == 6)
