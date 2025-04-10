@@ -565,6 +565,12 @@ namespace FEBuilderGBA
                 this.RomInfo = new ROMFE7JP(this);
                 return true;
             }
+            if (data.Length >= 0x1000000 
+                && version.IndexOf("AE7B01") >= 0)
+            {
+                this.RomInfo = new ROMFE7Proto1(this);
+                return true;
+            }
             if (data.Length >= 0x1000000
                 && version.IndexOf("BE8J01") >= 0)
             {
