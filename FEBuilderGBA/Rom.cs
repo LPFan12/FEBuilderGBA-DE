@@ -601,6 +601,12 @@ namespace FEBuilderGBA
                 this.RomInfo = new ROMFE6JP(this);
                 return true;
             }
+            if (data.Length >= 0x800000
+                && version.IndexOf("AFECFQ") >= 0)
+            {
+                this.RomInfo = new ROMFE6CH(this);
+                return true;
+            }
             if (version == "NAZO")
             {
                 this.RomInfo = new ROMFE0(this);
