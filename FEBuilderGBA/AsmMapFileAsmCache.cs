@@ -305,18 +305,20 @@ namespace FEBuilderGBA
         {
             return Caller != null && AsyncResult != null;
         }
-        public void BuildThread()
+        public async Task BuildThreadAsync()
         {
-            if (IsStopFlag)
+            if (IsStopFlag || IsBusyThread())
             {
                 return;
             }
-            if (IsBusyThread())
-            {//今忙しいから無理
-                return;
+            try
+            {
+                CachedFullMAP = await Task.Run(() => MakeFull());
             }
-            Caller = new AsyncMethodCaller(MakeFull);
-            AsyncResult = Caller.BeginInvoke(new AsyncCallback(MakeFullEndCallback), Caller);
+            catch (Exception e)
+            {
+                Log.Error(e.ToString());
+            }
         }
         void MakeFullEndCallback(IAsyncResult ar)
         {
@@ -762,6 +764,28 @@ namespace FEBuilderGBA
             Array.Clear(HardCodeClass, 0, HardCodeClass.Length);
             Array.Clear(HardCodeItem, 0, HardCodeItem.Length);
             PatchForm.MakeHardCodeWarning(ref HardCodeUnit, ref HardCodeClass, ref HardCodeItem);
+        }
+        
+        //時間のかかるフルマップはスレッドで生成する.
+        public void BuildThread()
+        {
+            if (IsStopFlag || IsBusyThread())
+            {
+                return;
+            }
+
+            try
+            {
+                Caller = new AsyncMethodCaller(MakeFull);
+                AsyncResult = Caller.BeginInvoke(new AsyncCallback(MakeFullEndCallback), Caller);
+            }
+            catch (Exception e)
+            {
+                Log.Error(e.ToString());
+                Caller = null;
+                AsyncResult = null;
+                IsStopFlag = false;
+            }
         }
     }
 }
