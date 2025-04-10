@@ -132,6 +132,22 @@ namespace FEBuilderGBA
                         FontImporter(str);
                     }
                 }
+                if (Program.ROM.RomInfo.is_multibyte && Program.ROM.RomInfo.version == 206)
+                {
+                    List<U.AddrResult> list = SoundRoomForm.MakeList();
+                    for (int i = 0; i < list.Count; i++)
+                    {
+                        if (!U.isSafetyOffset(list[i].addr))
+                        {
+                            continue;
+                        }
+                        uint textid = Program.ROM.u32(list[i].addr + 12);
+                        string str = FETextDecode.Direct(textid);
+
+                        pleaseWait.DoEvents("SoundRoom:" + U.To0xHexString(textid));
+                        FontImporter(str);
+                    }
+                }
                 //その他文字列
                 {
                     List<U.AddrResult> list = OtherTextForm.MakeList();
