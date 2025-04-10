@@ -13,6 +13,8 @@ Momentane Änderungen:
 
 -Ein paar Klassen/Itemnamen wurden in den japanischen Spielversionen auf verwirrende Weise ersetzt. In einem Fall (beim Gorgonenei in FE8) führte dies bereits in der Vergangenheit zu einer großen Verwirrung in der englischsprachigen Community weil der ersetzte Name anders war als der tatsächliche im Spiel. Dies wurde korrigiert, damit diese Namen im Editor genauso angezeigt werden wie im Spiel auch.
 
+-Anfängliche Unterstützung für die Europäische Rom welche die deutsche Sprache enthält, den FE7 206 Prototypen(Die ID der Rom muss aufgrund von technischen Gründen momentan manuell in einem Hex-Editor von "AFE7" auf "AF7B" geändert werden) und der Chinesischen FE6 ROM. Der momentane Fortschritt ist allerdings noch nicht weit genug fortgeschritten damit es als "Stabil" zählen kann und ich kann momentan noch nicht empfehlen diese Roms zu bearbeiten.
+
 Momentan geplante Änderungen:
 
 -Unterstüzung für alle offiziellen Spielversionen die noch nicht unterstützt sind(Europa, Prototypen, Chinesische Version von FE6).
