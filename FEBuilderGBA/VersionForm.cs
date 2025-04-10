@@ -102,7 +102,7 @@ namespace FEBuilderGBA
             string lang = OptionForm.lang();
             string url = MainFormUtil.GetManualURL();
 
-            str += "\r\n" + "https://github.com/FEBuilderGBA/FEBuilderGBA/releases/latest";
+            str += "\r\n" + "https://github.com/LPFan12/FEBuilderGBA-DE/releases/latest";
             str += "\r\n" + url;
 
             return str;
