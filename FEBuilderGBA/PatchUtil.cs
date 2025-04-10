@@ -562,6 +562,25 @@ namespace FEBuilderGBA
                     }
                 }
             }
+            if(Program.ROM.RomInfo.version == 206)
+            {
+                if (Program.ROM.RomInfo.is_multibyte)
+                {
+                    uint a = Program.ROM.u32(0x219F8);
+                    if (a == enable_value)
+                    {
+                        return StairsHack_enum.Ver1;
+                    }
+                }
+                else
+                {
+                    uint a = Program.ROM.u32(0x21580);
+                    if (a == enable_value)
+                    {
+                        return StairsHack_enum.Ver1;
+                    }
+                }
+            }
             return StairsHack_enum.NO;
         }
 
