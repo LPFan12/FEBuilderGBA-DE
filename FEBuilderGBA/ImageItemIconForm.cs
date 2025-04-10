@@ -68,6 +68,18 @@ namespace FEBuilderGBA
                 }
 
             }
+            if (Program.ROM.RomInfo.version == 206)
+            {
+                if (Program.ROM.RomInfo.is_multibyte == false)
+                {//FE7Uでは、アイテムアイコンの中にFEditorAdv AutoPatchのデータがある
+                    uint code = Program.ROM.u32(0xCB51A);
+                    if (code == 0x18404902)
+                    {//そのため、FE7UでFEditorAdv AutoPatchがあれば、個数は一つ下げる
+                        return Program.ROM.RomInfo.icon_orignal_max - 1;
+                    }
+                }
+
+            }
 
             return Program.ROM.RomInfo.icon_orignal_max;
         }
