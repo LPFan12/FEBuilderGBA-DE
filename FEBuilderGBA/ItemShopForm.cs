@@ -94,7 +94,7 @@ namespace FEBuilderGBA
                     , R._("編成準備店")
                     , p));
             }
-            if (Program.ROM.RomInfo.version >= 8)
+            if (Program.ROM.RomInfo.version == 8)
             {
                 //まずワールドマップイベントをスキャン.
                 List<U.AddrResult> worldmaplist = WorldMapPointForm.MakeWorldMapPointList();
