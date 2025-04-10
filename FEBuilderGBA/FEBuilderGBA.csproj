@@ -977,6 +977,7 @@
     <Compile Include="ROMFE7JP.cs" />
     <Compile Include="ROMFE7U.cs" />
     <Compile Include="ROMFE7E1.cs" />
+    <Compile Include="ROMFE7Proto1.cs" />
     <Compile Include="ROMFE8JP.cs" />
     <Compile Include="ROMFE8U.cs" />
     <Compile Include="SappyPlaying.cs" />
