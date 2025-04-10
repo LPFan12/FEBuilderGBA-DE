@@ -7,37 +7,37 @@ using System.Diagnostics;
 
 namespace FEBuilderGBA
 {
-    sealed class ROMFE7JP : ROMFEINFO
+    sealed class ROMFE7Proto1 : ROMFEINFO
     {
-        public ROMFE7JP(ROM rom)
+        public ROMFE7Proto1(ROM rom)
     	{
-            VersionToFilename = "FE7J";
+            VersionToFilename = "FE7P1";
             TitleToFilename = "FE7";
-            mask_point_base_pointer = 0x0006DC; // Huffman tree end (indirected twice)
+            mask_point_base_pointer = 0x6DC; // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             mask_pointer = 0x0006E0;  // Huffman tree start (indirected once)
-            text_pointer = 0x13370; // textの開始位置
+            text_pointer = 0x12740; // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             text_recover_address = 0xBBB370; // textの開始位置(上記ポインタを壊している改造があるののでその対策)
             text_data_start_address = 0xB36950; // textデータの規定値の開始位置
             text_data_end_address = 0xBB72E0; // textデータの規定値の開始位置
-            unit_pointer = 0x09aC50; // ユニットのの開始位置
+            unit_pointer = 0x99678; // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             unit_maxcount = 253; // ユニットの最大数
             unit_datasize = 52; // ユニットのデータサイズ
             max_level_address = 0x29B42; // 最大レベルの値を格納しているアドレス
             max_luck_address = 0x29f0e; // 最大レベルの幸運の値を格納しているアドレス
-            class_pointer = 0x017ce0; // クラスの開始位置
+            class_pointer = 0x175A4; // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             class_datasize = 84;  // ユニットのデータサイズ
-            bg_pointer = 0xb7b0; //BGベースアドレス
-            portrait_pointer = 0x0069c0; //顔ベースアドレス
+            bg_pointer = 0x10984; //Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
+            portrait_pointer = 0x69B4; //Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             portrait_datasize = 28;
-            icon_pointer = 0x4cfc; // アイコンの開始位置
+            icon_pointer = 0x4B84; // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             icon_orignal_address = 0xC12F4; // アイコンの初期値
             icon_orignal_max = 0xAC; // アイコンの最大数
 
-            icon_palette_pointer = 0x4c1c; // アイコンのパレットの開始位置
-            unit_wait_icon_pointer = 0x02522c; // ユニット待機アイコンの開始位置
+            icon_palette_pointer = 0x4A90; // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
+            unit_wait_icon_pointer = 0x25A80; // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             unit_wait_barista_anime_address = 0x025CD0;  // ユニット待機アイコンのバリスタのアニメ指定アドレス
             unit_wait_barista_id = 0x52;  // ユニット待機アイコンのバリスタの位置
-            unit_icon_palette_address = 0x1900E8; // ユニットのパレットの開始位置
+            unit_icon_palette_address = 0x187774; // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             unit_icon_enemey_palette_address = 0x190108; // ユニット(敵軍)のパレットの開始位置
             unit_icon_npc_palette_address = 0x190128; // ユニット(友軍)のパレットの開始位置
             unit_icon_gray_palette_address = 0x190148; // ユニット(グレー))のパレットの開始位置
@@ -45,25 +45,25 @@ namespace FEBuilderGBA
             unit_icon_lightrune_palette_address = 0x190188; // ユニット(光の結界)のパレットの開始位置
             unit_icon_sepia_palette_address = 0x1901A8; // ユニット(セピア)のパレットの開始位置
 
-            unit_move_icon_pointer = 0x6DD60; // ユニット移動アイコンの開始位置
+            unit_move_icon_pointer = 0x6FDE0; // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             lightrune_uniticon_id = 0x57; // ユニット(光の結界)のユニットアイコンのID
-            map_setting_pointer = 0x31A6C;  // マップ設定の開始位置
-            map_setting_datasize = 148; //マップ設定のデータサイズ
+            map_setting_pointer = 0x320EC;  // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
+            map_setting_datasize = 100; //マップ設定のデータサイズ
             map_setting_event_plist_pos = 116; //event plistの場所 
             map_setting_worldmap_plist_pos = 117; //woldmap event plistの場所 
             map_setting_clear_conditon_text_pos = 0x8A; //マップの右上に表示されているクリア条件の定義場所 
             map_setting_name_text_pos = 0x70; //マップ名のテキスト定義場所 
-            map_config_pointer = 0x195B0;      //マップ設定の開始位置(config)
-            map_obj_pointer = 0x019618;         //マップ設定の開始位置(obj) objとpalは同時参照があるので、同一値である必要がある 
-            map_pal_pointer = 0x01964C;         //マップ設定の開始位置(pal) objとpalは同時参照があるので、同一値である必要がある 
-            map_tileanime1_pointer = 0x02D824;  //マップ設定の開始位置(titleanime1)titleanime1とtitleanime2は同時参照があるので、同一値である必要がある 
-            map_tileanime2_pointer = 0x02E364;  //マップ設定の開始位置(titleanime2)titleanime1とtitleanime2は同時参照があるので、同一値である必要がある 
-            map_map_pointer_pointer = 0x031ABC; //マップ設定の開始位置(map)
-            map_mapchange_pointer = 0x031AE8;   //マップ設定の開始位置(mapchange)
-            map_event_pointer = 0x031B18;       //マップ設定の開始位置(event)
+            map_config_pointer = 0x18FD0;      //Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
+            map_obj_pointer = 0x18FD0;         //Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
+            map_pal_pointer = 0x18FD0;         //Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
+            map_tileanime1_pointer = 0x18FD0;  //Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen. 
+            map_tileanime2_pointer = 0x18FD0;  //Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
+            map_map_pointer_pointer = 0x18FD0; //Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
+            map_mapchange_pointer = 0x18FD0;   //Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
+            map_event_pointer = 0x18FD0;       //Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             map_worldmapevent_pointer = 0x0; //マップ設定の開始位置(worldmap (FE6のみ))
             map_map_pointer_list_default_size = 0xFC; //PLIST拡張をしていない時のバニラでのPLISTの数
-            image_battle_animelist_pointer = 0x0549DC;   // 戦闘アニメリストの開始位置
+            image_battle_animelist_pointer = 0x564E4;   // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             support_unit_pointer = 0xC4C184;   // 支援相手の開始位置
             support_talk_pointer = 0x79264;   // 支援相手の開始位置
             unit_palette_color_pointer = 0x0;  // ユニットのパレット(カラー)の開始位置
@@ -79,12 +79,12 @@ namespace FEBuilderGBA
             map_terrain_name_pointer = 0x19efc; // マップの地名表記の開始位置
             image_chapter_title_pointer = 0x82e68; // 章タイトルの開始位置
             image_chapter_title_palette = 0x404f10; // 章タイトルのパレット 多分違う
-            image_unit_palette_pointer = 0x549E0; // ユニットパレットの開始位置
-            item_pointer = 0x164dc; // アイテムの開始位置
+            image_unit_palette_pointer = 0x564E8; // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
+            item_pointer = 0x15C98; // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             item_datasize = 36; // アイテムのデータサイズ
             item_effect_pointer = 0x05330C; // アイテムエフェクトの開始位置
-            sound_table_pointer = 0x3E2C; // ソングテーブルの開始位置
-            sound_room_pointer = 0x1B844; // サウンドルームの開始位置
+            sound_table_pointer = 0xBA7E8; // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
+            sound_room_pointer = 0x1C2A0; // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             sound_room_datasize = 16; // サウンドルームのデータサイズ
             sound_room_cg_pointer = 0xAC3A4; // サウンドルームの背景リスト(FE7のみ)
             event_ballte_talk_pointer = 0x79ab0; // 交戦時セリフの開始位置
@@ -203,7 +203,7 @@ namespace FEBuilderGBA
             systemmenu_badstatus_old_image_pointer = 0x865E8; //昔の圧縮のバッドステータス画像 FE7-FE6で 毒などのステータス
             systemmenu_badstatus_old_palette_pointer = 0x9CAEC; //昔の圧縮のバッドステータス画像のパレット FE7 FE6
 
-            bigcg_pointer = 0xb7978; // CG
+            bigcg_pointer = 0xB64AC; // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             end_cg_address = 0x0; // END CG FE8のみ
             worldmap_big_image_pointer = 0xB6A14; //ワールドマップ フィールドになるでかい奴  
             worldmap_big_palette_pointer = 0xB6C00; //ワールドマップ フィールドになるでかい奴 パレット  
@@ -230,8 +230,8 @@ namespace FEBuilderGBA
             weapon_rank_s_bonus_address = 0x29348;//武器ランクSボーナス設定
             weapon_battle_flash_address = 0x53ba6;//神器 戦闘時フラッシュ
             weapon_effectiveness_2x3x_address = 0;//神器 2倍 3倍特効
-            font_item_address = 0xBC1FEC;//アイテム名とかに使われるフォント
-            font_serif_address = 0xBDC1E0; //セリフとかに使われるフォント
+            font_item_address = 0xAF5EF4;//Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
+            font_serif_address = 0xB0E120; //Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             monster_probability_pointer = 0x0; //魔物発生確率
             monster_item_item_pointer = 0x0; //魔物所持アイテム アイテム確率
             monster_item_probability_pointer = 0x0; //魔物所持アイテム 所持確率
@@ -243,8 +243,8 @@ namespace FEBuilderGBA
             monster_wmap_probability_2_pointer = 0x0;
             monster_wmap_probability_after_1_pointer = 0x0;
             monster_wmap_probability_after_2_pointer = 0x0;
-            battle_bg_pointer = 0x06b790; //戦闘背景
-            battle_terrain_pointer = 0x4d8dc; //戦闘地形
+            battle_bg_pointer = 0x6C8A4; //Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
+            battle_terrain_pointer = 0x4F54C; //Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             senseki_comment_pointer = 0x9b21c; //戦績コメント
             unit_custom_battle_anime_pointer = 0x530CC; //ユニット専用アニメ FE7にある
             magic_effect_pointer = 0x5609C; //魔法効果へのポインタ
@@ -260,7 +260,7 @@ namespace FEBuilderGBA
             ending2_event_pointer = 0x13194;
             RAMSlotTable_address = 0xC0216C;
             supply_pointer_address = 0x2EBF0;  //輸送隊RAMへのアドレス
-            workmemory_player_units_address = 0x0202BD4C;    //ワークメモリ PLAYER UNIT
+            workmemory_player_units_address = 0x202BD08;    //Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             workmemory_enemy_units_address = 0x0202CEBC;    //ワークメモリ PLAYER UNIT
             workmemory_npc_units_address = 0x0202DCCC;    //ワークメモリ PLAYER UNIT
             workmemory_mapid_address = 0x0202BC02;    //ワークメモリ マップID
@@ -292,7 +292,7 @@ namespace FEBuilderGBA
             function_sleep_handle_address = 0x08004960 + 1;  //ワークメモリ Procs待機中
             workmemory_user_stack_base_address = 0x03007DE0; //ワークメモリ スタックの一番底
             function_fe_main_return_address = 0x08000AC6 + 1; //スタックの一番底にある戻り先
-            workmemory_control_unit_address = 0x030045B0; //ワークメモリ 操作ユニット
+            workmemory_control_unit_address = 0x3004E30; //Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             workmemory_bgm_address = 0x02024E14; //ワークメモリ BGM
             function_event_engine_loop_address = 0x0800B2CC + 1; //イベントエンジン
             workmemory_reference_procs_event_address_offset = 0x2C; //Procsのイベントエンジンでのイベントのアドレスを格納するuser変数の場所
