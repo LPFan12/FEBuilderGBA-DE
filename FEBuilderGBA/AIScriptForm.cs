@@ -671,7 +671,7 @@ namespace FEBuilderGBA
             uint value = EventScriptForm.GetValueOneScriptEditSetTables(ScriptEditSetTables[selectID], arg);
             if (arg.Type == EventScript.ArgType.UNIT)
             {
-                if (Program.ROM.RomInfo.version >= 8)
+                if (Program.ROM.RomInfo.version == 8)
                 {
                     UnitForm f = (UnitForm)InputFormRef.JumpForm<UnitForm>(value - 1);
                     MakeInjectionCallback(f
