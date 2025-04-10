@@ -23,7 +23,7 @@ namespace FEBuilderGBA
             {
                 this.InputFormRef.PreWriteHandler += PreWriteButtonFE7;
             }
-            if (Program.ROM.RomInfo.version == 7B)
+            if (Program.ROM.RomInfo.version == 206)
             {
                 this.InputFormRef.PreWriteHandler += PreWriteButtonFE7;
             }
@@ -79,7 +79,7 @@ namespace FEBuilderGBA
                 Program.ROM.write_p32(order2_pointer, order_addr, undodata);
                 Program.Undo.Push(undodata);
             }
-            if (Program.ROM.RomInfo.version == 7B)
+            if (Program.ROM.RomInfo.version == 206)
             {
                 uint order_pointer = Program.ROM.RomInfo.status_game_option_order_pointer;
                 uint order2_pointer = Program.ROM.RomInfo.status_game_option_order2_pointer;
@@ -120,7 +120,7 @@ namespace FEBuilderGBA
                     Program.ROM.write_p32(order2_pointer, addr, undodata);
                 }
             }
-            if (Program.ROM.RomInfo.version == 7B)
+            if (Program.ROM.RomInfo.version == 206)
             {
                 uint order2_pointer = Program.ROM.RomInfo.status_game_option_order2_pointer;
                 if (order2_pointer != 0)
