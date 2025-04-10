@@ -980,6 +980,12 @@ namespace FEBuilderGBA
                 ImageUtil.BitBlt(ret, 0, 6 * 8, 32 * 8, 7 * 8, black, 0, 0);
                 black.Dispose();
             }
+            if (Program.ROM.RomInfo.version == 206)
+            {
+                Bitmap black = ImageUtil.Blank(32*8,7*8, ret);
+                ImageUtil.BitBlt(ret, 0, 6 * 8, 32 * 8, 7 * 8, black, 0, 0);
+                black.Dispose();
+            }
             return ret;
         }
         //サンプル用の戦闘画面描画(戦闘画面 30*20 で表示 左右1タイルずつ消す.)
