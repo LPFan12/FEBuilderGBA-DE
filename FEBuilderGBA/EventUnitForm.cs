@@ -1782,6 +1782,13 @@ namespace FEBuilderGBA
                     , basename + " EVENT UNIT"
                     , new uint[] {} );
             }
+            else if (Program.ROM.RomInfo.version == 206)
+            {
+                FEBuilderGBA.Address.AddAddress(recycle
+                    , InputFormRef
+                    , basename + " EVENT UNIT"
+                    , new uint[] {} );
+            }
             else
             {
                 FEBuilderGBA.Address.AddAddress(recycle
