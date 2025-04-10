@@ -66,7 +66,6 @@ namespace FEBuilderGBA
             image_battle_animelist_pointer = 0x564E4;   // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             support_unit_pointer = 0xB782A8;   // Ist das der richtige Pointer?
             support_talk_pointer = 0x07B0E8;   // Ist das der richtige Pointer?
-            support_talk_datasize = 16; //Genau wie FE6. Hoffentlich wird dieser Wert angenommen und man muss ihn nicht irgendwo anders einstellen.
             unit_palette_color_pointer = 0x0;  // ユニットのパレット(カラー)の開始位置
             unit_palette_class_pointer = 0x0;  // ユニットのパレット(クラス)の開始位置
             support_attribute_pointer = 0x26E24;  //支援効果の開始位置
