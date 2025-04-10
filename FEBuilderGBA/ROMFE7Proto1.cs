@@ -246,7 +246,7 @@ namespace FEBuilderGBA
             battle_bg_pointer = 0x6C8A4; //Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             battle_terrain_pointer = 0x4F54C; //Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             senseki_comment_pointer = 0x9b21c; //戦績コメント
-            unit_custom_battle_anime_pointer = 0xC72718; //Ist das der richtige Pointer?
+            unit_custom_battle_anime_pointer = 0x54CEC; //Ist das der richtige Pointer?
             magic_effect_pointer = 0x5609C; //魔法効果へのポインタ
             magic_effect_original_data_count = 0x03e; //もともとあった魔法数
             system_move_allowicon_pointer = 0x3042c;//移動するときの矢印アイコン
