@@ -646,6 +646,27 @@ namespace FEBuilderGBA
                             ExportText(writer, U.toPointer(text_pointer), str, tralnslate_from, tralnslate_to, transDic, isModifiedTextOnly, isOneLiner);
                         }
                     }
+                    if (Program.ROM.RomInfo.is_multibyte && Program.ROM.RomInfo.version == 206)
+                    {
+                        List<U.AddrResult> list = SoundRoomForm.MakeList();
+                        for (int i = 0; i < list.Count; i++)
+                        {
+                            if (!U.isSafetyOffset(list[i].addr))
+                            {
+                                continue;
+                            }
+                            uint text_pointer = list[i].addr + 12;
+                            uint textid = Program.ROM.u32(text_pointer);
+                            string str = FETextDecode.Direct(textid);
+                            if (str.Trim() == "")
+                            {
+                                continue;
+                            }
+
+                            pleaseWait.DoEvents("SoundRoom:" + U.To0xHexString(textid));
+                            ExportText(writer, U.toPointer(text_pointer), str, tralnslate_from, tralnslate_to, transDic, isModifiedTextOnly, isOneLiner);
+                        }
+                    }
                     //その他文字列
                     {
                         List<U.AddrResult> list = OtherTextForm.MakeList();
