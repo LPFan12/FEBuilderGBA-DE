@@ -529,6 +529,10 @@ namespace FEBuilderGBA
             {
                 return UnitFE7Form.GetPaletteLowClass(uid);
             }
+            if (Program.ROM.RomInfo.version == 206)
+            {
+                return UnitFE7Form.GetPaletteLowClass(uid);
+            }
             if (Program.ROM.RomInfo.version == 6)
             {
                 return UnitFE6Form.GetPaletteLowClass(uid);
@@ -539,6 +543,10 @@ namespace FEBuilderGBA
         public static uint GetPaletteHighClass(uint uid)
         {
             if (Program.ROM.RomInfo.version == 7)
+            {
+                return UnitFE7Form.GetPaletteHighClass(uid);
+            }
+            if (Program.ROM.RomInfo.version == 206)
             {
                 return UnitFE7Form.GetPaletteHighClass(uid);
             }
