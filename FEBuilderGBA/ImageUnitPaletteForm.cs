@@ -139,7 +139,7 @@ namespace FEBuilderGBA
 
         void MakeClassList(uint selectindex)
         {
-            if (Program.ROM.RomInfo.version >= 8)
+            if (Program.ROM.RomInfo.version == 8)
             {//FE8の場合キャラパレット指定が別途用意されている
                 uint unit_palette_color_pointer = Program.ROM.p32(Program.ROM.RomInfo.unit_palette_color_pointer);
                 uint unit_palette_class_pointer = Program.ROM.p32(Program.ROM.RomInfo.unit_palette_class_pointer);
