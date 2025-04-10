@@ -1892,6 +1892,10 @@ namespace FEBuilderGBA
             {
                 return EventUnitFE7Form.CheckUnitsEvenetArg(units_address);
             }
+            else if (Program.ROM.RomInfo.version == 206)
+            {
+                return EventUnitFE7Form.CheckUnitsEvenetArg(units_address);
+            }
             else if (Program.ROM.RomInfo.version == 6)
             {
                 return EventUnitFE6Form.CheckUnitsEvenetArg(units_address);
