@@ -2589,6 +2589,43 @@ namespace FEBuilderGBA
                     OPClassDemoFE7UForm.MakeAllDataLength(list);
                 }
             }
+	else if (Program.ROM.RomInfo.version == 206)
+            {
+                ImageTSAAnimeForm.MakeAllDataLength(list, isPointerOnly);
+                EDFE7Form.MakeAllDataLength(list);
+                EventBattleTalkFE7Form.MakeAllDataLength(list);
+                EDSensekiCommentForm.MakeAllDataLength(list);
+                ClassForm.MakeAllDataLength(list);
+                UnitCustomBattleAnimeForm.MakeAllDataLength(list);
+                UnitFE7Form.MakeAllDataLength(list);
+                WorldMapEventPointerFE7Form.MakeAllDataLength(list);
+                ImagePortraitForm.MakeAllDataLength(list, isPointerOnly);
+                EventHaikuFE7Form.MakeAllDataLength(list);
+                EventForceSortieFE7Form.MakeAllDataLength(list);
+                SoundRoomForm.MakeAllDataLength(list);
+                SupportTalkFE7Form.MakeAllDataLength(list);
+                SupportUnitForm.MakeAllDataLength(list);
+                WorldMapImageFE7Form.MakeAllDataLength(list, isPointerOnly);
+                SoundRoomCGForm.MakeAllDataLength(list);
+                TacticianAffinityFE7.MakeAllDataLength(list);
+                StatusOptionForm.MakeAllDataLength(list, isPointerOnly);
+                StatusOptionOrderForm.MakeAllDataLength(list);
+                EventFinalSerifFE7Form.MakeAllDataLength(list);
+
+                if (Program.ROM.RomInfo.is_multibyte)
+                {
+                    ImageChapterTitleFE7Form.MakeAllDataLength(list, isPointerOnly);
+                    MapSettingFE7Form.MakeAllDataLength(list);
+                    ImageCGForm.MakeAllDataLength(list, isPointerOnly);
+                    OPClassDemoFE7Form.MakeAllDataLength(list , isPointerOnly);
+                }
+                else
+                {
+                    MapSettingFE7UForm.MakeAllDataLength(list);
+                    ImageCGFE7UForm.MakeAllDataLength(list, isPointerOnly);
+                    OPClassDemoFE7UForm.MakeAllDataLength(list);
+                }
+            }
             else if (Program.ROM.RomInfo.version == 6)
             {
                 EDFE6Form.MakeAllDataLength(list);
@@ -2725,6 +2762,29 @@ namespace FEBuilderGBA
 
             }
             else if (Program.ROM.RomInfo.version == 7)
+            {//7
+                if (Program.ROM.RomInfo.is_multibyte)
+                {
+                    MapSettingFE7Form.MakeVarsIDArray(list);
+                    OPClassDemoFE7Form.MakeVarsIDArray(list);
+                }
+                else
+                {
+                    MapSettingFE7UForm.MakeVarsIDArray(list);
+                    OPClassDemoFE7UForm.MakeVarsIDArray(list);
+                }
+                StatusOptionForm.MakeVarsIDArray(list);
+                StatusUnitsMenuForm.MakeVarsIDArray(list);
+                SupportTalkFE7Form.MakeVarsIDArray(list);
+                EDFE7Form.MakeVarsIDArray(list);
+                EventHaikuFE7Form.MakeVarsIDArray(list);
+                EventBattleTalkFE7Form.MakeVarsIDArray(list);
+                SoundRoomForm.MakeVarsIDArray(list);
+                EDSensekiCommentForm.MakeVarsIDArray(list);
+                EventFinalSerifFE7Form.MakeVarsIDArray(list);
+                WorldMapEventPointerFE7Form.MakeVarsIDArray(list);
+            }
+	else if (Program.ROM.RomInfo.version == 206)
             {//7
                 if (Program.ROM.RomInfo.is_multibyte)
                 {
