@@ -39,6 +39,7 @@
             this.BlackBGButton = new System.Windows.Forms.Button();
             this.WhiteBGButton = new System.Windows.Forms.Button();
             this.LANG_ZH_Button = new System.Windows.Forms.Button();
+            this.LANG_DE_Button = new System.Windows.Forms.Button();
             this.LANG_JP_Button = new System.Windows.Forms.Button();
             this.LANG_EN_Button = new System.Windows.Forms.Button();
             this.label8 = new FEBuilderGBA.LabelEx();
@@ -170,6 +171,7 @@
             this.BeginPage.Controls.Add(this.BlackBGButton);
             this.BeginPage.Controls.Add(this.WhiteBGButton);
             this.BeginPage.Controls.Add(this.LANG_ZH_Button);
+            this.BeginPage.Controls.Add(this.LANG_DE_Button);
             this.BeginPage.Controls.Add(this.LANG_JP_Button);
             this.BeginPage.Controls.Add(this.LANG_EN_Button);
             this.BeginPage.Controls.Add(this.label8);
@@ -247,6 +249,16 @@
             this.LANG_ZH_Button.Text = "ZH";
             this.LANG_ZH_Button.UseVisualStyleBackColor = true;
             this.LANG_ZH_Button.Click += new System.EventHandler(this.LANG_ZH_Button_Click);
+            // 
+            // LANG_DE_Button
+            // 
+            this.LANG_DE_Button.Location = new System.Drawing.Point(500, 413);
+            this.LANG_DE_Button.Name = "LANG_DE_Button";
+            this.LANG_DE_Button.Size = new System.Drawing.Size(168, 35);
+            this.LANG_DE_Button.TabIndex = 30;
+            this.LANG_DE_Button.Text = "DE";
+            this.LANG_DE_Button.UseVisualStyleBackColor = true;
+            this.LANG_DE_Button.Click += new System.EventHandler(this.LANG_DE_Button_Click);
             // 
             // LANG_JP_Button
             // 
@@ -1206,6 +1218,7 @@
         private System.Windows.Forms.TabPage SettingNowPage;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button LANG_ZH_Button;
+        private System.Windows.Forms.Button LANG_DE_Button;
         private System.Windows.Forms.Button LANG_JP_Button;
         private System.Windows.Forms.Button LANG_EN_Button;
         private System.Windows.Forms.Button BlackBGButton;
