@@ -1435,7 +1435,7 @@ namespace FEBuilderGBA
                     uint asm = Program.ROM.u32(addr + 8);
                     FELint.CheckASMPointer(asm, errors, CONDTYPE.ALWAYS, addr);
                 }
-                else if (type == 0xD && Program.ROM.RomInfo.version <= 6)
+                else if (type == 0xD && Program.ROM.RomInfo.version == 6)
                 {//0D=ASM条件 FE6のみ
                     uint asm = Program.ROM.u32(addr + 8);
                     FELint.CheckASMPointer(asm, errors, CONDTYPE.ALWAYS, addr);
