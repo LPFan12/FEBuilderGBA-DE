@@ -521,7 +521,12 @@ namespace FEBuilderGBA
                 return "";
             }
 
-            if (Program.ROM.RomInfo.version != 7)
+            if (Program.ROM.RomInfo.version == 6)
+            {//専用アニメはFE7だけ?
+                return "";
+            }
+            
+            if (Program.ROM.RomInfo.version == 8)
             {//専用アニメはFE7だけ?
                 return "";
             }
