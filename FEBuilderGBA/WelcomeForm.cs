@@ -37,9 +37,11 @@ namespace FEBuilderGBA
             this.LANG_EN_Label.Text = "English"; ///No Translate
             this.LANG_JP_Label.Text = "日本語"; ///No Translate
             this.LANG_ZH_Label.Text = "中文"; ///No Translate
+            this.LANG_DE_Label.Text = "Deutsch"; ///No Translate
             InputFormRef.markupJumpLabel(this.LANG_EN_Label);
             InputFormRef.markupJumpLabel(this.LANG_JP_Label);
             InputFormRef.markupJumpLabel(this.LANG_ZH_Label);
+            InputFormRef.markupJumpLabel(this.LANG_DE_Label);
         }
 
         void CloseAndResetInstance()
@@ -159,6 +161,12 @@ namespace FEBuilderGBA
         private void LANG_ZH_Label_Click(object sender, EventArgs e)
         {
             Program.Config["func_lang"] = "zh";
+            CloseAndResetInstance();
+        }
+        
+        private void LANG_DE_Label_Click(object sender, EventArgs e)
+        {
+            Program.Config["func_lang"] = "de";
             CloseAndResetInstance();
         }
     }
