@@ -231,7 +231,7 @@ namespace FEBuilderGBA
         //上位クラスかどうかの判定
         public static bool isHighClass(uint cid)
         {
-            if (Program.ROM.RomInfo.version <= 6)
+            if (Program.ROM.RomInfo.version == 6)
             {
                 return ClassFE6Form.isHighClassFE6(cid);
             }
@@ -260,7 +260,7 @@ namespace FEBuilderGBA
         //ロードユニットフラグの確認
         public static bool isLoadClass(uint cid)
         {
-            if (Program.ROM.RomInfo.version <= 6)
+            if (Program.ROM.RomInfo.version == 6)
             {
                 return ClassFE6Form.isLoadClass(cid);
             }
