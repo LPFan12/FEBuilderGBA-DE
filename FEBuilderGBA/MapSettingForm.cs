@@ -580,7 +580,7 @@ namespace FEBuilderGBA
         }
         public static string GetMapNameAndANYFF(uint mapid)
         {
-            if (Program.ROM.RomInfo.version >= 8)
+            if (Program.ROM.RomInfo.version == 8)
             {
                 if (mapid == 0xFF)
                 {
