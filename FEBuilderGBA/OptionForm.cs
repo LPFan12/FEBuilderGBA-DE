@@ -1194,7 +1194,7 @@ namespace FEBuilderGBA
         static string lang_low()
         {
             string l =  Program.Config.at("func_lang", "auto");
-            if (l == "ja" || l == "en" || l == "zh")
+            if (l == "ja" || l == "en" || l == "zh" || l == "de")
             {//ディフォルト対応の言語
                 return l;
             }
