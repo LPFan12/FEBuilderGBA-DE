@@ -860,7 +860,7 @@ namespace FEBuilderGBA
         }
         public static bool isMainUnit(uint cid)
         {
-            if (Program.ROM.RomInfo.version <= 6)
+            if (Program.ROM.RomInfo.version == 6)
             {
                 return (cid == 0x01);
             }
