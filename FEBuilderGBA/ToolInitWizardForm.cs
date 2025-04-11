@@ -33,6 +33,7 @@ namespace FEBuilderGBA
             this.LANG_EN_Button.Text = "English"; ///No Translate
             this.LANG_JP_Button.Text = "日本語"; ///No Translate
             this.LANG_ZH_Button.Text = "中文"; ///No Translate
+            this.LANG_DE_Button.Text = "Deutsch"; ///No Translate
         }
 
         public static bool IsShowWizard()
@@ -708,6 +709,12 @@ namespace FEBuilderGBA
         private void LANG_ZH_Button_Click(object sender, EventArgs e)
         {
             Program.Config["func_lang"] = "zh";
+            CloseAndResetInstance();
+        }
+
+        private void LANG_DE_Button_Click(object sender, EventArgs e)
+        {
+            Program.Config["func_lang"] = "de";
             CloseAndResetInstance();
         }
 
