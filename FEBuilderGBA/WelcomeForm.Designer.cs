@@ -40,6 +40,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.VersionLabel = new System.Windows.Forms.TextBox();
             this.LANG_ZH_Label = new System.Windows.Forms.Label();
+            this.LANG_DE_Label = new System.Windows.Forms.Label();
             this.LANG_JP_Label = new System.Windows.Forms.Label();
             this.LANG_EN_Label = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
@@ -49,6 +50,7 @@
             // panel1
             // 
             this.panel1.Controls.Add(this.LANG_ZH_Label);
+            this.panel1.Controls.Add(this.LANG_DE_Label);
             this.panel1.Controls.Add(this.LANG_JP_Label);
             this.panel1.Controls.Add(this.LANG_EN_Label);
             this.panel1.Controls.Add(this.VersionLabel);
@@ -173,6 +175,16 @@
             this.LANG_ZH_Label.Text = "ZH";
             this.LANG_ZH_Label.Click += new System.EventHandler(this.LANG_ZH_Label_Click);
             // 
+            // LANG_DE_Label
+            // 
+            this.LANG_DE_Label.AutoSize = true;
+            this.LANG_DE_Label.Location = new System.Drawing.Point(1100, 255);
+            this.LANG_DE_Label.Name = "LANG_DE_Label";
+            this.LANG_DE_Label.Size = new System.Drawing.Size(30, 18);
+            this.LANG_DE_Label.TabIndex = 30;
+            this.LANG_DE_Label.Text = "DE";
+            this.LANG_DE_Label.Click += new System.EventHandler(this.LANG_DE_Label_Click);
+            // 
             // LANG_JP_Label
             // 
             this.LANG_JP_Label.AutoSize = true;
@@ -224,6 +236,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox VersionLabel;
         private System.Windows.Forms.Label LANG_ZH_Label;
+        private System.Windows.Forms.Label LANG_DE_Label;
         private System.Windows.Forms.Label LANG_JP_Label;
         private System.Windows.Forms.Label LANG_EN_Label;
     }
