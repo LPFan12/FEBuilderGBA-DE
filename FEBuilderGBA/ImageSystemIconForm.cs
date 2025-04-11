@@ -71,7 +71,7 @@ namespace FEBuilderGBA
             }
             WMTabControl.TabPages.Remove(tabPage3);
 
-            if (Program.ROM.RomInfo.version >= 8)
+            if (Program.ROM.RomInfo.version == 8)
             {//FE8
                 systemmenu_badstatus = new ImageFormRef(this, "systemmenu_badstatus", 40, 8 * 9, 1, Program.ROM.RomInfo.systemmenu_badstatus_image_pointer, 0, Program.ROM.RomInfo.systemmenu_badstatus_palette_pointer);
                 systemmenu_old_badstatus_panel.Hide();
@@ -942,7 +942,7 @@ namespace FEBuilderGBA
                 , "systemarea_staff_gradation"
                 , Address.DataTypeEnum.PAL);
 
-            if (Program.ROM.RomInfo.version >= 8)
+            if (Program.ROM.RomInfo.version == 8)
             {//FE8
                 image = Program.ROM.p32(Program.ROM.RomInfo.systemmenu_badstatus_image_pointer);
                 FEBuilderGBA.Address.AddAddress(list,image
