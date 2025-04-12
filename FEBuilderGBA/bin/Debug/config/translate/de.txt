@@ -8,10 +8,10 @@ The data area has not been allocated.
 Create a setting to allow an Enemy's AI to Talk to an allied unit, like FE7's Farina.\r\nIf a Talk event is set in the chapter, the Enemy AI uses the conversation event.
 
 :書き込み
-Write to ROM
+Zur ROM schreiben
 
 :先頭アドレス
-Hex Address
+Hex-Addresse
 
 :敵AIから会話イベントを実行する
 Allow Enemy AI to Talk
@@ -38,16 +38,16 @@ AI range specification.
 Define the actions that the AI can execute per chapter.\r\nFor example, if you have an enemy AI that drops a door key, they can use it themselves and open doors without permission.
 
 :特性4
-Ability 4
+Fähigkeit 4
 
 :特性3
-Ability 3
+Fähigkeit 3
 
 :特性2
-Ability 2
+Fähigkeit 2
 
 :特性1
-Ability 1
+Fähigkeit 1
 
 :名前
 Name
@@ -62,10 +62,10 @@ Count
 Selection:
 
 :アドレス
-Address
+Addresse
 
 :AIの章ごとの設定
-AI's Item Usage
+KI-Itemnutzung
 
 :アイテム利用効果ID
 Item use effect ID.
@@ -74,13 +74,13 @@ Item use effect ID.
 Specifies the function to determine if the AI will use the item.\r\nNote that the settings for whether or not you can use items for each chapter can be found in the "AI chapter settings" section.
 
 :アイテム
-Item Editor
+Item-Editor
 
 :リストの拡張
-Data Expansion
+Datenerweiterung
 
 :AIのアイテム利用判定
-AI Item Usage
+KI-Item Verfügbarkeit
 
 :杖を利用できるAIが杖を使用するかどうか判定する関数を指定します。
 Specifies a function to determine if the AI can use a staff.
@@ -95,7 +95,7 @@ Category
 Select Command
 
 :検索
-Search
+Durchsuchen
 
 :イベント命令-命令選択
 Event Editor (Adv) - Instruction Selection
@@ -128,13 +128,13 @@ Export to File
 Import from File
 
 :コメント
-Comment
+Kommentar
 
 :説明
 Description
 
 :命令変更
-Command
+Kommando
 
 :バイナリコード
 Binary Code
@@ -176,28 +176,28 @@ Sets the priority of items that the thief AI will aim for when stealing items.\r
 Stealable item
 
 :標的AI00
-Target AI 00
+Ziel-KI 00
 
 :標的AI08
-Target AI 08
+Ziel-KI 08
 
 :標的AI10
-Target AI 10
+Ziel-KI 10
 
 :標的AI18
-Target AI 18
+Ziel-KI 18
 
 :標的AI20
-Target AI 20
+Ziel-KI 20
 
 :標的AI28
-Target AI 28
+Ziel-KI 28
 
 :標的AI30
-Target AI 30
+Ziel-KI 30
 
 :標的AI38
-Target AI 38
+Ziel-KI 38
 
 :敵にとどめを刺せる場合、このアイテムのTPは50(優先度無視)に固定されます。\r\n非致死ダメージのTPは「ヒットポイント×ダメージ/100」で計算されます。\r\n追撃は考慮されないので注意してください。\r\n追加できるTPの最大値は40です。(優先度無視)
 If the enemy can deal a finishing blow, the TP for this item is fixed at 50 (ignoring priority).\r\n\r\nTP for non-lethal damage is calculated as "Hit Points x Damage/100". Note that follow-up attacks aren't accounted for.\r\nThe maximum TP that can be added is 40 (ignoring priority).
@@ -254,7 +254,7 @@ Bonus: Defender's remaining HP
 Bonus: Lethal damage + attacker's expected damage
 
 :標的AI
-Target AI
+Ziel-KI
 
 :タイル
 Tile
@@ -263,7 +263,7 @@ Tile
 Target Tile of AI
 
 :ユニット
-Unit
+Einheit
 
 :AIの対象ユニット
 Target Unit of AI
@@ -284,10 +284,10 @@ Center point Y
 Center point X
 
 :高さ
-Height
+Höhe
 
 :幅
-Width
+Weite
 
 :AoE 攻撃レンジマスク
 AoE attack range mask
@@ -302,7 +302,7 @@ An error occurred during 7z compression.\r\n{0}
 Promoted and unpromoted foes are automatically adjusted.\r\nArena enemies base their stats on Unit 0xFD.\r\nThere seems to be no other unit ID used.
 
 :クラス
-Class
+Klasse
 
 :条件:
 Cond:
@@ -548,22 +548,22 @@ Promotion Branches
 MAG
 
 :幸運
-LUK
+GLCK
 
 :魔防
 RES
 
 :守備
-DEF
+VER
 
 :速さ
-SPD
+GES
 
 : 技 
-SKL
+FÄH
 
 :攻撃
-POW
+STÄ
 
 :敵成長率(%)
 Enemy Growths
@@ -578,10 +578,10 @@ G% Sum
 Sort Order
 
 :移動
-MOVE
+BEW.
 
 :体格
-CON
+KON
 
 :クラス基礎能力
 Class Base Stats
@@ -596,7 +596,7 @@ Standing Map Anims
 Generic Enemy Portrait
 
 :クラスチェンジクラス
-Menu Class
+Menü-Klasse
 
 :詳細
 Details
@@ -641,7 +641,7 @@ The weapon levels for both melee and magic are active.\r\nIf you enable both mel
 Movement Speed is set to 2 or more. If the "Movement Speed" is greater than 2, the unit will not be drawn correctly when it moves.
 
 :スキル
-Skill
+Fähigkeit
 
 :CCした時に得られるボーナス値です。
 Stats gained by units upon promotion to this class.
@@ -674,25 +674,25 @@ Write Animation Designation Pointer
 01=Normal
 
 :02=必殺
-02=Critical
+02=Kritisch
 
 :03=間接や魔法剣
 03=Ranged/Targets RES
 
 :00固定
-Always 00
+Immer 00
 
 :アニメの特殊指定
 Special Animation
 
 :/60 (秒)
-x/60 sec
+x/60 sek
 
 :ウェイト
 Weight
 
 :05固定
-Always 05
+Immer 05
 
 :アニメ指定のポインタ
 Animation Pointer
@@ -716,7 +716,7 @@ Enemy Color
 Weapon Useability Display
 
 :パレットID
-Palette ID
+Paletten-ID
 
 :日本語名の長さ
 Length of Japanese Name
@@ -731,7 +731,7 @@ Description ID
 English Pointer
 
 :OPフォント
-OP Font
+OP-Font
 
 :イベント命令の関数ポインタテーブル
 Function pointer table for event instructions
@@ -755,7 +755,7 @@ Direct String Editing
 To use more than 16 colors, use the color reduction tool.\r\nYou can use 16 colors * 8 with colour reduction, taking TSA into account.\r\n
 
 :TSAを無視
-Ignore TSA
+Ignoriere TSA
 
 :00=切り抜き
 00=Clipping
@@ -788,7 +788,7 @@ Original File
 Select
 
 :種類
-Type
+Typ
 
 :00=自分で決める
 00=Decide by yourself
@@ -800,10 +800,9 @@ Type
 02=Battle Backgrounds
 
 :03=ワールドマップ
-03=World Map
-
+03=Weltkarte
 :04=ワールドマップ(イベント用)
-04=World map (for events)
+04=Weltkarte (Für Ereignisse)
 
 :05=TSAを利用しない256色
 05=256 colors (no TSA)
@@ -896,7 +895,7 @@ Disassembler source for Grep
 Please disassemble all he source code by the disassembler beforehand.
 
 :参照
-Reference
+Referenz
 
 :逆アセンブラ
 Disassembler
@@ -1010,7 +1009,7 @@ Copy to Clipboard
 Clipboard
 
 :バイナリエディタ
-Hex Editor
+Hex-Editor
 
 :構造体
 Data Structure Options
@@ -1052,13 +1051,13 @@ Character Endings
 Title
 
 :登場ユニット
-Unit
+Einheit
 
 :内容
 Contents
 
 :1=一人
-1=Alone
+1=Alleine
 
 :2=支援
 2=with A Support
@@ -1223,7 +1222,7 @@ Active Unit
 Route
 
 :マップID
-Map ID
+Karten-ID
 
 :再生されている音楽
 Sounds Playing
@@ -1361,7 +1360,7 @@ AID
 Con. +
 
 :運
-Luck
+Glück
 
 :技
 Skill
@@ -1406,7 +1405,7 @@ World Map Nodes
 Set all enemy unit AIs to "Do Not Move"
 
 :ワープする章
-Chapter ID
+Kapitel-ID
 
 :この章へワープする
 Warp to Chapter with Settings
@@ -1421,19 +1420,19 @@ Max out the stats of EVERY unit on the map (including enemies)
 Max out the stats of all player units (Hotkey: Ctrl + G)
 
 :天気
-Weather
+Wetter
 
 :00=晴れ
 00=Sunny
 
 :01=雪
-01=Snow
+01=Schnee
 
 :02=吹雪
 02=Blizzard
 
 :03=FE6の塔(非推奨)
-03=FE6's Tower(Unused)
+03=FE6-Turm(Unbenutzt)
 
 :04=雨
 04=Rain
@@ -1445,7 +1444,7 @@ Weather
 06=Sandstorm
 
 :07=曇り(非推奨)
-07=Cloudy (Unused)
+07=Wolkig(Unbenutzt)
 
 :天気を変更(次のターンから適用されます。)
 Change Weather (Applied Next Turn)
@@ -1457,7 +1456,7 @@ Useful Cheats for Debugging Purposes
 0 for no fog. 1 is the minimum, with only one tile of visibility.
 
 :個数
-Number
+Nummer
 
 :解析者向けの機能
 Functions for Analysts
@@ -1532,31 +1531,31 @@ Unknown Version of ROM
 Cancel
 
 :FE6として読み込む
-Load as FE6
+Lade als FE6
 
 :英語版FE7Uとして読み込む
-Load as English Version FE7U
+Lade als US-Version FE7U
 
 :英語版FE8Uとして読み込む
-Load as English Version FE8U
+Lade als US-Version FE8U
 
 :日本語版FE8Jとして読み込む
-Load as Japanese Version FE8J
+Lade als Japan-Version FE8J
 
 :日本語版FE7Jとして読み込む
-Load as Japanese Version FE7J
+Lade als Japan-Version FE7J
 
 :このROMには規定のバージョン情報がありません。\r\nこれは正しいGBAFEのROMですか？\r\nもし、GBAFEのROMであれば、バージョンを指定してください。\r\n
 Could not find version information in this ROM.\r\nIs this really a GBA FE ROM?\r\nIf you're sure it is, you can specify the version.\r\n
 
 :それ以外として読み込む
-Read as otherwise.
+Als unbekanntes Spiel laden.
 
 :以下のエラーが発生しました。
 The following error occurred.
 
 :エラー
-Error
+Fehler
 
 :できるだけ元の画像を再現できるように再構築をしてインポートします。
 Your image will be reprocessed and imported to be as close as the original as much as possible.
@@ -1694,7 +1693,7 @@ Symbols for Debugging
 Select File
 
 :スクリプト
-Script
+Skript
 
 :フリーエリアの定義
 Free Area
@@ -1721,7 +1720,7 @@ Insert Events via Event Assembler
 To shrink the list, set "Attacker" as "End Combat".
 
 :0000=攻撃
-0000=Attack
+0000=Angriff
 
 :0001=必殺
 0001=Critical
@@ -1730,7 +1729,7 @@ To shrink the list, set "Attacker" as "End Combat".
 0002=Miss
 
 :0040=毒
-0040=Poison
+0040=Gift
 
 :0080=デビルアクス
 0080=Devil Axe
@@ -1757,7 +1756,7 @@ To shrink the list, set "Attacker" as "End Combat".
 80=End of Combat
 
 :ダメージ
-Damage
+Schaden
 
 :攻撃側
 Attacker
@@ -1811,7 +1810,7 @@ Specify the gold available.\r\nGold must be 256 gold or higher.
 20=Village Center (Thief Target)
 
 :10=民家
-10=Home
+10=Haus
 
 :14=ランダム宝箱
 14=Random Chest
@@ -1835,19 +1834,19 @@ C0=Run on 4th Army Phase
 1D=Village Center (Thief's Target)
 
 :0E=民家
-0E=Home
+0E=Haus
 
 :12=イベント付き宝箱
 12=Chest w/ Event
 
 :0=不明
-0=Unknown
+0=Unbekannt
 
 :12=宝箱
 12=Chest
 
 :10=扉
-10=Door
+10=Tür
 
 :13=武器屋
 13=Armory
@@ -1982,19 +1981,19 @@ If both "Completion Flag" and "Trigger Flag" are set, it cannot be executed.\r\n
 While using "Trigger ASM Function", if the returning value of r0 is not 1, it cannot be executed.\r\n
 
 :ターン:
-Turn:
+Zug:
 
 :～
 ～
 
 :(自ターン)
-(Player Turn)
+(Spieler-Zug)
 
 :(友軍ターン)
-(NPC Turn)
+(NPC-Zug)
 
 :(敵軍ターン)
-(Enemy Turn)
+(Gegner-Zug)
 
 :{0}ゴールド
 {0} Gold
@@ -2015,7 +2014,7 @@ Range Cond:
 14=Chest Contents
 
 :12=扉
-12=Door
+12=Tür
 
 :16=武器屋
 16=Armory
@@ -2045,7 +2044,7 @@ Range Cond:
 0B=Mine
 
 :0C=ゴーゴンの卵
-0C=Gorgon Egg
+0C=Gorgonenei
 
 :05=毒ガス
 05=Poison Gas
@@ -2102,7 +2101,7 @@ Map Object
 07=Chest
 
 :08=扉
-08=Door
+08=Tür
 
 :0A=店
 0A=Shop
@@ -2135,7 +2134,7 @@ Gold
 Creates a Chest.\r\nWhen a unit opens the chest, they will obtain the specified item.\r\n"Tile Changes" set in the coordinates of the Chest is also executed.Normally, an empty box is set, and it becomes an empty box with this "Tile Changes".
 
 :扉
-Door
+Tür
 
 :扉を設定します。\r\n扉が空くと、扉の位置に設定されている「マップ変化」が実行され、通れるようになります。\r\nイベントも設定できますが、特に会話などの演出が不要であれば、0x01の何もしないダミーイベントを設定してください。
 Creates a Door.\r\nWhen a unit unlocks and opens the door, any Tile Change set at the door's position is executed, removing the obstacle.\r\nEvents can also be set to occur after unlocking, such as for conversations, unit loading, etc., but otherwise, the Event should be set to 1 (Dummy).
@@ -2213,7 +2212,7 @@ Turn Condition
 Run events dependent on a "Starting Turn" and an "Ending Turn" declarations. When the Starting Turn arrives, during the Phase it is active, the event will play out, until the Ending Turn value has passed. If ST is 2 and ET is 4, the event will run during turns 2, 3 and 4. To run the event nonstop every turn, set ST to  and ET to 255. If you wanted to run the event for one turn, you can set both ST and ET to 2 (ET can also be lower than ST with the same effect).
 
 :終了ターン
-Turn End
+Zug-Ende
 
 :0=主人公ターンに実行
 0=Run on Player Turn
@@ -2237,7 +2236,7 @@ Turn Start
 FE7 Turn Conditions
 
 :0=常に有効
-0=All
+0=Alle
 
 :1=エリウッド編のみ
 1=Eliwood Mode
@@ -2294,7 +2293,7 @@ Executes an ASM function, and runs the specified event if the returned value of 
 FE6 ASM Condition
 
 :トラップ
-Trap
+Falle
 
 :01=アーチ配置
 01=Ballista Order
@@ -2351,7 +2350,7 @@ Vertical Arrow
 Place a Vertical Arrow trap that damages any unit it hits along the Y-axis.\r\nBecause the arrow travels vertically, you need to only declare where it is on the X-axis.
 
 :ゴーゴンの卵
-Gorgon Egg
+Gorgonenei
 
 :羽化開始
 Hatching Delay
@@ -2360,7 +2359,7 @@ Hatching Delay
 Places a Gorgon Egg.\r\nWhen the turn count designated has elapsed, a Gorgon will hatch from the egg.
 
 :炎
-Fire
+Feuer
 
 :炎のトラップを設定します。
 Make a Instant Fire trap.
@@ -2465,7 +2464,7 @@ Change Data Pointer
 Size
 
 :番号
-Number
+Nummer
 
 :変化データ\r\nポインタ先へのインポート
 Change Data\r\nImport at defined pointer
@@ -2726,13 +2725,13 @@ Set event 1 to do nothing.
 0=No change.
 
 :1=青
-1=Blue
+1=Blau
 
 :2=赤
-2=Red
+2=Rot
 
 :3=緑
-3=Green
+3=Grün
 
 :4=セピア
 4=Sepia
@@ -2744,16 +2743,16 @@ Please specify the color you want to change.
 Apply
 
 :自軍
-Player
+Spieler
 
 :敵軍
-Enemy
+Gegner
 
 :友軍
 NPC
 
 :第4軍
-Fourth
+Vierte
 
 :カットシーンでのユニットの色
 Color of units in cutscenes.
@@ -2810,7 +2809,7 @@ Autolevel:
 Defeat
 
 :所属:
-Army:
+Armee:
 
 :ユニット情報
 Unit State
@@ -2903,7 +2902,7 @@ Out of map range
 Special
 
 :待機
-Wait
+Warten
 
 :追従
 Following
@@ -2975,7 +2974,7 @@ Your unit's ID ({0}) is duplicated in unit arrangement.\r\nIt is extremely rare 
 In UnitPlacer, "{0}" and "{1}" overlap data.\r\nPlease repoint either data.
 
 :/60秒
-/60sec
+/60sek
 
 :0=普通
 0=Normal
@@ -3065,7 +3064,7 @@ This table is referenced in more than one class.
 Level of acquisition
 
 :魔法
-Magic
+Magie
 
 :イベント「{0}」 存在しないラベル「{1}」へジャンプしています。
 Event "{0}" Jumping to nonexistent label "{1}".
@@ -7562,298 +7561,298 @@ Experience evaluation
 Tactics evaluation
 
 :00=0章
-00=Ch0
+00=Kap0
 
 :01=0章外伝
-01=Ch0x
+01=Kap0x
 
 :02=1章
-02=Ch1
+02=Kap1
 
 :03=1章外伝
-03=Ch1x
+03=Kap1x
 
 :04=2章
-04=Ch2
+04=Kap2
 
 :05=2章外伝
-05=Ch2x
+05=Kap2x
 
 :06=3章
-06=Ch3
+06=Kap3
 
 :07=3章外伝
-07=Ch3x
+07=Kap3x
 
 :08=4章
-08=Ch4
+08=Kap4
 
 :09=4章外伝
-09=Ch4x
+09=Kap4x
 
 :0A=5章
-0A=Ch5
+0A=Kap5
 
 :0B=5章外伝
-0B=Ch5x
+0B=Kap5x
 
 :0C=6章
-0C=Ch6
+0C=Kap6
 
 :0D=6章外伝
-0D=Ch6x
+0D=Kap6x
 
 :0E=7章
-0E=Ch7
+0E=Kap7
 
 :0F=7章外伝
-0F=Ch7x
+0F=Kap7x
 
 :10=8章
-10=Ch8
+10=Kap8
 
 :11=8章外伝
-11=Ch8x
+11=Kap8x
 
 :12=9章
-12=Ch9
+12=Kap9
 
 :13=9章外伝
-13=Ch9x
+13=Kap9x
 
 :14=10章
-14=Ch10
+14=Kap10
 
 :15=10章外伝
-15=Ch10x
+15=Kap10x
 
 :16=11章
-16=Ch11
+16=Kap11
 
 :17=11章外伝
-17=Ch11x
+17=Kap11x
 
 :18=12章
-18=Ch12
+18=Kap12
 
 :19=12章外伝
-19=Ch12x
+19=Kap12x
 
 :1A=13章
-1A=Ch13
+1A=Kap13
 
 :1B=13章外伝
-1B=Ch13x
+1B=Kap13x
 
 :1C=14章
-1C=Ch14
+1C=Kap14
 
 :1D=14章外伝
-1D=Ch14x
+1D=Kap14x
 
 :1E=15章
-1E=Ch15
+1E=Kap15
 
 :1F=15章外伝
-1F=Ch15x
+1F=Kap15x
 
 :20=16章
-20=Ch16
+20=Kap16
 
 :21=16章外伝
-21=Ch16x
+21=Kap16x
 
 :22=17章
-22=Ch17
+22=Kap17
 
 :23=17章外伝
-23=Ch17x
+23=Kap17x
 
 :24=18章
-24=Ch18
+24=Kap18
 
 :25=18章外伝
-25=Ch18x
+25=Kap18x
 
 :26=19章
-26=Ch19
+26=Kap19
 
 :27=19章外伝
-27=Ch19x
+27=Kap19x
 
 :28=20章
-28=Ch20
+28=Kap20
 
 :29=20章外伝
-29=Ch20x
+29=Kap20x
 
 :2A=21章
-2A=Ch21
+2A=Kap21
 
 :2B=21章外伝
-2B=Ch21x
+2B=Kap21x
 
 :2C=22章
-2C=Ch22
+2C=Kap22
 
 :2D=22章外伝
-2D=Ch22x
+2D=Kap22x
 
 :2E=23章
-2E=Ch23
+2E=Kap23
 
 :2F=23章外伝
-2F=Ch23x
+2F=Kap23x
 
 :30=24章
-30=Ch24
+30=Kap24
 
 :31=24章外伝
-31=Ch24x
+31=Kap24x
 
 :32=25章
-32=Ch25
+32=Kap25
 
 :33=25章外伝
-33=Ch25x
+33=Kap25x
 
 :34=26章
-34=Ch26
+34=Kap26
 
 :35=26章外伝
-35=Ch26x
+35=Kap26x
 
 :36=27章
-36=Ch27
+36=Kap27
 
 :37=27章外伝
-37=Ch27x
+37=Kap27x
 
 :38=28章
-38=Ch28
+38=Kap28
 
 :39=28章外伝
-39=Ch28x
+39=Kap28x
 
 :3A=29章
-3A=Ch29
+3A=Kap29
 
 :3B=29章外伝
-3B=Ch29x
+3B=Kap29x
 
 :3C=30章
-3C=Ch30
+3C=Kap30
 
 :3D=30章外伝
-3D=Ch30x
+3D=Kap30x
 
 :3E=31章
-3E=Ch31
+3E=Kap31
 
 :3F=31章外伝
-3F=Ch31x
+3F=Kap31x
 
 :40=32章
-40=Ch32
+40=Kap32
 
 :41=32章外伝
-41=Ch32x
+41=Kap32x
 
 :42=33章
-42=Ch33
+42=Kap33
 
 :43=33章外伝
-43Ch33x
+43=Kap33x
 
 :44=34章
-44=Ch34
+44=Kap34
 
 :45=34章外伝
-45=Ch34x
+45=Kap34x
 
 :46=35章
-46=Ch35
+46=Kap35
 
 :47=35章外伝
-47=Ch35x
+47=Kap35x
 
 :48=36章
-48=Ch36
+48=Kap36
 
 :49=36章外伝
-49=Ch36x
+49=Kap36x
 
 :4A=37章
-4A=Ch37
+4A=Kap37
 
 :4B=37章外伝
-4B=Ch37x
+4B=Kap37x
 
 :4C=38章
-4C=Ch38
+4C=Kap38
 
 :4D=38章外伝
-4D=Ch38x
+4D=Kap38x
 
 :4E=39章
-4E=Ch39
+4E=Kap39
 
 :4F=39章外伝
-4F=Ch39x
+4F=Kap39x
 
 :50=40章
-50=Ch40
+50=Kap40
 
 :51=40章外伝
-51=Ch40x
+51=Kap40x
 
 :52=41章
-52=Ch41
+52=Kap41
 
 :53=41章外伝
-53=Ch41x
+53=Kap41x
 
 :54=42章
-54=Ch42
+54=Kap42
 
 :55=42章外伝
-55=Ch42x
+55=Kap42x
 
 :56=43章
-56=Ch43
+56=Kap43
 
 :57=43章外伝
-57=Ch43x
+57=Kap43x
 
 :58=44章
-58=Ch44
+58=Kap44
 
 :59=44章外伝
-59=Ch44x
+59=Kap44x
 
 :5A=45章
-5A=Ch45
+5A=Kap45
 
 :5B=45章外伝
-5B=Ch45x
+5B=Kap45x
 
 :5C=46章
-5C=Ch46
+5C=Kap46
 
 :5D=46章外伝
-5D=Ch46x
+5D=Kap46x
 
 :5E=47章
-5E=Ch47
+5E=Kap47
 
 :5F=47章外伝
-5F=Ch47x
+5F=Kap47x
 
 :マップスタイルの変更
 Change map style
 
 :マップエディタへJump
-Edit Map
+Karte editieren
 
 :勝利BGMに変わる敵数
 VictoryBGM(# Foes Left)
@@ -7877,46 +7876,46 @@ World map place name
 Enemy's flag
 
 :下の軍
-Lower Army
+Gegnerarmee
 
 :上の軍
-Upper Army
+Spielerarmee
 
 :戦力評価D
-Combat Rank D
+Kampfrang D
 
 :戦力評価C
-Combat Rank C
+Kampfrang C
 
 :戦力評価B
-Combat Rank B
+Kampfrang B
 
 :戦力評価A
-Combat Rank A
+Kampfrang A
 
 :経験評価D
-EXP Rank D
+ERF-Rang D
 
 :経験評価C
-EXP Rank C
+ERF-Rang C
 
 :経験評価B
-EXP Rank B
+ERF-Rang B
 
 :経験評価A
-EXP Rank A
+ERF-Rang A
 
 :攻略評価D
-Tactics Rank D
+Taktik-Rang D
 
 :攻略評価C
-Tactics Rank C
+Taktik-Rang C
 
 :攻略評価B
-Tactics Rank B
+Taktik-Rang B
 
 :攻略評価A
-Tactics Rank A
+Taktik-Rang A
 
 :離脱ポイントへJump
 Edit Escape Point
@@ -7934,22 +7933,22 @@ Event ID (Plist)
 Destructible Wall HP
 
 :友軍BGM
-NPC BGM
+NPCphase-Hinterg.Musik
 
 :敵フェーズBGM
-Enemy Phase BGM
+Gegnerphase-Hinterg.Musik
 
 :味方フェーズBGM
-Player Phase BGM
+Spielerphasen-Hinterg.Musik
 
 :初期座標
 Initial coord
 
 :章タイトル画像
-Chapter Title
+Kapiteltitel
 
 :戦闘準備の有無
-Battle Prep Y/N?
+K.Vorbereitung aktiv?
 
 :マップ部分変更(Plist)
 Tile Changes (Plist)
@@ -7982,13 +7981,13 @@ Asset evaluation
 01=Rout Enemy
 
 :02=ターン防衛
-02=Defend
+02=Verteidigen
 
 :03=None(ボスを倒す)
-03=Defeat Boss
+03=Boss Besiegen
 
 :04=None(特殊)
-04=None (special)
+04=Keine (spezial)
 
 :占い師の顔
 Fortune-Teller's Face
@@ -8015,13 +8014,13 @@ Eliwood Convoy
 Hector Convoy
 
 :ヘクトルハード
-Hector Hard
+Hector Schwer
 
 :ヘクトルノーマル
 Hector Normal
 
 :エリウッドハード
-Eliwood Hard
+Eliwood Schwer
 
 :エリウッドノーマル
 Eliwood Normal
