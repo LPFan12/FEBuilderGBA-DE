@@ -627,6 +627,7 @@ namespace FEBuilderGBA
                 }
                 this.PicWidth.Value = size.Width;
                 this.PicHeight.Value = size.Height;
+            }
         }
 
         uint refPointer(uint addr)
