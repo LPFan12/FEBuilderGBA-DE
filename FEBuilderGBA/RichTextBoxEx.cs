@@ -416,7 +416,8 @@ namespace FEBuilderGBA
             {//空テキストは拒否
                 return false;
             }
-            Clipboard.SetText(text, TextDataFormat.Text);
+            //Remove encoding conversion when copy & paste
+            //Clipboard.SetText(text, TextDataFormat.Text);
             return true;
         }
     }
