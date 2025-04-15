@@ -56,10 +56,10 @@ Name
 Reload
 
 :読込数
-Count
+Anzahl
 
 :選択アドレス:
-Selection:
+Auswahl:
 
 :アドレス
 Addresse
@@ -89,7 +89,7 @@ Specifies a function to determine if the AI can use a staff.
 AI Staff Usage
 
 :カテゴリ
-Category
+Kategorie
 
 :命令を選択する
 Select Command
@@ -131,7 +131,7 @@ Import from File
 Kommentar
 
 :説明
-Description
+Beschreibung
 
 :命令変更
 Kommando
@@ -146,7 +146,7 @@ Change
 Insert
 
 :削除
-Delete
+Löschen
 
 :パラメータ4
 Parameter 4
@@ -779,7 +779,7 @@ Transparent Color
 +Margin
 
 :パレット数
-Palette No.
+Paletten-Num.
 
 :元ファイル
 Original File
@@ -841,10 +841,10 @@ Translation completed. Please restart the tool.
 Please select the source code directory.
 
 :言語
-Language
+Sprache
 
 :翻訳
-Translation
+Übersetzung
 
 :日本語ではなく、可能な限り英語から翻訳する
 Translate from English if possible, not Japanese
@@ -1015,7 +1015,7 @@ Hex-Editor
 Data Structure Options
 
 :値:
-Select:
+Wählen:
 
 :インポートする
 Import
@@ -1039,7 +1039,7 @@ Title
 Short Version
 
 :ロイと支援Ａ時
-Roy A Support
+Roy A-Unterstüzung
 
 :ロング版
 Long Version
@@ -1066,10 +1066,10 @@ Contents
 Specify
 
 :エリウッド編
-Eliwood's Route
+Eliwoods Route
 
 :ヘクトル編
-Hector's Route
+Hectors Route
 
 :リン編ユニット
 Lyn's Route Units
@@ -1081,7 +1081,7 @@ After Clearing
 After Retreating
 
 :リン編
-Lyn's Tale
+Lyns Sage
 
 :撤退
 Withdrawal.
@@ -1093,10 +1093,10 @@ Retreat Designation 02
 after that.
 
 :エイリーク編
-Eirika's Route
+Eirikas Route
 
 :エフラム編
-Ephraim's Route
+Ephraims Route
 
 :戦績悪
 Lose Record
@@ -1363,25 +1363,25 @@ Con. +
 Glück
 
 :技
-Skill
+Fähigkeit
 
 :回復モード
 Recovery Mode
 
 :現在HP
-Current HP
+Momentane KP
 
 :力と魔力
 Power
 
 :最大HP
-Max HP
+Max-KP
 
 :状態
-State
+Zustand
 
 :部隊表ID
-Unit ID
+Einheiten-ID
 
 :パーティー
 Party
@@ -1393,7 +1393,7 @@ Cheat
 Change the coordinates of this unit and warp it.
 
 :ターン数
-Turns
+Züge
 
 :ターン数を変更
 Change Turn Count
@@ -1423,25 +1423,25 @@ Max out the stats of all player units (Hotkey: Ctrl + G)
 Wetter
 
 :00=晴れ
-00=Sunny
+00=Sonnig
 
 :01=雪
 01=Schnee
 
 :02=吹雪
-02=Blizzard
+02=Schneesturm
 
 :03=FE6の塔(非推奨)
 03=FE6-Turm(Unbenutzt)
 
 :04=雨
-04=Rain
+04=Regen
 
 :05=マグマ
 05=Lava
 
 :06=砂嵐
-06=Sandstorm
+06=Sandsturm
 
 :07=曇り(非推奨)
 07=Wolkig(Unbenutzt)
@@ -1456,7 +1456,7 @@ Useful Cheats for Debugging Purposes
 0 for no fog. 1 is the minimum, with only one tile of visibility.
 
 :個数
-Nummer
+Anzahl
 
 :解析者向けの機能
 Functions for Analysts
@@ -1468,7 +1468,7 @@ Dump memory and write to file 0x03000000
 Dump memory and write to file 0x02000000
 
 :霧レベル
-Fog Level
+Nebelstärke
 
 :クリアフラグ以外の、他のフラグを変更したい場合は、イベント画面から、変更したいフラグをダブルクリックしてください。
 If you want to toggle flags other than the Clear flag, go to the Event tab and double-click one from the list.
@@ -1843,20 +1843,19 @@ C0=Run on 4th Army Phase
 0=Unbekannt
 
 :12=宝箱
-12=Chest
+12=Truhe
 
 :10=扉
 10=Tür
 
 :13=武器屋
-13=Armory
+13=Arsenal
 
 :14=道具屋
-14=Vendor
+14=Laden
 
 :15=秘密の店
-15=Secret Shop
-
+15=Geheimladen
 :34=ロングアーチ
 34=Ballista
 
@@ -2098,13 +2097,13 @@ Map Object
 06=Visit Village
 
 :07=宝箱
-07=Chest
+07=Truhe
 
 :08=扉
 08=Tür
 
 :0A=店
-0A=Shop
+0A=Laden
 
 :発生タイプ
 Event Type
@@ -2125,7 +2124,7 @@ Visit Village
 Villages usually require 2 seperate events to function.\r\n\r\n1) A Type-10 (Home) event, which is the tile that actually lets the character "Visit" the village with a command at the village's bottom entrance. Once the event is done, Tile Changes will automatically occur (typically the "closed gate" tile to prevent access).\r\n2) A Type-20 (Village Center) is required for thieves/bandits to target and destroy the village once it is reached. This event is placed in the middle of the village. If destroyed, Tile Changes placed over the village will automatically occur (typically the ruined village tiles).\r\nYou do not actually require the second event if your chapter does not contain any threats towards your Villages.\r\n\r\nVillage coordinates require a "Tile Change" to change to a closed village.\r\nIf it is a private house where you can ask many times and ask for information without making it a closed village, set the occurrence type to "Seize Points/Houses" and use the "private house" in it.\r\n
 
 :宝箱
-Chest
+Truhe
 
 :ゴールド
 Gold
@@ -2176,7 +2175,7 @@ Talking To
 "Talk"er
 
 :00=追加条件なし
-00=None
+00=Keine
 
 :03=判定フラグがONならば
 03=Require Trigger Flag
@@ -2224,10 +2223,10 @@ Zug-Ende
 80=Run on Enemy Turn
 
 :ターン前指定
-Army Phase
+Armeenphase
 
 :開始ターン
-Turn Start
+Zug-Anfang
 
 :2=ターン条件
 2=Turn Condition
@@ -2239,19 +2238,19 @@ FE7 Turn Conditions
 0=Alle
 
 :1=エリウッド編のみ
-1=Eliwood Mode
+1=Eliwood-Modus
 
 :2=ヘクトル編のみ
-2=Hector Mode
+2=Hector-Modus
 
 :3=エリウッド編ハードモードのみ
-3=Eliwood Hard Mode
+3=Eliwood Schwer-Modus
 
 :4=ヘクトル編ハードモードのみ
-4=Hector Hard Mode
+4=Hector Schwer-Modus
 
 :5=ハードモードのみ
-5=Hard Mode Only
+5=Nur Schwerer Modus
 
 :常時条件
 Conditional Flag
@@ -2290,7 +2289,7 @@ ASM Condition
 Executes an ASM function, and runs the specified event if the returned value of r0 is true (1).
 
 :ASM条件FE6
-FE6 ASM Condition
+FE6 ASM-Kondition
 
 :トラップ
 Falle
@@ -2461,10 +2460,10 @@ Killer
 Change Data Pointer
 
 :サイズ
-Size
+Größe
 
 :番号
-Nummer
+Anzahl
 
 :変化データ\r\nポインタ先へのインポート
 Change Data\r\nImport at defined pointer
@@ -2797,10 +2796,10 @@ Change at the same time after placement
 After placement, separately before arrangement
 
 :成長させない
-Do not grow
+Nicht wachsen
 
 :クラス依存
-Class Dependent
+Klassenabhängig
 
 :成長率:
 Autolevel:
@@ -2827,22 +2826,22 @@ Jump to Death Quote
 Jump to Battle Quote
 
 :00=退避行動を取る
-00=Retreat
+00=Zurückziehen
 
 :20=退避行動を取らない(BOSS)
-20=Don't Retreat (BOSS AI)
+20=Nicht zurückziehen (BOSS-KI)
 
 :退避AI
-Retreat AI
+Rückzugs-KI
 
 :標的と回復AI
-Target AI
+Ziel-KI
 
 :2次AI
-Secondary AI
+Sekundäre KI
 
 :1次AI
-Primary AI
+Prim#re KI
 
 :所持品4
 Item 4
@@ -4039,7 +4038,7 @@ Reading animation
 Magical animation in ROM
 
 :GBAカラー
-GBA Color
+GBA-Farbe
 
 :移動範囲
 Movement Range
@@ -6214,7 +6213,7 @@ Settings
 Options
 
 :初期設定ウィザード
-Initial setup wizard
+Anfänglicher Installationsmanager
 
 :マニュアル
 Manual
@@ -6241,7 +6240,7 @@ Menu Commands
 Tile Names
 
 :サウンドルーム
-Sound Room
+Musikzimmer
 
 :符号テーブル
 Font Table
@@ -6253,28 +6252,28 @@ Battle Quotes
 Weapon Effectiveness
 
 :間接エフェクト
-Magic Animations
+Magieanimationen
 
 :支援効果
 Affinity Support Boosts
 
 :支援会話
-Support Convos
+Unterstützungsgespräche
 
 :支援相手
 Supporting partner
 
 :文字列
-Text Editor
+Text-Editor
 
 :マップポインタ
 MAP PLIST Editor
 
 :マップ設定
-Chapter Editor
+Kapitel-Editor
 
 :ユニット能力
-Character Editor
+Charakter-Editor
 
 :問題報告ツール
 Create Report Issue
@@ -6316,7 +6315,7 @@ World Map Events
 Tileset Palette
 
 :マップエディタ
-Map Editor
+Karten-Editor
 
 :Minimap地形
 Minimap terrain.
@@ -6325,7 +6324,7 @@ Minimap terrain.
 Order of Game Option
 
 :ゲームオプション
-Game Options
+Spieloptionen
 
 :ユニットアクションポインタ
 Unit action pointer.
@@ -6346,7 +6345,7 @@ ROM Rebuild
 Magic animation in ROM
 
 :AIの盗む優先度
-AI stealing priority
+KI-Stehlpriorität
 
 :EAでエクスポート
 Export with EA
@@ -6397,7 +6396,7 @@ Simple Menu
 Terrain Editor
 
 :ボスBGM
-Boss BGM
+Bossmusik
 
 :ROM翻訳ツール
 ROM Translate Tool
@@ -6463,7 +6462,7 @@ Attack Motion
 Skill Custom Build
 
 :外伝風の魔法拡張
-Gaiden-style Spell
+Gaiden-Stil Magie
 
 :ワールドマップBGM
 World Map BGM
@@ -8551,7 +8550,7 @@ Commonly used function notes\r\n{0} Always display menu items.\r\n{1} Hide the m
 04=Green
 
 :色
-Color
+Farbe
 
 :ヘルプID
 Help ID
@@ -9415,19 +9414,19 @@ Shortcut Key 2
 11=Return to Home Screen
 
 :12=書き込みボタンを押す
-12=Write to ROM
+12=Zur ROM schreiben
 
 :13=ウィンドウを閉じる
 13=Close Current Window
 
 :15=ROMを開く
-15=Open ROM
+15=ROM Öffnen
 
 :16=ROMを上書き保存する
-16=Save
+16=Speichern
 
 :17=ROMを別名で保存する
-17=Save As
+17=Speichern als
 
 :18=エラーがなければ上書き保存
 18=Save If Error-Free
@@ -9589,7 +9588,7 @@ Automatic Conversion of Single/Double-byte Space
 0=Don't Open with Emulator
 
 :1=自動接続
-1=Open with Emulator
+1=Im Emulator öffnen
 
 :2=自動接続し、自動終了
 2=Open and Close alongside Emulator
@@ -9688,7 +9687,7 @@ Out of Range Options
 Toggle Class Expansion Button
 
 :機能3
-Function 3
+Funktionen 3
 
 :右上のテスト実行メニュー
 Playtest Button (Top Right) Dialog
@@ -9793,7 +9792,7 @@ When exporting a file...
 1=Explorer to Exported Directory
 
 :保存
-Save
+Speichern
 
 :その他ROM直値テキスト
 Other ROM Direct Text
@@ -9805,7 +9804,7 @@ There is an error in this ROM - are you sure you want to save it?
 Tips
 
 :はい
-Yes
+Ja
 
 :エラーを表示
 Show Error
@@ -9817,10 +9816,10 @@ Even if you don't save your changes, you can still playtest using F5.\r\nBackups
 Please create a calculation formula.
 
 :リセット
-Reset
+Zurücksetzen
 
 :プレビュー
-Preview
+Vorschau
 
 :連動して変更する色
 Color to be changed in conjunction with
@@ -10261,7 +10260,7 @@ Tracked from reference value\r\nMatching address
 Warning: Too far from the original data
 
 :検索オプション
-Search Options
+Suchoptionen
 
 :警告をエラーにする
 Turn Warnings into Errors
@@ -10423,13 +10422,13 @@ Select All (&A)
 Event Assembler has written to 0x0 to 0x100.\r\nWriting to this area is very dangerous.\r\nAre you sure you want to install this content?\r\nIf you know what you are doing, press "Yes" to adapt these changes - else, discard them.
 
 :武器屋
-Armory
+Arsenal
 
 :道具屋
-Vendor
+Laden
 
 :秘密屋
-Secret Shop
+Geheimladen
 
 :現在開いているROMが外部プログラムで変更されています。\r\n変更されたROMを再読み込みしますか？
 An external program has made changes to the ROM that is currently open.\r\nWould you like to apply these changes to the ROM?
@@ -10480,19 +10479,19 @@ Click here for more information on learning skills and levels.
 The first address of the skill to be acquired by leveling up.
 
 :クラススキル
-Class Skill
+Klassenfähigkeit
 
 :スキル1
-Skill 1
+Fähigkeit 1
 
 :スキル2
-Skill 2
+Fähigkeit 2
 
 :個別スキル
 Personal Skill
 
 :スキルFE8N
-FE8N Skill
+FE8N-Fähigkeit
 
 :スキル拡張 SkillSystem の、個人スキルを取得できません。
 Skill Extensions cannot get SkillSystem's Personal Skills.
@@ -10843,7 +10842,7 @@ Found Multi or Drum in Multi or Drum.\r\nCan't deal with these complicated thing
 <---------\r\nImport the\r\nselected song\r\n<---------
 
 :別ROMを開く
-Open Another ROM
+Eine andere ROM öffnen
 
 :サウンドテーブル
 Sound Table
@@ -12601,34 +12600,34 @@ It seems that VB6 runtime has already been installed.\r\nDo you want to skip run
 Sappy is written in Visual Basic 6, so you need to install the runtime.\r\nLaunch the runtime installer.
 
 :(ディフォルト)
-(Default)
+(Standard)
 
 :黒背景2
-Black Background2
+Schwarzer Hintergrund 2
 
 :FEBuilderGBAへようこそ。\r\n\r\nここでは初期設定を行います。\r\n\r\nこのウィザードを使用したくない場合は、このウィンドウを閉じしてください。\r\n再び、実行したい場合は、「メニュー」->「設定」->「初期設定ウィザード」を選択してください。
-Welcome to FEBuilderGBA.\r\n\r\nHere, initial setup is performed.\r\n\r\nClose this window if you do not want to use this wizard.\r\nIf you want to go through it again, please go to "Settings" -> "Initial Setup Wizard".
+Willkommen zu FEBuilderGBA.\r\n\r\nHere, initial setup is performed.\r\n\r\nClose this window if you do not want to use this wizard.\r\nIf you want to go through it again, please go to "Settings" -> "Initial Setup Wizard".
 
 :黒背景
-Black Background
+Schwarzer Hintergrund
 
 :白背景
-White Background
+Weißer Hintergrund
 
 :始める
 Start
 
 :戻る
-Return
+Zurück
 
 :mGBAをダウンロードする
-Download mGBA
+mGBA Herunterladen
 
 :または、
-Or
+Oder
 
 :安定して動作するバージョンのVBA-Mをダウンロードする
-Download stable VBA-M
+Stabile VBA-M-Version Herunterladen
 
 :エミュレータ:
 Emulator:
@@ -12640,7 +12639,7 @@ Set up and Continue
 Specify the emulator to use for testing.\r\n\r\nWith FEBuilderGBA, you can press the F5 key to launch and test the ROM with a debugger.\r\nIf there is no problem while testing with the emulator, you can save your changes.
 
 :設定しない
-Not Set
+Nicht setzen
 
 :最新版のEAをダウンロードする
 Download the latest version of EA
@@ -12832,13 +12831,13 @@ Explanation of this Function
 This tool is used to create a compiled report on issues that are present in your ROM.\r\nIf there is a problem that you can't solve on your own, please create a report7z with this tool and ask the Discord server for help.\r\n\r\nBy using this tool, we can reproduce and isolate the problem and easily create data or steps to resolve the issue.
 
 :誰？
-Who?
+Wer?
 
 :次へ
 Next
 
 :どの章？
-Which Chapter? 
+Welches Kapitel? 
 
 :戦闘アニメや画像データなど、問題を再現させるためのファイルがあれば添付してください。\r\n特にない場合は、空欄のままにしてください。\r\n最大2MBまで添付できます
 Attach any files (ie. battle animations, image data) to reproduce your problems.\r\nPlease leave it blank if irrelevant.\r\nUp to 2 MB of data can be attached.
@@ -13123,16 +13122,16 @@ Save only the changed text file.\r\nConversations that exist in the unmodified R
 It automatically generates fonts not included in ROM.
 
 :無改造 FE8J
-Unmodified FE8J
+Unmodifiziertes FE8J
 
 :無改造 FE8U
-Unmodified FE8U
+Unmodifiziertes FE8U
 
 :無改造 FE7U
-Unmodified FE7U
+Unmodifiziertes FE7U
 
 :無改造 FE7J
-Unmodified FE7J
+Unmodifiziertes FE7J
 
 :ROMの翻訳を行います。\r\n日本語ROMと英語ROMを利用して、無変更のテキストを自動的に変換します。\r\n\r\n簡易モードでは、全自動で翻訳します。\r\n不足しているフォントのインポートや、メニューの長さなどを自動的に調整します。\r\n全ての処理が終わるのに、10分ほど時間がかかるので、少しお待ちください。
 Translate the ROM.\r\nAutomatically convert unchanged text using a Japanese ROM and an English ROM.\r\n\r\nIn Simplified mode, translation is automatic.\r\nIt automatically adjusts the missing font import, menu length, etc.\r\nPlease wait for a while because it takes about 10 minutes to complete all processing.
@@ -13603,19 +13602,19 @@ Checking for updates...
 Having troubles? Read the online manual for help!
 
 :最後に開いたROM
-Recently Saved ROM
+Neulich geöffnete ROM
 
 :FEBuilderGBAを最新版へ更新する
 Update FEBuilderGBA to the Latest Version
 
 :他のFE ROMを開く
-Open Another FE ROM
+Eine andere FE-ROM öffnen
 
 :アップデートチェック
-Check for Updates
+Nach Updates suchen
 
 :ROMを開く
-Open ROM
+Öffne ROM
 
 :この拠点が、次の目的地となったときに再生するBGMを選択します。
 Select the BGM to play when this World Map Node becomes the next destination.
@@ -13624,19 +13623,19 @@ Select the BGM to play when this World Map Node becomes the next destination.
 The corresponding world map event ({0}) doesn't exist.
 
 :エリウッドエンディング
-Eliwood ending
+Eliwood-Ende
 
 :ヘクトルエンディング
-Hextor ending
+Hector-Ende
 
 :オープニングイベント
 Opening Event
 
 :エイリークエンディング
-Eirika Ending
+Eirika-Ende
 
 :エフラムエンディング
-Ephraim Ending
+Ephraim-Ende
 
 :マップをクリアした時に実行するイベントを指定します。\r\n次の拠点をワールドマップに出現させて、道を描画する処理を行います。
 Specify the event to be executed when the map is cleared.\r\nThe next node appears on the world map, then the road to it is drawn.
