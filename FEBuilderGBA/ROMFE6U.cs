@@ -7,11 +7,11 @@ using System.Diagnostics;
 
 namespace FEBuilderGBA
 {
-    sealed class ROMFE6JP : ROMFEINFO
+    sealed class ROMFE6U : ROMFEINFO
     {
-        public ROMFE6JP(ROM rom)
+        public ROMFE6U(ROM rom)
     	{
-    		VersionToFilename = "FE6";
+    		VersionToFilename = "FE6U";
     		TitleToFilename = "FE6";
     		
             mask_point_base_pointer = 0x0006DC; // Huffman tree end (indirected twice)
@@ -76,7 +76,7 @@ namespace FEBuilderGBA
             map_map_pointer_list_default_size = 0xe5; //PLIST拡張をしていない時のバニラでのPLISTの数
             image_battle_animelist_pointer = 0x4b0f8;   // 戦闘アニメリストの開始位置
             support_unit_pointer = 0x6076fc;   // 支援相手の開始位置
-            support_talk_pointer = 0x6afe0;   // 支援会話の開始位置
+            support_talk_pointer = 0x7AEC8;   // Aus einem Kommentar von Eebit bei (https://feuniverse.us/t/fe-builder-gba-if-you-have-any-questions-attach-report7z/2845/5028) entnommen.
             unit_palette_color_pointer = 0x0;  // ユニットのパレット(カラー)の開始位置
             unit_palette_class_pointer = 0x0;  // ユニットのパレット(クラス)の開始位置
             support_attribute_pointer = 0x22dbc;  //支援効果の開始位置
