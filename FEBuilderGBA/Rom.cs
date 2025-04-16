@@ -664,11 +664,31 @@ namespace FEBuilderGBA
             }
             else if (forceversion.IndexOf("FE7U") >= 0)
             {
-                version = "AE7E01";
+                version = "AE7U01";
+            }
+            else if (forceversion.IndexOf("FE7P1") >= 0)
+            {
+                version = "AE7B01";
+            }
+            else if (forceversion.IndexOf("FE7E1") >= 0)
+            {
+                version = "AE7X01";
             }
             else if (forceversion.IndexOf("FE6") >= 0)
             {
                 version = "AFEJ01";
+            }
+            else if (forceversion.IndexOf("FE6C") >= 0)
+            {
+                version = "AFECFQ";
+            }
+            else if (forceversion.IndexOf("FE6U") >= 0)
+            {
+                version = "AFEU01";
+            }
+            else if (forceversion.IndexOf("FE6D") >= 0)
+            {
+                version = "AFED01";
             }
             else if (forceversion.IndexOf("NAZO") >= 0)
             {
