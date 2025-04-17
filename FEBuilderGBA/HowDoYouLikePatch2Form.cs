@@ -70,6 +70,16 @@ namespace FEBuilderGBA
                     //patchName1 = "FEditorMagicCSASystem_FE6";///No Translate
                     patchName3 = "CSA_Creator_For_FE6_ver2";///No Translate
                 }
+                if (version == "FE6U")
+                {//FE6
+                    //patchName1 = "FEditorMagicCSASystem_FE6";///No Translate
+                    patchName3 = "CSA_Creator_For_FE6_ver2";///No Translate
+                }
+                if (version == "FE6D")
+                {//FE6
+                    //patchName1 = "FEditorMagicCSASystem_FE6";///No Translate
+                    patchName3 = "CSA_Creator_For_FE6_ver2";///No Translate
+                }
                 else if (version == "FE7J")
                 {//FE7J
                     patchName1 = "Custom Spell Animation Engine";///No Translate
