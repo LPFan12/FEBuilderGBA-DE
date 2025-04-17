@@ -22,8 +22,8 @@ namespace FEBuilderGBA
             unit_pointer = 0x99678; // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             unit_maxcount = 253; // ユニットの最大数
             unit_datasize = 52; // ユニットのデータサイズ
-            max_level_address = 0x29B42; // 最大レベルの値を格納しているアドレス
-            max_luck_address = 0x29f0e; // 最大レベルの幸運の値を格納しているアドレス
+            max_level_address = 0x02A12A; // Ist das die richtige Addresse?
+            max_luck_address = 0x02A556; // Ist das die richtige Addresse?
             class_pointer = 0x175A4; // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             class_datasize = 84;  // ユニットのデータサイズ
             bg_pointer = 0x10984; //Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
@@ -86,9 +86,9 @@ namespace FEBuilderGBA
             sound_table_pointer = 0xBA7E8; // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             sound_room_pointer = 0x1C2A0; // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             sound_room_datasize = 16; // サウンドルームのデータサイズ
-            sound_room_cg_pointer = 0xAC3A4; // サウンドルームの背景リスト(FE7のみ)
-            event_ballte_talk_pointer = 0x79ab0; // 交戦時セリフの開始位置
-            event_ballte_talk2_pointer = 0x79c24; // 交戦時セリフの開始位置2 (FE6だとボス汎用会話テーブルがある)
+            sound_room_cg_pointer = 0x0; // Scheint nicht zu existieren? Ist es eventuell unbenutzt?
+            event_ballte_talk_pointer = 0x0; // Scheint nicht zu existieren?
+            event_ballte_talk2_pointer = 0x07B928; // ist das der richtige Pointer?
             event_haiku_pointer = 0x79d20; // 死亡時セリフの開始位置
             event_haiku_tutorial_1_pointer = 0x79D2C; // リン編チュートリアル 死亡時セリフの開始位置 FE7のみ
             event_haiku_tutorial_2_pointer = 0x79D28; // エリウッド編チュートリアル 死亡時セリフの開始位置 FE7のみ
@@ -97,7 +97,7 @@ namespace FEBuilderGBA
             map_exit_point_pointer = 0x39E24; // 離脱ポイント開始サイズ
             map_exit_point_npc_blockadd = 0x30; // arr[+0x30] からNPCらしい.
             map_exit_point_blank = 0x1D92F0; // 一つも離脱ポインタがない時のNULLマーク 共通で使われる.
-            sound_boss_bgm_pointer = 0x68934; // ボスBGMの開始位置
+            sound_boss_bgm_pointer = 0x069E64; // Ist das der richtige Pointer?
             sound_foot_steps_pointer = 0x0; // クラス足音の開始位置
             sound_foot_steps_switch2_address = 0x0;
             worldmap_point_pointer = 0x0; // ワールドマップ拠点の開始位置
@@ -330,7 +330,7 @@ namespace FEBuilderGBA
             battle_screen_image3_pointer = 0x04DABC;  //戦闘画面 画像3
             battle_screen_image4_pointer = 0x04DA5C;  //戦闘画面 画像4
             battle_screen_image5_pointer = 0x04DABC;  //戦闘画面 画像5
-            ai1_pointer = 0xC07CB0;  //AI1ポインタ
+            ai1_pointer = 0xB34E60;  //Ist das der richtige Pointer?
             ai2_pointer = 0xC07CA4;  //AI2ポインタ
             ai3_pointer = 0x039758;  //AI3ポインタ
             ai_steal_item_pointer = 0x36D90;  //AI盗むAI アイテム評価テーブル 0x08C06564
@@ -359,7 +359,7 @@ namespace FEBuilderGBA
             item_errormessage_array_switch2_address = 0x273DE;
             event_function_pointer_table_pointer = 0xD63C;    //イベント命令ポインタ
             event_function_pointer_table2_pointer = 0x0;   //イベント命令ポインタ2 ワールドマップ
-            item_effect_pointer_table_pointer = 0x05609C;   //間接エフェクトポインタ
+            item_effect_pointer_table_pointer = 0xB6D62C;   //Ist das der richtige Pointer?
             command_85_pointer_table_pointer = 0x06804C;    //85Commandポインタ
             dic_main_pointer = 0x0;     //辞書メインポインタ
             dic_chaptor_pointer = 0x0;  //辞書章ポインタ
