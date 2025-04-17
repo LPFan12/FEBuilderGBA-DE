@@ -475,10 +475,6 @@ namespace FEBuilderGBA
 
         private void ImageMagicButton_Click(object sender, EventArgs e)
         {
-            if (version.IndexOf("AFED01") >= 0)
-            {
-                InputFormRef.JumpForm<ImageMagicCSACreatorForm>();
-            }
             HowDoYouLikePatchForm.CheckAndShowPopupDialog(HowDoYouLikePatchForm.TYPE.MagicPatch_By_Menu);
 
             ImageUtilMagic.magic_system_enum magic = ImageUtilMagic.SearchMagicSystem();
