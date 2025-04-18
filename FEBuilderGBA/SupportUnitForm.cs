@@ -222,6 +222,11 @@ namespace FEBuilderGBA
                 SupportTalkFE6Form f = (SupportTalkFE6Form)InputFormRef.JumpForm<SupportTalkFE6Form>(U.NOT_FOUND);
                 f.JumpTo(uid, (uint)src.Value);
             }
+            else if (Program.ROM.RomInfo.version == 209)
+            {
+                SupportTalkFE6Form f = (SupportTalkFE6Form)InputFormRef.JumpForm<SupportTalkFE6Form>(U.NOT_FOUND);
+                f.JumpTo(uid, (uint)src.Value);
+            }
             else if (Program.ROM.RomInfo.version == 6)
             {
                 SupportTalkFE6Form f = (SupportTalkFE6Form)InputFormRef.JumpForm<SupportTalkFE6Form>(U.NOT_FOUND);
