@@ -662,6 +662,10 @@ namespace FEBuilderGBA
                 //テキストデータを     40260c nazo font で描画しています.
                 ImageChapterTitleButton.Hide();
             }
+            if (Program.ROM.RomInfo.version == 206)
+            {
+                ClassOPDemoButton.Hide();
+            }
         }
 
         private void Filter_KeyUp(object sender, KeyEventArgs e)
