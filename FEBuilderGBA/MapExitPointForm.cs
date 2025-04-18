@@ -66,6 +66,17 @@ namespace FEBuilderGBA
                     bitmap = ImageUnitWaitIconFrom.DrawWaitUnitIconBitmap(0x3E, 1, true);
                 }
             }
+            else if (Program.ROM.RomInfo.version == 209)
+            {
+                if (index == 0)
+                {//Enemy
+                    bitmap = ImageUnitWaitIconFrom.DrawWaitUnitIconBitmap(0x32, 2, true);
+                }
+                else
+                {//NPC
+                    bitmap = ImageUnitWaitIconFrom.DrawWaitUnitIconBitmap(0x3E, 1, true);
+                }
+            }
             else
             {
                 if (index == 0)
