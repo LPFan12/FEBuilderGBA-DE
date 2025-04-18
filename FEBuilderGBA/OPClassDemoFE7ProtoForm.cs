@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace FEBuilderGBA
 {
-    public partial class OPClassDemoFE7Form : Form
+    public partial class OPClassDemoFE7ProtoForm : Form
     {
-        public OPClassDemoFE7Form()
+        public OPClassDemoFE7ProtoForm()
         {
             InitializeComponent();
 
@@ -30,7 +30,7 @@ namespace FEBuilderGBA
             return new InputFormRef(self
                 , ""
                 , Program.ROM.RomInfo.op_class_demo_pointer
-                , 32
+                , 16
                 , (int i, uint addr) =>
                 {
                     return i <= 0x41;
@@ -64,7 +64,7 @@ namespace FEBuilderGBA
                 );
         }
 
-        private void ClassOPDemoFE7Form_Load(object sender, EventArgs e)
+        private void ClassOPDemoFE7ProtoForm_Load(object sender, EventArgs e)
         {
 
         }
