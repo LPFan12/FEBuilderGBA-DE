@@ -48,7 +48,7 @@ namespace FEBuilderGBA
             unit_move_icon_pointer = 0x6FDE0; // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             lightrune_uniticon_id = 0x57; // ユニット(光の結界)のユニットアイコンのID
             map_setting_pointer = 0x320EC;  // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
-            map_setting_datasize = 100; //マップ設定のデータサイズ
+            map_setting_datasize = 100; //Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             map_setting_event_plist_pos = 116; //event plistの場所 
             map_setting_worldmap_plist_pos = 117; //woldmap event plistの場所 
             map_setting_clear_conditon_text_pos = 0x8A; //マップの右上に表示されているクリア条件の定義場所 
