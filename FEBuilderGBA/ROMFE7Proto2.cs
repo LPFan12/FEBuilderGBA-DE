@@ -11,7 +11,7 @@ namespace FEBuilderGBA
     {
         public ROMFE7Proto2(ROM rom)
     	{
-            VersionToFilename = "FE7P";
+            VersionToFilename = "FE7P2";
             TitleToFilename = "FE7";
             mask_point_base_pointer = 0x0006DC; // Huffman tree end (indirected twice)
             mask_pointer = 0x0006E0;  // Huffman tree start (indirected once)
