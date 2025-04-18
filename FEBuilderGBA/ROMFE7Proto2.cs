@@ -26,7 +26,7 @@ namespace FEBuilderGBA
             max_luck_address = 0x29f0e; // 最大レベルの幸運の値を格納しているアドレス
             class_pointer = 0x179B4; // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             class_datasize = 84;  // ユニットのデータサイズ
-            bg_pointer = 0xb7b0; //BGベースアドレス
+            bg_pointer = 0x010C30; //Ist das der richtige Pointer?
             portrait_pointer = 0x6A54; //Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             portrait_datasize = 28;
             icon_pointer = 0x4C24; // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
@@ -38,14 +38,14 @@ namespace FEBuilderGBA
             unit_wait_barista_anime_address = 0x025CD0;  // ユニット待機アイコンのバリスタのアニメ指定アドレス
             unit_wait_barista_id = 0x52;  // ユニット待機アイコンのバリスタの位置
             unit_icon_palette_address = 0x18C6A4; // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
-            unit_icon_enemey_palette_address = 0x190108; // ユニット(敵軍)のパレットの開始位置
-            unit_icon_npc_palette_address = 0x190128; // ユニット(友軍)のパレットの開始位置
-            unit_icon_gray_palette_address = 0x190148; // ユニット(グレー))のパレットの開始位置
-            unit_icon_four_palette_address = 0x190168; // ユニット(4軍))のパレットの開始位置
-            unit_icon_lightrune_palette_address = 0x190188; // ユニット(光の結界)のパレットの開始位置
-            unit_icon_sepia_palette_address = 0x1901A8; // ユニット(セピア)のパレットの開始位置
+            unit_icon_enemey_palette_address = 0x18C6C4; // Ist das die richtige Addresse?
+            unit_icon_npc_palette_address = 0x18C6E4; // Ist das die richtige Addresse?
+            unit_icon_gray_palette_address = 0x18C704; // Ist das die richtige Addresse?
+            unit_icon_four_palette_address = 0x18C724; // Ist das die richtige Addresse?
+            unit_icon_lightrune_palette_address = 0x18C744; // Ist das die richtige Addresse?
+            unit_icon_sepia_palette_address = 0x0; // Scheint nicht zu existieren?
 
-            unit_move_icon_pointer = 0x6DD60; // ユニット移動アイコンの開始位置
+            unit_move_icon_pointer = 0x070350; // Ist das der richtige Pointer?
             lightrune_uniticon_id = 0x57; // ユニット(光の結界)のユニットアイコンのID
             map_setting_pointer = 0x32C3C;  // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             map_setting_datasize = 104; //Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
@@ -64,8 +64,8 @@ namespace FEBuilderGBA
             map_worldmapevent_pointer = 0x0; //マップ設定の開始位置(worldmap (FE6のみ))
             map_map_pointer_list_default_size = 0xFC; //PLIST拡張をしていない時のバニラでのPLISTの数
             image_battle_animelist_pointer = 0x57310;   // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
-            support_unit_pointer = 0xC4C184;   // 支援相手の開始位置
-            support_talk_pointer = 0x79264;   // 支援相手の開始位置
+            support_unit_pointer = 0xB8AAF0;   // Ist das der richtige Pointer?
+            support_talk_pointer = 0x07B674;   // Ist das der richtige Pointer?
             unit_palette_color_pointer = 0x0;  // ユニットのパレット(カラー)の開始位置
             unit_palette_class_pointer = 0x0;  // ユニットのパレット(クラス)の開始位置
             support_attribute_pointer = 0x26E24;  //支援効果の開始位置
@@ -82,7 +82,7 @@ namespace FEBuilderGBA
             image_unit_palette_pointer = 0x549E0; // ユニットパレットの開始位置
             item_pointer = 0x160A8; // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             item_datasize = 36; // アイテムのデータサイズ
-            item_effect_pointer = 0x05330C; // アイテムエフェクトの開始位置
+            item_effect_pointer = 0x055C94; // Ist das der richtige Pointer?
             sound_table_pointer = 0x3E2C; // ソングテーブルの開始位置
             sound_room_pointer = 0x1B844; // サウンドルームの開始位置
             sound_room_datasize = 16; // サウンドルームのデータサイズ
@@ -97,7 +97,7 @@ namespace FEBuilderGBA
             map_exit_point_pointer = 0x39E24; // 離脱ポイント開始サイズ
             map_exit_point_npc_blockadd = 0x30; // arr[+0x30] からNPCらしい.
             map_exit_point_blank = 0x1D92F0; // 一つも離脱ポインタがない時のNULLマーク 共通で使われる.
-            sound_boss_bgm_pointer = 0x68934; // ボスBGMの開始位置
+            sound_boss_bgm_pointer = 0x06AE9C; // Ist das der richtige Pointer?
             sound_foot_steps_pointer = 0x0; // クラス足音の開始位置
             sound_foot_steps_switch2_address = 0x0;
             worldmap_point_pointer = 0x0; // ワールドマップ拠点の開始位置
@@ -140,7 +140,7 @@ namespace FEBuilderGBA
             cc_sun_bracelet_pointer = 0x279d0;  //CCアイテム 太陽の腕輪 天の刻印
             unit_increase_height_pointer = 0x70bc;  //ステータス画面で背を伸ばす
             unit_increase_height_switch2_address = 0x70ac;
-            op_class_demo_pointer = 0xdb01e8; //OPクラスデモ
+            op_class_demo_pointer = 0xCD0D9C; //Ist das der richtige Pointer?
             op_class_font_pointer = 0x0;  //OPクラス日本語フォント
             op_class_font_palette_pointer = 0x0;  // OPクラス紹介フォントのパレット
             status_font_pointer = 0x5FA8;  //ステータス画面用のフォント
