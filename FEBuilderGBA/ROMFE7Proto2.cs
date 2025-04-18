@@ -7,11 +7,11 @@ using System.Diagnostics;
 
 namespace FEBuilderGBA
 {
-    sealed class ROMFE7JP : ROMFEINFO
+    sealed class ROMFE7Proto2 : ROMFEINFO
     {
-        public ROMFE7JP(ROM rom)
+        public ROMFE7Proto2(ROM rom)
     	{
-            VersionToFilename = "FE7J";
+            VersionToFilename = "FE7P";
             TitleToFilename = "FE7";
             mask_point_base_pointer = 0x0006DC; // Huffman tree end (indirected twice)
             mask_pointer = 0x0006E0;  // Huffman tree start (indirected once)
@@ -444,7 +444,7 @@ namespace FEBuilderGBA
             extends_address = 0x09000000;  //拡張領域
             orignal_crc32 = 0xf0c10e72; //無改造ROMのCRC32
             is_multibyte = true;    // マルチバイトを利用するか？
-            version = 7;    // バージョン
+            version = 209;    // Eigene Spielversion für den Prototypen wegen technischen Gründen.
 
             OverwriteROMConstants(rom);
         }
