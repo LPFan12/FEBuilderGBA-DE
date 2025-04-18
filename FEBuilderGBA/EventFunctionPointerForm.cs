@@ -133,6 +133,11 @@ namespace FEBuilderGBA
                 EventFunctionPointerFE7Form.MakeAllDataLength(list);
                 return;
             }
+            if (Program.ROM.RomInfo.version == 209)
+            {
+                EventFunctionPointerFE7Form.MakeAllDataLength(list);
+                return;
+            }
             string name = "EventFunctionPointer";
             InputFormRef InputFormRef = Init(null);
             InputFormRef.ReInitPointer((Program.ROM.RomInfo.event_function_pointer_table_pointer));
