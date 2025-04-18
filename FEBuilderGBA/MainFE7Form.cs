@@ -285,6 +285,8 @@ namespace FEBuilderGBA
 
         private void ClassOPDemoButton_Click(object sender, EventArgs e)
         {
+        if (Program.ROM.RomInfo.version == 7)
+            {
             if (!Program.ROM.RomInfo.is_multibyte)
             {
                 InputFormRef.JumpForm<OPClassDemoFE7UForm>();
@@ -293,6 +295,12 @@ namespace FEBuilderGBA
             {
                 InputFormRef.JumpForm<OPClassDemoFE7Form>();
             }
+            }
+        else
+            {
+                InputFormRef.JumpForm<OPClassDemoFE7ProtoForm>();
+            }
+            
         }
 
         private void OpenToolStripMenuItem_Click(object sender, EventArgs e)
