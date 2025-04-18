@@ -1190,6 +1190,10 @@ namespace FEBuilderGBA
             {
                 this.CHEAT_ITEM_ID.Value = 0x87; //地の刻印
             }
+            else if (Program.ROM.RomInfo.version == 209)
+            {
+                this.CHEAT_ITEM_ID.Value = 0x87; //地の刻印
+            }
             else 
             {//6
                 this.CHEAT_ITEM_ID.Value = 0x5F; //勇者の証
@@ -2735,6 +2739,16 @@ namespace FEBuilderGBA
                 this.BattleSomeDataList.DummyAlloc(BattleSomeDataStruct.Count, 0);
                 InputFormRef.AppendEvent_CopyAddressToDoubleClick(this.BattleSomeDataAddress);
             }
+            else if (Program.ROM.RomInfo.version == 209)
+            {
+                tabControlEtc.TabPages.Remove(tabPageWorldmap);
+                tabControlEtc.TabPages.Remove(tabPageDungeon);
+
+                this.BattleSomeDataList.OwnerDraw(DrawBattleSomeDataList, DrawMode.OwnerDrawFixed, false);
+                this.BattleSomeDataList.ItemHeight = 12;
+                this.BattleSomeDataList.DummyAlloc(BattleSomeDataStruct.Count, 0);
+                InputFormRef.AppendEvent_CopyAddressToDoubleClick(this.BattleSomeDataAddress);
+            }
             else
             {
                 tabControlEtc.TabPages.Remove(tabPageBattleSome);
@@ -3672,6 +3686,10 @@ namespace FEBuilderGBA
                 EmulatorMemoryUtil.CHEAT_WARP_FE7(this, (uint)this.CHEAT_WARP_CHPATER_VALUE.Value, (uint)this.CHEAT_WARP_EDTION_VALUE.Value);
             }
             else if (Program.ROM.RomInfo.version == 206)
+            {
+                EmulatorMemoryUtil.CHEAT_WARP_FE7(this, (uint)this.CHEAT_WARP_CHPATER_VALUE.Value, (uint)this.CHEAT_WARP_EDTION_VALUE.Value);
+            }
+            else if (Program.ROM.RomInfo.version == 209)
             {
                 EmulatorMemoryUtil.CHEAT_WARP_FE7(this, (uint)this.CHEAT_WARP_CHPATER_VALUE.Value, (uint)this.CHEAT_WARP_EDTION_VALUE.Value);
             }
