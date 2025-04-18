@@ -1,6 +1,6 @@
 ﻿namespace FEBuilderGBA
 {
-    partial class OPClassDemoFE7Form
+    partial class OPClassDemoFE7ProtoForm
     {
         /// <summary>
         /// Required designer variable.
@@ -8,7 +8,7 @@
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        /// Clean up any resources being used.
+        /// Clean up any resources being used
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
@@ -1290,7 +1290,7 @@
             this.LabelFilter.Text = "名前";
             this.LabelFilter.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // OPClassDemoFE7Form
+            // OPClassDemoFE7ProtoForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
@@ -1301,9 +1301,9 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.AddressPanel);
             this.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.Name = "OPClassDemoFE7Form";
+            this.Name = "OPClassDemoFE7ProtoForm";
             this.Text = "OPクラスデモ FE7";
-            this.Load += new System.EventHandler(this.ClassOPDemoFE7Form_Load);
+            this.Load += new System.EventHandler(this.ClassOPDemoFE7ProtoForm_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.B22)).EndInit();
