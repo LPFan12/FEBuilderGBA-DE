@@ -1789,6 +1789,13 @@ namespace FEBuilderGBA
                     , basename + " EVENT UNIT"
                     , new uint[] {} );
             }
+            else if (Program.ROM.RomInfo.version == 209)
+            {
+                FEBuilderGBA.Address.AddAddress(recycle
+                    , InputFormRef
+                    , basename + " EVENT UNIT"
+                    , new uint[] {} );
+            }
             else
             {
                 FEBuilderGBA.Address.AddAddress(recycle
@@ -1900,6 +1907,10 @@ namespace FEBuilderGBA
                 return EventUnitFE7Form.CheckUnitsEvenetArg(units_address);
             }
             else if (Program.ROM.RomInfo.version == 206)
+            {
+                return EventUnitFE7Form.CheckUnitsEvenetArg(units_address);
+            }
+            else if (Program.ROM.RomInfo.version == 209)
             {
                 return EventUnitFE7Form.CheckUnitsEvenetArg(units_address);
             }
