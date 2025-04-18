@@ -1372,6 +1372,10 @@ namespace FEBuilderGBA
             {
                 bitmap = ImageUtil.Blank(8,8);
             }
+            else if (Program.ROM.RomInfo.version == 209)
+            {
+                bitmap = ImageUtil.Blank(8,8);
+            }
             else
             {//ver 6
                 bitmap = ImageUtil.Blank(8, 8);
