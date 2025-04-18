@@ -203,7 +203,7 @@ namespace FEBuilderGBA
             systemmenu_badstatus_old_image_pointer = 0x865E8; //昔の圧縮のバッドステータス画像 FE7-FE6で 毒などのステータス
             systemmenu_badstatus_old_palette_pointer = 0x9CAEC; //昔の圧縮のバッドステータス画像のパレット FE7 FE6
 
-            bigcg_pointer = 0xb7978; // CG
+            bigcg_pointer = 0x0BA660; // Ist das der richtige Pointer?
             end_cg_address = 0x0; // END CG FE8のみ
             worldmap_big_image_pointer = 0xB6A14; //ワールドマップ フィールドになるでかい奴  
             worldmap_big_palette_pointer = 0xB6C00; //ワールドマップ フィールドになるでかい奴 パレット  
@@ -230,8 +230,8 @@ namespace FEBuilderGBA
             weapon_rank_s_bonus_address = 0x29348;//武器ランクSボーナス設定
             weapon_battle_flash_address = 0x53ba6;//神器 戦闘時フラッシュ
             weapon_effectiveness_2x3x_address = 0;//神器 2倍 3倍特効
-            font_item_address = 0xBC1FEC;//アイテム名とかに使われるフォント
-            font_serif_address = 0xBDC1E0; //セリフとかに使われるフォント
+            font_item_address = 0xB06A44;//Ist das die richtige Addresse?
+            font_serif_address = 0xB1ED90; //Ist das die richtige Addresse?
             monster_probability_pointer = 0x0; //魔物発生確率
             monster_item_item_pointer = 0x0; //魔物所持アイテム アイテム確率
             monster_item_probability_pointer = 0x0; //魔物所持アイテム 所持確率
