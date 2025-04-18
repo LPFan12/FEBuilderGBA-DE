@@ -249,6 +249,10 @@ namespace FEBuilderGBA
             {
                 return WorldMapImageFE7Form.DrawWorldMap();
             }
+            else if (Program.ROM.RomInfo.version == 209)
+            {
+                return WorldMapImageFE7Form.DrawWorldMap();
+            }
             else if (Program.ROM.RomInfo.version == 6)
             {
                 return WorldMapImageFE6Form.DrawWorldMap();
