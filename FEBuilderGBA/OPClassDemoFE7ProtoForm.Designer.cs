@@ -1415,8 +1415,8 @@
         private System.Windows.Forms.NumericUpDown B27;
         private FEBuilderGBA.TextBoxEx L_24_TERRAINBATTLE_PLUS1;
         private FEBuilderGBA.TextBoxEx L_23_TERRAINBATTLE_PLUS1;
-        private FEBuilderGBA.TextBoxEx L_17_BATTLEANIME_PLUS1;
-        private System.Windows.Forms.ComboBox L_16_COMBO;
+        private FEBuilderGBA.TextBoxEx L_16_BATTLEANIME_PLUS1;
+        private System.Windows.Forms.ComboBox L_17_COMBO;
         private CustomColorGroupBox groupBox1;
         private InterpolatedPictureBox X_BATTLEANIMEICON;
         private InterpolatedPictureBox L_24_TERRAINBATTLEICON_PLUS1;
