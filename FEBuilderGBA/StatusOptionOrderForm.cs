@@ -27,6 +27,10 @@ namespace FEBuilderGBA
             {
                 this.InputFormRef.PreWriteHandler += PreWriteButtonFE7;
             }
+            if (Program.ROM.RomInfo.version == 209)
+            {
+                this.InputFormRef.PreWriteHandler += PreWriteButtonFE7;
+            }
         }
 
         public InputFormRef InputFormRef;
@@ -97,6 +101,24 @@ namespace FEBuilderGBA
                 Program.ROM.write_p32(order2_pointer, order_addr, undodata);
                 Program.Undo.Push(undodata);
             }
+            if (Program.ROM.RomInfo.version == 209)
+            {
+                uint order_pointer = Program.ROM.RomInfo.status_game_option_order_pointer;
+                uint order2_pointer = Program.ROM.RomInfo.status_game_option_order2_pointer;
+                if (order2_pointer == 0)
+                {
+                    return;
+                }
+                uint order_addr = Program.ROM.p32(order_pointer);
+                uint order2_addr = Program.ROM.p32(order2_pointer);
+                if (order_addr == order2_addr)
+                {
+                    return;
+                }
+                Undo.UndoData undodata = Program.Undo.NewUndoData(this, "StatusOptionOrder2 copy");
+                Program.ROM.write_p32(order2_pointer, order_addr, undodata);
+                Program.Undo.Push(undodata);
+            }
 */
         }
 
@@ -121,6 +143,14 @@ namespace FEBuilderGBA
                 }
             }
             if (Program.ROM.RomInfo.version == 206)
+            {
+                uint order2_pointer = Program.ROM.RomInfo.status_game_option_order2_pointer;
+                if (order2_pointer != 0)
+                {
+                    Program.ROM.write_p32(order2_pointer, addr, undodata);
+                }
+            }
+            if (Program.ROM.RomInfo.version == 209)
             {
                 uint order2_pointer = Program.ROM.RomInfo.status_game_option_order2_pointer;
                 if (order2_pointer != 0)
