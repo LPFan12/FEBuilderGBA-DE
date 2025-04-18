@@ -79,9 +79,9 @@
             this.B17 = new System.Windows.Forms.NumericUpDown();
             this.J_18 = new System.Windows.Forms.Label();
             this.B16 = new System.Windows.Forms.NumericUpDown();
-            this.J_17_BATTLEANIME = new System.Windows.Forms.Label();
+            this.J_17 = new System.Windows.Forms.Label();
             this.B15 = new System.Windows.Forms.NumericUpDown();
-            this.J_16 = new System.Windows.Forms.Label();
+            this.J_16_BATTLEANIME = new System.Windows.Forms.Label();
             this.L_15_CLASS = new FEBuilderGBA.TextBoxEx();
             this.B14 = new System.Windows.Forms.NumericUpDown();
             this.J_15_CLASS = new System.Windows.Forms.Label();
@@ -191,9 +191,9 @@
             this.panel2.Controls.Add(this.B17);
             this.panel2.Controls.Add(this.J_18);
             this.panel2.Controls.Add(this.B16);
-            this.panel2.Controls.Add(this.J_17_BATTLEANIME);
+            this.panel2.Controls.Add(this.J_17);
             this.panel2.Controls.Add(this.B15);
-            this.panel2.Controls.Add(this.J_16);
+            this.panel2.Controls.Add(this.J_16_BATTLEANIME);
             this.panel2.Controls.Add(this.L_15_CLASS);
             this.panel2.Controls.Add(this.B14);
             this.panel2.Controls.Add(this.J_15_CLASS);
@@ -855,7 +855,7 @@
             this.B16.TabIndex = 9;
             this.B16.ValueChanged += new System.EventHandler(this.B17_ValueChanged);
             // 
-            // J_17_BATTLEANIME
+            // J_17
             // 
             this.J_17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.J_17.Location = new System.Drawing.Point(2, 337);
@@ -880,7 +880,7 @@
             this.B15.Size = new System.Drawing.Size(67, 25);
             this.B15.TabIndex = 8;
             // 
-            // J_16
+            // J_16_BATTLEANIME
             // 
             this.J_16_BATTLEANIME.AccessibleDescription = "@OP_CLASSDEMO_BATTLEANIME";
             this.J_16_BATTLEANIME.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
@@ -1367,7 +1367,7 @@
         private System.Windows.Forms.Button WriteButton;
         private System.Windows.Forms.NumericUpDown Address;
         private System.Windows.Forms.Label label55;
-        private System.Windows.Forms.Label J_16;
+        private System.Windows.Forms.Label J_16_BATTLEANIME;
         private FEBuilderGBA.TextBoxEx L_15_CLASS;
         private System.Windows.Forms.NumericUpDown B14;
         private System.Windows.Forms.Label J_15_CLASS;
@@ -1389,7 +1389,7 @@
         private System.Windows.Forms.NumericUpDown B17;
         private System.Windows.Forms.Label J_18;
         private System.Windows.Forms.NumericUpDown B16;
-        private System.Windows.Forms.Label J_17_BATTLEANIME;
+        private System.Windows.Forms.Label J_17;
         private System.Windows.Forms.NumericUpDown B15;
         private System.Windows.Forms.Panel panel3;
         private FEBuilderGBA.TextBoxEx N2_BlockSize;
