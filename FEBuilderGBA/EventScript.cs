@@ -1130,6 +1130,27 @@ namespace FEBuilderGBA
                             distance = d;
                         }
                     }
+                    else if (Program.ROM.RomInfo.version == 209)
+                    {
+                        //00＝自軍通常 01＝自軍移動中 02＝自軍選択時　
+                        //20＝敵軍通常 21＝敵軍移動中 22＝敵軍選択時
+                        //40＝友軍通常 41＝友軍移動中 42＝友軍選択時
+                        if (v >= 0 && v <= 02)
+                        {//自軍
+                            match = 0;
+                            distance = d;
+                        }
+                        else if (v >= 0x40 && v <= 0x42)
+                        {//友軍
+                            match = 1;
+                            distance = d;
+                        }
+                        else if (v >= 0x20 && v <= 0x22)
+                        {//敵軍
+                            match = 2;
+                            distance = d;
+                        }
+                    }
                     else
                     {
                         //ワールドマップでの所属 00で自軍(青)、01で敵軍(赤)、02で友軍(緑)
@@ -1172,6 +1193,24 @@ namespace FEBuilderGBA
                         }
                     }
                     else if (Program.ROM.RomInfo.version == 206)
+                    {
+                        if (v == 0x1C)
+                        {//自軍
+                            match = 0;
+                            distance = d;
+                        }
+                        else if (v == 0x1E)
+                        {//友軍
+                            match = 1;
+                            distance = d;
+                        }
+                        else if (v == 0x1D)
+                        {//敵軍
+                            match = 2;
+                            distance = d;
+                        }
+                    }
+                    else if (Program.ROM.RomInfo.version == 209)
                     {
                         if (v == 0x1C)
                         {//自軍
