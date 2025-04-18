@@ -136,6 +136,10 @@ namespace FEBuilderGBA
                 {
                     HowDoYouLikePatchForm.CheckAndShowPopupDialog(HowDoYouLikePatchForm.TYPE.Track12_Over_By_SongTrack);
                 } 
+                if (Program.ROM.RomInfo.version == 209)
+                {
+                    HowDoYouLikePatchForm.CheckAndShowPopupDialog(HowDoYouLikePatchForm.TYPE.Track12_Over_By_SongTrack);
+                } 
             }
 
             string filename = Program.ResourceCache.At("Song_" + U.ToHexString((uint)AddressList.SelectedIndex), "");
