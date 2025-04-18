@@ -90,6 +90,15 @@ namespace FEBuilderGBA
                     U.ForceUpdate(this.ConvertReserveColor, 1);
                     U.ForceUpdate(this.ConvertSizeMethod, 1);
                 }
+                else if (Program.ROM.RomInfo.version == 209)
+                {
+                    U.ForceUpdate(this.ConvertWidth, 1024);
+                    U.ForceUpdate(this.ConvertHeight, 688);
+                    U.ForceUpdate(this.ConvertYohaku, 0);
+                    U.ForceUpdate(this.ConvertPaletteNo, 4);
+                    U.ForceUpdate(this.ConvertReserveColor, 1);
+                    U.ForceUpdate(this.ConvertSizeMethod, 1);
+                }
                 else if (Program.ROM.RomInfo.version == 6)
                 {//256色なので不要
                     U.ForceUpdate(this.ConvertWidth, 240);
@@ -124,6 +133,16 @@ namespace FEBuilderGBA
                     IgnoreTSA.Checked = false;
                 }
                 else if (Program.ROM.RomInfo.version == 206)
+                {
+                    U.ForceUpdate(this.ConvertWidth, 30 * 8);
+                    U.ForceUpdate(this.ConvertHeight, 20 * 8);
+                    U.ForceUpdate(this.ConvertYohaku, 2 * 8);
+                    U.ForceUpdate(this.ConvertPaletteNo, 4);
+                    U.ForceUpdate(this.ConvertReserveColor, 1);
+                    U.ForceUpdate(this.ConvertSizeMethod, 1);
+                    IgnoreTSA.Checked = false;
+                }
+                else if (Program.ROM.RomInfo.version == 209)
                 {
                     U.ForceUpdate(this.ConvertWidth, 30 * 8);
                     U.ForceUpdate(this.ConvertHeight, 20 * 8);
