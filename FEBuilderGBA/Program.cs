@@ -330,6 +330,10 @@ namespace FEBuilderGBA
             {
                 return InputFormRef.JumpFormLow<MainFE7Form>();
             }
+            else if (Program.ROM.RomInfo.version == 209)
+            {
+                return InputFormRef.JumpFormLow<MainFE7Form>();
+            }
             return InputFormRef.JumpFormLow<MainFE8Form>();
         }
 
