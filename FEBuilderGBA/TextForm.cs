@@ -316,6 +316,13 @@ namespace FEBuilderGBA
                     return true;
                 }
             }
+	    else if (Program.ROM.RomInfo.version == 209)
+            {
+                if (textid >= 0x1E00 && textid <= 0x1FFF)
+                {
+                    return true;
+                }
+            }
 
             return false;
         }
@@ -3219,6 +3226,30 @@ namespace FEBuilderGBA
                         }
                     }
                 } 
+		else if (Program.ROM.RomInfo.version == 209)
+                {
+                    if (Program.ROM.RomInfo.is_multibyte)
+                    {
+                        if (n == 0 && size.Width == 107 && size.Height == 48 &&
+                            str.IndexOf("狭い通路と出入り口を\r\n") > 0) ///No Translate
+                        {
+                            return true;
+                        }
+                    }
+                    else
+                    {
+                        if (n == 5 && size.Width == 171 && size.Height == 48 &&
+                            str.IndexOf("But I'm so young,") > 0) ///No Translate
+                        {
+                            return true;
+                        }
+                        if (n == 0 && size.Width == 126 && size.Height == 48 &&
+                            str.IndexOf("My name is Serra.") > 0) ///No Translate
+                        {
+                            return true;
+                        }
+                    }
+                }  
                 else
                 {//FE6
                     if (str == "官吏") ///No Translate
