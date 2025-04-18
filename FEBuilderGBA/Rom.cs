@@ -571,6 +571,12 @@ namespace FEBuilderGBA
                 this.RomInfo = new ROMFE7Proto1(this);
                 return true;
             }
+            if (data.Length >= 0x1000000 
+                && version.IndexOf("AE7G01") >= 0)
+            {
+                this.RomInfo = new ROMFE7Proto2(this);
+                return true;
+            }
             if (data.Length >= 0x1000000
                 && version.IndexOf("BE8J01") >= 0)
             {
@@ -664,11 +670,15 @@ namespace FEBuilderGBA
             }
             else if (forceversion.IndexOf("FE7U") >= 0)
             {
-                version = "AE7U01";
+                version = "AE7E01";
             }
             else if (forceversion.IndexOf("FE7P1") >= 0)
             {
                 version = "AE7B01";
+            }
+            else if (forceversion.IndexOf("FE7P2") >= 0)
+            {
+                version = "AE7G01";
             }
             else if (forceversion.IndexOf("FE7E1") >= 0)
             {
