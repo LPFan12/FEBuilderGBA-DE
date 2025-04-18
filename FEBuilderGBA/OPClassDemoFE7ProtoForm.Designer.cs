@@ -39,10 +39,10 @@
             this.L_24_TERRAINBATTLEICON_PLUS1 = new FEBuilderGBA.InterpolatedPictureBox();
             this.L_23_TERRAINBATTLEICON_PLUS1 = new FEBuilderGBA.InterpolatedPictureBox();
             this.X_BATTLEANIMEICON = new FEBuilderGBA.InterpolatedPictureBox();
-            this.L_16_COMBO = new System.Windows.Forms.ComboBox();
+            this.L_17_COMBO = new System.Windows.Forms.ComboBox();
             this.L_24_TERRAINBATTLE_PLUS1 = new FEBuilderGBA.TextBoxEx();
             this.L_23_TERRAINBATTLE_PLUS1 = new FEBuilderGBA.TextBoxEx();
-            this.L_17_BATTLEANIME_PLUS1 = new FEBuilderGBA.TextBoxEx();
+            this.L_16_BATTLEANIME_PLUS1 = new FEBuilderGBA.TextBoxEx();
             this.J_12 = new System.Windows.Forms.Label();
             this.B18 = new System.Windows.Forms.NumericUpDown();
             this.B27 = new System.Windows.Forms.NumericUpDown();
@@ -167,10 +167,10 @@
             this.panel2.Controls.Add(this.L_24_TERRAINBATTLEICON_PLUS1);
             this.panel2.Controls.Add(this.L_23_TERRAINBATTLEICON_PLUS1);
             this.panel2.Controls.Add(this.X_BATTLEANIMEICON);
-            this.panel2.Controls.Add(this.L_16_COMBO);
+            this.panel2.Controls.Add(this.L_17_COMBO);
             this.panel2.Controls.Add(this.L_24_TERRAINBATTLE_PLUS1);
             this.panel2.Controls.Add(this.L_23_TERRAINBATTLE_PLUS1);
-            this.panel2.Controls.Add(this.L_17_BATTLEANIME_PLUS1);
+            this.panel2.Controls.Add(this.L_16_BATTLEANIME_PLUS1);
             this.panel2.Controls.Add(this.J_12);
             this.panel2.Controls.Add(this.B18);
             this.panel2.Controls.Add(this.B27);
@@ -347,20 +347,20 @@
             this.X_BATTLEANIMEICON.TabIndex = 194;
             this.X_BATTLEANIMEICON.TabStop = false;
             // 
-            // L_16_COMBO
+            // L_17_COMBO
             // 
-            this.L_16_COMBO.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.L_16_COMBO.FormattingEnabled = true;
-            this.L_16_COMBO.Items.AddRange(new object[] {
+            this.L_17_COMBO.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.L_17_COMBO.FormattingEnabled = true;
+            this.L_17_COMBO.Items.AddRange(new object[] {
             "00=自軍",
             "01=敵軍",
             "02=NPC",
             "03=グレー"});
-            this.L_16_COMBO.Location = new System.Drawing.Point(266, 342);
-            this.L_16_COMBO.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.L_16_COMBO.Name = "L_16_COMBO";
-            this.L_16_COMBO.Size = new System.Drawing.Size(228, 26);
-            this.L_16_COMBO.TabIndex = 10;
+            this.L_17_COMBO.Location = new System.Drawing.Point(266, 342);
+            this.L_17_COMBO.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.L_17_COMBO.Name = "L_17_COMBO";
+            this.L_17_COMBO.Size = new System.Drawing.Size(228, 26);
+            this.L_17_COMBO.TabIndex = 10;
             // 
             // L_24_TERRAINBATTLE_PLUS1
             // 
@@ -384,16 +384,16 @@
             this.L_23_TERRAINBATTLE_PLUS1.Size = new System.Drawing.Size(228, 25);
             this.L_23_TERRAINBATTLE_PLUS1.TabIndex = 191;
             // 
-            // L_17_BATTLEANIME_PLUS1
+            // L_16_BATTLEANIME_PLUS1
             // 
-            this.L_17_BATTLEANIME_PLUS1.ErrorMessage = "";
-            this.L_17_BATTLEANIME_PLUS1.Location = new System.Drawing.Point(266, 374);
-            this.L_17_BATTLEANIME_PLUS1.Margin = new System.Windows.Forms.Padding(2);
-            this.L_17_BATTLEANIME_PLUS1.Name = "L_17_BATTLEANIME_PLUS1";
-            this.L_17_BATTLEANIME_PLUS1.Placeholder = "";
-            this.L_17_BATTLEANIME_PLUS1.ReadOnly = true;
-            this.L_17_BATTLEANIME_PLUS1.Size = new System.Drawing.Size(228, 25);
-            this.L_17_BATTLEANIME_PLUS1.TabIndex = 189;
+            this.L_16_BATTLEANIME_PLUS1.ErrorMessage = "";
+            this.L_16_BATTLEANIME_PLUS1.Location = new System.Drawing.Point(266, 374);
+            this.L_16_BATTLEANIME_PLUS1.Margin = new System.Windows.Forms.Padding(2);
+            this.L_16_BATTLEANIME_PLUS1.Name = "L_16_BATTLEANIME_PLUS1";
+            this.L_16_BATTLEANIME_PLUS1.Placeholder = "";
+            this.L_16_BATTLEANIME_PLUS1.ReadOnly = true;
+            this.L_16_BATTLEANIME_PLUS1.Size = new System.Drawing.Size(228, 25);
+            this.L_16_BATTLEANIME_PLUS1.TabIndex = 189;
             // 
             // J_12
             // 
@@ -857,15 +857,14 @@
             // 
             // J_17_BATTLEANIME
             // 
-            this.J_17_BATTLEANIME.AccessibleDescription = "@OP_CLASSDEMO_BATTLEANIME";
-            this.J_17_BATTLEANIME.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.J_17_BATTLEANIME.Location = new System.Drawing.Point(2, 368);
-            this.J_17_BATTLEANIME.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.J_17_BATTLEANIME.Name = "J_17_BATTLEANIME";
-            this.J_17_BATTLEANIME.Size = new System.Drawing.Size(175, 32);
-            this.J_17_BATTLEANIME.TabIndex = 158;
-            this.J_17_BATTLEANIME.Text = "戦闘アニメ";
-            this.J_17_BATTLEANIME.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.J_17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.J_17.Location = new System.Drawing.Point(2, 337);
+            this.J_17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.J_17.Name = "J_17";
+            this.J_17.Size = new System.Drawing.Size(175, 32);
+            this.J_17.TabIndex = 156;
+            this.J_17.Text = "敵味方カラー";
+            this.J_17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // B15
             // 
@@ -883,14 +882,15 @@
             // 
             // J_16
             // 
-            this.J_16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.J_16.Location = new System.Drawing.Point(2, 337);
-            this.J_16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.J_16.Name = "J_16";
-            this.J_16.Size = new System.Drawing.Size(175, 32);
-            this.J_16.TabIndex = 156;
-            this.J_16.Text = "敵味方カラー";
-            this.J_16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.J_16_BATTLEANIME.AccessibleDescription = "@OP_CLASSDEMO_BATTLEANIME";
+            this.J_16_BATTLEANIME.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.J_16_BATTLEANIME.Location = new System.Drawing.Point(2, 368);
+            this.J_16_BATTLEANIME.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.J_16_BATTLEANIME.Name = "J_16_BATTLEANIME";
+            this.J_16_BATTLEANIME.Size = new System.Drawing.Size(175, 32);
+            this.J_16_BATTLEANIME.TabIndex = 158;
+            this.J_16_BATTLEANIME.Text = "戦闘アニメ";
+            this.J_16_BATTLEANIME.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // L_15_CLASS
             // 
