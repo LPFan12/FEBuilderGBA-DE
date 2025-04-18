@@ -486,6 +486,23 @@ namespace FEBuilderGBA
                     callEndEventFunction = 0x08079A38;
                 }
             }
+            else if (Program.ROM.RomInfo.version == 209)
+            {
+                if (Program.ROM.RomInfo.is_multibyte)
+                {//FE7J
+                    endAllMenusFunction = 0x0804AC78;
+                    deletePlayerPhaseInterface6CsFunction = 0x0808667C;
+                    setFlagFunction = 0x0807A0B4;
+                    callEndEventFunction = 0x0807a208;
+                }
+                else
+                {//FE7U
+                    endAllMenusFunction = 0x0804A490;
+                    deletePlayerPhaseInterface6CsFunction = 0x08085C7C;
+                    setFlagFunction = 0x080798E4;
+                    callEndEventFunction = 0x08079A38;
+                }
+            }
             else
             {//FE6
                 endAllMenusFunction = 0x08041A38;
@@ -652,6 +669,33 @@ namespace FEBuilderGBA
                 }
             }
             else if (Program.ROM.RomInfo.version == 206)
+            {
+                if (Program.ROM.RomInfo.is_multibyte)
+                {//FE7J
+                    RefreshFogAndUnitMaps = 0x08019ea4;
+                    UpdateMapAndUnit = 0x0802F858;
+                    ClearMOVEUNITs = 0x0806d4a4;
+
+                    PointerProcsPlayerPhase = 0x080158D0;
+                    Find6C = 0x08004584;
+                    PlayerPhase_RangeDisplayIdle = 0x0801CACC;
+                    KeyBuffer = 0x02024C78;
+                    SetCursorMapPosition = 0x08015f0c;
+                }
+                else
+                {//FE7U
+                    RefreshFogAndUnitMaps = 0x08019ABC;
+                    UpdateMapAndUnit = 0x0802F38C;
+                    ClearMOVEUNITs = 0x0806ccb8;
+
+                    PointerProcsPlayerPhase = 0x08015454;
+                    Find6C = 0x080046a8;
+                    PlayerPhase_RangeDisplayIdle = 0x0801C6C8;
+                    KeyBuffer = 0x02024C78;
+                    SetCursorMapPosition = 0x08015a90;
+                }
+            }
+            else if (Program.ROM.RomInfo.version == 209)
             {
                 if (Program.ROM.RomInfo.is_multibyte)
                 {//FE7J
