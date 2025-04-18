@@ -258,6 +258,16 @@ namespace FEBuilderGBA
                 TRAP_N01_L_3_COMBO.Items.Add(R._("0=--"));
                 TRAP_N01_L_3_COMBO.EndUpdate();
             }
+            if (Program.ROM.RomInfo.version == 209)
+            {//バリスタの並び順が異なるので作り直す
+                TRAP_N01_L_3_COMBO.BeginUpdate();
+                TRAP_N01_L_3_COMBO.Items.Clear();
+                TRAP_N01_L_3_COMBO.Items.Add(R._("34=ロングアーチ"));
+                TRAP_N01_L_3_COMBO.Items.Add(R._("35=アイアンアーチ"));
+                TRAP_N01_L_3_COMBO.Items.Add(R._("36=キラーアーチ"));
+                TRAP_N01_L_3_COMBO.Items.Add(R._("0=--"));
+                TRAP_N01_L_3_COMBO.EndUpdate();
+            }
 
 
             if (Program.ROM.RomInfo.version == 6)
@@ -465,6 +475,31 @@ namespace FEBuilderGBA
                     );
             }
             else if (Program.ROM.RomInfo.version == 206)
+            {//FE7だけサイズが違う.
+                return new InputFormRef(self
+                    , "NFE702_"
+                    , new List<String>()
+                    , 0, Program.ROM.RomInfo.eventcond_tern_size
+                    , (uint addr) =>
+                    {
+                        uint type = Program.ROM.u8(addr);
+                        if (type == 1)
+                        {//信じられないことにFE7ではサイズは可変長である.
+                            return addr + 12;
+                        }
+                        return addr + Program.ROM.RomInfo.eventcond_tern_size;
+                    }
+                    , (int i, uint addr) =>
+                    {//00まで検索
+                        return Program.ROM.u32(addr + 0) != 0;
+                    }
+                    , (int i, uint addr) =>
+                    {
+                        return new U.AddrResult(addr, (addr).ToString("X08"));
+                    }
+                    );
+            }
+            else if (Program.ROM.RomInfo.version == 209)
             {//FE7だけサイズが違う.
                 return new InputFormRef(self
                     , "NFE702_"
@@ -744,6 +779,10 @@ namespace FEBuilderGBA
                 {//FE7だけターン条件のサイズが違う
                     this.CondTabControl.SelectedTab = tabPage02FE7;
                 }
+                else if (Program.ROM.RomInfo.version == 209)
+                {//FE7だけターン条件のサイズが違う
+                    this.CondTabControl.SelectedTab = tabPage02FE7;
+                }
                 else
                 {
                     this.CondTabControl.SelectedTab = tabPage02;
@@ -987,6 +1026,11 @@ namespace FEBuilderGBA
                             addr += 12;
                         }
                         else if (Program.ROM.RomInfo.version == 206
+                            && type == 1)
+                        {//信じられないがFE7は12バイトの短いターンイベントが存在する
+                            addr += 12;
+                        }
+                        else if (Program.ROM.RomInfo.version == 209
                             && type == 1)
                         {//信じられないがFE7は12バイトの短いターンイベントが存在する
                             addr += 12;
@@ -1382,6 +1426,11 @@ namespace FEBuilderGBA
                     //ターン1はサイズが小さい
                     //ターン2はサイズが大きい
                 }
+                else if (Program.ROM.RomInfo.version == 209 && (type == 0x1 || type == 0x2))
+                {//FE7 には、ターン1-2まである
+                    //ターン1はサイズが小さい
+                    //ターン2はサイズが大きい
+                }
                 else if (Program.ROM.RomInfo.version == 8 && (type == 0x2))
                 {//FE8 には、ターン2がある
                 }
@@ -1512,6 +1561,30 @@ namespace FEBuilderGBA
                 FELint.CheckEventPointer(start_addr, errors, CONDTYPE.START_EVENT, (uint)(mapcond_addr + (4 * 14)), true, tracelist);
                 FELint.CheckEventPointer(end_addr, errors, CONDTYPE.END_EVENT, (uint)(mapcond_addr + (4 * 15)), true, tracelist);
             }
+            else if (Program.ROM.RomInfo.version == 209)
+            {
+                uint eliwood_enemy_addr = Program.ROM.u32((uint)(mapcond_addr + (4 * 6)));
+                uint eliwood_enemy_hard_addr = Program.ROM.u32((uint)(mapcond_addr + (4 * 7)));
+                uint hextor_enemy_addr = Program.ROM.u32((uint)(mapcond_addr + (4 * 8)));
+                uint hextor_enemy_hard_addr = Program.ROM.u32((uint)(mapcond_addr + (4 * 9)));
+                uint eliwood_player_addr = Program.ROM.u32((uint)(mapcond_addr + (4 * 10)));
+                uint eliwood_player_hard_addr = Program.ROM.u32((uint)(mapcond_addr + (4 * 11)));
+                uint hextor_player_addr = Program.ROM.u32((uint)(mapcond_addr + (4 * 12)));
+                uint hextor_player_hard_addr = Program.ROM.u32((uint)(mapcond_addr + (4 * 13)));
+                uint start_addr = Program.ROM.u32((uint)(mapcond_addr + (4 * 14)));
+                uint end_addr = Program.ROM.u32((uint)(mapcond_addr + (4 * 15)));
+
+                FELint.CheckPointerAlien4(eliwood_enemy_addr, errors, CONDTYPE.ENEMY_UNIT, (uint)(mapcond_addr + (4 * 6)));
+                FELint.CheckPointerAlien4(eliwood_enemy_hard_addr, errors, CONDTYPE.ENEMY_UNIT, (uint)(mapcond_addr + (4 * 7)));
+                FELint.CheckPointerAlien4(hextor_enemy_addr, errors, CONDTYPE.ENEMY_UNIT, (uint)(mapcond_addr + (4 * 8)));
+                FELint.CheckPointerAlien4(hextor_enemy_hard_addr, errors, CONDTYPE.ENEMY_UNIT, (uint)(mapcond_addr + (4 * 9)));
+                FELint.CheckPointerAlien4(eliwood_player_addr, errors, CONDTYPE.PLAYER_UNIT, (uint)(mapcond_addr + (4 * 10)));
+                FELint.CheckPointerAlien4(eliwood_player_hard_addr, errors, CONDTYPE.PLAYER_UNIT, (uint)(mapcond_addr + (4 * 11)));
+                FELint.CheckPointerAlien4(hextor_player_addr, errors, CONDTYPE.PLAYER_UNIT, (uint)(mapcond_addr + (4 * 12)));
+                FELint.CheckPointerAlien4(hextor_player_hard_addr, errors, CONDTYPE.PLAYER_UNIT, (uint)(mapcond_addr + (4 * 13)));
+                FELint.CheckEventPointer(start_addr, errors, CONDTYPE.START_EVENT, (uint)(mapcond_addr + (4 * 14)), true, tracelist);
+                FELint.CheckEventPointer(end_addr, errors, CONDTYPE.END_EVENT, (uint)(mapcond_addr + (4 * 15)), true, tracelist);
+            }
             else if (Program.ROM.RomInfo.version == 6)
             {
                 uint player_addr = Program.ROM.u32((uint)(mapcond_addr + (4 * 4)));
@@ -1557,6 +1630,13 @@ namespace FEBuilderGBA
                 FELint.CheckPointer(trap2_cond_addr, errors, CONDTYPE.TRAP, (uint)(mapcond_addr + (4 * 5)));
             }
             else if (Program.ROM.RomInfo.version == 206)
+            {
+                uint trap1_cond_addr = Program.ROM.u32((uint)(mapcond_addr + (4 * 4)));
+                uint trap2_cond_addr = Program.ROM.u32((uint)(mapcond_addr + (4 * 5)));
+                FELint.CheckPointer(trap1_cond_addr, errors, CONDTYPE.TRAP, (uint)(mapcond_addr + (4 * 4)));
+                FELint.CheckPointer(trap2_cond_addr, errors, CONDTYPE.TRAP, (uint)(mapcond_addr + (4 * 5)));
+            }
+            else if (Program.ROM.RomInfo.version == 209)
             {
                 uint trap1_cond_addr = Program.ROM.u32((uint)(mapcond_addr + (4 * 4)));
                 uint trap2_cond_addr = Program.ROM.u32((uint)(mapcond_addr + (4 * 5)));
@@ -2405,6 +2485,15 @@ namespace FEBuilderGBA
                             return;
                         }
                     }
+                    else if (Program.ROM.RomInfo.version == 209)
+                    {
+                        uint select = InputFormRef.AddrToSelect(NFE702_AddressList, addr);
+                        if (select != U.NOT_FOUND)
+                        {
+                            U.SelectedIndexSafety(NFE702_AddressList, select);
+                            return;
+                        }
+                    }
                     else
                     {
                         uint select = InputFormRef.AddrToSelect(N02_AddressList, addr);
@@ -2605,6 +2694,11 @@ namespace FEBuilderGBA
                                 base_addr += 12;
                             }
                             else if (Program.ROM.RomInfo.version == 206 
+                                && type == 1)
+                            {//信じられないがFE7は12バイトの短いターンイベントが存在する
+                                base_addr += 12;
+                            }
+                            else if (Program.ROM.RomInfo.version == 209 
                                 && type == 1)
                             {//信じられないがFE7は12バイトの短いターンイベントが存在する
                                 base_addr += 12;
@@ -3304,6 +3398,41 @@ namespace FEBuilderGBA
                 //Program.ROM.write_p32(write_addr + 60, 0, undodata); //end event
             }
             else if (Program.ROM.RomInfo.version == 206)
+            {
+                uint eventSize = (uint)(EventCondForm.MapCond.Count * 4);
+                uint turn = eventSize;
+                uint talk = turn + 16;
+                uint mapobject = talk + 16;
+                uint always = mapobject + 12;
+                uint trap = always + 12;
+                uint trap2 = trap + 6;
+                uint total = trap2 + 6;
+                byte[] data = new byte[total];
+
+                write_addr = InputFormRef.AppendBinaryData(data, undodata);
+                if (write_addr == U.NOT_FOUND)
+                {
+                    Program.Undo.Rollback(undodata);
+                    return 0;
+                }
+                Program.ROM.write_p32(write_addr + 0, write_addr + turn, undodata);  //turn
+                Program.ROM.write_p32(write_addr + 4, write_addr + talk, undodata); //talk
+                Program.ROM.write_p32(write_addr + 8, write_addr + mapobject, undodata); //mapobject
+                Program.ROM.write_p32(write_addr + 12, write_addr + always, undodata); //always
+                Program.ROM.write_p32(write_addr + 16, write_addr + trap, undodata); //trap
+                Program.ROM.write_p32(write_addr + 20, write_addr + trap2, undodata); //trap2
+                //Program.ROM.write_p32(write_addr + 24, 0, undodata); //enemy elwood units
+                //Program.ROM.write_p32(write_addr + 28, 0, undodata); //enemy elwood hard units
+                //Program.ROM.write_p32(write_addr + 32, 0, undodata); //enemy hextor units
+                //Program.ROM.write_p32(write_addr + 36, 0, undodata); //enemy hextor hard units
+                //Program.ROM.write_p32(write_addr + 40, 0, undodata); //player elwood units
+                //Program.ROM.write_p32(write_addr + 44, 0, undodata); //player elwood hard units
+                //Program.ROM.write_p32(write_addr + 48, 0, undodata); //player hextor units
+                //Program.ROM.write_p32(write_addr + 52, 0, undodata); //player hextor hard units
+                //Program.ROM.write_p32(write_addr + 56, 0, undodata); //start event
+                //Program.ROM.write_p32(write_addr + 60, 0, undodata); //end event
+            }
+            else if (Program.ROM.RomInfo.version == 209)
             {
                 uint eventSize = (uint)(EventCondForm.MapCond.Count * 4);
                 uint turn = eventSize;
@@ -4817,6 +4946,71 @@ namespace FEBuilderGBA
                         break;
                 }
             }
+            else if (Program.ROM.RomInfo.version == 209)
+            {
+                switch (index + 1)
+                {
+                    case 1:   //TURN	ターン条件
+                        //ぐるぐる
+                        bitmap = ImageSystemIconForm.MusicIcon(12);
+                        break;
+                    case 2:   //TALK	会話条件(話すコマンド)
+                        //顔アイコン
+                        bitmap = ImageSystemIconForm.TalkIcon();
+                        break;
+                    case 3:   //OBJECT	マップオブジェクト(制圧ポイント、宝箱、扉、民家、村)
+                        //宝箱だしたいなあ
+                        bitmap = ImageSystemIconForm.Cursol();
+                        break;
+                    case 4:   //ALWAYS	常時条件(範囲条件、勝利条件等)
+                        //目立つ緑のアイコン
+                        bitmap = ImageSystemIconForm.MusicIcon(3);
+                        break;
+                    case 5:   //TRAP	トラップ(アーチ、ダメージ床)（エリウッド）
+                        //バリスタ
+                        bitmap = ImageSystemIconForm.BaristaIcon();
+                        break;
+                    case 6:   //TRAP	トラップ(アーチ、ダメージ床)（ヘクトル）
+                        //バリスタ
+                        bitmap = ImageSystemIconForm.BaristaIcon();
+                        break;
+                    case 7:   //ENEMY_UNIT	敵配置（エリウッドノーマル）
+                        bitmap = ImageUnitWaitIconFrom.DrawWaitUnitIconBitmap(0x10, 2, true);
+                        break;
+                    case 8:   //ENEMY_UNIT	敵配置（エリウッドハード）
+                        bitmap = ImageUnitWaitIconFrom.DrawWaitUnitIconBitmap(0x11, 2, true);
+                        break;
+                    case 9:   //ENEMY_UNIT	敵配置（ヘクトルノーマル）
+                        bitmap = ImageUnitWaitIconFrom.DrawWaitUnitIconBitmap(0x1E, 2, true);
+                        break;
+                    case 10:   //ENEMY_UNIT	敵配置（ヘクトルハード）
+                        bitmap = ImageUnitWaitIconFrom.DrawWaitUnitIconBitmap(0x20, 2, true);
+                        break;
+                    case 11:   //PLAYER_UNIT	自軍配置（エリウッドノーマル）
+                        bitmap = ImageUnitWaitIconFrom.DrawWaitUnitIconBitmap(0x0, 0, true);
+                        break;
+                    case 12:   //PLAYER_UNIT	自軍配置（エリウッドハード）
+                        bitmap = ImageUnitWaitIconFrom.DrawWaitUnitIconBitmap(0x1, 0, true);
+                        break;
+                    case 13:   //PLAYER_UNIT	自軍配置（ヘクトルノーマル）
+                        bitmap = ImageUnitWaitIconFrom.DrawWaitUnitIconBitmap(0x2, 0, true);
+                        break;
+                    case 14:   //PLAYER_UNIT	自軍配置（ヘクトルハード）
+                        bitmap = ImageUnitWaitIconFrom.DrawWaitUnitIconBitmap(0x3, 0, true);
+                        break;
+                    case 15:    //START_EVENT	章開始イベント
+                        //剣のアイコン
+                        bitmap = ImageSystemIconForm.MusicIcon(10);
+                        break;
+                    case 16:    //END_EVENT	章終了イベント
+                        //色補正アイコン
+                        bitmap = ImageSystemIconForm.MusicIcon(8);
+                        break;
+                    default:
+                        bitmap = ImageUtil.Blank(16, 16);
+                        break;
+                }
+            }
             else
             {//6
                 switch (index + 1)
@@ -4999,6 +5193,11 @@ namespace FEBuilderGBA
                     eventCondList.AddRange(tutorialCondList);
                 }
                 if (Program.ROM.RomInfo.version == 206)
+                {
+                    List<U.AddrResult> tutorialCondList = MakeEventScriptForFE7Tutorial(mapid);
+                    eventCondList.AddRange(tutorialCondList);
+                }
+                if (Program.ROM.RomInfo.version == 209)
                 {
                     List<U.AddrResult> tutorialCondList = MakeEventScriptForFE7Tutorial(mapid);
                     eventCondList.AddRange(tutorialCondList);
@@ -5205,6 +5404,13 @@ namespace FEBuilderGBA
                 }
             }
             else if (Program.ROM.RomInfo.version == 206)
+            {
+                if (this.NFE702_W0.Value == 0)
+                {
+                    NFE702_W2.Value = 0;
+                }
+            }
+            else if (Program.ROM.RomInfo.version == 209)
             {
                 if (this.NFE702_W0.Value == 0)
                 {
@@ -5453,6 +5659,14 @@ namespace FEBuilderGBA
                 MakeFlagIDArrayOne(mapid, end_addr, 0, flaglist);
             }
             else if (Program.ROM.RomInfo.version == 206)
+            {
+                uint start_addr = Program.ROM.u32((uint)(mapcond_addr + (4 * 14)));
+                uint end_addr = Program.ROM.u32((uint)(mapcond_addr + (4 * 15)));
+
+                MakeFlagIDArrayOne(mapid, start_addr, 0, flaglist);
+                MakeFlagIDArrayOne(mapid, end_addr, 0, flaglist);
+            }
+            else if (Program.ROM.RomInfo.version == 209)
             {
                 uint start_addr = Program.ROM.u32((uint)(mapcond_addr + (4 * 14)));
                 uint end_addr = Program.ROM.u32((uint)(mapcond_addr + (4 * 15)));
