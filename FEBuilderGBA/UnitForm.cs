@@ -249,6 +249,10 @@ namespace FEBuilderGBA
             {
                 return UnitFE7Form.GetHighClassFE7(uid);
             }
+            if (Program.ROM.RomInfo.version == 209)
+            {
+                return UnitFE7Form.GetHighClassFE7(uid);
+            }
             Debug.Assert(false); //未実装
             return U.NOT_FOUND;
 
@@ -542,6 +546,10 @@ namespace FEBuilderGBA
             {
                 return UnitFE7Form.GetPaletteLowClass(uid);
             }
+            if (Program.ROM.RomInfo.version == 209)
+            {
+                return UnitFE7Form.GetPaletteLowClass(uid);
+            }
             if (Program.ROM.RomInfo.version == 6)
             {
                 return UnitFE6Form.GetPaletteLowClass(uid);
@@ -556,6 +564,10 @@ namespace FEBuilderGBA
                 return UnitFE7Form.GetPaletteHighClass(uid);
             }
             if (Program.ROM.RomInfo.version == 206)
+            {
+                return UnitFE7Form.GetPaletteHighClass(uid);
+            }
+            if (Program.ROM.RomInfo.version == 209)
             {
                 return UnitFE7Form.GetPaletteHighClass(uid);
             }
@@ -874,6 +886,10 @@ namespace FEBuilderGBA
                 return (cid >= 0x01 && cid <= 0x03);
             }
             else if (Program.ROM.RomInfo.version == 206)
+            {
+                return (cid >= 0x01 && cid <= 0x03);
+            }
+            else if (Program.ROM.RomInfo.version == 209)
             {
                 return (cid >= 0x01 && cid <= 0x03);
             }
