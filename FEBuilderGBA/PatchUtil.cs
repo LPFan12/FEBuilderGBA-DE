@@ -519,7 +519,7 @@ namespace FEBuilderGBA
         public static StairsHack_enum SearchStairsHackPatch_Low()
         {
             uint enable_value = 0x47184b00;
-            if(Program.ROM.RomInfo.version == 8)
+            if (Program.ROM.RomInfo.version == 8)
             {
                 if (Program.ROM.RomInfo.is_multibyte)
                 {
@@ -543,7 +543,7 @@ namespace FEBuilderGBA
                     }
                 }
             }
-            if(Program.ROM.RomInfo.version == 7)
+            if (Program.ROM.RomInfo.version == 7)
             {
                 if (Program.ROM.RomInfo.is_multibyte)
                 {
@@ -562,7 +562,26 @@ namespace FEBuilderGBA
                     }
                 }
             }
-            if(Program.ROM.RomInfo.version == 206)
+            if (Program.ROM.RomInfo.version == 206)
+            {
+                if (Program.ROM.RomInfo.is_multibyte)
+                {
+                    uint a = Program.ROM.u32(0x219F8);
+                    if (a == enable_value)
+                    {
+                        return StairsHack_enum.Ver1;
+                    }
+                }
+                else
+                {
+                    uint a = Program.ROM.u32(0x21580);
+                    if (a == enable_value)
+                    {
+                        return StairsHack_enum.Ver1;
+                    }
+                }
+            }
+            if (Program.ROM.RomInfo.version == 209)
             {
                 if (Program.ROM.RomInfo.is_multibyte)
                 {
