@@ -19,7 +19,7 @@ namespace FEBuilderGBA
             text_recover_address = 0xBBB370; // textの開始位置(上記ポインタを壊している改造があるののでその対策)
             text_data_start_address = 0xB36950; // textデータの規定値の開始位置
             text_data_end_address = 0xBB72E0; // textデータの規定値の開始位置
-            unit_pointer = 0x17954; // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
+            unit_pointer = 0x09C644; // Ist das der richtige Pointer?
             unit_maxcount = 253; // ユニットの最大数
             unit_datasize = 52; // ユニットのデータサイズ
             max_level_address = 0x29B42; // 最大レベルの値を格納しているアドレス
