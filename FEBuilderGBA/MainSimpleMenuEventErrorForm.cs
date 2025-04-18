@@ -628,6 +628,11 @@ namespace FEBuilderGBA
                     EventUnitFE7Form f = (EventUnitFE7Form)InputFormRef.JumpForm<EventUnitFE7Form>(U.NOT_FOUND);
                     f.JumpTo(addr);
                 }
+                else if (Program.ROM.RomInfo.version == 209)
+                {
+                    EventUnitFE7Form f = (EventUnitFE7Form)InputFormRef.JumpForm<EventUnitFE7Form>(U.NOT_FOUND);
+                    f.JumpTo(addr);
+                }
                 else
                 {
                     EventUnitForm f = (EventUnitForm)InputFormRef.JumpForm<EventUnitForm>(U.NOT_FOUND);
@@ -674,6 +679,17 @@ namespace FEBuilderGBA
                     }
                 }
                 else if (Program.ROM.RomInfo.version == 206)
+                {
+                    if (!Program.ROM.RomInfo.is_multibyte)
+                    {
+                        InputFormRef.JumpForm<MapSettingFE7UForm>(mapid);
+                    }
+                    else
+                    {
+                        InputFormRef.JumpForm<MapSettingFE7Form>(mapid);
+                    }
+                }
+                else if (Program.ROM.RomInfo.version == 209)
                 {
                     if (!Program.ROM.RomInfo.is_multibyte)
                     {
@@ -733,6 +749,10 @@ namespace FEBuilderGBA
                 {
                     InputFormRef.JumpForm<EventHaikuFE7Form>(tag);
                 }
+                else if (Program.ROM.RomInfo.version == 209)
+                {
+                    InputFormRef.JumpForm<EventHaikuFE7Form>(tag);
+                }
                 else
                 {
                     InputFormRef.JumpForm<EventHaikuFE6Form>(tag);
@@ -750,6 +770,10 @@ namespace FEBuilderGBA
                     InputFormRef.JumpForm<EventBattleTalkFE7Form>(tag);
                 }
                 else if (Program.ROM.RomInfo.version == 206)
+                {
+                    InputFormRef.JumpForm<EventBattleTalkFE7Form>(tag);
+                }
+                else if (Program.ROM.RomInfo.version == 209)
                 {
                     InputFormRef.JumpForm<EventBattleTalkFE7Form>(tag);
                 }
@@ -771,7 +795,11 @@ namespace FEBuilderGBA
                 }
                 else if (Program.ROM.RomInfo.version == 206)
                 {
-                    InputFormRef.JumpForm<SupportTalkFE7Form>(tag);
+                    InputFormRef.JumpForm<SupportTalkFE6Form>(tag);
+                }
+                else if (Program.ROM.RomInfo.version == 209)
+                {
+                    InputFormRef.JumpForm<SupportTalkFE6Form>(tag);
                 }
                 else
                 {
@@ -834,6 +862,10 @@ namespace FEBuilderGBA
                     InputFormRef.JumpForm<UnitFE7Form>(tag);
                 }
                 else if (Program.ROM.RomInfo.version == 206)
+                {
+                    InputFormRef.JumpForm<UnitFE7Form>(tag);
+                }
+                else if (Program.ROM.RomInfo.version == 209)
                 {
                     InputFormRef.JumpForm<UnitFE7Form>(tag);
                 }
@@ -948,11 +980,19 @@ namespace FEBuilderGBA
                 {
                     InputFormRef.JumpForm<OPClassDemoFE7Form>(tag);
                 }
+                else if (Program.ROM.RomInfo.version == 209 && Program.ROM.RomInfo.is_multibyte)
+                {
+                    InputFormRef.JumpForm<OPClassDemoFE7Form>(tag);
+                }
                 else if (Program.ROM.RomInfo.version == 7 && !Program.ROM.RomInfo.is_multibyte)
                 {
                     InputFormRef.JumpForm<OPClassDemoFE7UForm>(tag);
                 }
                 else if (Program.ROM.RomInfo.version == 206 && !Program.ROM.RomInfo.is_multibyte)
+                {
+                    InputFormRef.JumpForm<OPClassDemoFE7UForm>(tag);
+                }
+                else if (Program.ROM.RomInfo.version == 209 && !Program.ROM.RomInfo.is_multibyte)
                 {
                     InputFormRef.JumpForm<OPClassDemoFE7UForm>(tag);
                 }
@@ -1022,6 +1062,10 @@ namespace FEBuilderGBA
                 {
                     InputFormRef.JumpForm<EDSensekiCommentForm>(tag);
                 }
+                else if (Program.ROM.RomInfo.version == 209)
+                {
+                    InputFormRef.JumpForm<EDSensekiCommentForm>(tag);
+                }
                 return;
             }
             else if (dataType == FELint.Type.DIC)
@@ -1054,6 +1098,10 @@ namespace FEBuilderGBA
                     InputFormRef.JumpForm<EDFE7Form>();
                 }
                 else if (Program.ROM.RomInfo.version == 206)
+                {
+                    InputFormRef.JumpForm<EDFE7Form>();
+                }
+                else if (Program.ROM.RomInfo.version == 209)
                 {
                     InputFormRef.JumpForm<EDFE7Form>();
                 }
