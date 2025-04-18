@@ -59,6 +59,10 @@ namespace FEBuilderGBA
             {//英語版FE7は、章タイトルをテキストで保持していて、40260c nazo fontで、描画している.
                 ImageChapterTitleButton.Hide();
             }
+            else if (Program.ROM.RomInfo.version == 209 && Program.ROM.RomInfo.is_multibyte == false)
+            {//英語版FE7は、章タイトルをテキストで保持していて、40260c nazo fontで、描画している.
+                ImageChapterTitleButton.Hide();
+            }
             else
             {
                 ImageChapterTitleButton.BackgroundImage = MakeTransparent(ImageChapterTitleForm.DrawSample(0));
@@ -178,6 +182,19 @@ namespace FEBuilderGBA
                     return;
                 }
             }
+            else if (Program.ROM.RomInfo.version == 209)
+            {
+                if (!Program.ROM.RomInfo.is_multibyte)
+                {
+                    InputFormRef.JumpForm<ImageCGFE7UForm>();
+                    return;
+                }
+                else
+                {
+                    InputFormRef.JumpForm<ImageCGForm>();
+                    return;
+                }
+            }
 
             if (Program.ROM.RomInfo.bigcg_pointer != 0)
             {
@@ -251,6 +268,10 @@ namespace FEBuilderGBA
             {
                 InputFormRef.JumpForm<WorldMapImageFE7Form>();
             }
+            else if (Program.ROM.RomInfo.version == 209)
+            {
+                InputFormRef.JumpForm<WorldMapImageFE7Form>();
+            }
             else if (Program.ROM.RomInfo.version == 6)
             {
                 InputFormRef.JumpForm<WorldMapImageFE6Form>();
@@ -271,6 +292,13 @@ namespace FEBuilderGBA
                 }
             }
             else if (Program.ROM.RomInfo.version == 206)
+            {
+                if (Program.ROM.RomInfo.is_multibyte)
+                {
+                    InputFormRef.JumpForm<ImageChapterTitleFE7Form>();
+                }
+            }
+            else if (Program.ROM.RomInfo.version == 209)
             {
                 if (Program.ROM.RomInfo.is_multibyte)
                 {
