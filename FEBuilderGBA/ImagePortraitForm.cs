@@ -1186,6 +1186,10 @@ namespace FEBuilderGBA
             {
                 return true;
             }
+            if (Program.ROM.RomInfo.version == 209 && Program.ROM.RomInfo.is_multibyte == false)
+            {
+                return true;
+            }
             return false;
         }
 
