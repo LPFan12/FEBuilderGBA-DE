@@ -213,6 +213,10 @@ namespace FEBuilderGBA
             {
                 return WorldMapEventPointerFE7Form.isWorldMapEvent(addr);
             }
+            else if (Program.ROM.RomInfo.version == 209)
+            {
+                return WorldMapEventPointerFE7Form.isWorldMapEvent(addr);
+            }
             else if (Program.ROM.RomInfo.version == 6)
             {
                 return WorldMapEventPointerFE6Form.isWorldMapEvent(addr);
