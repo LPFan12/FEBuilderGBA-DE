@@ -678,6 +678,13 @@ namespace FEBuilderGBA
                         , this.Script
                         , src_object, false);
                 }
+                else if (Program.ROM.RomInfo.version == 531)
+                {
+                    UnitForm f = (UnitForm)InputFormRef.JumpForm<UnitForm>(value - 1);
+                    MakeInjectionCallback(f
+                        , this.Script
+                        , src_object, false);
+                }
                 else if (Program.ROM.RomInfo.version >= 7)
                 {//FE7
                     UnitFE7Form f = (UnitFE7Form)InputFormRef.JumpForm<UnitFE7Form>(value - 1);
