@@ -28,6 +28,10 @@ namespace FEBuilderGBA
             {
                 this.FilterComboBox.Items.Add(R._("5=状況画面"));
             }
+            if (Program.ROM.RomInfo.version == 531)
+            {
+                this.FilterComboBox.Items.Add(R._("5=状況画面"));
+            }
             this.FilterComboBox.EndUpdate();
             FilterComboBox.SelectedIndex = 0;
         }
