@@ -113,6 +113,25 @@ namespace FEBuilderGBA
                     }
                 }
             }
+            if (Program.ROM.RomInfo.version == 531)
+            {
+                //まずワールドマップイベントをスキャン.
+                List<U.AddrResult> worldmaplist = WorldMapPointForm.MakeWorldMapPointList();
+                for(uint i = 0 ; i < worldmaplist.Count ; i ++)
+                {
+                    List<U.AddrResult> shops =
+                        WorldMapPointForm.GetShopAddr( U.toOffset(worldmaplist[(int)i].addr) );
+                    foreach (U.AddrResult shop in shops)
+                    {
+                        if ( Program.ROM.u8(shop.addr) == 0 )
+                        {//店に品物がない.
+                            continue;
+                        }
+
+                        ret.Add(shop);
+                    }
+                }
+            }
             List<U.AddrResult> maplist = MapSettingForm.MakeMapIDList();
             for (int n = 0; n < maplist.Count; n++)
             {
