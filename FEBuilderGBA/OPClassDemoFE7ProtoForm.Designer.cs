@@ -137,8 +137,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.N2_Address)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.P28)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.B23)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.B17)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.B16)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.B17)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.B15)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.B14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.B13)).BeginInit();
