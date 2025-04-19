@@ -519,6 +519,10 @@ namespace FEBuilderGBA
             {
                 ImageTSAAnime2Form.PreLoadResource();
             }
+            if (Program.ROM.RomInfo.version == 531)
+            {
+                ImageTSAAnime2Form.PreLoadResource();
+            }
 
             //MODの読込.
             ReLoadMod();
