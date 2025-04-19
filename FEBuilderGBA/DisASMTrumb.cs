@@ -2106,6 +2106,10 @@ namespace FEBuilderGBA
             {
                 Debug.Assert( true == IsCode(0x194BC));
             }
+            if (Program.ROM.RomInfo.version == 531 && Program.ROM.RomInfo.is_multibyte )
+            {
+                Debug.Assert( true == IsCode(0x194BC));
+            }
         }
 
         
