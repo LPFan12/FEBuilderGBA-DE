@@ -587,6 +587,13 @@ namespace FEBuilderGBA
                     return R._("ANY");
                 }
             }
+            else if (Program.ROM.RomInfo.version == 531)
+            {
+                if (mapid == 0xFF)
+                {
+                    return R._("ANY");
+                }
+            }
             else
             {
                 if (mapid == 0x45)
