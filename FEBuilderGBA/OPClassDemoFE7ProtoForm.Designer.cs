@@ -81,6 +81,7 @@
             this.B15 = new System.Windows.Forms.NumericUpDown();
             this.J_17 = new System.Windows.Forms.Label();
             this.L_15_CLASS = new FEBuilderGBA.TextBoxEx();
+            this.B14 = new System.Windows.Forms.NumericUpDown();
             this.J_15_CLASS = new System.Windows.Forms.Label();
             this.J_14_UNITPALETTE_PLUS1 = new System.Windows.Forms.Label();
             this.B13 = new System.Windows.Forms.NumericUpDown();
