@@ -17,7 +17,11 @@ namespace FEBuilderGBA
             InitializeComponent();
             SetExplain();
             this.UNITCLASS_LIST.OwnerDraw(ListBoxEx.DrawUnitAndClassAndText, DrawMode.OwnerDrawFixed);
-            if (Program.ROM.RomInfo.version==8)
+            if (Program.ROM.RomInfo.version == 8)
+            {
+                this.UNITCLASS_LIST.ItemListToJumpForm( "UNITPALETTEFE8", new string[] { "UID" });
+            }
+            else if (Program.ROM.RomInfo.version == 531)
             {
                 this.UNITCLASS_LIST.ItemListToJumpForm( "UNITPALETTEFE8", new string[] { "UID" });
             }
@@ -140,6 +144,37 @@ namespace FEBuilderGBA
         void MakeClassList(uint selectindex)
         {
             if (Program.ROM.RomInfo.version == 8)
+            {//FE8の場合キャラパレット指定が別途用意されている
+                uint unit_palette_color_pointer = Program.ROM.p32(Program.ROM.RomInfo.unit_palette_color_pointer);
+                uint unit_palette_class_pointer = Program.ROM.p32(Program.ROM.RomInfo.unit_palette_class_pointer);
+
+                List<U.AddrResult> list = new List<U.AddrResult>();
+                for (int i = 0; i < Program.ROM.RomInfo.unit_maxcount; i++)
+                {
+                    for (uint n = 0; n < 7; n++)
+                    {
+                        uint paletteid = Program.ROM.u8(unit_palette_color_pointer + n);
+                        if (paletteid <= 0)
+                        {
+                            continue;
+                        }
+                        if (paletteid - 1 != selectindex)
+                        {
+                            continue;
+                        }
+                        uint uid = (uint)i+1;
+                        uint cid = Program.ROM.u8(unit_palette_class_pointer + n);
+                        string name = U.ToHexString(uid) + " " + UnitForm.GetUnitName(uid) + " -> " + U.ToHexString(cid) + " " + ClassForm.GetClassName(cid);
+
+                        list.Add(new U.AddrResult(cid, name, uid));
+                    }
+
+                    unit_palette_color_pointer += 7;
+                    unit_palette_class_pointer += 7;
+                }
+                U.ConvertListBox(list, ref UNITCLASS_LIST);
+            }
+            else if (Program.ROM.RomInfo.version == 531)
             {//FE8の場合キャラパレット指定が別途用意されている
                 uint unit_palette_color_pointer = Program.ROM.p32(Program.ROM.RomInfo.unit_palette_color_pointer);
                 uint unit_palette_class_pointer = Program.ROM.p32(Program.ROM.RomInfo.unit_palette_class_pointer);
@@ -428,6 +463,10 @@ namespace FEBuilderGBA
         public static string GetExplainPaletteRule()
         {
             if (Program.ROM.RomInfo.version == 8)
+            {
+                return R._("FE8の色決定ルーチンは以下のようになります。\r\n{0}から、ユニットの現在所属しているクラスに適合するパレットがあるかどうか探索します。\r\nもし、パレットが見つかれば、{1}を利用します。\r\nパレットで見つからなければ、戦闘アニメーションの汎用色のパレットが利用されます。\r\n", R._("ユニット別パレット"), R._("ユニット別パレット"));
+            }
+            else if (Program.ROM.RomInfo.version == 531)
             {
                 return R._("FE8の色決定ルーチンは以下のようになります。\r\n{0}から、ユニットの現在所属しているクラスに適合するパレットがあるかどうか探索します。\r\nもし、パレットが見つかれば、{1}を利用します。\r\nパレットで見つからなければ、戦闘アニメーションの汎用色のパレットが利用されます。\r\n", R._("ユニット別パレット"), R._("ユニット別パレット"));
             }
