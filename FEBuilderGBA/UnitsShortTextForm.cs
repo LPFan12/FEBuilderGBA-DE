@@ -80,6 +80,17 @@ namespace FEBuilderGBA
                     return 0x92E;
                 }
             }
+            if (Program.ROM.RomInfo.version == 531)
+            {
+                if (Program.ROM.RomInfo.is_multibyte)
+                {//FE8J
+                    return 0x8EE;
+                }
+                else
+                {//FE8U
+                    return 0x92E;
+                }
+            }
             return 1;
         }
         uint NewAlloc()
