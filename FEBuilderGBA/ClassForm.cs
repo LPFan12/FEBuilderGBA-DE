@@ -109,6 +109,26 @@ namespace FEBuilderGBA
                     }
                 }
             }
+            if (Program.ROM.RomInfo.version == 531)
+            {//FE8の場合、分岐CCへ
+                InputFormRef.markupJumpLabel(this.J_5);
+
+                //スキル
+                this.X_SkillType = PatchUtil.SearchSkillSystem();
+                if ( this.X_SkillType == PatchUtil.skill_system_enum.SkillSystem
+                  || this.X_SkillType == PatchUtil.skill_system_enum.FE8N_ver2
+                  || this.X_SkillType == PatchUtil.skill_system_enum.FE8N_ver3
+                    )
+                {
+                    InputFormRef.markupJumpLabel(this.X_CLASSSKILL);
+                    this.X_CLASSSKILL.Show();
+                    this.X_SkillButtons = new Button[] { X_SKILL_BUTTON1, X_SKILL_BUTTON2, X_SKILL_BUTTON3, X_SKILL_BUTTON4, X_SKILL_BUTTON5, X_SKILL_BUTTON6, X_SKILL_BUTTON7, X_SKILL_BUTTON8, X_SKILL_BUTTON9 };
+                    for (int i = 0; i < this.X_SkillButtons.Length; i++)
+                    {
+                        this.X_SkillButtons[i].Click += X_CLASSSKILL_Button_Click;
+                    }
+                }
+            }
             //魔法分離パッチ
             MagicSplitUtil.magic_split_enum magic_split = MagicSplitUtil.SearchMagicSplit();
             if (magic_split == MagicSplitUtil.magic_split_enum.FE8NMAGIC)
@@ -801,6 +821,14 @@ namespace FEBuilderGBA
                     OPClassAlphaNameForm.ExpandsArea(this, eearg.OldDataCount, (uint)count, undodata);
                 }
             }
+            if (Program.ROM.RomInfo.version == 531)
+            {
+                CCBranchForm.ExpandsArea(this,eearg.OldDataCount, (uint)count, undodata);
+                if (Program.ROM.RomInfo.is_multibyte)
+                {
+                    OPClassAlphaNameForm.ExpandsArea(this, eearg.OldDataCount, (uint)count, undodata);
+                }
+            }
             //移動アイコンはクラスIDと連動しているので増設しないといけない.
             ImageUnitMoveIconFrom.ExpandsArea(this, eearg.OldDataCount, (uint)count, undodata);
 
@@ -822,6 +850,10 @@ namespace FEBuilderGBA
         private void J_5_Click(object sender, EventArgs e)
         {
             if (Program.ROM.RomInfo.version == 8)
+            {
+                InputFormRef.JumpForm<CCBranchForm>((uint)this.AddressList.SelectedIndex);
+            }
+            if (Program.ROM.RomInfo.version == 531)
             {
                 InputFormRef.JumpForm<CCBranchForm>((uint)this.AddressList.SelectedIndex);
             }
@@ -1151,11 +1183,19 @@ namespace FEBuilderGBA
             {
                 text = SkillSystemsEffectivenessReworkClassTypeForm.GetText(class_type);
             }
+            if (Program.ROM.RomInfo.version == 531 && Program.ROM.RomInfo.is_multibyte == false)
+            {
+                text = SkillSystemsEffectivenessReworkClassTypeForm.GetText(class_type);
+            }
             return text;
         }
         public static Bitmap DrawClassTypeIcon(uint class_type)
         {
             if (Program.ROM.RomInfo.version == 8 && Program.ROM.RomInfo.is_multibyte == false)
+            {
+                return SkillSystemsEffectivenessReworkClassTypeForm.DrawClassTypeIcon(class_type);
+            }
+            if (Program.ROM.RomInfo.version == 531 && Program.ROM.RomInfo.is_multibyte == false)
             {
                 return SkillSystemsEffectivenessReworkClassTypeForm.DrawClassTypeIcon(class_type);
             }
