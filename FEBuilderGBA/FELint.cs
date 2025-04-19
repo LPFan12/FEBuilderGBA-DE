@@ -771,7 +771,40 @@ namespace FEBuilderGBA
                     //FELint.CheckPrologeEventPointer(0, errors);
                 }
             }
+            else if (Program.ROM.RomInfo.version == 531)
+            {
+                if (InputFormRef.DoEvents(null, null)) return errors;
+                WorldMapEventPointerForm.MakeCheckErrors(mapid, errors);
+
+                if (mapid == 0)
+                {
+                    if (InputFormRef.DoEvents(null, null)) return errors;
+                    //FELint.CheckPrologeEventPointer(0, errors);
+                }
+            }
             else if (Program.ROM.RomInfo.version == 7)
+            {
+                if (InputFormRef.DoEvents(null, null)) return errors;
+                WorldMapEventPointerFE7Form.MakeCheckErrors(mapid, errors);
+
+                if (mapid == 0)
+                {
+                    if (InputFormRef.DoEvents(null, null)) return errors;
+                    //FELint.CheckPrologeEventPointer(0, errors);
+                }
+            }
+            else if (Program.ROM.RomInfo.version == 206)
+            {
+                if (InputFormRef.DoEvents(null, null)) return errors;
+                WorldMapEventPointerFE7Form.MakeCheckErrors(mapid, errors);
+
+                if (mapid == 0)
+                {
+                    if (InputFormRef.DoEvents(null, null)) return errors;
+                    //FELint.CheckPrologeEventPointer(0, errors);
+                }
+            }
+            else if (Program.ROM.RomInfo.version == 209)
             {
                 if (InputFormRef.DoEvents(null, null)) return errors;
                 WorldMapEventPointerFE7Form.MakeCheckErrors(mapid, errors);
@@ -920,7 +953,89 @@ namespace FEBuilderGBA
                     SkillAssignmentUnitSkillSystemForm.MakeCheckError(errors);
                 }
             }
+            else if (Program.ROM.RomInfo.version == 531)
+            {
+                if (InputFormRef.DoEvents(null, "ScanSystem SoundFootStepsForm")) return;
+                SoundFootStepsForm.MakeCheckError(errors);
+
+                if (InputFormRef.DoEvents(null, "ScanSystem ImagePortraitForm")) return;
+                ImagePortraitForm.MakeCheckError(errors);
+
+                if (InputFormRef.DoEvents(null, "ScanSystem EventHaikuForm")) return;
+                EventHaikuForm.MakeCheckError(errors);
+
+                if (InputFormRef.DoEvents(null, "ScanSystem EventBattleTalkForm")) return;
+                EventBattleTalkForm.MakeCheckError(errors);
+
+                if (InputFormRef.DoEvents(null, "ScanSystem SupportTalkForm")) return;
+                SupportTalkForm.MakeCheckError(errors);
+
+                if (InputFormRef.DoEvents(null, "ScanSystem SupportUnitForm")) return;
+                SupportUnitForm.MakeCheckError(errors);
+
+                if (InputFormRef.DoEvents(null, "ScanSystem SoundRoomForm")) return;
+                SoundRoomForm.MakeCheckError(errors);
+
+                if (InputFormRef.DoEvents(null, "ScanSystem EDForm")) return;
+                EDForm.MakeCheckError(errors);
+
+                if (Program.ROM.RomInfo.is_multibyte)
+                {
+                }
+                else
+                {
+                    SkillConfigSkillSystemForm.MakeCheckError(errors);
+                    SkillAssignmentClassSkillSystemForm.MakeCheckError(errors);
+                    SkillAssignmentUnitSkillSystemForm.MakeCheckError(errors);
+                }
+            }
             else if (Program.ROM.RomInfo.version == 7)
+            {
+                if (InputFormRef.DoEvents(null, "ScanSystem ImagePortraitForm")) return;
+                ImagePortraitForm.MakeCheckError(errors);
+
+                if (InputFormRef.DoEvents(null, "ScanSystem EventHaikuFE7Form")) return;
+                EventHaikuFE7Form.MakeCheckError(errors);
+
+                if (InputFormRef.DoEvents(null, "ScanSystem EventBattleTalkFE7Form")) return;
+                EventBattleTalkFE7Form.MakeCheckError(errors);
+
+                if (InputFormRef.DoEvents(null, "ScanSystem SupportTalkFE7Form")) return;
+                SupportTalkFE7Form.MakeCheckError(errors);
+
+                if (InputFormRef.DoEvents(null, "ScanSystem SupportUnitForm")) return;
+                SupportUnitForm.MakeCheckError(errors);
+
+                if (InputFormRef.DoEvents(null, "ScanSystem SoundRoomForm")) return;
+                SoundRoomForm.MakeCheckError(errors);
+
+                if (InputFormRef.DoEvents(null, "ScanSystem EDForm")) return;
+                EDFE7Form.MakeCheckError(errors);
+            }
+            else if (Program.ROM.RomInfo.version == 206)
+            {
+                if (InputFormRef.DoEvents(null, "ScanSystem ImagePortraitForm")) return;
+                ImagePortraitForm.MakeCheckError(errors);
+
+                if (InputFormRef.DoEvents(null, "ScanSystem EventHaikuFE7Form")) return;
+                EventHaikuFE7Form.MakeCheckError(errors);
+
+                if (InputFormRef.DoEvents(null, "ScanSystem EventBattleTalkFE7Form")) return;
+                EventBattleTalkFE7Form.MakeCheckError(errors);
+
+                if (InputFormRef.DoEvents(null, "ScanSystem SupportTalkFE7Form")) return;
+                SupportTalkFE7Form.MakeCheckError(errors);
+
+                if (InputFormRef.DoEvents(null, "ScanSystem SupportUnitForm")) return;
+                SupportUnitForm.MakeCheckError(errors);
+
+                if (InputFormRef.DoEvents(null, "ScanSystem SoundRoomForm")) return;
+                SoundRoomForm.MakeCheckError(errors);
+
+                if (InputFormRef.DoEvents(null, "ScanSystem EDForm")) return;
+                EDFE7Form.MakeCheckError(errors);
+            }
+            else if (Program.ROM.RomInfo.version == 209)
             {
                 if (InputFormRef.DoEvents(null, "ScanSystem ImagePortraitForm")) return;
                 ImagePortraitForm.MakeCheckError(errors);
