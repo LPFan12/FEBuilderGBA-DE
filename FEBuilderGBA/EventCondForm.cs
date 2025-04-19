@@ -177,6 +177,59 @@ namespace FEBuilderGBA
 
                 return;
             }
+            if (Program.ROM.RomInfo.version == 531)
+            {//FE8.
+                OBJECT_N05_L_10_COMBO.Items.Add(R._("11=制圧"));
+                OBJECT_N05_L_10_COMBO.AddIcon(0x11, ImageSystemIconForm.Throne()); //11=制圧
+                OBJECT_N05_L_10_COMBO.Items.Add(R._("20=村の中心(盗賊のターゲット)"));
+                OBJECT_N05_L_10_COMBO.AddIcon(0x20, ImageSystemIconForm.VillageCenter()); //20=村の中心(盗賊のターゲット)
+                OBJECT_N05_L_10_COMBO.Items.Add(R._("10=民家"));
+                OBJECT_N05_L_10_COMBO.AddIcon(0x10, ImageSystemIconForm.House()); //10=民家
+                OBJECT_N05_L_10_COMBO.Items.Add(R._("14=ランダム宝箱"));
+                OBJECT_N05_L_10_COMBO.AddIcon(0x14, ImageSystemIconForm.Chest()); //14=ランダム宝箱
+                if (PatchUtil.SearchEscapePatch() != PatchUtil.Escape_enum.NO)
+                {
+                    OBJECT_N05_L_10_COMBO.Items.Add(R._("13=離脱"));
+                    OBJECT_N05_L_10_COMBO.AddIcon(0x13, ImageSystemIconForm.ExitPoint()); //13=離脱
+                    OBJECT_N05_L_10_COMBO.Items.Add(R._("19=到着"));
+                    OBJECT_N05_L_10_COMBO.AddIcon(0x19, ImageSystemIconForm.Castle()); //19=到着
+                }
+                if (PatchUtil.SearchRaidPatch() != PatchUtil.Raid_enum.NO)
+                {
+                    OBJECT_N05_L_10_COMBO.Items.Add(R._("21=Raid"));
+                    OBJECT_N05_L_10_COMBO.AddIcon(0x21, ClassForm.DrawWaitIcon(0x41)); //21=Raid
+                }
+                if (PatchUtil.SearchStairsHackPatch() != PatchUtil.StairsHack_enum.NO)
+                {
+                    OBJECT_N05_L_10_COMBO.Items.Add(R._("22=階段拡張"));
+                    OBJECT_N05_L_10_COMBO.AddIcon(0x22, ImageSystemIconForm.Stairs()); //22=階段
+                }
+                OBJECT_N05_L_10_COMBO.Items.Add(R._("0=--"));
+
+
+                OBJECT_N06_L_10_COMBO.AddIcon(0x20, ImageSystemIconForm.VillageCenter()); //20=村の中心(盗賊のターゲット)
+                OBJECT_N06_L_10_COMBO.AddIcon(0x10, ImageSystemIconForm.Village()); //10=民家
+
+                OBJECT_N07_L_10_COMBO.AddIcon(0x14, ImageSystemIconForm.Chest()); //14=宝箱
+
+                OBJECT_N08_L_10_COMBO.AddIcon(0x12, ImageSystemIconForm.Door()); //12=扉
+
+                OBJECT_N0A_L_10_COMBO.AddIcon(0x16, ImageSystemIconForm.Armory()); //16=武器屋
+                OBJECT_N0A_L_10_COMBO.AddIcon(0x17, ImageSystemIconForm.Vendor()); //17=道具屋
+                OBJECT_N0A_L_10_COMBO.AddIcon(0x18, ImageSystemIconForm.SecretShop()); //18=秘密の店
+
+                if (PatchUtil.SearchSkillSystem() == PatchUtil.skill_system_enum.SkillSystem)
+                {
+                    TRAP_L_0_COMBO.Items.Insert(4, R._("06=DragonVein"));
+                }
+                if (PatchUtil.SearchCache_FourthAllegiance() == PatchUtil.FourthAllegiance_extends.FourthAllegiance)
+                {
+                    N02_L_10_COMBO.Items.Add("C0=第4軍ターンに実行");
+                    N02_L_10_COMBO.AddIcon(0xC0, ImageUnitWaitIconFrom.DrawWaitUnitIconBitmap(10, 4, true)); //C0=第4軍
+                }
+
+                return;
+            }
 
             //FE7とFE6はイベントオブジェクトの種類のIDが違う.
             OBJECT_N05_L_10_COMBO.BeginUpdate();
@@ -869,6 +922,10 @@ namespace FEBuilderGBA
                 {
                     str += R._("FE8では、ここに設定したリストで、進撃準備画面で選択できるユニット数が決定されます。\r\nこれは、FE6,FE7から引き継ついでいる機能です。\r\n過去のバージョンでは、ここに設定したユニットを利用していたようですが、FE8では、リストの人数だけが利用されます。\r\nその人数が、進撃準備画面で選択できるユニットの数になります。\r\n\r\n通常、このリストは準備画面の直前に利用するLOAD1のデータと同じデータを指します。\r\nそのため、通常は、何もしなくても自動的にリストは更新されます。\r\n\r\nただ、あなたが意図的にそれらを削除して破壊した場合、関連性が失われるので、手動で値をメンテナンスする必要があります。\r\n");
                 }
+                else if (Program.ROM.RomInfo.version == 531)
+                {
+                    str += R._("FE8では、ここに設定したリストで、進撃準備画面で選択できるユニット数が決定されます。\r\nこれは、FE6,FE7から引き継ついでいる機能です。\r\n過去のバージョンでは、ここに設定したユニットを利用していたようですが、FE8では、リストの人数だけが利用されます。\r\nその人数が、進撃準備画面で選択できるユニットの数になります。\r\n\r\n通常、このリストは準備画面の直前に利用するLOAD1のデータと同じデータを指します。\r\nそのため、通常は、何もしなくても自動的にリストは更新されます。\r\n\r\nただ、あなたが意図的にそれらを削除して破壊した場合、関連性が失われるので、手動で値をメンテナンスする必要があります。\r\n");
+                }
                 else
                 {
                     str += R._("仲間にしたことがないユニットがいれば、基本的に自動的に加入します。\r\n");
@@ -1434,6 +1491,9 @@ namespace FEBuilderGBA
                 else if (Program.ROM.RomInfo.version == 8 && (type == 0x2))
                 {//FE8 には、ターン2がある
                 }
+                else if (Program.ROM.RomInfo.version == 531 && (type == 0x2))
+                {//FE8 には、ターン2がある
+                }
                 else if (type == 0x00 && flag > 0)
                 {
                     errors.Add(new FELint.ErrorSt(CONDTYPE.TURN, addr
@@ -1502,6 +1562,18 @@ namespace FEBuilderGBA
             }
 
             if (Program.ROM.RomInfo.version == 8)
+            {
+                uint player_addr = Program.ROM.u32((uint)(mapcond_addr + (4 * 10)));
+                uint player_hard_addr = Program.ROM.u32((uint)(mapcond_addr + (4 * 11)));
+                uint start_addr = Program.ROM.u32((uint)(mapcond_addr + (4 * 18)));
+                uint end_addr = Program.ROM.u32((uint)(mapcond_addr + (4 * 19)));
+
+                FELint.CheckPointerAlien4(player_addr, errors, CONDTYPE.PLAYER_UNIT, (uint)(mapcond_addr + (4 * 10)));
+                FELint.CheckPointerAlien4(player_hard_addr, errors, CONDTYPE.PLAYER_UNIT, (uint)(mapcond_addr + (4 * 11)));
+                FELint.CheckEventPointer(start_addr, errors, CONDTYPE.START_EVENT, (uint)(mapcond_addr + (4 * 18)), true, tracelist);
+                FELint.CheckEventPointer(end_addr, errors, CONDTYPE.END_EVENT, (uint)(mapcond_addr + (4 * 19)), true, tracelist);
+            }
+            else if (Program.ROM.RomInfo.version == 531)
             {
                 uint player_addr = Program.ROM.u32((uint)(mapcond_addr + (4 * 10)));
                 uint player_hard_addr = Program.ROM.u32((uint)(mapcond_addr + (4 * 11)));
@@ -1622,6 +1694,21 @@ namespace FEBuilderGBA
                 FELint.CheckPointer(trap1_cond_addr, errors, CONDTYPE.TRAP, (uint)(mapcond_addr + (4 * 8)));
                 FELint.CheckPointer(trap2_cond_addr, errors, CONDTYPE.TRAP, (uint)(mapcond_addr + (4 * 9)));
             }
+            else if (Program.ROM.RomInfo.version == 531)
+            {
+                uint always1_cond_addr = Program.ROM.u32((uint)(mapcond_addr + (4 * 4)));
+                uint always2_cond_addr = Program.ROM.u32((uint)(mapcond_addr + (4 * 5)));
+                uint always3_cond_addr = Program.ROM.u32((uint)(mapcond_addr + (4 * 6)));
+                uint tutorial_cond_addr = Program.ROM.u32((uint)(mapcond_addr + (4 * 7)));
+                uint trap1_cond_addr = Program.ROM.u32((uint)(mapcond_addr + (4 * 8)));
+                uint trap2_cond_addr = Program.ROM.u32((uint)(mapcond_addr + (4 * 9)));
+                FELint.CheckPointerAlien4(always1_cond_addr, errors, CONDTYPE.ALWAYS, (uint)(mapcond_addr + (4 * 4)));
+                FELint.CheckPointerAlien4(always2_cond_addr, errors, CONDTYPE.ALWAYS, (uint)(mapcond_addr + (4 * 5)));
+                FELint.CheckPointerAlien4(always3_cond_addr, errors, CONDTYPE.ALWAYS, (uint)(mapcond_addr + (4 * 6)));
+                FELint.CheckPointerAlien4(tutorial_cond_addr, errors, CONDTYPE.TUTORIAL, (uint)(mapcond_addr + (4 * 7)));
+                FELint.CheckPointer(trap1_cond_addr, errors, CONDTYPE.TRAP, (uint)(mapcond_addr + (4 * 8)));
+                FELint.CheckPointer(trap2_cond_addr, errors, CONDTYPE.TRAP, (uint)(mapcond_addr + (4 * 9)));
+            }
             else if (Program.ROM.RomInfo.version == 7)
             {
                 uint trap1_cond_addr = Program.ROM.u32((uint)(mapcond_addr + (4 * 4)));
@@ -1665,6 +1752,10 @@ namespace FEBuilderGBA
             {
                 return object_type == 0x14;
             }
+            else if (Program.ROM.RomInfo.version == 531)
+            {
+                return object_type == 0x14;
+            }
             else
             {
                 return object_type == 0x12;
@@ -1673,6 +1764,10 @@ namespace FEBuilderGBA
         public static bool IsShopObjectType(uint object_type)
         {
             if (Program.ROM.RomInfo.version == 8)
+            {
+                return object_type == 0x16 || object_type == 0x17 || object_type == 0x18;
+            }
+            if (Program.ROM.RomInfo.version == 531)
             {
                 return object_type == 0x16 || object_type == 0x17 || object_type == 0x18;
             }
@@ -2800,6 +2895,11 @@ namespace FEBuilderGBA
                                 {
                                     ItemRandomChestForm.MakeAllDataLength(list, base_addr + 4, mapidString);
                                 }
+                                if (Program.ROM.RomInfo.version == 531
+                                    && type == 0x5)
+                                {
+                                    ItemRandomChestForm.MakeAllDataLength(list, base_addr + 4, mapidString);
+                                }
                             }
                             else
                             {//店以外
@@ -3048,6 +3148,10 @@ namespace FEBuilderGBA
             }
 
             if (Program.ROM.RomInfo.version == 8)
+            {
+                MakeTextIDEventScanFE8SPEvent(list, event_addr, addr);
+            }
+            if (Program.ROM.RomInfo.version == 531)
             {
                 MakeTextIDEventScanFE8SPEvent(list, event_addr, addr);
             }
@@ -3318,6 +3422,51 @@ namespace FEBuilderGBA
 
             uint write_addr;
             if (Program.ROM.RomInfo.version == 8)
+            {
+                uint eventSize = (uint)(EventCondForm.MapCond.Count * 4);
+                uint turn = eventSize;
+                uint talk = turn + 12;
+                uint mapobject = talk + 16;
+                uint always = mapobject + 12;
+                uint always2 = always + 12;
+                uint always3 = always2 + 12;
+                uint always4 = always3 + 12;
+                uint tutorial = always4 + 12;
+                uint trap = tutorial + 4;
+                uint trap2 = trap + 6;
+                uint total = trap2 + 6;
+                byte[] data = new byte[total];
+
+                write_addr = InputFormRef.AppendBinaryData(data, undodata);
+                if (write_addr == U.NOT_FOUND)
+                {
+                    Program.Undo.Rollback(undodata);
+                    return 0;
+                }
+                Program.ROM.write_p32(write_addr + 0, write_addr + turn, undodata);  //turn
+                Program.ROM.write_p32(write_addr + 4, write_addr + talk, undodata); //talk
+                Program.ROM.write_p32(write_addr + 8, write_addr + mapobject, undodata); //mapobject
+                Program.ROM.write_p32(write_addr + 12, write_addr + always, undodata); //always
+                Program.ROM.write_p32(write_addr + 16, write_addr + always2, undodata); //always
+                Program.ROM.write_p32(write_addr + 20, write_addr + always3, undodata); //always
+                Program.ROM.write_p32(write_addr + 24, write_addr + always4, undodata); //always
+                Program.ROM.write_p32(write_addr + 28, write_addr + tutorial, undodata); //tutorial
+                Program.ROM.write_p32(write_addr + 32, write_addr + trap, undodata); //trap
+                Program.ROM.write_p32(write_addr + 36, write_addr + trap2, undodata); //trap2
+                //Program.ROM.write_p32(write_addr + 56, 0, undodata); //player elwood units
+                //Program.ROM.write_p32(write_addr + 60, 0, undodata); //player elwood hard units
+
+                //Program.ROM.write_p32(write_addr + 64, 0, undodata); //worldmap skirmishes player 1
+                //Program.ROM.write_p32(write_addr + 68, 0, undodata); //worldmap skirmishes player 2
+                //Program.ROM.write_p32(write_addr + 72, 0, undodata); //worldmap skirmishes player 3
+                //Program.ROM.write_p32(write_addr + 76, 0, undodata); //worldmap skirmishes enemy 1
+                //Program.ROM.write_p32(write_addr + 80, 0, undodata); //worldmap skirmishes enemy 2
+                //Program.ROM.write_p32(write_addr + 84, 0, undodata); //worldmap skirmishes enemy 3
+
+                //Program.ROM.write_p32(write_addr + 88, 0, undodata); //start event
+                //Program.ROM.write_p32(write_addr + 92, 0, undodata); //end event
+            }
+            else if (Program.ROM.RomInfo.version == 531)
             {
                 uint eventSize = (uint)(EventCondForm.MapCond.Count * 4);
                 uint turn = eventSize;
@@ -4211,6 +4360,59 @@ namespace FEBuilderGBA
                     return U.ToHexString(type) + ":" + R._("18=秘密の店");
                 }
             }
+            else if (Program.ROM.RomInfo.version == 531)
+            {
+                if (objecttype == 0x11)
+                {
+                    out_bitmap = ImageSystemIconForm.Throne();
+                    return U.ToHexString(type) + ":" + R._("11=制圧");
+                }
+                else if (objecttype == 0x20)
+                {
+                    out_bitmap = ImageSystemIconForm.VillageCenter();
+                    return U.ToHexString(type) + ":" + R._("20=村の中心(盗賊のターゲット)");
+                }
+                else if (objecttype == 0x10 && type == 0x5)
+                {
+                    out_bitmap = ImageSystemIconForm.House();
+                    return U.ToHexString(type) + ":" + R._("10=民家");
+                }
+                else if (objecttype == 0x10)
+                {
+                    out_bitmap = ImageSystemIconForm.Village();
+                    return U.ToHexString(type) + ":" + R._("10=民家");
+                }
+                else if (objecttype == 0x14 && type == 0x5)
+                {
+                    out_bitmap = ImageSystemIconForm.Chest();
+                    return U.ToHexString(type) + ":" + R._("14=ランダム宝箱");
+                }
+                else if (objecttype == 0x14 && type == 0x7 )
+                {
+                    out_bitmap = ImageSystemIconForm.Chest();
+                    return U.ToHexString(type) + ":" + R._("14=宝箱");
+                }
+                else if (objecttype == 0x12 && type == 0x8 )
+                {
+                    out_bitmap = ImageSystemIconForm.Door();
+                    return U.ToHexString(type) + ":" + R._("12=扉");
+                }
+                else if (objecttype == 0x16 )
+                {
+                    out_bitmap = ImageSystemIconForm.Armory();
+                    return U.ToHexString(type) + ":" + R._("16=武器屋");
+                }
+                else if (objecttype == 0x17 )
+                {
+                    out_bitmap = ImageSystemIconForm.Vendor();
+                    return U.ToHexString(type) + ":" + R._("17=道具屋");
+                }
+                else if (objecttype == 0x18 )
+                {
+                    out_bitmap = ImageSystemIconForm.SecretShop();
+                    return U.ToHexString(type) + ":" + R._("18=秘密の店");
+                }
+            }
             else
             {
                 if (objecttype == 0xF)
@@ -4298,6 +4500,49 @@ namespace FEBuilderGBA
             uint type = Program.ROM.u8(addr + 0);
             uint objecttype = Program.ROM.u8(addr + 10);
             if (Program.ROM.RomInfo.version == 8)
+            {
+                if (objecttype == 0x11)
+                {
+                    return U.ToHexString(type) + ":" + R._("11=制圧");
+                }
+                else if (objecttype == 0x20)
+                {
+                    return U.ToHexString(type) + ":" + R._("20=村の中心(盗賊のターゲット)");
+                }
+                else if (objecttype == 0x10 && type == 0x5)
+                {
+                    return U.ToHexString(type) + ":" + R._("10=民家");
+                }
+                else if (objecttype == 0x10)
+                {
+                    return U.ToHexString(type) + ":" + R._("10=民家");
+                }
+                else if (objecttype == 0x14 && type == 0x5)
+                {
+                    return U.ToHexString(type) + ":" + R._("14=ランダム宝箱");
+                }
+                else if (objecttype == 0x14 && type == 0x7)
+                {
+                    return U.ToHexString(type) + ":" + R._("14=宝箱");
+                }
+                else if (objecttype == 0x12 && type == 0x8)
+                {
+                    return U.ToHexString(type) + ":" + R._("12=扉");
+                }
+                else if (objecttype == 0x16)
+                {
+                    return U.ToHexString(type) + ":" + R._("16=武器屋");
+                }
+                else if (objecttype == 0x17)
+                {
+                    return U.ToHexString(type) + ":" + R._("17=道具屋");
+                }
+                else if (objecttype == 0x18)
+                {
+                    return U.ToHexString(type) + ":" + R._("18=秘密の店");
+                }
+            }
+            if (Program.ROM.RomInfo.version == 531)
             {
                 if (objecttype == 0x11)
                 {
@@ -4566,6 +4811,29 @@ namespace FEBuilderGBA
                         bitmap = ImageUnitWaitIconFrom.DrawWaitUnitIconBitmap(Program.ROM.RomInfo.unit_wait_barista_id, 0, true);
                     }
                 }
+                else if (Program.ROM.RomInfo.version == 531)
+                {
+                    if (archtype == 0x35)
+                    {
+                        text = U.ToHexString(type) + ":" + R._("35=ロングアーチ");
+                        bitmap = ImageUnitWaitIconFrom.DrawWaitUnitIconBitmap(Program.ROM.RomInfo.unit_wait_barista_id, 0, true);
+                    }
+                    else if (archtype == 0x36)
+                    {
+                        text = U.ToHexString(type) + ":" + R._("36=アイアンアーチ");
+                        bitmap = ImageUnitWaitIconFrom.DrawWaitUnitIconBitmap(Program.ROM.RomInfo.unit_wait_barista_id + 1, 0, true);
+                    }
+                    else if (archtype == 0x37)
+                    {
+                        text = U.ToHexString(type) + ":" + R._("37=キラーアーチ");
+                        bitmap = ImageUnitWaitIconFrom.DrawWaitUnitIconBitmap(Program.ROM.RomInfo.unit_wait_barista_id + 2, 0, true);
+                    }
+                    else
+                    {
+                        text = U.ToHexString(type) + ":" + U.ToHexString(archtype) + "=" + "???";
+                        bitmap = ImageUnitWaitIconFrom.DrawWaitUnitIconBitmap(Program.ROM.RomInfo.unit_wait_barista_id, 0, true);
+                    }
+                }
                 else
                 {
                     if (archtype == 0x34)
@@ -4612,6 +4880,12 @@ namespace FEBuilderGBA
                 U.MakeTransparent(bitmap);
             }
             else if (type == 0x0C && Program.ROM.RomInfo.version == 8)
+            {//ゴーゴンの卵
+                text = R._("0C=ゴーゴンの卵");
+                bitmap = ImageUnitWaitIconFrom.DrawWaitUnitIconBitmap(0x53, 2, true);
+                U.MakeTransparent(bitmap);
+            }
+            else if (type == 0x0C && Program.ROM.RomInfo.version == 531)
             {//ゴーゴンの卵
                 text = R._("0C=ゴーゴンの卵");
                 bitmap = ImageUnitWaitIconFrom.DrawWaitUnitIconBitmap(0x53, 2, true);
@@ -4748,6 +5022,75 @@ namespace FEBuilderGBA
 
             Bitmap bitmap;
             if (Program.ROM.RomInfo.version == 8)
+            {
+                switch (index + 1)
+                {
+                    case 1:   //TURN	ターン条件
+                        //ぐるぐる
+                        bitmap = ImageSystemIconForm.MusicIcon(12);
+                        break;
+                    case 2:   //TALK	会話条件(話すコマンド)
+                        //顔アイコン
+                        bitmap = ImageSystemIconForm.TalkIcon();
+                        break;
+                    case 3:   //OBJECT	マップオブジェクト(制圧ポイント、宝箱、扉、民家、村)
+                        //宝箱だしたいなあ
+                        bitmap = ImageSystemIconForm.Cursol();
+                        break;
+                    case 4:   //ALWAYS	常時条件(範囲条件、勝利条件等)
+                        //目立つ緑のアイコン
+                        bitmap = ImageSystemIconForm.MusicIcon(3);
+                        break;
+                    case 8:   //TUTORIAL	チュートリアル
+                        //星マーク
+                        bitmap = ImageSystemIconForm.MusicIcon(16);
+                        break;
+                    case 9:   //TRAP	トラップ(アーチ、ゴーゴンの卵、ダメージ床)
+                        //バリスタ
+                        bitmap = ImageSystemIconForm.BaristaIcon();
+                        break;
+                    case 10:   //TRAP	トラップ2
+                        //バリスタ
+                        bitmap = ImageSystemIconForm.BaristaIcon();
+                        break;
+                    case 11:   //PLAYER_UNIT	初めて普通の時の自軍配置
+                        bitmap = ImageUnitWaitIconFrom.DrawWaitUnitIconBitmap(0x1, 0, true);
+                        break;
+                    case 12:   //PLAYER_UNIT	難しい時の自軍配置
+                        bitmap = ImageUnitWaitIconFrom.DrawWaitUnitIconBitmap(0x2, 0, true);
+                        break;
+                    case 13:   //FREEMAP_PLAYER_UNIT	魔物出現マップ時 自軍配置1
+                        bitmap = ImageUnitWaitIconFrom.DrawWaitUnitIconBitmap(0x5, 0, true);
+                        break;
+                    case 14:   //FREEMAP_PLAYER_UNIT	魔物出現マップ時 自軍配置2
+                        bitmap = ImageUnitWaitIconFrom.DrawWaitUnitIconBitmap(0xC, 0, true);
+                        break;
+                    case 15:   //FREEMAP_PLAYER_UNIT	魔物出現マップ時 自軍配置3
+                        bitmap = ImageUnitWaitIconFrom.DrawWaitUnitIconBitmap(0x16, 0, true);
+                        break;
+                    case 16:   //FREEMAP_ENEMY_UNIT	魔物出現マップ時 魔物配置1
+                        bitmap = ImageUnitWaitIconFrom.DrawWaitUnitIconBitmap(0x43, 2, true);
+                        break;
+                    case 17:   //FREEMAP_ENEMY_UNIT	魔物出現マップ時 魔物配置2
+                        bitmap = ImageUnitWaitIconFrom.DrawWaitUnitIconBitmap(0x45, 2, true);
+                        break;
+                    case 18:   //FREEMAP_ENEMY_UNIT	魔物出現マップ時 魔物配置3
+                        bitmap = ImageUnitWaitIconFrom.DrawWaitUnitIconBitmap(0x54, 2, true);
+                        break;
+                    case 19:    //START_EVENT	章開始イベント
+                        //剣のアイコン
+                        bitmap = ImageSystemIconForm.MusicIcon(10);
+                        break;
+                    case 20:    //END_EVENT	章終了イベント
+                        //色補正アイコン
+                        bitmap = ImageSystemIconForm.MusicIcon(8);
+                        break;
+                    default:
+                        bitmap = ImageUtil.Blank(16, 16);
+                        break;
+                }
+            }
+            else if (Program.ROM.RomInfo.version == 531)
             {
                 switch (index + 1)
                 {
@@ -5467,6 +5810,12 @@ namespace FEBuilderGBA
                 OBJECT_N05_J_4_EVENTORCHEST.Text = R._("宝箱の中身");
                 return;
             }
+            if (Program.ROM.RomInfo.version == 531 
+                && OBJECT_N05_W10.Value == 0x14)
+            {
+                OBJECT_N05_J_4_EVENTORCHEST.Text = R._("宝箱の中身");
+                return;
+            }
             OBJECT_N05_J_4_EVENTORCHEST.Text = R._("イベント");
         }
 
@@ -5643,6 +5992,14 @@ namespace FEBuilderGBA
             }
 
             if (Program.ROM.RomInfo.version == 8)
+            {
+                uint start_addr = Program.ROM.u32((uint)(mapcond_addr + (4 * 18)));
+                uint end_addr = Program.ROM.u32((uint)(mapcond_addr + (4 * 19)));
+
+                MakeFlagIDArrayOne(mapid, start_addr, 0, flaglist);
+                MakeFlagIDArrayOne(mapid, end_addr, 0, flaglist);
+            }
+            else if (Program.ROM.RomInfo.version == 531)
             {
                 uint start_addr = Program.ROM.u32((uint)(mapcond_addr + (4 * 18)));
                 uint end_addr = Program.ROM.u32((uint)(mapcond_addr + (4 * 19)));
