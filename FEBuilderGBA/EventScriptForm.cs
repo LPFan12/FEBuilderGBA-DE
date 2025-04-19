@@ -884,6 +884,13 @@ namespace FEBuilderGBA
                     return true;
                 }
             }
+	    if (Program.ROM.RomInfo.version == 531)
+            {
+                if (code.Script.LowCode.IndexOf("2025") == 0)
+                {
+                    return true;
+                }
+            }
             if (Program.ROM.RomInfo.version == 7)
             {
                 if (Program.ROM.RomInfo.is_multibyte)
