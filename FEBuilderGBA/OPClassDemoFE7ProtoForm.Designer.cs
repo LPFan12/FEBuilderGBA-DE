@@ -482,7 +482,7 @@
             this.J_25.Name = "J_25";
             this.J_25.Size = new System.Drawing.Size(175, 32);
             this.J_25.TabIndex = 181;
-            this.J_25.Text = "??";
+            this.J_25.Text = "Test";
             this.J_25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // W6
