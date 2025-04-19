@@ -138,6 +138,10 @@ namespace FEBuilderGBA
             {//0xFFFFを飛ばす
                 limit--;
             }
+            if (limit > 0 && Program.ROM.RomInfo.version == 531)
+            {//0xFFFFを飛ばす
+                limit--;
+            }
 
             this.FlagListBox.BeginUpdate();
             this.FlagListBox.Items.Clear();
@@ -1179,6 +1183,10 @@ namespace FEBuilderGBA
             InputFormRef.makeLinkEventHandler("", controls, this.CHEAT_WEATHER_VALUE, this.CHEAT_WEATHER_COMBO, 0, "COMBO", args);
 
             if (Program.ROM.RomInfo.version == 8)
+            {
+                this.CHEAT_ITEM_ID.Value = 0x88; //マスタープルフ
+            }
+            else if (Program.ROM.RomInfo.version == 531)
             {
                 this.CHEAT_ITEM_ID.Value = 0x88; //マスタープルフ
             }
@@ -2719,6 +2727,23 @@ namespace FEBuilderGBA
                 this.BattleSomeDataList.DummyAlloc(BattleSomeDataStruct.Count, 0);
                 InputFormRef.AppendEvent_CopyAddressToDoubleClick(this.BattleSomeDataAddress);
             }
+            else if (Program.ROM.RomInfo.version == 531)
+            {
+                this.WorldmapList.OwnerDraw(DrawWorldmapList, DrawMode.OwnerDrawFixed, false);
+                this.WorldmapList.ItemHeight = 12;
+                this.WorldmapList.DummyAlloc(WorldmapStruct.Count, 0);
+                InputFormRef.AppendEvent_CopyAddressToDoubleClick(this.WorldmapAddress);
+
+                this.DungeonDataList.OwnerDraw(DrawDungeonDataList, DrawMode.OwnerDrawFixed, false);
+                this.DungeonDataList.ItemHeight = 12;
+                this.DungeonDataList.DummyAlloc(DungeonDataStruct.Count, 0);
+                InputFormRef.AppendEvent_CopyAddressToDoubleClick(this.DungeonDataAddress);
+
+                this.BattleSomeDataList.OwnerDraw(DrawBattleSomeDataList, DrawMode.OwnerDrawFixed, false);
+                this.BattleSomeDataList.ItemHeight = 12;
+                this.BattleSomeDataList.DummyAlloc(BattleSomeDataStruct.Count, 0);
+                InputFormRef.AppendEvent_CopyAddressToDoubleClick(this.BattleSomeDataAddress);
+            }
             else if (Program.ROM.RomInfo.version == 7)
             {
                 tabControlEtc.TabPages.Remove(tabPageWorldmap);
@@ -2817,6 +2842,15 @@ namespace FEBuilderGBA
                 }
             }
             if (Program.ROM.RomInfo.version == 8)
+            {
+                uint v = EmulatorMemoryUtil.GetCurrentWorldmapNode();
+                if (v != this.WorldmapNode)
+                {
+                    this.WorldmapNode = v;
+                    this.X_ETC_WorldmapNode_Text.Text = EmulatorMemoryUtil.ConvertWorldmapNodeToString(v);
+                }
+            }
+            if (Program.ROM.RomInfo.version == 531)
             {
                 uint v = EmulatorMemoryUtil.GetCurrentWorldmapNode();
                 if (v != this.WorldmapNode)
@@ -3681,6 +3715,10 @@ namespace FEBuilderGBA
             {
                 EmulatorMemoryUtil.CHEAT_WARP_FE8(this, (uint)this.CHEAT_WARP_CHPATER_VALUE.Value, (uint)this.CHEAT_WARP_EDTION_VALUE.Value, (uint)this.CHEAT_WARP_NODE_VALUE.Value);
             }
+            else if (Program.ROM.RomInfo.version == 531)
+            {
+                EmulatorMemoryUtil.CHEAT_WARP_FE8(this, (uint)this.CHEAT_WARP_CHPATER_VALUE.Value, (uint)this.CHEAT_WARP_EDTION_VALUE.Value, (uint)this.CHEAT_WARP_NODE_VALUE.Value);
+            }
             else if (Program.ROM.RomInfo.version == 7)
             {
                 EmulatorMemoryUtil.CHEAT_WARP_FE7(this, (uint)this.CHEAT_WARP_CHPATER_VALUE.Value, (uint)this.CHEAT_WARP_EDTION_VALUE.Value);
@@ -3716,6 +3754,10 @@ namespace FEBuilderGBA
         private void CHEAT_WARP_CHPATER_VALUE_ValueChanged(object sender, EventArgs e)
         {
             if (Program.ROM.RomInfo.version == 8)
+            {
+                CHEAT_WARP_NODE_VALUE.Value = EmulatorMemoryUtil.GetWorldmapNode((uint)CHEAT_WARP_CHPATER_VALUE.Value);
+            }
+            if (Program.ROM.RomInfo.version == 531)
             {
                 CHEAT_WARP_NODE_VALUE.Value = EmulatorMemoryUtil.GetWorldmapNode((uint)CHEAT_WARP_CHPATER_VALUE.Value);
             }
