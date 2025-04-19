@@ -32,6 +32,10 @@ namespace FEBuilderGBA
                 {
                     U.SelectedIndexSafety(this.BattleTerrain, 0x12 + 1);
                 }
+                else if (Program.ROM.RomInfo.version == 531)
+                {
+                    U.SelectedIndexSafety(this.BattleTerrain, 0x12 + 1);
+                }
                 else if (Program.ROM.RomInfo.version == 7)
                 {
                     U.SelectedIndexSafety(this.BattleTerrain, 0x12 + 1);
@@ -73,6 +77,11 @@ namespace FEBuilderGBA
                 U.ConvertComboBox(list, ref this.PlayerUnit);
 
                 if (Program.ROM.RomInfo.version == 8)
+                {
+                    U.SelectedIndexSafety(this.TargetEnemy, 0x19);
+                    U.SelectedIndexSafety(this.PlayerUnit, 0x6F);
+                }
+                else if (Program.ROM.RomInfo.version == 531)
                 {
                     U.SelectedIndexSafety(this.TargetEnemy, 0x19);
                     U.SelectedIndexSafety(this.PlayerUnit, 0x6F);
