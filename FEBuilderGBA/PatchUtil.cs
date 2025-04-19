@@ -298,6 +298,21 @@ namespace FEBuilderGBA
                     return class_type_enum.SkillSystems_Rework;
                 }
             }
+            if (Program.ROM.RomInfo.version == 531 && Program.ROM.RomInfo.is_multibyte == false)
+            {
+                bool r = Program.ROM.CompareByte(0x2AAEC
+                    , new byte[] { 0x00, 0x25, 0x00, 0x28, 0x00, 0xD0, 0x05, 0x1C });
+                if (r)
+                {
+                    return class_type_enum.SkillSystems_Rework;
+                }
+                r = Program.ROM.CompareByte(0x2AAEC
+                    , new byte[] { 0x01, 0x4B, 0xA6, 0xF0, 0xED, 0xFE, 0x01, 0xE0 });
+                if (r)
+                {
+                    return class_type_enum.SkillSystems_Rework;
+                }
+            }
             return class_type_enum.NO;
         }
 
@@ -520,6 +535,30 @@ namespace FEBuilderGBA
         {
             uint enable_value = 0x47184b00;
             if (Program.ROM.RomInfo.version == 8)
+            {
+                if (Program.ROM.RomInfo.is_multibyte)
+                {
+                    uint a = Program.ROM.u32(0x225C4);
+                    if (a == enable_value)
+                    {
+                        return StairsHack_enum.Ver1;
+                    }
+                }
+                else
+                {
+                    uint a = Program.ROM.u32(0x225F8);
+                    if (a == enable_value)
+                    {
+                        uint b = Program.ROM.u32(0x32154);
+                        if (b == enable_value)
+                        {
+                            return StairsHack_enum.Ver1;
+                        }
+                        return StairsHack_enum.Ver2;
+                    }
+                }
+            }
+            if (Program.ROM.RomInfo.version == 531)
             {
                 if (Program.ROM.RomInfo.is_multibyte)
                 {
@@ -2237,6 +2276,40 @@ namespace FEBuilderGBA
         static DeathQuoteAddKillerIDExtends DeathQuoteAddKillerIDLow()
         {
             if (Program.ROM.RomInfo.version == 8)
+            {
+                if (Program.ROM.RomInfo.is_multibyte)
+                {//FE8J
+                    uint a = Program.ROM.u32(0x0869B0);
+                    if (a == 0x47184b00)
+                    {
+                        a = Program.ROM.u32(0x16328);
+                        if (a == 0x46874800)
+                        {//capture area
+                            return DeathQuoteAddKillerIDExtends.NO;
+                        }
+                        return DeathQuoteAddKillerIDExtends.Enable;
+                    }
+                }
+                else
+                {//FE8U
+                    uint a = Program.ROM.u32(0x0846E4);
+                    if (a == 0x47184b00)
+                    {
+                        a = Program.ROM.u32(0x16580);
+                        if (a == 0x46874800)
+                        {//capture area
+                            return DeathQuoteAddKillerIDExtends.NO;
+                        }
+                        a = Program.ROM.u32(0x32264);
+                        if (a == 0x47184b00)
+                        {//capture skillsystems
+                            return DeathQuoteAddKillerIDExtends.NO;
+                        }
+                        return DeathQuoteAddKillerIDExtends.Enable;
+                    }
+                }
+            }
+            if (Program.ROM.RomInfo.version == 531)
             {
                 if (Program.ROM.RomInfo.is_multibyte)
                 {//FE8J
