@@ -350,7 +350,7 @@
             // L_16_BATTLEANIME_PLUS
             // 
             this.L_16_BATTLEANIME_PLUS1.ErrorMessage = "";
-            this.L_16_BATTLEANIME_PLUS1.Location = new System.Drawing.Point(266, 374);
+            this.L_16_BATTLEANIME_PLUS1.Location = new System.Drawing.Point(266, 342);
             this.L_16_BATTLEANIME_PLUS1.Margin = new System.Windows.Forms.Padding(2);
             this.L_16_BATTLEANIME_PLUS1.Name = "L_16_BATTLEANIME_PLUS1";
             this.L_16_BATTLEANIME_PLUS1.Placeholder = "";
@@ -389,7 +389,7 @@
             "01=敵軍",
             "02=NPC",
             "03=グレー"});
-            this.L_17_COMBO.Location = new System.Drawing.Point(266, 342);
+            this.L_17_COMBO.Location = new System.Drawing.Point(266, 374);
             this.L_17_COMBO.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.L_17_COMBO.Name = "L_17_COMBO";
             this.L_17_COMBO.Size = new System.Drawing.Size(228, 26);
@@ -858,7 +858,7 @@
             // J_17
             // 
             this.J_17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.J_17.Location = new System.Drawing.Point(2, 337);
+            this.J_17.Location = new System.Drawing.Point(2, 368);
             this.J_17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.J_17.Name = "J_17";
             this.J_17.Size = new System.Drawing.Size(175, 32);
@@ -884,7 +884,7 @@
             // 
             this.J_16_BATTLEANIME.AccessibleDescription = "@OP_CLASSDEMO_BATTLEANIME";
             this.J_16_BATTLEANIME.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.J_16_BATTLEANIME.Location = new System.Drawing.Point(2, 368);
+            this.J_16_BATTLEANIME.Location = new System.Drawing.Point(2, 337);
             this.J_16_BATTLEANIME.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.J_16_BATTLEANIME.Name = "J_16_BATTLEANIME";
             this.J_16_BATTLEANIME.Size = new System.Drawing.Size(175, 32);
