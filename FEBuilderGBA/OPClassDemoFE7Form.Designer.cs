@@ -285,7 +285,7 @@
             "06=マムクート変身",
             "07=魔物の魔法",
             "08=ストーン"});
-            this.L_18_COMBO.Location = new System.Drawing.Point(266, 405);
+            this.L_18_COMBO.Location = new System.Drawing.Point(266, 342);
             this.L_18_COMBO.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.L_18_COMBO.Name = "L_18_COMBO";
             this.L_18_COMBO.Size = new System.Drawing.Size(228, 26);
@@ -356,7 +356,7 @@
             "01=敵軍",
             "02=NPC",
             "03=グレー"});
-            this.L_16_COMBO.Location = new System.Drawing.Point(266, 342);
+            this.L_16_COMBO.Location = new System.Drawing.Point(266, 405) ;
             this.L_16_COMBO.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.L_16_COMBO.Name = "L_16_COMBO";
             this.L_16_COMBO.Size = new System.Drawing.Size(228, 26);
@@ -465,7 +465,7 @@
             // B24
             // 
             this.B24.Hexadecimal = true;
-            this.B24.Location = new System.Drawing.Point(187, 500);
+            this.B24.Location = new System.Drawing.Point(187, 800);
             this.B24.Margin = new System.Windows.Forms.Padding(2);
             this.B24.Maximum = new decimal(new int[] {
             -559939585,
