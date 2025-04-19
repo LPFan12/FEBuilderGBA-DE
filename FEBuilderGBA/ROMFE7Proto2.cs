@@ -243,10 +243,10 @@ namespace FEBuilderGBA
             monster_wmap_probability_2_pointer = 0x0;
             monster_wmap_probability_after_1_pointer = 0x0;
             monster_wmap_probability_after_2_pointer = 0x0;
-            battle_bg_pointer = 0x06b790; //戦闘背景
-            battle_terrain_pointer = 0x4d8dc; //戦闘地形
+            battle_bg_pointer = 0x06DCFC; //Ist das der richtige Pointer?
+            battle_terrain_pointer = 0x050314; //Ist das der richtige Pointer?
             senseki_comment_pointer = 0x9b21c; //戦績コメント
-            unit_custom_battle_anime_pointer = 0x530CC; //ユニット専用アニメ FE7にある
+            unit_custom_battle_anime_pointer = 0x055ACC; //Ist das der richtige Pointer?
             magic_effect_pointer = 0x5609C; //魔法効果へのポインタ
             magic_effect_original_data_count = 0x03e; //もともとあった魔法数
             system_move_allowicon_pointer = 0x3042c;//移動するときの矢印アイコン
