@@ -47,6 +47,7 @@
             this.B18 = new System.Windows.Forms.NumericUpDown();
             this.B27 = new System.Windows.Forms.NumericUpDown();
             this.B26 = new System.Windows.Forms.NumericUpDown();
+            this.B25 = new System.Windows.Forms.NumericUpDown();
             this.B24 = new System.Windows.Forms.NumericUpDown();
             this.J_25 = new System.Windows.Forms.Label();
             this.W6 = new System.Windows.Forms.NumericUpDown();
@@ -125,6 +126,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.B18)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.B27)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.B26)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.B25)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.B24)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.W6)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -171,6 +173,7 @@
             this.panel2.Controls.Add(this.B18);
             this.panel2.Controls.Add(this.B27);
             this.panel2.Controls.Add(this.B26);
+            this.panel2.Controls.Add(this.B25);
             this.panel2.Controls.Add(this.B24);
             this.panel2.Controls.Add(this.J_25);
             this.panel2.Controls.Add(this.W6);
@@ -440,6 +443,20 @@
             this.B26.Name = "B26";
             this.B26.Size = new System.Drawing.Size(67, 25);
             this.B26.TabIndex = 22;
+            // 
+            // B25
+            // 
+            this.B25.Hexadecimal = true;
+            this.B25.Location = new System.Drawing.Point(187, 530);
+            this.B25.Margin = new System.Windows.Forms.Padding(2);
+            this.B25.Maximum = new decimal(new int[] {
+            -559939585,
+            902409669,
+            54,
+            0});
+            this.B25.Name = "B25";
+            this.B25.Size = new System.Drawing.Size(67, 25);
+            this.B25.TabIndex = 21;
             // 
             // B24
             // 
@@ -1271,6 +1288,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.B18)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.B27)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.B26)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.B25)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.B24)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.W6)).EndInit();
             this.groupBox1.ResumeLayout(false);
@@ -1359,6 +1377,7 @@
         private System.Windows.Forms.NumericUpDown B24;
         private System.Windows.Forms.Label J_25;
         private System.Windows.Forms.NumericUpDown B26;
+        private System.Windows.Forms.NumericUpDown B25;
         private System.Windows.Forms.Label J_12;
         private System.Windows.Forms.NumericUpDown B18;
         private System.Windows.Forms.NumericUpDown B27;
