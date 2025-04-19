@@ -658,6 +658,15 @@ namespace FEBuilderGBA
                     SkillConfigSkillSystemForm.Export(sb, isColorzCore);
                 }
             }
+            if (Program.ROM.RomInfo.version == 531)
+            {
+                sb.AppendLine("#define SummonUnitTable "
+                    + U.To0xHexString(Program.ROM.p32(Program.ROM.RomInfo.summon_unit_pointer)));
+                if (PatchUtil.SearchSkillSystem() == PatchUtil.skill_system_enum.SkillSystem)
+                {
+                    SkillConfigSkillSystemForm.Export(sb, isColorzCore);
+                }
+            }
             sb.AppendLine("#define AI1Table "
                 + U.To0xHexString(Program.ROM.p32(Program.ROM.RomInfo.ai1_pointer)));
             sb.AppendLine("#define AI2Table "
