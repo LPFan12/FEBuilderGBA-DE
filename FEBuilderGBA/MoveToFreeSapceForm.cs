@@ -692,6 +692,23 @@ namespace FEBuilderGBA
                     list.Add(new Address(0x1c1ec0, 0xB88560 - 0x1c1ec0, U.NOT_FOUND, "SkillSystemsSanctuary", Address.DataTypeEnum.BIN));
                 }
             }
+            if (Program.ROM.RomInfo.version == 531)
+            {
+                PatchUtil.skill_system_enum skillsystem = PatchUtil.SearchSkillSystem();
+                if (skillsystem == PatchUtil.skill_system_enum.NO)
+                {//SkillSystemsをインストールしていない
+                    return ;
+                }
+
+                if (Program.ROM.RomInfo.is_multibyte)
+                {//F00000 - F90000
+                    list.Add(new Address(0xF00000, 0xF90000 - 0xF00000, U.NOT_FOUND, "SkillSystemsSanctuary", Address.DataTypeEnum.BIN));
+                }
+                else
+                {//1c1ec0 - C00000
+                    list.Add(new Address(0x1c1ec0, 0xB88560 - 0x1c1ec0, U.NOT_FOUND, "SkillSystemsSanctuary", Address.DataTypeEnum.BIN));
+                }
+            }
         }
 
         //移動処理
