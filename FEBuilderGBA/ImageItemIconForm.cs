@@ -348,6 +348,10 @@ namespace FEBuilderGBA
             {//FE8では常に表示する
                 return true;
             }
+            if (Program.ROM.RomInfo.version == 531)
+            {//FE8では常に表示する
+                return true;
+            }
 
             if (OptionForm.show_fe76_item_icon_extends() == OptionForm.show_extends_enum.Show)
             {//表示する設定の場合は表示する.
