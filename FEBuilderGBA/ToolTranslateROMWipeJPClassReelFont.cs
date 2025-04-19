@@ -15,7 +15,19 @@ namespace FEBuilderGBA
         }
         public void Wipe(List<Address> list)
         {
-            if (Program.ROM.RomInfo.version != 8)
+            if (Program.ROM.RomInfo.version == 6)
+            {
+                return ;
+            }
+            if (Program.ROM.RomInfo.version == 7)
+            {
+                return ;
+            }
+            if (Program.ROM.RomInfo.version == 206)
+            {
+                return ;
+            }
+            if (Program.ROM.RomInfo.version == 209)
             {
                 return ;
             }
