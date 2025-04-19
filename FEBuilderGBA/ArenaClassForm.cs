@@ -24,6 +24,10 @@ namespace FEBuilderGBA
             {
                 X_FE8J_COMMENT.Visible = true;
             }
+            if (Program.ROM.RomInfo.version == 531)
+            {
+                X_FE8J_COMMENT.Visible = true;
+            }
         }
 
         public InputFormRef InputFormRef;
