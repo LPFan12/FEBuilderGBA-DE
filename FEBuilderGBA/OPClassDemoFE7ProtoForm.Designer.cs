@@ -193,6 +193,7 @@
             this.panel2.Controls.Add(this.B15);
             this.panel2.Controls.Add(this.J_17);
             this.panel2.Controls.Add(this.L_15_CLASS);
+            this.panel2.Controls.Add(this.B14);
             this.panel2.Controls.Add(this.J_15_CLASS);
             this.panel2.Controls.Add(this.J_14_UNITPALETTE_PLUS1);
             this.panel2.Controls.Add(this.B13);
@@ -481,7 +482,7 @@
             this.J_25.Name = "J_25";
             this.J_25.Size = new System.Drawing.Size(175, 32);
             this.J_25.TabIndex = 181;
-            this.J_25.Text = "アニメ指定のポインタ";
+            this.J_25.Text = "Test";
             this.J_25.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // W6
@@ -889,6 +890,21 @@
             this.L_15_CLASS.ReadOnly = true;
             this.L_15_CLASS.Size = new System.Drawing.Size(228, 25);
             this.L_15_CLASS.TabIndex = 155;
+            // 
+            // B14
+            // 
+            this.B14.Hexadecimal = true;
+            this.B14.Location = new System.Drawing.Point(187, 280);
+            this.B14.Margin = new System.Windows.Forms.Padding(2);
+            this.B14.Maximum = new decimal(new int[] {
+            255,
+            0,
+            0,
+            0});
+            this.B14.Name = "B14";
+            this.B14.Size = new System.Drawing.Size(67, 25);
+            this.B14.TabIndex = 7;
+            this.B14.ValueChanged += new System.EventHandler(this.B17_ValueChanged);
             // 
             // J_15_CLASS
             // 
@@ -1303,6 +1319,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.B23)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.B17)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.B15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.B14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.B13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.P8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.W4)).EndInit();
@@ -1340,6 +1357,7 @@
         private System.Windows.Forms.Label label55;
         private System.Windows.Forms.Label J_17;
         private FEBuilderGBA.TextBoxEx L_15_CLASS;
+        private System.Windows.Forms.NumericUpDown B14;
         private System.Windows.Forms.Label J_15_CLASS;
         private System.Windows.Forms.Label J_14_UNITPALETTE_PLUS1;
         private System.Windows.Forms.NumericUpDown B13;
