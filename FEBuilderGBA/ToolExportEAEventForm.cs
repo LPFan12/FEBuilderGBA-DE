@@ -115,6 +115,10 @@ namespace FEBuilderGBA
             {
                 addr = WorldMapEventPointerForm.GetEventByMapID(mapid, false);
             }
+            else if (Program.ROM.RomInfo.version == 531)
+            {
+                addr = WorldMapEventPointerForm.GetEventByMapID(mapid, false);
+            }
             else if (Program.ROM.RomInfo.version == 7)
             {
                 addr = WorldMapEventPointerFE7Form.GetEventByMapID(mapid);
@@ -151,6 +155,10 @@ namespace FEBuilderGBA
             }
             uint addr;
             if (Program.ROM.RomInfo.version == 8)
+            {
+                addr = WorldMapEventPointerForm.GetEventByMapID(mapid, true);
+            }
+            else if (Program.ROM.RomInfo.version == 531)
             {
                 addr = WorldMapEventPointerForm.GetEventByMapID(mapid, true);
             }
@@ -212,6 +220,21 @@ namespace FEBuilderGBA
 
             StringBuilder sb = new StringBuilder();
             if (Program.ROM.RomInfo.version == 8)
+            {//FE8
+                ((UnitForm)InputFormRef.JumpFormLow<UnitForm>()).InputFormRef.SaveDumpAutomatic(sb,saveDir);
+                ((ClassForm)InputFormRef.JumpFormLow<ClassForm>()).InputFormRef.SaveDumpAutomatic(sb, saveDir);
+                ((ItemForm)InputFormRef.JumpFormLow<ItemForm>()).InputFormRef.SaveDumpAutomatic(sb, saveDir);
+                ((MapSettingForm)InputFormRef.JumpFormLow<MapSettingForm>()).InputFormRef.SaveDumpAutomatic(sb, saveDir);
+                ((SoundRoomForm)InputFormRef.JumpFormLow<SoundRoomForm>()).InputFormRef.SaveDumpAutomatic(sb, saveDir);
+                ((SupportUnitForm)InputFormRef.JumpFormLow<SupportUnitForm>()).InputFormRef.SaveDumpAutomatic(sb, saveDir);
+                ((SupportTalkForm)InputFormRef.JumpFormLow<SupportTalkForm>()).InputFormRef.SaveDumpAutomatic(sb, saveDir);
+                ((EventBattleTalkForm)InputFormRef.JumpFormLow<EventBattleTalkForm>()).InputFormRef.SaveDumpAutomatic(sb, saveDir);
+                ((EventHaikuForm)InputFormRef.JumpFormLow<EventHaikuForm>()).InputFormRef.SaveDumpAutomatic(sb, saveDir);
+                ((WorldMapPointForm)InputFormRef.JumpFormLow<WorldMapPointForm>()).InputFormRef.SaveDumpAutomatic(sb, saveDir);
+                ((WorldMapPathForm)InputFormRef.JumpFormLow<WorldMapPathForm>()).InputFormRef.SaveDumpAutomatic(sb, saveDir);
+                ((UnitPaletteForm)InputFormRef.JumpFormLow<UnitPaletteForm>()).InputFormRef.SaveDumpAutomatic(sb, saveDir);
+            }
+            else if (Program.ROM.RomInfo.version == 531)
             {//FE8
                 ((UnitForm)InputFormRef.JumpFormLow<UnitForm>()).InputFormRef.SaveDumpAutomatic(sb,saveDir);
                 ((ClassForm)InputFormRef.JumpFormLow<ClassForm>()).InputFormRef.SaveDumpAutomatic(sb, saveDir);
