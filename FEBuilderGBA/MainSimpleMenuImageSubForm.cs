@@ -43,6 +43,10 @@ namespace FEBuilderGBA
             {
                 ImageUnitPaletteButton.BackgroundImage = MakeTransparent(BattleZoom(UnitPaletteForm.DrawSample(2, 3)));
             }
+            else if (Program.ROM.RomInfo.version == 531)
+            {
+                ImageUnitPaletteButton.BackgroundImage = MakeTransparent(BattleZoom(UnitPaletteForm.DrawSample(2, 3)));
+            }
             else 
             {//for FE6 , FE7
                 ImageUnitPaletteButton.BackgroundImage = MakeTransparent(BattleZoom(ImageBattleAnimeForm.DrawBattleAnime(ImageBattleAnimeForm.GetAnimeIDByClassID(UnitForm.GetClassID(2))
@@ -156,6 +160,11 @@ namespace FEBuilderGBA
                 InputFormRef.JumpForm<ImageCGForm>();
                 return;
             }
+            else if (Program.ROM.RomInfo.version == 531)
+            {
+                InputFormRef.JumpForm<ImageCGForm>();
+                return;
+            }
             else if (Program.ROM.RomInfo.version == 7)
             {
                 if (!Program.ROM.RomInfo.is_multibyte)
@@ -260,6 +269,10 @@ namespace FEBuilderGBA
             {
                 InputFormRef.JumpForm<WorldMapImageForm>();
             }
+            else if (Program.ROM.RomInfo.version == 531)
+            {
+                InputFormRef.JumpForm<WorldMapImageForm>();
+            }
             else if (Program.ROM.RomInfo.version == 7)
             {
                 InputFormRef.JumpForm<WorldMapImageFE7Form>();
@@ -281,6 +294,10 @@ namespace FEBuilderGBA
         private void ImageChapterTitleButton_Click(object sender, EventArgs e)
         {
             if (Program.ROM.RomInfo.version == 8)
+            {
+                InputFormRef.JumpForm<ImageChapterTitleForm>();
+            }
+            else if (Program.ROM.RomInfo.version == 531)
             {
                 InputFormRef.JumpForm<ImageChapterTitleForm>();
             }
