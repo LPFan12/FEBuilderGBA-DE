@@ -150,7 +150,7 @@ namespace FEBuilderGBA
 
         public static void CHEAT_WARP_FE8(EmulatorMemoryForm form, uint warp_chapter, uint edtion, uint worldmap_node)
         {
-            Debug.Assert(Program.ROM.RomInfo.version == 8);
+            Debug.Assert(Program.ROM.RomInfo.version );
 
             uint work_address = Program.ROM.RomInfo.workmemory_last_string_address - 0x70; //テキストバッファの一番下をデータ置き場として利用する.
             uint gSomeWMEventRelatedStruct;
@@ -452,6 +452,23 @@ namespace FEBuilderGBA
                     callEndEventFunction = 0x08083280;
                 }
             }
+            else if (Program.ROM.RomInfo.version == 531)
+            {
+                if (Program.ROM.RomInfo.is_multibyte)
+                {//FE8J
+                    endAllMenusFunction = 0x0804FCAC;
+                    deletePlayerPhaseInterface6CsFunction = 0x0808F44C;
+                    setFlagFunction = 0x080860A8;
+                    callEndEventFunction = 0x080855B8;
+                }
+                else
+                {//FE8U
+                    endAllMenusFunction = 0x0804ef20;
+                    deletePlayerPhaseInterface6CsFunction = 0x0808d150;
+                    setFlagFunction = 0x08083D80;
+                    callEndEventFunction = 0x08083280;
+                }
+            }
             else if (Program.ROM.RomInfo.version == 7)
             {
                 if (Program.ROM.RomInfo.is_multibyte)
@@ -615,6 +632,33 @@ namespace FEBuilderGBA
             uint SetCursorMapPosition;
 
             if (Program.ROM.RomInfo.version == 8)
+            {
+                if (Program.ROM.RomInfo.is_multibyte)
+                {//FE8J
+                    RefreshFogAndUnitMaps = 0x08019ecc;
+                    UpdateMapAndUnit = 0x08032114;
+                    ClearMOVEUNITs = 0x0807b4b8;
+
+                    PointerProcsPlayerPhase = 0x080154E8;
+                    Find6C = 0x08002DEC;
+                    PlayerPhase_RangeDisplayIdle = 0x0801C984;
+                    KeyBuffer = 0x02024CC0;
+                    SetCursorMapPosition = 0x08015BD8;
+                }
+                else
+                {//FE8U
+                    RefreshFogAndUnitMaps = 0x0801a1f4;
+                    UpdateMapAndUnit = 0x080321C8;
+                    ClearMOVEUNITs = 0x080790A4;
+
+                    PointerProcsPlayerPhase = 0x080154C4;
+                    Find6C = 0x08002e9c;
+                    PlayerPhase_RangeDisplayIdle = 0x0801CD1C;
+                    KeyBuffer = 0x02024CC0;
+                    SetCursorMapPosition = 0x08015bbc;
+                }
+            }
+            else if (Program.ROM.RomInfo.version == 531)
             {
                 if (Program.ROM.RomInfo.is_multibyte)
                 {//FE8J
