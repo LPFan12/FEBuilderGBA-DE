@@ -826,7 +826,7 @@
             0});
             this.B17.Name = "B17";
             this.B17.Size = new System.Drawing.Size(67, 25);
-            this.B17.TabIndex = 11;
+            this.B17.TabIndex = 9;
             this.B17.ValueChanged += new System.EventHandler(this.B17_ValueChanged);
             // 
             // J_18
@@ -852,7 +852,7 @@
             0});
             this.B16.Name = "B16";
             this.B16.Size = new System.Drawing.Size(67, 25);
-            this.B16.TabIndex = 9;
+            this.B16.TabIndex = 11;
             this.B16.ValueChanged += new System.EventHandler(this.B17_ValueChanged);
             // 
             // J_17_BATTLEANIME
