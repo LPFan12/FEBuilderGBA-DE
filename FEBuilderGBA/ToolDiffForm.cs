@@ -189,7 +189,19 @@ namespace FEBuilderGBA
             {
                 return false;
             }
-            if (Program.ROM.RomInfo.version != 8)
+            if (Program.ROM.RomInfo.version == 6)
+            {
+                return false;
+            }
+            if (Program.ROM.RomInfo.version == 7)
+            {
+                return false;
+            }
+            if (Program.ROM.RomInfo.version == 206)
+            {
+                return false;
+            }
+            if (Program.ROM.RomInfo.version == 209)
             {
                 return false;
             }
