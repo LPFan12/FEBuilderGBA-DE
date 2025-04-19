@@ -1,4 +1,4 @@
-﻿﻿namespace FEBuilderGBA
+﻿namespace FEBuilderGBA
 {
     partial class OPClassDemoFE7ProtoForm
     {
@@ -79,9 +79,9 @@
             this.B17 = new System.Windows.Forms.NumericUpDown();
             this.J_18 = new System.Windows.Forms.Label();
             this.B16 = new System.Windows.Forms.NumericUpDown();
-            this.J_17_BATTLEANIME = new System.Windows.Forms.Label();
+            this.J_16_BATTLEANIME = new System.Windows.Forms.Label();
             this.B15 = new System.Windows.Forms.NumericUpDown();
-            this.J_16 = new System.Windows.Forms.Label();
+            this.J_17 = new System.Windows.Forms.Label();
             this.L_15_CLASS = new FEBuilderGBA.TextBoxEx();
             this.B14 = new System.Windows.Forms.NumericUpDown();
             this.J_15_CLASS = new System.Windows.Forms.Label();
@@ -137,8 +137,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.N2_Address)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.P28)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.B23)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.B16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.B17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.B16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.B15)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.B14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.B13)).BeginInit();
@@ -191,9 +191,9 @@
             this.panel2.Controls.Add(this.B17);
             this.panel2.Controls.Add(this.J_18);
             this.panel2.Controls.Add(this.B16);
-            this.panel2.Controls.Add(this.J_17_BATTLEANIME);
+            this.panel2.Controls.Add(this.J_16_BATTLEANIME);
             this.panel2.Controls.Add(this.B15);
-            this.panel2.Controls.Add(this.J_16);
+            this.panel2.Controls.Add(this.J_17);
             this.panel2.Controls.Add(this.L_15_CLASS);
             this.panel2.Controls.Add(this.B14);
             this.panel2.Controls.Add(this.J_15_CLASS);
@@ -826,7 +826,7 @@
             0});
             this.B17.Name = "B17";
             this.B17.Size = new System.Drawing.Size(67, 25);
-            this.B17.TabIndex = 9;
+            this.B17.TabIndex = 11;
             this.B17.ValueChanged += new System.EventHandler(this.B17_ValueChanged);
             // 
             // J_18
@@ -852,20 +852,19 @@
             0});
             this.B16.Name = "B16";
             this.B16.Size = new System.Drawing.Size(67, 25);
-            this.B16.TabIndex = 11;
+            this.B16.TabIndex = 9;
             this.B16.ValueChanged += new System.EventHandler(this.B17_ValueChanged);
             // 
-            // J_17_BATTLEANIME
+            // J_17
             // 
-            this.J_17_BATTLEANIME.AccessibleDescription = "@OP_CLASSDEMO_BATTLEANIME";
-            this.J_17_BATTLEANIME.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.J_17_BATTLEANIME.Location = new System.Drawing.Point(2, 368);
-            this.J_17_BATTLEANIME.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.J_17_BATTLEANIME.Name = "J_17_BATTLEANIME";
-            this.J_17_BATTLEANIME.Size = new System.Drawing.Size(175, 32);
-            this.J_17_BATTLEANIME.TabIndex = 158;
-            this.J_17_BATTLEANIME.Text = "戦闘アニメ";
-            this.J_17_BATTLEANIME.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.J_17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.J_17.Location = new System.Drawing.Point(2, 337);
+            this.J_17.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.J_17.Name = "J_17";
+            this.J_17.Size = new System.Drawing.Size(175, 32);
+            this.J_17.TabIndex = 156;
+            this.J_17.Text = "敵味方カラー";
+            this.J_17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // B15
             // 
@@ -881,16 +880,17 @@
             this.B15.Size = new System.Drawing.Size(67, 25);
             this.B15.TabIndex = 8;
             // 
-            // J_16
+            // J_16_BATTLEANIME
             // 
-            this.J_16.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.J_16.Location = new System.Drawing.Point(2, 337);
-            this.J_16.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.J_16.Name = "J_16";
-            this.J_16.Size = new System.Drawing.Size(175, 32);
-            this.J_16.TabIndex = 156;
-            this.J_16.Text = "敵味方カラー";
-            this.J_16.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.J_16_BATTLEANIME.AccessibleDescription = "@OP_CLASSDEMO_BATTLEANIME";
+            this.J_16_BATTLEANIME.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.J_16_BATTLEANIME.Location = new System.Drawing.Point(2, 368);
+            this.J_16_BATTLEANIME.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.J_16_BATTLEANIME.Name = "J_16_BATTLEANIME";
+            this.J_16_BATTLEANIME.Size = new System.Drawing.Size(175, 32);
+            this.J_16_BATTLEANIME.TabIndex = 158;
+            this.J_16_BATTLEANIME.Text = "戦闘アニメ";
+            this.J_16_BATTLEANIME.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // L_15_CLASS
             // 
@@ -1327,9 +1327,9 @@
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.N2_Address)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.P28)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.B16)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.B23)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.B17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.B16)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.B15)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.B14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.B13)).EndInit();
@@ -1367,7 +1367,7 @@
         private System.Windows.Forms.Button WriteButton;
         private System.Windows.Forms.NumericUpDown Address;
         private System.Windows.Forms.Label label55;
-        private System.Windows.Forms.Label J_16;
+        private System.Windows.Forms.Label J_17;
         private FEBuilderGBA.TextBoxEx L_15_CLASS;
         private System.Windows.Forms.NumericUpDown B14;
         private System.Windows.Forms.Label J_15_CLASS;
@@ -1389,7 +1389,7 @@
         private System.Windows.Forms.NumericUpDown B17;
         private System.Windows.Forms.Label J_18;
         private System.Windows.Forms.NumericUpDown B16;
-        private System.Windows.Forms.Label J_17_BATTLEANIME;
+        private System.Windows.Forms.Label J_16_BATTLEANIME;
         private System.Windows.Forms.NumericUpDown B15;
         private System.Windows.Forms.Panel panel3;
         private FEBuilderGBA.TextBoxEx N2_BlockSize;
@@ -1413,9 +1413,9 @@
         private System.Windows.Forms.Label J_12;
         private System.Windows.Forms.NumericUpDown B18;
         private System.Windows.Forms.NumericUpDown B27;
-        private FEBuilderGBA.TextBoxEx L_24_TERRAINBATTLE_PLUS1;
         private FEBuilderGBA.TextBoxEx L_23_TERRAINBATTLE_PLUS1;
         private FEBuilderGBA.TextBoxEx L_17_BATTLEANIME_PLUS1;
+        private FEBuilderGBA.TextBoxEx L_24_TERRAINBATTLE_PLUS1;
         private System.Windows.Forms.ComboBox L_16_COMBO;
         private CustomColorGroupBox groupBox1;
         private InterpolatedPictureBox X_BATTLEANIMEICON;
