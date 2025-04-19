@@ -60,7 +60,25 @@ namespace FEBuilderGBA
             uint addr = eearg.NewBaseAddress;
             int count = (int)eearg.NewDataCount;
 
-            if (Program.ROM.RomInfo.version != 8)
+            if (Program.ROM.RomInfo.version == 6)
+            {
+                Debug.Assert(false);
+                eearg.IsCancel = true;
+                return;
+            }
+            if (Program.ROM.RomInfo.version == 7)
+            {
+                Debug.Assert(false);
+                eearg.IsCancel = true;
+                return;
+            }
+            if (Program.ROM.RomInfo.version == 206)
+            {
+                Debug.Assert(false);
+                eearg.IsCancel = true;
+                return;
+            }
+            if (Program.ROM.RomInfo.version == 209)
             {
                 Debug.Assert(false);
                 eearg.IsCancel = true;
