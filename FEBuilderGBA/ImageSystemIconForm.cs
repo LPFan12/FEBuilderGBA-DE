@@ -81,6 +81,16 @@ namespace FEBuilderGBA
                 InputFormRef.markupJumpLabel(X_StatusBackgroundLink);
                 InputFormRef.markupJumpLabel(X_SystemMenuPaletteLink);
             }
+            else if (Program.ROM.RomInfo.version == 531)
+            {//FE8
+                systemmenu_badstatus = new ImageFormRef(this, "systemmenu_badstatus", 40, 8 * 9, 1, Program.ROM.RomInfo.systemmenu_badstatus_image_pointer, 0, Program.ROM.RomInfo.systemmenu_badstatus_palette_pointer);
+                systemmenu_old_badstatus_panel.Hide();
+
+                systemmenu_badstatus_panel.Height = systemmenu_badstatus_panel.Height * 2;
+                systemmenu_badstatus_Picture.Height = systemmenu_badstatus_Picture.Height * 2;
+                InputFormRef.markupJumpLabel(X_StatusBackgroundLink);
+                InputFormRef.markupJumpLabel(X_SystemMenuPaletteLink);
+            }
             else if (Program.ROM.RomInfo.version >= 7)
             {//FE7
                 systemmenu_badstatus = new ImageFormRef(this, "systemmenu_badstatus", 32, 8 * 4, 1, Program.ROM.RomInfo.systemmenu_badstatus_image_pointer, 0, Program.ROM.RomInfo.systemmenu_badstatus_palette_pointer);
@@ -223,7 +233,19 @@ namespace FEBuilderGBA
         //FE8では、バトルプレビューの画像のポインタを4箇所にコピーしないといけない.
         public static void Fix_FE8_systemmenu_battlepreview_image(uint imagePointer,Undo.UndoData undodata)
         {
-            if (Program.ROM.RomInfo.version != 8)
+            if (Program.ROM.RomInfo.version == 6)
+            {
+                return;
+            }
+            if (Program.ROM.RomInfo.version == 7)
+            {
+                return;
+            }
+            if (Program.ROM.RomInfo.version == 206)
+            {
+                return;
+            }
+            if (Program.ROM.RomInfo.version == 209)
             {
                 return;
             }
@@ -440,7 +462,25 @@ namespace FEBuilderGBA
                 palette_plist = 0x02;
                 config_plist = 0x03;
             }
+            else if (Program.ROM.RomInfo.version == 531)
+            {//FE8
+                obj_plist = 0x01;
+                palette_plist = 0x02;
+                config_plist = 0x03;
+            }
             else if (Program.ROM.RomInfo.version == 7)
+            {//FE7
+                obj_plist = 0x1d1c;
+                palette_plist = 0x1e;
+                config_plist = 0x1f;
+            }
+            else if (Program.ROM.RomInfo.version == 206)
+            {//FE7
+                obj_plist = 0x1d1c;
+                palette_plist = 0x1e;
+                config_plist = 0x1f;
+            }
+            else if (Program.ROM.RomInfo.version == 209)
             {//FE7
                 obj_plist = 0x1d1c;
                 palette_plist = 0x1e;
@@ -473,7 +513,25 @@ namespace FEBuilderGBA
                 palette_plist = 0x0F;
                 config_plist = 0x10;
             }
+            if (Program.ROM.RomInfo.version == 531)
+            {//FE8
+                obj_plist = 0x0E;
+                palette_plist = 0x0F;
+                config_plist = 0x10;
+            }
             else if (Program.ROM.RomInfo.version == 7)
+            {//FE7
+                obj_plist = 0x10;
+                palette_plist = 0x11;
+                config_plist = 0x12;
+            }
+            else if (Program.ROM.RomInfo.version == 206)
+            {//FE7
+                obj_plist = 0x10;
+                palette_plist = 0x11;
+                config_plist = 0x12;
+            }
+            else if (Program.ROM.RomInfo.version == 209)
             {//FE7
                 obj_plist = 0x10;
                 palette_plist = 0x11;
@@ -922,6 +980,13 @@ namespace FEBuilderGBA
                 FEBuilderGBA.Address.AddLZ77Pointer(list, other_image_p + 8, "systemmenu_battlepreview_npc", isPointerOnly, Address.DataTypeEnum.LZ77IMG);
                 FEBuilderGBA.Address.AddLZ77Pointer(list, other_image_p + 12, "systemmenu_battlepreview_4th", isPointerOnly, Address.DataTypeEnum.LZ77IMG);
             }
+            if (Program.ROM.RomInfo.version == 531)
+            {//FE8の場合、画像イメージは4つのポインタがあります。
+                uint other_image_p = Program.ROM.RomInfo.systemmenu_battlepreview_image_pointer;
+                FEBuilderGBA.Address.AddLZ77Pointer(list, other_image_p + 4, "systemmenu_battlepreview_enemy", isPointerOnly,Address.DataTypeEnum.LZ77IMG);
+                FEBuilderGBA.Address.AddLZ77Pointer(list, other_image_p + 8, "systemmenu_battlepreview_npc", isPointerOnly, Address.DataTypeEnum.LZ77IMG);
+                FEBuilderGBA.Address.AddLZ77Pointer(list, other_image_p + 12, "systemmenu_battlepreview_4th", isPointerOnly, Address.DataTypeEnum.LZ77IMG);
+            }
 
             palette = Program.ROM.p32(Program.ROM.RomInfo.systemarea_move_gradation_palette_pointer);
             FEBuilderGBA.Address.AddAddress(list,palette
@@ -943,6 +1008,15 @@ namespace FEBuilderGBA
                 , Address.DataTypeEnum.PAL);
 
             if (Program.ROM.RomInfo.version == 8)
+            {//FE8
+                image = Program.ROM.p32(Program.ROM.RomInfo.systemmenu_badstatus_image_pointer);
+                FEBuilderGBA.Address.AddAddress(list,image
+                    , 40 * (8 * 9) / 2
+                    , Program.ROM.RomInfo.systemmenu_badstatus_image_pointer
+                    , "systemmenu_badstatus"
+                    , Address.DataTypeEnum.LZ77IMG);
+            }
+            else if (Program.ROM.RomInfo.version == 531)
             {//FE8
                 image = Program.ROM.p32(Program.ROM.RomInfo.systemmenu_badstatus_image_pointer);
                 FEBuilderGBA.Address.AddAddress(list,image
