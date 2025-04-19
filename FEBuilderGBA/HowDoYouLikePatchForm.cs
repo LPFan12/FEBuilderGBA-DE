@@ -111,6 +111,11 @@ namespace FEBuilderGBA
                     patchName1 = "SOUND_NIMAP2(Native Instrument Map)";///No Translate
                     patchName2 = "SOUND_NIMAP2";///No Translate
                 }
+                else if (Program.ROM.RomInfo.version == 531)
+                {//FE8用には更新されたバージョンを利用する.
+                    patchName1 = "SOUND_NIMAP2(Native Instrument Map)";///No Translate
+                    patchName2 = "SOUND_NIMAP2";///No Translate
+                }
                 else
                 {
                     patchName1 = "SOUND_NIMAP(Native Instrument Map)";///No Translate
@@ -127,6 +132,11 @@ namespace FEBuilderGBA
                     return false;
                 }
                 if (Program.ROM.RomInfo.version == 8)
+                {
+                    patchName1 = "drumfix";///No Translate
+                    patchName2 = "drumfix";///No Translate
+                }
+                else if (Program.ROM.RomInfo.version == 531)
                 {
                     patchName1 = "drumfix";///No Translate
                     patchName2 = "drumfix";///No Translate
