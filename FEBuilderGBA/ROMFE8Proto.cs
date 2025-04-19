@@ -26,7 +26,7 @@ namespace FEBuilderGBA
             max_luck_address = 0x2bf5e;  // 最大レベルの幸運の値を格納しているアドレス
             class_pointer = 0x19098	;  // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             class_datasize = 84;   // ユニットのデータサイズ
-            bg_pointer = U.FindROMPointer(rom, 0x8, new uint[] { 0x00EAA4, 0x00EF08, 0x00F00C, 0x010F8C });  //BGベースアドレス
+            bg_pointer = 0x10690;  Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             portrait_pointer = 0x7060;  //Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             portrait_datasize = 28;
             icon_pointer = 0x5268; // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
@@ -45,7 +45,7 @@ namespace FEBuilderGBA
             unit_icon_lightrune_palette_address = 0x5C73E0;  // ユニット(光の結界)のパレットの開始位置
             unit_icon_sepia_palette_address = 0x5C7400;  // ユニット(セピア)のパレットの開始位置
 
-            unit_move_icon_pointer = U.FindROMPointer(rom, 0x4, new uint[] { 0x07B998, 0x7B9AC, 0xBFA7C,0xBFA90,  });  // ユニット移動アイコンの開始位置
+            unit_move_icon_pointer = 0x88890;  // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             lightrune_uniticon_id = 0x66;  // ユニット(光の結界)のユニットアイコンのID
             map_setting_pointer = 0x487FC;   // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             map_setting_datasize = 148;  //マップ設定のデータサイズ
@@ -77,15 +77,15 @@ namespace FEBuilderGBA
             ccbranch2_pointer = 0xD14E4;  // CC分岐の開始位置2 見習いのCCにのみ利用 CC分岐の開始位置+1の場所を指す
             class_alphaname_pointer = 0xD18CC;  // クラスのアルファベット表記の開始位置
             map_terrain_name_pointer = 0x19f24;   // マップの地名表記の開始位置
-            image_chapter_title_pointer = 0x8ba0c;  // 章タイトルの開始位置
-            image_chapter_title_palette = 0xa99fa8;  // 章タイトルのパレット 多分違う
+            image_chapter_title_pointer = 0x96A98;  // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
+            image_chapter_title_palette = 0x3A087C;  // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             image_unit_palette_pointer = 0x5b6cc;   // ユニットパレットの開始位置
             item_pointer = 0x176EC;  // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
 
             item_datasize = 36;  // アイテムのデータサイズ
             item_effect_pointer = 0x7A664;  // アイテムエフェクトの開始位置
-            sound_table_pointer = 0xD5024;  // ソングテーブルの開始位置
-            sound_room_pointer = 0xB5044;  // サウンドルームの開始位置
+            sound_table_pointer = 0xE2B34;  // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
+            sound_room_pointer = 0xC3458;  // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             sound_room_datasize = 16;  // サウンドルームのデータサイズ
             sound_room_cg_pointer = 0x0;  // サウンドルームの背景リスト(FE7のみ)
             event_ballte_talk_pointer = 0x86978;  // 交戦時セリフの開始位置
@@ -117,7 +117,7 @@ namespace FEBuilderGBA
             ed_3a_pointer = 0xAC09E0;   //ED その後 エイルーク編　
             ed_3b_pointer = 0xAC09E4;   //ED その後 エフラム編
             ed_3c_pointer = 0x0;   //ED その後 FE7 リン編
-            generic_enemy_portrait_pointer = 0x5E98;  //一般兵の顔
+            generic_enemy_portrait_pointer = 0x7A68;  //Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             generic_enemy_portrait_count = 8;  //一般兵の顔の個数
 
             cc_item_hero_crest_itemid = 0x64;   //CCアイテム 英雄の証
@@ -208,7 +208,7 @@ namespace FEBuilderGBA
             systemmenu_badstatus_old_image_pointer = 0;  //昔の圧縮のバッドステータス画像 FE7-FE6で 毒などのステータス
             systemmenu_badstatus_old_palette_pointer = 0x0;  //昔の圧縮のバッドステータス画像のパレット FE7 FE6
 
-            bigcg_pointer = 0xbb174;  // CG
+            bigcg_pointer = 0xCB5E0;  // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             end_cg_address = 0x1F68CC;  // END CG FE8のみ
             worldmap_big_image_pointer = 0xBF698;  //ワールドマップ フィールドになるでかい奴  
             worldmap_big_palette_pointer = 0xBF6A4;  //ワールドマップ フィールドになるでかい奴 パレット  
@@ -235,8 +235,8 @@ namespace FEBuilderGBA
             weapon_rank_s_bonus_address = 0x2ACE4; //武器ランクSボーナス設定
             weapon_battle_flash_address = 0x59902; //神器 戦闘時フラッシュ
             weapon_effectiveness_2x3x_address = 0x2aa88; //神器 2倍 3倍特効
-            font_item_address = 0x57994C; //アイテム名とかに使われるフォント 関数:080040b8 計算式とか0x08003f50
-            font_serif_address =  0x593F74;  //セリフとかに使われるフォント
+            font_item_address = 0x929374; //Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
+            font_serif_address =  0x943568;  //Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             monster_probability_pointer = 0x7A770;  //魔物発生確率
             monster_item_item_pointer = 0x7A814;  //魔物所持アイテム アイテム確率
             monster_item_probability_pointer = 0x7A810;  //魔物所持アイテム 所持確率
@@ -250,8 +250,8 @@ namespace FEBuilderGBA
             monster_wmap_probability_after_2_pointer = 0xC6690;
             worldmap_skirmish_startevent_pointer = 0x015430;
             worldmap_skirmish_endevent_pointer = 0x0855F8;
-            battle_bg_pointer = 0x77e9c;  //戦闘背景
-            battle_terrain_pointer = 0x52b40;  //戦闘地形
+            battle_bg_pointer = 0x86BE4;  //Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
+            battle_terrain_pointer = 0x68388;  //Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             senseki_comment_pointer = 0x0;  //戦績コメント FE8にはない
             unit_custom_battle_anime_pointer = 0x0;  //ユニット専用アニメ FE7にある
             magic_effect_pointer = 0x5C19C;  //魔法効果へのポインタ
