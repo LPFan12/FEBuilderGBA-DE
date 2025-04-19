@@ -105,6 +105,17 @@ namespace FEBuilderGBA
                     return 0x57EE8;
                 }
             }
+            else if (Program.ROM.RomInfo.version == 531)
+            {
+                if (Program.ROM.RomInfo.is_multibyte)
+                {//FE8J
+                    return 0x58D34;
+                }
+                else
+                {//FE8U
+                    return 0x57EE8;
+                }
+            }
             return 0x0;
         }
         public static uint[] GetPointersExtendsPatch(uint plus = 0)
