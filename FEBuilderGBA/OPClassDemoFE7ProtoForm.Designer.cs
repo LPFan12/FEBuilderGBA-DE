@@ -820,9 +820,9 @@
             this.B17.Location = new System.Drawing.Point(187, 373);
             this.B17.Margin = new System.Windows.Forms.Padding(2);
             this.B17.Maximum = new decimal(new int[] {
-            255,
-            0,
-            0,
+            -559939585,
+            902409669,
+            54,
             0});
             this.B17.Name = "B17";
             this.B17.Size = new System.Drawing.Size(67, 25);
@@ -846,9 +846,9 @@
             this.B16.Location = new System.Drawing.Point(187, 338);
             this.B16.Margin = new System.Windows.Forms.Padding(2);
             this.B16.Maximum = new decimal(new int[] {
-            255,
-            0,
-            0,
+            -559939585,
+            902409669,
+            54,
             0});
             this.B16.Name = "B16";
             this.B16.Size = new System.Drawing.Size(67, 25);
