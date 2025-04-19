@@ -94,9 +94,9 @@ namespace FEBuilderGBA
             event_haiku_tutorial_2_pointer = 0x79D28; // エリウッド編チュートリアル 死亡時セリフの開始位置 FE7のみ
             event_force_sortie_pointer = 0x8e6f8; // 強制出撃の開始位置
             event_tutorial_pointer = 0x797D0; //イベントチュートリアルポインタ FE7のみ
-            map_exit_point_pointer = 0x39E24; // 離脱ポイント開始サイズ
+            map_exit_point_pointer = 0x03B520; // Ist das der richtige Pointer?
             map_exit_point_npc_blockadd = 0x30; // arr[+0x30] からNPCらしい.
-            map_exit_point_blank = 0x1D92F0; // 一つも離脱ポインタがない時のNULLマーク 共通で使われる.
+            map_exit_point_blank = 0x1C3680; // Ist das die richtige Addresse?
             sound_boss_bgm_pointer = 0x06AE9C; // Ist das der richtige Pointer?
             sound_foot_steps_pointer = 0x0; // クラス足音の開始位置
             sound_foot_steps_switch2_address = 0x0;
@@ -128,11 +128,11 @@ namespace FEBuilderGBA
             cc_moon_bracelet_itemid = 0x87;  //CCアイテム 月の腕輪
             cc_sun_bracelet_itemid = 0x89;  //CCアイテム 太陽の腕輪
 
-            cc_item_hero_crest_pointer = 0x2798c;  //CCアイテム 英雄の証
-            cc_item_knight_crest_pointer = 0x27994;  //CCアイテム 騎士の勲章
-            cc_item_orion_bolt_pointer = 0x2799c;  //CCアイテム オリオンの矢
-            cc_elysian_whip_pointer = 0x279a4;  //CCアイテム 天空のムチ
-            cc_guiding_ring_pointer = 0x279ac;  //CCアイテム 導きの指輪
+            cc_item_hero_crest_pointer = 0x0287F0;  //Ist das der richtige Pointer?
+            cc_item_knight_crest_pointer = 0x0287F8;  //Ist das der richtige Pointer?
+            cc_item_orion_bolt_pointer = 0x028800;  //Ist das der richtige Pointer?
+            cc_elysian_whip_pointer = 0x028808;  //Ist das der richtige Pointer?
+            cc_guiding_ring_pointer = 0x028810;  //Ìst das der richtige Pointer?
             cc_fallen_contract_pointer = 0x27a00;  //CCアイテム ダミー8A 闇の契約書
             cc_master_seal_pointer = 0x279b4;  //CCアイテム マスタープルフ
             cc_ocean_seal_pointer = 0x279d8;  //CCアイテム 覇者の証
@@ -198,14 +198,14 @@ namespace FEBuilderGBA
             systemarea_attack_gradation_palette_pointer = 0x01D664; //攻撃範囲
             systemarea_staff_gradation_palette_pointer = 0x01D668; //杖の範囲
 
-            systemmenu_badstatus_image_pointer = 0x85958; //無圧縮のバッドステータス画像
+            systemmenu_badstatus_image_pointer = 0x0870C4; //Ist das der richtige Pointer?
             systemmenu_badstatus_palette_pointer = 0x82FFC; //バッドステータスのパレット
             systemmenu_badstatus_old_image_pointer = 0x865E8; //昔の圧縮のバッドステータス画像 FE7-FE6で 毒などのステータス
             systemmenu_badstatus_old_palette_pointer = 0x9CAEC; //昔の圧縮のバッドステータス画像のパレット FE7 FE6
 
             bigcg_pointer = 0x0BA660; // Ist das der richtige Pointer?
             end_cg_address = 0x0; // END CG FE8のみ
-            worldmap_big_image_pointer = 0xB6A14; //ワールドマップ フィールドになるでかい奴  
+            worldmap_big_image_pointer = 0x0B8DE4; //Ist das der richtige Pointer?
             worldmap_big_palette_pointer = 0xB6C00; //ワールドマップ フィールドになるでかい奴 パレット  
             worldmap_big_dpalette_pointer = 0x0; //ワールドマップ フィールドになるでかい奴 闇パレット  
             worldmap_big_palettemap_pointer = 0xB6A0C; //ワールドマップ フィールドになるでかい奴 パレットマップ
@@ -220,7 +220,7 @@ namespace FEBuilderGBA
             worldmap_road_tile_pointer = 0x0; //ワールドマップ  道チップ
             map_load_function_pointer = 0x0; //マップチャプターに入ったときの処理(FE8のみ)
             map_load_function_switch1_address = 0x0;
-            system_icon_pointer = 0x15A38;//システム アイコン集
+            system_icon_pointer = 0x097E04;//Ist das der richtige Pointer?
             system_icon_palette_pointer = 0x15A44;//システム アイコンパレット集
             system_icon_width_address = 0x15A1C; //システムアイコンの幅が書かれているアドレス
             system_weapon_icon_pointer = 0x96d78;//剣　斧　弓などの武器属性アイコン集
@@ -330,17 +330,17 @@ namespace FEBuilderGBA
             battle_screen_image3_pointer = 0x04DABC;  //戦闘画面 画像3
             battle_screen_image4_pointer = 0x04DA5C;  //戦闘画面 画像4
             battle_screen_image5_pointer = 0x04DABC;  //戦闘画面 画像5
-            ai1_pointer = 0xC07CB0;  //AI1ポインタ
-            ai2_pointer = 0xC07CA4;  //AI2ポインタ
-            ai3_pointer = 0x039758;  //AI3ポインタ
-            ai_steal_item_pointer = 0x36D90;  //AI盗むAI アイテム評価テーブル 0x08C06564
+            ai1_pointer = 0xB46C54;  //Ist das der richtige Pointer?
+            ai2_pointer = 0xB46C48;  //Ist das der richtige Pointer?
+            ai3_pointer = 0x03AE68;  //Ist das der richtige Pointer?
+            ai_steal_item_pointer = 0x038210;  //Ist das der richtige Pointer?
             ai_preform_staff_pointer = 0x03AF88;  //AI杖 杖評価テーブル
             ai_preform_staff_direct_asm_pointer = 0x3B02C;  //AI杖 杖評価テーブル ai_preform_staff_pointer+4への参照
             ai_preform_item_pointer = 0x03BEA8; //AIアイテム アイテム評価テーブル
             ai_preform_item_direct_asm_pointer = 0x3BF48;  //AIアイテム アイテム評価テーブル
             ai_map_setting_pointer = 0x34E18;  //AI 章ごとの設定テーブル 0x081D92F4
-            item_usability_array_pointer = 0x27194; //アイテムを利用できるか判定する
-            item_usability_array_switch2_address = 0x27182;
+            item_usability_array_pointer = 0x027FF0; //Ist das der richtige Pointer?
+            item_usability_array_switch2_address = 0x027FDE; //Ist das die richtige Addresse?
             item_effect_array_pointer = 0x2d508;    //アイテムを利用した場合の効果を定義する
             item_effect_array_switch2_address = 0x2d4ee;
             item_promotion1_array_pointer = 0x278b4;   //CCアイテムを使った場合の処理を定義する
