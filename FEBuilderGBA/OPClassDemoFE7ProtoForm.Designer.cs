@@ -39,7 +39,6 @@
             this.L_24_TERRAINBATTLEICON_PLUS1 = new FEBuilderGBA.InterpolatedPictureBox();
             this.L_23_TERRAINBATTLEICON_PLUS1 = new FEBuilderGBA.InterpolatedPictureBox();
             this.X_BATTLEANIMEICON = new FEBuilderGBA.InterpolatedPictureBox();
-            this.L_18_COMBO = new System.Windows.Forms.ComboBox();
             this.L_24_TERRAINBATTLE_PLUS1 = new FEBuilderGBA.TextBoxEx();
             this.L_23_TERRAINBATTLE_PLUS1 = new FEBuilderGBA.TextBoxEx();
             this.L_16_BATTLEANIME_PLUS1 = new FEBuilderGBA.TextBoxEx();
@@ -165,7 +164,6 @@
             this.panel2.Controls.Add(this.L_24_TERRAINBATTLEICON_PLUS1);
             this.panel2.Controls.Add(this.L_23_TERRAINBATTLEICON_PLUS1);
             this.panel2.Controls.Add(this.X_BATTLEANIMEICON);
-            this.panel2.Controls.Add(this.L_18_COMBO);
             this.panel2.Controls.Add(this.L_24_TERRAINBATTLE_PLUS1);
             this.panel2.Controls.Add(this.L_23_TERRAINBATTLE_PLUS1);
             this.panel2.Controls.Add(this.L_16_BATTLEANIME_PLUS1);
@@ -267,21 +265,6 @@
             this.B19.Name = "B19";
             this.B19.Size = new System.Drawing.Size(67, 25);
             this.B19.TabIndex = 14;
-            // 
-            // L_18_COMBO
-            // 
-            this.L_18_COMBO.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.L_18_COMBO.FormattingEnabled = true;
-            this.L_18_COMBO.Items.AddRange(new object[] {
-            "00=自軍",
-            "01=敵軍",
-            "02=NPC",
-            "03=グレー"});
-            this.L_18_COMBO.Location = new System.Drawing.Point(266, 405);
-            this.L_18_COMBO.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.L_18_COMBO.Name = "L_18_COMBO";
-            this.L_18_COMBO.Size = new System.Drawing.Size(228, 26);
-            this.L_18_COMBO.TabIndex = 10;
             // 
             // X_GOTO_GRAPHICS_TOOL_JP_NAME
             // 
@@ -1401,7 +1384,6 @@
         private FEBuilderGBA.TextBoxEx L_23_TERRAINBATTLE_PLUS1;
         private FEBuilderGBA.TextBoxEx L_16_BATTLEANIME_PLUS1;
         private FEBuilderGBA.TextBoxEx L_24_TERRAINBATTLE_PLUS1;
-        private System.Windows.Forms.ComboBox L_18_COMBO;
         private CustomColorGroupBox groupBox1;
         private InterpolatedPictureBox X_BATTLEANIMEICON;
         private InterpolatedPictureBox L_24_TERRAINBATTLEICON_PLUS1;
