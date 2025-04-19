@@ -633,7 +633,19 @@ namespace FEBuilderGBA
         //SkillSystems Reserve
         public static bool IsSkillReserve(ref uint addr)
         {
-            if (Program.ROM.RomInfo.version != 8)
+            if (Program.ROM.RomInfo.version == 6)
+            {
+                return false;
+            }
+            if (Program.ROM.RomInfo.version == 7)
+            {
+                return false;
+            }
+            if (Program.ROM.RomInfo.version == 206)
+            {
+                return false;
+            }
+            if (Program.ROM.RomInfo.version == 209)
             {
                 return false;
             }
