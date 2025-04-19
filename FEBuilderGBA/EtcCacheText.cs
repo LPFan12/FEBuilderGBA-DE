@@ -67,6 +67,23 @@ namespace FEBuilderGBA
                     }
                 }
             }
+            if (Program.ROM.RomInfo.version == 531)
+            {
+                if (Program.ROM.RomInfo.is_multibyte)
+                {
+                    for (uint textid = 0xE00; textid <= 0xEFF; textid++)
+                    {
+                        UseValsID.AppendTextID(list, FELint.Type.TEXTID_FOR_SYSTEM, U.NOT_FOUND, "", textid);
+                    }
+                }
+                else
+                {
+                    for (uint textid = 0xE00; textid <= 0xFFF; textid++)
+                    {
+                        UseValsID.AppendTextID(list, FELint.Type.TEXTID_FOR_SYSTEM, U.NOT_FOUND, "", textid);
+                    }
+                }
+            }
         }
         public UseValsID MakeUseTextID(uint textid)
         {
@@ -80,6 +97,23 @@ namespace FEBuilderGBA
                 return new UseValsID(FELint.Type.TEXTID_FOR_SYSTEM, U.NOT_FOUND, name, textid, UseValsID.TargetTypeEnum.TEXTID);
             }
             if (Program.ROM.RomInfo.version == 8)
+            {
+                if (Program.ROM.RomInfo.is_multibyte)
+                {
+                    if (textid >= 0xE00 && textid <= 0xEFF)
+                    {
+                        return new UseValsID(FELint.Type.TEXTID_FOR_SYSTEM, U.NOT_FOUND, name, textid, UseValsID.TargetTypeEnum.TEXTID);
+                    }
+                }
+                else
+                {
+                    if (textid >= 0xE00 && textid <= 0xFFF)
+                    {
+                        return new UseValsID(FELint.Type.TEXTID_FOR_SYSTEM, U.NOT_FOUND, name, textid, UseValsID.TargetTypeEnum.TEXTID);
+                    }
+                }
+            }
+            if (Program.ROM.RomInfo.version == 531)
             {
                 if (Program.ROM.RomInfo.is_multibyte)
                 {
