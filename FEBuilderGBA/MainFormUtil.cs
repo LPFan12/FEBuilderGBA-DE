@@ -2469,6 +2469,10 @@ namespace FEBuilderGBA
                 {
                     str += "\r\n" + R._("FE8ではパッチを利用することでCGをイベントで利用することができます。");
                 }
+                if (Program.ROM.RomInfo.version == 531)
+                {
+                    str += "\r\n" + R._("FE8ではパッチを利用することでCGをイベントで利用することができます。");
+                }
                 return str;
             }
             if (name == "ImageChapterTitleButton")
@@ -2534,6 +2538,10 @@ namespace FEBuilderGBA
                 {
                     str += "\r\n" + R._("逆に出撃できないユニットを作るには、パッチを利用してください");
                 }
+                else if (Program.ROM.RomInfo.version == 531)
+                {
+                    str += "\r\n" + R._("逆に出撃できないユニットを作るには、パッチを利用してください");
+                }
                 return str;
             }
             if (name == "EventMapChangeButton")
@@ -2568,6 +2576,10 @@ namespace FEBuilderGBA
             {
                 string str = R._("章が開始される前のワールドマップで発生するイベントを設定します。");
                 if (Program.ROM.RomInfo.version == 8)
+                {
+                    str += "\r\n" + R._("FE8では、ワールドマップを自由に移動できるため、拠点を選択した時と、クリアした時の2種類のイベントを設定できます。");
+                }
+                if (Program.ROM.RomInfo.version == 531)
                 {
                     str += "\r\n" + R._("FE8では、ワールドマップを自由に移動できるため、拠点を選択した時と、クリアした時の2種類のイベントを設定できます。");
                 }
