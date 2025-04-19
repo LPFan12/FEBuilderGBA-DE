@@ -77,7 +77,7 @@ namespace FEBuilderGBA
             ccbranch2_pointer = 0x0; // CC分岐の開始位置2 見習いのCCにのみ利用 CC分岐の開始位置+1の場所を指す
             class_alphaname_pointer = 0x0; // クラスのアルファベット表記の開始位置
             map_terrain_name_pointer = 0x19efc; // マップの地名表記の開始位置
-            image_chapter_title_pointer = 0x82e68; // 章タイトルの開始位置
+            image_chapter_title_pointer = 0x0845B8; // Ist das der richtige Pointer?
             image_chapter_title_palette = 0x404f10; // 章タイトルのパレット 多分違う
             image_unit_palette_pointer = 0x549E0; // ユニットパレットの開始位置
             item_pointer = 0x160A8; // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
