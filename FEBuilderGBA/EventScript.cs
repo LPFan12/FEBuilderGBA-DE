@@ -1410,6 +1410,10 @@ namespace FEBuilderGBA
                 {//ダミー終端
                     return false;
                 }
+                if (Program.ROM.RomInfo.version == 531 && IsFE8DummyEnd(code,addr) )
+                {//ダミー終端
+                    return false;
+                }
                 return true;
             }
             Debug.Assert(addr >= lastBranchAddr);
