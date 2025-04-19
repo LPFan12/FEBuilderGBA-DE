@@ -24,7 +24,7 @@ namespace FEBuilderGBA
             unit_datasize = 52;  // ユニットのデータサイズ
             max_level_address = 0x02B9C0;  // 最大レベルの値を格納しているアドレス  
             max_luck_address = 0x2bf5e;  // 最大レベルの幸運の値を格納しているアドレス
-            class_pointer = 0x19098	;  // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
+            class_pointer = 0x19098;  // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             class_datasize = 84;   // ユニットのデータサイズ
             bg_pointer = 0x10690;  //Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             portrait_pointer = 0x7060;  //Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
