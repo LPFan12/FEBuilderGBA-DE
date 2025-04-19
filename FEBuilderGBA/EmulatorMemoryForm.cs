@@ -167,7 +167,25 @@ namespace FEBuilderGBA
         }
         void InitMemroySlot()
         {
-            if (Program.ROM.RomInfo.version != 8)
+            if (Program.ROM.RomInfo.version == 6)
+            {
+                this.MemorySlotLabel.Hide();
+                this.MemorySlotListBox.Hide();
+                return;
+            }
+            if (Program.ROM.RomInfo.version == 7)
+            {
+                this.MemorySlotLabel.Hide();
+                this.MemorySlotListBox.Hide();
+                return;
+            }
+            if (Program.ROM.RomInfo.version == 206)
+            {
+                this.MemorySlotLabel.Hide();
+                this.MemorySlotListBox.Hide();
+                return;
+            }
+            if (Program.ROM.RomInfo.version == 209)
             {
                 this.MemorySlotLabel.Hide();
                 this.MemorySlotListBox.Hide();
@@ -610,7 +628,19 @@ namespace FEBuilderGBA
 
         void UpdateMemorySlot()
         {
-            if (Program.ROM.RomInfo.version != 8)
+            if (Program.ROM.RomInfo.version == 6)
+            {
+                return;
+            }
+            if (Program.ROM.RomInfo.version == 7)
+            {
+                return;
+            }
+            if (Program.ROM.RomInfo.version == 206)
+            {
+                return;
+            }
+            if (Program.ROM.RomInfo.version == 209)
             {
                 return;
             }
