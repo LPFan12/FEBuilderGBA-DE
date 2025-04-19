@@ -302,6 +302,13 @@ namespace FEBuilderGBA
                     return true;
                 }
             }
+	    else if (Program.ROM.RomInfo.version == 531)
+            {
+                if (textid >= 0xE00 && textid <= 0xFFF)
+                {
+                    return true;
+                }
+            }
             else if (Program.ROM.RomInfo.version == 7)
             {
                 if (textid >= 0x1E00 && textid <= 0x1FFF)
@@ -3163,6 +3170,22 @@ namespace FEBuilderGBA
             bool IsOrignalBug(string str,int n, Size size)
             {
                 if (Program.ROM.RomInfo.version == 8)
+                {
+                    if (Program.ROM.RomInfo.is_multibyte)
+                    {
+                        if (n == 0 && size.Width==156 && size.Height==48 &&
+                            str.IndexOf("エイリーク様はヒーニアス王子救出に\r\n") >= 0) ///No Translate
+                        {
+                            return true;
+                        }
+                        if (n == 0 && size.Width == 172 && size.Height == 48 &&
+                            str.IndexOf("それに、せっかくここにいるのに、\r\n") >= 0) ///No Translate
+                        {
+                            return true;
+                        }
+                    }
+                }
+		else if (Program.ROM.RomInfo.version == 531)
                 {
                     if (Program.ROM.RomInfo.is_multibyte)
                     {
