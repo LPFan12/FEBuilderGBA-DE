@@ -85,6 +85,12 @@ namespace FEBuilderGBA
 //                            && U.isPointerOrNULL(Program.ROM.u32(addr + 16)) //スキルシステムでなんかするみたいなのでやめる
                         ;
                     }
+                    else if (Program.ROM.RomInfo.version == 531 && Program.ROM.RomInfo.is_multibyte == false)
+                    {
+                        return U.isPointerOrNULL(Program.ROM.u32(addr + 12))
+//                            && U.isPointerOrNULL(Program.ROM.u32(addr + 16)) //スキルシステムでなんかするみたいなのでやめる
+                        ;
+                    }
                     else
                     {
                         return U.isPointerOrNULL(Program.ROM.u32(addr + 12))
@@ -452,6 +458,17 @@ namespace FEBuilderGBA
                 if (text == "")
                 {
                     if (Program.ROM.RomInfo.version == 8)
+                    {//FE8では武器の名前を""にすると、耐久などが表示されない
+                        if (Program.ROM.RomInfo.is_multibyte)
+                        {
+                            return R._("アイテムの説明欄が空です。\r\nFE8では、空にする場合は、倍角スペースを入れる必要があります。");
+                        }
+                        else
+                        {
+                            return R._("アイテムの説明欄が空です。\r\nFE8では、空にする場合は、空白スペースと[.]を入れる必要があります。\r\n例:  [.]");
+                        }
+                    }
+                    if (Program.ROM.RomInfo.version == 531)
                     {//FE8では武器の名前を""にすると、耐久などが表示されない
                         if (Program.ROM.RomInfo.is_multibyte)
                         {
