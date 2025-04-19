@@ -15,29 +15,29 @@ namespace FEBuilderGBA
             TitleToFilename = "FE8"; 
             mask_point_base_pointer = 0x0006DC;  // Huffman tree end (indirected twice)
             mask_pointer = 0x0006E0;   // Huffman tree start (indirected once)
-            text_pointer = 0x00A000;  // textの開始位置
+            text_pointer = 0xBF58;  // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             text_recover_address = 0x14D08C;  // textの開始位置(上記ポインタを壊している改造があるののでその対策)
-            text_data_start_address = 0xED7F4;  // textデータの規定値の開始位置
+            text_data_start_address = 0x6E0;  // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             text_data_end_address = 0x14929B;  // textデータの規定値の開始位置
-            unit_pointer = U.FindROMPointer(rom, 0x2c, new uint[] { 0x010650, 0x010268, 0x1069C, 0xA3B64, 0xA3CE0, 0xA4928, 0xA49A0, 0xA4C3C, 0xA5458, 0xA56A8, 0xA5860, 0xA595C, 0xA5BB0, 0xA5D28, 0xA61F8 });  // ユニットのの開始位置
+            unit_pointer = 0x11A68;  // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             unit_maxcount = 255;  // ユニットの最大数
             unit_datasize = 52;  // ユニットのデータサイズ
             max_level_address = 0x02B9C0;  // 最大レベルの値を格納しているアドレス  
             max_luck_address = 0x2bf5e;  // 最大レベルの幸運の値を格納しているアドレス
-            class_pointer = U.FindROMPointer(rom, 0x88, new uint[] {0x017860,0x17ADC,0x18AC0,0x19130});  // クラスの開始位置
+            class_pointer = 0x19098	;  // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             class_datasize = 84;   // ユニットのデータサイズ
             bg_pointer = U.FindROMPointer(rom, 0x8, new uint[] { 0x00EAA4, 0x00EF08, 0x00F00C, 0x010F8C });  //BGベースアドレス
-            portrait_pointer = 0x00542C;  //顔ベースアドレス
+            portrait_pointer = 0x7060;  //Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             portrait_datasize = 28;
-            icon_pointer = 0x0036D4;
-            icon_orignal_address = 0x5BA470;  // アイコンの初期値
+            icon_pointer = 0x5268; // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
+            icon_orignal_address = 0xEA3E0;  // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             icon_orignal_max = 0xDF;  // アイコンの最大数
 
-            icon_palette_pointer = 0x00351C;  // アイコンの開始位置
-            unit_wait_icon_pointer = U.FindROMPointer(rom, 0x4, new uint[] { 0x0266D4, 0x26754, 0x267DC, 0x26C2C, 0x27274, 0x27B44, 0x27C30, 0x27FF8 });  // ユニット待機アイコンの開始位置
+            icon_palette_pointer = 0x5170;  // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
+            unit_wait_icon_pointer = 0x31254;  // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             unit_wait_barista_anime_address = 0x02727c;   // ユニット待機アイコンのバリスタのアニメ指定アドレス
             unit_wait_barista_id = 0x5b;   // ユニット待機アイコンのバリスタの位置
-            unit_icon_palette_address = 0x5c7340;  // ユニット(自軍)のパレットのアドレス
+            unit_icon_palette_address = 0xF266C;  // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             unit_icon_enemey_palette_address = 0x5c7360;  // ユニット(敵軍)のパレットのアドレス
             unit_icon_npc_palette_address = 0x5c7380;  // ユニット(友軍)のパレットのアドレス
             unit_icon_gray_palette_address = 0x5c73A0;  // ユニット(グレー))のパレットの開始位置
@@ -47,23 +47,23 @@ namespace FEBuilderGBA
 
             unit_move_icon_pointer = U.FindROMPointer(rom, 0x4, new uint[] { 0x07B998, 0x7B9AC, 0xBFA7C,0xBFA90,  });  // ユニット移動アイコンの開始位置
             lightrune_uniticon_id = 0x66;  // ユニット(光の結界)のユニットアイコンのID
-            map_setting_pointer = U.FindROMPointer(rom, (uint addr) => { return rom.u32(0x12) < 0xE; }, new uint[] { 0x0BAB1C, 0x34534, 0xBA9EC, 0xBAD44, 0xBAEAC });   // マップ設定の開始位置
+            map_setting_pointer = 0x487FC;   // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             map_setting_datasize = 148;  //マップ設定のデータサイズ
             map_setting_event_plist_pos = 116;  //event plistの場所 
             map_setting_worldmap_plist_pos = 117;  //woldmap event plistの場所 
             map_setting_clear_conditon_text_pos = 0x8A;  //マップの右上に表示されているクリア条件の定義場所 
             map_setting_name_text_pos = 0x70;  //マップ名のテキスト定義場所 
-            map_config_pointer = 0x0195D8;       //マップ設定の開始位置(config)
-            map_obj_pointer = 0x019640;          //マップ設定の開始位置(obj) objとpalは同時参照があるので、同一値である必要がある 
-            map_pal_pointer = 0x019674;          //マップ設定の開始位置(pal) objとpalは同時参照があるので、同一値である必要がある 
-            map_tileanime1_pointer = 0x030084;   //マップ設定の開始位置(titleanime1)titleanime1とtitleanime2は同時参照があるので、同一値である必要がある 
-            map_tileanime2_pointer = 0x030BC8;   //マップ設定の開始位置(titleanime2)titleanime1とtitleanime2は同時参照があるので、同一値である必要がある 
-            map_map_pointer_pointer = 0x034588;  //マップ設定の開始位置(map)
-            map_mapchange_pointer = 0x0345B4;    //マップ設定の開始位置(mapchange)
-            map_event_pointer = 0x0345E4;        //マップ設定の開始位置(event)
+            map_config_pointer = 0x01C620;       //Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
+            map_obj_pointer = 0x01C620;          //Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen. 
+            map_pal_pointer = 0x01C620;          //Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
+            map_tileanime1_pointer = 0x01C620;   //Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
+            map_tileanime2_pointer = 0x01C620;   //Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen. 
+            map_map_pointer_pointer = 0x01C620;  //Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
+            map_mapchange_pointer = 0x01C620;    //Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
+            map_event_pointer = 0x01C620;        //Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             map_worldmapevent_pointer = 0x0;  //マップ設定の開始位置(worldmap (FE6のみ))
             map_map_pointer_list_default_size = 0xEB;  //PLIST拡張をしていない時のバニラでのPLISTの数
-            image_battle_animelist_pointer = U.FindROMPointer(rom, 0xC, new uint[] { 0x05A97C, 0x5B3A4, 0x5B438, 0x5B5D0, 0x71C58, 0x72EE8, 0x73008 });    // 戦闘アニメリストの開始位置
+            image_battle_animelist_pointer = 0x70188;    // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             support_unit_pointer = 0x8582E8;    // 支援相手の開始位置
             support_talk_pointer = 0x086A50;    // 支援相手の開始位置
             unit_palette_color_pointer = 0x582F4;   // ユニットのパレット(カラー)の開始位置
@@ -80,7 +80,7 @@ namespace FEBuilderGBA
             image_chapter_title_pointer = 0x8ba0c;  // 章タイトルの開始位置
             image_chapter_title_palette = 0xa99fa8;  // 章タイトルのパレット 多分違う
             image_unit_palette_pointer = 0x5b6cc;   // ユニットパレットの開始位置
-            item_pointer = U.FindROMPointer(rom, (uint addr) => { return rom.u32(0xC) == 0x0; }, new uint[] { 0x17568, 0x17554, 0x1753C, 0x17510, 0x172BC });  // アイテムの開始位置
+            item_pointer = 0x176EC;  // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
 
             item_datasize = 36;  // アイテムのデータサイズ
             item_effect_pointer = 0x7A664;  // アイテムエフェクトの開始位置
@@ -268,7 +268,7 @@ namespace FEBuilderGBA
             ending2_event_pointer = 0x9e38; 
             RAMSlotTable_address = 0x5C2A50; 
             supply_pointer_address = 0x31470;   //輸送隊RAMへのアドレス
-            workmemory_player_units_address = 0x0202BE48;     //ワークメモリ PLAYER UNIT
+            workmemory_player_units_address = 0x0202BD40;     //Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             workmemory_enemy_units_address = 0x0202CFB8;     //ワークメモリ PLAYER UNIT
             workmemory_npc_units_address = 0x0202DDC8;     //ワークメモリ PLAYER UNIT
             workmemory_mapid_address = 0x0202BCFA;     //ワークメモリ マップID
@@ -300,7 +300,7 @@ namespace FEBuilderGBA
             function_sleep_handle_address = 0x080031DC + 1;   //ワークメモリ Procs待機中
             workmemory_user_stack_base_address = 0x03007DF0;  //ワークメモリ スタックの一番底
             function_fe_main_return_address = 0x08000AB8 + 1;  //スタックの一番底にある戻り先
-            workmemory_control_unit_address = 0x03004df0;  //ワークメモリ 操作ユニット
+            workmemory_control_unit_address = 0x03004950;  //Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             workmemory_bgm_address = 0x02024E5C;  //ワークメモリ BGM
             function_event_engine_loop_address = 0x0800D110 + 1;  //イベントエンジン
             workmemory_reference_procs_event_address_offset = 0x34;  //Procsのイベントエンジンでのイベントのアドレスを格納するuser変数の場所
