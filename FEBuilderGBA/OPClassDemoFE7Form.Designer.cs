@@ -1327,9 +1327,9 @@
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.N2_Address)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.P28)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.B16)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.B23)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.B17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.B16)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.B15)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.B14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.B13)).EndInit();
@@ -1413,9 +1413,9 @@
         private System.Windows.Forms.Label J_12;
         private System.Windows.Forms.NumericUpDown B18;
         private System.Windows.Forms.NumericUpDown B27;
-        private FEBuilderGBA.TextBoxEx L_24_TERRAINBATTLE_PLUS1;
         private FEBuilderGBA.TextBoxEx L_23_TERRAINBATTLE_PLUS1;
         private FEBuilderGBA.TextBoxEx L_17_BATTLEANIME_PLUS1;
+        private FEBuilderGBA.TextBoxEx L_24_TERRAINBATTLE_PLUS1;
         private System.Windows.Forms.ComboBox L_16_COMBO;
         private CustomColorGroupBox groupBox1;
         private InterpolatedPictureBox X_BATTLEANIMEICON;
