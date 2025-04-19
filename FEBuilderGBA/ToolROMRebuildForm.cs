@@ -330,6 +330,14 @@ namespace FEBuilderGBA
                     return;
                 }
             }
+            else if (Program.ROM.RomInfo.version == 531)
+            {
+                if (FreeAreaMinimumSize.Value <= 180)
+                {
+                    WARRING_SmallValue.Show();
+                    return;
+                }
+            }
             else
             {
                 if (FreeAreaMinimumSize.Value <= 512)
