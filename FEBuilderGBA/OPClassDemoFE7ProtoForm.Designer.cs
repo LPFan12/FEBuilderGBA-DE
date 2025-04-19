@@ -71,7 +71,6 @@
             this.N2_WriteButton = new System.Windows.Forms.Button();
             this.label26 = new System.Windows.Forms.Label();
             this.P28 = new System.Windows.Forms.NumericUpDown();
-            this.J_28 = new System.Windows.Forms.Label();
             this.B23 = new System.Windows.Forms.NumericUpDown();
             this.J_24_TERRAINBATTLE = new System.Windows.Forms.Label();
             this.J_23_TERRAINBATTLE = new System.Windows.Forms.Label();
@@ -183,7 +182,6 @@
             this.panel2.Controls.Add(this.L_14_UNITPALETTE_PLUS1);
             this.panel2.Controls.Add(this.groupBox1);
             this.panel2.Controls.Add(this.P28);
-            this.panel2.Controls.Add(this.J_28);
             this.panel2.Controls.Add(this.B23);
             this.panel2.Controls.Add(this.J_24_TERRAINBATTLE);
             this.panel2.Controls.Add(this.J_23_TERRAINBATTLE);
@@ -756,16 +754,6 @@
             this.P28.TabIndex = 24;
             this.P28.ValueChanged += new System.EventHandler(this.P24_ValueChanged);
             // 
-            // J_28
-            // 
-            this.J_28.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.J_28.Location = new System.Drawing.Point(2, 558);
-            this.J_28.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.J_28.Name = "J_28";
-            this.J_28.Size = new System.Drawing.Size(175, 32);
-            this.J_28.TabIndex = 172;
-            this.J_28.Text = "アニメ指定のポインタ";
-            this.J_28.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // B23
             // 
@@ -1381,7 +1369,6 @@
         private System.Windows.Forms.Label J_4_TEXT;
         private System.Windows.Forms.NumericUpDown P0;
         private System.Windows.Forms.NumericUpDown P28;
-        private System.Windows.Forms.Label J_28;
         private System.Windows.Forms.NumericUpDown B23;
         private System.Windows.Forms.Label J_24_TERRAINBATTLE;
         private System.Windows.Forms.Label J_23_TERRAINBATTLE;
