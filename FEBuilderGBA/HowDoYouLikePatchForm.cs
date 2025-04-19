@@ -172,7 +172,19 @@ namespace FEBuilderGBA
             }
             else if (type == TYPE.Skill)
             {
-                if (Program.ROM.RomInfo.version != 8)
+                if (Program.ROM.RomInfo.version == 6)
+                {
+                    return false;
+                }
+                if (Program.ROM.RomInfo.version == 7)
+                {
+                    return false;
+                }
+                if (Program.ROM.RomInfo.version == 206)
+                {
+                    return false;
+                }
+                if (Program.ROM.RomInfo.version == 209)
                 {
                     return false;
                 }
@@ -204,7 +216,19 @@ namespace FEBuilderGBA
             }
             else if (type == TYPE.CAMERA_Event_OutOfBand_Fix)
             {
-                if (Program.ROM.RomInfo.version != 8)
+                if (Program.ROM.RomInfo.version == 6)
+                {
+                    return false;
+                }
+                if (Program.ROM.RomInfo.version == 7)
+                {
+                    return false;
+                }
+                if (Program.ROM.RomInfo.version == 206)
+                {
+                    return false;
+                }
+                if (Program.ROM.RomInfo.version == 209)
                 {
                     return false;
                 }
@@ -221,7 +245,19 @@ namespace FEBuilderGBA
             }
             else if (type == TYPE.CAMERA_Event_NotExistsUnit_Fix)
             {
-                if (Program.ROM.RomInfo.version != 8)
+                if (Program.ROM.RomInfo.version == 6)
+                {
+                    return false;
+                }
+                if (Program.ROM.RomInfo.version == 7)
+                {
+                    return false;
+                }
+                if (Program.ROM.RomInfo.version == 206)
+                {
+                    return false;
+                }
+                if (Program.ROM.RomInfo.version == 209)
                 {
                     return false;
                 }
@@ -238,7 +274,19 @@ namespace FEBuilderGBA
             }
             else if (type == TYPE.UnitGetStateEvent_0x33_Fix)
             {
-                if (Program.ROM.RomInfo.version != 8)
+                if (Program.ROM.RomInfo.version == 6)
+                {
+                    return false;
+                }
+                if (Program.ROM.RomInfo.version == 7)
+                {
+                    return false;
+                }
+                if (Program.ROM.RomInfo.version == 206)
+                {
+                    return false;
+                }
+                if (Program.ROM.RomInfo.version == 209)
                 {
                     return false;
                 }
@@ -255,7 +303,19 @@ namespace FEBuilderGBA
             }
             else if (type == TYPE.UnitUpdateStateEvent_0x34_Fix)
             {
-                if (Program.ROM.RomInfo.version != 8)
+                if (Program.ROM.RomInfo.version == 6)
+                {
+                    return false;
+                }
+                if (Program.ROM.RomInfo.version == 7)
+                {
+                    return false;
+                }
+                if (Program.ROM.RomInfo.version == 206)
+                {
+                    return false;
+                }
+                if (Program.ROM.RomInfo.version == 209)
                 {
                     return false;
                 }
@@ -272,7 +332,19 @@ namespace FEBuilderGBA
             }
             else if (type == TYPE.SetActiveEvent_0x38_Fix)
             {
-                if (Program.ROM.RomInfo.version != 8)
+                if (Program.ROM.RomInfo.version == 6)
+                {
+                    return false;
+                }
+                if (Program.ROM.RomInfo.version == 7)
+                {
+                    return false;
+                }
+                if (Program.ROM.RomInfo.version == 206)
+                {
+                    return false;
+                }
+                if (Program.ROM.RomInfo.version == 209)
                 {
                     return false;
                 }
@@ -289,7 +361,19 @@ namespace FEBuilderGBA
             }
             else if (type == TYPE.WakuEvent_0x3B_Fix)
             {
-                if (Program.ROM.RomInfo.version != 8)
+                if (Program.ROM.RomInfo.version == 6)
+                {
+                    return false;
+                }
+                if (Program.ROM.RomInfo.version == 7)
+                {
+                    return false;
+                }
+                if (Program.ROM.RomInfo.version == 206)
+                {
+                    return false;
+                }
+                if (Program.ROM.RomInfo.version == 209)
                 {
                     return false;
                 }
@@ -306,7 +390,19 @@ namespace FEBuilderGBA
             }
             else if (type == TYPE.StatusToLocalization)
             {
-                if (Program.ROM.RomInfo.version != 8)
+                if (Program.ROM.RomInfo.version == 6)
+                {
+                    return false;
+                }
+                if (Program.ROM.RomInfo.version == 7)
+                {
+                    return false;
+                }
+                if (Program.ROM.RomInfo.version == 206)
+                {
+                    return false;
+                }
+                if (Program.ROM.RomInfo.version == 209)
                 {
                     return false;
                 }
@@ -344,7 +440,19 @@ namespace FEBuilderGBA
             }
             else if (type == TYPE.ChapterNameText)
             {
-                if (Program.ROM.RomInfo.version != 8)
+                if (Program.ROM.RomInfo.version == 6)
+                {//FE8以外ではダメ
+                    return false;
+                }
+                if (Program.ROM.RomInfo.version == 7)
+                {//FE8以外ではダメ
+                    return false;
+                }
+                if (Program.ROM.RomInfo.version == 206)
+                {//FE8以外ではダメ
+                    return false;
+                }
+                if (Program.ROM.RomInfo.version == 209)
                 {//FE8以外ではダメ
                     return false;
                 }
@@ -396,7 +504,19 @@ namespace FEBuilderGBA
             }
             else if (type == TYPE.ChangeWeaponRangeText)
             {
-                if (Program.ROM.RomInfo.version != 8)
+                if (Program.ROM.RomInfo.version == 6)
+                {//FE8ではないとダメ
+                    return false;
+                }
+                if (Program.ROM.RomInfo.version == 7)
+                {//FE8ではないとダメ
+                    return false;
+                }
+                if (Program.ROM.RomInfo.version == 206)
+                {//FE8ではないとダメ
+                    return false;
+                }
+                if (Program.ROM.RomInfo.version == 209)
                 {//FE8ではないとダメ
                     return false;
                 }
@@ -423,7 +543,19 @@ namespace FEBuilderGBA
             }
             else if (type == TYPE.AutoGenLeftOAMPatch)
             {
-                if (Program.ROM.RomInfo.version != 8)
+                if (Program.ROM.RomInfo.version == 6)
+                {
+                    return false;
+                }
+                if (Program.ROM.RomInfo.version == 7)
+                {
+                    return false;
+                }
+                if (Program.ROM.RomInfo.version == 206)
+                {
+                    return false;
+                }
+                if (Program.ROM.RomInfo.version == 209)
                 {
                     return false;
                 }
@@ -439,7 +571,19 @@ namespace FEBuilderGBA
             }
             else if (type == TYPE.Fix_GenerateBestMovementScript)
             {
-                if (Program.ROM.RomInfo.version != 8)
+                if (Program.ROM.RomInfo.version == 6)
+                {
+                    return false;
+                }
+                if (Program.ROM.RomInfo.version == 7)
+                {
+                    return false;
+                }
+                if (Program.ROM.RomInfo.version == 206)
+                {
+                    return false;
+                }
+                if (Program.ROM.RomInfo.version == 209)
                 {
                     return false;
                 }
