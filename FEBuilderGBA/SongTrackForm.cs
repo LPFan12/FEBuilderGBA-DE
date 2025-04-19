@@ -132,6 +132,10 @@ namespace FEBuilderGBA
                 {
                     HowDoYouLikePatchForm.CheckAndShowPopupDialog(HowDoYouLikePatchForm.TYPE.Track12_Over_By_SongTrack);
                 }
+                if (Program.ROM.RomInfo.version == 531)
+                {
+                    HowDoYouLikePatchForm.CheckAndShowPopupDialog(HowDoYouLikePatchForm.TYPE.Track12_Over_By_SongTrack);
+                } 
                 if (Program.ROM.RomInfo.version == 206)
                 {
                     HowDoYouLikePatchForm.CheckAndShowPopupDialog(HowDoYouLikePatchForm.TYPE.Track12_Over_By_SongTrack);
