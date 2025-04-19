@@ -124,7 +124,7 @@ namespace FEBuilderGBA
 
         private void B17_ValueChanged(object sender, EventArgs e)
         {
-            if (B15.Value == 0xFF)
+            if (B14.Value == 0xFF)
             {//標準パレット
                 X_BATTLEANIMEICON.Image = ImageBattleAnimeForm.DrawBattleAnime((uint)B17.Value + 1
                     , ImageBattleAnimeForm.ScaleTrim.SCALE_90, 0, 0, 0, (int)B16.Value);
@@ -132,7 +132,7 @@ namespace FEBuilderGBA
             else
             {
                 X_BATTLEANIMEICON.Image = ImageBattleAnimeForm.DrawBattleAnime((uint)B17.Value + 1
-                    , ImageBattleAnimeForm.ScaleTrim.SCALE_90, (uint)B15.Value + 1, 0, 0, (int)B16.Value);
+                    , ImageBattleAnimeForm.ScaleTrim.SCALE_90, (uint)B14.Value + 1, 0, 0, (int)B16.Value);
             }
 
         }
