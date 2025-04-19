@@ -277,7 +277,7 @@
             "01=敵軍",
             "02=NPC",
             "03=グレー"});
-            this.L_18_COMBO.Location = new System.Drawing.Point(266, 374);
+            this.L_18_COMBO.Location = new System.Drawing.Point(266, 405);
             this.L_18_COMBO.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.L_18_COMBO.Name = "L_18_COMBO";
             this.L_18_COMBO.Size = new System.Drawing.Size(228, 26);
@@ -386,7 +386,7 @@
             "06=マムクート変身",
             "07=魔物の魔法",
             "08=ストーン"});
-            this.L_17_COMBO.Location = new System.Drawing.Point(266, 405);
+            this.L_17_COMBO.Location = new System.Drawing.Point(266, 374);
             this.L_17_COMBO.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.L_17_COMBO.Name = "L_17_COMBO";
             this.L_17_COMBO.Size = new System.Drawing.Size(228, 26);
@@ -850,7 +850,7 @@
             this.J_17.Name = "J_17";
             this.J_17.Size = new System.Drawing.Size(175, 32);
             this.J_17.TabIndex = 156;
-            this.J_17.Text = "敵味方カラー";
+            this.J_17.Text = "??";
             this.J_17.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // B15
