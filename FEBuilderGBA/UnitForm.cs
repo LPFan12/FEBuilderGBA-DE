@@ -114,6 +114,35 @@ namespace FEBuilderGBA
                     InitFE8UMagicExtends(controls);
                 }
             }
+            if (Program.ROM.RomInfo.version == 531)
+            {//FE8の場合
+                //スキル
+                X_SkillType = PatchUtil.SearchSkillSystem();
+                if (X_SkillType == PatchUtil.skill_system_enum.SkillSystem
+                 || X_SkillType == PatchUtil.skill_system_enum.FE8N_ver2
+                 || X_SkillType == PatchUtil.skill_system_enum.FE8N_ver3
+                    )
+                {
+                    InputFormRef.markupJumpLabel(this.X_UNITSKILL);
+                    this.X_UNITSKILL.Show();
+                    this.X_SkillButtons = new Button[] { X_SKILL_BUTTON1, X_SKILL_BUTTON2, X_SKILL_BUTTON3, X_SKILL_BUTTON4, X_SKILL_BUTTON5, X_SKILL_BUTTON6, X_SKILL_BUTTON7, X_SKILL_BUTTON8, X_SKILL_BUTTON9 };
+                    for (int i = 0; i < this.X_SkillButtons.Length; i++)
+                    {
+                        this.X_SkillButtons[i].Click += X_UNITSKILL_Button_Click;
+                    }
+                }
+
+                //魔法分離パッチ
+                MagicSplitUtil.magic_split_enum magic_split = MagicSplitUtil.SearchMagicSplit();
+                if (magic_split == MagicSplitUtil.magic_split_enum.FE8NMAGIC)
+                {
+                    InitFE8NMagicExtends(controls);
+                }
+                else if (magic_split == MagicSplitUtil.magic_split_enum.FE8UMAGIC)
+                {
+                    InitFE8UMagicExtends(controls);
+                }
+            }
 
             this.AddressList.Focus();
         }
@@ -266,6 +295,21 @@ namespace FEBuilderGBA
             }
 
             if (Program.ROM.RomInfo.version == 8)
+            {
+                if (uid == 0xFFFF)
+                {
+                    return R._("操作しているユニット");
+                }
+                if (uid == 0xFFFE)
+                {
+                    return R._("メモリスロットB 座標");
+                }
+                if (uid == 0xFFFD)
+                {
+                    return R._("メモリスロット2 UnitID");
+                }
+            }
+            if (Program.ROM.RomInfo.version == 531)
             {
                 if (uid == 0xFFFF)
                 {
@@ -531,6 +575,10 @@ namespace FEBuilderGBA
             }
             
             if (Program.ROM.RomInfo.version == 8)
+            {//専用アニメはFE7だけ?
+                return "";
+            }
+            if (Program.ROM.RomInfo.version == 531)
             {//専用アニメはFE7だけ?
                 return "";
             }
