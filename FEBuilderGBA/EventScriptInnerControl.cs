@@ -73,6 +73,10 @@ namespace FEBuilderGBA
             {
                 useTemplate = true;
             }
+            else if (Program.ROM.RomInfo.version == 531)
+            {
+                useTemplate = true;
+            }
             else
             {
                 useTemplate = false;
