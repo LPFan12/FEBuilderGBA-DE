@@ -741,6 +741,10 @@ namespace FEBuilderGBA
                 {
                     InputFormRef.JumpForm<EventHaikuForm>(tag);
                 }
+                else if (Program.ROM.RomInfo.version == 531)
+                {
+                    InputFormRef.JumpForm<EventHaikuForm>(tag);
+                }
                 else if (Program.ROM.RomInfo.version == 7)
                 {
                     InputFormRef.JumpForm<EventHaikuFE7Form>(tag);
@@ -765,6 +769,10 @@ namespace FEBuilderGBA
                 {
                     InputFormRef.JumpForm<EventBattleTalkForm>(tag);
                 }
+                else if (Program.ROM.RomInfo.version == 531)
+                {
+                    InputFormRef.JumpForm<EventBattleTalkForm>(tag);
+                }
                 else if (Program.ROM.RomInfo.version == 7)
                 {
                     InputFormRef.JumpForm<EventBattleTalkFE7Form>(tag);
@@ -786,6 +794,10 @@ namespace FEBuilderGBA
             else if (dataType == FELint.Type.SUPPORT_TALK)
             {
                 if (Program.ROM.RomInfo.version == 8)
+                {
+                    InputFormRef.JumpForm<SupportTalkForm>(tag);
+                }
+                if (Program.ROM.RomInfo.version == 531)
                 {
                     InputFormRef.JumpForm<SupportTalkForm>(tag);
                 }
@@ -854,6 +866,10 @@ namespace FEBuilderGBA
             else if (dataType == FELint.Type.UNIT)
             {
                 if (Program.ROM.RomInfo.version == 8)
+                {
+                    InputFormRef.JumpForm<UnitForm>(tag);
+                }
+                else if (Program.ROM.RomInfo.version == 531)
                 {
                     InputFormRef.JumpForm<UnitForm>(tag);
                 }
@@ -1000,7 +1016,15 @@ namespace FEBuilderGBA
                 {
                     InputFormRef.JumpForm<OPClassDemoForm>(tag);
                 }
+                else if (Program.ROM.RomInfo.version == 531 && Program.ROM.RomInfo.is_multibyte)
+                {
+                    InputFormRef.JumpForm<OPClassDemoForm>(tag);
+                }
                 else if (Program.ROM.RomInfo.version == 8 && !Program.ROM.RomInfo.is_multibyte)
+                {
+                    InputFormRef.JumpForm<OPClassDemoFE8UForm>(tag);
+                }
+                else if (Program.ROM.RomInfo.version == 531 && !Program.ROM.RomInfo.is_multibyte)
                 {
                     InputFormRef.JumpForm<OPClassDemoFE8UForm>(tag);
                 }
@@ -1009,6 +1033,10 @@ namespace FEBuilderGBA
             else if (dataType == FELint.Type.WMAP_BASE_POINT)
             {
                 if (Program.ROM.RomInfo.version == 8)
+                {
+                    InputFormRef.JumpForm<WorldMapPointForm>(tag);
+                }
+                if (Program.ROM.RomInfo.version == 531)
                 {
                     InputFormRef.JumpForm<WorldMapPointForm>(tag);
                 }
@@ -1071,6 +1099,10 @@ namespace FEBuilderGBA
             else if (dataType == FELint.Type.DIC)
             {
                 if (Program.ROM.RomInfo.version == 8)
+                {
+                    InputFormRef.JumpForm<TextDicForm>(U.NOT_FOUND);
+                }
+                if (Program.ROM.RomInfo.version == 531)
                 {
                     InputFormRef.JumpForm<TextDicForm>(U.NOT_FOUND);
                 }
@@ -1144,6 +1176,25 @@ namespace FEBuilderGBA
                         InputFormRef.JumpForm<SkillConfigCSkillSystem09xForm>(tag);
                     }
                 }
+                if (Program.ROM.RomInfo.version == 531)
+                {
+                    PatchUtil.skill_system_enum skill = PatchUtil.SearchSkillSystem();
+                    if (skill == PatchUtil.skill_system_enum.SkillSystem)
+                    {
+                        InputFormRef.JumpForm<SkillConfigSkillSystemForm>(tag);
+                    }
+                    else if (skill == PatchUtil.skill_system_enum.FE8N
+                        || skill == PatchUtil.skill_system_enum.yugudora
+                        || skill == PatchUtil.skill_system_enum.FE8N_ver2
+                        )
+                    {
+                        InputFormRef.JumpForm<SkillConfigFE8NSkillForm>(tag);
+                    }
+                    else if (PatchUtil.CheckIsCSkillSys())
+                    {
+                        InputFormRef.JumpForm<SkillConfigCSkillSystem09xForm>(tag);
+                    }
+                }
                 return;
             }
             else if (dataType == FELint.Type.SKILL_CLASS)
@@ -1160,11 +1211,35 @@ namespace FEBuilderGBA
                         InputFormRef.JumpForm<SkillAssignmentClassCSkillSysForm>(tag);
                     }
                 }
+                if (Program.ROM.RomInfo.version == 531)
+                {
+                    PatchUtil.skill_system_enum skill = PatchUtil.SearchSkillSystem();
+                    if (skill == PatchUtil.skill_system_enum.SkillSystem)
+                    {
+                        InputFormRef.JumpForm<SkillAssignmentClassSkillSystemForm>(tag);
+                    }
+                    else if (skill == PatchUtil.skill_system_enum.CSkillSys300)
+                    {
+                        InputFormRef.JumpForm<SkillAssignmentClassCSkillSysForm>(tag);
+                    }
+                }
                 return;
             }
             else if (dataType == FELint.Type.SKILL_UNIT)
             {
                 if (Program.ROM.RomInfo.version == 8)
+                {
+                    PatchUtil.skill_system_enum skill = PatchUtil.SearchSkillSystem();
+                    if (skill == PatchUtil.skill_system_enum.SkillSystem)
+                    {
+                        InputFormRef.JumpForm<SkillAssignmentUnitSkillSystemForm>(tag);
+                    }
+                    else if (skill == PatchUtil.skill_system_enum.CSkillSys300)
+                    {
+                        InputFormRef.JumpForm<SkillAssignmentUnitCSkillSysForm>(tag);
+                    }
+                }
+                if (Program.ROM.RomInfo.version == 531)
                 {
                     PatchUtil.skill_system_enum skill = PatchUtil.SearchSkillSystem();
                     if (skill == PatchUtil.skill_system_enum.SkillSystem)
