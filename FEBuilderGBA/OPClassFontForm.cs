@@ -149,6 +149,11 @@ namespace FEBuilderGBA
             {//FE8Uは別ルーチン.
                 return OPClassFontFE8UForm.MakeList();
             }
+            if (Program.ROM.RomInfo.version == 531
+                && !Program.ROM.RomInfo.is_multibyte)
+            {//FE8Uは別ルーチン.
+                return OPClassFontFE8UForm.MakeList();
+            }
             InputFormRef InputFormRef = Init(null);
             return InputFormRef.MakeList();
         }
