@@ -1364,6 +1364,17 @@ namespace FEBuilderGBA
                     bitmap = OPClassFontFE8UForm.DrawFontByID(icon);
                 }
             }
+            else if (Program.ROM.RomInfo.version == 531)
+            {
+                if (Program.ROM.RomInfo.is_multibyte)
+                {
+                    bitmap = OPClassFontForm.DrawFontByID(icon);
+                }
+                else
+                {
+                    bitmap = OPClassFontFE8UForm.DrawFontByID(icon);
+                }
+            }
             else if (Program.ROM.RomInfo.version == 7)
             {
                 bitmap = ImageUtil.Blank(8,8);
