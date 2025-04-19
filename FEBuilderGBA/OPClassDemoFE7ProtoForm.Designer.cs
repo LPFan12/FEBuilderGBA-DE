@@ -39,10 +39,10 @@
             this.L_24_TERRAINBATTLEICON_PLUS1 = new FEBuilderGBA.InterpolatedPictureBox();
             this.L_23_TERRAINBATTLEICON_PLUS1 = new FEBuilderGBA.InterpolatedPictureBox();
             this.X_BATTLEANIMEICON = new FEBuilderGBA.InterpolatedPictureBox();
-            this.L_16_COMBO = new System.Windows.Forms.ComboBox();
+            this.L_17_COMBO = new System.Windows.Forms.ComboBox();
             this.L_24_TERRAINBATTLE_PLUS1 = new FEBuilderGBA.TextBoxEx();
             this.L_23_TERRAINBATTLE_PLUS1 = new FEBuilderGBA.TextBoxEx();
-            this.L_17_BATTLEANIME_PLUS1 = new FEBuilderGBA.TextBoxEx();
+            this.L_16_BATTLEANIME_PLUS1 = new FEBuilderGBA.TextBoxEx();
             this.J_12 = new System.Windows.Forms.Label();
             this.B18 = new System.Windows.Forms.NumericUpDown();
             this.B27 = new System.Windows.Forms.NumericUpDown();
@@ -167,10 +167,10 @@
             this.panel2.Controls.Add(this.L_24_TERRAINBATTLEICON_PLUS1);
             this.panel2.Controls.Add(this.L_23_TERRAINBATTLEICON_PLUS1);
             this.panel2.Controls.Add(this.X_BATTLEANIMEICON);
-            this.panel2.Controls.Add(this.L_16_COMBO);
+            this.panel2.Controls.Add(this.L_17_COMBO);
             this.panel2.Controls.Add(this.L_24_TERRAINBATTLE_PLUS1);
             this.panel2.Controls.Add(this.L_23_TERRAINBATTLE_PLUS1);
-            this.panel2.Controls.Add(this.L_17_BATTLEANIME_PLUS1);
+            this.panel2.Controls.Add(this.L_16_BATTLEANIME_PLUS1);
             this.panel2.Controls.Add(this.J_12);
             this.panel2.Controls.Add(this.B18);
             this.panel2.Controls.Add(this.B27);
@@ -347,20 +347,16 @@
             this.X_BATTLEANIMEICON.TabIndex = 194;
             this.X_BATTLEANIMEICON.TabStop = false;
             // 
-            // L_16_COMBO
+            // L_16_BATTLEANIME_PLUS
             // 
-            this.L_16_COMBO.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.L_16_COMBO.FormattingEnabled = true;
-            this.L_16_COMBO.Items.AddRange(new object[] {
-            "00=自軍",
-            "01=敵軍",
-            "02=NPC",
-            "03=グレー"});
-            this.L_16_COMBO.Location = new System.Drawing.Point(266, 342);
-            this.L_16_COMBO.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.L_16_COMBO.Name = "L_16_COMBO";
-            this.L_16_COMBO.Size = new System.Drawing.Size(228, 26);
-            this.L_16_COMBO.TabIndex = 10;
+            this.L_16_BATTLEANIME_PLUS1.ErrorMessage = "";
+            this.L_16_BATTLEANIME_PLUS1.Location = new System.Drawing.Point(266, 374);
+            this.L_16_BATTLEANIME_PLUS1.Margin = new System.Windows.Forms.Padding(2);
+            this.L_16_BATTLEANIME_PLUS1.Name = "L_16_BATTLEANIME_PLUS1";
+            this.L_16_BATTLEANIME_PLUS1.Placeholder = "";
+            this.L_16_BATTLEANIME_PLUS1.ReadOnly = true;
+            this.L_16_BATTLEANIME_PLUS1.Size = new System.Drawing.Size(228, 25);
+            this.L_16_BATTLEANIME_PLUS1.TabIndex = 189;
             // 
             // L_24_TERRAINBATTLE_PLUS1
             // 
@@ -384,16 +380,20 @@
             this.L_23_TERRAINBATTLE_PLUS1.Size = new System.Drawing.Size(228, 25);
             this.L_23_TERRAINBATTLE_PLUS1.TabIndex = 191;
             // 
-            // L_17_BATTLEANIME_PLUS1
+            // L_17_COMBO
             // 
-            this.L_17_BATTLEANIME_PLUS1.ErrorMessage = "";
-            this.L_17_BATTLEANIME_PLUS1.Location = new System.Drawing.Point(266, 374);
-            this.L_17_BATTLEANIME_PLUS1.Margin = new System.Windows.Forms.Padding(2);
-            this.L_17_BATTLEANIME_PLUS1.Name = "L_17_BATTLEANIME_PLUS1";
-            this.L_17_BATTLEANIME_PLUS1.Placeholder = "";
-            this.L_17_BATTLEANIME_PLUS1.ReadOnly = true;
-            this.L_17_BATTLEANIME_PLUS1.Size = new System.Drawing.Size(228, 25);
-            this.L_17_BATTLEANIME_PLUS1.TabIndex = 189;
+            this.L_17_COMBO.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.L_17_COMBO.FormattingEnabled = true;
+            this.L_17_COMBO.Items.AddRange(new object[] {
+            "00=自軍",
+            "01=敵軍",
+            "02=NPC",
+            "03=グレー"});
+            this.L_17_COMBO.Location = new System.Drawing.Point(266, 342);
+            this.L_17_COMBO.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.L_17_COMBO.Name = "L_17_COMBO";
+            this.L_17_COMBO.Size = new System.Drawing.Size(228, 26);
+            this.L_17_COMBO.TabIndex = 10;
             // 
             // J_12
             // 
@@ -1414,9 +1414,9 @@
         private System.Windows.Forms.NumericUpDown B18;
         private System.Windows.Forms.NumericUpDown B27;
         private FEBuilderGBA.TextBoxEx L_23_TERRAINBATTLE_PLUS1;
-        private FEBuilderGBA.TextBoxEx L_17_BATTLEANIME_PLUS1;
+        private FEBuilderGBA.TextBoxEx L_16_BATTLEANIME_PLUS1;
         private FEBuilderGBA.TextBoxEx L_24_TERRAINBATTLE_PLUS1;
-        private System.Windows.Forms.ComboBox L_16_COMBO;
+        private System.Windows.Forms.ComboBox L_17_COMBO;
         private CustomColorGroupBox groupBox1;
         private InterpolatedPictureBox X_BATTLEANIMEICON;
         private InterpolatedPictureBox L_24_TERRAINBATTLEICON_PLUS1;
