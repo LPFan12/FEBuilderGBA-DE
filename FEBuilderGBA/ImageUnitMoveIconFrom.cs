@@ -32,6 +32,10 @@ namespace FEBuilderGBA
             {
                 InputFormRef.markupJumpLabel(X_JUMP_FOOTSTEPS);
             }
+            else if (Program.ROM.RomInfo.version == 531)
+            {
+                InputFormRef.markupJumpLabel(X_JUMP_FOOTSTEPS);
+            }
             else
             {
                 X_JUMP_FOOTSTEPS.Hide();
