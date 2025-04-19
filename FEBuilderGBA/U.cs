@@ -2552,6 +2552,58 @@ namespace FEBuilderGBA
                 }
 
             }
+	    else if (Program.ROM.RomInfo.version == 531)
+            {
+                ImageTSAAnime2Form.MakeAllDataLength(list, isPointerOnly);
+                StatusOptionForm.MakeAllDataLength(list, isPointerOnly);
+                StatusOptionOrderForm.MakeAllDataLength(list);
+                StatusUnitsMenuForm.MakeAllDataLength(list);
+                LinkArenaDenyUnitForm.MakeAllDataLength(list);
+                TextDicForm.MakeAllDataLength(list);
+                ImageTSAAnimeForm.MakeAllDataLength(list, isPointerOnly);
+                MonsterItemForm.MakeAllDataLength(list);
+                MonsterProbabilityForm.MakeAllDataLength(list);
+                MonsterWMapProbabilityForm.MakeAllDataLength(list);
+                EDForm.MakeAllDataLength(list);
+                EventBattleTalkForm.MakeAllDataLength(list);
+                ClassForm.MakeAllDataLength(list);
+                CCBranchForm.MakeAllDataLength(list);
+                OPClassAlphaNameForm.MakeAllDataLength(list);
+                WorldMapPathForm.MakeAllDataLength(list);
+                UnitForm.MakeAllDataLength(list);
+                WorldMapEventPointerForm.MakeAllDataLength(list);
+                ImagePortraitForm.MakeAllDataLength(list, isPointerOnly);
+                EDStaffRollForm.MakeAllDataLength(list, isPointerOnly);
+                OPPrologueForm.MakeAllDataLength(list, isPointerOnly);
+                EventHaikuForm.MakeAllDataLength(list);
+                EventForceSortieForm.MakeAllDataLength(list);
+                ImageChapterTitleForm.MakeAllDataLength(list,isPointerOnly);
+                SoundRoomForm.MakeAllDataLength(list);
+                SupportTalkForm.MakeAllDataLength(list);
+                SupportUnitForm.MakeAllDataLength(list);
+                WorldMapImageForm.MakeAllDataLength(list, isPointerOnly);
+                WorldMapPointForm.MakeAllDataLength(list);
+                WorldMapBGMForm.MakeAllDataLength(list);
+                SummonUnitForm.MakeAllDataLength(list, isPointerOnly);
+                SummonsDemonKingForm.MakeAllDataLength(list, isPointerOnly);
+                MapSettingForm.MakeAllDataLength(list);
+                ImageCGForm.MakeAllDataLength(list, isPointerOnly);
+
+                if (Program.ROM.RomInfo.is_multibyte)
+                {
+                    OPClassFontForm.MakeAllDataLength(list, isPointerOnly);
+                    OPClassDemoForm.MakeAllDataLength(list);
+                    ExtraUnitForm.MakeAllDataLength(list);
+                }
+                else
+                {
+                    OPClassFontFE8UForm.MakeAllDataLength(list, isPointerOnly);
+                    OPClassDemoFE8UForm.MakeAllDataLength(list);
+                    ExtraUnitFE8UForm.MakeAllDataLength(list);
+                    FE8SpellMenuExtendsForm.MakeAllDataLength(list);
+                }
+
+            }
             else if (Program.ROM.RomInfo.version == 7)
             {
                 ImageTSAAnimeForm.MakeAllDataLength(list, isPointerOnly);
@@ -2770,6 +2822,35 @@ namespace FEBuilderGBA
 
             if (InputFormRef.DoEvents(null, "MakeVarsIDArray 3")) return list;
             if (Program.ROM.RomInfo.version == 8)
+            {
+                WorldMapEventPointerForm.MakeVarsIDArray(list);
+                StatusOptionForm.MakeVarsIDArray(list);
+                StatusUnitsMenuForm.MakeVarsIDArray(list);
+                MapSettingForm.MakeVarsIDArray(list);
+                SupportTalkForm.MakeVarsIDArray(list);
+                EDForm.MakeVarsIDArray(list);
+                EventHaikuForm.MakeVarsIDArray(list);
+                EventBattleTalkForm.MakeVarsIDArray(list);
+                SoundRoomForm.MakeVarsIDArray(list);
+                WorldMapPointForm.MakeVarsIDArray(list);
+                TextDicForm.MakeVarsIDArray(list);
+                WorldMapBGMForm.MakeVarsIDArray(list);
+
+                if (Program.ROM.RomInfo.is_multibyte)
+                {
+                    OPClassDemoForm.MakeVarsIDArray(list);
+                    SkillConfigFE8NSkillForm.MakeVarsIDArray(list);
+                    SkillConfigFE8NVer2SkillForm.MakeVarsIDArray(list);
+                    SkillConfigFE8NVer3SkillForm.MakeVarsIDArray(list);
+                }
+                else
+                {
+                    OPClassDemoFE8UForm.MakeVarsIDArray(list);
+                    SkillConfigSkillSystemForm.MakeVarsIDArray(list);
+                }
+
+            }
+	    else if (Program.ROM.RomInfo.version == 531)
             {
                 WorldMapEventPointerForm.MakeVarsIDArray(list);
                 StatusOptionForm.MakeVarsIDArray(list);
