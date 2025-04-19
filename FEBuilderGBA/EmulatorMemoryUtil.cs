@@ -150,7 +150,7 @@ namespace FEBuilderGBA
 
         public static void CHEAT_WARP_FE8(EmulatorMemoryForm form, uint warp_chapter, uint edtion, uint worldmap_node)
         {
-            Debug.Assert(Program.ROM.RomInfo.version );
+            Debug.Assert(Program.ROM.RomInfo.version == 8);
 
             uint work_address = Program.ROM.RomInfo.workmemory_last_string_address - 0x70; //テキストバッファの一番下をデータ置き場として利用する.
             uint gSomeWMEventRelatedStruct;
