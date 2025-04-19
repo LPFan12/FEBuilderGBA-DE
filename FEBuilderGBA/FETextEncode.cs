@@ -664,6 +664,12 @@ namespace FEBuilderGBA
                     g_RepalceSPCode.Add("ドラゴンゾンビ"); g_RepalceSPCode.Add("≠≡≦≧");///No Translate
                     g_RepalceSPCode.Add("ゴーゴンエッグ"); g_RepalceSPCode.Add("∪∫∬∴");///No Translate
                 }
+		else if (Program.ROM.RomInfo.version == 531)
+                {
+                    g_RepalceSPCode.Add("サンダーストーム"); g_RepalceSPCode.Add("нопрстα");///No Translate
+                    g_RepalceSPCode.Add("ドラゴンマスター"); g_RepalceSPCode.Add("абвгдеё");///No Translate
+                    g_RepalceSPCode.Add("ファルコンナイト"); g_RepalceSPCode.Add("жзийклм");///No Translate
+                }
                 else if (Program.ROM.RomInfo.version == 7)
                 {
                     g_RepalceSPCode.Add("サンダーストーム"); g_RepalceSPCode.Add("⑮⑯⑰⑱⑲⑳α");///No Translate
