@@ -8,8 +8,8 @@
 07=Kritischer Bonus	Gewährt einen Krit%-Bonus.\r\nStandardwert ist 15% und wird für Schwertmeister, Berserker und Stufe3-Trainees außer Schüler verwendet.
 08=Ballista-Zugriff	Gewährt die Fähigkeit, Ballistas zu verwenden.\r\nStandardmäßig für Schützen und Scharfschützen verwendet.
 //特性2
-11=Aufgestiegene Einheit	Grants access to weapon level S and adjusts experience calculation.\r\nBy default is set for promoted classes.\r\nExp Calc:\r\nUnpromoted vs Promoted: Bonus\r\nPromoted vs Promoted: No Bonus\r\nPromoted vs Unpromoted: Penalty
-12=Vorrat	Disables the trade command. Unused in FE8.\r\nCan be overrided by patches for new functionality.\r\nPlayer units with this flag set will not be displayed on the Preparation screen.
+11=Aufgestiegene Einheit	Gewährt Zugriff auf Waffenrang S und ändert Erfahrungs-Kalkulation.\r\nWird standardmäßig für Klassen verwendet, die Charakteren nach einem Klassenwechsel zur Verfügung stehen, sowie ein paar Klassen ohne Vorstufe.\r\nErf.-Kalk:\r\nUnaufgestiegen gegen Aufgestiegen: Bonus\r\nAufgestiegen gegen Aufgestiefen: Kein Bonus\r\nAufgestiegen gegen Unaufgestiegen: Malus
+12=Vorrat	Deaktiviert das Tausch-Kommando. In FE8 unbenutzt.\r\nKann von Patches für neue Funktionalität überschrieben werden.\r\nSpielereinheiten welche diese Flag gesetzt haben werden auf dem Vorbereitungsbildschirm nicht angezeigt.
 13=Kavalerieeinheits-Icon	Displays a Cavalry icon in the Rescue field on the Status menu.\r\nDefault set to horse-riding units.
 14=Wyverneinheits-Icon	Displays a Wyvern icon in the Rescue field on the Status menu.\r\nDefault set to wyvern-riding units.
 15=Pegasuseinheits-Icon	Displays a Pegasus icon in the Rescue field on the Status menu.\r\nDefault set to pegasus-riding units.
@@ -18,7 +18,7 @@
 18=Boss	Sets importance and displays the boss marker on a unit's map sprite.\r\nIf set on an enemy, bonus experience will be earned in combat.
 //特性3
 21=Waffen-Bindung 1	Erglaubt es, Waffen mit Waffen-Bindung 1 auszurüsten.\r\nStandardmäßig schaltet dies nichts frei. Nutze es beliebig für eigene Zwecke.
-22=Myrmidone/Schwertmeis.	Erlaubt Ausrüstung für Myrmidonen/Schwertmeister-Waffen.\r\nStandardmäßig schaltet dies das Shamshir frei.
+22=Myrmidone/Schwertmeis.	Erlaubt Ausrüstung von Myrmidonen/Schwertmeister-Waffen.\r\nStandardmäßig schaltet dies das Shamshir frei.
 23=Monsterwaffen	Erlaubt Ausrüstung von Monsterwaffen.\r\nStandardmäßig für Monster die nicht Mogalls/Bigls oder Gorgonen sind verwendet.
 24=Max Level 10	Setzt das Maximallevel auf 10.\r\nStandardmäßig für die Trainee-Klassen verwendet.
 25=Einheit-Ausw. sprerren	Sperrt Auswahl einer Einheit.\r\nUnbenutzt in FE8.
@@ -29,7 +29,7 @@
 31=Keine Erf. geben	Disables player units from gaining exp when fighting this unit\r\nand prevents the Silencer skill from activating.
 32=Exitus	Gewährt die Exitus-Fähigkeit.\r\nAktivations-% sind 1/2 bei kritischen Treffern.\r\nStandardmäßig für die Assassinen-Klasse verwendet.
 33=Magisches Siegel	Aktiviert eine Magie-versiegelnde Aura welche die Einheit umgibt. Unbenutzt in FE8.\r\nNur für Gegner.
-34=Beschwören	Grants the Summon skill.\r\nUnit must have summon data in the Summon Ability tool to enable skill.\r\nDefault set to the Summoner class.
+34=Beschwören	Gewährt die Beschwören-Fähigkeit.\r\nEInheiten müssen Beschwörungsdatem um Beschwörungsfähigkeiten-Editor haben um die Fähigkeit zu nutzen.\r\nStandardmäßig für die Beschwörer-Klasse verwendet.
 35=Eirika-Bindung	Erglaubt es, Waffen mit Eirika-Bindung auszurüsten.\r\nStandardmäßig schaltet dies das Rapier und Sieglinde frei.
 36=Ephraim-Bindung	Erglaubt es, Waffen mit Ephraim-Bindung auszurüsten.\r\nStandardmäßig schaltet dies das Reginleif und Siegmund frei.
 37=Lyn-Bindung	Erlaubt es, Waffen mit Lyn-Bindung auszurüsten. Unbenutzt in FE8.\r\nStandardmäßig schaltet dies das unbenutzte Mani Katti(Dummy) frei.
