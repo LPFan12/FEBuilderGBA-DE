@@ -19,7 +19,7 @@
 //特性3
 21=Waffen-Bindung 1	Erglaubt es, Waffen mit Waffen-Bindung 1 auszurüsten.\r\nStandardmäßig schaltet dies nichts frei. Nutze es beliebig für eigene Zwecke.
 22=Myrmidone/Schwertmeister	Erlaubt Ausrüstung für Myrmidonen/Schwertmeister-Waffen.\r\nStandardmäßig schaltet dies das Shamshir frei.
-23=Monsterwaffen	Erlaubt Ausrüstung von Monsterwaffen.\r\nStandardmäßig für Monster die nicht Mogalls/Bigl oder Gorgonen sind verwendet.
+23=Monsterwaffen	Erlaubt Ausrüstung von Monsterwaffen.\r\nStandardmäßig für Monster die nicht Mogalls/Bigls oder Gorgonen sind verwendet.
 24=Max Level 10	Setzt das Maximallevel auf 10.\r\nStandardmäßig für die Trainee-Klassen verwendet.
 25=Einheit-Auswahl sprerren	Sperrt Auswahl einer Einheit.\r\nUnbenutzt in FE8.
 26=Delta-Attacke 1	Erlaubt Teilnahme in einer Drei-Pegasus Delta-Attacke.
@@ -31,6 +31,6 @@
 33=Magisches Siegel	Aktiviert eine Magie-versiegelnde Aura welche die Einheit umgibt. Unbenutzt in FE8\r\nNur für Gegner.
 34=Beschwören	Grants the Summon skill.\r\nUnit must have summon data in the Summon Ability tool to enable skill.\r\nDefault set to the Summoner class.
 35=Eirika-Bindung	Erglaubt es, Waffen mit Eirika-Bindung auszurüsten.\r\nStandardmäßig schaltet dies das Rapier und Sieglinde frei.
-36=Ephraim-Bindung	Erglaubt es, Waffen mit Eirika-Bindung auszurüsten.\r\nStandardmäßig schaltet dies das Reginleif und Siegmund frei.
+36=Ephraim-Bindung	Erglaubt es, Waffen mit Ephraim-Bindung auszurüsten.\r\nStandardmäßig schaltet dies das Reginleif und Siegmund frei.
 37=Lyn-Bindung	Erlaubt es, Waffen mit Lyn-Bindung auszurüsten. Unbenutzt in FE8\r\nStandardmäßig schaltet dies das unbenutzte Mani Katti(Dummy) frei.
 38=Athos-Bindung	Erlaubt es, Waffen mit Athos-Bindung auszurüsten. Unbenutzt in FE8\r\nStandardmäßig schaltet dies das unbenutzte Fegefeuer(Dummy) frei.
