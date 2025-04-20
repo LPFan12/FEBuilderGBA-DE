@@ -23,7 +23,7 @@
 24=Max Level 10	Sets the level cap to 10.\r\nBy default this is given to trainee classes.
 25=Disable Unit Select	Disables a unit from being selected.\r\nUnlikely to be used.
 26=Triangle Attack 1	Enables participation in a three-Pegasus Triangle Attack.
-27=Triangle Attack 2	Enables participation in a three-Knight Triangle Attack.
+27=Triangle Attack 2	Enables participation in a three-Knight Triangle Attack. Unbenutzt in FE8.
 28=ID-Subtraktion	Senkt die Charakter-ID um 1 beim Erscheinen der Einheit. Unbenutzt in FE8.\r\nNutze dies nicht auf ID 1 (standardmäßig Eirika), das zu tun macht das Spiel kaputt.
 //特性4
 31=Keine Erf. geben	Disables player units from gaining exp when fighting this unit\r\nand prevents the Silencer skill from activating.
