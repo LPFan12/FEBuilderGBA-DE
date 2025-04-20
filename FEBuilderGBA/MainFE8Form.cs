@@ -310,6 +310,8 @@ namespace FEBuilderGBA
 
         private void ClassOPDemoButton_Click(object sender, EventArgs e)
         {
+        if (Program.ROM.RomInfo.version == 8)
+            {
             if (!Program.ROM.RomInfo.is_multibyte)
             {
                 InputFormRef.JumpForm<OPClassDemoFE8UForm>();
@@ -317,6 +319,11 @@ namespace FEBuilderGBA
             else
             {
                 InputFormRef.JumpForm<OPClassDemoForm>();
+            }
+            }
+        else 
+        {
+            InputFormRef.JumpForm<OPClassDemoFE7Form>();
             }
         }
 
