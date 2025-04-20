@@ -1,6 +1,6 @@
 ﻿//特性1
 01=Mounted Aid Calc	Sets aid calculation for rescue to the mounted aid calculation.\r\nAid: 25 (male) or 20 (female) - unit's CON.
-02=Canto	Enables the use of any unused MOV after all actions except attacking.
+02=Move Again	Enables the use of any unused MOV after all actions except attacking.
 03=Steal	Grants the steal ability.
 04=Thief Skill	Grants extended vision in Fog.\r\nAllows the use of lockpicks.\r\nEnemies with this characteristic grant bonus experience in combat.
 05=Dance (Dancer)	Enables the Dance command.\r\nThe user must have magic battle animations set and use an acceptable move icon or the game may freeze.
@@ -13,7 +13,7 @@
 13=Cavalry Unit Icon	Displays a Cavalry icon in the Rescue field on the Status menu.\r\nDefault set to horse-riding units.
 14=Wyvern Unit Icon	Displays a Wyvern icon in the Rescue field on the Status menu.\r\nDefault set to wyvern-riding units.
 15=Pegasus Unit Icon	Displays a Pegasus icon in the Rescue field on the Status menu.\r\nDefault set to pegasus-riding units.
-16=Lord Unit	Default set to Lords, Great Lords.\r\nThis Flag is necessary to set it as a Main character.\r\nIn FE 8,UnitID: 0x01 and 0x0F must be the class of the load unit.\r\nTo change the "Seize" and "Supply", adapt the patch rather than changing this flag.
+16=Lord Unit	Default set to Lords and Great Lords.\r\nThis Flag is necessary to set it as a Main character.\r\nIn FE 8,UnitID: 0x01 and 0x0F must be the class of the Lord unit.\r\nTo change the "Seize" and "Supply", adapt the patch rather than changing this flag.
 17=Female	Sets female status.\r\nDefault set to units and unused by classes.
 18=Boss	Sets importance and displays the boss marker on a unit's map sprite.\r\nIf set on an enemy, bonus experience will be earned in combat.
 //特性3
@@ -24,7 +24,7 @@
 25=Disable Unit Select	Disables a unit from being selected.\r\nUnlikely to be used.
 26=Triangle Attack 1	Enables participation in a three-Pegasus Triangle Attack.
 27=Triangle Attack 2	Enables participation in a three-Knight Triangle Attack.
-28=NPC	Unknown
+28=ID Subtract	Lowers the Character-ID by 1 upon spawning Unit.\r\nDon't use on ID 1 (Eirika by default), doing that will break the game.
 //特性4
 31=Do Not Grant Exp	Disables player units from gaining exp when fighting this unit\r\nand prevents the Silencer skill from activating.
 32=Silencer/Lethality	Grants the Silencer / Lethality skill.\r\nActivation % is 1/2 on critical hit.\r\nDefault set to the Assassin class.
