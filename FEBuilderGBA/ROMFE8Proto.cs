@@ -79,7 +79,7 @@ namespace FEBuilderGBA
             map_terrain_name_pointer = 0x19f24;   // マップの地名表記の開始位置
             image_chapter_title_pointer = 0x96A98;  // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             image_chapter_title_palette = 0x3A087C;  // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
-            image_unit_palette_pointer = 0x5b6cc;   // ユニットパレットの開始位置
+            image_unit_palette_pointer = 0x7018C;   // Ist das der richtige Pointer?
             item_pointer = 0x176EC;  // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
 
             item_datasize = 36;  // アイテムのデータサイズ
