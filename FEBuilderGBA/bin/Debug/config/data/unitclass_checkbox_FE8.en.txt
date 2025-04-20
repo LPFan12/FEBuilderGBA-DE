@@ -4,8 +4,8 @@
 03=Steal	Grants the steal ability.
 04=Thief Skill	Grants extended vision in Fog.\r\nAllows the use of lockpicks.\r\nEnemies with this characteristic grant bonus experience in combat.
 05=Dance (Dancer)	Enables the Dance command.\r\nThe user must have magic battle animations set and use an acceptable move icon or the game may freeze.
-06=Play (Bard)	Enables the Play command.\r\nThe user must have magic battle animations set and use an acceptable move icon or the game may freeze.
-07=Critical Boost	Grants a critical hit% boost.\r\nDefault rate is 15% and set to the classes Swordmaster, Berserker, and the Supertrainees.
+06=Play (Bard)	Enables the Play command. Unused in FE8.\r\nThe user must have magic battle animations set and use an acceptable move icon or the game may freeze.
+07=Critical Boost	Grants a critical hit% boost.\r\nDefault rate is 15% and set to the classes Swordmaster, Berserker, and the Supertrainees except Pupil.
 08=Ballista Access	Grants the ability to use ballistae.\r\nDefault granted to Archers and Snipers.
 //特性2
 11=Promoted Unit	Grants access to weapon level S and adjusts experience calculation.\r\nBy default is set for promoted classes.\r\nExp Calc:\r\nUnpromoted vs Promoted: Bonus\r\nPromoted vs Promoted: No Bonus\r\nPromoted vs Unpromoted: Penalty
@@ -23,12 +23,12 @@
 24=Max Level 10	Sets the level cap to 10.\r\nBy default this is given to trainee classes.
 25=Disable Unit Select	Disables a unit from being selected.\r\nUnlikely to be used.
 26=Triangle Attack 1	Enables participation in a three-Pegasus Triangle Attack.
-27=Triangle Attack 2	Enables participation in a three-Knight Triangle Attack.
-28=ID Subtract	Lowers the Character-ID by 1 upon spawning Unit.\r\nDon't use on ID 1 (Eirika by default), doing that will break the game.
+27=Triangle Attack 2	Enables participation in a three-Knight Triangle Attack. Unused in FE8.
+28=ID Subtract	Lowers the Character-ID by 1 upon spawning Unit. Unused in FE8.\r\nDon't use on ID 1 (Eirika by default), doing that will break the game.
 //特性4
 31=Do Not Grant Exp	Disables player units from gaining exp when fighting this unit\r\nand prevents the Silencer skill from activating.
 32=Silencer/Lethality	Grants the Silencer / Lethality skill.\r\nActivation % is 1/2 on critical hit.\r\nDefault set to the Assassin class.
-33=Magic Seal	Grants a Magic Sealing area surrounding a unit.\r\nEnemy-only.
+33=Magic Seal	Grants a Magic Sealing area surrounding a unit. Unused in FE8.\r\nEnemy-only.
 34=Summoning	Grants the Summon skill.\r\nUnit must have summon data in the Summon Ability tool to enable skill.\r\nDefault set to the Summoner class.
 35=Eirika Lock	Allows equipping of weapons locked to the Eirika lock.\r\nBy default this unlocks the Rapier and Sieglinde.
 36=Ephraim Lock	Allows equipping of weapons locked to the Ephraim lock.\r\nBy default this unlocks the Reginleif and Siegmund.
