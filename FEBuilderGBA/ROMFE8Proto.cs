@@ -38,12 +38,12 @@ namespace FEBuilderGBA
             unit_wait_barista_anime_address = 0x02727c;   // ユニット待機アイコンのバリスタのアニメ指定アドレス
             unit_wait_barista_id = 0x5b;   // ユニット待機アイコンのバリスタの位置
             unit_icon_palette_address = 0xF266C;  // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
-            unit_icon_enemey_palette_address = 0x5c7360;  // ユニット(敵軍)のパレットのアドレス
-            unit_icon_npc_palette_address = 0x5c7380;  // ユニット(友軍)のパレットのアドレス
-            unit_icon_gray_palette_address = 0x5c73A0;  // ユニット(グレー))のパレットの開始位置
-            unit_icon_four_palette_address = 0x5c73C0;  // ユニット(4軍))のパレットの開始位置
-            unit_icon_lightrune_palette_address = 0x5C73E0;  // ユニット(光の結界)のパレットの開始位置
-            unit_icon_sepia_palette_address = 0x5C7400;  // ユニット(セピア)のパレットの開始位置
+            unit_icon_enemey_palette_address = 0x0F268C;  // Ist das die richtige Addresse?
+            unit_icon_npc_palette_address = 0x0F26AC;  // Ist das die richtige Addresse?
+            unit_icon_gray_palette_address = 0x0F26CC;  // Ist das die richtige Addresse?
+            unit_icon_four_palette_address = 0x0F26EC;  // Ist das die richtige Addresse?
+            unit_icon_lightrune_palette_address = 0x0F270C;  // Ist das die richtige Addresse?
+            unit_icon_sepia_palette_address = 0x0F272C;  // Ist das die richtige Addresse?
 
             unit_move_icon_pointer = 0x88890;  // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             lightrune_uniticon_id = 0x66;  // ユニット(光の結界)のユニットアイコンのID
@@ -64,8 +64,8 @@ namespace FEBuilderGBA
             map_worldmapevent_pointer = 0x0;  //マップ設定の開始位置(worldmap (FE6のみ))
             map_map_pointer_list_default_size = 0xEB;  //PLIST拡張をしていない時のバニラでのPLISTの数
             image_battle_animelist_pointer = 0x70188;    // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
-            support_unit_pointer = 0x8582E8;    // 支援相手の開始位置
-            support_talk_pointer = 0x086A50;    // 支援相手の開始位置
+            support_unit_pointer = 0x9B35C4;    // Ist das der richtige Pointer?
+            support_talk_pointer = 0x09114C;    // Ist das der richtige Pointer?
             unit_palette_color_pointer = 0x582F4;   // ユニットのパレット(カラー)の開始位置
             unit_palette_class_pointer = 0xD1E90;   // ユニットのパレット(クラス)の開始位置
             support_attribute_pointer = 0x284C8;   //支援効果の開始位置
@@ -83,7 +83,7 @@ namespace FEBuilderGBA
             item_pointer = 0x176EC;  // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
 
             item_datasize = 36;  // アイテムのデータサイズ
-            item_effect_pointer = 0x7A664;  // アイテムエフェクトの開始位置
+            item_effect_pointer = 0x06E8CC;  // Ist das der richtige Pointer?
             sound_table_pointer = 0xE2B34;  // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             sound_room_pointer = 0xC3458;  // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             sound_room_datasize = 16;  // サウンドルームのデータサイズ
@@ -143,7 +143,7 @@ namespace FEBuilderGBA
             cc_sun_bracelet_pointer = 0x29378;   //CCアイテム 太陽の腕輪
             unit_increase_height_pointer = 0x5b3c;   //ステータス画面で背を伸ばす
             unit_increase_height_switch2_address = 0x5b2a; 
-            op_class_demo_pointer = 0xAB0B18;   //OPクラスデモ
+            op_class_demo_pointer = 0xB0DAD0;   //Ist das der richtige Pointer?
             op_class_font_pointer =  0xB7988;   //OPクラス日本語フォント
             op_class_font_palette_pointer = 0xb7994;   // OPクラス紹介フォントのパレット
             status_font_pointer = 0x49D0;   //ステータス画面用のフォント
@@ -415,8 +415,8 @@ namespace FEBuilderGBA
                 }
             }
             
-            event_function_pointer_table_pointer = 0x0D1A4;     //イベント命令ポインタ
-            event_function_pointer_table2_pointer = 0x0D1CC;    //イベント命令ポインタ2 ワールドマップ
+            event_function_pointer_table_pointer = 0xF018;     //Ist das der richtige Pointer?
+            event_function_pointer_table2_pointer = 0xF040;    //Ist das der richtige Pointer?
             item_effect_pointer_table_pointer = 0x5C19C;    //間接エフェクトポインタ
             command_85_pointer_table_pointer = 0x074108;     //85Commandポインタ
             dic_main_pointer = 0xD4180;      //辞書メインポインタ
