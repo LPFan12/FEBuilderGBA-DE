@@ -17,7 +17,7 @@
 17=Weiblich	Setzt den Weiblich-Status.\r\nBeeinflusst in Vanilla-Funktionen nur die Kalkulation des Hilfswerts(siehe "Berittene Hilfs-Kalk.") \r\nStandardmäßig für Charaktere und nicht für Klassen verwendet.
 18=Boss	Sets importance and displays the boss marker on a unit's map sprite.\r\nIf set on an enemy, bonus experience will be earned in combat.
 //特性3
-21=Waffen-Bindung 1	Erglaubt es, Waffen mit Waffen-Bindung 1 auszurüsten.\r\nStandardmäßig schaltet dies nichts frei. Nutze es beliebig für eigene Zwecke.
+21=Waffen-Bindung 1	Erlaubt es, Waffen mit Waffen-Bindung 1 auszurüsten.\r\nStandardmäßig schaltet dies nichts frei. Nutze es beliebig für eigene Zwecke.
 22=Myrmidone/Schwertmeis.	Erlaubt Ausrüstung von Myrmidonen/Schwertmeister-Waffen.\r\nStandardmäßig schaltet dies das Shamshir frei.
 23=Monsterwaffen	Erlaubt Ausrüstung von Monsterwaffen.\r\nStandardmäßig für Monster die nicht Mogalls/Bigls oder Gorgonen sind verwendet.
 24=Max Level 10	Setzt das Maximallevel auf 10.\r\nStandardmäßig für die Trainee-Klassen verwendet.
