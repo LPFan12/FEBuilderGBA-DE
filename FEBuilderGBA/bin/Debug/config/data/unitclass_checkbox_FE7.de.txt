@@ -1,0 +1,36 @@
+﻿//特性1
+01=Berittene Hilfs-Kalk.	Setzt Hilfswert-Kalkulation für Rettung zur berittenen Kalkulation.\r\nHilfswert: 25 (männlich) oder 20 (weiblich) - KON der Einheit.
+02=Nochmals Bewegen	Erlaubt der Einheit jegliche unbenutzten BEW-Punkte nach Aktionen außer Angriff zu verwenden.
+03=Stehlen	Gewährt die Stehlen-Fähigkeit.
+04=Diebesfähigkeit	Gewährt erweiterte Sicht im Nebel.\r\nErlaubt es, Dietriche zu verwenden.\r\nFeinde mit dieser Eigenschaft geben zusätzliche Erfahrungspunkte.
+05=Tanzen (Tänzer)	Erlaubt Nutzung des Tanzen-Kommandos.\r\nDie Einheit muss Magieanimationen im Kampf und kompatible Kartensprites haben, oder das Spiel kann abstürzen.
+06=Spielen (Barde)	Erlaubt Nutzung des Spielen-Kommandos. Unbenutzt in FE8.\r\nDie Einheit muss Magieanimationen im Kampf und kompatible Kartensprites haben, oder das Spiel kann abstürzen.
+07=Kritischer Bonus	Gewährt einen Krit%-Bonus.\r\nStandardwert ist 15% und wird für Schwertmeister und Berserker verwendet.
+08=Ballista-Zugriff	Gewährt die Fähigkeit, Ballistas zu verwenden.\r\nStandardmäßig für Schützen und Scharfschützen verwendet.
+//特性2
+11=Aufgestiegene Einheit	Gewährt Zugriff auf Waffenrang S und ändert Erfahrungs-Kalkulation.\r\nWird standardmäßig für Klassen verwendet, die Charakteren nach einem Klassenwechsel zur Verfügung stehen, sowie ein paar Klassen ohne Vorstufe.\r\nErf.-Kalk:\r\nUnaufgestiegen gegen Aufgestiegen: Bonus\r\nAufgestiegen gegen Aufgestiefen: Kein Bonus\r\nAufgestiegen gegen Unaufgestiegen: Malus
+12=Vorrat	Deaktiviert das Tausch-Kommando und setzt die Einheit als den Transporter.\r\nWird standardmäßig für Merlinus verwendet.
+13=Kavalerieeinheits-Icon	Displays a Cavalry icon in the Rescue field on the Status menu.\r\nDefault set to horse-riding units.
+14=Wyverneinheits-Icon	Displays a Wyvern icon in the Rescue field on the Status menu.\r\nDefault set to wyvern-riding units.
+15=Pegasuseinheits-Icon	Displays a Pegasus icon in the Rescue field on the Status menu.\r\nDefault set to pegasus-riding units.
+16=Lord-Einheit	Default set to Lords, Great Lords, Blade Lords, and Knight Lords.\r\nThis Flag is necessary to set it as a Main character.\r\nIn FE 7,UnitID: 0x01, 0x02 and 0x03 must be the class of the Lord unit.\r\nTo change the "Seize", adapt the patch rather than changing this flag.
+17=Weiblich	Setzt den Weiblich-Status.\r\nBeeinflusst in Vanilla-Funktionen nur die Kalkulation des Hilfswerts(siehe "Berittene Hilfs-Kalk.") \r\nStandardmäßig für Charaktere und nicht für Klassen verwendet.
+18=Boss	Sets importance and displays the boss marker on a unit's map sprite.\r\nIf set on an enemy, bonus experience will be earned in combat.
+//特性3
+21=Waffen-Bindung 1	Erlaubt es, Waffen mit Waffen-Bindung 1 auszurüsten.\r\nStandardmäßig schaltet dies nichts frei. Nutze es beliebig für eigene Zwecke.
+22=Myrmidone/Schwertmeis.	Erlaubt Ausrüstung von Myrmidonen/Schwertmeister-Waffen.\r\nStandardmäßig schaltet dies das Wo Dao frei.
+23=Manakete-Bindung	Erlaubt es, Drachensteine auszurüsten.\r\nStandardmäßig wird dies nur für den Finalen Boss und Feuerzunge verwendet.
+24=Morphs	Setze die Einheit als einen Morph.\r\nAuch standardmäßig von Vaida in ID 2B verwendet.
+25=Einheit-Ausw. sprerren	Sperrt Auswahl einer Einheit.\r\nWird standardmäßig für zu beschützende NPCs verwendet.
+26=Delta-Attacke 1	Erlaubt Teilnahme in einer Drei-Pegasus Delta-Attacke.
+27=Delta-Attacke 2	Erlaubt Teilnahme in einer Drei-Ritter Delta-Attacke. In FE7 unbenutzt.
+28=ID-Subtraktion	Senkt die Charakter-ID um 1 beim Erscheinen der Einheit. In FE7 unbenutzt.\r\nNutze dies nicht auf ID 1 (standardmäßig Eliwood), das zu tun macht das Spiel kaputt.
+//特性4
+31=Keine Erf. geben	Disables player units from gaining exp when fighting this unit\r\nand prevents the Silencer skill from activating.
+32=Exitus	Gewährt die Exitus-Fähigkeit.\r\nAktivations-% sind 1/2 bei kritischen Treffern.\r\nStandardmäßig für die Assassinen-Klasse verwendet.
+33=Magisches Siegel	Aktiviert eine Magie-versiegelnde Aura welche die Einheit umgibt.\r\nNur für Gegner.
+34=Fallender Gegenstand	Lässt den letzten Gegenstand im Inventar nach Niederlage fallen lassen.\r\nNur für Gegner.
+35=Eliwood-Bindung	Erlaubt es, Waffen mit Eliwood-Bindung auszurüsten.\r\nStandardmäßig schaltet dies das Rapier und Durandal frei.
+36=Hector-Bindung	Erlaubt es, Waffen mit Hector-Bindung auszurüsten.\r\nStandardmäßig schaltet dies das Wolfbeil und Armads frei.
+37=Lyndis-Bindung	Erlaubt es, Waffen mit Lyn-Bindung auszurüsten.\r\nStandardmäßig schaltet dies das Mani Katti und Sol Katti frei.
+38=Athos-Bindung	Erlaubt es, Waffen mit Athos-Bindung auszurüsten.\r\nStandardmäßig schaltet dies das Fegefeuer frei.
