@@ -1,6 +1,6 @@
 ﻿//特性1
 01=Mounted Aid Calc	Sets aid calculation for rescue to the mounted aid calculation.\r\nAid: 25 (male) or 20 (female) - unit's CON.
-02=Canto	Enables the use of any unused MOV after all actions except attacking.
+02=Move Again	Enables the use of any unused MOV after all actions except attacking.
 03=Steal	Grants the steal ability.
 04=Thief Skill	Grants extended vision in Fog.\r\nAllows the use of lockpicks.\r\nEnemies with this characteristic grant bonus experience in combat.
 05=Dance (Dancer)	Enables the Dance command.\r\nThe user must have magic battle animations set and use an acceptable move icon or the game may freeze.
@@ -13,7 +13,7 @@
 13=Cavalry Unit Icon	Displays a Cavalry icon in the Rescue field on the Status menu.\r\nDefault set to horse-riding units.
 14=Wyvern Unit Icon	Displays a Wyvern icon in the Rescue field on the Status menu.\r\nDefault set to wyvern-riding units.
 15=Pegasus Unit Icon	Displays a Pegasus icon in the Rescue field on the Status menu.\r\nDefault set to pegasus-riding units.
-16=Lord Unit	Lord unit.\r\nDefault set to the Lord and Master Lord class.
+16=Lord Unit	Lord unit.\r\nDefault set to the Lord class and Master/Great Lord class.
 17=Female	Sets female status.\r\nDefault set to units and unused by classes.
 18=Boss	Sets importance and displays the boss marker on a unit's map sprite.\r\nIf set on an enemy, bonus experience will be earned in combat.
 //特性3
@@ -24,7 +24,7 @@
 25=Disable Unit Select	Disables a unit from being selected.\r\nBy default, this is unused.
 26=Triangle Attack 1	Enables participation in a three-Pegasus Triangle Attack.
 27=Triangle Attack 2	Enables participation in a three-Knight Triangle Attack.
-28=NPC
+28=ID-Subtract	Lowers the Character-ID by 1 upon spawning Unit.\r\nDon't use on ID 1 (Roy by default), doing that will break the game.
 //特性4
 31=Disable Exp Gain	Prevents experience gain.\r\nBy default, set to final bosses.\r\nCan be set on any unit to meet user needs.
 32=??
