@@ -3,7 +3,7 @@ README(Unfertig)
 
 [![MSBuild](https://github.com/LPFan12/FEBuilderGBA-DE/actions/workflows/msbuild.yml/badge.svg)](https://github.com/LPFan12/FEBuilderGBA-DE/actions/workflows/msbuild.yml)
 
-Diese Version von FEBuilderGBA wird speziell für die deutsche Fire Emblem Community erweitert, aber ich hoffe darauf zu achten, dass sie auch für andere Sprachen verwendbar bleibt. Sie basiert auf der Version bei (https://github.com/laqieer/FEBuilderGBA).
+Diese Version von FEBuilderGBA wird speziell für die deutsche Fire Emblem-Community erweitert, aber ich hoffe darauf zu achten, dass sie auch für andere Sprachen verwendbar bleibt. Sie basiert auf der Version bei (https://github.com/laqieer/FEBuilderGBA).
 
 Achtung: Aufgrund des letzten größeren technischen Updates das wir von der uns überstehenden Version übernommen haben befinden sich temporär ein paar unbehobene Probleme im Programm. Die letzte "stabile" Version von FEBuilderGBA-DE ist (https://github.com/LPFan12/FEBuilderGBA-DE/actions/runs/14391987923).
 
@@ -15,13 +15,28 @@ Momentane Änderungen:
 
 -Ein paar Klassen/Itemnamen wurden in den japanischen Spielversionen auf verwirrende Weise ersetzt. In einem Fall (beim Gorgonenei in FE8) führte dies bereits in der Vergangenheit zu einer großen Verwirrung in der englischsprachigen Community weil der ersetzte Name anders war als der tatsächliche im Spiel. Dies wurde korrigiert, damit diese Namen im Editor genauso angezeigt werden wie im Spiel auch.
 
--Anfängliche Unterstützung für die Europäische Rom welche die deutsche Sprache enthält, den FE7 206 Prototypen(Die ID der Rom muss aufgrund von technischen Gründen momentan manuell in einem Hex-Editor von "AFEJ" auf "AE7B" geändert werden) und der Chinesischen FE6 ROM. Der momentane Fortschritt ist allerdings noch nicht weit genug fortgeschritten damit es als "Stabil" zählen kann und ich kann momentan noch nicht empfehlen diese Roms zu bearbeiten.
+-Anfängliche deutsche Übersetzung für das Programm selbst.
+
+-Anfängliche Unterstützung hinzugefügt für:
+
+Offizielle Spielversionen:
+ * FE6C (Spiel-ID: AFECFQ); Dies ist die Chinesische Version.
+ * FE7 206-Prototyp (Spiel-ID: AE7B01); Die Spiel-ID muss in der ROM manuell geändert werden, auf natürliche Weise hat es die selbe ID wie die japanische Version von FE6.
+ * FE7 209-Prototyp (Spiel-ID: AE7G01); Die Spiel-ID muss in der ROM manuell geändert werden, auf natürliche Weise hat es die selbe ID wie die japanische Version von FE6.
+ * FE7E (Spiel-ID: AE7X01); Dies ist die ROM mit Deutsch, die andere Europäische ROM ist noch nicht unterstüztzt.
+ * FE8 531-Prototyp (Spiel-ID: BE8A01); Die Spiel-ID muss in der ROM manuell geändert werden, auf natürliche Weise hat es die selbe ID wie die japanische Version von FE7.
+   
+ Fanübersetzte Spielversionen:
+ * FE6U (Spiel-ID: AFEU01); Dies ist der Englischpatch. Die Spiel-ID muss in der ROM manuell geändert werden, auf natürliche Weise hat es die selbe ID wie die japanische Version von FE6.
+ * FE6D (Spiel-ID: AFED01); Dies ist der LPFan-Deutschpatch.
+     
+Der momentane Fortschritt ist allerdings noch nicht weit genug fortgeschritten damit es als "Stabil" zählen kann und ich kann momentan noch nicht empfehlen diese Roms zu bearbeiten. Wir übernehmen keine Schuld für zerstörte ROMs dieser Spielversionen!
 
 Momentan geplante Änderungen:
 
--Unterstüzung für alle offiziellen Spielversionen die noch nicht unterstützt sind(Europa, Prototypen, Chinesische Version von FE6).
+-Vollständige Unterstüzung für alle offiziellen und fanübersetzten Spielversionen.
 
--FEBuilderGBA selbst eine deutsche Übersetzung geben.
+-Die deutsche Übersetzung von FEBuilder abschließen.
 
 -Das Programm wenn möglich vollständiger und benutzerfreundlicher machen.
 
