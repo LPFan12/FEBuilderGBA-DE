@@ -47,7 +47,7 @@ namespace FEBuilderGBA
 
            unit_move_icon_pointer = U.FindROMPointer(rom, 0x4, new uint[] { 0x079584, 0x79598, 0xBAC2C, 0xBAC40});  // ユニット移動アイコンの開始位置
            lightrune_uniticon_id = 0x66;  // ユニット(光の結界)のユニットアイコンのID
-           map_setting_pointer = U.FindROMPointer(rom, (uint addr) => { return rom.u32(0x12) < 0xE; }, new uint[] { 0x0B5F98, 0x0B61C0, 0x0B6328, 0x0B6500, 0x03462C, 0xB5E68 });   // マップ設定の開始位置
+           map_setting_pointer = 0x0B693C;   // Ist das der richtige Pointer? Etwas ist seltsam hier.
            map_setting_datasize = 148;  //マップ設定のデータサイズ
            map_setting_event_plist_pos = 116;  //event plistの場所 
            map_setting_worldmap_plist_pos = 117;  //woldmap event plistの場所 
@@ -63,7 +63,7 @@ namespace FEBuilderGBA
            map_event_pointer = 0x0346DC;        //マップ設定の開始位置(event)
            map_worldmapevent_pointer = 0x0;  //マップ設定の開始位置(worldmap (FE6のみ))
            map_map_pointer_list_default_size = 0xEC;  //PLIST拡張をしていない時のバニラでのPLISTの数
-           image_battle_animelist_pointer = U.FindROMPointer(rom, 0xC, new uint[] { 0x059BD8, 0x5A600, 0x5A694, 0x5A82C, 0x6F6A8, 0x70A60});    // 戦闘アニメリストの開始位置
+           image_battle_animelist_pointer = 0x059DF9;    // Ist das der richtige Pointer? Etwas ist seltsam hier.
            support_unit_pointer = 0xF0002C;    // Ist das der richtige Pointer?
            support_talk_pointer = 0x084A9C;    // Ist das der richtige Pointer?
            unit_palette_color_pointer = 0x57394;   // ユニットのパレット(カラー)の開始位置
