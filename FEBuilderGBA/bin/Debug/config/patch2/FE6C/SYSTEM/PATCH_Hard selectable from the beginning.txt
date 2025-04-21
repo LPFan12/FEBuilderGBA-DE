@@ -1,16 +1,17 @@
 
 NAME=最初からハード選択可
-NAME.en=Hard selectable from the beginning
+NAME.en=Hard mode availability
 
 //アドレスパッチとして実装します
 TYPE=ADDR
 TAG=#ENGINE
 
 ADDRESS=0x8874c
-COMBO=Default|0x12 0xD0|fix|0xC0 0x46
+COMBO=Unchanged|0x12 0xD0|Always Available|0xC0 0x46|Never Available|0x12 0xE0
 
 AUTHOR=出典:FE6解析資料
 AUTHOR.en=Source: FE 6 analysis material
 NAME.zh=从一开始就难以选择
 AUTHOR.zh=来源:FE 6分析资料
+NAME.de=Schwerer Modus-Verfügbarkeit
 
