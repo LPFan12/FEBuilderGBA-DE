@@ -7,6 +7,8 @@ Diese Version von FEBuilderGBA wird speziell für die deutsche Fire Emblem-Commu
 
 Unsere Änderungen und Pläne
 ===
+Änderungen sind verglichen mit der uns übergestellten Version von FEBuilderGBA.
+
 Momentane Änderungen:
 
 -Für FE6 wurden zwei Zeichentabellen ergänzt, eine für den noch unfertigen LPFan-Deutschpatch und eine für den Emblemier-Deutschpatch(Beide beim Emblemier Discord-Server zu finden https://discord.gg/3xXQkPT). Für diese Deutschpatches muss die Text-Enkodierung in den Optionen jedes Mal neu eingestellt werden wenn die jeweilige ROM im Editor geladen wird(Eine automatische Erkennung ist auf absehbare Zeit nicht zu erwarten), Bilderhilfe kommt später an diese Stelle.
@@ -14,6 +16,8 @@ Momentane Änderungen:
 -Ein paar Klassen/Itemnamen wurden in den japanischen Spielversionen auf verwirrende Weise ersetzt. In einem Fall (beim Gorgonenei in FE8) führte dies bereits in der Vergangenheit zu einer großen Verwirrung in der englischsprachigen Community weil der ersetzte Name anders war als der tatsächliche im Spiel. Dies wurde korrigiert, damit diese Namen im Editor genauso angezeigt werden wie im Spiel auch.
 
 -Anfängliche deutsche Übersetzung für das Programm selbst.
+
+-Verbesserungen und Anpassungen für bestimmte Systemtexte und Patches. Achtung für Kompabilität: Alle gefundenen veralteten Patches wurden entfernt weil es sich über die Jahre anstaute (Das Projekt schrumpfte von über 24 auf etwa 15 Megabyte nach der Entfernung). Es wird empfohlen solche Patches entweder zu aktualisieren oder zu entfernen bevor diese Version von FEBuilderGBA verwendet wird.
 
 -Anfängliche Unterstützung hinzugefügt für:
 
@@ -24,7 +28,7 @@ Offizielle Spielversionen:
  * FE7E (Spiel-ID: AE7X01); Dies ist die ROM mit Deutsch, die andere Europäische ROM ist noch nicht unterstüztzt.
  * FE8 531-Prototyp (Spiel-ID: BE8A01); Die Spiel-ID muss in der ROM manuell geändert werden, auf natürliche Weise hat es die selbe ID wie die japanische Version von FE7.
    
- Fanübersetzte Spielversionen:
+ Fanübersetzte Spielversionen(Nur aktuelle Versionen werden von uns unterstützt):
  * FE6U (Spiel-ID: AFEU01); Dies ist der Englischpatch. Die Spiel-ID muss in der ROM manuell geändert werden, auf natürliche Weise hat es die selbe ID wie die japanische Version von FE6.
  * FE6D (Spiel-ID: AFED01); Dies ist der LPFan-Deutschpatch.
      
@@ -43,7 +47,7 @@ Die Koreanische Zeichentabelle
 
 Sie stammt ursprünglich aus einer anderen inoffiziellen Version beim (https://github.com/delvier/FEBuilderGBA), welche von der Version auf der diese basiert übernommen wurde.
 
-Die benutzte Tabelle ist **Johab**, welche anscheinend nur Hangul-Sylben unterstützt(Ich kenne mich da selbst nicht so aus). Es ist denkbar, dass in der Zukunft irgendwann andere Zeichentabellen auch unterstützt werden, aber auf absehbare Zeit ist zu empfehlen die Datei __FE\[678\].tbl__ im Ordner __./config/translate/ko_tbl__ zu ersetzen, wenn man alternative Zeichentabellen wie Wansung oder Windows-949 nutzen will.
+Die benutzte Tabelle ist **Johab**, welche anscheinend nur Hangul-Sylben unterstützt(Ich kenne mich da selbst nicht wirklich aus). Es ist denkbar, dass in der Zukunft irgendwann andere Zeichentabellen auch unterstützt werden, aber auf absehbare Zeit ist zu empfehlen die Datei __FE\[678\].tbl__ im Ordner __./config/translate/ko_tbl__ zu ersetzen, wenn man alternative Zeichentabellen wie Wansung oder Windows-949 nutzen will.
 
 Die koreanische Unterstützung ist unvollständig, weshalb manche Zeichen nicht richtig angezeigt werden, z.b. '@61A0' anstatt '마' (0xA061). Dies ist möglicherweise weil die oberen Bytes von 0xA0 bis 0xDF in Shift-JIS und Windows-932 für Einzelbyte-Darstellungen verwendet werden.
 
