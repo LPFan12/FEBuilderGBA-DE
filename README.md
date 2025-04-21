@@ -5,8 +5,6 @@ README(Unfertig)
 
 Diese Version von FEBuilderGBA wird speziell für die deutsche Fire Emblem-Community erweitert, aber ich hoffe darauf zu achten, dass sie auch für andere Sprachen verwendbar bleibt. Sie basiert auf der Version bei (https://github.com/laqieer/FEBuilderGBA).
 
-Achtung: Aufgrund des letzten größeren technischen Updates das wir von der uns überstehenden Version übernommen haben befinden sich temporär ein paar unbehobene Probleme im Programm. Die letzte "stabile" Version von FEBuilderGBA-DE ist (https://github.com/LPFan12/FEBuilderGBA-DE/actions/runs/14391987923).
-
 Unsere Änderungen und Pläne
 ===
 Momentane Änderungen:
