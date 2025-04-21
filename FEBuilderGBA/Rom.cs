@@ -584,6 +584,12 @@ namespace FEBuilderGBA
                 return true;
             }
             if (data.Length >= 0x1000000
+                && version.IndexOf("BE8P01") >= 0)
+            {
+                this.RomInfo = new ROMFE8E(this);
+                return true;
+            }
+            if (data.Length >= 0x1000000
                 && version.IndexOf("BE8A01") >= 0)
             {
                 this.RomInfo = new ROMFE8Proto(this);
@@ -673,6 +679,10 @@ namespace FEBuilderGBA
             else if (forceversion.IndexOf("FE8U") >= 0)
             {
                 version = "BE8E01";
+            }
+            else if (forceversion.IndexOf("FE8E") >= 0)
+            {
+                version = "BE8P01";
             }
             else if (forceversion.IndexOf("FE7J") >= 0)
             {
