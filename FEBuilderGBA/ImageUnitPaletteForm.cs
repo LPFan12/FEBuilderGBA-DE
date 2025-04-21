@@ -174,37 +174,6 @@ namespace FEBuilderGBA
                 }
                 U.ConvertListBox(list, ref UNITCLASS_LIST);
             }
-            //else if (Program.ROM.RomInfo.version == 531)
-           // {//FE8の場合キャラパレット指定が別途用意されている
-           //     uint unit_palette_color_pointer = Program.ROM.p32(Program.ROM.RomInfo.unit_palette_color_pointer);
-            //    uint unit_palette_class_pointer = Program.ROM.p32(Program.ROM.RomInfo.unit_palette_class_pointer);
-//
-        //        List<U.AddrResult> list = new List<U.AddrResult>();
-          //      for (int i = 0; i < Program.ROM.RomInfo.unit_maxcount; i++)
-         //       {
-         //           for (uint n = 0; n < 7; n++)
-          //          {
-             //           uint paletteid = Program.ROM.u8(unit_palette_color_pointer + n);
-             //           if (paletteid <= 0)
-             //           {
-              //              continue;
-              //          }
-                //        if (paletteid - 1 != selectindex)
-                //        {
-                 //           continue;
-                   //     }
-                 //       uint uid = (uint)i+1;
-                 //       uint cid = Program.ROM.u8(unit_palette_class_pointer + n);
-                //        string name = U.ToHexString(uid) + " " + UnitForm.GetUnitName(uid) + " -> " + U.ToHexString(cid) + " " + ClassForm.GetClassName(cid);
-//
-              //          list.Add(new U.AddrResult(cid, name, uid));
-             //       }
-//
-             //       unit_palette_color_pointer += 7;
-             //       unit_palette_class_pointer += 7;
-             //   }
-            //    U.ConvertListBox(list, ref UNITCLASS_LIST);
-           // }
             else
             {//FE7 , FE6 はユニットの部分に色指定がある
                 List<U.AddrResult> list = new List<U.AddrResult>();
