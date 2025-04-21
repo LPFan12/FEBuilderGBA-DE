@@ -7,11 +7,11 @@ using System.Diagnostics;
 
 namespace FEBuilderGBA
 {
-    sealed class ROMFE8U : ROMFEINFO
+    sealed class ROMFE8E : ROMFEINFO
     {
-        public ROMFE8U(ROM rom)
+        public ROMFE8E(ROM rom)
         {
-           VersionToFilename = "FE8U"; 
+           VersionToFilename = "FE8E"; 
            TitleToFilename = "FE8"; 
            mask_point_base_pointer = 0x0006DC;  // Huffman tree end (indirected twice)
            mask_pointer = 0x0006E0;   // Huffman tree start (indirected once)
