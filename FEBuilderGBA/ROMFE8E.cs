@@ -19,15 +19,15 @@ namespace FEBuilderGBA
            text_recover_address = 0x15D48C;  // textの開始位置(上記ポインタを壊している改造があるののでその対策)
            text_data_start_address = 0xE8414;  //textデータの規定値の開始位置
            text_data_end_address = 0x15AB80;  // textデータの規定値の開始位置
-           unit_pointer = U.FindROMPointer(rom, 0x2c, new uint[] { 0x10108, 0x104EC, 0x10538, 0xA0B40, 0xA0BB8, 0xBE954});  // ユニットの開始位置
+           unit_pointer = 0x010074;  // Ist das der richtige Pointer? Etwas ist seltsam hier.
            unit_maxcount = 255;  // ユニットの最大数
            unit_datasize = 52;  // ユニットのデータサイズ
            max_level_address = 0x02BA78;  // 最大レベルの値を格納しているアドレス
            max_luck_address = 0x2c016;  // 最大レベルの幸運の値を格納しているアドレス
-           class_pointer = U.FindROMPointer(rom, 0x88, new uint[] { 0x017AB8, 0x17DBC, 0x18DAC, 0x19458});  // クラスの開始位置
+           class_pointer = 0x017D7C;  // Ist das der richtige Pointer? Etwas ist seltsam hier.
            class_datasize = 84;   // ユニットのデータサイズ
            bg_pointer = U.FindROMPointer(rom, 0x8, new uint[] { 0x00E894, 0x00ECF4, 0x00EDF8, 0x0010E44});  //BGベースアドレス
-           portrait_pointer = 0x005524;  //顔ベースアドレス
+           portrait_pointer = 0x5514;  //顔ベースアドレス
            portrait_datasize = 28; 
            icon_pointer = 0x0036B4;  // アイコンの開始位置
            icon_orignal_address = 0x5926F4;  // アイコンの初期値
@@ -64,8 +64,8 @@ namespace FEBuilderGBA
            map_worldmapevent_pointer = 0x0;  //マップ設定の開始位置(worldmap (FE6のみ))
            map_map_pointer_list_default_size = 0xEC;  //PLIST拡張をしていない時のバニラでのPLISTの数
            image_battle_animelist_pointer = U.FindROMPointer(rom, 0xC, new uint[] { 0x059BD8, 0x5A600, 0x5A694, 0x5A82C, 0x6F6A8, 0x70A60});    // 戦闘アニメリストの開始位置
-           support_unit_pointer = 0x803D90;    // 支援相手の開始位置
-           support_talk_pointer = 0x084784;    // 支援会話の開始位置
+           support_unit_pointer = 0xF0002C;    // Ist das der richtige Pointer?
+           support_talk_pointer = 0x084A9C;    // Ist das der richtige Pointer?
            unit_palette_color_pointer = 0x57394;   // ユニットのパレット(カラー)の開始位置
            unit_palette_class_pointer = 0x575B4;   // ユニットのパレット(クラス)の開始位置
            support_attribute_pointer = 0x28534;   //支援効果の開始位置
@@ -205,8 +205,8 @@ namespace FEBuilderGBA
            systemmenu_badstatus_old_image_pointer = 0;  //昔の圧縮のバッドステータス画像 FE7-FE6で 毒などのステータス
            systemmenu_badstatus_old_palette_pointer = 0x0;  //昔の圧縮のバッドステータス画像のパレット FE7 FE6
 
-           bigcg_pointer = 0xB65F0;  // CG
-           end_cg_address = 0x206C08;  // END CG FE8のみ
+           bigcg_pointer = 0x0B6F94;  // Ist das der richtige Pointer?
+           end_cg_address = 0x4125DC;  // Ist das der richtige Pointer?
            worldmap_big_image_pointer = 0xBA7FC;  //ワールドマップ フィールドになるでかい奴  
            worldmap_big_palette_pointer = 0xBA808;  //ワールドマップ フィールドになるでかい奴 パレット  
            worldmap_big_dpalette_pointer = 0xBF7B0;  //ワールドマップ フィールドになるでかい奴 闇パレット  
