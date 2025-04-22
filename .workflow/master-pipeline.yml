@@ -1,3 +1,4 @@
+
 version: '1.0'
 name: master-pipeline
 displayName: MasterPipeline
@@ -9,7 +10,6 @@ triggers:
         - master
 stages:
   - name: compile
-
     displayName: 编译
     strategy: naturally
     trigger: auto
@@ -18,18 +18,12 @@ stages:
         name: build_dotnet
         displayName: .NET Core 构建
         dotnetVersion: '6.0'
-
-
-
-
         commands:
           - '# input your command here'
           - dotnet restore
           - dotnet publish -c Release -r win-x86 --self-contained -o out
         artifacts:
-
           - name: BUILD_ARTIFACT
-
             path:
               - ./out
         caches:
@@ -40,9 +34,7 @@ stages:
       - step: publish@general_artifacts
         name: publish_general_artifacts
         displayName: 上传制品
-
         dependArtifact: BUILD_ARTIFACT
-
         artifactName: output
         strategy: {}
         dependsOn: build_dotnet
@@ -54,10 +46,7 @@ stages:
       - step: publish@release_artifacts
         name: publish_release_artifacts
         displayName: 发布
-
         dependArtifact: output
         version: 1.0.0.0
-
-
         autoIncrement: true
         strategy: {}
