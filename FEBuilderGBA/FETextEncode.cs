@@ -693,6 +693,7 @@ namespace FEBuilderGBA
                     g_RepalceSPCode.Add("サンダーストーム"); g_RepalceSPCode.Add("①②③④⑤⑥⑦");///No Translate
                     g_RepalceSPCode.Add("ファルコンナイト"); g_RepalceSPCode.Add("ⅠⅡⅢⅣⅤⅥⅦ");///No Translate
                     g_RepalceSPCode.Add("ドラゴンマスター"); g_RepalceSPCode.Add("⑪⑫⑬⑭⑮⑯⑰");///No Translate
+		    g_RepalceSPCode.Add("ﺭﺱぐﺑ"); g_RepalceSPCode.Add("せたﺭぐﺑ");///No Translate
                 }
             }
             else
