@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using System.Diagnostics;
-using SpeechLib; //for ver11
+using System.Speech.Synthesis;
 
 namespace FEBuilderGBA
 {
