@@ -1380,6 +1380,8 @@ namespace FEBuilderGBA
             //NAME	VER	enc	POINTER VALUE
             TBLTableSt[] table = new TBLTableSt[]{
                 new TBLTableSt{name = "FE6U" ,ver = 6,enc = 5,pointer = 0x60D010,data = new byte[]{0x82, 0xBD, 0x82 ,0xE6}},
+                new TBLTableSt{name = "FE6D" ,ver = 6,enc = 9,pointer = 0x60D014,data = new byte[]{0x82, 0xCA, 0x82 ,0xDC}},
+                new TBLTableSt{name = "FE6E" ,ver = 6,enc = 10,pointer = 0x60D014,data = new byte[]{0x82, 0xC4, 0x82 ,0xF1}},
                 new TBLTableSt{name = "FE6CN",ver = 6,enc = 4,pointer = 0x60D010,data = new byte[]{0x8C ,0xE2 ,0x85 ,0xE1}},
                 new TBLTableSt{name = "FE7CN",ver = 7,enc = 4,pointer = 0xC542F4,data = new byte[]{0x8D ,0xFC ,0x86 ,0x87}},
                 new TBLTableSt{name = "FE7CN",ver = 7,enc = 4,pointer = 0xC542F4,data = new byte[]{0x8D ,0xFB ,0x86 ,0x86}},
