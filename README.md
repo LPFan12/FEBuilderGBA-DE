@@ -13,7 +13,7 @@ Momentane Änderungen:
 
 -Für FE6 wurden zwei Zeichentabellen ergänzt, eine für den noch unfertigen LPFan-Deutschpatch und eine für den Emblemier-Deutschpatch(Beide beim Emblemier Discord-Server zu finden https://discord.gg/3xXQkPT). Für diese Deutschpatches muss die Text-Enkodierung in den Optionen jedes Mal neu eingestellt werden wenn die jeweilige ROM im Editor geladen wird(Eine automatische Erkennung ist auf absehbare Zeit nicht zu erwarten), Bilderhilfe kommt später an diese Stelle.
 
--Ein paar Klassen/Itemnamen wurden in den japanischen Spielversionen auf verwirrende Weise ersetzt. In einem Fall (beim Gorgonenei in FE8) führte dies bereits in der Vergangenheit zu einer großen Verwirrung in der englischsprachigen Community weil der ersetzte Name anders war als der tatsächliche im Spiel. Dies wurde korrigiert, damit diese Namen im Editor genauso angezeigt werden wie im Spiel auch.
+-Ein paar Klassen/Itemnamen wurden in den japanischen Spielversionen nicht akkurat ersetzt. In einem Fall (beim Gorgonenei in FE8) führte dies bereits in der Vergangenheit zu einer großen Verwirrung in der englischsprachigen Community weil der ersetzte Name anders war als der tatsächliche im Spiel. Dies wurde korrigiert, damit diese Namen im Editor genauso angezeigt werden wie im Spiel auch.
 
 -Anfängliche deutsche Übersetzung für das Programm selbst.
 
