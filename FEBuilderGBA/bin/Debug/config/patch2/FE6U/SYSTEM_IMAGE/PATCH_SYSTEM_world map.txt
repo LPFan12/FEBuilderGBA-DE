@@ -1,0 +1,17 @@
+
+NAME=世界地図
+
+//画像パッチとして実装します
+TYPE=IMAGE
+TAG=#IMAGE
+
+WIDTH=256
+HEIGHT=160
+PALETTE=1
+
+ZIMAGE_POINTER=0x07A4C0
+PALETTE_POINTER=0x07A4C4
+
+NAME.en=World map
+NAME.zh=世界地图
+NAME.de=Weltkarte
