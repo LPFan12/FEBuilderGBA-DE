@@ -1355,7 +1355,9 @@ namespace FEBuilderGBA
         {
             return new ROMBaseTableSt[]{
                 new ROMBaseTableSt{name = "FE6J" , ver = 6, lang = "ja" , header = "AFEJ01", romsize = 0x800000, crc32 = 0xd38763e1},
-                new ROMBaseTableSt{name = "FE6U" , ver = 6, lang = "en" , header = "AFEJ01", romsize = 0x1000000, crc32 =0x35F5B06B},
+                new ROMBaseTableSt{name = "FE6U" , ver = 6, lang = "en" , header = "AFEJ01", romsize = 0x1000000, crc32 = 0x35F5B06B},
+                new ROMBaseTableSt{name = "FE6D" , ver = 6, lang = "de" , header = "AFED01", romsize = 0x1000000, crc32 = 0x35F5B06B},
+                new ROMBaseTableSt{name = "FE6E" , ver = 6, lang = "fr" , header = "AFEJ01", romsize = 0x1000000, crc32 = 0x35F5B06B},
                 new ROMBaseTableSt{name = "FE6CN" , ver = 6, lang = "zh" , header = "AFEJ01", romsize = 0x800000, crc32 = 	0x1F19D989},
                 new ROMBaseTableSt{name = "FE7J" , ver = 7, lang = "ja" , header = "AE7J01", romsize = 0x1000000, crc32 = 	0xf0c10e72},
                 new ROMBaseTableSt{name = "FE7U" , ver = 7, lang = "en" , header = "AE7E01", romsize = 0x1000000, crc32 = 	0x2a524221},
