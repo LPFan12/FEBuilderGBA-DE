@@ -27,7 +27,7 @@ namespace FEBuilderGBA
            class_pointer = 0x017D7C;  // Ist das der richtige Pointer? Etwas ist seltsam hier.
            class_datasize = 84;   // ユニットのデータサイズ
            bg_pointer = U.FindROMPointer(rom, 0x8, new uint[] { 0x00E894, 0x00ECF4, 0x00EDF8, 0x0010E44});  //BGベースアドレス
-           portrait_pointer = 0x5514;  //顔ベースアドレス
+           portrait_pointer = 0x5514;  //Ist das der richtige Pointer?
            portrait_datasize = 28; 
            icon_pointer = 0x367C;  // Ist das der richtige Pointer?
            icon_orignal_address = 0x5926F4;  // アイコンの初期値
