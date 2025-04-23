@@ -34,18 +34,18 @@ namespace FEBuilderGBA
            icon_orignal_max = 0xDF;  // アイコンの最大数
 
            icon_palette_pointer = 0x3598;  // Ist das der richtige Pointer?
-           unit_wait_icon_pointer = U.FindROMPointer(rom, 0x4, new uint[] { 0x026730, 0x267B0, 0x26838, 0x26C88, 0x28064, 0x27F74});  // ユニット待機アイコンの開始位置
+           unit_wait_icon_pointer = 0x026A70;  // Ist das der richtige Pointer? Etwas ist seltsam hier.
            unit_wait_barista_anime_address = 0x272D8;   // ユニット待機アイコンのバリスタのアニメ指定アドレス
            unit_wait_barista_id = 0x5b;   // ユニット待機アイコンのバリスタの位置
-           unit_icon_palette_address = 0x59EE20;  // ユニット(自軍)のパレットのアドレス
-           unit_icon_enemey_palette_address = 0x59EE40;  // ユニット(敵軍)のパレットのアドレス
-           unit_icon_npc_palette_address = 0x59EE60;  // ユニット(友軍)のパレットのアドレス
-           unit_icon_gray_palette_address = 0x59EE80;  // ユニット(グレー)のパレットのアドレス
-           unit_icon_four_palette_address = 0x59EEA0;  // ユニット(4軍))のパレットの開始位置
-           unit_icon_lightrune_palette_address = 0x59EEC0;  // ユニット(光の結界)のパレットの開始位置
-           unit_icon_sepia_palette_address = 0x59EEE0;  // ユニット(セピア)のパレットの開始位置
+           unit_icon_palette_address = 0x7B13E4;  // Ist das die richtige Addresse?
+           unit_icon_enemey_palette_address = 0x7B1404;  // Ist das die richtige Addresse?
+           unit_icon_npc_palette_address = 0x7B1424;  // Ist das die richtige Addresse?
+           unit_icon_gray_palette_address = 0x7B1444;  // Ist das die richtige Addresse?
+           unit_icon_four_palette_address = 0x7B1464;  // Ist das die richtige Addresse?
+           unit_icon_lightrune_palette_address = 0x7B1484;  // Ist das die richtige Addresse?
+           unit_icon_sepia_palette_address = 0x7B14A4;  // Ist das die richtige Addresse?
 
-           unit_move_icon_pointer = U.FindROMPointer(rom, 0x4, new uint[] { 0x079584, 0x79598, 0xBAC2C, 0xBAC40});  // ユニット移動アイコンの開始位置
+           unit_move_icon_pointer = 0x07980C;  // Ist das der richtige Pointer? Etwas ist seltsam hier.
            lightrune_uniticon_id = 0x66;  // ユニット(光の結界)のユニットアイコンのID
            map_setting_pointer = 0x0B693C;   // Ist das der richtige Pointer? Etwas ist seltsam hier.
            map_setting_datasize = 148;  //マップ設定のデータサイズ
