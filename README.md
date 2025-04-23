@@ -3,7 +3,7 @@ README(Unfertig)
 
 [![MSBuild](https://github.com/LPFan12/FEBuilderGBA-DE/actions/workflows/msbuild.yml/badge.svg)](https://github.com/LPFan12/FEBuilderGBA-DE/actions/workflows/msbuild.yml)
 
-Diese Version von FEBuilderGBA wird speziell für die deutsche Fire Emblem-Community erweitert, aber ich hoffe darauf zu achten, dass sie auch für andere Sprachen verwendbar bleibt. Sie basiert auf der Version bei (https://github.com/laqieer/FEBuilderGBA).
+Diese Version von FEBuilderGBA wird speziell für die deutsche Fire Emblem-Community erweitert, aber ich hoffe darauf zu achten, dass sie auch für andere Sprachen verwendbar und hilfreich ist. Sie basiert auf der Version bei (https://github.com/laqieer/FEBuilderGBA).
 
 Unsere Änderungen und Pläne
 ===
@@ -11,13 +11,15 @@ Unsere Änderungen und Pläne
 
 Momentane Änderungen:
 
--Für FE6 wurden zwei Zeichentabellen ergänzt, eine für den noch unfertigen LPFan-Deutschpatch und eine für den Emblemier-Deutschpatch(Beide beim Emblemier Discord-Server zu finden https://discord.gg/3xXQkPT). Für diese Deutschpatches muss die Text-Enkodierung in den Optionen jedes Mal neu eingestellt werden wenn die jeweilige ROM im Editor geladen wird(Eine automatische Erkennung ist auf absehbare Zeit nicht zu erwarten), Bilderhilfe kommt später an diese Stelle.
+-Für FE6 wurden zwei Zeichentabellen ergänzt, eine für den noch unfertigen LPFan-Deutschpatch und eine für den Emblemier-Deutschpatch(Beide beim Emblemier Discord-Server zu finden https://discord.gg/3xXQkPT).
 
 -Ein paar Klassen/Itemnamen wurden in den japanischen Spielversionen nicht akkurat ersetzt. In einem Fall (beim Gorgonenei in FE8) führte dies bereits in der Vergangenheit zu einer großen Verwirrung in der englischsprachigen Community weil der ersetzte Name anders war als der tatsächliche im Spiel. Dies wurde korrigiert, damit diese Namen im Editor genauso angezeigt werden wie im Spiel auch.
 
 -Anfängliche deutsche Übersetzung für das Programm selbst.
 
 -Verbesserungen und Anpassungen für bestimmte Systemtexte und Patches. Achtung für Kompabilität: Alle gefundenen veralteten Patches wurden entfernt weil es sich über die Jahre anstaute (Das Projekt schrumpfte von über 24 auf etwa 15 Megabyte nach der Entfernung). Es wird empfohlen solche Patches entweder zu aktualisieren oder zu entfernen bevor diese Version von FEBuilderGBA verwendet wird.
+
+-Eine WiP(Nicht für die Nutzung stabil und deshalb gibt es momentan noch keine Auto-Erkennung) Zeichentabelle für die arabische Fanübersetzung von FE6.
 
 -Anfängliche Unterstützung hinzugefügt für:
 
