@@ -15,7 +15,7 @@ namespace FEBuilderGBA
            TitleToFilename = "FE8"; 
            mask_point_base_pointer = 0x0006DC;  // Huffman tree end (indirected twice)
            mask_pointer = 0x0006E0;   // Huffman tree start (indirected once)
-           text_pointer = 0x00A2A0;  // textの開始位置
+           text_pointer = 0xA3A3;  // test
            text_recover_address = 0x15D48C;  // textの開始位置(上記ポインタを壊している改造があるののでその対策)
            text_data_start_address = 0xE8414;  //textデータの規定値の開始位置
            text_data_end_address = 0x15AB80;  // textデータの規定値の開始位置
@@ -26,7 +26,7 @@ namespace FEBuilderGBA
            max_luck_address = 0x2c016;  // 最大レベルの幸運の値を格納しているアドレス
            class_pointer = 0x017D7C;  // Ist das der richtige Pointer? Etwas ist seltsam hier.
            class_datasize = 84;   // ユニットのデータサイズ
-           bg_pointer = U.FindROMPointer(rom, 0x8, new uint[] { 0x00E894, 0x00ECF4, 0x00EDF8, 0x0010E44});  //BGベースアドレス
+           bg_pointer = 0xE8A0;  //Ist das der richtige Pointer? Etwas ist seltsam hier.
            portrait_pointer = 0x5514;  //Ist das der richtige Pointer?
            portrait_datasize = 28; 
            icon_pointer = 0x367C;  // Ist das der richtige Pointer?
@@ -105,8 +105,8 @@ namespace FEBuilderGBA
            worldmap_point_pointer = 0xBE84;  // ワールドマップ拠点の開始位置
            worldmap_bgm_pointer = 0xB9F94;  // ワールドマップのBGMテーブルの開始位置
            worldmap_icon_data_pointer = 0xBB674;  // ワールドマップのアイコンデータのテーブルの開始位置
-           worldmap_event_on_stageclear_pointer = 0xBA3D0;  // ワールドマップイベント 拠点クリア時
-           worldmap_event_on_stageselect_pointer = 0xBA41C;  // ワールドマップイベント 拠点選択時
+           worldmap_event_on_stageclear_pointer = 0x0BAD4C;  // Ist das der richtige Pointer?
+           worldmap_event_on_stageselect_pointer = 0x0BAD98;  // Ist das der richtige Pointer?
            worldmap_county_border_pointer = 0xC2B74;  // ワールドマップ国名の表示
            worldmap_county_border_palette_pointer = 0xC27A4;  // ワールドマップ国名の表示のパレット
            item_shop_hensei_pointer = 0x09A430;  //Ist das der richtige Pointer?
