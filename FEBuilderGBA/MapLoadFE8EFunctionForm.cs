@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace FEBuilderGBA
 {
-    public partial class MapLoadFunctionForm : Form
+    public partial class MapLoadFE8EFunctionForm : Form
     {
-        public MapLoadFunctionForm()
+        public MapLoadFE8EFunctionForm()
         {
             InitializeComponent();
             //FE8のみ
@@ -44,7 +44,7 @@ namespace FEBuilderGBA
 
             ReInit(this.InputFormRef);
         }
-        private void MapLoadFunctionForm_Load(object sender, EventArgs e)
+        private void MapLoadFE8EFunctionForm_Load(object sender, EventArgs e)
         {
             bool enable = PatchUtil.IsSwitch1Enable(Program.ROM.RomInfo.map_load_function_switch1_address);
             if (!enable)
