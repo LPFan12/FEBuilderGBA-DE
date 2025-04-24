@@ -30,11 +30,11 @@ namespace FEBuilderGBA
             {
                 //{0}=ワールドマップ以外からでも入れる
                 string a = MyTranslateResource.str((string)L_0_COMBO.Items[0]);
-                L_0_COMBO.Items[0] = a.Replace("{0}", U.ToHexString(0x80BD1E4));
+                L_0_COMBO.Items[0] = a.Replace("{0}", U.ToHexString(0x80BDAD8));
 
                 //{1}=必ずワールドマップから移動する必要がある
                 a = MyTranslateResource.str((string)L_0_COMBO.Items[1]);
-                L_0_COMBO.Items[1] = a.Replace("{0}", U.ToHexString(0x80BD1A8));
+                L_0_COMBO.Items[1] = a.Replace("{0}", U.ToHexString(0x80BDA9C));
             }
             L_0_COMBO.EndUpdate();
 
@@ -160,7 +160,7 @@ namespace FEBuilderGBA
             }
             else
             {
-                return p != 0x80BD1A8;
+                return p != 0x80BDA9C;
             }
         }
 
