@@ -22,8 +22,8 @@ namespace FEBuilderGBA
            unit_pointer = 0x010074;  // Ist das der richtige Pointer? Etwas ist seltsam hier.
            unit_maxcount = 255;  // ユニットの最大数
            unit_datasize = 52;  // ユニットのデータサイズ
-           max_level_address = 0x02BA78;  // 最大レベルの値を格納しているアドレス
-           max_luck_address = 0x2c016;  // 最大レベルの幸運の値を格納しているアドレス
+           max_level_address = 0x02BDC8;  // Ist das die richtige Addresse?
+           max_luck_address = 0x02C366;  // Ist das die richtige Addresse?
            class_pointer = 0x017D7C;  // Ist das der richtige Pointer? Etwas ist seltsam hier.
            class_datasize = 84;   // ユニットのデータサイズ
            bg_pointer = 0xE8A0;  //Ist das der richtige Pointer? Etwas ist seltsam hier.
@@ -35,7 +35,7 @@ namespace FEBuilderGBA
 
            icon_palette_pointer = 0x3598;  // Ist das der richtige Pointer?
            unit_wait_icon_pointer = 0x026A70;  // Ist das der richtige Pointer? Etwas ist seltsam hier.
-           unit_wait_barista_anime_address = 0x272D8;   // ユニット待機アイコンのバリスタのアニメ指定アドレス
+           unit_wait_barista_anime_address = 0x027618;   // Ist das der richtige Pointer?
            unit_wait_barista_id = 0x5b;   // ユニット待機アイコンのバリスタの位置
            unit_icon_palette_address = 0x7B13E4;  // Ist das die richtige Addresse?
            unit_icon_enemey_palette_address = 0x7B1404;  // Ist das die richtige Addresse?
@@ -178,27 +178,27 @@ namespace FEBuilderGBA
            status_rmenu3_pointer = 0x088D90;  // Ist das der richtige Pointer?
            status_rmenu4_pointer = 0x0377FC;  // Ist das der richtige Pointer?
            status_rmenu5_pointer = 0x037810;  // Ist das der richtige Pointer?
-           status_rmenu6_pointer = 0xA01CE0;  // 状況画面 RMENU6
-           status_param1_pointer = 0x871BC;  // ステータス PARAM1
-           status_param2_pointer = 0x874F0;  // ステータス PARAM2
+           status_rmenu6_pointer = 0xA912C4;  // Ist das der richtige Pointer?
+           status_param1_pointer = 0x08752C;  // Ist das der richtige Pointer?
+           status_param2_pointer = 0x087860;  // Ist das der richtige Pointer?
            status_param3w_pointer = 0x0;  // ステータス PARAM3 武器 海外版には"剣"みたいな武器の属性表示がありません
            status_param3m_pointer = 0x0;  // ステータス PARAM3 魔法
-           systemmenu_common_image_pointer = 0x5B6470;  //システムメニューの画像
-           systemmenu_common_palette_pointer = 0x036D2C;  //システムパレット 無圧縮4パレット
-           systemmenu_goal_tsa_pointer = 0x08D280;  //システムメニュー 目的表示TSA
-           systemmenu_terrain_tsa_pointer = 0x08CB30;  //システムメニュー 地形表示TSA
+           systemmenu_common_image_pointer = 0x7D8CE4;  //Ist das der richtige Pointer?
+           systemmenu_common_palette_pointer = 0x0370EC;  //Ist das der richtige Pointer?
+           systemmenu_goal_tsa_pointer = 0x08D6C0;  //Ist das der richtige Pointer?
+           systemmenu_terrain_tsa_pointer = 0x08CF64;  //Ist das der richtige Pointer?
 
-           systemmenu_name_image_pointer = 0x5B6470;  //システムメニュー 名前表示画像(FE8は共通画像)
-           systemmenu_name_tsa_pointer = 0x08C70C;  //システムメニュー 名前表示TSA
-           systemmenu_name_palette_pointer = 0x036D2C;  //システムメニュー 名前表示パレット
+           systemmenu_name_image_pointer = 0x7D8CE4;  //Ist das der richtige Pointer?
+           systemmenu_name_tsa_pointer = 0x08CB40;  //Ist das der richtige Pointer?
+           systemmenu_name_palette_pointer = 0x0370EC;  //Ist das der richtige Pointer?
 
            systemmenu_battlepreview_image_pointer = 0x7D8CE4;  //Ist das der richtige Pointer?
            systemmenu_battlepreview_tsa_pointer = 0x036C60;  //Ist das der richtige Pointer?
            systemmenu_battlepreview_palette_pointer = 0x0370EC;  //Ist das der richtige Pointer?
 
-           systemarea_move_gradation_palette_pointer = 0x01DA54;  //行動範囲
-           systemarea_attack_gradation_palette_pointer = 0x01DA58;  //攻撃範囲
-           systemarea_staff_gradation_palette_pointer = 0x01DA5C;  //杖の範囲
+           systemarea_move_gradation_palette_pointer = 0x01DD10;  //Ist das der richtige Pointer?
+           systemarea_attack_gradation_palette_pointer = 0x01DD14;  //Ist das der richtige Pointer?
+           systemarea_staff_gradation_palette_pointer = 0x01DD18;  //Ist das der richtige Pointer?
 
            systemmenu_badstatus_image_pointer = 0x08C888;  //の
            systemmenu_badstatus_palette_pointer = 0x089C80;  //Ist das der richtige Pointer?
@@ -207,16 +207,16 @@ namespace FEBuilderGBA
 
            bigcg_pointer = 0x0B6F94;  // Ist das der richtige Pointer?
            end_cg_address = 0x4125DC;  // Ist das der richtige Pointer?
-           worldmap_big_image_pointer = 0xBA7FC;  //ワールドマップ フィールドになるでかい奴  
-           worldmap_big_palette_pointer = 0xBA808;  //ワールドマップ フィールドになるでかい奴 パレット  
-           worldmap_big_dpalette_pointer = 0xBF7B0;  //ワールドマップ フィールドになるでかい奴 闇パレット  
-           worldmap_big_palettemap_pointer = 0xBA800;  //ワールドマップ フィールドになるでかい奴 パレットマップ
-           worldmap_event_image_pointer = 0xC2044;  //ワールドマップ イベント用 
-           worldmap_event_palette_pointer = 0xC2048;  //ワールドマップ イベント用 パレット  
-           worldmap_event_tsa_pointer = 0xC204C;  //ワールドマップ イベント用 TSA
-           worldmap_mini_image_pointer = 0xc3e6c;  //ワールドマップ ミニマップ 
-           worldmap_mini_palette_pointer = 0xC3E74;  //ワールドマップ ミニマップ パレット  
-           worldmap_icon_palette_pointer = 0xB8E48;  //ワールドアイコンと道パレット
+           worldmap_big_image_pointer = 0x0BB17C;  //Ist das der richtige Pointer?
+           worldmap_big_palette_pointer = 0x0BB188;  //Ist das der richtige Pointer? 
+           worldmap_big_dpalette_pointer = 0x0C0084;  //Ist das der richtige Pointer? 
+           worldmap_big_palettemap_pointer = 0x0BB180;  //Ist das der richtige Pointer? 
+           worldmap_event_image_pointer = 0x0C2924;  //Ist das der richtige Pointer? 
+           worldmap_event_palette_pointer = 0x0C2928;  //Ist das der richtige Pointer?   
+           worldmap_event_tsa_pointer = 0x0C292C;  //Ist das der richtige Pointer?
+           worldmap_mini_image_pointer = 0x0C4760;  //Ist das der richtige Pointer?
+           worldmap_mini_palette_pointer = 0xC3E74;  //Ist das der richtige Pointer?
+           worldmap_icon_palette_pointer = 0xC4768;  //Ist das der richtige Pointer?
            worldmap_icon1_pointer = 0xB8E4C;  //ワールドマップ アイコン1
            worldmap_icon2_pointer = 0xB8E54;  //ワールドマップ アイコン2
            worldmap_road_tile_pointer = 0xB8F98;  //ワールドマップ  道チップ
