@@ -15,7 +15,7 @@ namespace FEBuilderGBA
            TitleToFilename = "FE8"; 
            mask_point_base_pointer = 0x0006DC;  // Huffman tree end (indirected twice)
            mask_pointer = 0x0006E0;   // Huffman tree start (indirected once)
-           text_pointer = 0xA3A3;  // test
+           text_pointer = 0xA3A3;  // の
            text_recover_address = 0x15D48C;  // textの開始位置(上記ポインタを壊している改造があるののでその対策)
            text_data_start_address = 0xE8414;  //textデータの規定値の開始位置
            text_data_end_address = 0x15AB80;  // textデータの規定値の開始位置
@@ -77,7 +77,7 @@ namespace FEBuilderGBA
            ccbranch2_pointer = 0x0CD11C;  // Ist das der richtige Pointer?
            class_alphaname_pointer = 0x0;  //英語版ではクラスの文字ID TEXTが、そのまま使われるらしいので不要
            map_terrain_name_pointer = 0x01A518;  //Ist das der richtige Pointer?
-           image_chapter_title_pointer = 0x089A00;  //Ist das der richtige Pointer?
+           image_chapter_title_pointer = 0x089A00;  //の
            image_chapter_title_palette = 0x7CE4A8;  // Ist das die richtige Addresse?
            image_unit_palette_pointer = 0x059E20;  // Ist das der richtige Pointer?
            item_pointer = 0x017A84;  // Ist das der richtige Pointer? Etwas ist seltsam hier.
@@ -105,8 +105,8 @@ namespace FEBuilderGBA
            worldmap_point_pointer = 0xBF0C;  // Ist das der richtige Pointer?
            worldmap_bgm_pointer = 0x0BA910;  // Ist das der richtige Pointer?
            worldmap_icon_data_pointer = 0x0BBF88;  // Ist das der richtige Pointer?
-           worldmap_event_on_stageclear_pointer = 0x0BAD4C;  // Ist das der richtige Pointer?
-           worldmap_event_on_stageselect_pointer = 0x0BAD98;  // Ist das der richtige Pointer?
+           worldmap_event_on_stageclear_pointer = 0x04C;  // Ist das der richtige Pointer?
+           worldmap_event_on_stageselect_pointer = 0x098;  // Ist das der richtige Pointer?
            worldmap_county_border_pointer = 0x0C3460;  // Ist das der richtige Pointer?
            worldmap_county_border_palette_pointer = 0x0C3084;  // Ist das der richtige Pointer?
            item_shop_hensei_pointer = 0x09A430;  //Ist das der richtige Pointer?
@@ -149,7 +149,7 @@ namespace FEBuilderGBA
            status_font_count = 0x100;   //ステータス画面用のフォントの数(英語版と日本語で数が違う)
            ed_staffroll_image_pointer = 0x4127F8;  // Ist das der richtige Pointer?
            ed_staffroll_palette_pointer = 0x0C4EB8;  // Ist das der richtige Pointer?
-           op_prologue_image_pointer = 0x0C55C4;  //Ist das der richtige Pointer?
+           op_prologue_image_pointer = 0x0C55C4;  //の
            op_prologue_palette_color_pointer = 0x0C4EB8;  // Ist das der richtige Pointer?
 
            arena_class_near_weapon_pointer = 0x31D08;  //Ist das der richtige Pointer?
@@ -165,19 +165,19 @@ namespace FEBuilderGBA
            menu_promotion_pointer = 0x0CE58C;  //Ist das der richtige Pointer?
            menu_promotion_branch_pointer = 0x0CE748;  //Ist das der richtige Pointer?
            menu_definiton_split_pointer = 0x086840;   //Ist das der richtige Pointer?
-           menu_definiton_worldmap_pointer = 0xBC488;  //FE8のワールドマップのメニュー
-           menu_definiton_worldmap_shop_pointer = 0xBC5EC;  //FE8のワールドマップ店のメニュー        
-           menu_unit_pointer =  0x59D1F8;  // ユニットメニュー
-           menu_game_pointer =  0x59D21C;  // ゲームメニュー
-           menu_debug1_pointer = 0x59CFB8;   // デバッグメニュー
-           menu_item_pointer = 0x59D120;   // アイテム利用メニュー
-           MenuCommand_UsabilityAlways = 0x04F448;  //メニューを開くという値を返す関数のアドレス
-           MenuCommand_UsabilityNever = 0x04F450;  //メニューを開かないという値を返す関数のアドレス       
-           status_rmenu_unit_pointer = 0x889D8;  // ステータス RMENU1
-           status_rmenu_game_pointer = 0x889E0;  // ステータス RMENU2
-           status_rmenu3_pointer = 0x889F8;  // ステータス RMENU3
-           status_rmenu4_pointer = 0x37450;  // 戦闘予測 RMENU4
-           status_rmenu5_pointer = 0x37468;  // 戦闘予測 RMENU5
+           menu_definiton_worldmap_pointer = 0x0BCDB0;  //Ist das der richtige Pointer?
+           menu_definiton_worldmap_shop_pointer = 0x0BCDB0;  //Ist das der richtige Pointer?    
+           menu_unit_pointer =  0x7AE528;  // Ist das der richtige Pointer?  
+           menu_game_pointer =  0x7AE54C;  // Ist das der richtige Pointer?
+           menu_debug1_pointer = 0x7AE2E8;   // Ist das der richtige Pointer?
+           menu_item_pointer = 0x7AE450;   // Ist das der richtige Pointer?
+           MenuCommand_UsabilityAlways = 0x04F728;  //Ist das die richtige Addresse?
+           MenuCommand_UsabilityNever = 0x04F730;  //Ist das die richtige Addresse?   
+           status_rmenu_unit_pointer = 0x088D70;  // Ist das der richtige Pointer?
+           status_rmenu_game_pointer = 0x088D78;  // Ist das der richtige Pointer?
+           status_rmenu3_pointer = 0x088D90;  // Ist das der richtige Pointer?
+           status_rmenu4_pointer = 0x0377FC;  // Ist das der richtige Pointer?
+           status_rmenu5_pointer = 0x037810;  // Ist das der richtige Pointer?
            status_rmenu6_pointer = 0xA01CE0;  // 状況画面 RMENU6
            status_param1_pointer = 0x871BC;  // ステータス PARAM1
            status_param2_pointer = 0x874F0;  // ステータス PARAM2
@@ -200,7 +200,7 @@ namespace FEBuilderGBA
            systemarea_attack_gradation_palette_pointer = 0x01DA58;  //攻撃範囲
            systemarea_staff_gradation_palette_pointer = 0x01DA5C;  //杖の範囲
 
-           systemmenu_badstatus_image_pointer = 0x08C888;  //Ist das der richtige Pointer?
+           systemmenu_badstatus_image_pointer = 0x08C888;  //の
            systemmenu_badstatus_palette_pointer = 0x089C80;  //Ist das der richtige Pointer?
            systemmenu_badstatus_old_image_pointer = 0;  //昔の圧縮のバッドステータス画像 FE7-FE6で 毒などのステータス
            systemmenu_badstatus_old_palette_pointer = 0x0;  //昔の圧縮のバッドステータス画像のパレット FE7 FE6
