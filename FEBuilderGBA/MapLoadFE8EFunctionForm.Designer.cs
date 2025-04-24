@@ -1,6 +1,6 @@
 ﻿namespace FEBuilderGBA
 {
-    partial class MapLoadFunctionForm
+    partial class MapLoadFE8EFunctionForm
     {
         /// <summary>
         /// Required designer variable.
@@ -350,7 +350,7 @@
             this.panel3.Size = new System.Drawing.Size(1155, 30);
             this.panel3.TabIndex = 93;
             // 
-            // MapLoadFunctionForm
+            // MapLoadFE8EFunctionForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
@@ -361,9 +361,9 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel3);
             this.Margin = new System.Windows.Forms.Padding(2);
-            this.Name = "MapLoadFunctionForm";
+            this.Name = "MapLoadFE8EFunctionForm";
             this.Text = "マップ読込時処理";
-            this.Load += new System.EventHandler(this.MapLoadFunctionForm_Load);
+            this.Load += new System.EventHandler(this.MapLoadFE8EFunctionForm_Load);
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Address)).EndInit();
