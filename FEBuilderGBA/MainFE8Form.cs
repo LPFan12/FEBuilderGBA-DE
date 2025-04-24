@@ -812,7 +812,14 @@ namespace FEBuilderGBA
 
         private void MapLoadFunction_Click(object sender, EventArgs e)
         {
-            InputFormRef.JumpForm<MapLoadFunctionForm>();
+        if (Program.ROM.RomInfo.VersionToFilename == "FE8E")
+            {
+                InputFormRef.JumpForm<MapLoadFE8EFunctionForm>();
+            }
+        else
+            {
+                InputFormRef.JumpForm<MapLoadFunctionForm>();
+            }
         }
 
         private void ArenaEnemyWeaponButton_Click(object sender, EventArgs e)
