@@ -125,7 +125,7 @@ namespace FEBuilderGBA
             cc_fallen_contract_itemid = 0x96;  //CCアイテム ダミー8A(FE7では覇者の証)
             cc_master_seal_itemid = 0x87;  //CCアイテム マスタープルフ
             cc_ocean_seal_itemid = 0x8B;  //CCアイテム 覇者の証(FE7では闇の契約書 なぜか逆になっている)
-            cc_moon_bracelet_itemid = 0x87;  //CCアイテム 月の腕輪
+            cc_moon_bracelet_itemid = 0x89;  //CCアイテム 月の腕輪
             cc_sun_bracelet_itemid = 0x89;  //CCアイテム 太陽の腕輪
 
             cc_item_hero_crest_pointer = 0x27500;  //CCアイテム 英雄の証
