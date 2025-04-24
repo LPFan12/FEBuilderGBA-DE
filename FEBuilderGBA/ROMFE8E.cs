@@ -421,13 +421,13 @@ namespace FEBuilderGBA
            status_game_option_pointer = 0x0B2118;  //Ist das der richtige Pointer?
            status_game_option_order_pointer = 0x0B2038;  //Ist das der richtige Pointer?
            status_game_option_order2_pointer = 0x0;  //ゲームオプションの並び順2 FE7のみ
-           status_game_option_order_count_address = 0x0B2372;  Ist das die richtige Addresse?
+           status_game_option_order_count_address = 0x0B2372;  //Ist das die richtige Addresse?
            status_units_menu_pointer = 0x0927F8;  //Ist das der richtige Pointer?
            tactician_affinity_pointer = 0x0;  //軍師属性(FE7のみ)
            event_final_serif_pointer = 0x0;  //終章セリフ(FE7のみ)
            compress_image_borderline_address = 0x0DBD48;  //Ist das die richtige Addresse?
 
-           builddate_address = 0x0D8090; 
+           builddate_address = 0x0D8090; //Datum der Kompilierung.
 
            Default_event_script_term_code = new byte[] { 0x28, 0x02, 0x07, 0x00, 0x20, 0x01, 0x00, 0x00 };  //イベント命令を終了させるディフォルトコード
            Default_event_script_toplevel_code = new byte[] { 0x28, 0x02, 0x07, 0x00, 0x20, 0x01, 0x00, 0x00 };  //イベント命令を終了させるディフォルトコード
