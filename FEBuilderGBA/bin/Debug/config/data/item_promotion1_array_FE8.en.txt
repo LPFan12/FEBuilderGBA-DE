@@ -10,6 +10,7 @@
 0802936C=Lunar Brace	{J}
 08029374=Solar Brace	{J}
 08029384=Dummy	{J}
+
 080293EA=-	{U}
 08029394=Hero Crest	{U}
 0802939C=Knight Crest	{U}
@@ -22,3 +23,16 @@
 080293C4=Lunar Brace	{U}
 080293CC=Solar Brace	{U}
 080293DC=Dummy	{U}
+
+08029732=-	{E}
+080296DC=Hero Crest	{E}
+080296E4=Knight Crest	{E}
+080296EC=Orion's Bolt	{E}
+080296F4=Elysian Whip	{E}
+080296FC=Guiding Ring	{E}
+08029704=Master Seal	{E}
+0802971C=Dummy	{E}
+08029730=Ocean Seal	{E}
+0802970C=Lunar Brace	{E}
+08029714=Solar Brace	{E}
+08029724=Dummy	{E}
