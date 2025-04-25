@@ -101,7 +101,7 @@ namespace FEBuilderGBA
            sound_foot_steps_pointer = 0x07905C;  //Ist das der richtige Pointer?
            sound_foot_steps_switch2_address = 0x07904A; //Ist das die richtige Addresse?
            sound_foot_steps_data_pointer = 0x0792B4;    //Ist das der richtige Pointer?
-           worldmap_scroll_somata_pointer = 0x0BFC; //Ist das der richtige Pointer?
+           worldmap_scroll_somedata_pointer = 0x0BFC; //Ist das der richtige Pointer?
            worldmap_point_pointer = 0xBF0C;  // Ist das der richtige Pointer?
            worldmap_bgm_pointer = 0x0BA910;  // Ist das der richtige Pointer?
            worldmap_icon_data_pointer = 0x0BBF88;  // Ist das der richtige Pointer?
@@ -110,7 +110,7 @@ namespace FEBuilderGBA
            worldmap_county_border_pointer = 0x0C3460;  // Das benötigt mehr Nachforschung.
            worldmap_county_border_palette_pointer = 0x0C3084;  // Ist das der richtige Pointer?
            item_shop_hensei_pointer = 0x09A430;  //Ist das der richtige Pointer?
-           item_corner_pointer = 0x02CB1C;  //Ist das der richtige Pointer?
+           item_cornered_pointer = 0x02CB1C;  //Ist das der richtige Pointer?
            ed_1_pointer = 0x9F20;   //Ist das der richtige Pointer?
            ed_2_pointer = 0x9F38;   //Ist das der richtige Pointer?
            ed_3a_pointer = 0x010BE2CC;   //Ist das der richtige Pointer?
