@@ -84,7 +84,7 @@ namespace FEBuilderGBA
            item_datasize = 36;  // アイテムのデータサイズ
            item_effect_pointer = 0x058290;  // Ist das der richtige Pointer?
            sound_table_pointer = 0x2888;  // Ist das der richtige Pointer?
-           sound_room_pointer = 0x01B4;  //Ist das der richtige Pointer?
+           sound_room_pointer = 0x01BED4;  //Ist das der richtige Pointer?
            sound_room_datasize = 16;  // サウンドルームのデータサイズ
            sound_room_cg_pointer = 0x0;  // サウンドルームの背景リスト(FE7のみ)
            event_ballte_talk_pointer = 0x0849C4;  //Ist das der richtige Pointer?
@@ -101,7 +101,7 @@ namespace FEBuilderGBA
            sound_foot_steps_pointer = 0x07905C;  //Ist das der richtige Pointer?
            sound_foot_steps_switch2_address = 0x07904A; //Ist das die richtige Addresse?
            sound_foot_steps_data_pointer = 0x0792B4;    //Ist das der richtige Pointer?
-           worldmap_scroll_somedata_pointer = 0x0BFC; //Ist das der richtige Pointer?
+           worldmap_scroll_somedata_pointer = 0x0BEDFC; //Ist das der richtige Pointer?
            worldmap_point_pointer = 0xBF0C;  // Ist das der richtige Pointer?
            worldmap_bgm_pointer = 0x0BA910;  // Ist das der richtige Pointer?
            worldmap_icon_data_pointer = 0x0BBF88;  // Ist das der richtige Pointer?
@@ -111,8 +111,8 @@ namespace FEBuilderGBA
            worldmap_county_border_palette_pointer = 0x0C3084;  // Ist das der richtige Pointer?
            item_shop_hensei_pointer = 0x09A430;  //Ist das der richtige Pointer?
            item_cornered_pointer = 0x02CB1C;  //Ist das der richtige Pointer?
-           ed_1_pointer = 0x9F20;   //Ist das der richtige Pointer?
-           ed_2_pointer = 0x9F38;   //Ist das der richtige Pointer?
+           ed_1_pointer = 0x0B70F0;   //Ist das der richtige Pointer?
+           ed_2_pointer = 0x0B70CC;   //Ist das der richtige Pointer?
            ed_3a_pointer = 0x010BE2CC;   //Ist das der richtige Pointer?
            ed_3b_pointer = 0x010BE2D0;   //Ist das der richtige Pointer?
            ed_3c_pointer = 0x0;   //ED その後 FE7 リン編
@@ -262,8 +262,8 @@ namespace FEBuilderGBA
            eventcond_tern_size = 12;  //イベント条件 ターン条件のサイズ FE7->16 FE8->12
            eventcond_talk_size = 16;  //イベント条件 話す会話条件のサイズ FE6->12 FE7->16 FE8->16
            oping_event_pointer = 0xFAFC8C; //Ist das der richtige Pointer?
-           ending1_event_pointer = 0xBE34; //Ist das der richtige Pointer?
-           ending2_event_pointer = 0xBE4C; //Ist das der richtige Pointer?
+           ending1_event_pointer = 0x9F20; //Ist das der richtige Pointer?
+           ending2_event_pointer = 0x9F38; //Ist das der richtige Pointer?
            RAMSlotTable_address = 0x7AB8B0; //Ist das der richtige Pointer?
            supply_pointer_address = 0x0318E0;   //Ist das der richtige Pointer?
            workmemory_player_units_address = 0x0202BE4C;     //ワークメモリ PLAYER UNIT
