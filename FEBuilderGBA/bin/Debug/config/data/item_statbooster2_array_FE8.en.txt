@@ -3,8 +3,15 @@
 0802A0DA=Promotion Items	{U}
 0802A0E4=Metis's Tome	{U}
 0802A0F4=Juna Fruit	{U}
+
 0802A08C=-	{J}
 0802A05C=Stat Booster	{J}
 0802A066=Promotion Items	{J}
 0802A070=Metis's Tome	{J}
 0802A080=Juna Fruit	{J}
+
+0802A440=-	{E}
+0802A410=Stat Booster	{E}
+0802A41A=Promotion Items	{E}
+0802A424=Metis's Tome	{E}
+0802A0F4=Juna Fruit	{E}

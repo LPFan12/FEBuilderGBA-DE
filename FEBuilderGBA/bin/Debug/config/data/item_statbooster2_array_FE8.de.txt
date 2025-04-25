@@ -1,0 +1,17 @@
+0802A100=-	{U}
+0802A0D0=Wertebooster	{U}
+0802A0DA=Klassenwechsel-Gegenstände	{U}
+0802A0E4=Metis Buch	{U}
+0802A0F4=Juna-Frucht	{U}
+
+0802A08C=-	{J}
+0802A05C=Wertebooster	{J}
+0802A066=Klassenwechsel-Gegenstände	{J}
+0802A070=Metis Buch	{J}
+0802A080=Juna-Frucht	{J}
+
+0802A440=-	{E}
+0802A410=Wertebooster	{E}
+0802A41A=Klassenwechsel-Gegenstände	{E}
+0802A424=Metis Buch	{E}
+0802A0F4=Juna-Frucht	{E}
