@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace FEBuilderGBA
 {
-    public partial class ExtraUnitFE8UForm : Form
+    public partial class ExtraUnitFE8EForm : Form
     {
-        public ExtraUnitFE8UForm()
+        public ExtraUnitFE8EForm()
         {
             InitializeComponent();
             this.AddressList.OwnerDraw(ListBoxEx.DrawUnitAndText, DrawMode.OwnerDrawFixed);
@@ -20,9 +20,9 @@ namespace FEBuilderGBA
             this.InputFormRef.CheckProtectionAddrHigh = false; //書き換える対象がswitchなので低い位地に書き換えるデータがあります。
         }
 
-        //エクストラユニットは、FE8JとFE8Uで実装が違う
+        //エクストラユニットは、FE8JとFE8Eで実装が違う
         //FE8Jはif文
-        //FE8Uはテーブル
+        //FE8Eはテーブル
         public InputFormRef InputFormRef;
         static InputFormRef Init(Form self)
         {
