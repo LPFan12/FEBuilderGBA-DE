@@ -1,0 +1,23 @@
+08028E00=-	{J}
+08028D88=Verschiedene Gegenstände	{J}
+08028DCC=Klassenwechsel-Gegenstände	{J}
+08028D90=Truhenschlüssel	{J}
+08028D98=Türschlüssel	{J}
+08028DA0=Dietrich	{J}
+08028DF8=Juna-Frucht	{J}
+
+08028E54=-	{U}
+08028DDC=Verschiedene Gegenstände	{U}
+08028E20=Klassenwechsel-Gegenstände	{U}
+08028DE4=Truhenschlüssel	{U}
+08028DEC=Türschlüssel	{U}
+08028DF4=Dietrich	{U}
+08028E4C=Juna-Frucht	{U}
+
+0802919C=-	{E}
+08029124=Verschiedene Gegenstände	{E}
+08029168=Klassenwechsel-Gegenstände	{E}
+0802912C=Truhenschlüssel	{E}
+08029132=Türschlüssel	{E}
+0802913C=Dietrich	{E}
+08029194=Juna-Frucht	{E}
