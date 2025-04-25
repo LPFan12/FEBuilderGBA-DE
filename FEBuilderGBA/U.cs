@@ -3241,13 +3241,35 @@ namespace FEBuilderGBA
                 {//日本語版で英語版専用項目はいらない
                     return true;
                 }
+		if (line.IndexOf("\t{E}") >= 0)
+                {//日本語版で英語版専用項目はいらない
+                    return true;
+                } 
             }
             else
             {
-                if (line.IndexOf("\t{J}") >= 0)
-                {//英語版で日本語版専用項目はいらない
-                    return true;
-                }
+	    if (Program.ROM.RomInfo.VersionToFilename == "FE8E")
+            {
+            if (line.IndexOf("\t{J}") >= 0)
+            {//英語版で日本語版専用項目はいらない
+            return true;
+            }
+	    if (line.IndexOf("\t{U}") >= 0)
+            {//英語版で日本語版専用項目はいらない
+            return true;
+            } 
+            }
+	    else
+	    {
+	    if (line.IndexOf("\t{J}") >= 0)
+            {//英語版で日本語版専用項目はいらない
+            return true;
+            }
+            if (line.IndexOf("\t{E}") >= 0)
+            {//英語版で日本語版専用項目はいらない
+            return true;
+            }
+            }
             }
             return false;
         }
@@ -3280,6 +3302,11 @@ namespace FEBuilderGBA
             {//言語指定を飛ばす
                 str = str.Substring(0, term);
             }
+	    term = ClipCommentIndexOf(str,"{E}");
+            if (term >= 0)
+            {//言語指定を飛ばす
+                str = str.Substring(0, term);
+            }
             term = ClipCommentIndexOf(str,"//");
             if (term >= 0)
             {//コメント
@@ -3295,6 +3322,11 @@ namespace FEBuilderGBA
                 str = str.Substring(0, term);
             }
             term = ClipCommentIndexOf(str, "{U}");
+            if (term >= 0)
+            {//言語指定を飛ばす
+                str = str.Substring(0, term);
+            }
+	    term = ClipCommentIndexOf(str, "{E}");
             if (term >= 0)
             {//言語指定を飛ばす
                 str = str.Substring(0, term);
