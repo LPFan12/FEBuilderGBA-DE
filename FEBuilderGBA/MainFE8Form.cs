@@ -1018,7 +1018,14 @@ namespace FEBuilderGBA
             }
             else
             {
+            if (Program.ROM.RomInfo.VersionToFilename == "FE8E")
+            {
+                InputFormRef.JumpForm<ExtraUnitFE8EForm>();
+            }
+        else
+            {
                 InputFormRef.JumpForm<ExtraUnitFE8UForm>();
+            }
             }
         }
 
