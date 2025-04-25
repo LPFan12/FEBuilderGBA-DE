@@ -83,8 +83,8 @@
 080A84F0=Truhe	{E}
 080A84F4=Steinruinen	{E}
 080A84FC=Klippe	{E}
-080AC5D8=Dunkel	{E}	//JP ONLY
-080A84F8=Ballista	{E}
+080A84F8=Dunkel	{E}	//JP ONLY
+080A8508=Ballista	{E}
 080A850C=Flach	{E}
 080A8510=Treppe	{E}
 080A851A=Mauer	{E}

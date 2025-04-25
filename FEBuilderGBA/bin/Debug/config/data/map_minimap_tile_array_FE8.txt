@@ -83,8 +83,8 @@
 080A84F0=Chest	{E}
 080A84F4=StoneRuins	{E}
 080A84FC=Cliff	{E}
-080AC5D8=Dark	{E}	//JP ONLY
-080A84F8=Ballista	{E}
+080A84F8=Dunkel	{E}	//JP ONLY
+080A8508=Ballista	{E}
 080A850C=Flat	{E}
 080A8510=Stairs	{E}
 080A851A=Walls	{E}
