@@ -1,0 +1,35 @@
+0802f856=-	{J}
+0802F814=Engelsrobe	{J}
+0802F844=Energiering	{J}
+0802F804=Geheimbuch	{J}
+0802F824=Tempofeder	{J}
+0802F80C=Göttinnenikone	{J}
+0802F81C=Draco-Schild	{J}
+0802F82C=Talisman	{J}
+0802F834=Stiefel	{J}
+0802F83C=Lebensring	{J}
+0802f744=Afa-Tropfen	{J}
+
+0802F90C=-	{U}
+0802F8E4=Engelsrobe	{U}
+0802F8FC=Energiering	{U}
+0802F8DC=Geheimbuch	{U}
+0802F8EC=Tempofeder	{U}
+0802F8E0=Göttinnenikone	{U}
+0802F8E8=Draco-Schild	{U}
+0802F8F0=Talisman	{U}
+0802F8F4=Stiefel	{U}
+0802F8F8=Lebensring	{U}
+0802F824=Afa-Tropfen	{U}
+
+0802FC5C=-	{E}
+0802FC34=Engelsrobe	{E}
+0802FC4C=Energiering	{E}
+0802FC2C=Geheimbuch	{E}
+0802FC3C=Tempofeder	{E}
+0802FC30=Göttinnenikone	{E}
+0802FC38=Draco-Schild	{E}
+0802FC40=Talisman	{E}
+0802FC44=Stiefel	{E}
+0802FC48=Lebensring	{E}
+0802FB74=Afa-Tropfen	{E}
