@@ -323,8 +323,8 @@ namespace FEBuilderGBA
            mant_command_pointer = 0x06D278;  //Ist das der richtige Pointer?
            mant_command_startadd = 0x6B;  //マント開始数
            mant_command_count_address = 0x06D25E;  //Ist das die richtige Addresse?
-           unit_increase_height_yes = 0x08005C98;   //ステータス画面で背を伸ばす 伸ばす
-           unit_increase_height_no =  0x08005C9C;   //ステータス画面で背を伸ばす 伸ばさない
+           unit_increase_height_yes = 0x08005C84;   //Sollte der richtige Wert sein.
+           unit_increase_height_no =  0x08005C88;   //Sollte der richtige Wert sein.
            battle_screen_TSA1_pointer = 0x051F74;   //Ist das der richtige Pointer?
            battle_screen_TSA2_pointer = 0x051F78;   //Ist das der richtige Pointer?
            battle_screen_TSA3_pointer = 0x05166C;   //Ist das der richtige Pointer?
