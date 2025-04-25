@@ -28,7 +28,7 @@ namespace FEBuilderGBA
         {
             InputFormRef ifr = new InputFormRef(self
                 , ""
-                , 0x37D88
+                , 0x038148
                 , 0x8
                 , (int i, uint addr) =>
                 {
