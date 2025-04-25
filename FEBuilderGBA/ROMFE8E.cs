@@ -176,8 +176,8 @@ namespace FEBuilderGBA
            status_rmenu_unit_pointer = 0x088D70;  // Ist das der richtige Pointer?
            status_rmenu_game_pointer = 0x088D78;  // Ist das der richtige Pointer?
            status_rmenu3_pointer = 0x088D90;  // Ist das der richtige Pointer?
-           status_rmenu4_pointer = 0x0377FC;  // Ist das der richtige Pointer?
-           status_rmenu5_pointer = 0x037810;  // Ist das der richtige Pointer?
+           status_rmenu4_pointer = 0x037810;  // Ist das der richtige Pointer?
+           status_rmenu5_pointer = 0x037828;  // Ist das der richtige Pointer?
            status_rmenu6_pointer = 0xA91244;  // Ist das der richtige Pointer?
            status_param1_pointer = 0x08752C;  // Ist das der richtige Pointer?
            status_param2_pointer = 0x087860;  // Ist das der richtige Pointer?
