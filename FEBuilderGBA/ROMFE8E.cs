@@ -178,7 +178,7 @@ namespace FEBuilderGBA
            status_rmenu3_pointer = 0x088D90;  // Ist das der richtige Pointer?
            status_rmenu4_pointer = 0x0377FC;  // Ist das der richtige Pointer?
            status_rmenu5_pointer = 0x037810;  // Ist das der richtige Pointer?
-           status_rmenu6_pointer = 0xA912C4;  // Ist das der richtige Pointer?
+           status_rmenu6_pointer = 0xA91244;  // Ist das der richtige Pointer?
            status_param1_pointer = 0x08752C;  // Ist das der richtige Pointer?
            status_param2_pointer = 0x087860;  // Ist das der richtige Pointer?
            status_param3w_pointer = 0x0;  // ステータス PARAM3 武器 海外版には"剣"みたいな武器の属性表示がありません
