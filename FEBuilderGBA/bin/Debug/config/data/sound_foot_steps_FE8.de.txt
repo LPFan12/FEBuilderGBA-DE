@@ -28,9 +28,9 @@
 807B3E0=Gorgonen-Gleiten	{J}
 8078FCC=Gorgonen-Gleiten	{U}
 8079254=Gorgonen-Gleiten	{E}
-807B3E8=Ritter, Drache, Cyklop schweres Geräusch	{J}
-8078FD4=Ritter, Drache, Cyklop schweres Geräusch	{U}
-807925C=Ritter, Drache, Cyklop schweres Geräusch	{E}
+807B3E8=Ritter, Drache, Zyklop schweres Geräusch	{J}
+8078FD4=Ritter, Drache, Zyklop schweres Geräusch	{U}
+807925C=Ritter, Drache, Zyklop schweres Geräusch	{E}
 807B3F0=Flotten-Segeln	{J}
 8078FDC=Flotten-Segeln	{U}
 8079264=Flotten-Segeln	{E}
