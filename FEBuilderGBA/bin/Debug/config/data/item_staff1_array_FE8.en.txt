@@ -15,6 +15,7 @@
 08028FC4=Mine	{J}
 08028FD4=Light Rune	{J}
 08028FF0=Dancer Rings	{J}
+
 0802905C=-	{U}
 08028F94=Heal, Mend, Recover	{U}
 08028F9C=Physic	{U}
@@ -32,3 +33,21 @@
 0802901C=Mine	{U}
 0802902C=Light Rune	{U}
 08029048=Dancer Rings	{U}
+
+080293A4=-	{E}
+080292DC=Heal, Mend, Recover	{E}
+080292E4=Physic	{E}
+0802935C=Fortify, Latona	{E}
+08029304=Restore	{E}
+08029314=Silence	{E}
+0802931C=Sleep	{E}
+08029324=Berserk	{E}
+0802934C=Warp	{E}
+080292F4=Rescue	{E}
+08029388=Torch	{E}
+08029354=Hammerne	{E}
+0802933C=Unlock	{E}
+08029334=Barrier	{E}
+08029364=Mine	{E}
+08029374=Light Rune	{E}
+08029390=Dancer Rings	{E}
