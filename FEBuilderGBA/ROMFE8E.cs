@@ -30,7 +30,7 @@ namespace FEBuilderGBA
            portrait_pointer = 0x5514;  //Ist das der richtige Pointer?
            portrait_datasize = 28; 
            icon_pointer = 0x367C;  // Ist das der richtige Pointer?
-           icon_orignal_address = 0x5926F4;  // アイコンの初期値
+           icon_orignal_address = 0x7A39C0;  // Sollte die richtige Addresse sein.
            icon_orignal_max = 0xDF;  // アイコンの最大数
 
            icon_palette_pointer = 0x3598;  // Ist das der richtige Pointer?
@@ -215,8 +215,8 @@ namespace FEBuilderGBA
            worldmap_event_palette_pointer = 0x0C2928;  //Ist das der richtige Pointer?   
            worldmap_event_tsa_pointer = 0x0C292C;  //Ist das der richtige Pointer?
            worldmap_mini_image_pointer = 0x0C4760;  //Ist das der richtige Pointer?
-           worldmap_mini_palette_pointer = 0xC3E74;  //Ist das der richtige Pointer?
-           worldmap_icon_palette_pointer = 0xC4768;  //Ist das der richtige Pointer?
+           worldmap_mini_palette_pointer = 0x0C4768;  //Ist das der richtige Pointer?
+           worldmap_icon_palette_pointer = 0x0B97F8;  //Ist das der richtige Pointer?
            worldmap_icon1_pointer = 0x0B97FC;  //Ist das der richtige Pointer?
            worldmap_icon2_pointer = 0x0B9804;  //Ist das der richtige Pointer?
            worldmap_road_tile_pointer = 0x0B9948;  //Ist das der richtige Pointer?
@@ -353,16 +353,16 @@ namespace FEBuilderGBA
            item_promotion1_array_switch2_address = 0x02954A; //Ist das die richtige Addresse?
            item_promotion2_array_pointer = 0x0;   //CCアイテムかどうかを定義する(FE7のみ)
            item_promotion2_array_switch2_address = 0x0; 
-           item_staff1_array_pointer = 0x28E88;     //アイテムのターゲット選択の方法を定義する(多分)
-           item_staff1_array_switch2_address = 0x28E76; //の
-           item_staff2_array_pointer = 0x72590;     //杖の種類を定義する
-           item_staff2_array_switch2_address = 0x7257C; //の
-           item_statbooster1_array_pointer = 0x2F8B4;     //ドーピングアイテムを利用した時のメッセージを定義する
-           item_statbooster1_array_switch2_address = 0x2F8A4; //の
-           item_statbooster2_array_pointer = 0x29F30;     //ドーピングアイテムとCCアイテムかどうかを定義する
-           item_statbooster2_array_switch2_address = 0x29F1C; //の
-           item_errormessage_array_pointer = 0x28C28;     //アイテム利用時のエラーメッセージ
-           item_errormessage_array_switch2_address = 0x28C16; //の
+           item_staff1_array_pointer = 0x0291D0;     //Ist das der richtige Pointer?
+           item_staff1_array_switch2_address = 0x0291BE; //Ist das die richtige Addresse?
+           item_staff2_array_pointer = 0x072708;     //Ist das der richtige Pointer?
+           item_staff2_array_switch2_address = 0x0726F4; //Ist das die richtige Addresse?
+           item_statbooster1_array_pointer = 0x02FC04;     //Ist das der richtige Pointer?
+           item_statbooster1_array_switch2_address = 0x02FBF4; //Ist das die richtige Addresse?
+           item_statbooster2_array_pointer = 0x02A270;     //Ist das der richtige Pointer?
+           item_statbooster2_array_switch2_address = 0x02A25C; //Ist das die richtige Addresse?
+           item_errormessage_array_pointer = 0x028F70;     //Ist das der richtige Pointer?
+           item_errormessage_array_switch2_address = 0x028F5E; //Ist das die richtige Addresse?
            event_function_pointer_table_pointer = 0xCF3C;     //Ist das der richtige Pointer?
            event_function_pointer_table2_pointer = 0xCF68;    //Ist das der richtige Pointer?
            item_effect_pointer_table_pointer = 0x05B61C;    //Ist das der richtige Pointer?
@@ -456,7 +456,7 @@ namespace FEBuilderGBA
            worldmap_node_secret_empty_address = 0x8A3F16A;  // ワールドマップ拠点での秘密の店のnullアドレス
 
            extends_address = 0x09000000;   //拡張領域
-           orignal_crc32 = 0xa47246ae;  //無改造ROMのCRC32
+           orignal_crc32 = 0xb3005195;  //Hexadezimaler CRC32-Wert der unmodifizierten ROM
            is_multibyte = false;     // マルチバイトを利用するか？
            version = 8;     // バージョン
 
