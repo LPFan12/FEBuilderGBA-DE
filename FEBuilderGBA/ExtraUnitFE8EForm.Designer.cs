@@ -1,6 +1,6 @@
 ﻿namespace FEBuilderGBA
 {
-    partial class ExtraUnitFE8UForm
+    partial class ExtraUnitFE8EForm
     {
         /// <summary>
         /// Required designer variable.
@@ -353,7 +353,7 @@
             this.label23.Text = "アドレス";
             this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // ExtraUnitFE8UForm
+            // ExtraUnitFE8EForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
@@ -363,7 +363,7 @@
             this.Controls.Add(this.panel6);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel5);
-            this.Name = "ExtraUnitFE8UForm";
+            this.Name = "ExtraUnitFE8EForm";
             this.Text = "エクストラユニット";
             this.Load += new System.EventHandler(this.ExtraUnitForm_Load);
             this.panel4.ResumeLayout(false);
