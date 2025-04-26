@@ -33,6 +33,7 @@ Offizielle Spielversionen:
    
  Fanübersetzte Spielversionen(Nur aktuelle Versionen werden von uns unterstützt):
  * FE6U (Spiel-ID: AFEU01); Dies ist der Englischpatch. Die Spiel-ID muss in der ROM manuell geändert werden, auf natürliche Weise hat es die selbe ID wie die japanische Version von FE6.
+ * FE6E (Spiel-ID: AFEE01); Dies ist der Emblemier-Deutschpatch. Die Spiel-ID muss in der ROM manuell geändert werden, auf natürliche Weise hat es die selbe ID wie die japanische Version von FE6.
  * FE6D (Spiel-ID: AFED01); Dies ist der LPFan-Deutschpatch.
      
 Der momentane Fortschritt ist allerdings noch nicht weit genug fortgeschritten damit es als "Stabil" zählen kann und ich kann momentan noch nicht empfehlen diese Roms zu bearbeiten. Wir übernehmen keine Schuld für zerstörte ROMs dieser Spielversionen!
