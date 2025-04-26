@@ -58,7 +58,7 @@ namespace FEBuilderGBA
             map_pal_pointer = 0x019690;         //Ist das der richtige Pointer? 
             map_tileanime1_pointer = 0x02D948;  //Ist das der richtige Pointer? 
             map_tileanime2_pointer = 0x02E48C;  //Ist das der richtige Pointer?
-            map_map_pointer_pointer = 0x031BBC; //Ist das der richtige Pointer?
+            map_map_pointer_pointer = 0x031BD8; //Ist das der richtige Pointer?
             map_mapchange_pointer = 0x031BD8;   //Ist das der richtige Pointer?
             map_event_pointer = 0x031BF4;       //Ist das der richtige Pointer?
             map_worldmapevent_pointer = 0x0; //マップ設定の開始位置(worldmap (FE6のみ))
