@@ -1,0 +1,24 @@
+
+NAME=Character to apply blocking delay to - 1
+NAME.en=Character to apply blocking delay to - 1
+NAME.zh=Character to apply blocking delay to - 1
+Name.de=Character to apply blocking delay to - 1
+
+
+
+//アドレスパッチとして実装します
+TYPE=ADDR
+TAG=#ENGINE
+
+ADDRESS=0x0453D8
+ADDRESS_TYPE=UNIT
+
+AUTHOR=https://feuniverse.us/t/fe6-ballista-pilot-class-checks-some-other-misc-things/12537
+AUTHOR.zh=https://feuniverse.us/t/fe6-ballista-pilot-class-checks-some-other-misc-things/12537
+AUTHOR.en=https://feuniverse.us/t/fe6-ballista-pilot-class-checks-some-other-misc-things/12537
+
+
+INFO=*Info needed*.\r\n
+INFO.zh=*Info needed*.\r\n
+INFO.en=*Info needed*.\r\n
+INFO.de=*Info needed*.\r\n
