@@ -1,0 +1,21 @@
+NAME=m4a hq mixer(Please Uninstall)
+NAME.en=m4a hq mixer(Please Uninstall)
+NAME.zh=m4a hq mixer(Please Uninstall)
+NAME.de=m4a hq mixer(Bitte Deinstallieren)
+
+PATCHED_IF:0x9C838=0x96 0x02
+
+TYPE=EA
+TAG=#ENGINE
+EA=SoundMixer.txt
+
+
+INFO=Broken Patch.\r\nUninstall to fix the Link Arena.
+INFO.en=Broken Patch.\r\nUninstall to fix the Link Arena.
+INFO.zh=Broken Patch.\r\nUninstall to fix the Link Arena.
+INFO.de=Nicht funktionierender Patch.\r\nDeinstalliere ihn um die Link-Arena zu reparieren.
+
+AUTHOR=ipatix https://github.com/ipatix/gba-hq-mixer , FE8J porting 7743
+
+CONFLICT_IF:0x9C838=0x00 0x01
+CONFLICT_MESSAGE=Patch breaks the ROM and is thus blocked from being reinstalled.
