@@ -13,5 +13,5 @@ INFO=一般兵の顔の上限を増やします。\r\nこのパッチは、Gryz�
 INFO.en=Increase the upper limit of the face of general soldiers.\r\nBased on Gryz's routine, this patch expanded its own way of holding data.
 NAME.zh=扩大一般士兵的面部图像，最高可达254(Install)
 INFO.zh=增加一般士兵面部的上限。\r\n根据Gryz的例程，这个补丁扩展了自己的数据保存方式。
-NAME.de=NAME.en=Allow 254 generic minimugs (Installer)
+NAME.de=Allow 254 generic minimugs (Installer)
 INFO.de=Increase the upper limit of the face of general soldiers.\r\nBased on Gryz's routine, this patch expanded its own way of holding data.
