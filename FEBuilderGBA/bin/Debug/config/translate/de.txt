@@ -895,7 +895,7 @@ Disassembler source for Grep
 Please disassemble all he source code by the disassembler beforehand.
 
 :参照
-Referenz
+Referenzieren
 
 :逆アセンブラ
 Disassembler
@@ -7932,13 +7932,13 @@ Event ID (Plist)
 Destructible Wall HP
 
 :友軍BGM
-NPCphase-Hinterg.Musik
+NPCphase-Hintergrundmusik
 
 :敵フェーズBGM
-Gegnerphase-Hinterg.Musik
+Gegnerphase-Hintergrundmusik
 
 :味方フェーズBGM
-Spielerphasen-Hinterg.Musik
+Spielerphasen-Hintergrundmusik
 
 :初期座標
 Initial coord
