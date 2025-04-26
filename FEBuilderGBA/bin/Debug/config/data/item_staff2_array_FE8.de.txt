@@ -1,13 +1,13 @@
 08074B80=-	{J}
 08074B78=Heilungsstab	{J}
-08074B7C=Stille, Schlaf, Berserk	{J}
+08074B7C=Schweigen, Schlaf, Berserk	{J}
 
 080726A4=-	{U}
 0807269C=Heilungsstab	{U}
-080726A0=Stille, Schlaf, Berserk	{U}
+080726A0=Schweigen, Schlaf, Berserk	{U}
 
 0807281C=-	{E}
 08072814=Heilungsstab	{E}
-0807281C=Stille, Schlaf, Berserk	{E}
+0807281C=Schweigen, Schlaf, Berserk	{E}
 
 
