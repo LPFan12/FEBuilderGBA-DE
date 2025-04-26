@@ -11,7 +11,7 @@
 08028FE8=Fackel	{J}
 08028FB4=Schmiede	{J}
 08028FA0=Öffner	{J}
-08028F98=Barriere	{J}
+08028F98=Magieschild	{J}
 08028FC4=Mine	{J}
 08028FD4=Lichtrune	{J}
 08028FF0=Tänzerringe	{J}
@@ -29,7 +29,7 @@
 08029040=Fackel	{U}
 0802900C=Schmiede	{U}
 08028FF4=Öffner	{U}
-08028FEC=Barriere	{U}
+08028FEC=Magieschild	{U}
 0802901C=Mine	{U}
 0802902C=Lichtrune	{U}
 08029048=Tänzerringe	{U}
@@ -47,7 +47,7 @@
 08029388=Fackel	{E}
 08029354=Schmiede	{E}
 0802933C=Öffner	{E}
-08029334=Barriere	{E}
+08029334=Magieschild	{E}
 08029364=Mine	{E}
 08029374=Lichtrune	{E}
 08029390=Tänzerringe	{E}
