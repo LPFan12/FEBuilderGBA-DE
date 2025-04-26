@@ -632,6 +632,12 @@ namespace FEBuilderGBA
                 return true;
             }
             if (data.Length >= 0x800000
+                && version.IndexOf("AFEE01") >= 0)
+            {
+                this.RomInfo = new ROMFE6E(this);
+                return true;
+            }
+            if (data.Length >= 0x800000
                 && version.IndexOf("AFED01") >= 0)
             {
                 this.RomInfo = new ROMFE6D(this);
@@ -715,6 +721,10 @@ namespace FEBuilderGBA
             else if (forceversion.IndexOf("FE6U") >= 0)
             {
                 version = "AFEU01";
+            }
+            else if (forceversion.IndexOf("FE6E") >= 0)
+            {
+                version = "AFEE01";
             }
             else if (forceversion.IndexOf("FE6D") >= 0)
             {
