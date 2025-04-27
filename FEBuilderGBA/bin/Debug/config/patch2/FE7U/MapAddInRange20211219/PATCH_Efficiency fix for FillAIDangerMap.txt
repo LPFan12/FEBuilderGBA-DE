@@ -2,6 +2,7 @@ TYPE=BIN
 TAG=#ENGINE
 NAME=MapAddInRangeの効率修正 20211219
 NAME.en=MapAddInRange Efficiency Fix 20211219
+NAME.de=MapAddInRange Efficiency Fix 20211219
 NAME.zh=MapAddInRange Efficiency Fix 20211219
 
 EA=Install.event
@@ -13,6 +14,7 @@ BIN:0x01a2d4=MapAddInRange-7743.dmp
 
 INFO=関数をASMで書き直してバニラの5倍速くなっています。\r\hこの関数はゲーム内で大量に実行されるため、早くすることは意味があると思います。\r\nこの関数は攻撃範囲などのrangeを描くのに利用されます。
 INFO.en=I rewrote the function in ASM and it's 5 times faster than vanilla.\r\hThis function is executed in large numbers in the game, so I think it makes sense to make it faster.\r\nThis function is used to draw a range such as the attack range.
+INFO.de=I rewrote the function in ASM and it's 5 times faster than vanilla.\r\hThis function is executed in large numbers in the game, so I think it makes sense to make it faster.\r\nThis function is used to draw a range such as the attack range.
 INFO.zh=I rewrote the function in ASM and it's 5 times faster than vanilla.\r\hThis function is executed in large numbers in the game, so I think it makes sense to make it faster.\r\nThis function is used to draw a range such as the attack range.
 
 AUTHOR=7743
