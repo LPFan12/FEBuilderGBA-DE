@@ -1,5 +1,6 @@
 NAME=武器レベルS ボーナス 項目1
 NAME.en=Weapon S Value of Bonus Item 1
+NAME.de=Weapon S Value of Bonus Item 1
 NAME.zh=武器S奖金道具1
 
 //アドレスパッチとして実装します
@@ -10,6 +11,7 @@ INFO=武器レベルSの時に、この値に補正ボーナスが加わりま�
 
 COMBO=攻撃|ATK|防御|DEF|攻速|AS|命中|HIT|回避|AVO|必殺|CRT|必殺回避|CAVO|Default:命中|DEFAULT
 COMBO.en=Attack|ATK|Defence|DEF|Attack speed|AS|Hit|HIT|Avoid|AVO|Critical|CRT|Critical Avoid|CAVO|Default:Hit|DEFAULT
+COMBO.de=Attack|ATK|Defence|DEF|Attack speed|AS|Hit|HIT|Avoid|AVO|Critical|CRT|Critical Avoid|CAVO|Default:Hit|DEFAULT
 COMBO.zh=攻击|ATK|防御|DEF|速度|AS|命中|HIT|躲避|AVO|必杀|CRT|必杀躲避|CAVO|Default:命中|DEFAULT
 
 ATK:0x2934E=0x5a 0x22 0x88 0x5a
@@ -29,4 +31,5 @@ CAVO:0x29354=0x88 0x52
 DEFAULT:0x2934E=0x60 0x31 0x08 0x88
 DEFAULT:0x29354=0x08 0x80
 INFO.en=A correction bonus is added to this value at weapon level S.
+INFO.de=A correction bonus is added to this value at weapon level S.
 INFO.zh=在武器等级S处将该校正加值添加到该值。
