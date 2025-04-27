@@ -1,6 +1,7 @@
 
 NAME=MODE SELECT 顔画像 リン編
 NAME.en=MODE SELECT Portrait of the Lyn Editing
+NAME.de=MODE SELECT Portrait of the Lyn Editing
 
 //アドレスパッチとして実装します
 TYPE=ADDR
