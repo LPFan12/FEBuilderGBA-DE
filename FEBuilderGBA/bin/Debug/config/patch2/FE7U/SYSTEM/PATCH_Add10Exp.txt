@@ -1,6 +1,7 @@
 
 NAME=踊る、盗む等での経験値+10の値
 NAME.en=EXP Value in dance, steal, etc. EXP+10
+NAME.de=EXP Value in dance, steal, etc. EXP+10
 
 //アドレスパッチとして実装します
 TYPE=ADDR
@@ -13,5 +14,6 @@ AUTHOR=7743
 
 INFO=踊る、盗む等で得られる経験値+10を得る値を変更します。
 INFO.en=Change value to get the experience value + 10 obtained by dancing, stealing, etc.
+INFO.de=Change value to get the experience value + 10 obtained by dancing, stealing, etc.
 NAME.zh=体验跳舞，偷盗等价值+10的价值
 INFO.zh=改变价值以获得跳舞，偷盗等获得的经验值+10。
