@@ -1,5 +1,6 @@
 NAME=サウンドルーム全解放
 NAME.en=Unlock Sound Room songs
+NAME.de=Unlock Sound Room songs
 NAME.zh=Unlock Sound Room songs
 TYPE=SWITCH
 TAG=#ENGINE
