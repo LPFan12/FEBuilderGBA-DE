@@ -1,6 +1,8 @@
 
 NAME.en=Ignore dead characters for cutscenes (installer)
 INFO.en=Specify which units should bypass the dead check and be loaded during cutscenes.  For gameplay purposes, the character will remain dead unless revived.
+NAME.de=Ignore dead characters for cutscenes (installer)
+INFO.de=Specify which units should bypass the dead check and be loaded during cutscenes.  For gameplay purposes, the character will remain dead unless revived.
 
 IF:0xA6AA=0x01 0x48 0x87 0x46
 
