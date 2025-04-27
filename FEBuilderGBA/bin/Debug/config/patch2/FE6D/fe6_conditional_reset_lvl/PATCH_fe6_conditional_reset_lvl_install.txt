@@ -4,6 +4,9 @@ INFO=CC時にレベルがリセットされない、CCアイテムを作成し�
 NAME.en=Optional Level Reset linked to Promotional Items(Installer)
 INFO.en=This patch creates a Promotion Item, whose level is not reset upon Promotion.\r\nIf a Promotion is made using the Promoted ItemID defined in this table, the level will not be reset.
 
+NAME.de=Optional Level Reset linked to Promotional Items(Installer)
+INFO.de=This patch creates a Promotion Item, whose level is not reset upon Promotion.\r\nIf a Promotion is made using the Promoted ItemID defined in this table, the level will not be reset.
+
 NAME.zh=Optional Level Reset linked to Promotional Items(Installer)
 INFO.zh=This patch creates a Promotion Item, whose level is not reset upon Promotion.\r\nIf a Promotion is made using the Promoted ItemID defined in this table, the level will not be reset.
 
