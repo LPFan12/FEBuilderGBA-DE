@@ -1,6 +1,7 @@
 
 NAME=アイコン ペガサスユニット
 NAME.en=Icon - Pegasus Unit
+NAME.de=Icon - Pegasus Unit
 
 //アドレスパッチとして実装します
 TYPE=ADDR
@@ -13,6 +14,7 @@ AUTHOR=7743
 
 INFO=ステータス画面に表示されるペガサスナイトのペガサスのアイコンを設定します。
 INFO.en=Set the Pegasus icon of Pegasus Knight displayed on the status screen.
+INFO.de=Set the Pegasus icon of Pegasus Knight displayed on the status screen.
 
 NAME.zh=图标 - 飞马标志
 INFO.zh=在状态屏幕上显示Pegasus Knight的Pegasus图标。

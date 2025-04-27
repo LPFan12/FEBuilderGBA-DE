@@ -1,0 +1,24 @@
+
+NAME=Character to apply damage delay to - 2
+NAME.en=Character to apply damage delay to - 2
+NAME.zh=Character to apply damage delay to - 2
+Name.de=Character to apply damage delay to - 2
+
+
+
+//アドレスパッチとして実装します
+TYPE=ADDR
+TAG=#ENGINE
+
+ADDRESS=0x044B42
+ADDRESS_TYPE=UNIT
+
+AUTHOR=https://feuniverse.us/t/fe6-ballista-pilot-class-checks-some-other-misc-things/12537
+AUTHOR.zh=https://feuniverse.us/t/fe6-ballista-pilot-class-checks-some-other-misc-things/12537
+AUTHOR.en=https://feuniverse.us/t/fe6-ballista-pilot-class-checks-some-other-misc-things/12537
+
+
+INFO=*Info needed*.\r\n
+INFO.zh=*Info needed*.\r\n
+INFO.en=*Info needed*.\r\n
+INFO.de=*Info needed*.\r\n

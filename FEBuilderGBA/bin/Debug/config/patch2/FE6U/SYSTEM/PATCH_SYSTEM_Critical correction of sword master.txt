@@ -1,6 +1,7 @@
 
 NAME=ソードマスター必殺補正
 NAME.en=Class Crit% Bonus
+NAME.de=Class Crit% Bonus
 
 //アドレスパッチとして実装します
 TYPE=ADDR
@@ -11,3 +12,4 @@ HEX=false
 NAME.zh=系统_剑圣的必杀补正
 
 INFO.en=Modifies the critical bonus granted by the class/character ability.\r\nConvert from hex to decimal for the value.
+INFO.de=Modifies the critical bonus granted by the class/character ability.\r\nConvert from hex to decimal for the value.
