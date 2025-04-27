@@ -1,6 +1,7 @@
 
 NAME=OPLOGO斧
-NAME.en=OPLOGO Axs
+NAME.en=OPLOGO Axe
+NAME.en=OPLOGO Axe
 
 //画像パッチとして実装します
 TYPE=IMAGE
