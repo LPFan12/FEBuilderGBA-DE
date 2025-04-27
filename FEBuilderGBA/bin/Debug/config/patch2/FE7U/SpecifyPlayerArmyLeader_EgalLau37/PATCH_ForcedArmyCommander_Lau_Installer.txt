@@ -1,6 +1,8 @@
 
 NAME.en=Set army commander by chapter (installer)
 INFO.en=This changes the routine so that the current army commander is based on an ID in a table.
+NAME.de=Set army commander by chapter (installer)
+INFO.de=This changes the routine so that the current army commander is based on an ID in a table.
 
 TYPE=EA
 TAG=#ENGINE
