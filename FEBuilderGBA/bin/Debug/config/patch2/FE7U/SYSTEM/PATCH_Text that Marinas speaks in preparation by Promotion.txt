@@ -1,6 +1,6 @@
 NAME=マリナスが馬車を手に入れた時に進撃準備でしゃべるセリフ
 NAME.en=Text that Marinas speaks in preparation by Promotion.
-
+NAME.de=Text that Marinas speaks in preparation by Promotion.
 
 
 //アドレスパッチとして実装します
