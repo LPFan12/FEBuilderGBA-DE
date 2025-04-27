@@ -1,5 +1,6 @@
 NAME=追加魔法エンジン(FEEditor)
 NAME.en=Custom Spell Animation Engine(FEEditor)
+NAME.de=Custom Spell Animation Engine(FEEditor)
 
 TAG=#ENGINE
 
