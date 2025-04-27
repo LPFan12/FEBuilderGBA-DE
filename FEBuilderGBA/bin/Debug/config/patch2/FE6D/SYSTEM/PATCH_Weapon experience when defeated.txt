@@ -1,6 +1,7 @@
 
 NAME=武器経験値 撃破時
 NAME.en=Weapon experience when defeated
+NAME.de=Weapon experience when defeated
 
 //アドレスパッチとして実装します
 TYPE=ADDR
