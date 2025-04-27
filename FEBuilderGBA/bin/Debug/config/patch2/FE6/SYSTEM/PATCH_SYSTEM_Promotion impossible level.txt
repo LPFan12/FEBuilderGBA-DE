@@ -1,6 +1,7 @@
 
 NAME=CC不可レベル
 NAME.en=Minimum Promotion Level
+NAME.de=Minimum Promotion Level
 AUTHOR=7743
 
 //アドレスパッチとして実装します
@@ -12,4 +13,5 @@ AUTHOR=7743
 NAME.zh=转职没有级别
 
 INFO.en=Specifies the minimum level that units can promote at by using promotion items.\r\nMinimum level is value specified + 1. Default is (9+1) 10.
+INFO.de=Specifies the minimum level that units can promote at by using promotion items.\r\nMinimum level is value specified + 1. Default is (9+1) 10.
 HEX=false
