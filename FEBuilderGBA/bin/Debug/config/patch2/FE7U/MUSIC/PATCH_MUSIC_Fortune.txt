@@ -1,5 +1,6 @@
 NAME=MUSIC_占い
 NAME.en=MUSIC_Fortune
+NAME.de=MUSIC_Fortune
 
 //アドレスパッチとして実装します
 TYPE=ADDR
