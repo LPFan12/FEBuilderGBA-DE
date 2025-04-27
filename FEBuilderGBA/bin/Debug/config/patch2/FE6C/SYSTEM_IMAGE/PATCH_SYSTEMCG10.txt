@@ -1,5 +1,5 @@
-
 NAME=CG10
+NAME.de=CG10
 
 //画像パッチとして実装します
 TYPE=IMAGE

@@ -1,5 +1,6 @@
 NAME=Dancer's Heart
 NAME.en=Dancer's Heart
+NAME.de=Dancer's Heart
 NAME.zh=Dancer's Heart
 
 TYPE=IMAGE
