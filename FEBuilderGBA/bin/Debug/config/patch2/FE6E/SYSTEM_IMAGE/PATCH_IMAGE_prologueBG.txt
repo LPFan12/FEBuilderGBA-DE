@@ -1,4 +1,5 @@
 NAME=IMAGE_prologueBG
+NAME.de=IMAGE_prologueBG
 
 TYPE=IMAGE
 

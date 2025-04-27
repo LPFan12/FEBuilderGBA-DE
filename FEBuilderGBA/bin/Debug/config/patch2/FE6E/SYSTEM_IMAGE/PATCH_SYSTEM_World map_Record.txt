@@ -1,4 +1,3 @@
-
 NAME=世界地図_戦績
 
 //画像パッチとして実装します
@@ -14,4 +13,5 @@ HEADER_POINTER=0x08F058
 PALETTE_POINTER=0x08F01C
 
 NAME.en=World map_Record
+NAME.de=World map_Record
 NAME.zh=世界地图_科斯
