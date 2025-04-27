@@ -1,5 +1,6 @@
 NAME=MODE SELECT 戦闘アニメ ヘクトル編
-NAME.en=MODE SELECT Battle Animation of the Hextor Editing
+NAME.en=MODE SELECT Battle Animation of the Hector Editing
+NAME.de=MODE SELECT Battle Animation of the Hector Editing
 
 //アドレスパッチとして実装します
 TYPE=ADDR
