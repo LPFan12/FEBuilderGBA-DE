@@ -32,5 +32,7 @@ W6:FLAG=Flag(0x00=ANY)
 
 NAME.en=Switch Portrait images by class, chapter, flag.
 INFO.en=Switch Portrait to the status screen and MiniMug class, chapter, flags.
+NAME.de=Switch Portrait images by class, chapter, flag.
+INFO.de=Switch Portrait to the status screen and MiniMug class, chapter, flags.
 NAME.zh=按类，章，旗切换面部图像
 INFO.zh=切换到状态屏幕和MiniMug类，章节，标志。
