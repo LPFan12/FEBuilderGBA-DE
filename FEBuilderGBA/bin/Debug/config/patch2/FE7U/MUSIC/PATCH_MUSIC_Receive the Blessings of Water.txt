@@ -1,5 +1,6 @@
 NAME=MUSIC_水の恩恵を受け、おだやかに
 NAME.en=MUSIC_Receive the Blessings of Water
+NAME.de=MUSIC_Receive the Blessings of Water
 
 
 //アドレスパッチとして実装します
