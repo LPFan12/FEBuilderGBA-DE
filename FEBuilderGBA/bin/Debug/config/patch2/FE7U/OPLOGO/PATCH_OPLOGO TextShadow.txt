@@ -1,6 +1,7 @@
 
 NAME=OPLOGO文字影
 NAME.en=OPLOGO TextShadow
+NAME.de=OPLOGO TextShadow
 
 //画像パッチとして実装します
 TYPE=IMAGE
