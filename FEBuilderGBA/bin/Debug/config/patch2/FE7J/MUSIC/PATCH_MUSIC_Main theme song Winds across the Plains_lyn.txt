@@ -1,5 +1,6 @@
 NAME=MUSIC_メインテーマlyn
 NAME.en=MUSIC_Main theme song Winds across the Plains
+NAME.de=MUSIC_Main theme song Winds across the Plains
 
 //アドレスパッチとして実装します
 TYPE=ADDR
