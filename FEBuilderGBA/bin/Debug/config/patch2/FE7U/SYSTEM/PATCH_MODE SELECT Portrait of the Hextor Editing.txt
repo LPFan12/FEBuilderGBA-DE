@@ -1,5 +1,6 @@
 NAME=MODE SELECT 顔画像 ヘクトル編
-NAME.en=MODE SELECT Portrait of the Hextor Editing
+NAME.en=MODE SELECT Portrait of the Hector Editing
+NAME.de=MODE SELECT Portrait of the Hector Editing
 
 //アドレスパッチとして実装します
 TYPE=ADDR
