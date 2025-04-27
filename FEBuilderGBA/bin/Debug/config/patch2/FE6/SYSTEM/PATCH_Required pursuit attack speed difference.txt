@@ -1,6 +1,7 @@
 
 NAME=要追撃攻速差
-NAME.en=Changing the Universal Doubling Threshold(attack speend)
+NAME.en=Changing the Universal Doubling Threshold(attack speed)
+NAME.de=Changing the Universal Doubling Threshold(attack speed)
 NAME.zh=追击攻速差
 
 //アドレスパッチとして実装します
