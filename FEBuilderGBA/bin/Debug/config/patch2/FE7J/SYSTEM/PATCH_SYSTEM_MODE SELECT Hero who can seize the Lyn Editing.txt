@@ -1,6 +1,7 @@
 
 NAME=MODE SELECT 制圧可能な主人公 リン編
 NAME.en=MODE SELECT Hero who can seize the Lyn Editing
+NAME.de=MODE SELECT Hero who can seize the Lyn Editing
 
 //アドレスパッチとして実装します
 TYPE=ADDR
