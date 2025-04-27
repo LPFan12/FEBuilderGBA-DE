@@ -1,5 +1,6 @@
 NAME=MUSIC_闘技場バトル
 NAME.en=MUSIC_Victory Now!
+NAME.de=MUSIC_Victory Now!
 
 
 //アドレスパッチとして実装します
