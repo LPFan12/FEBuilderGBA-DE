@@ -1,5 +1,6 @@
 NAME=イドゥンを倒した時にBGMを停止しない
-NAME.en=Don't stop BGM when Defeat Idun
+NAME.en=Don't stop BGM when Defeat Idunn
+NAME.de=Don't stop BGM when Defeat Idunn
 
 //アドレスパッチとして実装します
 TYPE=SWITCH
