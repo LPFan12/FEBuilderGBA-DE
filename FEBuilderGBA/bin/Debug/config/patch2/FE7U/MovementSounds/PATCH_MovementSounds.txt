@@ -1,5 +1,6 @@
 NAME=移動音
 NAME.en=MovementSounds
+NAME.de=MovementSounds
 NAME.zh=MovementSounds
 TYPE=STRUCT
 TAG=#ENGINE #MUSIC #SONG #SOUND #BGM
@@ -19,8 +20,10 @@ DATACOUNT=$GREP4 0x00 0x00 0x00 0x00
 LISTNAME=CLASS
 P0:$COMBO MovementSounds_combo.txt:.ja=Sound
 P0:$COMBO MovementSounds_combo.en.txt:.en=Sound
+P0:$COMBO MovementSounds_combo.de.txt:.de=Sound
 P0:$COMBO MovementSounds_combo.zh.txt:.zh=Sound
 
 INFO=クラスごとに足音(移動音)を設定します
 INFO.en=Set footsteps (moving sounds) for each class
+INFO.de=Set footsteps (moving sounds) for each class
 INFO.zh=为每个班级设置足迹（移动声音）
