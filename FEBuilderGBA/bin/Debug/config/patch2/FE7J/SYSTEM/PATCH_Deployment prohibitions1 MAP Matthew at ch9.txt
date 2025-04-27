@@ -1,5 +1,6 @@
 NAME=出撃禁止1 MAP (マシュー 9章)
 NAME.en=Deployment prohibitions1 MAP (Matthew at ch9)
+NAME.de=Deployment prohibitions1 MAP (Matthew at ch9)
 NAME.zh=Deployment prohibitions1 MAP (Matthew at ch9)
 
 //アドレスパッチとして実装します
@@ -14,4 +15,5 @@ AUTHOR=shuusuke https://discord.com/channels/144670830150811649/4700297817950781
 DEFAULT=0x9
 INFO=パーティに参加しているユニットを、特定の章で進撃準備画面から選べなくし、その章に参加できないようにします。
 INFO.en=prevent units in a party from being selected from the Prepare to Advance screen in certain chapters, preventing them from participating in those chapters.
+INFO.de=prevent units in a party from being selected from the Prepare to Advance screen in certain chapters, preventing them from participating in those chapters.
 INFO.zh=prevent units in a party from being selected from the Prepare to Advance screen in certain chapters, preventing them from participating in those chapters.
