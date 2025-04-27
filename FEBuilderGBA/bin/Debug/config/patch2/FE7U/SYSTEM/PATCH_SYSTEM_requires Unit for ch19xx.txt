@@ -1,10 +1,12 @@
-NAME=19ÍˆÙ“`‚É‚¢‚­‚½‚ß‚Ìƒ†ƒjƒbƒg
+NAME=19ç« ç•°ä¼ã«ã„ããŸã‚ã®ãƒ¦ãƒ‹ãƒƒãƒˆ
 NAME.en=Chapter 19xx branch: requires Unit
+NAME.de=Chapter 19xx branch: requires Unit
 NAME.zh=Chapter 19xx branch: requires Unit
 
-INFO=19ÍˆÙ“`‚É‚¢‚­‚½‚ß‚ÉƒŒƒxƒ‹‚ğ”äŠr‚³‚ê‚éƒ†ƒjƒbƒg‚ğw’è‚µ‚Ü‚·B(ƒfƒBƒtƒHƒ‹ƒg‚Í 0x26 ƒjƒ‹ƒX)
+INFO=19ç« ç•°ä¼ã«ã„ããŸã‚ã«ãƒ¬ãƒ™ãƒ«ã‚’æ¯”è¼ƒã•ã‚Œã‚‹ãƒ¦ãƒ‹ãƒƒãƒˆã‚’æŒ‡å®šã—ã¾ã™ã€‚(ãƒ‡ã‚£ãƒ•ã‚©ãƒ«ãƒˆã¯ 0x26 ãƒ‹ãƒ«ã‚¹)
 INFO.en=Unlocking chapter 19xx requires Unit. (This level +1, the default is 0x26 Nils)
-INFO.zh=Unlocking chapter 19xx requires Unit. (This level +1, the default is  0x26 Nils)
+INFO.de=Unlocking chapter 19xx requires Unit. (This level +1, the default is 0x26 Nils)
+INFO.zh=Unlocking chapter 19xx requires Unit. (This level +1, the default is 0x26 Nils)
 
 TYPE=ADDR
 TAG=#ENGINE
