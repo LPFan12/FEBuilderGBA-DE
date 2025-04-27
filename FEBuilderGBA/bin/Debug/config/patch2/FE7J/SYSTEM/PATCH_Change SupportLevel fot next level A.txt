@@ -1,5 +1,6 @@
 NAME=サポートレベルAになるサポート値
 NAME.en=Change SupportLevel fot next level A
+NAME.de=Change SupportLevel fot next level A
 
 //アドレスパッチとして実装します
 TYPE=ADDR
@@ -9,5 +10,6 @@ ADDRESS=0x026B26 0xC03448
 
 INFO=支援レベルAになれるサポート値 Default:0xF0
 INFO.en=Support value that can reach support level A. Default:0xF0
+INFO.de=Support value that can reach support level A. Default:0xF0
 NAME.zh=达到支撑级别A的支撑值。
 INFO.zh=可以达到支撑级别A的支撑值。 Default:0xF0
