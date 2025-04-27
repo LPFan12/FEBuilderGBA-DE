@@ -1,4 +1,5 @@
 NAME=ER_BG
+NAME.de=ER_BG
 
 TYPE=IMAGE
 
