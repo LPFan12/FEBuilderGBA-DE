@@ -1,6 +1,7 @@
 
 NAME=OPLOGO剣
 NAME.en=OPLOGO Sword
+NAME.de=OPLOGO Sword
 
 //画像パッチとして実装します
 TYPE=IMAGE
