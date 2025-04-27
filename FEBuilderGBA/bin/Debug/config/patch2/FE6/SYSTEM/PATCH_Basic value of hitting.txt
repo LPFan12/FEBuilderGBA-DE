@@ -1,5 +1,6 @@
 NAME=杖命中の基礎値
 NAME.en=Staff Basal Hit Value(Modifying status staff accuracy)
+NAME.de=Staff Basal Hit Value(Modifying status staff accuracy)
 NAME.zh=杖命中的基础值
 
 //アドレスパッチとして実装します
@@ -11,5 +12,6 @@ HEX=false
 
 INFO=杖の命中率の基礎値となる値を定義します。
 INFO.en=Define the value that will be the base value of the staff's hit rate.
+INFO.de=Define the value that will be the base value of the staff's hit rate.
 INFO.zh=定义将成为魔杖命中率基值的值。\r\n它用于狂暴，睡眠，沉默等。
 AUTHOR=DumbFE6Fan https://feuniverse.us/t/fe6-modifying-staff-accuracy/5578/4
