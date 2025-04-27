@@ -5,6 +5,9 @@ INFO=ロイがCCするASMイベントで、昇格するRoyのユニットIDを�
 NAME.en=Roy's Promotion UnitID
 INFO.en=ASM event that Roy promotion's, specifying the unit ID of Roy to be promoted.
 
+NAME.de=Roy's Promotion UnitID
+INFO.de=ASM event that Roy promotion's, specifying the unit ID of Roy to be promoted.
+
 //アドレスパッチとして実装します
 TYPE=ADDR
 TAG=#ENGINE
