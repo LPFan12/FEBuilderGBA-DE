@@ -4,6 +4,9 @@ INFO=バリスタ(アーチ)に騎兵を乗せた直後にBボタンを押すと
 NAME.en=Fixed glitch when canto ballista with cavalry ride it
 INFO.en=Pressing B immediately after placing a cavalryman on a ballista (arch) would cause a CANTO.\r\nWhen this happens, the attack menu will appear even after the CANTO, and if you select it, the game will freeze. This patch avoids this glitch by disallowing units on ballistae to canto re-move.
 
+NAME.de=Fixed glitch when canto ballista with cavalry ride it
+INFO.de=Pressing B immediately after placing a cavalryman on a ballista (arch) would cause a CANTO.\r\nWhen this happens, the attack menu will appear even after the CANTO, and if you select it, the game will freeze. This patch avoids this glitch by disallowing units on ballistae to canto re-move.
+
 
 TYPE=EA
 EA=NoBallistaCanto_installer.event
