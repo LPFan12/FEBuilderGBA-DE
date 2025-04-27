@@ -1,5 +1,6 @@
 NAME=MUSIC_杖1_Healing
 NAME.en=Healing Staff BGM
+NAME.de=Healing Staff BGM
 //アドレスパッチとして実装します
 TYPE=ADDR
 TAG=#MUSIC #SONG #SOUND #BGM
