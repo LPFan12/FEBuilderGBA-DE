@@ -1,4 +1,3 @@
-
 NAME=世界地図
 
 //画像パッチとして実装します
@@ -12,5 +11,6 @@ PALETTE=1
 ZIMAGE_POINTER=0x07A664
 PALETTE_POINTER=0x07A66C
 
-NAME.en=world map
+NAME.en=World Map
+NAME.de=Weltenkarte
 NAME.zh=世界地图
