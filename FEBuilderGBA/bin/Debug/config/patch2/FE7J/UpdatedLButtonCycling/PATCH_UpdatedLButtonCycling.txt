@@ -12,6 +12,9 @@ INFO=バニラFE8では、通常のゲームプレイ中に「L」を押すと�
 NAME.en=Updated L Button Cycling
 INFO.en=In vanilla FE8, pressing "L" during normal gameplay will move the cursor to the next ally unit that can act, regardless of where the cursor currently is. In FE11, if the cursor is on an enemy unit, the cursor will instead go to the next enemy unit. This modification brings that change to FE8.
 
+NAME.de=Updated L Button Cycling
+INFO.de=In vanilla FE8, pressing "L" during normal gameplay will move the cursor to the next ally unit that can act, regardless of where the cursor currently is. In FE11, if the cursor is on an enemy unit, the cursor will instead go to the next enemy unit. This modification brings that change to FE8.
+
 NAME.zh=Updated L Button Cycling
 INFO.zh=In vanilla FE8, pressing "L" during normal gameplay will move the cursor to the next ally unit that can act, regardless of where the cursor currently is. In FE11, if the cursor is on an enemy unit, the cursor will instead go to the next enemy unit. This modification brings that change to FE8.
 
