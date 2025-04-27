@@ -1,4 +1,5 @@
 NAME=MainMenu
+NAME.de=MainMenu
 
 AUTHOR=laqieer
 
