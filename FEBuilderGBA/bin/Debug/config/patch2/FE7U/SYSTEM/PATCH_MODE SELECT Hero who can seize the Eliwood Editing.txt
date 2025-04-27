@@ -1,5 +1,6 @@
 NAME=MODE SELECT 制圧可能な主人公 エリウッド編
 NAME.en=MODE SELECT Hero who can seize the Eliwood Editing
+NAME.de=MODE SELECT Hero who can seize the Eliwood Editing
 
 //アドレスパッチとして実装します
 TYPE=ADDR
