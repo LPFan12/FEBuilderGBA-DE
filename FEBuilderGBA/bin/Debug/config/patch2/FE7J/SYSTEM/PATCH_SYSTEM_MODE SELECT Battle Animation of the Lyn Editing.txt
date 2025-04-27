@@ -1,6 +1,7 @@
 
 NAME=MODE SELECT 戦闘アニメ リン編
 NAME.en=MODE SELECT Battle Animation of the Lyn Editing
+NAME.de=MODE SELECT Battle Animation of the Lyn Editing
 
 //アドレスパッチとして実装します
 TYPE=ADDR
