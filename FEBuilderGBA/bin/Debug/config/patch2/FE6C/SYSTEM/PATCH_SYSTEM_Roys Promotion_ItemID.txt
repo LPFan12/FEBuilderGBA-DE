@@ -5,6 +5,9 @@ INFO=ロイがCCするASMイベントで、昇格に利用するアイテムID�
 NAME.en=Roy's Promotion ItemID
 INFO.en=Specify the item ID to be used for promotion in Roy's Promotion ASM event.\r\nThis is only used to display the screen, so it does not matter what you specify.
 
+NAME.de=Roy's Promotion ItemID
+INFO.de=Specify the item ID to be used for promotion in Roy's Promotion ASM event.\r\nThis is only used to display the screen, so it does not matter what you specify.
+
 //アドレスパッチとして実装します
 TYPE=ADDR
 TAG=#ENGINE
