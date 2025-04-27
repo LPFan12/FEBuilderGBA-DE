@@ -1,6 +1,7 @@
 
 NAME=道具屋の女性の顔画像
 NAME.en=Portrait ID for vendor woman
+NAME.de=Portrait ID for vendor woman
 
 //アドレスパッチとして実装します
 TYPE=ADDR
@@ -15,5 +16,6 @@ AUTHOR= SageMatthis/EgalLau37
 
 INFO=道具屋の女性の顔画像
 INFO.en=Portrait ID for the character portrait to display in the vendor.
+INFO.de=Portrait ID for the character portrait to display in the vendor.
 NAME.zh=工具店里一个女人的脸。
 INFO.zh=工具店里一个女人的脸。
