@@ -1,5 +1,6 @@
 NAME=MUSIC_戦績
 NAME.en=Record Reel BGM
+NAME.de=Record Reel BGM
 //アドレスパッチとして実装します
 TYPE=ADDR
 TAG=#MUSIC #SONG #SOUND #BGM
