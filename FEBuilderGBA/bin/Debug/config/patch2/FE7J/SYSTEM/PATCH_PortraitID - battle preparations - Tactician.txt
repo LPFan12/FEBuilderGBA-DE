@@ -1,6 +1,7 @@
 
 NAME=軍師の顔画像
 NAME.en=Portrait ID for Tactician
+NAME.de=Portrait ID for Tactician
 
 //アドレスパッチとして実装します
 TYPE=ADDR
@@ -15,5 +16,6 @@ AUTHOR= SageMatthis/EgalLau37
 
 INFO=進撃準備画面の軍師に対して表示する顔画像。
 INFO.en=Portrait ID for the character portrait to display during Tactician in the battle preparations screen.
+INFO.de=Portrait ID for the character portrait to display during Tactician in the battle preparations screen.
 NAME.zh=战士的面孔形象。
 INFO.zh=在提前准备屏幕上显示给战士的面部图像。
