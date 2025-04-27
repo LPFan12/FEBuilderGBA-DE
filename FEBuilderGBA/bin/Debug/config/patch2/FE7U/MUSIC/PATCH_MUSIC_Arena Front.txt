@@ -1,5 +1,6 @@
 NAME=MUSIC_闘技場_受付
 NAME.en=Arena Entrance BGM
+NAME.de=Arena Entrance BGM
 //アドレスパッチとして実装します
 TYPE=ADDR
 TAG=#MUSIC #SONG #SOUND #BGM
