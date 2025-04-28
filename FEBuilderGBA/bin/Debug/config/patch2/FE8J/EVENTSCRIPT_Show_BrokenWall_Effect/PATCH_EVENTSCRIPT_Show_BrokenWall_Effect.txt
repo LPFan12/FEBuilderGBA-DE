@@ -20,6 +20,12 @@ INFO.en=In FE7, there is an event where the ceiling collapses at the beginning o
 EVENTSCRIPT:1.en=400D0000{$L1:ASMC_Show_BrokenWall_Effect.dmp}	Show BrokenWall Effect(LOW)
 EVENTSCRIPT:2.en=40050100XX00000040050200YY00000040050300ZZ00000040050400WWWW0000400D0000{$L1:ASMC_Show_BrokenWall_Effect.dmp}	Show BrokenWall Effect[XX:MAPX:X][YY:MAPY:Y][ZZ:DIRECTION:Direction][WW:DECIMAL:Count]
 
+NAME.de=Add Event: Show BrokenWall Effect
+INFO.de=In FE7, there is an event where the ceiling collapses at the beginning of the basement of the desert and a wall is created, and the party is divided.\r\nThe instruction used in this event is valid for FE8.\r\nThis patch allows the instruction to be called from an event.
+
+EVENTSCRIPT:1.de=400D0000{$L1:ASMC_Show_BrokenWall_Effect.dmp}	Show BrokenWall Effect(LOW)
+EVENTSCRIPT:2.de=40050100XX00000040050200YY00000040050300ZZ00000040050400WWWW0000400D0000{$L1:ASMC_Show_BrokenWall_Effect.dmp}	Show BrokenWall Effect[XX:MAPX:X][YY:MAPY:Y][ZZ:DIRECTION:Direction][WW:DECIMAL:Count]
+
 NAME.zh=Add Event: Show BrokenWall Effect
 INFO.zh=In FE7, there is an event where the ceiling collapses at the beginning of the basement of the desert and a wall is created, and the party is divided.\r\nThe instruction used in this event is valid for FE8.\r\nThis patch allows the instruction to be called from an event.
 
