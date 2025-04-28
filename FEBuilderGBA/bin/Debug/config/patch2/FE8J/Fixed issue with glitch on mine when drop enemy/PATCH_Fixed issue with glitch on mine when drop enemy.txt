@@ -3,6 +3,7 @@ TYPE=BIN
 TAG=#ENGINE #ESSENTIALFIXES
 
 NAME.en=Fixed issue with glitch on mine when drop enemy
+NAME.de=Fixed issue with glitch on mine when drop enemy
 
 //既に適応されたかどうか
 PATCHED_IF:0x32108=0x00 0x4B 0x9F 0x46
