@@ -1,5 +1,6 @@
 NAME=敵将強制アニメON時に背景ありでアニメを開始する
 NAME.en=When Boss Animation ON,Start animation with background
+NAME.de=When Boss Animation ON,Start animation with background
 TYPE=BIN
 TAG=#ENGINE
 
@@ -18,6 +19,7 @@ JUMP:0x05896C:$r3=Boss Animation ON BGON.dmp
 INFO=設定でアニメをオフにしても、ボスフラグを持つ敵と戦うときは、強制的にアニメーションを背景ありでONにします。\r\nこのパッチは、「敵将強制アニメON」と同時に利用してください。\r\nこのパッチは、設定でバトル1でもボスと戦う場合は、背景ありで開始します。
 
 INFO.en=Even if you turn off animation in settings, when you fight an enemy with a boss flag, turn on animation forcibly.\r\nPlease use the patch at the same time as "Boss Animation ON".\r\nThis patch starts with a background if you want to fight the boss in Battle 1 in the settings.
+INFO.de=Even if you turn off animation in settings, when you fight an enemy with a boss flag, turn on animation forcibly.\r\nPlease use the patch at the same time as "Boss Animation ON".\r\nThis patch starts with a background if you want to fight the boss in Battle 1 in the settings.
 
 INFO.zh=即使您在设置中关闭动画，当您使用敌将标志与敌人战斗时，也会强行打开动画。\r\nPlease use the patch at the same time as "敌将强制动画开启".\r\n\r\nThis patch starts with a background if you want to fight the boss in Battle 1 in the settings.
 
