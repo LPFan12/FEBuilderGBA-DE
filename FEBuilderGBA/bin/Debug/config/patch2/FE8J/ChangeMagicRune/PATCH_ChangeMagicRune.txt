@@ -30,5 +30,8 @@ W6:$COMBO Color.combo.txt=Color
 NAME.en=Change the color of runes in battle animations(Editor)
 INFO.en=Anything not listed will have the default behavior.\r\n\r\nChanges the color of the magic circle of runes in battle animations.\r\nChanges the color of the magic circle rules drawn when activating magic in the wizard and sage battle animations.\r\nDefaults to always blue, but can be changed to a different color for each item or affiliation.
 
+NAME.de=Change the color of runes in battle animations(Editor)
+INFO.de=Anything not listed will have the default behavior.\r\n\r\nChanges the color of the magic circle of runes in battle animations.\r\nChanges the color of the magic circle rules drawn when activating magic in the wizard and sage battle animations.\r\nDefaults to always blue, but can be changed to a different color for each item or affiliation.
+
 NAME.zh=Change the color of runes in battle animations(Editor)
 INFO.zh=Anything not listed will have the default behavior.\r\n\r\nChanges the color of the magic circle of runes in battle animations.\r\nChanges the color of the magic circle rules drawn when activating magic in the wizard and sage battle animations.\r\nDefaults to always blue, but can be changed to a different color for each item or affiliation.
