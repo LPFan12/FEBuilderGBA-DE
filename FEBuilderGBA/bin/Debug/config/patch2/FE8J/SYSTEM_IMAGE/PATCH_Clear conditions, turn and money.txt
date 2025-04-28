@@ -1,5 +1,6 @@
 NAME=クリア条件、ターンや所持金
 NAME.en=Clear conditions, turn and money
+NAME.de=Clear conditions, turn and money
 NAME.zh=Clear conditions, turn and money
 
 TYPE=IMAGE
