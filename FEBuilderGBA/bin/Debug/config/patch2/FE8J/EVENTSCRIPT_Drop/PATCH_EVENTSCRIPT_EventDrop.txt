@@ -1,5 +1,6 @@
 ﻿NAME=強制的に救出しているユニットを降ろします(イベント命令)
 NAME.en=Add Event: Force drop to Event
+NAME.de=Add Event: Force drop to Event
 NAME.zh=强行放下该人物(Add Event)
 
 TYPE=BIN
@@ -14,6 +15,8 @@ EVENTSCRIPT:2=40050100XXXXYYYY40050200ZZZZWWWW400D0000{$L1:DropEvent.dmp}	[XX:MA
 
 EVENTSCRIPT:1.en=400D0000{$L1:DropEvent.dmp}	Unit at the coordinate SVAL1 Drop the unit at the coordinate of SVAL2(LOW)	{UNIT}
 EVENTSCRIPT:2.en=40050100XXXXYYYY40050200ZZZZWWWW400D0000{$L1:DropEvent.dmp}	Unit at the coordinate [XX:MAPX:X1],[YY:MAPY:Y1] Drop the unit at the coordinate of [ZZ:MAPX:X2],[WW:MAPY:Y2]	{UNIT}
+EVENTSCRIPT:1.de=400D0000{$L1:DropEvent.dmp}	Unit at the coordinate SVAL1 Drop the unit at the coordinate of SVAL2(LOW)	{UNIT}
+EVENTSCRIPT:2.de=40050100XXXXYYYY40050200ZZZZWWWW400D0000{$L1:DropEvent.dmp}	Unit at the coordinate [XX:MAPX:X1],[YY:MAPY:Y1] Drop the unit at the coordinate of [ZZ:MAPX:X2],[WW:MAPY:Y2]	{UNIT}
 
 EVENTSCRIPT:1.zh=400D0000{$L1:DropEvent.dmp}	坐标SVAL1处的人物在SVAL2的坐标处放下人物(LOW)	{UNIT}
 EVENTSCRIPT:2.zh=40050100XXXXYYYY40050200ZZZZWWWW400D0000{$L1:DropEvent.dmp}	坐标[XX:MAPX:X1],[YY:MAPY:Y1]处的人物在[ZZ:MAPX:X2],[WW:MAPY:Y2]的坐标处放下人物	{UNIT}
