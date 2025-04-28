@@ -1,5 +1,6 @@
 NAME=Hold A to speed up movement
 NAME.en=Enable Faster Movement By Holding A
+NAME.de=Enable Faster Movement By Holding A
 TYPE=ADDR
 TAG=#ENGINE #ESSENTIALFIXES
 
@@ -14,6 +15,7 @@ INFO.zh=按住A加速移动
 AUTHOR.zh=credit Gryz
 
 INFO.en=Toggles whether game completion is required or not to allow for speeding up movement by holding A.\r\n
+INFO.de=Toggles whether game completion is required or not to allow for speeding up movement by holding A.\r\n
 
 CONFLICT_IF:0x89268=0x00 0x4B 0x9F 0x46
 CONFLICT_MESSAGE=FE8N Skill Extends
