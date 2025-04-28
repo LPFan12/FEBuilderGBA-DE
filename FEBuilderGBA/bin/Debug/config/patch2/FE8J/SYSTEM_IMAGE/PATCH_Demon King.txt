@@ -1,5 +1,6 @@
 NAME=魔王
 NAME.en=Demon King Image (Whole)
+NAME.de=Demon King Image (Whole)
 
 TYPE=IMAGE
 TAG=#IMAGE
@@ -17,5 +18,6 @@ AUTHOR=qps https://feuniverse.us/t/fe-builder-gba/2845/570
 NAME.zh=魔王
 INFO=これは表示用に用意しています。データを編集は未対応です。TSAで共有されているためです。
 WARNING=1
-INFO.en=It is provided for display purposes.Edit data is not supported.Because it's shared by the TSA.
+INFO.en=It is provided for display purposes. Edit data is not supported. Because it's shared by the TSA.
+INFO.de=It is provided for display purposes. Edit data is not supported. Because it's shared by the TSA.
 INFO.zh=它用于显示目的。不支持编辑数据。因为它由 TSA 共享。
