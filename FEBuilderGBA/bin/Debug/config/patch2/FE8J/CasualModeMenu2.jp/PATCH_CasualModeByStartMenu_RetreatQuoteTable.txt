@@ -20,5 +20,7 @@ B1:MAP_ANYFF=MAP(FF=ANY)
 W2:TEXT=Text
 NAME.en=Casual mode(Menu at game start)(RetreatQuoteTable)
 INFO.en=When starting from the beginning, the casual mode selection screen is displayed after the difficulty level selection.\r\nWith this patch, you can set the message to display when withdrawing.\r\nIf no withdrawal text is available, the default death line will be used.
+NAME.de=Casual mode(Menu at game start)(RetreatQuoteTable)
+INFO.de=When starting from the beginning, the casual mode selection screen is displayed after the difficulty level selection.\r\nWith this patch, you can set the message to display when withdrawing.\r\nIf no withdrawal text is available, the default death line will be used.
 NAME.zh=Casual mode(Menu at game start)(RetreatQuoteTable)
 INFO.zh=When starting from the beginning, the casual mode selection screen is displayed after the difficulty level selection.\r\nWith this patch, you can set the message to display when withdrawing.\r\nIf no withdrawal text is available, the default death line will be used.
