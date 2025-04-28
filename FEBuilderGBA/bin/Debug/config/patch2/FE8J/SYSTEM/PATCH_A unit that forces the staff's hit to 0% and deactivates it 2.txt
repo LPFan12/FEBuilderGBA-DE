@@ -1,6 +1,7 @@
 
 NAME=杖の命中を強制的に0%にして、無効化するユニット2
 NAME.en=These unit force the staff to hit 0% and deactivate 2
+NAME.de=These unit force the staff to hit 0% and deactivate 2
 
 //アドレスパッチとして実装します
 TYPE=ADDR
@@ -12,6 +13,7 @@ AUTHOR=7743
 
 INFO=これらのユニットは、スリープ、バサーク、サイレスの命中率の命中率を0%にします。\r\nディフォルトでは、0x6c リオンが設定されています。
 INFO.en=These unit have a hit rate of 0% for Sleep, Berserk, and Silence. By default, 0x6c Lyon.
+INFO.de=These unit have a hit rate of 0% for Sleep, Berserk, and Silence. By default, 0x6c Lyon.
 DEFAULT=0x6c
 
 
