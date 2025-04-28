@@ -1,5 +1,6 @@
 NAME=ドラゴンゾンビ
-NAME.en=DragonZonbe
+NAME.en=DragonZombie
+NAME.de=DragonZombie
 NAME.zh=僵尸龙动画
 
 TYPE=IMAGE
