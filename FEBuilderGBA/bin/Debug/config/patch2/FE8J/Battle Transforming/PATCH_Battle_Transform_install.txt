@@ -1,5 +1,6 @@
 ﻿NAME=戦闘変身パッチ(Install)
 NAME.en=Battle Transforming (Installer)
+NAME.de=Battle Transforming (Installer)
 TYPE=EA
 TAG=#ENGINE
 
@@ -13,6 +14,7 @@ INFO=戦闘時に、変身できるマムクートがクラスとアイテムを
 AUTHOR=Tequila ,UNKNOWN ,Aera, circleseverywhere. Transport by 7743 https://feuniverse.us/t/teqs-minor-assembly-shenanigans/1655/77
 
 INFO.en=Allows adding additional manakete classes and items that can transform.
+INFO.de=Allows adding additional manakete classes and items that can transform.
 NAME.zh=战斗変身补丁(Install)
 INFO.zh=在战斗中，增加可以改变的课程和项目。
 
