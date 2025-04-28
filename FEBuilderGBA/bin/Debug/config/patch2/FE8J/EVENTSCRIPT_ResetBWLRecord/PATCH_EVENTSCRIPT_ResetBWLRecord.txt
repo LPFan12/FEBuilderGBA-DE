@@ -12,12 +12,15 @@ INFO=指定したユニットの勝敗データ(BWLテーブル)をリセット�
 
 AUTHOR=7743
 NAME.en=Add Event: Reset BWL Record
+NAME.de=Add Event: Reset BWL Record
 
 EVENTSCRIPT=400DYY00{$L1:ASMC_ResetBWLRecord.dmp}	[YY:UNIT:ユニット]勝敗テーブル(BWL)をリセットする
 EVENTSCRIPT.en=400DYY00{$L1:ASMC_ResetBWLRecord.dmp}	[YY:UNIT:Unit]Reset BWL Record
+EVENTSCRIPT.de=400DYY00{$L1:ASMC_ResetBWLRecord.dmp}	[YY:UNIT:Unit]Reset BWL Record
 EVENTSCRIPT.zh=400DYY00{$L1:ASMC_ResetBWLRecord.dmp}	[YY:UNIT:人物]Reset BWL Record
 
 INFO.en=Resets the win / loss data (BWL table) of the specified unit.
+INFO.de=Resets the win / loss data (BWL table) of the specified unit.
 
 NAME.zh=从事件重置人物结果表（BWL）的指令
 INFO.zh=重置指定人物的赢/输数据(BWL表)
