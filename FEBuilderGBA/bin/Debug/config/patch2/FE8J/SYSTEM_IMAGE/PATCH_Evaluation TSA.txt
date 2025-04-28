@@ -1,5 +1,6 @@
 NAME=評価TSA
 NAME.en=Evaluation TSA
+NAME.de=Evaluation TSA
 NAME.zh=Evaluation TSA
 
 TYPE=IMAGE
