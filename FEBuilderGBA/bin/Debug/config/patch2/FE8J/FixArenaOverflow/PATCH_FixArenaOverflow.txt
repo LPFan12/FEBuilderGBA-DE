@@ -24,6 +24,7 @@ LISTNAME=$B0:DECIMAL
 B0:DECIMAL=Enemy's Lv >=
 B1:$COMBO useCap.combo.jp.txt:.ja=useStatusCap
 B1:$COMBO useCap.combo.en.txt:.en=useStatusCap
+B1:$COMBO useCap.combo.de.txt:.de=useStatusCap
 B1:$COMBO useCap.combo.en.txt:.zh=useStatusCap
 B2:DECIMAL=add HP
 B3:DECIMAL=add Str
