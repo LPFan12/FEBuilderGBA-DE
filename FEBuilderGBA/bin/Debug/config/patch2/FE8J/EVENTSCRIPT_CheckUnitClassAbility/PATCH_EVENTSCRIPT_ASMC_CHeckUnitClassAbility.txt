@@ -1,5 +1,6 @@
 NAME=UnitClassの特性を判定(イベント命令)
 NAME.en=Add Event: CheckUnitClassAbility
+NAME.de=Add Event: CheckUnitClassAbility
 NAME.zh=Add Event: CheckUnitClassAbility
 
 TYPE=BIN
@@ -18,11 +19,15 @@ EVENTSCRIPT:2=40050100XXXX000040050200YYYYYYYY400D0000{$L1:ASMC_CheckUnitClassAb
 EVENTSCRIPT:1.en=400D0000{$L1:ASMC_CheckUnitClassAbility.dmp}	Check the unit and class ability from the Slot1 unit, compares it to the Slot2 value(LOW)	@STOREC
 EVENTSCRIPT:2.en=40050100XXXX000040050200YYYYYYYY400D0000{$L1:ASMC_CheckUnitClassAbility.dmp}	Determines have UnitClassAbility [YYYYYYYY:UNITCLASSABILITY:Ability] in [XX:UNIT:Unit]	@STOREC
 
+EVENTSCRIPT:1.de=400D0000{$L1:ASMC_CheckUnitClassAbility.dmp}	Check the unit and class ability from the Slot1 unit, compares it to the Slot2 value(LOW)	@STOREC
+EVENTSCRIPT:2.de=40050100XXXX000040050200YYYYYYYY400D0000{$L1:ASMC_CheckUnitClassAbility.dmp}	Determines have UnitClassAbility [YYYYYYYY:UNITCLASSABILITY:Ability] in [XX:UNIT:Unit]	@STOREC
+
 EVENTSCRIPT:1.zh=400D0000{$L1:ASMC_CheckUnitClassAbility.dmp}	Check the unit and class ability from the Slot1 unit, compares it to the Slot2 value(LOW)	@STOREC
 EVENTSCRIPT:2.zh=40050100XXXX000040050200YYYYYYYY400D0000{$L1:ASMC_CheckUnitClassAbility.dmp}	Determines have UnitClassAbility [YYYYYYYY:UNITCLASSABILITY:Ability] in [XX:UNIT:Unit]	@STOREC
 
 INFO=ユニットの特性とクラスの特性を持っているか判定します。\r\n上級職や女性、騎兵、盗賊の判定などに利用できます。
 INFO.en=Determine if it has the ability of the unit and the ability of the class.\r\nIt can be used for Promoted, Female, Cavalry, Thief, etc.
+INFO.de=Determine if it has the ability of the unit and the ability of the class.\r\nIt can be used for Promoted, Female, Cavalry, Thief, etc.
 INFO.zh=Determine if it has the ability of the unit and the ability of the class.\r\nIt can be used for Promoted, Female, Cavalry, Thief, etc.
 
 
