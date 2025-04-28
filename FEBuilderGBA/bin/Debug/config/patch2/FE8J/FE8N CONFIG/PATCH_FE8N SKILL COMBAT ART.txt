@@ -1,5 +1,6 @@
 NAME=FE8N SKILL COMBAT ART(Editor)
 NAME.en=FE8N SKILL COMBAT ART(Editor)
+NAME.de=FE8N SKILL COMBAT ART(Editor)
 NAME.zh=FE8N SKILL COMBAT ART(Editor)
 
 IF:0x892B8=0x08 0x00 0x00 0x00
@@ -32,4 +33,5 @@ B7:DECIMAL=DUMMY
 INFO=スキルが発動した時に受けられるボーナスを指定します。
 MAX_EXPLANDS_SIZE=0xFF
 INFO.en=Specifies the bonus you will receive when the skill is activated.
+INFO.de=Specifies the bonus you will receive when the skill is activated.
 INFO.zh=Specifies the bonus you will receive when the skill is activated.
