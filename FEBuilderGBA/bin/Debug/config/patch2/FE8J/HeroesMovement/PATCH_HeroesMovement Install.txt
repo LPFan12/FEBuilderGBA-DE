@@ -1,5 +1,6 @@
 NAME=HeroesMovement Standalone(Installer)
 NAME.en=HeroesMovement Standalone(Installer)
+NAME.de=HeroesMovement Standalone(Installer)
 TYPE=EA
 TAG=#ENGINE
 
@@ -14,6 +15,7 @@ AUTHOR=Original work: Stan / Porting: 7743
 INFO=StanのHeroesMovementをFE8Jに移植したものです。\r\nプレイヤーユニットが「体当たり」(Shove)、「突飛ばし」(Smite)、「回込み」(Pivot)、「引き戻し」(Reposition)、「入れ替え」(Swap)、を使えるようになります。\r\nもし、FE8N Skillが導入されていると、設定とは別に、スキルID0x3b～スキル0x3fでも設定できるようになります。
 
 INFO.en=This is a port of Stan's Heroes Movement to FE8J.\r\nThe player unit will be able to use 'Shove', 'Smite', 'Pivot', 'Reposition', 'Swap'.\r\nIf FE8N Skill is installed, you can also set skill ID 0x3b to skill 0x3f separately from setting.
+INFO.de=This is a port of Stan's Heroes Movement to FE8J.\r\nThe player unit will be able to use 'Shove', 'Smite', 'Pivot', 'Reposition', 'Swap'.\r\nIf FE8N Skill is installed, you can also set skill ID 0x3b to skill 0x3f separately from setting.
 
 INFO.zh=This is a port of Stan's Heroes Movement to FE8J.\r\nThe player unit will be able to use 'Shove', 'Smite', 'Pivot', 'Reposition', 'Swap'.\r\nIf FE8N Skill is installed, you can also set skill ID 0x3b to skill 0x3f separately from setting.
 
