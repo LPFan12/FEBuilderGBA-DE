@@ -1,5 +1,6 @@
 NAME=AnimNumbers 戦闘アニメでダメージのポップアップ 20230418(Install)
 NAME.en=AnimNumbers Damage pop-up in battle anime 20230418(Installer)
+NAME.de=AnimNumbers Damage pop-up in battle anime 20230418(Installer)
 NAME.zh=AnimNumbers Damage pop-up in battle anime 20230418(Installer)
 TYPE=EA
 TAG=#ENGINE
@@ -11,6 +12,7 @@ AUTHOR=Huichelaar
 
 INFO=戦闘スプライトの上に表示して数字を表示して、与えられたダメージ/ HPが回復したことをわかりやすく表現します。\r\nこのルーチンはLex Talionisにインスパイアされました。\r\nまた、シリアスな場面などで、数字を表示したくない時は、グローバルフラグ0xEEを有効にすると、数字を非表示にできます。
 INFO.en=Display numbers hovering over battle sprites indicating damage dealt/ HP healed.\r\nthis patch inspired by Lex Talionis.\r\nAlso, if you do not want to display the numbers in serious situations, you can hide the numbers by enabling the global flag 0xEE.
+INFO.de=Display numbers hovering over battle sprites indicating damage dealt/ HP healed.\r\nthis patch inspired by Lex Talionis.\r\nAlso, if you do not want to display the numbers in serious situations, you can hide the numbers by enabling the global flag 0xEE.
 INFO.zh=Display numbers hovering over battle sprites indicating damage dealt/ HP healed.\r\nthis patch inspired by Lex Talionis.\r\nAlso, if you do not want to display the numbers in serious situations, you can hide the numbers by enabling the global flag 0xEE.
 USEFLAG=0xEE
 
