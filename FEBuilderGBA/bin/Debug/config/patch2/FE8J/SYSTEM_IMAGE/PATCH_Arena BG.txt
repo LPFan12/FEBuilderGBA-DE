@@ -1,5 +1,6 @@
 NAME=闘技場背景
 NAME.en=Arena BG
+NAME.de=Arena BG
 NAME.zh=Arena BG
 
 TYPE=IMAGE
