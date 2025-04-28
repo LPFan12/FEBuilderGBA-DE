@@ -21,5 +21,7 @@ PALETTE=1
 KEEPPALETTE=true
 NAME.en=Casual mode (menu at game start) (Mode Select Graphics).
 INFO.en=When starting from the beginning, the casual mode selection screen is displayed after the difficulty level selection.\r\nWith this patch, you can change the menu image displayed at that time.
+NAME.de=Casual mode (menu at game start) (Mode Select Graphics).
+INFO.de=When starting from the beginning, the casual mode selection screen is displayed after the difficulty level selection.\r\nWith this patch, you can change the menu image displayed at that time.
 NAME.zh=休闲模式（游戏开始时的菜单）（模式选择图形）。
 INFO.zh=从头开始时，在选择难度等级后会显示休闲模式选择屏幕。\r\n使用此补丁程序，您可以更改当时显示的菜单图像。
