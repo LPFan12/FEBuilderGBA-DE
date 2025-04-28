@@ -1,4 +1,5 @@
-﻿NAME.zh=音乐_转职
+NAME=MUSIC_CC_Promotion
+NAME.zh=音乐_转职
 
 //アドレスパッチとして実装します
 TYPE=ADDR
@@ -8,3 +9,4 @@ ADDRESS=0x08074c06
 ADDRESS_TYPE=SONG
 
 NAME.en=MUSIC_CC_Promotion
+NAME.de=MUSIC_CC_Promotion
