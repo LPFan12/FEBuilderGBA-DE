@@ -17,7 +17,10 @@ NAME.zh=事件命令_所持金没收(Add Event)
 INFO.zh=从所持有的钱上，被指定金额.
 NAME.en=Add Event: Lose Gold
 INFO.en=Patches the ROM with a callable event that removes a specified amount of gold from the player.\r\n
+NAME.de=Add Event: Lose Gold
+INFO.de=Patches the ROM with a callable event that removes a specified amount of gold from the player.\r\n
 
 EVENTSCRIPT.en=400DYYYY{$L1:gold_collect.bin}	[YYYY:DECIMAL:Gold] confiscated money	{GOLD}
+EVENTSCRIPT.de=400DYYYY{$L1:gold_collect.bin}	[YYYY:DECIMAL:Gold] confiscated money	{GOLD}
 EVENTSCRIPT.zh=400DYYYY{$L1:gold_collect.bin}	[YYYY:DECIMAL:Gold]没收钱	{GOLD}
 
