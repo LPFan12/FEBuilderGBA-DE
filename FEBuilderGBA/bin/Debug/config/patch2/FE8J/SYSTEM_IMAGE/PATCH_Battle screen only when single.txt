@@ -1,5 +1,6 @@
 NAME=戦闘画面_単独時のみ
 NAME.en=Battle screen only when single
+NAME.de=Battle screen only when single
 
 TYPE=IMAGE
 
@@ -14,5 +15,6 @@ INFO=FE8の画面の中央には、マークが存在します。\r\n単独時�
 KEEPIMAGE=true
 KEEPTSA=true
 INFO.en=In the middle of the screen of FE 8, there is a mark.\r\nIn the battle screen when you are alone, this pattern is an obstacle, so removal is done by this special TSA.\r\nThis process exists only in FE 8.
+INFO.de=In the middle of the screen of FE 8, there is a mark.\r\nIn the battle screen when you are alone, this pattern is an obstacle, so removal is done by this special TSA.\r\nThis process exists only in FE 8.
 NAME.zh=战斗屏幕_只有它是单一的
 INFO.zh=在FE 8的屏幕中间，有一个标记。\r\n在你独处的战斗画面中，这种模式是一个障碍，因此这种特殊的TSA可以完成删除。\r\n此过程仅存在于FE 8中。
