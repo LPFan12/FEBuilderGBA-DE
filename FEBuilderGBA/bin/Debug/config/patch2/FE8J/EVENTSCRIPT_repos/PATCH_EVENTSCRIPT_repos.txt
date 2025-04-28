@@ -24,6 +24,13 @@ EVENTSCRIPT:2.en=40050B00ZZZZWWWW410DXXYY{$L1:repos.dmp}	Move instantly, unit of
 EVENTSCRIPT:3.en=400DXXYY{$L1:repos_current_unit.dmp}	Move instantly, the unit under operation to [XX:MAPX:Dest X][YY:MAPY:Dest Y]	{UNIT}
 EVENTSCRIPT:4.en=410DXXYY{$L1:repos_current_unit.dmp}	Move instantly, the unit under operation to [XX:MAPX:Dest X][YY:MAPY:Dest Y].However, if the destination is blocked, it will not move.	{UNIT}
 
+NAME.de=Add Event: Instantaneously moving a unit at a specific coordinate to another coordinate
+INFO.de=Move the unit at a specific location instantaneously to a specific place.\r\nUnlike existing instructions, there is no problem even if the unit does not exist.\r\nAlso, when the transfer destination is blocked, flexible setting such as not transfer can be done.\r\nThere is also a special instruction to skip the unit under operation.This is because the coordinate of the unit under operation has not yet been determined if it is executed under the range condition.\r\nTherefore, I prepared a dedicated instruction.
+
+EVENTSCRIPT:1.de=40050B00ZZZZWWWW400DXXYY{$L1:repos.dmp}	Move instantly, unit of coordinate [ZZ:MAPX:Src X][WW:MAPY:Src Y] to coordinate [XX:MAPX:Dest X][YY:MAPY:Dest Y]	{UNIT}
+EVENTSCRIPT:2.de=40050B00ZZZZWWWW410DXXYY{$L1:repos.dmp}	Move instantly, unit of coordinate [ZZ:MAPX:Src X][WW:MAPY:Src Y] to coordinate [XX:MAPX:Dest X][YY:MAPY:Dest Y].However, if the destination is blocked, it will not move.	{UNIT}
+EVENTSCRIPT:3.de=400DXXYY{$L1:repos_current_unit.dmp}	Move instantly, the unit under operation to [XX:MAPX:Dest X][YY:MAPY:Dest Y]	{UNIT}
+EVENTSCRIPT:4.de=410DXXYY{$L1:repos_current_unit.dmp}	Move instantly, the unit under operation to [XX:MAPX:Dest X][YY:MAPY:Dest Y].However, if the destination is blocked, it will not move.	{UNIT}
 
 NAME.zh=事件命令即时将特定坐标处的人物移动到另一个坐标(Add Event)
 INFO.zh=将设备瞬间移动到特定位置到特定位置。\r\n与现有说明不同，即使人物不存在也没有问题。\r\n此外，当传送目的地被阻止时，可以进行诸如不传送的灵活设置。\r\n还有一条特殊指令可以跳过正在运行的人物。这是因为如果在范围条件下执行，则尚未确定正在运行的人物的坐标。\r\n因此，我准备了专门的指导。
