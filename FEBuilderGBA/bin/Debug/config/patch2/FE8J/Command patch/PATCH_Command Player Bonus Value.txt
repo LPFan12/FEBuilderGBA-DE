@@ -1,10 +1,12 @@
 NAME=指揮パッチ プレイヤーボーナス値
 NAME.en=LeadershipStar Player Bonus Value
+NAME.de=LeadershipStar Player Bonus Value
 NAME.zh=LeadershipStar Player Bonus Value
 
 IF:0x2a960=0x00 0x49 0x8F 0x46
 INFO=指揮の星1つごとに受ける味方の回避命中率のボーナス値を設定します。(ディフォルト値は3です)
 INFO.en=Set the bonus value of the evasion hit rate of the enemy received for each star of LeadershipStar.(The default value is 3)
+INFO.de=Set the bonus value of the evasion hit rate of the enemy received for each star of LeadershipStar.(The default value is 3)
 INFO.zh=Set the bonus value of the evasion hit rate of the enemy received for each star of LeadershipStar.(The default value is 3)
 
 //STRUCTパッチとして実装します
