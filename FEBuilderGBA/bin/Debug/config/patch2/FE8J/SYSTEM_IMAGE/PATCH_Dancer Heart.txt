@@ -1,10 +1,12 @@
 NAME=Dancer's Heart
 NAME.en=Dancer's Heart
+NAME.de=Dancer's Heart
 NAME.zh=Dancer's Heart
 
 INFO=おそらくボツ画像
-INFO.en=Probably a unuse image
-INFO.zh=Probably a unuse image
+INFO.en=Probably a unused image
+INFO.de=Probably a unused image
+INFO.zh=Probably a unused image
 
 TYPE=IMAGE
 
