@@ -13,6 +13,7 @@ INFO=プレイヤーユニットを殺して死亡させます。\r\nUNCM(UNIT,0
 
 AUTHOR=7743
 NAME.en=Add Event: Death to Player Unit
+NAME.de=Add Event: Death to Player Unit
 
 EVENTSCRIPT=400DYY00{$L1:ASMC_KillPlayerUnit.dmp}	[YY:UNIT:ユニット]プレイヤーユニットを死亡させる
 EVENTSCRIPT.en=400DYY00{$L1:ASMC_KillPlayerUnit.dmp}	[YY:UNIT:Unit]Death to Player Unit
