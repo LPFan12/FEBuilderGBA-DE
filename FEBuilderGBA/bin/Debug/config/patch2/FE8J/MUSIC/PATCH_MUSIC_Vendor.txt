@@ -1,6 +1,7 @@
 NAME=MUSIC_道具屋
 NAME.zh=音乐_道具屋
 NAME.en=Shop BGM
+NAME.de=Shop BGM
 
 //アドレスパッチとして実装します
 TYPE=ADDR
