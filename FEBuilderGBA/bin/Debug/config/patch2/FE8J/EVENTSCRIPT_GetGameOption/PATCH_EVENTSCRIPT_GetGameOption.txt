@@ -22,6 +22,12 @@ INFO.en=Change game options from event script.\r\nThe value to set is the order 
 EVENTSCRIPT:1.en=400DXX00{$L1:ASMC_GetGameOption.dmp}	GetGameOption[XX:GAMEOPTION:Option]	@STOREC	{COND}
 EVENTSCRIPT:5.en=400DXXYY{$L1:ASMC_SetGameOption.dmp}	SetGameOption[XX:GAMEOPTION:Option][YY:GAMEOPTION_VALUE:NewValue]
 
+NAME.de=Add Event: GetGameOption,SetGameOption
+INFO.de=Change game options from event script.\r\nThe value to set is the order of choices on the game settings screen.\r\nCount as 0,1,2,3 ... from the left.\r\nFor example, battle animation off is aligned with Anime1, Anime2, OFF, so setting 2 turns it off.
+
+EVENTSCRIPT:1.de=400DXX00{$L1:ASMC_GetGameOption.dmp}	GetGameOption[XX:GAMEOPTION:Option]	@STOREC	{COND}
+EVENTSCRIPT:5.de=400DXXYY{$L1:ASMC_SetGameOption.dmp}	SetGameOption[XX:GAMEOPTION:Option][YY:GAMEOPTION_VALUE:NewValue]
+
 NAME.zh=Add Event: GetGameOption,SetGameOption
 INFO.zh=Change game options from event script.\r\nThe value to set is the order of choices on the game settings screen.\r\nCount as 0,1,2,3 ... from the left.\r\nFor example, battle animation off is aligned with Anime1, Anime2, OFF, so setting 2 turns it off.
 
