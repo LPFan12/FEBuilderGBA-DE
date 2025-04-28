@@ -1,5 +1,6 @@
 ﻿NAME=章のマップ戦闘地形の背景を動的に変更できるようにする
 NAME.en=AddEvent: Change Chapter Battle TerrainSet Dynamic
+NAME.de=AddEvent: Change Chapter Battle TerrainSet Dynamic
 
 TYPE=EA
 TAG=#EVENT
@@ -8,6 +9,8 @@ EA=Installer.event
 INFO=章の戦闘地形の背景をイベント命令から動的に変更できるようにします。\r\n例えば、雨が降り出したのに晴天のBattleBGを利用しているのは奇妙です。\r\nこのパッチはイベント命令から戦闘背景リストを変更することで柔軟な変更をできるようにします。\r\n注意:現在は背景だけです。戦闘の床は変更しません。\r\nデータはトラップデータ(0xED)として保持されるので、セーブにも反映されます。
 
 INFO.en=Allow the chapter's battle background to be changed dynamically from an event instruction.\r\nFor example, it's strange to use BattleBG in fine weather when it starts to rain.\r\nThis patch will allow flexible changes by modifying the battle background list from event orders.\r\nNote: Currently it's just the background. The battle floor will not be changed.\r\nThe data will be kept as trap data (0xED) and will be reflected in the save.
+
+INFO.de=Allow the chapter's battle background to be changed dynamically from an event instruction.\r\nFor example, it's strange to use BattleBG in fine weather when it starts to rain.\r\nThis patch will allow flexible changes by modifying the battle background list from event orders.\r\nNote: Currently it's just the background. The battle floor will not be changed.\r\nThe data will be kept as trap data (0xED) and will be reflected in the save.
 
 NAME.zh=AddEvent: Change Chapter Battle TerrainSet Dynamic
 INFO.zh=Allow the chapter's battle background to be changed dynamically from an event instruction.\r\nFor example, it's strange to use BattleBG in fine weather when it starts to rain.\r\nThis patch will allow flexible changes by modifying the battle background list from event orders.\r\nNote: Currently it's just the background. The battle floor will not be changed.\r\nThe data will be kept as trap data (0xED) and will be reflected in the save.
@@ -21,6 +24,9 @@ EVENTSCRIPT:2=40050100XXXX0000400D0000{$L1:SetBattleBattleBG.dmp}	章の戦闘�
 
 EVENTSCRIPT:1.en=400D0000{$L1:SetBattleBattleBG.dmp}	Change Dynamic Chapter Battle TerrainSet(LOW)
 EVENTSCRIPT:2.en=40050100XXXX0000400D0000{$L1:SetBattleBattleBG.dmp}	Change Dynamic Chapter Battle TerrainSet[XX:BATTLETERRAINSET:TerrainSet]
+
+EVENTSCRIPT:1.de=400D0000{$L1:SetBattleBattleBG.dmp}	Change Dynamic Chapter Battle TerrainSet(LOW)
+EVENTSCRIPT:2.de=40050100XXXX0000400D0000{$L1:SetBattleBattleBG.dmp}	Change Dynamic Chapter Battle TerrainSet[XX:BATTLETERRAINSET:TerrainSet]
 
 EVENTSCRIPT:1.zh=400D0000{$L1:SetBattleBattleBG.dmp}	Change Dynamic Chapter Battle TerrainSet(LOW)
 EVENTSCRIPT:2.zh=40050100XXXX0000400D0000{$L1:SetBattleBattleBG.dmp}	Change Dynamic Chapter Battle TerrainSet[XX:BATTLETERRAINSET:TerrainSet]
