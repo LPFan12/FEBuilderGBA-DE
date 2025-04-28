@@ -1,5 +1,6 @@
 ﻿NAME=難易度を変更する(イベント命令)
 NAME.en=Add Event: DifficultySwitching
+NAME.de=Add Event: DifficultySwitching
 NAME.zh=Add Event: DifficultySwitching
 
 TYPE=BIN
@@ -19,12 +20,16 @@ EVENTSCRIPT:02=40050100XX000000400D0000{$L1:fe8difficultyswitching.dmp}	難易�
 EVENTSCRIPT:01.en=400D0000{$L1:fe8difficultyswitching.dmp}	Difficulty Switching by Slot1(LOW)
 EVENTSCRIPT:02.en=40050100XX000000400D0000{$L1:fe8difficultyswitching.dmp}	Difficulty Switching[XX:DIFFICULTY:Difficulty]
 
+EVENTSCRIPT:01.de=400D0000{$L1:fe8difficultyswitching.dmp}	Difficulty Switching by Slot1(LOW)
+EVENTSCRIPT:02.de=40050100XX000000400D0000{$L1:fe8difficultyswitching.dmp}	Difficulty Switching[XX:DIFFICULTY:Difficulty]
+
 EVENTSCRIPT:01.zh=400D0000{$L1:fe8difficultyswitching.dmp}	Difficulty Switching by Slot1(LOW)
 EVENTSCRIPT:02.zh=40050100XX000000400D0000{$L1:fe8difficultyswitching.dmp}	Difficulty Switching[XX:DIFFICULTY:Difficulty]
 
 
 INFO=難易度をイベントから切り替えます。\r\nmode can be either 0 for Easy mode, 1 for normal mode, and 2 for hard mode.
 INFO.en=Change the difficulty level from the event.\r\nmode can be either 0 for Easy mode, 1 for normal mode, and 2 for hard mode.
+INFO.de=Change the difficulty level from the event.\r\nmode can be either 0 for Easy mode, 1 for normal mode, and 2 for hard mode.
 INFO.zh=Change the difficulty level from the event.\r\nmode can be either 0 for Easy mode, 1 for normal mode, and 2 for hard mode.
 
 
