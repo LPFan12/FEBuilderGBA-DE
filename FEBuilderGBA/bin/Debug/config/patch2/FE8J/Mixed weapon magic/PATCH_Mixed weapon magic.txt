@@ -1,10 +1,13 @@
 NAME=武器魔法混在
 INFO=武器魔法混在
 NAME.en=Mixed weapon magic
+NAME.de=Mixed weapon magic
 NAME.zh=混合武器的魔法
 INFO.en=Mix weapons and magic.
+INFO.de=Mix weapons and magic.
 AUTHOR=FE Girl's 移植7743
 AUTHOR.en=FE Girls Patch author. transport:7743
+AUTHOR.de=FE Girls Patch author. transport:7743
 
 TYPE=BIN
 TAG=#ENGINE
