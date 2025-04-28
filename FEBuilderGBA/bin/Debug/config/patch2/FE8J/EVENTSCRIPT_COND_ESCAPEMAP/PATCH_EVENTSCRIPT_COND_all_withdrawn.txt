@@ -18,10 +18,14 @@ INFO=離脱マップで全員離脱したかどうかを判定します。\r\n�
 AUTHOR=aera 出典元:https://github.com/ngmansion/FE8/tree/master/escapemap
 NAME.en=Add Event:COND Check whether all members have withdrawn
 INFO.en=Check whether all members have withdrawn from the withdrawal map.\r\nIf all members have withdrawn, 1 is returned.\r\nIt returns 0 if it is still there.\r\nThe result is returned in memory slot C.\r\nSample: https://cdn.discordapp.com/attachments/145137778710151168/630348123197407233/fe8U.WithdrawMap.Sample.7z
+NAME.de=Add Event:COND Check whether all members have withdrawn
+INFO.de=Check whether all members have withdrawn from the withdrawal map.\r\nIf all members have withdrawn, 1 is returned.\r\nIt returns 0 if it is still there.\r\nThe result is returned in memory slot C.\r\nSample: https://cdn.discordapp.com/attachments/145137778710151168/630348123197407233/fe8U.WithdrawMap.Sample.7z
 
 AUTHOR.en=Source: Source: https://github.com/ngmansion/FE8/tree/master/escapemap.
+AUTHOR.de=Source: Source: https://github.com/ngmansion/FE8/tree/master/escapemap.
 
 EVENTSCRIPT.en=400D0000{$L1:all_withdrawn.bin}	Check whether all members have withdrawn	{COND}
+EVENTSCRIPT.de=400D0000{$L1:all_withdrawn.bin}	Check whether all members have withdrawn	{COND}
 AUTHOR.zh=来源:https://github.com/ngmansion/FE8/tree/master/escapemap。
 
 EVENTSCRIPT.zh=400D0000{$L1:all_withdrawn.bin}	用于检查所有成员是否已从撤回地图中撤回。	{COND}
