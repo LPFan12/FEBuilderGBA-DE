@@ -1,5 +1,6 @@
 NAME=AoE 範囲技 広範囲のエリア攻撃(Install)
 NAME.en=AoE Area of Effect(Installer)
+NAME.de=AoE Area of Effect(Installer)
 NAME.zh=AoE Area of Effect(Installer)
 TYPE=EA
 TAG=#ENGINE
@@ -17,6 +18,7 @@ AUTHOR=Vesly https://feuniverse.us/t/veslys-asm/12011/19
 
 INFO=このパッチは、「アニメOFFの時のマップアニメーションに攻撃エフェクトを描画する」に依存しているので、事前にインストールが必要です。\r\n広範囲のエリアを一度に攻撃できる機能を攻撃メニューに搭載します。\r\nバリスタなどのユニットにこの機能を付加すると、新たなユニットの特性を追加できます。\r\nまた、特定の範囲をまとめて回復する機能もあり、特殊なヒーラー、魔法使いを実装したりもできます。
 INFO.en=This patch depends on "Draw attack effect on map animation when battle animation off", so it needs to be installed in advance.\r\nA function that allows you to attack a wide area at once will be added to the attack menu(Unit Menu).\r\nAdding this feature to a unit such as a ballista will add a new unit characteristic.\r\nThere is also a function to heal a specific area at once, which can be implemented for special healers and wizards.
+INFO.de=This patch depends on "Draw attack effect on map animation when battle animation off", so it needs to be installed in advance.\r\nA function that allows you to attack a wide area at once will be added to the attack menu(Unit Menu).\r\nAdding this feature to a unit such as a ballista will add a new unit characteristic.\r\nThere is also a function to heal a specific area at once, which can be implemented for special healers and wizards.
 INFO.zh=This patch depends on "Draw attack effect on map animation when battle animation off", so it needs to be installed in advance.\r\nA function that allows you to attack a wide area at once will be added to the attack menu(Unit Menu).\r\nAdding this feature to a unit such as a ballista will add a new unit characteristic.\r\nThere is also a function to heal a specific area at once, which can be implemented for special healers and wizards.
 
 ALLOC_MUST_HIGH_ADDRESS=1		//このパッチは複雑なので、必ず上位アドレスに入れる必要がある
@@ -28,6 +30,9 @@ EVENTSCRIPT:12=40050100UUUUUUUU40050600TTTTTTTT40050700RRRRRRRR40050B00XXXXYYYY4
 
 EVENTSCRIPT:11.en=400D0000{$L1:ASMC_AoE.dmp}	 Call AoE Attack of Effect from Event(ASMC_AoE)(LOW)	Slot1=Unit, Slot6=AoE ID, Slot7=Rotation, SlotB XY
 EVENTSCRIPT:12.en=40050100UUUUUUUU40050600TTTTTTTT40050700RRRRRRRR40050B00XXXXYYYY400D0000{$L1:ASMC_AoE.dmp}	Call AoE Attack of Effect from Event [UU:UNIT:UseUnit][XX:MAPX:TargetX][YY:MAPY:TargetX][TT::AoETypeID][RR:DIRECTION2:Rotate](ASMC_AoE)	Slot1=Unit, Slot6=AoE ID, Slot7=Rotation, SlotB XY
+
+EVENTSCRIPT:11.de=400D0000{$L1:ASMC_AoE.dmp}	 Call AoE Attack of Effect from Event(ASMC_AoE)(LOW)	Slot1=Unit, Slot6=AoE ID, Slot7=Rotation, SlotB XY
+EVENTSCRIPT:12.de=40050100UUUUUUUU40050600TTTTTTTT40050700RRRRRRRR40050B00XXXXYYYY400D0000{$L1:ASMC_AoE.dmp}	Call AoE Attack of Effect from Event [UU:UNIT:UseUnit][XX:MAPX:TargetX][YY:MAPY:TargetX][TT::AoETypeID][RR:DIRECTION2:Rotate](ASMC_AoE)	Slot1=Unit, Slot6=AoE ID, Slot7=Rotation, SlotB XY
 
 EVENTSCRIPT:11.zh=400D0000{$L1:ASMC_AoE.dmp}	 Call AoE Attack of Effect from Event(ASMC_AoE)(LOW)	Slot1=Unit, Slot6=AoE ID, Slot7=Rotation, SlotB XY
 EVENTSCRIPT:12.zh=40050100UUUUUUUU40050600TTTTTTTT40050700RRRRRRRR40050B00XXXXYYYY400D0000{$L1:ASMC_AoE.dmp}	Call AoE Attack of Effect from Event [UU:UNIT:UseUnit][XX:MAPX:TargetX][YY:MAPY:TargetX][TT::AoETypeID][RR:DIRECTION2:Rotate](ASMC_AoE)	Slot1=Unit, Slot6=AoE ID, Slot7=Rotation, SlotB XY
