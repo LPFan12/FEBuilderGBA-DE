@@ -12,6 +12,7 @@ BIN:0x01AC6C=0001AC6C.bin
 
 INFO=武器の攻撃レンジ4以上を正しく描画できるようにします。
 INFO.en=Patches the ROM to correctly draw weapon attack range 4 or more.\r\nImplemented with binary by icecube.\r\n
+INFO.de=Patches the ROM to correctly draw weapon attack range 4 or more.\r\nImplemented with binary by icecube.\r\n
 AUTHOR=icecube  https://serenesforest.net/forums/index.php?/topic/48334-fe7fe8-range-patch-fix/
 INFO.zh=可以正确地绘制武器攻击范围4或更多。
 
