@@ -1,5 +1,6 @@
 NAME=ユニットの様々なパラメータを取得する(イベント命令)
 NAME.en=AddEvent: Get Unit Status
+NAME.de=AddEvent: Get Unit Status
 TYPE=BIN
 TAG=#EVENT
 
@@ -30,6 +31,14 @@ EVENTSCRIPT:4.en=40050B00ZZZZWWWW4B0D00YY{$L1:get_status_param.dmp}	coordinate[Z
 EVENTSCRIPT:5.en=4F0D00YY{$L1:get_status_param.dmp}	Get the [YY:RAM_UNIT_PARAM:Status] of the unit currently being operated	{COND}
 EVENTSCRIPT:11.en=400DXX0C{$L1:get_status_param.dmp}40050700UUUUUUUU25067C0C	Check if [XX:UNIT:Unit] has [UUUU:RAM_UNIT_STATE:Condition] bit StatusFlag(GUNC)	{COND}
 EVENTSCRIPT:12.en=40050B00ZZZZWWWW4B0D000C{$L1:get_status_param.dmp}40050700UUUUUUUU25067C0C	Check if coordinate [ZZ:MAPX:X][WW:MAPY:Y] unit has [ZZZZ:RAM_UNIT_STATE:Condition] bit StatusFlag(GUNC)	{COND}
+
+EVENTSCRIPT:1.de=400DXXYY{$L1:get_status_param.dmp}	Get [XX:UNIT:Unit]'s [YY:RAM_UNIT_PARAM:Status] of unit	{COND}
+EVENTSCRIPT:2.de=410D00YY{$L1:get_status_param.dmp}	Get the [YY:RAM_UNIT_PARAM:Status] of the unit of SVAL1 (LOW)	{COND}
+EVENTSCRIPT:3.de=4B0D00YY{$L1:get_status_param.dmp}	Get the unit's [YY:RAM_UNIT_PARAM:Status] of coordinates of SVALB (LOW)	{COND}
+EVENTSCRIPT:4.de=40050B00ZZZZWWWW4B0D00YY{$L1:get_status_param.dmp}	coordinate[ZZ:MAPX:X][WW:MAPY:Y]Get the unit [YY:RAM_UNIT_PARAM:Status]	{COND}
+EVENTSCRIPT:5.de=4F0D00YY{$L1:get_status_param.dmp}	Get the [YY:RAM_UNIT_PARAM:Status] of the unit currently being operated	{COND}
+EVENTSCRIPT:11.de=400DXX0C{$L1:get_status_param.dmp}40050700UUUUUUUU25067C0C	Check if [XX:UNIT:Unit] has [UUUU:RAM_UNIT_STATE:Condition] bit StatusFlag(GUNC)	{COND}
+EVENTSCRIPT:12.de=40050B00ZZZZWWWW4B0D000C{$L1:get_status_param.dmp}40050700UUUUUUUU25067C0C	Check if coordinate [ZZ:MAPX:X][WW:MAPY:Y] unit has [ZZZZ:RAM_UNIT_STATE:Condition] bit StatusFlag(GUNC)	{COND}
 
 
 
