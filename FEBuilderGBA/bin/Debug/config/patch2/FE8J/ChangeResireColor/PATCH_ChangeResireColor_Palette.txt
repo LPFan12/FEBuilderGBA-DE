@@ -1,8 +1,10 @@
 NAME=リザイアのパレットを動的に変更する(PaletteList)
 NAME.en=Dynamically Change the resire palette.(PaletteList)
+NAME.de=Dynamically Change the resire palette.(PaletteList)
 NAME.zh=Dynamically Change the resire palette.(PaletteList)
 INFO=リストにないものはディフォルトの挙動を行います。\r\n\r\n使用する武器や、使用者によって、リザイアのパレットを動的に変更します。
 INFO.en=Those not on the list behave by default.\r\nThe Resire(Nosferatu) palette is dynamically changed depending on the weapon used and the user.
+INFO.de=Those not on the list behave by default.\r\nThe Resire(Nosferatu) palette is dynamically changed depending on the weapon used and the user.
 INFO.zh=Those not on the list behave by default.\r\nThe Resire(Nosferatu) palette is dynamically changed depending on the weapon used and the user.
 
 IF:0x605E4=0x00 0x4B
