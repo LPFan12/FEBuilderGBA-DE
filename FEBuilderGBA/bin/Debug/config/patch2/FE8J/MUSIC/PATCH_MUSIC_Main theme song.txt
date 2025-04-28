@@ -1,5 +1,6 @@
 NAME=MUSIC_エイリークのテーマ
 NAME.en=Eirika's BGM
+NAME.de=Eirika's BGM
 NAME.zh=音乐_艾瑞珂的BGM
 //アドレスパッチとして実装します
 
