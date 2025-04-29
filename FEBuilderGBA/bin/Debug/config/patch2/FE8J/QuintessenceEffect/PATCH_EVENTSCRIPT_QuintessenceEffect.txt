@@ -1,5 +1,6 @@
 NAME=FE7Jの赤い霧 QuintessenceEffect(イベント命令)
 NAME.en=Add Event: FE7J style Red Fog QuintessenceEffect
+NAME.de=Add Event: FE7J style Red Fog QuintessenceEffect
 NAME.zh=Add Event: FE7J style Red Fog QuintessenceEffect
 
 AUTHOR=Eebit https://discord.com/channels/144670830150811649/171833225944104961/1211058406824222791
@@ -15,9 +16,11 @@ INFO=このパッチは、FE7Jにある薄赤い霧を発生させるカット�
 
 EVENTSCRIPT:11=400A0000{$L0:EventQuintessenceEffect00000000.bin}	FE7Jの赤い霧(CALL QuintessenceEffect)
 EVENTSCRIPT:11.en=400A0000{$L0:EventQuintessenceEffect00000000.bin}	FE7J style Red Fog(CALL QuintessenceEffect)
+EVENTSCRIPT:11.de=400A0000{$L0:EventQuintessenceEffect00000000.bin}	FE7J style Red Fog(CALL QuintessenceEffect)
 EVENTSCRIPT:11.zh=400A0000{$L0:EventQuintessenceEffect00000000.bin}	FE7J style Red Fog(CALL QuintessenceEffect)
 
 ALLOC_MUST_HIGH_ADDRESS=1		//このパッチは複雑なので、必ず上位アドレスに入れる必要がある
 ALLOC_SIZE_HINT=2036
 INFO.en=This patch enables FE8 to implement the thin red fog screen effect for cutscenes found in FE7J.
+INFO.de=This patch enables FE8 to implement the thin red fog screen effect for cutscenes found in FE7J.
 INFO.zh=该补丁使 FE8 能够为 FE7J 中的过场动画实现薄红色雾屏效果。
