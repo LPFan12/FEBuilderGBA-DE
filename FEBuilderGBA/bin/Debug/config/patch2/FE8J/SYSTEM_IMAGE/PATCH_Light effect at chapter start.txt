@@ -1,5 +1,6 @@
 ﻿NAME=章スタート時のライトエフェクト
 NAME.en=Light effect at chapter start
+NAME.de=Light effect at chapter start
 
 TYPE=IMAGE
 TAG=#IMAGE
