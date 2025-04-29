@@ -40,5 +40,7 @@ AUTHOR=7743
 INFO=敵を攻撃するときに表示される戦闘予測のパレットをメニューパレットから、アニメオフ時の戦闘画面のパレットに変更します。\r\nこれにより、メニューパレットを変更しやすくなります。
 NAME.en=Remove the battle prediction palette from the menu palette.
 INFO.en=Change the battle prediction palette displayed when attacking an enemy from the menu palette to the battle screen palette when animation is off.\r\nThis makes it easier to change the menu palette.
+NAME.de=Remove the battle prediction palette from the menu palette.
+INFO.de=Change the battle prediction palette displayed when attacking an enemy from the menu palette to the battle screen palette when animation is off.\r\nThis makes it easier to change the menu palette.
 NAME.zh=从菜单面板中删除战斗预测面板。
 INFO.zh=将攻击敌人时显示的战斗预测调色板从菜单调色板更改为动画关闭时的战斗屏幕调色板。\r\n这样可以更轻松地更改菜单调色板。
