@@ -4,6 +4,9 @@ INFO=青（プレイアブル）ユニットをプレイヤーが操作するか
 NAME.en=Debug: Change the control of blue units
 INFO.en=Change whether blue (playable) units are controlled by the player or by the AI.
 
+NAME.de=Debug: Change the control of blue units
+INFO.de=Change whether blue (playable) units are controlled by the player or by the AI.
+
 NAME.zh=改变对蓝色单位的控制
 INFO.zh=改变蓝色（可玩）单位是由玩家还是由AI控制。
 
@@ -18,6 +21,6 @@ ENEMY:0x15486=0x03
 
 
 CONFLICT_IF:0x1547E=0x0A 0xE0
-CONFLICT_MESSAGE=Using the other patch which gives player control of both enemies and NPCs in a different manner
+CONFLICT_MESSAGE=Using the other patch which gives player control of both enemies and NPCs
 
 HINT=Debug
