@@ -17,10 +17,12 @@ INFO=体格を減らすアイテムを作れます.
 AUTHOR=怪盗パッチ 7743
 
 NAME.en=diet_drug
+NAME.de=diet_drug
 NAME.zh=体格下降药
 
 INFO.zh=你可以用物品减少你的体格.
 INFO.en=You can make items that reduce your physique.
+INFO.de=You can make items that reduce your physique.
 
 AUTHOR.zh=Kaitou补丁7743
 AUTHOR.en=Kaitou patch7743
