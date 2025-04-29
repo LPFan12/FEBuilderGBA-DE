@@ -1,5 +1,6 @@
 NAME=スキル貫通の発動率をLVから技%にする
 NAME.en=Change Skill Pierce activation rate from LV to Skill
+NAME.de=Change Skill Pierce activation rate from LV to Skill
 
 //アドレスパッチとして実装します
 TYPE=SWITCH
