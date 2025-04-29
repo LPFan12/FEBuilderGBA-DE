@@ -1,5 +1,6 @@
 NAME=OPANIME_FACE_レナック
 NAME.en=OP Anime Face: Rennac
+NAME.de=OP Anime Face: Rennac
 
 TYPE=IMAGE
 TAG=#IMAGE
