@@ -1,6 +1,7 @@
 
 NAME=塔及び遺跡でセーブ可能
 NAME.en=Saving in the Tower and Ruins
+NAME.de=Saving in the Tower and Ruins
 NAME.zh=塔及遗址可保存
 
 
@@ -27,4 +28,6 @@ AUTHOR.en=Source: Chap@FE8_GIRLS 09.10.01 by the material.\r\nhttps://dw.ngmansi
 
 COMBO.en=Saveable|ONN|Default: Can not save|OFF
 
+AUTHOR.de=Source: Chap@FE8_GIRLS 09.10.01 by the material.\r\nhttps://dw.ngmansion.xyz/doku.php?id=data:%E3%83%91%E3%83%83%E3%83%81
 
+COMBO.de=Saveable|ONN|Default: Can not save|OFF
