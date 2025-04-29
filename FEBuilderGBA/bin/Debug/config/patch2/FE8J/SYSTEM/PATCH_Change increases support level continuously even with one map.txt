@@ -1,9 +1,11 @@
 NAME=1マップでも連続して支援レベルが上がるようにする
 NAME.en=Change increases support level continuously even with one map
+NAME.de=Change increases support level continuously even with one map
 NAME.zh=Change increases support level continuously even with one map
 
 INFO=通常、支援レベルは1つのマップで一人に付き1回しか上げられません。\r\nこのパッチは、それを変更して、一つのマップで連続して支援レベルが上げられるようにします。
 INFO.en=Normally, the level of support can only be increased once per person on one map.\r\nThis patch modifies it to allow you to continuously increase your support level on one map.\r\n
+INFO.de=Normally, the level of support can only be increased once per person on one map.\r\nThis patch modifies it to allow you to continuously increase your support level on one map.\r\n
 INFO.zh=Normally, the level of support can only be increased once per person on one map.\r\nThis patch modifies it to allow you to continuously increase your support level on one map.\r\n
 
 //アドレスパッチとして実装します
