@@ -1,5 +1,6 @@
 NAME=セーブ画面のメニュー OtherSomethingPalette
 NAME.en=SaveControlMenu OtherSomethingPalette
+NAME.de=SaveControlMenu OtherSomethingPalette
 
 TYPE=IMAGE
 TAG=#IMAGE
