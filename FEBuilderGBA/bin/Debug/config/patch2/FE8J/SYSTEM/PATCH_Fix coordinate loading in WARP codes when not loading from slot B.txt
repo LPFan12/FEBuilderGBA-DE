@@ -13,5 +13,7 @@ AUTHOR=HyperGammaSpaces https://feuniverse.us/t/fe8-essential-fixes-patch/1676/1
 INFO=イベント命令のワープで、SlotBから読み込む命令を利用せずに、直接WARP_OUT命令を呼び出した時に、座標がズレる問題を修正します。\r\n(WARP_OUT)
 NAME.en=Fix coordinate loading in WARP codes when not loading from slot B
 INFO.en=Fixes a problem with warping of event script causing a misalignment of co-ordinates.\r\n(WARP)
+NAME.de=Fix coordinate loading in WARP codes when not loading from slot B
+INFO.de=Fixes a problem with warping of event script causing a misalignment of co-ordinates.\r\n(WARP)
 NAME.zh=Fix coordinate loading in WARP codes when not loading from slot B
 INFO.zh=Fixes a problem with warping of event script causing a misalignment of co-ordinates.\r\n(WARP)
