@@ -1,5 +1,6 @@
 NAME=最低ダメージを0から1にする
 NAME.en=Change minimum damage from 0 to 1.
+NAME.de=Change minimum damage from 0 to 1.
 
 
 INFO=最低ダメージを1にします。
@@ -32,6 +33,7 @@ OFF:0x58764=0x00
 
 AUTHOR=midori patch
 INFO.en=Set the minimum damage to 1.
+INFO.de=Set the minimum damage to 1.
 NAME.zh=将最小伤害从0设置为1。
 INFO.zh=将最小伤害设置为1。
 
