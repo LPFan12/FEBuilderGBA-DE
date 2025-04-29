@@ -1,5 +1,6 @@
 NAME=Image_BowBattleAnimationEffect 弓矢の画像
 NAME.en=Image_BowBattleAnimationEffect
+NAME.de=Image_BowBattleAnimationEffect
 NAME.zh=Image_BowBattleAnimationEffect
 
 TYPE=IMAGE
