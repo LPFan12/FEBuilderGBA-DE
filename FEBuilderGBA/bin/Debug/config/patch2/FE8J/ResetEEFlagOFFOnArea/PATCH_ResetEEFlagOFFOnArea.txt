@@ -2,6 +2,7 @@ TYPE=EA
 TAG=#ENGINE
 NAME=闘技場ではフラグ0xEEを有効にしてダメージをポップアップしない
 NAME.en=Enable flag 0xEE in the arena and do not pop up damage.
+NAME.de=Enable flag 0xEE in the arena and do not pop up damage.
 NAME.zh=Enable flag 0xEE in the arena and do not pop up damage.
 
 EA=install.event
@@ -13,4 +14,5 @@ INFO=これは、戦闘アニメーションでダメージのポップアップ
 
 AUTHOR=7743
 INFO.en=This is a patch for those who are using the damage popup in their combat animations.\r\nWhen fighting in the arena, flag 0xEE is automatically enabled to suppress damage pop-ups.\r\nWhen the battle in the arena is over, the flag 0xEE is automatically disabled and the damage popup is restored.\r\nUse this when you want to eliminate the damage pop-up in battles in the arena.
+INFO.de=This is a patch for those who are using the damage popup in their combat animations.\r\nWhen fighting in the arena, flag 0xEE is automatically enabled to suppress damage pop-ups.\r\nWhen the battle in the arena is over, the flag 0xEE is automatically disabled and the damage popup is restored.\r\nUse this when you want to eliminate the damage pop-up in battles in the arena.
 INFO.zh=这是为那些在战斗动画中使用伤害弹出窗口的人准备的补丁。\r\n在竞技场中战斗时，标志 0xEE 会自动启用以抑制伤害弹出窗口。\r\n当竞技场中的战斗结束时，标志 0xEE 会自动禁用并恢复伤害弹出窗口。\r\n当您想消除竞技场战斗中的伤害弹出时，请使用此选项。
