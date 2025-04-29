@@ -19,6 +19,10 @@ EVENTSCRIPT:01.en=400D0000{$L1:ASMC_ArenaDic_GetComplateParsent.dmp}	Get achieve
 EVENTSCRIPT:02.en=400D0000{$L1:ASMC_ArenaDic_EnableRandomOne.dmp}	Randomly enable one of the ArenaDic(ASMC_ArenaDic_EnableRandomOne)
 EVENTSCRIPT:03.en=400D0000{$L1:ASMC_ArenaDic_ClearAll.dmp}	Disable all the ArenaDic(ASMC_ArenaDic_ClearAll)
 
+EVENTSCRIPT:01.de=400D0000{$L1:ASMC_ArenaDic_GetComplateParsent.dmp}	Get achievement rate of the ArenaDic(ASMC_ArenaDic_GetComplateParsent)	@STOREC	It can be obtained in [G] as well as in SlotC
+EVENTSCRIPT:02.de=400D0000{$L1:ASMC_ArenaDic_EnableRandomOne.dmp}	Randomly enable one of the ArenaDic(ASMC_ArenaDic_EnableRandomOne)
+EVENTSCRIPT:03.de=400D0000{$L1:ASMC_ArenaDic_ClearAll.dmp}	Disable all the ArenaDic(ASMC_ArenaDic_ClearAll)
+
 EVENTSCRIPT:01.zh=400D0000{$L1:ASMC_ArenaDic_GetComplateParsent.dmp}	Get achievement rate of the ArenaDic(ASMC_ArenaDic_GetComplateParsent)	@STOREC	It can be obtained in [G] as well as in SlotC
 EVENTSCRIPT:02.zh=400D0000{$L1:ASMC_ArenaDic_EnableRandomOne.dmp}	Randomly enable one of the ArenaDic(ASMC_ArenaDic_EnableRandomOne)
 EVENTSCRIPT:03.zh=400D0000{$L1:ASMC_ArenaDic_ClearAll.dmp}	Disable all the ArenaDic(ASMC_ArenaDic_ClearAll)
@@ -27,6 +31,8 @@ EVENTSCRIPT:03.zh=400D0000{$L1:ASMC_ArenaDic_ClearAll.dmp}	Disable all the Arena
 AUTHOR=7743
 NAME.en=Create a picture book of the arena (Installer)
 INFO.en=This Patch will implement a picture book like a Pokemon picture book.\r\nIn the arena, if you defeat the units of the battle animation published in the picture book, the information will be registered.\r\nEnemies you haven't defeated yet are painted over with a pitch black palette, like Conan's killer.\r\nOnce you have completed the Pokédex, you can enable certain flags.
+NAME.de=Create a picture book of the arena (Installer)
+INFO.de=This Patch will implement a picture book like a Pokemon picture book.\r\nIn the arena, if you defeat the units of the battle animation published in the picture book, the information will be registered.\r\nEnemies you haven't defeated yet are painted over with a pitch black palette, like Conan's killer.\r\nOnce you have completed the Pokédex, you can enable certain flags.
 NAME.zh=创建竞技场的图画书(Installer)
 INFO.zh=我们将实现像口袋妖怪绘本一样的绘本。\r\n在竞技场中，如果您击败了绘本中公布的战斗动画的单位，信息将被注册。\r\n你尚未击败的敌人会被涂上漆黑的调色板，就像柯南的杀手一样。\r\n完成图鉴后，您可以启用某些标志。
 
