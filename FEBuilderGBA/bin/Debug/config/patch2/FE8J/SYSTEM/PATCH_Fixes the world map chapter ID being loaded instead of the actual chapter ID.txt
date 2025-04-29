@@ -19,6 +19,8 @@ ONN:0x1F6614=0x00
 OFF:0x1F6614=0x04
 
 NAME.en=Fixes the world map chapter ID being loaded instead of the actual chapter ID
+NAME.de=Fixes the world map chapter ID being loaded instead of the actual chapter ID
 NAME.zh=Fixes the world map chapter ID being loaded instead of the actual chapter ID
 INFO.en=This patch avoids the phenomenon that place names are displayed instead of chapter IDs in chapters with Skirmish.
+INFO.de=This patch avoids the phenomenon that place names are displayed instead of chapter IDs in chapters with Skirmish.
 INFO.zh=This patch avoids the phenomenon that place names are displayed instead of chapter IDs in chapters with Worldmap Skirmish.
