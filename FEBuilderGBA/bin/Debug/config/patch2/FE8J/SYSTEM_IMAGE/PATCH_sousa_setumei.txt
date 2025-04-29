@@ -1,5 +1,6 @@
 NAME=画像 操作説明
 NAME.en=Image operation explanation
+NAME.de=Image operation explanation
 NAME.zh=系统_图像1
 
 TYPE=IMAGE
