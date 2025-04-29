@@ -1,8 +1,10 @@
 NAME=レアアイテムを売ろうとすると警告する(Installer)
 NAME.en=Warn you when trying to sell rare items(Installer)
+NAME.de=Warn you when trying to sell rare items(Installer)
 NAME.zh=Warn you when trying to sell rare items(Installer)
 INFO=レアアイテムを売却しようとすると、ドラクエみたいに警告のセリフを表示するようにします。
 INFO.en=When you try to sell rare item, it will display a warning line like Dragon Quest.
+INFO.de=When you try to sell rare item, it will display a warning line like Dragon Quest.
 INFO.zh=When you try to sell rare item, it will display a warning line like Dragon Quest.
 
 TYPE=EA
