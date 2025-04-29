@@ -1,5 +1,6 @@
 NAME=OPANIME_FACE_ヴァルター_影
 NAME.en=OP Anime Face: Valter (Shadow)
+NAME.de=OP Anime Face: Valter (Shadow)
 
 TYPE=IMAGE
 TAG=#IMAGE
