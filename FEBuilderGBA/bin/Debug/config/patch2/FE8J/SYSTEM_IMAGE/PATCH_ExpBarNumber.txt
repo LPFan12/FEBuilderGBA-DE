@@ -1,5 +1,6 @@
 NAME=経験値バーの数字
 NAME.en=Experience bar number
+NAME.de=Experience bar number
 
 TYPE=IMAGE
 
