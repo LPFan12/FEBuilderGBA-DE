@@ -9,4 +9,5 @@ ADDRESS_TYPE=ITEM
 
 AUTHOR=7743
 NAME.en=Always Ranged Animate: Hatchet
+NAME.de=Always Ranged Animate: Hatchet
 NAME.zh=始终间接运动_轻斧
