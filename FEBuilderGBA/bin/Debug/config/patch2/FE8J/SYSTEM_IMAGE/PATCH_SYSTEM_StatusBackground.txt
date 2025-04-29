@@ -1,6 +1,7 @@
 
 NAME=ステータス画面の背景
 NAME.en=StatusBackground
+NAME.de=StatusBackground
 NAME.zh=系统_状态画面的背景
 
 //画像パッチとして実装します
@@ -22,5 +23,6 @@ PALETTE_POINTER=0x8A8CC
 
 INFO=ステータス画面の背景画像を変更します。
 INFO.en=Change background image of the status screen(stat screen)
+INFO.de=Change background image of the status screen(stat screen)
 INFO.zh=更改状态屏幕的背景图像。
 
