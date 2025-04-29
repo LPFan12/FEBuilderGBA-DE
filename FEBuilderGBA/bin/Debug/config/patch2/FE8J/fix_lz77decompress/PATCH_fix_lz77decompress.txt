@@ -10,4 +10,5 @@ BIN:0x1300A=fix_lz77decompress.dmp
 AUTHOR=Tequila
 INFO=解凍ルーチンに、no$gbaがクラッシュしないように、r0=0のチェックを追加します。
 INFO.en=Add a check for r0=0 in the decompression routine so that no$gba doesn't crash when trying to decompress something it shouldn't
+INFO.de=Add a check for r0=0 in the decompression routine so that no$gba doesn't crash when trying to decompress something it shouldn't
 INFO.zh=Add a check for r0=0 in the decompression routine so that no$gba doesn't crash when trying to decompress something it shouldn't
