@@ -1,5 +1,6 @@
 NAME=マップアニメのサイレスモーションを高速化する
 NAME.en=Accelerate MapAnim Silence motion
+NAME.de=Accelerate MapAnim Silence motion
 
 //アドレスパッチとして実装します
 TYPE=SWITCH
@@ -32,6 +33,10 @@ INFO=マップアニメのサイレスの杖モーションから待機時間を
 INFO.en=Speed up for Silence motion of the map animation when using Silence Staff.
 
 COMBO.en=Default|OFF|Double speed|ON2|4 times faster|ON4
+
+INFO.de=Speed up for Silence motion of the map animation when using Silence Staff.
+
+COMBO.de=Default|OFF|Double speed|ON2|4 times faster|ON4
 NAME.zh=Accelerate MapAnim Silence motion
 INFO.zh=Speed up for Silence motion of the map animation when using Silence Staff.
 COMBO.zh=Default|OFF|双倍速度|ON2|快4倍|ON4
