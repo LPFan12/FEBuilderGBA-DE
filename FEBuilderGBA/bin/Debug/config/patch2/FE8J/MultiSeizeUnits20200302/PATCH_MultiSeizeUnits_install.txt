@@ -12,5 +12,7 @@ EA=Installer.event
 AUTHOR=7743
 NAME.en=Change to have multiple units that can be seize 20200302(Install)
 INFO.en=Change so that multiple units can be seize
+NAME.de=Change to have multiple units that can be seize 20200302(Install)
+INFO.de=Change so that multiple units can be seize
 NAME.zh=更改为具有多个可以抑制的人物 20200302(Installer)
 INFO.zh=进行更改，以便可以控制多个人物
