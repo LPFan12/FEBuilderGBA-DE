@@ -1,5 +1,6 @@
 NAME=毒ダメージモーションを高速化する
 NAME.en=Accelerate poison damage motion(faster poison)
+NAME.de=Accelerate poison damage motion(faster poison)
 
 //アドレスパッチとして実装します
 TYPE=SWITCH
@@ -26,8 +27,10 @@ ON2:0xA15756=0x5
 AUTHOR=Vesly https://feuniverse.us/t/veslys-asm/12011/49
 INFO=毒でダメージを受ける時のモーションを高速化します。
 INFO.en=This patch speeds up the motion of taking damage from poison.
+INFO.de=This patch speeds up the motion of taking damage from poison.
 
 COMBO.en=Default|OFF|Double speed|ON2
+COMBO.de=Default|OFF|Double speed|ON2
 COMBO.zh=Default|OFF|双倍速度|ON2
 NAME.zh=加快毒药伤害动作。
 INFO.zh=受到毒药伤害时会加快运动速度。
