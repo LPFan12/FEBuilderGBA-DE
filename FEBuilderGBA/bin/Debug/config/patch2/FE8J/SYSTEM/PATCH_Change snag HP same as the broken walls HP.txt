@@ -1,5 +1,6 @@
 NAME=古木のHPを壊れる壁のHPと同じにする
 NAME.en=Change snag HP same as the broken walls HP
+NAME.de=Change snag HP same as the broken walls HP
 
 //アドレスパッチとして実装します
 TYPE=SWITCH
