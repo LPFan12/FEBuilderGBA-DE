@@ -1,11 +1,13 @@
 NAME=ステータス画面に、ユニットが立っている台座を出さない
 NAME.en=Disable Stat Screen Platform
+NAME.de=Disable Stat Screen Platform
 
 TYPE=SWITCH
 TAG=#ENGINE
 
 COMBO=Default|OFF|台座を消去|ONN
 COMBO.en=Default|OFF|Hide the Platform|ONN
+COMBO.de=Default|OFF|Hide the Platform|ONN
 COMBO.zh=Default|OFF|清除基座|ONN
 
 DETERMINATION_ADDRESS=0x8A5E0
