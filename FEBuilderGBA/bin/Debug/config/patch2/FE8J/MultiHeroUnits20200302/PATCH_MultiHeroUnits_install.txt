@@ -12,5 +12,7 @@ EA=Installer.event
 AUTHOR=7743
 NAME.en=Change to have multiple main characters selected by auto cursor 20200302(Install)
 INFO.en=Change so that you can set multiple heroes selected by auto cursor.
+NAME.de=Change to have multiple main characters selected by auto cursor 20200302(Install)
+INFO.de=Change so that you can set multiple heroes selected by auto cursor.
 NAME.zh=更改为通过自动光标选择多个主要字符 20200302(Install)
 INFO.zh=进行更改，以便您可以设置由自动光标选择的多个英雄。
