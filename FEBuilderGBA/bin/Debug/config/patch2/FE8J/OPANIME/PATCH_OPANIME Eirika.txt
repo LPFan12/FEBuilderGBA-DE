@@ -1,6 +1,7 @@
 
 NAME=OPANIMEエイリーク
 NAME.en=OP Anime Eirika (Zoom)
+NAME.de=OP Anime Eirika (Zoom)
 NAME.zh=OP动画艾瑞珂
 
 //画像パッチとして実装します
@@ -20,5 +21,6 @@ PALETTE_POINTER=0x0CCDD8//0xB62D04
 
 INFO=これは表示用に用意しています。データを編集は未対応です。TSAで共有されているためです。
 WARNING=1
-INFO.en=It is provided for display purposes.Edit data is not supported.Because it's shared by the TSA.
+INFO.en=It is provided for display purposes.Edit data is not supported. Because it's shared by the TSA.
+INFO.de=It is provided for display purposes.Edit data is not supported. Because it's shared by the TSA.
 INFO.zh=它用于显示目的。不支持编辑数据。因为它由 TSA 共享。
