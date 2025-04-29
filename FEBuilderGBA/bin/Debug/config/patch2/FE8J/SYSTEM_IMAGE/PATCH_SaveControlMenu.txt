@@ -1,5 +1,6 @@
 NAME=セーブ画面のメニュー Image
 NAME.en=SaveControlMenu Image
+NAME.de=SaveControlMenu Image
 
 TYPE=IMAGE
 TAG=#IMAGE
