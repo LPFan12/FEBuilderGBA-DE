@@ -1,6 +1,7 @@
 
 NAME=OPANIMEエイリーク blur3
 NAME.en=OP Anime Eirika (Blur 3)
+NAME.de=OP Anime Eirika (Blur 3)
 
 //画像パッチとして実装します
 TYPE=IMAGE
