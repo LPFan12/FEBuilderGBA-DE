@@ -1,5 +1,6 @@
 NAME=ユアン 見習いクラス自動CC セリフ2
 NAME.en=Ewan_Trainee_Auto_Promotion_Text2
+NAME.de=Ewan_Trainee_Auto_Promotion_Text2
 NAME.zh=尤恩_见习职业_自动_CC_对话2
 
 //アドレスパッチとして実装します
