@@ -1,6 +1,7 @@
 
 NAME=トラップで受けるステータス異常(バッドステータス)の種類
 NAME.en=Trap bad status Type
+NAME.de=Trap bad status Type
 
 //アドレスパッチとして実装します
 TYPE=ADDR
@@ -14,6 +15,7 @@ AUTHOR=7743
 
 INFO=トラップが直撃した時に設定されるバットステータスの値を設定します。ディフォルトは1(毒)です。
 INFO.en=Sets the value of the bat status that is set when trap is directly hit. The default is 1 (poison).
+INFO.de=Sets the value of the bat status that is set when trap is directly hit. The default is 1 (poison).
 INFO.zh=Sets the value of the bat status that is set when trap is directly hit. The default is 1 (poison).
 
 NAME.zh=Trap bad status Type
