@@ -2,6 +2,7 @@
 NAME=アフアのしずく成長率補正値
 NAME.zh=加成长的水滴的成长补正值?
 NAME.en=Metis's Tome Growth Bonus
+NAME.de=Metis's Tome Growth Bonus
 
 TYPE=ADDR
 TAG=#ENGINE
@@ -11,4 +12,5 @@ HEX=false
 
 INFO=メティスの書やアフアのしずく等の成長率するアイテムでの成長率補正値
 INFO.en=Boosts stat growth in all stats by specified value.
+INFO.de=Boosts stat growth in all stats by specified value.
 INFO.zh=Boosts stat growth in all stats by specified value.
