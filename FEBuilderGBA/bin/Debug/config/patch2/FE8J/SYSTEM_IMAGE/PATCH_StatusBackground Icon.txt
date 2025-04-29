@@ -1,6 +1,7 @@
 
 NAME=ステータス画面の背景のアイコン
 NAME.en=StatusBackground icon
+NAME.de=StatusBackground icon
 
 //画像パッチとして実装します
 TYPE=IMAGE
