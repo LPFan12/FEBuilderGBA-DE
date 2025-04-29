@@ -5,6 +5,7 @@ J_45=第2パレット
 ADDRESS_TYPE=SONG
 
 J_45.en=Second pallet
+J_45.de=Second pallet
 J_45.zh=第二个托盘
 
 
