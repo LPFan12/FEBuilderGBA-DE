@@ -1,5 +1,6 @@
 NAME=エクストラメニュー文字列
 NAME.en=ExtraMenuString
+NAME.de=ExtraMenuString
 NAME.zh=ExtraMenuString
 
 TYPE=IMAGE
