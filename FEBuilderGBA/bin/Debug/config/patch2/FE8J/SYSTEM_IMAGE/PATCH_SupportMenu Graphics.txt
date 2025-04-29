@@ -1,5 +1,6 @@
 NAME=サポートメニューの画像
 NAME.en=SupportMenu Graphics
+NAME.de=SupportMenu Graphics
 NAME.zh=SupportMenu Graphics
 
 TYPE=IMAGE
