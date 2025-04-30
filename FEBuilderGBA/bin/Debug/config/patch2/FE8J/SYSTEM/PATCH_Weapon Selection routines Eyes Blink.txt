@@ -1,5 +1,6 @@
 NAME=武器選択画面等でまばたきを追加する
 NAME.en=Weapon Selection etc routine's Eyes Blink
+NAME.de=Weapon Selection etc routine's Eyes Blink
 
 TYPE=SWITCH
 TAG=#ENGINE
@@ -38,6 +39,7 @@ AUTHOR=7743, Orignal: Mokha https://feuniverse.us/t/mokhas-hacks-sundries/16204\
 
 INFO=武器選択画面やアイテム交換画面等にキャラクターの顔画面に、瞬きを追加します。
 INFO.en=This patch adds a blink to the character's portrait screen on the weapon selection screen, item exchange screen, etc.
+INFO.de=This patch adds a blink to the character's portrait screen on the weapon selection screen, item exchange screen, etc.
 NAME.zh=在武器选择屏幕上添加闪烁等。
 INFO.zh=在武器选择画面、物品交换画面等角色的面部画面中添加了闪烁。
 
