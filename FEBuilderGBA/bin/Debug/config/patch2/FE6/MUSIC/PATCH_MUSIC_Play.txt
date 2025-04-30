@@ -1,5 +1,6 @@
 NAME=MUSIC_奏でる BGM
 NAME.en=MUSIC_Play BGM
+NAME.de=MUSIC_Play BGM
 NAME.zh=音乐_Play BGM
 
 //アドレスパッチとして実装します

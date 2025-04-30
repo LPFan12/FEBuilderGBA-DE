@@ -10,5 +10,7 @@ INFO=支援画面に自分の属性を表示させるパッチ
 AUTHOR=aera
 NAME.en=Display your attributes on the support screen
 INFO.en=A patch that displays your attributes on the support screen
+NAME.de=Display your attributes on the support screen
+INFO.de=A patch that displays your attributes on the support screen
 NAME.zh=在支持屏幕上显示您的属性
 INFO.zh=在支持屏幕上显示属性的修补程序

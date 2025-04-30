@@ -1,6 +1,7 @@
 
 NAME=盗賊の鍵のアイテムID
 NAME.en=Item ID to check for Door and Chest commands (lockpick)
+NAME.de=Item ID to check for Door and Chest commands (lockpick)
 
 //アドレスパッチとして実装します
 TYPE=ADDR
@@ -15,5 +16,6 @@ AUTHOR= SageMatthis/EgalLau37
 
 INFO=「とうぞくのかぎ」のアイテムID
 INFO.en=Item ID to check for when determining availability of Door and Chest commands via Lockpick item.
+INFO.de=Item ID to check for when determining availability of Door and Chest commands via Lockpick item.
 NAME.zh=小偷钥匙的物品 ID。
 INFO.zh=“Touzoku no Kagi”的物品ID。

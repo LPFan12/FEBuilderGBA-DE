@@ -1,5 +1,6 @@
 NAME=章ごとに進撃準備の音楽変更
 NAME.en=Set Preparation BGM By Chapter
+NAME.de=Set Preparation BGM By Chapter
 NAME.zh=每章进击准备的音乐变更
 
 PATCHED_IF:0x340cc=0x64 0xF0 0xFC 0xFB
@@ -29,13 +30,16 @@ JUMP:0xd13d2:$BL=0xB692C
 
 INFO=進撃準備画面で再生される曲を章単位で変更できるようにします。
 INFO.en=Patches the ROM to enable per-chapter preparation screen BGM via Chapter Editor byte 0x26.\r\nTo edit, enter Chapter Editor and modify the Preparation BGM field.\r\nBy default this isn't set to a Prep BGM and must be changed throughout the ROM.\r\n
+INFO.de=Patches the ROM to enable per-chapter preparation screen BGM via Chapter Editor byte 0x26.\r\nTo edit, enter Chapter Editor and modify the Preparation BGM field.\r\nBy default this isn't set to a Prep BGM and must be changed throughout the ROM.\r\n
 
 AUTHOR=プログラム出典元:https://github.com/ngmansion/FE8/tree/master/RePreparation
 AUTHOR.zh=程式来源:https://github.com/ngmansion/FE8/tree/master/RePreparation。
 AUTHOR.en=Program source: https://github.com/ngmansion/FE8/tree/master/RePreparation.
+AUTHOR.de=Program source: https://github.com/ngmansion/FE8/tree/master/RePreparation.
 
 
 INFO.zh=允许您以章节为人物更改在攻击提升屏幕上播放的歌曲。
 EVENTSCRIPT:1=400D0000{$L1:c2p.bin}	進撃準備のBGMを再生する	{MUSIC}
 EVENTSCRIPT:1.en=400D0000{$L1:c2p.bin}	Play BGM in Preparation.	{MUSIC}
+EVENTSCRIPT:1.de=400D0000{$L1:c2p.bin}	Play BGM in Preparation.	{MUSIC}
 EVENTSCRIPT:1.zh=400D0000{$L1:c2p.bin}	Play BGM in Preparation.	{MUSIC}

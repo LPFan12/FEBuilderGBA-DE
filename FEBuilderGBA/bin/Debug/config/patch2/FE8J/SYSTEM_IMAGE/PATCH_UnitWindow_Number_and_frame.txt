@@ -1,5 +1,6 @@
 NAME=ユニットウィンドウなどのシステムで使われている数字フォントとフレーム
 NAME.en=UnitWindow_Number_and_frame
+NAME.de=UnitWindow_Number_and_frame
 NAME.zh=UnitWindow_Number_and_frame
 
 TYPE=IMAGE

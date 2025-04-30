@@ -1,5 +1,6 @@
 NAME=戦闘で武器レベルがSを超えた場合、この値にリセットする
 NAME.en=If weapon level before battle exceeded S, reset it to this value
+NAME.de=If weapon level before battle exceeded S, reset it to this value
 
 TYPE=ADDR
 TAG=#ENGINE

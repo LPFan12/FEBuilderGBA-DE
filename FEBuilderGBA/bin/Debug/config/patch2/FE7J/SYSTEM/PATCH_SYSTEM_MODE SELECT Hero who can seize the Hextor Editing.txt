@@ -1,6 +1,7 @@
 
 NAME=MODE SELECT 制圧可能な主人公 ヘクトル編
-NAME.en=MODE SELECT Hero who can seize the Hextor Editing
+NAME.en=MODE SELECT Hero who can seize the Hector Editing
+NAME.de=MODE SELECT Hero who can seize the Hector Editing
 
 //アドレスパッチとして実装します
 TYPE=ADDR

@@ -1,6 +1,7 @@
 
 NAME=輸送隊ユニットが自分自身で輸送隊を呼び出せない制約を消す.
 NAME.en=Remove a check that prevents storage unit(Transport) from accessing own storage
+NAME.de=Remove a check that prevents storage unit(Transport) from accessing own storage
 
 TYPE=SWITCH
 TAG=#ENGINE
@@ -18,8 +19,10 @@ INFO=FE7の輸送隊は、自分自身で輸送隊にアクセスすることが
 
 HINT=輸送体
 INFO.en=The FE 7 transporter can not access transporter on its own.Release this restriction.
+INFO.de=The FE 7 transporter can not access transporter on its own.Release this restriction.
 
 HINT.en=convoy,supply,transporter,merlinus,wagon
+HINT.de=convoy,supply,transporter,merlinus,wagon
 NAME.zh=消除运输人物无法自行调用运输车的约束。
 INFO.zh=FE 7运输车无法自行进入运输车。发布此限制。
 WARNING=true

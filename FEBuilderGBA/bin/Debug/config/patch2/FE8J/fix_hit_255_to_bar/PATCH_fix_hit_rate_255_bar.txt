@@ -1,5 +1,6 @@
 NAME=命中率255がbarになってしまう問題を修正する
 NAME.en=Fixed an issue where the accuracy of 255 is bar
+NAME.de=Fixed an issue where the accuracy of 255 is bar
 NAME.zh=Fixed an issue where the accuracy of 255 is bar
 
 
@@ -19,4 +20,5 @@ AUTHOR=7743
 CONFLICT_IF:0x897FC=0x60 0x22 0xAA 0x5E
 CONFLICT_MESSAGE=FE8N
 INFO.en=In vanilla, when the hit rate is 255, it becomes bar.\r\nThis patch resolves that issue.If the unit has attack power, it will correctly show a hit rate of 255.On the contrary, if you enter with attack power, it will be modified to display as bar.
+INFO.de=In vanilla, when the hit rate is 255, it becomes bar.\r\nThis patch resolves that issue.If the unit has attack power, it will correctly show a hit rate of 255.On the contrary, if you enter with attack power, it will be modified to display as bar.
 INFO.zh=在香草中，当命中率是255时，它变成小节。\r\n此修补程序解决了该问题。如果单位有攻击力，它将正确显示255的命中率。相反，如果您具有攻击力，则将其修改为显示为条形。

@@ -1,5 +1,6 @@
 ﻿NAME=敵捕獲_怪盗 9<=HP or 寝ている敵は救出可能 騎兵関係なし 解放経験値40
 NAME.en=Enemy capture_Kaito 9<=HP or sleeping enemy is rescuable Cavalry relation none Liberation Exp40
+NAME.de=Enemy capture_Kaito 9<=HP or sleeping enemy is rescuable Cavalry relation none Liberation Exp40
 NAME.zh=敌捕获 9<= HP或睡觉的敌人可能救出 骑兵关系无 解放经验值40
 
 

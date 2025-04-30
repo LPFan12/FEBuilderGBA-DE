@@ -1,5 +1,6 @@
 NAME=MUSIC_戦闘BGM Boss3(ボスBGM)
 NAME.en=MUSIC_Battle-BGM Boss3 (Boss BGM)
+NAME.de=MUSIC_Battle-BGM Boss3 (Boss BGM)
 NAME.zh=音乐_战斗_攻击_BGM Boss3 (Boss BGM)
 
 //アドレスパッチとして実装します

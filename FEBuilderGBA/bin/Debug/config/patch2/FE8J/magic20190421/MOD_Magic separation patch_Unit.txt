@@ -10,5 +10,7 @@ MagicExtUnitGrowLabel:HINT=魔力の成長率を設定します。\r\n魔法分�
 //いろいろな内容を設定しないといけないので、フォームを改造する設定はC#側に持ちます.
 J_50.en=Reserve magic
 J_51.en=Reserve magic
+J_50.de=Reserve magic
+J_51.de=Reserve magic
 J_50.zh=保留魔术分离
 J_51.zh=保留魔术分离

@@ -1,5 +1,6 @@
 NAME=召喚するユニットを、敵とNPCに変更する
 NAME.en=Red and Green Summons
+NAME.de=Red and Green Summons
 
 //アドレスパッチとして実装します
 TYPE=SWITCH
@@ -21,5 +22,6 @@ AUTHOR=Pikmin https://feuniverse.us/t/pikmin-asm/8148/20
 
 INFO=召喚で、緑(友軍)または赤(敵軍)のユニットを召喚できるようにします。
 INFO.en=Allows for summons to be made into green(NPC) or red(Enemy) units.
+INFO.de=Allows for summons to be made into green(NPC) or red(Enemy) units.
 NAME.zh=将召唤的单位改为敌人和NPC。
 INFO.zh=允许召唤绿色（友善）或红色（敌人）单位。

@@ -3,6 +3,8 @@ INFO=闘技場に生成される相手は、通常、敵軍（赤/RED）です�
 
 NAME.en=ArenaOpponentAllegiance
 INFO.en=The opponent generated in the arena is normally an enemy (red). This patch can change that.
+NAME.de=ArenaOpponentAllegiance
+INFO.de=The opponent generated in the arena is normally an enemy (red). This patch can change that.
 AUTHOR=Shuusuke https://discord.com/channels/144670830150811649/470029781795078175/1036046410262523974
 
 TYPE=SWITCH

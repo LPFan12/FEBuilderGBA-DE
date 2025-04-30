@@ -1,5 +1,6 @@
 NAME=MUSIC_八神将の恵みあれⅠ
 NAME.en=MUSIC_Blessing of the 8 Generals I
+NAME.de=MUSIC_Blessing of the 8 Generals I
 
 
 //アドレスパッチとして実装します

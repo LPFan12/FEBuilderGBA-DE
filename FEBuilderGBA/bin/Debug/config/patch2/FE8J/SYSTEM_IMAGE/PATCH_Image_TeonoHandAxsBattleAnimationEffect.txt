@@ -1,5 +1,6 @@
 NAME=Image_TeonoHandAxsBattleAnimationEffect 手斧
 NAME.en=Image_TeonoHandAxsBattleAnimationEffect
+NAME.de=Image_TeonoHandAxsBattleAnimationEffect
 NAME.zh=Image_TeonoHandAxsBattleAnimationEffect
 
 TYPE=IMAGE

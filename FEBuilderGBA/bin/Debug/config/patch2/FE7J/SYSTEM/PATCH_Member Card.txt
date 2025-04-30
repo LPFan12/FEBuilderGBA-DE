@@ -1,5 +1,6 @@
 NAME=メンバーカードのアイテムID
 NAME.en=Member Card
+NAME.de=Member Card
 
 //アドレスパッチとして実装します
 TYPE=ADDR

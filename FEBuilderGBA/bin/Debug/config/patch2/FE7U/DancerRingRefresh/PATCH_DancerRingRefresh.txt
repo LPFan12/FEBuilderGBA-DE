@@ -13,6 +13,8 @@ EA=DancerRingRefresh.event
 INFO=踊り子のリングに対象ユニットの再行動にする効果を付与します。
 INFO.en=Fairly self-explanatory, lets dancer rings refresh like Dance in addition to applying their effect.
 .\r\n
+INFO.de=Fairly self-explanatory, lets dancer rings refresh like Dance in addition to applying their effect.
+.\r\n
 INFO.zh=Fairly self-explanatory, lets dancer rings refresh like Dance in addition to applying their effect.
 .\r\n
 

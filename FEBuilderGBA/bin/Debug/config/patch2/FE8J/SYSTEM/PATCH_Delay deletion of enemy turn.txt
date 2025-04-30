@@ -1,6 +1,7 @@
 
 NAME=敵ターンのディレイ削除
 NAME.en=Delay Deletion of Enemy Turn
+NAME.de=Delay Deletion of Enemy Turn
 NAME.zh=系统_敌人回合的延迟删除
 
 //アドレスパッチとして実装します
@@ -16,6 +17,10 @@ AUTHOR.zh=来源:从aera的数据\r\nhttps://dw.ngmansion.xyz/doku.php?id=data:%
 AUTHOR.en=Source: From aera's data\r\nhttps://dw.ngmansion.xyz/doku.php?id=data:%E3%83%91%E3%83%83%E3%83%81
 
 COMBO.en=Delete delay|0xE0|Default: Delay|0xD1
+
+AUTHOR.de=Source: From aera's data\r\nhttps://dw.ngmansion.xyz/doku.php?id=data:%E3%83%91%E3%83%83%E3%83%81
+
+COMBO.de=Delete delay|0xE0|Default: Delay|0xD1
 
 CONFLICT_IF:0x89268=0x00 0x4B 0x9F 0x46
 CONFLICT_MESSAGE=FE8N Skill Extends

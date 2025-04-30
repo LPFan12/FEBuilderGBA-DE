@@ -1,8 +1,10 @@
 NAME=攻速計算時に、力で計算する
 NAME.en=When calculating the attack speed, calculate with STR.
+NAME.de=When calculating the attack speed, calculate with STR.
 
 INFO=攻速計算時に、体格 - 武器の重さ ではなく、\r\n攻速計算時に、(力) - 武器の重さ で、計算します。
 INFO.en=When calculating the attack speed use STR instead of CON.
+INFO.de=When calculating the attack speed use STR instead of CON.
 
 TYPE=BIN
 TAG=#ENGINE

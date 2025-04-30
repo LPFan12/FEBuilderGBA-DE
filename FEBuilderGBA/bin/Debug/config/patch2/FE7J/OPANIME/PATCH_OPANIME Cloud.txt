@@ -1,6 +1,7 @@
 
 NAME=OPANIME 雲
 NAME.en=OPANIME Cloud
+NAME.de=OPANIME Cloud
 
 //画像パッチとして実装します
 TYPE=IMAGE

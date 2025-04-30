@@ -1,5 +1,6 @@
 NAME=マップアニメのスリープモーションを高速化する
 NAME.en=Accelerate MapAnim Sleep motion
+NAME.de=Accelerate MapAnim Sleep motion
 
 //アドレスパッチとして実装します
 TYPE=SWITCH
@@ -34,6 +35,10 @@ INFO=マップアニメのスリープの杖モーションから待機時間を
 INFO.en=Speed up for sleep motion of the map animation when using Sleep Staff.
 
 COMBO.en=Default|OFF|Double speed|ON2|4 times faster|ON4
+
+INFO.de=Speed up for sleep motion of the map animation when using Sleep Staff.
+
+COMBO.de=Default|OFF|Double speed|ON2|4 times faster|ON4
 NAME.zh=Accelerate MapAnim Sleep motion
 INFO.zh=Speed up for sleep motion of the map animation when using Sleep Staff.
 COMBO.zh=Default|OFF|双倍速度|ON2|快4倍|ON4

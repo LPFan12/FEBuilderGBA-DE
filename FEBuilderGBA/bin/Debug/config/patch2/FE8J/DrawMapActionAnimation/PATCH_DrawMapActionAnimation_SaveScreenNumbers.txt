@@ -1,5 +1,6 @@
 ﻿NAME=アニメOFFの時のマップアニメーションに攻撃エフェクトを描画する(SaveScreenNumbers)
 NAME.en=Draw attack effect on map animation when battle animation off(SaveScreenNumbers)
+NAME.de=Draw attack effect on map animation when battle animation off(SaveScreenNumbers)
 NAME.zh=Draw attack effect on map animation when battle animation off(SaveScreenNumbers)
 
 IF:$FGREP4 ASMC_Draw.dmp=0x30 0xB5 0x04 0x1C
@@ -16,4 +17,5 @@ PALETTE_POINTER=$GREP4END+12 0xF0 0xB5 0x00 0x21 0x01 0x63 0x09 0x48 0x09 0x49 0
 
 INFO=ダメージの数字を描画するパレットを指定します。また、シリアスな場面などで、数字を表示したくない時は、グローバルフラグ0xEEを有効にすると、数字を非表示にできます。
 INFO.en=Specifies the palette on which the damage numbers are drawn.\r\nAlso, if you do not want to display the numbers in serious situations, you can hide the numbers by enabling the global flag 0xEE.
+INFO.de=Specifies the palette on which the damage numbers are drawn.\r\nAlso, if you do not want to display the numbers in serious situations, you can hide the numbers by enabling the global flag 0xEE.
 INFO.zh=Specifies the palette on which the damage numbers are drawn.\r\nAlso, if you do not want to display the numbers in serious situations, you can hide the numbers by enabling the global flag 0xEE.

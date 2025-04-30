@@ -1,6 +1,7 @@
 
 NAME=シルバーカードのアイテムID
 NAME.en=Silver Card
+NAME.de=Silver Card
 
 //アドレスパッチとして実装します
 TYPE=ADDR

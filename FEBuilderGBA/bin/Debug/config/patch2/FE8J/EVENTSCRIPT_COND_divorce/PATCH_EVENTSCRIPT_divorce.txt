@@ -24,11 +24,15 @@ AUTHOR.zh=Kaitou补丁7743
 NAME.en=Add Event: Remove Support/Divorce
 INFO.en=Patches the ROM with a callable event that erases all supports from a designated character.\r\nCommentary:\r\nhttps://feuniverse.us/t/fe-builder-gba/2845/2519
 AUTHOR.en=Kaitou patch7743
+NAME.de=Add Event: Remove Support/Divorce
+INFO.de=Patches the ROM with a callable event that erases all supports from a designated character.\r\nCommentary:\r\nhttps://feuniverse.us/t/fe-builder-gba/2845/2519
+AUTHOR.de=Kaitou patch7743
 
 
 
 
 
 EVENTSCRIPT.en=400D0000{$L1:wakaresaseya_run_divorce.bin}	Clear support from the Current unit	Clear support from the Active unit
+EVENTSCRIPT.de=400D0000{$L1:wakaresaseya_run_divorce.bin}	Clear support from the Current unit	Clear support from the Active unit
 EVENTSCRIPT.zh=400D0000{$L1:wakaresaseya_run_divorce.bin}	从操作字符中删除辅助
 

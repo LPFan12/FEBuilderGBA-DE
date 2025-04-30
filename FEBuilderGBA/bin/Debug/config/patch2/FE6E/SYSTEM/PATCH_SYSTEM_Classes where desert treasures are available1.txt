@@ -5,6 +5,9 @@ INFO=砂漠の財宝を入手できる盗賊のクラスを設定します。
 NAME.en=Class 1 for obtaining desert treasures
 INFO.en=Set the class of thief that can obtain desert treasures.
 
+NAME.de=Class 1 for obtaining desert treasures
+INFO.de=Set the class of thief that can obtain desert treasures.
+
 //アドレスパッチとして実装します
 TYPE=ADDR
 TAG=#ENGINE

@@ -1,8 +1,10 @@
 NAME=リザイアのパレットを動的に変更する(Install)
 NAME.en=Dynamically Change the resire palette(Install)
+NAME.de=Dynamically Change the resire palette(Install)
 NAME.zh=Dynamically Change the resire palette(Install)
 INFO=使用する武器や、使用者によって、リザイアのパレットを動的に変更します。
 INFO.en=The Resire(Nosferatu) palette is dynamically changed depending on the weapon used and the user.
+INFO.de=The Resire(Nosferatu) palette is dynamically changed depending on the weapon used and the user.
 INFO.zh=The Resire(Nosferatu) palette is dynamically changed depending on the weapon used and the user.
 
 TYPE=EA

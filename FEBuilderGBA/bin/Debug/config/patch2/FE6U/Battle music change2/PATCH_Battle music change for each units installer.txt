@@ -1,6 +1,7 @@
 NAME=ユニットごとに戦闘音楽変更(Install)
 NAME.en=Unique Battle Music Per Unit Installer
 NAME.zh=每人物战斗音乐变更(Install)
+NAME.de=Unique Battle Music Per Unit Installer
 
 TYPE=EA
 TAG=#ENGINE #MUSIC #SONG #SOUND #BGM
@@ -14,3 +15,4 @@ INFO.en=Patches in a unit music list that allows for custom battle music based o
 
 AUTHOR=7743
 INFO.zh=允许您以人物节为人物更改战斗中播放的音乐。
+INFO.de=Patches in a unit music list that allows for custom battle music based on unit, chapter, battle anime, and event flags.\r\nMust be installed to use "Sound: Unique Battle Music Per Unit Editor".\r\n

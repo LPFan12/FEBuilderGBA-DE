@@ -1,5 +1,6 @@
 NAME=MUSIC_杖2_Curing
 NAME.en=Curing Staff BGM
+NAME.de=Curing Staff BGM
 //アドレスパッチとして実装します
 TYPE=ADDR
 TAG=#MUSIC #SONG #SOUND #BGM

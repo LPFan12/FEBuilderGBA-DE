@@ -1,6 +1,8 @@
 
 NAME=フレイボム(地雷)のダメージ量
 NAME.en=Mine Damage Value
+NAME.de=Mine Damage Value
+
 
 //アドレスパッチとして実装します
 TYPE=ADDR

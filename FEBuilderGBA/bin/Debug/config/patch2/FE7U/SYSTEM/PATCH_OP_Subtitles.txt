@@ -1,5 +1,6 @@
 NAME=OP字幕
 NAME.en=OP subtitles
+NAME.de=OP subtitles
 
 //STRUCTパッチとして実装します
 TYPE=STRUCT
@@ -29,4 +30,5 @@ KEEPPALETTE=1
 
 INFO=OP字幕 "Once, dragons and men coexisted."\r\n背景の色で読みずらいのですが、パレット0を黒に変更すると、よく見えると思います。
 INFO.en=OP Subtitle "Once, dragons and men coexisted.".\r\nIt's hard to read with the background color, but I think it will look better if you change palette 0 to black.
+INFO.de=OP Subtitle "Once, dragons and men coexisted.".\r\nIt's hard to read with the background color, but I think it will look better if you change palette 0 to black.
 INFO.zh=OP字幕"Once, dragons and men coexisted."。\r\n很难用背景色来阅读，但是我认为如果将调色板0更改为黑色会更好看。

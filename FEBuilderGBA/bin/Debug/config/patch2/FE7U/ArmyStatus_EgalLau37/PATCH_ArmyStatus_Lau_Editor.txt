@@ -1,6 +1,8 @@
 
 NAME.en=Custom Fortune/Army Status options (editor)
-INFO.en=Set which options appear when selecting Fortune during battle preparations.  The flags used here are different from the event ID flags used during chapters.  Flags: 01=Ranking , 02=Tactician , 04=Augury , 08=Supports , 03=Ranking+Tactician . 
+INFO.en=Set which options appear when selecting Fortune during battle preparations.  The flags used here are different from the event ID flags used during chapters.  Flags: 01=Ranking , 02=Tactician , 04=Augury , 08=Supports , 03=Ranking+Tactician. 
+NAME.de=Custom Fortune/Army Status options (editor)
+INFO.de=Set which options appear when selecting Fortune during battle preparations.  The flags used here are different from the event ID flags used during chapters.  Flags: 01=Ranking , 02=Tactician , 04=Augury , 08=Supports , 03=Ranking+Tactician. 
 
 IF:0x8E9B0=0x00 0x49 0x8F 0x46
 

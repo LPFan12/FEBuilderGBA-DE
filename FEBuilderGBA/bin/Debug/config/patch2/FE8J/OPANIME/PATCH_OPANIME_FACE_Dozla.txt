@@ -1,5 +1,6 @@
 NAME=OPANIME_FACE_ドズル
 NAME.en=OP Anime Face: Dozla
+NAME.de=OP Anime Face: Dozla
 
 TYPE=IMAGE
 TAG=#IMAGE

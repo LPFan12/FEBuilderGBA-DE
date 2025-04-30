@@ -1,6 +1,7 @@
 
 NAME=進撃開始の背景
 NAME.en=PreparationsBackground
+NAME.de=PreparationsBackground
 
 //画像パッチとして実装します
 TYPE=IMAGE

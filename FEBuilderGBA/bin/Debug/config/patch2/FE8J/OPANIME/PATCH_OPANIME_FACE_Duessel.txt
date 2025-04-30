@@ -1,5 +1,6 @@
 NAME=OPANIME_FACE_デュッセル
 NAME.en=OP Anime Face: Duessel
+NAME.de=OP Anime Face: Duessel
 
 TYPE=IMAGE
 TAG=#IMAGE

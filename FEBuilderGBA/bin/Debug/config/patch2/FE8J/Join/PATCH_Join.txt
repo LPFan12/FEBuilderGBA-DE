@@ -13,6 +13,8 @@ INFO=ユニットを救出するのではなく、相手側から同行で救出
 AUTHOR=aera
 NAME.en=Join(Refuge) command
 INFO.en=Instead of rescuing units, you will be able to rescue them from the other side with you.
+NAME.de=Join(Refuge) command
+INFO.de=Instead of rescuing units, you will be able to rescue them from the other side with you.
 NAME.zh=同行命令
 INFO.zh=您可以从另一侧救出他们，而不是救出人物。
 

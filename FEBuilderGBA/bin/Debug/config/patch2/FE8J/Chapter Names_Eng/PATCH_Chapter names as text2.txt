@@ -8,6 +8,7 @@ EA=fe8_chnames.event
 INFO=章タイトルを画像から読み込むのではなく、章設定の章名テキストが自動生成します。\r\nアルファベットの身サポートしています。\r\nこのパッチは、英語翻訳バージョンを作るときに利用することを想定しています。
 
 INFO.en=Patches the ROM to use text for all chapter titles rather than images.\r\nEdit Chapter name in Chapter Editor to rename.\r\nThis version also displays the number of chapters.\r\nIt is supposed to be used when making an English translation version.
+INFO.de=Patches the ROM to use text for all chapter titles rather than images.\r\nEdit Chapter name in Chapter Editor to rename.\r\nThis version also displays the number of chapters.\r\nIt is supposed to be used when making an English translation version.
 
 
 AUTHOR=circleseverywhere,7743

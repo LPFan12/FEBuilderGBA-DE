@@ -9,4 +9,5 @@ ADDRESS_TYPE=ITEM
 
 AUTHOR=7743
 NAME.en=Always Ranged Animate: Tomahawk
+NAME.de=Always Ranged Animate: Tomahawk
 NAME.zh=始终间接运动_回旋斧

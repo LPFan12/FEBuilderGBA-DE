@@ -1,6 +1,8 @@
 
 NAME.en=Custom Fortune/Army Status options (installer)
 INFO.en=This changes the Fortune/Army Status option during battle preparations to display options based on a flag table.
+NAME.de=Custom Fortune/Army Status options (installer)
+INFO.de=This changes the Fortune/Army Status option during battle preparations to display options based on a flag table.
 
 
 TYPE=EA

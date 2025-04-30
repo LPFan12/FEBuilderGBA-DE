@@ -1,8 +1,10 @@
 NAME=地形回復からバフ状態を除外する
 NAME.en=Exclude buff states from terrain recovery
+NAME.de=Exclude buff states from terrain recovery
 
 INFO=地形回復が設定されているタイルは、毒や眠り等のバッドステータスを自動的に回復します。\r\nただ、攻撃力アップや必殺率アップなどのバフ状態も回復してしまいます。\r\nこのパッチは、これを改善します。
 INFO.en=Tiles with terrain recovery will automatically recover bad status such as poison and sleep.\r\nBuff states such as increased attack power and increased Special Rate will also be restored.\r\nThis patch improves this.
+INFO.de=Tiles with terrain recovery will automatically recover bad status such as poison and sleep.\r\nBuff states such as increased attack power and increased Special Rate will also be restored.\r\nThis patch improves this.
 
 TYPE=BIN
 PATCHED_IF:0x02596A=0x00 0x00 0x00 0x4B 0x9F 0x46

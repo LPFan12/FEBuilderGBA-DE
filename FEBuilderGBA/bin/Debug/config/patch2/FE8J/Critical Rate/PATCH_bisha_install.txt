@@ -8,6 +8,8 @@ EDIT_PATCH=PATCH_bisha.txt
 
 AUTHOR=アインズ・ウール・ゴウン
 AUTHOR.en=Ainz Ooal Gown
+AUTHOR.de=Ainz Ooal Gown
 AUTHOR.zh=Ainz Ooal Gown
 NAME.en=Set the deadly correction value for each class(Install)
+NAME.de=Set the deadly correction value for each class(Install)
 NAME.zh=设置每个类的致命修正值(Install)

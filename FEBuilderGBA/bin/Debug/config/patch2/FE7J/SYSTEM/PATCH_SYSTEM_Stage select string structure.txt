@@ -1,5 +1,6 @@
 NAME=MODE SELECT 文字列構造体
 NAME.en=Stage select string structure
+NAME.de=Stage select string structure
 
 //STRUCTパッチとして実装します
 TYPE=STRUCT
@@ -29,3 +30,4 @@ INFO.zh=更改舞台选择文字
 
 
 INFO.en=Change Stage Select text
+INFO.de=Change Stage Select text

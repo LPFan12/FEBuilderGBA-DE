@@ -1,5 +1,6 @@
 NAME=システムで利用する数字 無圧縮
 NAME.en=SystemNumberImage_NonCompression
+NAME.de=SystemNumberImage_NonCompression
 NAME.zh=SystemNumberImage_NonCompression
 
 TYPE=IMAGE

@@ -4,4 +4,5 @@ FORM=ItemForm
 L_10_BIT_40=PassiveBoosts
 L_10_BIT_40:HINT=もっているだけでStatBoosterで指定した補正値を得られるアイテムになります。
 L_10_BIT_40:HINT.en=It becomes an item which can obtain the correction value specified by StatBooster just by having it.
+L_10_BIT_40:HINT.de=It becomes an item which can obtain the correction value specified by StatBooster just by having it.
 

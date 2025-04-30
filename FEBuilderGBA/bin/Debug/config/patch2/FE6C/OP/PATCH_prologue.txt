@@ -1,5 +1,6 @@
 NAME=IMAGE プロローグ
 NAME.en=IMAGE_prologue
+NAME.de=IMAGE_prologue
 AUTHOR=7743
 
 TYPE=IMAGE

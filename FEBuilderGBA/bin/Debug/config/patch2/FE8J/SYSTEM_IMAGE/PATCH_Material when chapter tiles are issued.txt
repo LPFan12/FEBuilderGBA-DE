@@ -1,5 +1,6 @@
 NAME=章タイトルを出す時の素材
 NAME.en=Material when chapter title are displayed
+NAME.de=Material when chapter title are displayed
 
 TYPE=IMAGE
 TAG=#IMAGE

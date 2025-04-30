@@ -8,6 +8,9 @@ HINT=ておの,なげおの
 NAME.en=Use HandAxs motion as generic motion for throwing axes
 INFO.en=When you create a throwing axe, you need to use the item ID of that axe to create a throwing motion.\r\nThis patch fixes that problem.\r\nThis patch uses the Hand Axs (ItemID:0x28) as a generic throwing axe motion.\r\nYou only need to define the motion for the HandAxs and not any other throwing axe motions.\r\n\r\nIf you want to create a custom motion specifically for that axe, define it before the HandAxs motion.\r\n
 
+NAME.de=Use HandAxs motion as generic motion for throwing axes
+INFO.de=When you create a throwing axe, you need to use the item ID of that axe to create a throwing motion.\r\nThis patch fixes that problem.\r\nThis patch uses the Hand Axs (ItemID:0x28) as a generic throwing axe motion.\r\nYou only need to define the motion for the HandAxs and not any other throwing axe motions.\r\n\r\nIf you want to create a custom motion specifically for that axe, define it before the HandAxs motion.\r\n
+
 NAME.zh=Use HandAxs motion as generic motion for throwing axes
 INFO.zh=When you create a throwing axe, you need to use the item ID of that axe to create a throwing motion.\r\nThis patch fixes that problem.\r\nThis patch uses the Hand Axs (ItemID:0x28) as a generic throwing axe motion.\r\nYou only need to define the motion for the HandAxs and not any other throwing axe motions.\r\n\r\nIf you want to create a custom motion specifically for that axe, define it before the HandAxs motion.\r\n
 

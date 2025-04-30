@@ -1,5 +1,6 @@
 NAME=移動音(Installer)
 NAME.en=MovementSounds(Installer)
+NAME.de=MovementSounds(Installer)
 NAME.zh=MovementSounds(Installer)
 TYPE=EA
 TAG=#ENGINE
@@ -12,4 +13,5 @@ AUTHOR=7743
 
 INFO=クラスごとに足音(移動音)を設定します
 INFO.en=Set footsteps (moving sounds) for each class
+INFO.de=Set footsteps (moving sounds) for each class
 INFO.zh=为每个班级设置足迹（移动声音）

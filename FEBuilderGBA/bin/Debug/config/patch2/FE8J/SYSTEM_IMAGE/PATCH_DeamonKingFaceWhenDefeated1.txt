@@ -1,6 +1,7 @@
 NAME=魔王を倒したときの顔1
-NAME.en=DeamonKingFaceWhenDefeated1
-NAME.zh=DeamonKingFaceWhenDefeated1
+NAME.en=DemonKingFaceWhenDefeated1
+NAME.de=DemonKingFaceWhenDefeated1
+NAME.zh=DemonKingFaceWhenDefeated1
 
 TYPE=IMAGE
 

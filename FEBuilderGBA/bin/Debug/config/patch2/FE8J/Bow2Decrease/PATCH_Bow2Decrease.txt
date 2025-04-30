@@ -11,5 +11,7 @@ INFO=弓などの間接武器を、ミスして外した場合も、耐久を1�
 AUTHOR=aera
 NAME.en=Lose bow durability on miss
 INFO.en=Even if you miss when attacking with a bow, durability will be reduced by one.
+NAME.de=Lose bow durability on miss
+INFO.de=Even if you miss when attacking with a bow, durability will be reduced by one.
 NAME.zh=即使你取下弓，它也会减少
 INFO.zh=即使你误认并移除了诸如弓之类的间接武器，也要改变它以减少耐久性。

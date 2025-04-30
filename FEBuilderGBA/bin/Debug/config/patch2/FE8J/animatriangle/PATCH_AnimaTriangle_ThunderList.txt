@@ -25,4 +25,5 @@ B0:ITEM.en=Item ID
 AUTHOR=Snakey1
 INFO=AnimaTriangleでThunderに分類する武器を作ります。\r\nThunderはWindに弱く、ThunderはFireに強くなります。\r\n
 INFO.en=Make weapons to classify as Thunder by AnimaTriangle.\r\nThunder is weak against Wind and Thunder becomes strong against Fire.\r\n
+INFO.de=Make weapons to classify as Thunder by AnimaTriangle.\r\nThunder is weak against Wind and Thunder becomes strong against Fire.\r\n
 INFO.zh=通过AnimaTriangle制作武器归类为雷霆。\r\n雷霆对阵风很弱，雷霆队对阵火力变得强大。\r\n

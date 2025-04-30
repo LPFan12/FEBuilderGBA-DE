@@ -1,5 +1,6 @@
 NAME=章の目的の背景を透過させる
 NAME.en=Transparent the chapter's purpose background.
+NAME.de=Transparent the chapter's purpose background.
 
 //アドレスパッチとして実装します
 TYPE=SWITCH
@@ -18,6 +19,8 @@ INFO=章のクリア目的の背景を透過にします。
 COMBO=Default: Off|OFF|透過処理|TRA
 COMBO.en=Default: Off|OFF|Transparent|TRA
 INFO.en=Clear Chapter Make the desired background transparent.
+COMBO.de=Default: Off|OFF|Transparent|TRA
+INFO.de=Clear Chapter Make the desired background transparent.
 NAME.zh=使章节目的背景透明。
 INFO.zh=清除章节使所需背景透明。
 COMBO.zh=Default: Off|OFF|透明处理。|TRA

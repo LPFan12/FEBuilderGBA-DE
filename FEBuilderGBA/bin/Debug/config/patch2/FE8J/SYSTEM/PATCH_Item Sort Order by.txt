@@ -1,5 +1,6 @@
 NAME=輸送隊のアイテムソートの方法を変更する
 NAME.en=Change the item sorting method of the Supply
+NAME.de=Change the item sorting method of the Supply
 NAME.zh=Change the item sorting method of the Supply
 
 //アドレスパッチとして実装します
@@ -8,6 +9,7 @@ TAG=#ENGINE
 
 COMBO=Default: ItemID|OFFF|単価|GOLD|攻撃力|DMGG|武器レベル|WLVL|アイコンID|ICON
 COMBO.en=Default: ItemID|OFFF|Price Per Use|GOLD|POW|DMGG|WeaponLV|WLVL|IconID|ICON
+COMBO.de=Default: ItemID|OFFF|Price Per Use|GOLD|POW|DMGG|WeaponLV|WLVL|IconID|ICON
 COMBO.zh=Default: ItemID|OFFF|Price Per Use|GOLD|POW|DMGG|WeaponLV|WLVL|IconID|ICON
 
 DETERMINATION_ADDRESS=0x09A432
@@ -42,4 +44,5 @@ INFO=輸送隊や進撃準備のリストに表示されるアイテムのソー
 
 
 INFO.en=Change the way items are sorted in the convoy and march preparation lists.\r\nThe default is ItemID order.\r\nIf you want to change it, please note that the sort order will be unstable if there are values in the same column.\r\n\r\nPrice Per Use: Sorts the items in order of lowest price (unit price).\r\nPOW: Sort in order of attack power. If you can also assign attack power to items, you can specify the sort order.\r\nWeaponLV: Sort by weapon level. If the item is also assigned a weapon level, the sort order can be fixed.\r\nIconID: Use the icon ID for the sort order. However, it may be slower than the others since it adds one more cmp.\r\n
+INFO.de=Change the way items are sorted in the convoy and march preparation lists.\r\nThe default is ItemID order.\r\nIf you want to change it, please note that the sort order will be unstable if there are values in the same column.\r\n\r\nPrice Per Use: Sorts the items in order of lowest price (unit price).\r\nPOW: Sort in order of attack power. If you can also assign attack power to items, you can specify the sort order.\r\nWeaponLV: Sort by weapon level. If the item is also assigned a weapon level, the sort order can be fixed.\r\nIconID: Use the icon ID for the sort order. However, it may be slower than the others since it adds one more cmp.\r\n
 INFO.zh=Change the way items are sorted in the convoy and march preparation lists.\r\nThe default is ItemID order.\r\nIf you want to change it, please note that the sort order will be unstable if there are values in the same column.\r\n\r\nPrice Per Use: Sorts the items in order of lowest price (unit price).\r\nPOW: Sort in order of attack power. If you can also assign attack power to items, you can specify the sort order.\r\nWeaponLV: Sort by weapon level. If the item is also assigned a weapon level, the sort order can be fixed.\r\nIconID: Use the icon ID for the sort order. However, it may be slower than the others since it adds one more cmp.\r\n

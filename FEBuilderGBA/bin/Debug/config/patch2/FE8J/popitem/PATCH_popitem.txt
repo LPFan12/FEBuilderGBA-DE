@@ -11,5 +11,7 @@ INFO=マップ上で、アイテムドロップする敵には、アイテムを
 AUTHOR=aera
 NAME.en=Display icons on enemies who drop items
 INFO.en=On the map, for an enemy who drops an item, a mark for dropping the item is displayed.
+NAME.de=Display icons on enemies who drop items
+INFO.de=On the map, for an enemy who drops an item, a mark for dropping the item is displayed.
 NAME.zh=显示放下物品的敌人的图标
 INFO.zh=在地图上，对于放下物品的敌人，显示用于放下物品的标记。

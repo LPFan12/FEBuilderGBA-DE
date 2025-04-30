@@ -1,8 +1,10 @@
 NAME=プレイヤーが輸送隊とアイテムを交換できるようにする
 NAME.en=Convoy: units can trade with convoy
+NAME.de=Convoy: units can trade with convoy
 
 INFO=プレイヤーユニットが輸送隊とアイテムを交換できるようにします。
 INFO.en=Allows other units to trade with Merlinus\r\n(make players trade convoy)
+INFO.de=Allows other units to trade with Merlinus\r\n(make players trade convoy)
 
 
 //
@@ -17,5 +19,6 @@ ALL:0x23D08=0xC0 0x46 0xC0 0x46
 
 HINT=輸送体
 HINT.en=convoy,supply,transporter,merlinus,wagon
+HINT.de=convoy,supply,transporter,merlinus,wagon
 NAME.zh=允许玩家与护卫舰交换物品。
 INFO.zh=允许玩家单位与护卫队交换物品。

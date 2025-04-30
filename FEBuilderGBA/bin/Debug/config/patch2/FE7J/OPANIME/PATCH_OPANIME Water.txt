@@ -1,6 +1,7 @@
 
 NAME=OPANIME 水滴
 NAME.en=OPANIME Water
+NAME.de=OPANIME Water
 
 //画像パッチとして実装します
 TYPE=IMAGE

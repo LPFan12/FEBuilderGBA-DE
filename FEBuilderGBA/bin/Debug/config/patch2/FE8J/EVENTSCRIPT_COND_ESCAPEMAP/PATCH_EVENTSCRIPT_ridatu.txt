@@ -15,8 +15,12 @@ AUTHOR=aera 出典元:https://github.com/ngmansion/FE8/tree/master/escapemap
 NAME.en=Withdrawal the operation character
 INFO.en=Withdraw the currently operated character from the map.\r\nThis is a script to create a withdraw map.\r\nSample: https://cdn.discordapp.com/attachments/145137778710151168/630348123197407233/fe8U.WithdrawMap.Sample.7z
 AUTHOR.en=Source: Source: https://github.com/ngmansion/FE8/tree/master/escapemap.
+NAME.de=Withdrawal the operation character
+INFO.de=Withdraw the currently operated character from the map.\r\nThis is a script to create a withdraw map.\r\nSample: https://cdn.discordapp.com/attachments/145137778710151168/630348123197407233/fe8U.WithdrawMap.Sample.7z
+AUTHOR.en=Source: Source: https://github.com/ngmansion/FE8/tree/master/escapemap.
 
 EVENTSCRIPT.en=400D0000{$L1:ridatu.bin}	Withdrawal the operation character
+EVENTSCRIPT.de=400D0000{$L1:ridatu.bin}	Withdrawal the operation character
 AUTHOR.zh=来源:https://github.com/ngmansion/FE8/tree/master/escapemap。
 
 EVENTSCRIPT.zh=400D0000{$L1:ridatu.bin}	退出映射中的独立操作字符扩展指令。

@@ -1,4 +1,5 @@
 NAME.en=FIN
+NAME.de=FIN
 NAME.zh=系统_FIN图像
 
 NAME=FIN

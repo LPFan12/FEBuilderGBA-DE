@@ -1,5 +1,6 @@
 NAME=MODE SELECT 顔画像 エリウッド編
 NAME.en=MODE SELECT Portrait of the Eliwood Editing
+NAME.de=MODE SELECT Portrait of the Eliwood Editing
 
 //アドレスパッチとして実装します
 TYPE=ADDR

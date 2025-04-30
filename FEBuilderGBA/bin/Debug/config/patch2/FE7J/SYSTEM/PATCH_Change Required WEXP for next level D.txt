@@ -1,5 +1,6 @@
 NAME=武器レベルDになれる武器経験値
 NAME.en=Weapon Exp Required for D Rank
+NAME.de=Weapon Exp Required for D Rank
 NAME.zh=武器经验值可以是武器级别D
 
 //アドレスパッチとして実装します

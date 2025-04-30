@@ -1,5 +1,6 @@
 NAME=ボツデータのクリア 戦闘アニメーション
 NAME.en=clear unreleased works: battle animation
+NAME.de=clear unreleased works: battle animation
 
 PATCHED_IF:0xC258A4=0x00 0x00 0x00 0x00
 IF:0xC258A4=0x10 0x00 0x20 0x00
@@ -24,5 +25,6 @@ CLEAR:0xDFB6D8:974=0xDFBAA6 //ボツデータ 空っぽの戦闘シート	 (974b
 INFO=ボツデータの戦闘アニメデータをゼロクリアします。\r\nこれにより、この領域をリビルド時に再利用できるようにします。\r\nこの領域は連続していないのですが、合計14992byte確保できます。
 
 INFO.en=Zero clear the battle animation data of the boots data.\r\nThis makes it possible to reuse this area when rebuilding.\r\nThis area is not continuous, but a total of 14992 bytes can be secured.
+INFO.de=Zero clear the battle animation data of the boots data.\r\nThis makes it possible to reuse this area when rebuilding.\r\nThis area is not continuous, but a total of 14992 bytes can be secured.
 NAME.zh=清除引导数据战斗动画
 INFO.zh=清零引导数据的战斗动画数据。\r\n这使得重建时可以重用该区域。\r\n该区域不连续，但总共可以保证14992个字节。

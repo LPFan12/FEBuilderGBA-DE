@@ -9,6 +9,7 @@ ADDRESS_TYPE=ITEM
 
 AUTHOR=7743
 NAME.en=Prohibits the Crit by Item _ Stone
+NAME.de=Prohibits the Crit by Item _ Stone
 NAME.zh=武器并不总是扼杀杀手 - 石头
 
 CONFLICT_IF:0x2AC26=0x00 0x00 0x00 0x4B

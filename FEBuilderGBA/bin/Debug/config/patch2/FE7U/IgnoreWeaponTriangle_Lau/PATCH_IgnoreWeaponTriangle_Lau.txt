@@ -11,5 +11,7 @@ EA=IgnoreWeaponTriangle_Lau.txt
 AUTHOR= SageMatthis/EgalLau37
 NAME.en=Add item ability to ignore weapon triangle
 INFO.en=This patch adds a weapon ability to ignore weapon triangle on flag 3, field 3.
+NAME.de=Add item ability to ignore weapon triangle
+INFO.de=This patch adds a weapon ability to ignore weapon triangle on flag 3, field 3.
 NAME.zh=Add item ability to ignore weapon triangle
 INFO.zh=This patch adds a weapon ability to ignore weapon triangle on flag 3, field 3.

@@ -18,6 +18,11 @@ INFO.en=Obtains the unit ID that defeated the opponent in the last battle and re
 
 EVENTSCRIPT:1.en=400D0000{$L1:ASMC_GetKillerUnitID.dmp}	GetKillerUnitID	@STOREC	{COND}
 
+NAME.de=Add Event: GetKillerUnitID
+INFO.de=Obtains the unit ID that defeated the opponent in the last battle and returns it to SlotC.\r\nFor example, if Seth (UnitID: 0x02) defeats O'Neill (UnitID: 0x68), 0x02 will be returned.
+
+EVENTSCRIPT:1.de=400D0000{$L1:ASMC_GetKillerUnitID.dmp}	GetKillerUnitID	@STOREC	{COND}
+
 NAME.zh=Add Event: GetKillerUnitID
 INFO.zh=Obtains the unit ID that defeated the opponent in the last battle and returns it to SlotC.\r\nFor example, if Seth (UnitID: 0x02) defeats O'Neill (UnitID: 0x68), 0x02 will be returned.
 

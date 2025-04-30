@@ -1,5 +1,6 @@
 NAME=ルセアとキラアン兵に武器を渡す(Caelin1)
 NAME.en=Change weapons given to Lucius & Caelin Soldiers(Caelin1)
+NAME.de=Change weapons given to Lucius & Caelin Soldiers(Caelin1)
 NAME.zh=Change weapons given to Lucius & Caelin Soldiers(Caelin1)
 TYPE=ADDR
 TAG=#ENGINE

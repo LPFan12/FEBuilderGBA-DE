@@ -1,6 +1,7 @@
 
 NAME=HP上限 敵軍
 NAME.en=Enemy HP Limit(Foe HP Limit)
+NAME.de=Enemy HP Limit(Foe HP Limit)
 
 //アドレスパッチとして実装します
 TYPE=ADDR
@@ -11,4 +12,5 @@ HEX=FALSE
 NAME.zh=敌军HP上限
 
 INFO.en=Change value in decimal.
+INFO.de=Change value in decimal.
 HINT=HP caps

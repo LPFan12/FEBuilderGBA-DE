@@ -1,4 +1,5 @@
 NAME=Chapter OP Logo
+NAME.de=Chapter OP Logo
 AUTHOR=laqieer
 
 TYPE=IMAGE

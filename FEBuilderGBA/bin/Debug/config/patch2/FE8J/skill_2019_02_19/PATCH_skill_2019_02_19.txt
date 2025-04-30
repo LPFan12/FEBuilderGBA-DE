@@ -1,5 +1,6 @@
 NAME=Skill Extension FE8N 2019_02_19(スキル拡張)
 NAME.en=Skill Extension FE8N 2019_02_19
+NAME.de=Skill Extension FE8N 2019_02_19
 NAME.zh=技能延期FE8N 2019_02_19（技能扩展）
 
 TYPE=BIN
@@ -196,10 +197,10 @@ TEXT:0x0ED6=0x0ED6.TXT
 
 INFO=aeraさんが作ったFE8Nからスキル機能だけを抜き出したものです。
 INFO.en=This is the one which extracted skill function only from FE8N made by aera.
+INFO.de=This is the one which extracted skill function only from FE8N made by aera.
 AUTHOR=出典元:https://github.com/ngmansion/FE8N/tree/master/Engine%20Hacks/_N/_Skills  , kenpuku
 
 INFO.zh=只有从aera制作的FE8N才能提取技能功能。
 AUTHOR.zh=来源:https://github.com/ngmansion/FE8N/tree/master/Engine%20Hacks/_N/_Skills  , kenpuku
 AUTHOR.en=Source: https://github.com/ngmansion/FE8N/tree/master/Engine%20Hacks/_N/_Skills  , kenpuku
-
-
+AUTHOR.de=Source: https://github.com/ngmansion/FE8N/tree/master/Engine%20Hacks/_N/_Skills  , kenpuku

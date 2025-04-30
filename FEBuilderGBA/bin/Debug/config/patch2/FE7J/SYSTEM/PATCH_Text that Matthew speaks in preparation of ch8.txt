@@ -1,5 +1,6 @@
 NAME=マシューがch8の進撃準備でしゃべるセリフ
 NAME.en=Text that Matthew speaks in preparation of ch8
+NAME.de=Text that Matthew speaks in preparation of ch8
 
 //アドレスパッチとして実装します
 TYPE=ADDR

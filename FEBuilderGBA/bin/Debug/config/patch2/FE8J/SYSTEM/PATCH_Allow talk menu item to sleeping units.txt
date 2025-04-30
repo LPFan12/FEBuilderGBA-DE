@@ -1,10 +1,12 @@
 NAME=眠っているユニットとも話すで会話できるようにする
 NAME.en=Allow talk menu item to sleeping units
+NAME.de=Allow talk menu item to sleeping units
 NAME.zh=Allow talk menu item to sleeping units
 
 
 INFO=バニラでは、眠っているユニットとは「話す」メニューで会話をすることができません。\r\nこのパッチは、それを可能にします。
 INFO.en=In vanilla, it is not possible to talk to sleeping units in the "Talk" menu.\r\nthis patch makes it possible.
+INFO.de=In vanilla, it is not possible to talk to sleeping units in the "Talk" menu.\r\nthis patch makes it possible.
 INFO.zh=In vanilla, it is not possible to talk to sleeping units in the "Talk" menu.\r\nthis patch makes it possible.
 
 //アドレスパッチとして実装します

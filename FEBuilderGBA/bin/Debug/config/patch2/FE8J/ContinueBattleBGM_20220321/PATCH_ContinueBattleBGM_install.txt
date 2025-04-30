@@ -12,5 +12,7 @@ JUMP:0x73F4C:$r3=ContinueBattleBGM.dmp
 AUTHOR=7743
 NAME.en=Continue Battle BGM Between Map and Combat 20220321
 INFO.en=If same Map BGM and Batlle BGM is specified, Continue playing without stopping the music.\r\nThis version adds the following features.\r\nIf 0xFFFF is set for the combat BGM, it will refuse to switch to the combat BGM and continue playing the map BGM.\r\nIf the combat BGM has a low priority level of 3 or higher, it will be played as a sound effect instead of BGM.
+NAME.de=Continue Battle BGM Between Map and Combat 20220321
+INFO.de=If same Map BGM and Batlle BGM is specified, Continue playing without stopping the music.\r\nThis version adds the following features.\r\nIf 0xFFFF is set for the combat BGM, it will refuse to switch to the combat BGM and continue playing the map BGM.\r\nIf the combat BGM has a low priority level of 3 or higher, it will be played as a sound effect instead of BGM.
 NAME.zh=还在Battle BGM中进行了延续判断 20220321
 INFO.zh=如果指定了与当前正在播放的BGM相同的BGM，则它将继续播放而不停止音乐。\r\nThis version adds the following features.\r\nIf 0xFFFF is set for the combat BGM, it will refuse to switch to the combat BGM and continue playing the map BGM.\r\nIf the combat BGM has a low priority level of 3 or higher, it will be played as a sound effect instead of BGM.

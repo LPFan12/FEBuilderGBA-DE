@@ -3,6 +3,8 @@ INFO=周目、所持金、クリア条件、ターン
 
 NAME.en=Help image displayed in the status window
 INFO.en=Count, Funds, Goal, Turns
+NAME.de=Help image displayed in the status window
+INFO.de=Count, Funds, Goal, Turns
 NAME.zh=Help image displayed in the status window
 INFO.zh=Count, Funds, Goal, Turns
 

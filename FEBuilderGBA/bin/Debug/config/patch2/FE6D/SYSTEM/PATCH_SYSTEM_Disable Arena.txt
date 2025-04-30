@@ -1,6 +1,7 @@
 
 NAME=闘技場禁止
 NAME.en=Disable Arena
+NAME.de=Disable Arena
 
 //アドレスパッチとして実装します
 TYPE=ADDR
@@ -12,7 +13,9 @@ AUTHOR=出典:Chap@FE8_GIRLS 09.10.01 の資料より
 NAME.zh=竞技场禁止
 AUTHOR.zh=来源:Chap@FE8_GIRLS 09.10.01的材料。
 AUTHOR.en=Source: Chap@FE8_GIRLS 09.10.01 by the material.
+AUTHOR.de=Source: Chap@FE8_GIRLS 09.10.01 by the material.
 COMBO.en=Ban|0x02 0x21 0x00 0x06 0x00 0x28 0x00 0xD1 0x02|Default: Do not ban|0x00 0x21 0x00 0x06 0x00 0x28 0x00 0xD1 0x01
+COMBO.de=Ban|0x02 0x21 0x00 0x06 0x00 0x28 0x00 0xD1 0x02|Default: Do not ban|0x00 0x21 0x00 0x06 0x00 0x28 0x00 0xD1 0x01
 COMBO.zh=禁止|0x02 0x21 0x00 0x06 0x00 0x28 0x00 0xD1 0x02|Default: 不要禁止|0x00 0x21 0x00 0x06 0x00 0x28 0x00 0xD1 0x01
 
 
@@ -20,4 +23,5 @@ COMBO.zh=禁止|0x02 0x21 0x00 0x06 0x00 0x28 0x00 0xD1 0x02|Default: 不要禁�
 
 INFO=闘技場の利用を禁止します。\r\n闘技場があると好きなだけレベルを上げることができるため、ゲームバランスが壊れます。\r\nこのパッチは闘技場を利用できなくします。\r\n
 INFO.en=Toggles whether the arena can be accessed (Default) or not (Patched)\r\n
+INFO.de=Toggles whether the arena can be accessed (Default) or not (Patched)\r\n
 INFO.zh=该补丁还禁止使用竞技场。\r\n游戏平衡将被打破，因为你可以像竞技场一样提高水平。\r\n这个补丁会让竞技场无法使用。\r\n

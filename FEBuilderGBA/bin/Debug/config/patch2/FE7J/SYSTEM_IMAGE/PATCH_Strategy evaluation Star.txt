@@ -1,5 +1,6 @@
 NAME=攻略評価のスター
 NAME.en=Strategy evaluation Star
+NAME.de=Strategy evaluation Star
 NAME.zh=Strategy evaluation Star
 
 TYPE=IMAGE

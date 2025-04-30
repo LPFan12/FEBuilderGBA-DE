@@ -1,5 +1,6 @@
 NAME=大陸の魔物退治で指定のワールドマップイベントを実行する(Editor)
 NAME.en=Run a specified world map event in a creature campaign(Editor)
+NAME.de=Run a specified world map event in a creature campaign(Editor)
 NAME.zh=Run a specified world map event in a creature campaign(Editor)
 AUTHOR=7743
 
@@ -18,6 +19,10 @@ P4:EVENT.ja=実行するイベント
 W0:FLAG.en=Achievement Flag(0x00=ANY)
 W2:FLAG.en=Trigger Flag(0x00=ANY)
 P4:EVENT.en=Event
+
+W0:FLAG.de=Achievement Flag(0x00=ANY)
+W2:FLAG.de=Trigger Flag(0x00=ANY)
+P4:EVENT.de=Event
 
 W0:FLAG.zh=Achievement Flag(0x00=ANY)
 W2:FLAG.zh=Trigger Flag(0x00=ANY)

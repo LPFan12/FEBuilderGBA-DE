@@ -1,8 +1,10 @@
 NAME=最初から難易度やモードセレクトを解禁する
 NAME.en=Unlocking mode select from start
+NAME.de=Unlocking mode select from start
 
 INFO=スタート時の難易度セレクトでハードモードや、ヘクトル編を解禁します。
 INFO.en=The hard mode and Hector's edition will be prohibited by the difficulty selection at the start.
+INFO.de=The hard mode and Hector's edition will be prohibited by the difficulty selection at the start.
 
 
 //アドレスパッチとして実装します

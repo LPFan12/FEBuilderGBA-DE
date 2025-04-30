@@ -15,6 +15,12 @@ J_39.en=Skill 2
 
 J_49.en=Personal skills
 
+J_38.de=Skill 1
+
+J_39.de=Skill 2
+
+J_49.de=Personal skills
+
 J_38.zh=技能1
 
 J_39.zh=技能2

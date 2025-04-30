@@ -1,6 +1,7 @@
 NAME=盾パッチ(aera version)
 NAME.zh=盾补丁(aera version)
 NAME.en=Shield patch(aera version)
+NAME.de=Shield patch(aera version)
 
 TYPE=EA
 TAG=#ENGINE
@@ -11,4 +12,5 @@ INFO=aeraさんが作った盾パッチを、拡張したバージョンです�
 
 PATCHED_IF:0x0161DA=0x00 0x00 0x00 0x4b 0x9f 0x46
 INFO.en=This is an expanded version of the shield patch created by aera.\r\nIt is also effective in addition to defense and magic defense that the original could not do.\r\nThe existing shield patch has a memory corruption bug, so I'm aiming to replace it.
+INFO.de=This is an expanded version of the shield patch created by aera.\r\nIt is also effective in addition to defense and magic defense that the original could not do.\r\nThe existing shield patch has a memory corruption bug, so I'm aiming to replace it.
 INFO.zh=这是aera创建的屏蔽补丁的扩展版本。\r\n除防御和魔术防御外，它还可以发挥原始工具无法做到的效果。\r\n现有的屏蔽补丁有一个内存损坏错误，因此我打算替换它。

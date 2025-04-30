@@ -1,5 +1,6 @@
 NAME=Negative Stats Display
 NAME.en=Negative Stats Display
+NAME.de=Negative Stats Display
 NAME.zh=Negative Stats Display
 
 TYPE=EA

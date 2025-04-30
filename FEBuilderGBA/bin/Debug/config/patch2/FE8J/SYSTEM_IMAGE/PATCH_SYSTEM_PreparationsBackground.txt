@@ -1,6 +1,7 @@
 
 NAME=進撃開始の背景
 NAME.en=PreparationsBackground
+NAME.de=PreparationsBackground
 NAME.zh=系统_进击开始的背景
 
 INFO=進撃準備の背景
@@ -22,4 +23,5 @@ PALETTE_POINTER=0x1FD80
 
 
 INFO.en=Background of preparation for advance.
+INFO.de=Background of preparation for advance.
 INFO.zh=提前准备的背景

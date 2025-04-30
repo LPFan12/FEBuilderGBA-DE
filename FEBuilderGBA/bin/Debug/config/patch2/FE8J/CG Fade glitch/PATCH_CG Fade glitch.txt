@@ -10,5 +10,7 @@ BIN:0xEFF4=EFF4.bin
 AUTHOR=Transplant:7743
 NAME.en=CG Fade glitch
 AUTHOR.en=Transplant:7743
+NAME.de=CG Fade glitch
+AUTHOR.de=Transplant:7743
 NAME.zh=CG淡入淡出
 AUTHOR.zh=Transplant:7743

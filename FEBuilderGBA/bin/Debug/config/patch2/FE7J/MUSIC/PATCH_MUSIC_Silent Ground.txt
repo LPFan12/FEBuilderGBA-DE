@@ -1,5 +1,6 @@
 NAME=MUSIC_ちりばめた希望
 NAME.en=MUSIC_Silent Ground
+NAME.de=MUSIC_Silent Ground
 //アドレスパッチとして実装します
 TYPE=ADDR
 TAG=#MUSIC #SONG #SOUND #BGM

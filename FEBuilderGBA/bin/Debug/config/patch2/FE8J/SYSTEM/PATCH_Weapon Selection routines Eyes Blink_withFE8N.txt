@@ -1,5 +1,6 @@
 NAME=武器選択画面等でまばたきを追加する(For FE8N)
 NAME.en=Weapon Selection etc routine's Eyes Blink(For FE8N)
+NAME.de=Weapon Selection etc routine's Eyes Blink(For FE8N)
 
 IF:0x0802D738=0xD7 0xF7 0x04 0xFF
 
@@ -40,6 +41,7 @@ AUTHOR=7743, Orignal: Mokha https://feuniverse.us/t/mokhas-hacks-sundries/16204\
 
 INFO=武器選択画面やアイテム交換画面等にキャラクターの顔画面に、瞬きを追加します。\r\nFE8N Skillに対応しているバージョンです。
 INFO.en=This patch adds a blink to the character's portrait screen on the weapon selection screen, item exchange screen, etc.\r\nThis version is compatible with FE8N Skill.
+INFO.de=This patch adds a blink to the character's portrait screen on the weapon selection screen, item exchange screen, etc.\r\nThis version is compatible with FE8N Skill.
 NAME.zh=在武器选择屏幕上添加闪烁等。(For FE8N)
 INFO.zh=在武器选择画面、物品交换画面等角色的面部画面中添加了闪烁。\r\nThis version is compatible with FE8N Skill.
 

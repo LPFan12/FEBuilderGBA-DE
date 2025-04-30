@@ -1,6 +1,7 @@
 
 NAME=ディフォルトの軍師名のTextID
 NAME.en=TextID of the default Tactician name
+NAME.de=TextID of the default Tactician name
 NAME.zh=TextID of the default Tactician name
 
 //アドレスパッチとして実装します
@@ -15,4 +16,5 @@ AUTHOR=7743
 
 INFO=ディフォルトの軍師名のデータが格納されているTextIDを指定します。\r\nディフォルトは、0x1F1 マークです。\r\nFE8ではゲーム中では利用されていませんが、FE7から引き継がれました。\r\nこの値はstrcpyされるので、あまりに長い文字列をそのテキストIDに格納するのは危険だと思われます。
 INFO.en=Specifies the TextID in which the default Tactician name data is stored.\r\nThe default is the 0x1F1 mark.\r\nIt is not used in the game in FE8, but has been inherited from FE7.\r\nThis value will be strcpyed, so it is considered dangerous to store too long strings in that TextID.
+INFO.de=Specifies the TextID in which the default Tactician name data is stored.\r\nThe default is the 0x1F1 mark.\r\nIt is not used in the game in FE8, but has been inherited from FE7.\r\nThis value will be strcpyed, so it is considered dangerous to store too long strings in that TextID.
 INFO.zh=Specifies the TextID in which the default Tactician name data is stored.\r\nThe default is the 0x1F1 mark.\r\nIt is not used in the game in FE8, but has been inherited from FE7.\r\nThis value will be strcpyed, so it is considered dangerous to store too long strings in that TextID.

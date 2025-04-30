@@ -1,5 +1,6 @@
 NAME=ウィンドウを半透明に
 NAME.en=Makes some windows semitransparent
+NAME.de=Makes some windows semitransparent
 NAME.zh=Makes some windows semitransparent
 
 //アドレスパッチとして実装します
@@ -64,4 +65,5 @@ INFO=メニューやウィンドウを少しだけ半透明にします
 CONFLICT_IF:0x897FC=0x60 0x22 0xAA 0x5E
 CONFLICT_MESSAGE=FE8N
 INFO.en=Makes menus and windows slightly translucent.
+INFO.de=Makes menus and windows slightly translucent.
 INFO.zh=使菜单和窗口略微半透明。

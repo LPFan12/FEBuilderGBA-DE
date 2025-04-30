@@ -1,5 +1,6 @@
 NAME.zh=音乐_OP_DEMO
 NAME.en=MUSIC_OP_DEMO
+NAME.de=MUSIC_OP_DEMO
 
 //アドレスパッチとして実装します
 TYPE=ADDR

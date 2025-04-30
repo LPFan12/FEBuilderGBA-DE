@@ -1,8 +1,10 @@
 NAME=ストーンの霧のパレットを動的に変更する(Editor)
 NAME.en=Dynamically Change the Stone's Fog palette.(Editor)
+NAME.de=Dynamically Change the Stone's Fog palette.(Editor)
 NAME.zh=Dynamically Change the Stone's Fog Fire palette.(Editor)
 INFO=リストにないものはディフォルトの挙動を行います。\r\n\r\n使用する武器や、使用者によって、ストーンの霧のパレットを動的に変更します。\r\nEffectID:0x12 "封印の剣"の炎のエフェクトの色を変更します。
 INFO.en=Those not on the list behave by default.\r\nThe Stone's Fog palette is dynamically changed depending on the weapon used and the user.
+INFO.de=Those not on the list behave by default.\r\nThe Stone's Fog palette is dynamically changed depending on the weapon used and the user.
 INFO.zh=Those not on the list behave by default.\r\nThe Stone's Fog palette is dynamically changed depending on the weapon used and the user.
 
 IF:0x69934=0x00 0x4B

@@ -1,4 +1,5 @@
 NAME=PLAYER_PHASE
+NAME.de=PLAYER_PHASE (Spielerphase)
 NAME.zh=我方_阶段文字
 
 TYPE=IMAGE

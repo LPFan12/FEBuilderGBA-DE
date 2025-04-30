@@ -1,6 +1,7 @@
 
 NAME=たからのかぎ69のアイテムID
 NAME.en=Chest Key69 ItemID
+NAME.de=Chest Key69 ItemID
 
 //アドレスパッチとして実装します
 TYPE=ADDR

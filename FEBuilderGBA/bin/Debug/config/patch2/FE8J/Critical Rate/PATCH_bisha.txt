@@ -24,10 +24,13 @@ LISTNAME=CLASS
 //データを定義します
 B0:DECIMAL:=必殺率
 B0:DECIMAL:.en=Critical Rate
+B0:DECIMAL:.de=Critical Rate
 B0:DECIMAL:.zh=必杀
 
 AUTHOR=アインズ・ウール・ゴウン
 AUTHOR.en=Ainz Ooal Gown
+AUTHOR.de=Ainz Ooal Gown
 AUTHOR.zh=Ainz Ooal Gown
 NAME.en=Set the deadly correction value for each class(Editor)
+NAME.de=Set the deadly correction value for each class(Editor)
 NAME.zh=设置每个类的致命校正值(Editor)

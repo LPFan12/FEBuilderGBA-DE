@@ -1,9 +1,11 @@
 NAME=複数の「大盾」スキルパッチ(Editor)
 NAME.en=Multi-Class GreatShield Skill(Editor)
+NAME.de=Multi-Class GreatShield Skill(Editor)
 NAME.zh=Multi-Class GreatShield Skill(Editor)
 
 INFO=複数クラスでの「大盾」スキルを実装します
 INFO.en=Patches the ROM to allow the General's "GreatShield" skill to be assigned to multiple classes.\r\n
+INFO.de=Patches the ROM to allow the General's "GreatShield" skill to be assigned to multiple classes.\r\n
 INFO.zh=Patches the ROM to allow the General's "GreatShield" skill to be assigned to multiple classes.\r\n
 TYPE=STRUCT
 TAG=#ENGINE

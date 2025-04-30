@@ -28,11 +28,17 @@ INFO.en=Patches the game to set event conditions based on whether a character ha
 
 AUTHOR.en=Kaito patch7743
 
+NAME.de=Add Event Condition: Support Check
+
+INFO.de=Patches the game to set event conditions based on whether a character has support.\r\nCommentary:\r\nhttps://feuniverse.us/t/fe-builder-gba/2845/2519
+
+AUTHOR.de=Kaito patch7743
+
 
 
 
 
 
 EVENTSCRIPT.en=400D0000{$L1:wakaresaseya_find_support_check.bin}	Confirm support of characters during operation	{COND}
+EVENTSCRIPT.de=400D0000{$L1:wakaresaseya_find_support_check.bin}	Confirm support of characters during operation	{COND}
 EVENTSCRIPT.zh=400D0000{$L1:wakaresaseya_find_support_check.bin}	在操作期间确认字符的支持	{COND}
-

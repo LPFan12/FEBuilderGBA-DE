@@ -1,5 +1,6 @@
 NAME=エンディングのクリアターン一覧に編ごとの区切り文字を追加する(Installer)
 NAME.en=Add delimiter for each edition to the clear turn list of the ending(Installer)
+NAME.de=Add delimiter for each edition to the clear turn list of the ending(Installer)
 NAME.zh=Add delimiter for each edition to clear turn list of ending(Installer)
 
 TYPE=EA
@@ -14,7 +15,6 @@ INFO=エンディングのクリアターン一覧を表示する時に、指定
 
 INFO.zh=When displaying a list of clear turns for an ending, display a specific string of characters before displaying the specified chapter ID\r\nYou can create separations such as Part 1 and Part 2.\r\nTables should always be arranged in ascending order by the chapter they are displayed in.\r\nIf a blank line break is required, insert a blank line.\r\nPlease be careful if you need a branch in a chapter or if you are setting up gaiden chapter.\r\nPlease make sure you understand the sample example well.
 
-INFO.zh=When displaying a list of clear turns for an ending, display a specific string of characters before displaying the specified chapter ID\r\nYou can create separations such as Part 1 and Part 2.\r\nTables should always be arranged in ascending order by the chapter they are displayed in.\r\nIf a blank line break is required, insert a blank line.\r\nPlease be careful if you need a branch in a chapter or if you are setting up gaiden chapter.\r\nPlease make sure you understand the sample example well.
-
 AUTHOR=7743
 INFO.en=When displaying the clear turn list of the ending, a specific character string is displayed before displaying the specified chapter ID.\r\nYou can create breaks such as Part 1 and Part 2.\r\nBe sure to arrange the table in ascending order in the order of the chapters displayed.\r\nIf you need a blank line break, insert a blank line.\r\nBe careful when branching is required in the volume or when setting it in the Gaiden chapter.\r\nMake sure you understand the sample examples.
+INFO.de=When displaying the clear turn list of the ending, a specific character string is displayed before displaying the specified chapter ID.\r\nYou can create breaks such as Part 1 and Part 2.\r\nBe sure to arrange the table in ascending order in the order of the chapters displayed.\r\nIf you need a blank line break, insert a blank line.\r\nBe careful when branching is required in the volume or when setting it in the Gaiden chapter.\r\nMake sure you understand the sample examples.

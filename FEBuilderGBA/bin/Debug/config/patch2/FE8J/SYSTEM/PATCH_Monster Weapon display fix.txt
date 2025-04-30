@@ -1,5 +1,6 @@
 NAME=魔物の武器も表示できるようにする
 NAME.en=Monster Weapon display fix
+NAME.de=Monster Weapon display fix
 
 //アドレスパッチとして実装します
 TYPE=SWITCH
@@ -25,4 +26,5 @@ AUTHOR=Brendor https://feuniverse.us/t/fe8-monster-weapon-display-fix/1246
 NAME.zh=也可以显示恶魔武器
 INFO=モンスターの武器の詳細を表示できるようにします。\r\nこのパッチは武器の名前としてTextID: 0x26Bの文字列を使用します。
 INFO.en=Allows you to view the details of the monster's weapon.\r\nThis patch uses the string TextID: 0x26B as the name of the weapon.
+INFO.de=Allows you to view the details of the monster's weapon.\r\nThis patch uses the string TextID: 0x26B as the name of the weapon.
 INFO.zh=允许您查看怪物武器的详细信息。\r\n此补丁使用字符串 TextID: 0x26B 作为武器的名称。

@@ -1,4 +1,5 @@
 NAME=ExtraMenu
+NAME.de=ExtraMenu
 
 AUTHOR=laqieer
 

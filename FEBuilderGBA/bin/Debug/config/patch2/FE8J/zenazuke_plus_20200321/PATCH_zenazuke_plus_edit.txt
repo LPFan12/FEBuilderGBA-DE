@@ -23,11 +23,14 @@ LISTNAME=$B0:ITEM
 B0:ITEM=ITEM
 B1:$COMBO Processing.jp.txt:.ja=処理
 B1:$COMBO Processing.en.txt:.en=processing
+B1:$COMBO Processing.de.txt:.de=processing
 B1:$COMBO Processing.en.txt:.zh=processing
 
 
 NAME.en=GiveAll+ Menu 20200321(Editor)
 INFO.en=You can set items to always send to the convoy or not to send.
+NAME.de=GiveAll+ Menu 20200321(Editor)
+INFO.de=You can set items to always send to the convoy or not to send.
 
 NAME.zh=GiveAll+ Menu 20200321(Editor)
 INFO.zh=You can set items to always send to the convoy or not to send.

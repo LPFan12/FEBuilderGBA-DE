@@ -1,5 +1,6 @@
 NAME=OPANIME_FACE_ヴィガルド
 NAME.en=OP Anime Face: Vigarde
+NAME.de=OP Anime Face: Vigarde
 
 TYPE=IMAGE
 TAG=#IMAGE

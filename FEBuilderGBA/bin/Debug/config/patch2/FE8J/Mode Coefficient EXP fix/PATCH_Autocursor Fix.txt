@@ -1,5 +1,6 @@
 NAME=Autocursor Fix
 NAME.en=Autocursor Fix
+NAME.de=Autocursor Fix
 TYPE=ADDR
 TAG=#ENGINE #ESSENTIALFIXES
 
@@ -17,3 +18,4 @@ INFO.zh=自动光标修复
 AUTHOR.zh=credit Vennobennu
 
 INFO.en=Toggles whether the ROM's autocursor seeks the first deployed unit or the first roster unit.\r\nBy default it seeks the first roster unit (Eirika/Ephraim)\r\n
+INFO.de=Toggles whether the ROM's autocursor seeks the first deployed unit or the first roster unit.\r\nBy default it seeks the first roster unit (Eirika/Ephraim)\r\n

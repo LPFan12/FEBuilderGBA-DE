@@ -1,9 +1,11 @@
-NAME=19�͈ٓ`�ɂ�����j���X�̍Œ჌�x��
+NAME=19章異伝にいけるニルスの最低レベル
 NAME.en=Chapter 19xx branch: Nils' minimum level
+NAME.de=Chapter 19xx branch: Nils' minimum level
 NAME.zh=Chapter 19xx branch: Nils' minimum level
 
-INFO=19�͈ٓ`�ɂ�����j���X�̍Œ჌�x�����w�肵�܂��B(���̃��x��+1�̐����ł�����B�f�B�t�H���g�� 6+1=7)
+INFO=19章異伝にいけるニルスの最低レベルを指定します。(このレベル+1の数字でいける。ディフォルトは 6+1=7)
 INFO.en=Unlocking chapter 19xx requires Nils to be at a certain level. (This level +1, the default is 6+1=7)
+INFO.de=Unlocking chapter 19xx requires Nils to be at a certain level. (This level +1, the default is 6+1=7)
 INFO.zh=Unlocking chapter 19xx requires Nils to be at a certain level. (This level +1, the default is 6+1=7)
 
 TYPE=ADDR

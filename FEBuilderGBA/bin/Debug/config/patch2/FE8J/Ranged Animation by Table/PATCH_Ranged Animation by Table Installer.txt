@@ -1,5 +1,6 @@
 NAME=常に間接モーションを表示する武器を複数設定できるパッチ(Install)
 NAME.en=Range-Animated Weapons List Installer
+NAME.de=Range-Animated Weapons List Installer
 
 TYPE=EA
 TAG=#ENGINE
@@ -12,7 +13,5 @@ EDIT_PATCH=PATCH_Ranged Animation by Table.txt
 AUTHOR=circleseverywhere https://feuniverse.us/t/fe8-always-display-ranged-animation-for-some-weapons/3271
 NAME.zh=可以设置总是显示远程攻击动画的武器补丁(Install)
 
-
 INFO.en=Patches a new table into the ROM that allows for creation of weapons that always display the ranged animation.\r\nThese weapons will use the ranged attack even at melee range.\r\nWithout patching, this list is limited to Hand Axe, Hatchet, Tomahawk, and Runesword.\r\nMust be installed in order to use "Range-Animated Weapons List Editor."\r\n
-
-
+INFO.de=Patches a new table into the ROM that allows for creation of weapons that always display the ranged animation.\r\nThese weapons will use the ranged attack even at melee range.\r\nWithout patching, this list is limited to Hand Axe, Hatchet, Tomahawk, and Runesword.\r\nMust be installed in order to use "Range-Animated Weapons List Editor."\r\n

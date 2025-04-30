@@ -4,6 +4,9 @@ INFO=このパッチは、ステータス画面でセレクトボタンを押す
 NAME.en=Display Growths
 INFO.en=This patch changes the status screen to show the growth rate when the select button is pressed.
 
+NAME.de=Display Growths
+INFO.de=This patch changes the status screen to show the growth rate when the select button is pressed.
+
 AUTHOR=Tequila https://feuniverse.us/t/teqs-minor-assembly-shenanigans/1655/84
 TYPE=EA
 EA=Display Growths EA.txt

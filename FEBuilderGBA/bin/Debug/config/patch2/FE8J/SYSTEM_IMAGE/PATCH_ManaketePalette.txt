@@ -1,5 +1,6 @@
 NAME=マムクートのパレット(ドラゴンに変身したした時のユニットのパレット)
 NAME.en=ManaketePalette(Pallet of the unit when transform dragon)
+NAME.de=ManaketePalette(Pallet of the unit when transform dragon)
 
 TYPE=IMAGE
 TAG=#IMAGE

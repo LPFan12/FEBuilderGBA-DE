@@ -1,5 +1,6 @@
 ﻿NAME=大陸の魔物退治モードを切り替える(イベント命令)
 NAME.en=Add Event: Force switch the Creature Campaign mode
+NAME.de=Add Event: Force switch the Creature Campaign mode
 NAME.zh=Add Event: Force switch the Creature Campaign mode
 
 AUTHOR=7743
@@ -13,6 +14,7 @@ BIN:$FREEAREA:1=ASMC_CancelPostGame.dmp
 
 INFO=大陸の魔物退治モード(POSTGAME MODE)を強制的にOFF/ONにします。\r\nゲームクリア後のおまけステージでは、大陸の魔物退治がゲームスタータスに設定され、セーブ画面タイトルが「大陸の魔物退治」に固定されます。\r\nこのパッチでは、それを無効にできます。\r\n逆に、強制的に有効にすることもできます。
 INFO.en=This patch forces the Creature Campaign mode (POSTGAME MODE) to be switched off/on.\r\nIn the extra stages after clearing the game, Creature Campaign is set as the game starters and the save screen title is fixed to "Creature Campaign".\r\nThis patch allows you to disable it.\r\nConversely, you can also force it to be enabled.
+INFO.de=This patch forces the Creature Campaign mode (POSTGAME MODE) to be switched off/on.\r\nIn the extra stages after clearing the game, Creature Campaign is set as the game starters and the save screen title is fixed to "Creature Campaign".\r\nThis patch allows you to disable it.\r\nConversely, you can also force it to be enabled.
 INFO.zh=This patch forces the Creature Campaign mode (POSTGAME MODE) to be switched off/on.\r\nIn the extra stages after clearing the game, Creature Campaign is set as the game starters and the save screen title is fixed to "Creature Campaign".\r\nThis patch allows you to disable it.\r\nConversely, you can also force it to be enabled.
 
 EVENTSCRIPT:11=400D0000{$L1:ASMC_CancelPostGame.dmp}	大陸の魔物退治モードを切り替える(ASMC_CancelPostGame)(LOW)	Slot1=0=>OFF 1=>ON
@@ -22,6 +24,10 @@ EVENTSCRIPT:13=4005010000000000400D0000{$L1:ASMC_CancelPostGame.dmp}	大陸の�
 EVENTSCRIPT:11.en=400D0000{$L1:ASMC_CancelPostGame.dmp}	Switch Creature Campaign mode(ASMC_CancelPostGame)(LOW)	Slot1=0=>OFF 1=>ON
 EVENTSCRIPT:12.en=4005010001000000400D0000{$L1:ASMC_CancelPostGame.dmp}	Turn ON Creature Campaign mode(ASMC_CancelPostGame)
 EVENTSCRIPT:13.en=4005010000000000400D0000{$L1:ASMC_CancelPostGame.dmp}	Turn OFF Creature Campaign mode(ASMC_CancelPostGame)
+
+EVENTSCRIPT:11.de=400D0000{$L1:ASMC_CancelPostGame.dmp}	Switch Creature Campaign mode(ASMC_CancelPostGame)(LOW)	Slot1=0=>OFF 1=>ON
+EVENTSCRIPT:12.de=4005010001000000400D0000{$L1:ASMC_CancelPostGame.dmp}	Turn ON Creature Campaign mode(ASMC_CancelPostGame)
+EVENTSCRIPT:13.de=4005010000000000400D0000{$L1:ASMC_CancelPostGame.dmp}	Turn OFF Creature Campaign mode(ASMC_CancelPostGame)
 
 EVENTSCRIPT:11.zh=400D0000{$L1:ASMC_CancelPostGame.dmp}	Switch Creature Campaign mode(ASMC_CancelPostGame)(LOW)	Slot1=0=>OFF 1=>ON
 EVENTSCRIPT:12.zh=4005010001000000400D0000{$L1:ASMC_CancelPostGame.dmp}	Turn ON Creature Campaign mode(ASMC_CancelPostGame)

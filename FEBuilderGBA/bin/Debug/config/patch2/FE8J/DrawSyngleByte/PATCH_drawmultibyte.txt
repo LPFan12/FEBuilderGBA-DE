@@ -1,6 +1,7 @@
 ﻿
 NAME=DrawSingleByte
 NAME.en=DrawSingleByte
+NAME.de=DrawSingleByte
 
 PATCHED_IF:0x40c2=0x00 0x00 0x00 0x49 0x8F 0x46
 
@@ -26,6 +27,7 @@ JUMP:0x08003f12:$r1=drawsinglebyte_nextline.bin
 
 INFO=シングルバイトフォントを出力できるように修正します.
 INFO.en=Fix to be able to output singlebyte font.
+INFO.de=Fix to be able to output singlebyte font.
 
 INFO.zh=修复能够输出单字节字体。
 NAME.zh=修复能够输出单字节字体

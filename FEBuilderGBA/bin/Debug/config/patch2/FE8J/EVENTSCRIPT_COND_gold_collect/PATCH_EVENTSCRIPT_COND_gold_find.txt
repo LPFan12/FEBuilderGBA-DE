@@ -23,6 +23,9 @@ AUTHOR.zh=Kaitou补丁7743
 NAME.en=Add Event Condition: Accumulated Gold
 INFO.en=Patches the ROM with an event conditional statement that checks if the player has amassed a specific amount of gold.\r\n
 AUTHOR.en=Kaitou patch7743
+NAME.de=Add Event Condition: Accumulated Gold
+INFO.de=Patches the ROM with an event conditional statement that checks if the player has amassed a specific amount of gold.\r\n
+AUTHOR.de=Kaitou patch7743
 
 
 
@@ -30,5 +33,6 @@ AUTHOR.en=Kaitou patch7743
 
 
 EVENTSCRIPT.en=400DYYYY{$L1:gold_find.bin}	[YYYY:DECIMAL:Gold] Determine whether you have money Extended orders.	{GOLD}	{COND}
+EVENTSCRIPT.de=400DYYYY{$L1:gold_find.bin}	[YYYY:DECIMAL:Gold] Determine whether you have money Extended orders.	{GOLD}	{COND}
 EVENTSCRIPT.zh=400DYYYY{$L1:gold_find.bin}	[YYYY:DECIMAL:Gold]确定是否有资金扩展订单。	{GOLD}	{COND}
 

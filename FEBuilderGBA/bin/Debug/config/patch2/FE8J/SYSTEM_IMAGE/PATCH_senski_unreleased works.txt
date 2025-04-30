@@ -1,5 +1,6 @@
 NAME=画像 戦績
-NAME=Image Record
+NAME.en=Image Record
+NAME.de=Image Record
 NAME.zh=系统_战绩背景
 
 

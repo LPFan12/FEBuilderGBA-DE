@@ -17,6 +17,8 @@ HINT=輸送体
 AUTHOR=怪盗パッチ 7743
 NAME.en=Add Event: Lose Item(All units and transporters)
 INFO.en=Patches the ROM with a callable event that removes specified items from every player character inventory they're in.
+NAME.de=Add Event: Lose Item(All units and transporters)
+INFO.de=Patches the ROM with a callable event that removes specified items from every player character inventory they're in.
 
 HINT.en=convoy,supply,transporter,merlinus,wagon
 AUTHOR.en=Kaitou patch7743
@@ -30,5 +32,6 @@ AUTHOR.zh=Kaito补丁7743
 
 
 EVENTSCRIPT.en=400DYYYY{$L1:item_collect.bin}	[YYYY:ITEM:ITEM] Item confiscated extension order.
+EVENTSCRIPT.de=400DYYYY{$L1:item_collect.bin}	[YYYY:ITEM:ITEM] Item confiscated extension order.
 EVENTSCRIPT.zh=400DYYYY{$L1:item_collect.bin}	[YYYY:ITEM:ITEM]项目没收扩展订单。
 

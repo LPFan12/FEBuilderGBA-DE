@@ -1,5 +1,6 @@
 NAME=リンハードモードとエリウッドハードモードで敵にハードモードボーナスを与える
-NAME.en= Give enemies Hard Mode bonuses in Lyn Hard and Eliwood Hard modes.
+NAME.en=Give enemies Hard Mode bonuses in Lyn Hard and Eliwood Hard modes.
+NAME.de=Give enemies Hard Mode bonuses in Lyn Hard and Eliwood Hard modes.
 
 
 

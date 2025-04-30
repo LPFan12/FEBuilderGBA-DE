@@ -1,7 +1,9 @@
 NAME=属性ごとに異なるヘルプメッセージを設定する(editor)
 INFO=ステータス画面の属性のRボタンのヘルプメッセージに、属性ごとに異なるテキストIDを指定します。\r\n属性名や、どのようなボーナスが提供されるかを指定するのに便利です。
 NAME.en=Different help texts for unit affinity (editor)
-INFO.en=Specify different text IDs for different affinities.  Useful for specifying the affinity name and what bonuses are provided.
+INFO.en=Specify different text IDs for different affinities. Useful for specifying the affinity name and what bonuses are provided.
+NAME.de=Different help texts for unit affinity (editor)
+INFO.de=Specify different text IDs for different affinities. Useful for specifying the affinity name and what bonuses are provided.
 
 IF:$FGREP4 AffinityTableCode.bin=0x05 0x48 0xC0 0x68
 

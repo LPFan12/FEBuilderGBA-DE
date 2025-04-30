@@ -7,6 +7,9 @@ INFO=装備できない武器と杖以外を、輸送隊に送ります。\r\n�
 NAME.en=GiveAll+ Menu 20200321(Installer)
 INFO.en=Send anything other than not equipped weapons and staffs to Supply.\r\nIf captured enemy, also send him items.
 
+NAME.de=GiveAll+ Menu 20200321(Installer)
+INFO.de=Send anything other than not equipped weapons and staffs to Supply.\r\nIf captured enemy, also send him items.
+
 NAME.zh=GiveAll+ Menu 20200321(Installer)
 INFO.zh=Send anything other than not equipped weapons and staffs to Supply.\r\nIf captured enemy, also send him items.
 

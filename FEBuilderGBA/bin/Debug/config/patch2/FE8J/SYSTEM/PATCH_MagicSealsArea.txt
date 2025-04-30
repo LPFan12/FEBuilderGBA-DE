@@ -1,5 +1,6 @@
 NAME=魔封じの者の有効範囲
 NAME.en=Effective range of Magic Seal
+NAME.de=Effective range of Magic Seal
 
 //アドレスパッチとして実装します
 TYPE=ADDR

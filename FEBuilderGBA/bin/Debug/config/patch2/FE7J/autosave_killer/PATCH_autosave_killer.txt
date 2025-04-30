@@ -1,11 +1,13 @@
 NAME=オートセーブキラー
 NAME.en=Autosave Killer
+NAME.de=Autosave Killer
 NAME.zh=关掉自动存档
 
 AUTHOR=laqieer
 
 INFO=オートセーブ機能を削除します。
 INFO.en=Remove autosave.
+INFO.de=Remove autosave.
 INFO.zh=关掉自动存档。
 
 TYPE=BIN

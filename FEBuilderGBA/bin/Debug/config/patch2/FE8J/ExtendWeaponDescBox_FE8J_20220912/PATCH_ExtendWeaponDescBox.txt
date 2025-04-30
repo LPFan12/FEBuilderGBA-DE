@@ -11,6 +11,8 @@ INFO=武器の説明欄をバニラの1行から、最大3行にまで拡張し�
 
 NAME.en=ExtendWeaponDescBox 20220912 Extends weapon description from 1 line to 3 lines
 INFO.en=Expands the weapon description field from vanilla's 1 line to a maximum of 3 lines.\r\nHowever, if you write a description up to 3 lines, the VRAM area will be insufficient, so when you press the R button in the Trade menu, the face image of the exchange partner will be hidden.(It will not be hidden if it is up to 2 lines.).
+NAME.de=ExtendWeaponDescBox 20220912 Extends weapon description from 1 line to 3 lines
+INFO.de=Expands the weapon description field from vanilla's 1 line to a maximum of 3 lines.\r\nHowever, if you write a description up to 3 lines, the VRAM area will be insufficient, so when you press the R button in the Trade menu, the face image of the exchange partner will be hidden.(It will not be hidden if it is up to 2 lines.).
 NAME.zh=ExtendWeaponDescBox 20220912 将武器描述框从 1 行扩展到 3 行。
 INFO.zh=将武器描述字段从原版的 1 行扩展到最多 3 行。\r\n但是，如果最多写 3 行描述，VRAM 区域就会不足，所以当你在交换菜单中按下 R 键时，交换伙伴的面部图像将被隐藏。（如果不超过 2 行，则不会隐藏。）。
 

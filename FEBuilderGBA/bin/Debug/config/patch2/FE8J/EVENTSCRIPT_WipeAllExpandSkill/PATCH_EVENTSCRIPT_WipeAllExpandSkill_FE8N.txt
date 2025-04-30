@@ -1,5 +1,6 @@
 NAME=FE8NのExpandSkill領域を全部クリアする(イベント命令)
 NAME.en=Add Event: WipeAllExpandSkill_FE8N
+NAME.de=Add Event: WipeAllExpandSkill_FE8N
 NAME.zh=Add Event: WipeAllExpandSkill_FE8N
 
 TYPE=BIN
@@ -17,7 +18,9 @@ INFO=FE8NのExpandSkill領域を全部クリアします\r\nクリア後の強�
 
 EVENTSCRIPT:1=400D0000{$L1:ASMC_WipeAllExpandSkill_FE8N.dmp}	FE8NのExpandSkill領域を全部クリアする
 EVENTSCRIPT:1.en=400D0000{$L1:ASMC_WipeAllExpandSkill_FE8N.dmp}	WipeAllExpandSkill_FE8N
+EVENTSCRIPT:1.de=400D0000{$L1:ASMC_WipeAllExpandSkill_FE8N.dmp}	WipeAllExpandSkill_FE8N
 EVENTSCRIPT:1.zh=400D0000{$L1:ASMC_WipeAllExpandSkill_FE8N.dmp}	WipeAllExpandSkill_FE8N
 
 INFO.en=Clear all Expand Skill areas of FE8N.\r\nPlease use it when you want to make a strong new game after clearing.
+INFO.de=Clear all Expand Skill areas of FE8N.\r\nPlease use it when you want to make a strong new game after clearing.
 INFO.zh=清除FE8N的所有扩展技能区域。\r\n如果想在清除后制作出出色的新游戏，请使用它。

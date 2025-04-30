@@ -1,5 +1,6 @@
 NAME=指揮パッチ
 NAME.en=LeadershipStar(Command)
+NAME.de=LeadershipStar(Command)
 NAME.zh=指挥补丁
 
 TYPE=BIN

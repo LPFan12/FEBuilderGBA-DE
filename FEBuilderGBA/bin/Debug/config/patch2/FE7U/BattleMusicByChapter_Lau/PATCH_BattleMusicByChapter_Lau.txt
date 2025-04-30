@@ -12,5 +12,7 @@ AUTHOR= SageMatthis/EgalLau37
 
 NAME.en=Battle music by chapter
 INFO.en=This patch changes the routine to use bytes 0xE and 0xF in chapter data to determine the battle music IDs for Attack/Defend.
+NAME.de=Battle music by chapter
+INFO.de=This patch changes the routine to use bytes 0xE and 0xF in chapter data to determine the battle music IDs for Attack/Defend.
 NAME.zh=Battle music by chapter
 INFO.zh=This patch changes the routine to use bytes 0xE and 0xF in chapter data to determine the battle music IDs for Attack/Defend.

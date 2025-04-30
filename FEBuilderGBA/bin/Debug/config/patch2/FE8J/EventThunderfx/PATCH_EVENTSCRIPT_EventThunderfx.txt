@@ -1,5 +1,6 @@
 NAME=FE7のサンダー EventThunderfx(イベント命令)
 NAME.en=Add Event: FE7 style Thunder EventThunderfx
+NAME.de=Add Event: FE7 style Thunder EventThunderfx
 NAME.zh=Add Event: FE7 style Thunder EventThunderfx
 
 AUTHOR=Mokha https://feuniverse.us/t/mokhas-hacks-sundries/16204/36
@@ -18,11 +19,15 @@ EVENTSCRIPT:12=40050200XXXXXXXX400A0000{$L0:EventScr_CallThunderfx00000000.bin}	
 EVENTSCRIPT:13=400A0000{$L0:EventScr_CallThunderfxAtPosition00000000.bin}	FE7のサンダーを落とす(CALL EventScr_CallThunderfxAtPosition)(LOW)	Slot3=MapX Slot4=MapY
 EVENTSCRIPT:14=40050300XXXXXXXX40050400YYYYYYYY400A0000{$L0:EventScr_CallThunderfxAtPosition00000000.bin}	[XX:MAPX:X][YY:MAPY:Y]にFE7のサンダーを落とす(CALL EventScr_CallThunderfxAtPosition)
 
-
 EVENTSCRIPT:11.en=400A0000{$L0:EventScr_CallThunderfx00000000.bin}	FE7 style Thunder(CALL EventScr_CallThunderfx)(LOW)	Slot2=UnitID
 EVENTSCRIPT:12.en=40050200XXXXXXXX400A0000{$L0:EventScr_CallThunderfx00000000.bin}	FE7 style thunder on [XX:UNIT:UNIT](CALL EventScr_CallThunderfx)
 EVENTSCRIPT:13.en=400A0000{$L0:EventScr_CallThunderfxAtPosition00000000.bin}	FE7 style Thunder at map(CALL EventScr_CallThunderfxAtPosition)(LOW)	Slot3=MapX Slot4=MapY
 EVENTSCRIPT:14.en=40050300XXXXXXXX40050400YYYYYYYY400A0000{$L0:EventScr_CallThunderfxAtPosition00000000.bin}	FE7 style Thunder at [XX:MAPX:X][YY:MAPY:Y](CALL EventScr_CallThunderfxAtPosition)
+
+EVENTSCRIPT:11.de=400A0000{$L0:EventScr_CallThunderfx00000000.bin}	FE7 style Thunder(CALL EventScr_CallThunderfx)(LOW)	Slot2=UnitID
+EVENTSCRIPT:12.de=40050200XXXXXXXX400A0000{$L0:EventScr_CallThunderfx00000000.bin}	FE7 style thunder on [XX:UNIT:UNIT](CALL EventScr_CallThunderfx)
+EVENTSCRIPT:13.de=400A0000{$L0:EventScr_CallThunderfxAtPosition00000000.bin}	FE7 style Thunder at map(CALL EventScr_CallThunderfxAtPosition)(LOW)	Slot3=MapX Slot4=MapY
+EVENTSCRIPT:14.de=40050300XXXXXXXX40050400YYYYYYYY400A0000{$L0:EventScr_CallThunderfxAtPosition00000000.bin}	FE7 style Thunder at [XX:MAPX:X][YY:MAPY:Y](CALL EventScr_CallThunderfxAtPosition)
 
 EVENTSCRIPT:11.zh=400A0000{$L0:EventScr_CallThunderfx00000000.bin}	FE7 style Thunder(CALL EventScr_CallThunderfx)(LOW)	Slot2=UnitID
 EVENTSCRIPT:12.zh=40050200XXXXXXXX400A0000{$L0:EventScr_CallThunderfx00000000.bin}	FE7 style thunder on [XX:UNIT:UNIT](CALL EventScr_CallThunderfx)
@@ -34,4 +39,5 @@ ALLOC_MUST_HIGH_ADDRESS=1		//このパッチは複雑なので、必ず上位ア
 ALLOC_SIZE_HINT=15236			//パッチ全体のサイズ
 ALLOC_PROGRAM_ONLY_SIZE=740	//コード部だけのサイズ, FEBUILDER_DATA_ORGでデータ部を分離します
 INFO.en=This patch brings to FE8 the screen effects for the thunder-dropping cutscenes found in FE7.
+INFO.de=This patch brings to FE8 the screen effects for the thunder-dropping cutscenes found in FE7.
 INFO.zh=该补丁为 FE8 带来了 FE7 中雷霆万钧的过场动画的屏幕效果。

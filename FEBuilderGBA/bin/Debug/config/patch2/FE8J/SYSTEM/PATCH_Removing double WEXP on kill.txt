@@ -1,5 +1,6 @@
 NAME=敵を倒した時に、武器経験値WEXPが2倍入るのを抑制する
 NAME.en=Suppresses double weapon experience WEXP when defeating enemy
+NAME.de=Suppresses double weapon experience WEXP when defeating enemy
 
 //アドレスパッチとして実装します
 TYPE=SWITCH
@@ -14,5 +15,6 @@ AUTHOR=Alusq,CT075 Removing double WEXP on kill https://feuniverse.us/t/fe7-remo
 
 INFO=バニラでは、敵を倒したときに、WEXPが2倍計上されます。\r\nこのパッチはそれを抑制します。
 INFO.en=In vanilla, WEXP is doubled when you defeat an enemy.\r\nThis patch suppresses it.
+INFO.de=In vanilla, WEXP is doubled when you defeat an enemy.\r\nThis patch suppresses it.
 NAME.zh=Suppresses double weapon experience WEXP when defeating enemy
 INFO.zh=In vanilla, WEXP is doubled when you defeat an enemy.\r\nThis patch suppresses it.

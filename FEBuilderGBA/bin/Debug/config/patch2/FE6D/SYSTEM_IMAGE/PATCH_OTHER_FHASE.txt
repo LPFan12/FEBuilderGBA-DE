@@ -1,4 +1,5 @@
 NAME=OTHER_PHASE
+NAME.de=OTHER_PHASE (NPC-Phase)
 NAME.zh=其他_阶段文字
 
 TYPE=IMAGE

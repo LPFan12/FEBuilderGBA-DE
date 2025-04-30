@@ -1,6 +1,7 @@
 
 NAME=OPANIMEテティス
 NAME.en=OP Anime Tethys
+NAME.de=OP Anime Tethys
 NAME.zh=OP动画特缇斯
 
 //画像パッチとして実装します
@@ -17,5 +18,6 @@ PALETTE_POINTER=0x0CEDB4//0xB756E0
 
 INFO=これは表示用に用意しています。データを編集は未対応です。
 WARNING=1
-INFO.en=It is provided for display purposes.Edit data is not supported.
+INFO.en=It is provided for display purposes. Edit data is not supported.
+INFO.de=It is provided for display purposes. Edit data is not supported.
 INFO.zh=它用于显示目的。不支持编辑数据。

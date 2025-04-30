@@ -10,4 +10,5 @@ PALETTE_POINTER=0x051CC0//0x85705C
 
 AUTHOR=アインズ・ウール・ゴウン
 AUTHOR.en=Ainz Ooal Gown
+AUTHOR.de=Ainz Ooal Gown
 AUTHOR.zh=Ainz Ooal Gown

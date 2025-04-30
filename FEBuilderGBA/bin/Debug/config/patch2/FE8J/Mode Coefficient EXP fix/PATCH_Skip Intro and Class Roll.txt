@@ -1,5 +1,6 @@
 NAME=OPクラス紹介を無効にする
 NAME.en=Skip Opening Class Roll Intro
+NAME.de=Skip Opening Class Roll Intro
 NAME.zh=Skip Opening Class Roll Intro
 
 TYPE=ADDR

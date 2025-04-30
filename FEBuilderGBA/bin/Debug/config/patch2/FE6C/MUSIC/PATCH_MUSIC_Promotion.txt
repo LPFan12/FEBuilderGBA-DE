@@ -1,5 +1,6 @@
 NAME=MUSIC_CC BGM
 NAME.en=MUSIC_Promotion BGM
+NAME.de=MUSIC_Promotion BGM
 NAME.zh=音乐_Promotion BGM
 
 //アドレスパッチとして実装します

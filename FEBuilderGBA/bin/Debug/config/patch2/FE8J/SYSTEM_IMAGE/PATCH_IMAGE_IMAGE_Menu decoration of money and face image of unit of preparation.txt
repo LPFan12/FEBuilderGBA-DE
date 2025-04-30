@@ -1,5 +1,6 @@
 NAME=IMAGE_進撃準備側面の所持金とユニットの顔画像のメニューの装飾
 NAME.en=IMAGE_Menu decoration of money and face image(mini portrait) of unit of preparation
+NAME.de=IMAGE_Menu decoration of money and face image(mini portrait) of unit of preparation
 NAME.zh=IMAGE_Menu decoration of money and face image(mini portrait) of unit of preparation
 
 

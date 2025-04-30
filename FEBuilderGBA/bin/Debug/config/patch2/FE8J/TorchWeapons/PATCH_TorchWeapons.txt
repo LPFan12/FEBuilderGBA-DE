@@ -1,10 +1,12 @@
 NAME=TorchWeapons 持っている範囲を照らす武器(Editor)
 NAME.en=TorchWeapons(Editor)
+NAME.de=TorchWeapons(Editor)
 
 IF:0x17672=0x00 0x00 0x00 0x49 0x08 0x47
 
 INFO=このアイテムを保持していると、霧の中でも視界を確保できます。\r\n確保できる視界の幅は、AddRangeで決まります。\r\n複数保持していても結果は重複しません。\r\nリストの先頭からマッチさせるので、最も視界を確保できるアイテムをリストの上に設置してください。
 INFO.en=Hold this item, you can secure visibility even in the fog.\r\nThe range of visibility that can be secured is determined by AddRange.\r\nEven if you hold more than one, the result does not overlap.\r\nSince it matches from the top of the list, please place items that can secure the most visibility on the list.
+INFO.de=Hold this item, you can secure visibility even in the fog.\r\nThe range of visibility that can be secured is determined by AddRange.\r\nEven if you hold more than one, the result does not overlap.\r\nSince it matches from the top of the list, please place items that can secure the most visibility on the list.
 
 AUTHOR=7743 , boy
 

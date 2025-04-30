@@ -1,5 +1,6 @@
 NAME=イベント画像 一太刀
 NAME.en=Event image: stroke of sword
+NAME.de=Event image: stroke of sword
 
 TYPE=IMAGE
 

@@ -1,5 +1,6 @@
 NAME=レベルの数字フォント
 NAME.en=LV Number Font
+NAME.de=LV Number Font
 NAME.zh=LV Number Font
 
 TYPE=IMAGE

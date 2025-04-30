@@ -59,5 +59,7 @@ ON30:0xA17650=0x01
 ON30:0xA17654=0x01
 NAME.en=Speed ​​up the gray poison mist map effect when receiving poison damage.
 INFO.en=Speeds up the gray poison mist map effect when taking poison damage.\r\nIn addition, the sound effect is played with SongID 0xB7.
+NAME.de=Speed ​​up the gray poison mist map effect when receiving poison damage.
+INFO.de=Speeds up the gray poison mist map effect when taking poison damage.\r\nIn addition, the sound effect is played with SongID 0xB7.
 NAME.zh=加速受到毒伤害时灰色毒雾贴图效果。
 INFO.zh=加速受到毒伤害时的灰色毒雾贴图效果。\r\n另外，音效是用SongID 0xB7播放的。

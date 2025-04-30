@@ -1,4 +1,5 @@
 NAME=HPBar_Image
+NAME.de=HPBar_Image
 
 TYPE=IMAGE
 

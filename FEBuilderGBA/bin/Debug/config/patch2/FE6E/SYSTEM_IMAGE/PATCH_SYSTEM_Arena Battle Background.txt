@@ -16,4 +16,5 @@ PALETTE_POINTER=0x04C64C
 
 
 NAME.en=Arena Battle Background
+NAME.de=Arena Battle Background
 NAME.zh=战场战斗背景

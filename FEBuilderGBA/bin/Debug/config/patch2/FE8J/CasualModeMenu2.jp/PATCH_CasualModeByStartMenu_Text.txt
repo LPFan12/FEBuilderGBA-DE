@@ -17,5 +17,7 @@ LISTNAME=$COMBO TextID_Label_Combo.txt
 W0:TEXT=Text
 NAME.en=Casual mode(Menu at game start)(Edit Text)
 INFO.en=When starting from the beginning, the casual mode selection screen is displayed after the difficulty level selection.\r\nWith this patch, you can change the text displayed at that time.
+NAME.de=Casual mode(Menu at game start)(Edit Text)
+INFO.de=When starting from the beginning, the casual mode selection screen is displayed after the difficulty level selection.\r\nWith this patch, you can change the text displayed at that time.
 NAME.zh=Casual mode(Menu at game start)(Edit Text)
 INFO.zh=When starting from the beginning, the casual mode selection screen is displayed after the difficulty level selection.\r\nWith this patch, you can change the text displayed at that time.

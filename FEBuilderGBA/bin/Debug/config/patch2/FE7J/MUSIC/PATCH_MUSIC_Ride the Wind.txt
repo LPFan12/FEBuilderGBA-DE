@@ -1,5 +1,6 @@
 NAME=MUSIC_風吹いて、気高まる
 NAME.en=MUSIC_Ride the Wind
+NAME.de=MUSIC_Ride the Wind
 
 
 //アドレスパッチとして実装します

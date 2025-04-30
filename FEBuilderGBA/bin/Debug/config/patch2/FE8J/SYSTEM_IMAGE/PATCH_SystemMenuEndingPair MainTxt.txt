@@ -1,5 +1,6 @@
 NAME=システムメニュー Ending Pair Text
 NAME.en=SystemMenu Ending Pair Text
+NAME.de=SystemMenu Ending Pair Text
 NAME.zh=SystemMenu Ending Pair Text
 
 TYPE=IMAGE

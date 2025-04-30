@@ -1,6 +1,7 @@
 
 NAME=武器屋の主人の顔画像
 NAME.en=Portrait ID for armory man
+NAME.de=Portrait ID for armory man
 
 //アドレスパッチとして実装します
 TYPE=ADDR
@@ -15,5 +16,6 @@ AUTHOR= SageMatthis/EgalLau37
 
 INFO=武器屋の主人の顔画像
 INFO.en=Portrait ID for the character portrait to display in the armory.
+INFO.de=Portrait ID for the character portrait to display in the armory.
 NAME.zh=武器店老板的头像。
 INFO.zh=武器店老板的头像。

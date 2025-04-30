@@ -1,5 +1,6 @@
 NAME=ゴールドを表示 5x章
 NAME.en=Show gold in ch5x
+NAME.de=Show gold in ch5x
 
 //アドレスパッチとして実装します
 TYPE=ADDR
@@ -9,6 +10,7 @@ ADDRESS=0x024DA2
 
 COMBO=Default: 非表示|0x03 0xD0|解禁|0x00 0x00
 COMBO.en=Default: Lock|0x03 0xD0|Unlock|0x00 0x00
+COMBO.de=Default: Lock|0x03 0xD0|Unlock|0x00 0x00
 COMBO.zh=Default: Lock|0x03 0xD0|Unlock|0x00 0x00
 
 NAME.zh=显示黄金第5x章

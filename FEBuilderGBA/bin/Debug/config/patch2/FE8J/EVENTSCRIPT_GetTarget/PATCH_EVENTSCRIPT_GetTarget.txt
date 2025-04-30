@@ -23,6 +23,12 @@ INFO.en=This patch retrieves the target unit that is generating the event from t
 EVENTSCRIPT:1.en=400D0000{$L1:GetTargetCoords.dmp}	Get coordinates of target unit(GetTargetCoords)	@STOREC	{COND}
 EVENTSCRIPT:2.en=400D0000{$L1:GetTargetUnitID.dmp}	Get UnitID of target unit(GetTargetUnitID)	@STOREC	{COND}
 
+NAME.de=Add Event: GetTargetCoords, GetTargetUnitID
+INFO.de=This patch retrieves the target unit that is generating the event from the event instruction.\r\nIf you are having a conversation, it retrieves the conversational partner.\r\nIf you are having a battle, it retrieves the opponent you are fighting.
+
+EVENTSCRIPT:1.de=400D0000{$L1:GetTargetCoords.dmp}	Get coordinates of target unit(GetTargetCoords)	@STOREC	{COND}
+EVENTSCRIPT:2.de=400D0000{$L1:GetTargetUnitID.dmp}	Get UnitID of target unit(GetTargetUnitID)	@STOREC	{COND}
+
 NAME.zh=Add Event: GetTargetCoords, GetTargetUnitID
 INFO.zh=This patch retrieves the target unit that is generating the event from the event instruction.\r\nIf you are having a conversation, it retrieves the conversational partner.\r\nIf you are having a battle, it retrieves the opponent you are fighting.
 

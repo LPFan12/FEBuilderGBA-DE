@@ -1,5 +1,6 @@
 NAME=OPANIME_FACE_カイル
 NAME.en=OP Anime Face: Kyle
+NAME.de=OP Anime Face: Kyle
 
 TYPE=IMAGE
 TAG=#IMAGE

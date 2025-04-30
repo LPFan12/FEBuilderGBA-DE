@@ -1,4 +1,5 @@
 NAME=GAMEOVER
+NAME.de=GAMEOVER (Spiel Vorbei)
 
 TYPE=IMAGE
 

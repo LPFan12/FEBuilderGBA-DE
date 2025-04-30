@@ -1,5 +1,6 @@
 NAME=ユニットを選択した時に音声を再生する(Install)
 NAME.en=Unit Select SFX Installer
+NAME.de=Unit Select SFX Installer
 
 TYPE=EA
 TAG=#ENGINE #MUSIC #SONG #SOUND #BGM
@@ -13,5 +14,6 @@ AUTHOR=Orignal:Leonarth Remodeling:7743 https://feuniverse.us/t/fe8-and-maybe-fe
 
 INFO=ユニットを選択した時に、音声を再生します。\r\nLeonarthのasmをベースに、条件を細かく設定できるようにしました。
 INFO.en=Sets the sound played upon unit select.\r\nMust be installed to use "Unit Select SFX Editor" and "Unit Select SFX Frequency."\r\nBased on Leonarth's asm, with added conditional options.\r\n
+INFO.de=Sets the sound played upon unit select.\r\nMust be installed to use "Unit Select SFX Editor" and "Unit Select SFX Frequency."\r\nBased on Leonarth's asm, with added conditional options.\r\n
 NAME.zh=选择人物时播放音频(Install)
 INFO.zh=当你选择一个人物时，播放声音。\r\n基于Leonarth的模式，我可以精确地设定条件。

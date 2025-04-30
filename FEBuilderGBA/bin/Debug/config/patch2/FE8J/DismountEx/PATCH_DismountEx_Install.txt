@@ -1,5 +1,6 @@
 NAME=DismountEx 乗り降りを可能にする(Install)
 NAME.en=DismountEx Enable to Rade and Exit (Installer)
+NAME.de=DismountEx Enable to Rade and Exit (Installer)
 TYPE=EA
 TAG=#EVENT
 
@@ -38,6 +39,20 @@ EVENTSCRIPT:13.en=4B0D0000{$L1:ASMC_Exit_Dismount.dmp}	Exit unit with SVALB coor
 EVENTSCRIPT:14.en=40050B00ZZZZWWWW4B0D0000{$L1:ASMC_Exit_Dismount.dmp}	Exit unit with coordinates of coordinates [ZZ:MAPX:X] [WW:MAPY:Y]from the horse.	{UNITPERSOLNAL}
 EVENTSCRIPT:15.en=212E00002006C100410D0000{$L1:ASMC_Exit_Dismount.dmp}	Exit currently operating unit from the horse.	{UNITPERSOLNAL}
 EVENTSCRIPT:16.en=4C0DXX00{$L1:ASMC_Exit_Dismount.dmp}	Batch mode,Exit unit from the horse. Skip sound and redraw.	[XX:UNIT:Unit]	{UNITPERSOLNAL}
+
+INFO.de=Reproduce SFC FE "rade" / get off.\r\nThis patch added various functions with reference to the Dismount patch.\r\n
+EVENTSCRIPT:1.de=400DXX00{$L1:ASMC_Rade_Mount.dmp}	Rade [XX:UNIT:Unit] on a horse.	{UNITPERSOLNAL}.
+EVENTSCRIPT:2.de=410D0000{$L1:ASMC_Rade_Mount.dmp}	Rade SVAL1 unit on a horse.(LOW)
+EVENTSCRIPT:3.de=4B0D0000{$L1:ASMC_Rade_Mount.dmp}	Rade unit with SVALB coordinates on a horse.(LOW)
+EVENTSCRIPT:4.de=40050B00ZZZZWWWW4B0D0000{$L1:ASMC_Rade_Mount.dmp}	Rade unit of coordinates [ZZ:MAPX:X][WW:MAPY:Y] on the horse.	{UNITPERSOLNAL}
+EVENTSCRIPT:5.de=212E00002006C100410D0000{$L1:ASMC_Rade_Mount.dmp}	Rade currently operating unit on the horse.	{UNITPERSOLNAL}
+EVENTSCRIPT:6.de=4C0DXX00{$L1:ASMC_Rade_Mount.dmp}	Rade [XX:UNIT:Unit] on a horse in batch mode.Skip sound effect and redraw.	{UNITPERSOLNAL}
+EVENTSCRIPT:11.de=400DXX00{$L1:ASMC_Exit_Dismount.dmp}	Exit unit from the horse.[XX:UNIT:Unit]	{UNITPERSOLNAL}
+EVENTSCRIPT:12.de=410D0000{$L1:ASMC_Exit_Dismount.dmp}	Exit SVAL1 unit from the horse.(LOW)
+EVENTSCRIPT:13.de=4B0D0000{$L1:ASMC_Exit_Dismount.dmp}	Exit unit with SVALB coordinates on a horse.(LOW)
+EVENTSCRIPT:14.de=40050B00ZZZZWWWW4B0D0000{$L1:ASMC_Exit_Dismount.dmp}	Exit unit with coordinates of coordinates [ZZ:MAPX:X] [WW:MAPY:Y]from the horse.	{UNITPERSOLNAL}
+EVENTSCRIPT:15.de=212E00002006C100410D0000{$L1:ASMC_Exit_Dismount.dmp}	Exit currently operating unit from the horse.	{UNITPERSOLNAL}
+EVENTSCRIPT:16.de=4C0DXX00{$L1:ASMC_Exit_Dismount.dmp}	Batch mode,Exit unit from the horse. Skip sound and redraw.	[XX:UNIT:Unit]	{UNITPERSOLNAL}
 
 NAME.zh=DismountEx可以上下车(Install)
 INFO.zh=重现SFC FE乘坐/下车。\r\n该补丁添加了各种功能，参考Dismount补丁。\r\n

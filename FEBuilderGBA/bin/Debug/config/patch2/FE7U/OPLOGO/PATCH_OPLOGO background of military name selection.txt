@@ -1,6 +1,7 @@
 
 NAME=OPLOGO軍師の名前選択の背景
 NAME.en=OPLOGO background of military name selection.
+NAME.de=OPLOGO background of military name selection.
 
 
 

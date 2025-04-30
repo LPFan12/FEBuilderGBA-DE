@@ -1,5 +1,6 @@
 NAME=ドラゴンゾンビ 頭無し
-NAME.en=DragonZonbe_Without head
+NAME.en=DragonZombie_Without head
+NAME.de=DragonZombie_Without head
 NAME.zh=僵尸龙动画 没有头
 
 TYPE=IMAGE

@@ -1,5 +1,6 @@
 NAME=ロス 見習いクラス自動CC セリフ1
 NAME.en=Ross_Trainee_Auto_Promotion_Text1
+NAME.de=Ross_Trainee_Auto_Promotion_Text1
 NAME.zh=罗斯_见习职业_自动_CC_对话1
 
 //アドレスパッチとして実装します

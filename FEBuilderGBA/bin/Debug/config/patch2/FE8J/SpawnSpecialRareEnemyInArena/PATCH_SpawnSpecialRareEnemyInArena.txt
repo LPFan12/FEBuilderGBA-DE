@@ -26,10 +26,12 @@ B1:CLASS=ToClass
 B2:DECIMAL=Your Lv >=
 B3:$COMBO Option.combo.jp.txt:.ja=Option
 B3:$COMBO Option.combo.en.txt:.en=Option
+B3:$COMBO Option.combo.de.txt:.de=Option
 B3:$COMBO Option.combo.en.txt:.zh=Option
 W4:FLAG=CheckFlag(0=ANY)
 
 NAME.en=Spawn special rare enemy in Arena(Editor)
-INFO.en=Note: Do not set Manakete ,this because cannot specify weapons.\r\n\r\nWhen certain conditions are met, replace the enemies that appear in the arena with rare enemies.
-NAME.zh=Note: Do not set Manakete ,this because cannot specify weapons.\r\n\r\nSpawn special rare enemy in Arena(Editor)
-INFO.zh=When certain conditions are met, replace the enemies that appear in the arena with rare enemies.
+INFO.en=Note: Do not set Manakete, this because cannot specify weapons.\r\n\r\nWhen certain conditions are met, replace the enemies that appear in the arena with rare enemies.
+INFO.de=Note: Do not set Manakete, this because cannot specify weapons.\r\n\r\nWhen certain conditions are met, replace the enemies that appear in the arena with rare enemies.
+NAME.zh=Spawn special rare enemy in Arena(Editor)
+INFO.zh=Note: Do not set Manakete, this because cannot specify weapons.\r\n\r\nWhen certain conditions are met, replace the enemies that appear in the arena with rare enemies.

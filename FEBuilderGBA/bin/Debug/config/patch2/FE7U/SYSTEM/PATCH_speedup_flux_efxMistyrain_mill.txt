@@ -1,5 +1,6 @@
 NAME=闇魔法のミィルの速度を早くする
 NAME.en=Speed up the dark magic Flux.
+NAME.de=Speed up the dark magic Flux.
 
 //アドレスパッチとして実装します
 TYPE=SWITCH
@@ -85,5 +86,6 @@ AUTHOR=7743
 INFO=闇魔法の基本魔法のミィル(efxMistyrain)の動作速度を少しだけ上げます。\r\nあまり上げ過ぎると変な感じになります。\r\n闘技場では、ミィルを使い続けることになるので、他の魔法の基本魔法と同じぐらいに早くしたい所ですね。
 
 INFO.en=Increase the speed of the basic dark magic Flux(efxMistyrain) operation a little bit.\r\nIf you raise it too much, it will look weird.\r\nIn the arena, you will be using Flux continuously, so want it to be as fast as the other basic magic magic.
+INFO.de=Increase the speed of the basic dark magic Flux(efxMistyrain) operation a little bit.\r\nIf you raise it too much, it will look weird.\r\nIn the arena, you will be using Flux continuously, so want it to be as fast as the other basic magic magic.
 INFO.zh=Increase the speed of the basic dark magic Flux(efxMistyrain) operation a little bit.\r\nIf you raise it too much, it will look weird.\r\nIn the arena, you will be using Flux continuously, so want it to be as fast as the other basic magic magic.
 NAME.zh=增加暗魔法米尔的速度。

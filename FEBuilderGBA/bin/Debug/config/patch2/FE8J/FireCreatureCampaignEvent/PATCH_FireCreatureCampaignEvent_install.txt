@@ -1,5 +1,6 @@
 NAME=大陸の魔物退治で指定のワールドマップイベントを実行する(Install)
 NAME.en=Run a specified world map event in a creature campaign(Install)
+NAME.de=Run a specified world map event in a creature campaign(Install)
 NAME.zh=Run a specified world map event in a creature campaign(Install)
 
 TYPE=EA

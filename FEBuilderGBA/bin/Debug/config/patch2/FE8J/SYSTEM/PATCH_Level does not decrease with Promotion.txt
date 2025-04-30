@@ -1,6 +1,7 @@
 
 NAME=CCでレベル減少しない
 NAME.en=Level does not decrease with Promotion
+NAME.de=Level does not decrease with Promotion
 
 //アドレスパッチとして実装します
 TYPE=SWITCH
@@ -17,6 +18,7 @@ ONN:0x0075BB6=0x18 0x7A
 
 INFO=CCしてもレベルを1にリセットしないように変更します。
 INFO.en=Change level so that it does not reset to 1 even if it is promoted.
+INFO.de=Change level so that it does not reset to 1 even if it is promoted.
 
 
 NAME.zh=CC不会降低等级

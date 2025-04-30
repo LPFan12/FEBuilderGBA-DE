@@ -1,4 +1,5 @@
 NAME=Chapter OP BG
+NAME.de=Chapter OP BG
 AUTHOR=laqieer
 
 TYPE=IMAGE

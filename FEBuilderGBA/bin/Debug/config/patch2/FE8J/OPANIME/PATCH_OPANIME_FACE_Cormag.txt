@@ -1,5 +1,6 @@
 NAME=OPANIME_FACE_クーガー
 NAME.en=OP Anime Face: Cormag
+NAME.de=OP Anime Face: Cormag
 
 TYPE=IMAGE
 TAG=#IMAGE

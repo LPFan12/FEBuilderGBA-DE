@@ -9,4 +9,5 @@ ADDRESS_TYPE=ITEM
 
 AUTHOR=7743
 NAME.en=Always Ranged Animate: Rune Sword
+NAME.de=Always Ranged Animate: Rune Sword
 NAME.zh=始终间接运动_卢尼之剑

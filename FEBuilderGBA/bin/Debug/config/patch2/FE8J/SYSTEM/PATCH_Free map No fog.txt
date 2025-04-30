@@ -1,5 +1,6 @@
 ﻿NAME=フリーマップ霧なし
 NAME.en=Free map No fog
+NAME.de=Free map No fog
 NAME.zh=战斗场地雾
 
 //アドレスパッチとして実装します
@@ -14,6 +15,7 @@ AUTHOR.zh=来源:从aera的数据\r\nhttps://dw.ngmansion.xyz/doku.php?id=data:%
 
 AUTHOR.en=Source: From aera's data\r\nhttps://dw.ngmansion.xyz/doku.php?id=data:%E3%83%91%E3%83%83%E3%83%81
 COMBO.en=Default: With fog|0xD1|No fog|0xE0
+COMBO.de=Default: With fog|0xD1|No fog|0xE0
 COMBO.zh=Default: 有雾|0xD1|无雾|0xE0
 
 

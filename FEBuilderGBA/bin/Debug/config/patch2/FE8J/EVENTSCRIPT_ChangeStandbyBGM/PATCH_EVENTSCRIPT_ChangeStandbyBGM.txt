@@ -1,5 +1,6 @@
 ﻿NAME=待機中のBGMを変更する(イベント命令)
 NAME.en=Add Event: Change the standby BGM
+NAME.de=Add Event: Change the standby BGM
 NAME.zh=Add Event: Change the standby BGM
 
 TYPE=BIN
@@ -15,10 +16,12 @@ AUTHOR=7743
 
 EVENTSCRIPT:01=400DXXXX{$L1:ChangeStandbyBGM.dmp}	待機中のBGMを変更する[XX:SONGID:BGM]	{SONG}
 EVENTSCRIPT:01.en=400DXXXX{$L1:ChangeStandbyBGM.dmp}	Change the standby BGM[XX:SONGID:BGM]	{SONG}
+EVENTSCRIPT:01.de=400DXXXX{$L1:ChangeStandbyBGM.dmp}	Change the standby BGM[XX:SONGID:BGM]	{SONG}
 EVENTSCRIPT:01.zh=400DXXXX{$L1:ChangeStandbyBGM.dmp}	Change the standby BGM[XX:SONGID:BGM]	{SONG}
 
 INFO=戦闘などのイベントで一時的に音楽を切り替えているときに、待機させているBGMのSongIDを変更します。\r\nBattleQuoteのイベントなどでマップBGMを切り替えたい場合に利用します。
 INFO.en=Change the SongID of the waiting BGM when the music is temporarily switched for an event such as a battle.\r\nUse this function when you want to switch the map BGM for events such as BattleQuote.
+INFO.de=Change the SongID of the waiting BGM when the music is temporarily switched for an event such as a battle.\r\nUse this function when you want to switch the map BGM for events such as BattleQuote.
 INFO.zh=Change the SongID of the waiting BGM when the music is temporarily switched for an event such as a battle.\r\nUse this function when you want to switch the map BGM for events such as BattleQuote.
 
 

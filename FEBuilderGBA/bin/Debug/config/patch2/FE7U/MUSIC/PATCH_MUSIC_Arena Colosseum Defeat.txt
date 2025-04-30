@@ -1,5 +1,6 @@
 NAME=MUSIC_闘技場_勝利
 NAME.en=MUSIC_Arena Colosseum Defeat
+NAME.de=MUSIC_Arena Colosseum Defeat
 //アドレスパッチとして実装します
 TYPE=ADDR
 TAG=#MUSIC #SONG #SOUND #BGM

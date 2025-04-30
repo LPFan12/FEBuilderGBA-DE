@@ -1,5 +1,6 @@
 NAME=メニューなどのシステムで使われている数字フォント
 NAME.en=System_Number_Image
+NAME.de=System_Number_Image
 NAME.zh=System_Number_Image
 
 TYPE=IMAGE

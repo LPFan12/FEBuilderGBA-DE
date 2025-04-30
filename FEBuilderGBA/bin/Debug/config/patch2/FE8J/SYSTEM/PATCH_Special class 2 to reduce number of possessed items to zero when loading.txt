@@ -1,8 +1,10 @@
 NAME=Load時に所持アイテム数をゼロにする特殊クラス2
 NAME.en=Special class 2 to reduce number of possessed items to zero when loading
+NAME.de=Special class 2 to reduce number of possessed items to zero when loading
 
 INFO=バニラでは、ゴーゴンの卵は、所持アイテムをすべて0に設定されます。
 INFO.en=In Vanilla, Gorgon's Eggs have their inventory all set to 0.
+INFO.de=In Vanilla, Gorgon's Eggs have their inventory all set to 0.
 
 TYPE=ADDR
 TAG=#ENGINE

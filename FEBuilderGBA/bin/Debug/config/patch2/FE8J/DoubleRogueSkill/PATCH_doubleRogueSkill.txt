@@ -1,8 +1,10 @@
 ﻿NAME=複数の「かぎ開け」スキルパッチ(Editor)
 NAME.en=Multiple Classes with Lock Pick(Editor)
+NAME.de=Multiple Classes with Lock Pick(Editor)
 
 INFO=複数クラスでの「かぎ開け」スキルを実装します
 INFO.en=Allows the Lock Pick skill to be assigned to multiple classes.
+INFO.de=Allows the Lock Pick skill to be assigned to multiple classes.
 
 PATCHED_IFNOT:$GREP4 0x02 0x4B 0x18 0x47 0x00 0x4B 0x18 0x47 0x59 0x3E 0x02 0x08 0x51 0x3E 0x02 0x08=0x02 0x4B 0x18 0x47
 //STRUCTパッチとして実装します

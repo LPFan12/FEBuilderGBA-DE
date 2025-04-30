@@ -1,12 +1,15 @@
 ﻿NAME.en=Mixed weapon magic AND RES to MagicPower
+﻿NAME.de=Mixed weapon magic AND RES to MagicPower
 NAME.zh=混合武器魔法_魔法计算_补丁
 
 INFO=武器魔法混在。\r\nさらに、魔防を魔力として利用します。
 INFO.en=Mix weapons and magic.\r\nFurthermore, calculate magical defense as magical power.
+INFO.de=Mix weapons and magic.\r\nFurthermore, calculate magical defense as magical power.
 INFO.zh=混合武器的魔法。\r\n另外，我们使用魔法防御作为魔力。
 
 AUTHOR=FE Girlsの作者 chap氏
 AUTHOR.en=FE Girls Patch author. transport:7743
+AUTHOR.de=FE Girls Patch author. transport:7743
 AUTHOR.zh=FE女孩的作者 chap氏
 
 

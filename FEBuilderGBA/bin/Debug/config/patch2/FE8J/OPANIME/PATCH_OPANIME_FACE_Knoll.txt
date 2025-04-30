@@ -1,5 +1,6 @@
 NAME=OPANIME_FACE_ノール
 NAME.en=OP Anime Face: Knoll
+NAME.de=OP Anime Face: Knoll
 
 TYPE=IMAGE
 TAG=#IMAGE

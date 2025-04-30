@@ -1,5 +1,6 @@
 NAME=杖とアイテムにも専用武器★の制約を有効にする
 NAME.en=Enable Locked Weapon Prf constraints on staffs and items as well.
+NAME.de=Enable Locked Weapon Prf constraints on staffs and items as well.
 NAME.zh=Enable Locked Weapon Prf constraints on staffs and items as well.
 
 TYPE=EA
@@ -12,4 +13,5 @@ AUTHOR=7734 Originally by Tequila, jjl2357
 INFO=バニラでは、専用武器は装備でるアイテムにしか効果がありませんが、このパッチは、それを杖とアイテムにまで適用できるようにします。
 
 INFO.en=In vanilla, special locked weapons only work on equipped items, but this patch allows you to apply them to staffs and items.
+INFO.de=In vanilla, special locked weapons only work on equipped items, but this patch allows you to apply them to staffs and items.
 INFO.zh=In vanilla, special locked weapons only work on equipped items, but this patch allows you to apply them to staffs and items.

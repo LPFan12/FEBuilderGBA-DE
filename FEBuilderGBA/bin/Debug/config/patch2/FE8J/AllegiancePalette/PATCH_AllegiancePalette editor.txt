@@ -1,5 +1,6 @@
 NAME=ユニットのパレットを動的に変更する(Editor)
 NAME.en=AllegiancePalette, Dynamically change the palette of allegiance(Editor)
+NAME.de=AllegiancePalette, Dynamically change the palette of allegiance(Editor)
 NAME.zh=AllegiancePalette, Dynamically change the palette of allegiance(Editor)
 
 IF:0x265D4=0x01 0x4B 0x9E 0x46 0x00 0xF8 0x01 0xE0
@@ -36,4 +37,5 @@ HEIGHT=32
 PALETTE=1
 KEEPIMAGE=1
 INFO.en=Switch the palette of units displayed on the map for each map.\r\nFor example, NPCs are green by default, but you can switch to a red palette when certain flags are enabled.\r\nPalettes are infinitely definable, so this patch allows you to have different colors for each map.\r\nPalette tips.\r\nPlayer: 085C7340.\r\nEnemy: 085C7360.\r\nNPC: 085C7380.\r\n4th: 085C73C0.\r\nGray(wait): 085C73A0.\r\nLight rune: 085C73E0.\r\nSepia: 085C7400.\r\nIf you want to import a new palette, set the palette pointer to 0 before importing the image.(Otherwise the existing palette will be overwritten, so be careful!).
+INFO.de=Switch the palette of units displayed on the map for each map.\r\nFor example, NPCs are green by default, but you can switch to a red palette when certain flags are enabled.\r\nPalettes are infinitely definable, so this patch allows you to have different colors for each map.\r\nPalette tips.\r\nPlayer: 085C7340.\r\nEnemy: 085C7360.\r\nNPC: 085C7380.\r\n4th: 085C73C0.\r\nGray(wait): 085C73A0.\r\nLight rune: 085C73E0.\r\nSepia: 085C7400.\r\nIf you want to import a new palette, set the palette pointer to 0 before importing the image.(Otherwise the existing palette will be overwritten, so be careful!).
 INFO.zh=为每张地图切换地图上显示的单位调色板。\r\n例如，默认情况下 NPC 是绿色的，但您可以在启用某些标志时切换到红色调色板。\r\n调色板是无限可定义的，因此此补丁允许您为每张地图使用不同的颜色。\r\n调色板提示。\r\n播放器：085C7340。\r\n敌人：085C7360。\r\nNPC：085C7380。\r\n第四名：085C73C0。\r\n灰色（等待）：085C73A0。\r\n光符文：085C73E0。\r\n棕褐色：085C7400。\r\n如果要导入新调色板，请在导入图像之前将调色板指针设置为 0。（否则现有的调色板将被覆盖，所以要小心！）。

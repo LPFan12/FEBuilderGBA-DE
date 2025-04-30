@@ -1,5 +1,6 @@
 NAME=MODE SELECT 文字列構造体
 NAME.en=Stage select string structure
+NAME.de=Stage select string structure
 
 //STRUCTパッチとして実装します
 TYPE=STRUCT
@@ -25,6 +26,10 @@ D0:TEXT.en=Name
 D4:TEXT.en=Details
 D8:TEXT.en=WeaponTypeName
 
+D0:TEXT.de=Name
+D4:TEXT.de=Details
+D8:TEXT.de=WeaponTypeName
+
 INFO=ステージセレクトのテキストを変更します
 AUTHOR=Source: Tequila https://feuniverse.us/t/fe7-replace-hector-mode/3169/6
 
@@ -33,3 +38,4 @@ INFO.zh=更改舞台选择文字
 
 
 INFO.en=Change Stage Select text
+INFO.de=Change Stage Select text
