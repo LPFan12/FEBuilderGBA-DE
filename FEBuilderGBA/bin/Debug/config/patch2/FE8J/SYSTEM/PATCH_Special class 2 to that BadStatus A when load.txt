@@ -1,8 +1,10 @@
 NAME=Load時に、バッドステータス 0xA に固定する特殊クラス2
 NAME.en=Special class 2 to that BadStatus A when load
+NAME.de=Special class 2 to that BadStatus A when load
 
 INFO=バニラでは、ゴーゴンの卵は、バッドステータスAを5ターンに固定されます。
 INFO.en=In vanilla, Gorgon's eggs fixed to Bad Status A until 5 turn.
+INFO.de=In vanilla, Gorgon's eggs fixed to Bad Status A until 5 turn.
 
 TYPE=ADDR
 TAG=#ENGINE
