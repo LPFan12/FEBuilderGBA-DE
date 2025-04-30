@@ -100,13 +100,13 @@ namespace FEBuilderGBA
             {
                 uint id = (uint)i;
 
-                uint textid = Program.ROM.u32(battletalk_addr + 20);
+                uint textid = Program.ROM.u32(battletalk_addr + 4);
                 FELint.ConversationTextMessage(textid, errors, FELint.Type.SUPPORT_TALK, battletalk_addr, (uint)i);
 
-                textid = Program.ROM.u32(battletalk_addr + 24);
+                textid = Program.ROM.u32(battletalk_addr + 8);
                 FELint.ConversationTextMessage(textid, errors, FELint.Type.SUPPORT_TALK, battletalk_addr, (uint)i);
 
-                textid = Program.ROM.u32(battletalk_addr + 28);
+                textid = Program.ROM.u32(battletalk_addr + 12);
                 FELint.ConversationTextMessage(textid, errors, FELint.Type.SUPPORT_TALK, battletalk_addr, (uint)i);
             }
         }
