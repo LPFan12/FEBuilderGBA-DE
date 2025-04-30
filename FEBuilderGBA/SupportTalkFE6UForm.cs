@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace FEBuilderGBA
 {
-    public partial class SupportTalkFE6UForm : Form
+    public partial class SupportTalkFE6UForm : Form //todo: This editor is currently identical to SupportTalkFE6Form. Make it somehow read and repoint the data the way we need it to.(The list is not exactly where the pointer says it is, it is instead 0x10 after. What is at where the pointer points to is a seemingly unrelated byte, we don't want to move that when we repoint)
     {
         public SupportTalkFE6UForm()
         {
