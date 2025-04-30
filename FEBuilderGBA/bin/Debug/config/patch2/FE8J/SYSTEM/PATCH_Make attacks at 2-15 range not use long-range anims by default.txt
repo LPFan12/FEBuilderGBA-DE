@@ -1,5 +1,6 @@
 NAME=2-15の攻撃範囲では、長距離のアニメーションを使用しないようにする
 NAME.en=Make attacks at 2-15 range not use long-range anims by default
+NAME.de=Make attacks at 2-15 range not use long-range anims by default
 NAME.zh=Make attacks at 2-15 range not use long-range anims by default
 
 //アドレスパッチとして実装します
