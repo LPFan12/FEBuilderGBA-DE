@@ -1,5 +1,6 @@
 NAME=召喚されるクラス
 NAME.en=Summon Skill: Edit Summoned Class
+NAME.de=Summon Skill: Edit Summoned Class
 
 //アドレスパッチとして実装します
 TYPE=ADDR
