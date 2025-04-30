@@ -1,6 +1,6 @@
 ﻿namespace FEBuilderGBA
 {
-    partial class SupportTalkFE6Form
+    partial class SupportTalkFE6UForm
     {
         /// <summary>
         /// Required designer variable.
@@ -583,7 +583,7 @@
             this.LabelFilter.Text = "名前";
             this.LabelFilter.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // SupportTalkFE6Form
+            // SupportTalkFE6UForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
@@ -594,9 +594,9 @@
             this.Controls.Add(this.AddressPanel);
             this.Controls.Add(this.panel2);
             this.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.Name = "SupportTalkFE6Form";
+            this.Name = "SupportTalkFE6UForm";
             this.Text = "支援会話";
-            this.Load += new System.EventHandler(this.SupportTalkFE6Form_Load);
+            this.Load += new System.EventHandler(this.SupportTalkFE6UForm_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.ReadCount)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ReadStartAddress)).EndInit();
