@@ -32,7 +32,18 @@ namespace FEBuilderGBA
 
         private void SupportTalkButton_Click(object sender, EventArgs e)
         {
-            InputFormRef.JumpForm<SupportTalkFE6Form>();
+        if (Program.ROM.RomInfo.VersionToFilename == "FE6U")
+            {
+                InputFormRef.JumpForm<SupportTalkFE6UForm>();
+            }
+        else if (Program.ROM.RomInfo.VersionToFilename == "FE6D")
+            {
+                InputFormRef.JumpForm<SupportTalkFE6UForm>();
+            }
+        else
+            {
+                InputFormRef.JumpForm<SupportTalkFE6Form>();
+            }
         }
 
         private void SupportAttributeButton_Click(object sender, EventArgs e)
