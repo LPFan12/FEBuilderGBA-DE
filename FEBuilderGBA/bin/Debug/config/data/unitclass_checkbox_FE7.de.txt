@@ -18,7 +18,7 @@
 18=Boss	Sets importance and displays the boss marker on a unit's map sprite.\r\nIf set on an enemy, bonus experience will be earned in combat.
 //特性3
 21=Waffen-Bindung 1	Erlaubt es, Waffen mit Waffen-Bindung 1 auszurüsten.\r\nStandardmäßig schaltet dies nichts frei. Nutze es beliebig für eigene Zwecke.
-22=Myrmidone/Schwertmeis.	Erlaubt Ausrüstung von Myrmidonen/Schwertmeister-Waffen.\r\nStandardmäßig schaltet dies das Wo Dao frei.
+22=Myrmidone/Schwertm.	Erlaubt Ausrüstung von Myrmidonen/Schwertmeister-Waffen.\r\nStandardmäßig schaltet dies das Wo Dao frei.
 23=Manakete-Bindung	Erlaubt es, Drachensteine auszurüsten.\r\nStandardmäßig wird dies nur für den Finalen Boss und Feuerzunge verwendet.
 24=Morphs	Setze die Einheit als einen Morph.\r\nAuch standardmäßig von Vaida in ID 2B verwendet.
 25=Einheit-Ausw. sprerren	Sperrt Auswahl einer Einheit.\r\nWird standardmäßig für zu beschützende NPCs verwendet.
