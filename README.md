@@ -5,6 +5,8 @@ README(Unfertig)
 
 Diese Version von FEBuilderGBA wird speziell für die deutsche Fire Emblem-Community erweitert, aber ich hoffe darauf zu achten, dass sie auch für andere Sprachen verwendbar und hilfreich ist. Sie basiert auf der Version bei (https://github.com/laqieer/FEBuilderGBA).
 
+Momentane Probleme: Patches in FE8U werden auf Japanisch angezeigt weil eine deutsche Definition fehlt. Es wird empfohlen für die Patches-Sektion temporär in den Optionen auf Englisch umzuschalten(Es sind momentan sowieso kaum welche Patches auf deutsch übersetzt und die meisten nutzen die englischen Texte als Platzhalter).
+
 Unsere Änderungen und Pläne
 ===
 Änderungen sind verglichen mit der uns übergestellten Version von FEBuilderGBA.
