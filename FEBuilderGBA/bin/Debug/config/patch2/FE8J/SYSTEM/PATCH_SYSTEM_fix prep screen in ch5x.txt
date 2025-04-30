@@ -1,5 +1,6 @@
 NAME=進撃準備画面を表示 5x章
 NAME.en=fix prep screen in ch5x
+NAME.de=fix prep screen in ch5x
 
 //アドレスパッチとして実装します
 TYPE=ADDR
@@ -9,6 +10,7 @@ ADDRESS=0x03318B
 
 COMBO=Default: 非表示|0xD1|解禁|0xE0
 COMBO.en=Default: Lock|0xD1|Unlock|0xE0
+COMBO.de=Default: Lock|0xD1|Unlock|0xE0
 COMBO.zh=Default: Lock|0xD1|Unlock|0xE0
 
 NAME.zh=显示攻击准备屏幕第5x章
