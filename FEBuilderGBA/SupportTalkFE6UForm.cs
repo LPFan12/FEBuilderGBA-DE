@@ -40,8 +40,8 @@ namespace FEBuilderGBA
                 }
                 , (int i, uint addr) =>
                 {
-                    uint uid1 = Program.ROM.u8(addr + 0);
-                    uint uid2 = Program.ROM.u8(addr + 1);
+                    uint uid1 = Program.ROM.u8(addr + 16);
+                    uint uid2 = Program.ROM.u8(addr + 17);
                     return U.ToHexString(uid1) +
                         " " + UnitForm.GetUnitName( uid1 ) +
                         " & " 
@@ -60,8 +60,8 @@ namespace FEBuilderGBA
             uint addr = InputFormRef.BaseAddress;
             for (int i = 0; i < InputFormRef.DataCount; i++)
             {
-                uint data_unit1 = Program.ROM.u8(addr + 0);
-                uint data_unit2 = Program.ROM.u8(addr + 1);
+                uint data_unit1 = Program.ROM.u8(addr + 16);
+                uint data_unit2 = Program.ROM.u8(addr + 17);
                 if ((unit1 == data_unit1 && unit2 == data_unit2)
                  || (unit2 == data_unit1 && unit1 == data_unit2)
                     )
