@@ -1,7 +1,7 @@
 
 NAME=大盾ダメージ半減化
 NAME.en=Great Shield Damage Reduction
-
+NAME.de=Great Shield Damage Reduction
 
 //アドレスパッチとして実装します
 TYPE=ADDR
@@ -17,6 +17,8 @@ NAME.zh=大盾伤害减半化
 AUTHOR.zh=来源:从aera的数据\r\nhttps://dw.ngmansion.xyz/doku.php?id=data:%E3%83%91%E3%83%83%E3%83%81
 AUTHOR.en=Source: From aera's data\r\nhttps://dw.ngmansion.xyz/doku.php?id=data:%E3%83%91%E3%83%83%E3%83%81
 COMBO.en=Default: Greate shield damage is ineffective|0x51 0x46 0x08 0x40 0x00 0x28 0x01 0xD0 0x00 0x20|Halves sharp damage by half|0x52 0x46 0x10 0x40 0x02 0xD0 0x08 0x1B 0x40 0x08
+AUTHOR.de=Source: From aera's data\r\nhttps://dw.ngmansion.xyz/doku.php?id=data:%E3%83%91%E3%83%83%E3%83%81
+COMBO.de=Default: Greate shield damage is ineffective|0x51 0x46 0x08 0x40 0x00 0x28 0x01 0xD0 0x00 0x20|Halves sharp damage by half|0x52 0x46 0x10 0x40 0x02 0xD0 0x08 0x1B 0x40 0x08
 COMBO.zh=Default: 伤害是无效的|0x51 0x46 0x08 0x40 0x00 0x28 0x01 0xD0 0x00 0x20|一半的伤害减半|0x52 0x46 0x10 0x40 0x02 0xD0 0x08 0x1B 0x40 0x08
 
 
@@ -25,3 +27,4 @@ CONFLICT_IF:0x89268=0x00 0x4B 0x9F 0x46
 CONFLICT_MESSAGE=FE8N Skill Extends
 
 INFO.en=Toggles whether Great Shield protects against all damage (default) or only reduces damage by 1/2 (patched)\r\n
+INFO.de=Toggles whether Great Shield protects against all damage (default) or only reduces damage by 1/2 (patched)\r\n
