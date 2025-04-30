@@ -19,23 +19,23 @@ namespace FEBuilderGBA
             text_recover_address = 0xB808AC; // textの開始位置(上記ポインタを壊している改造があるののでその対策)
             text_data_start_address = 0xAEAE8C; //textデータの規定値の開始位置
             text_data_end_address = 0xB7D719; //textデータの規定値の開始位置
-            unit_pointer = 0x9A274; //ユニットの開始位置
+            unit_pointer = 0x09A5B0; //Ist das der richtige Pointer?
             unit_maxcount = 253; // ユニットの最大数
             unit_datasize = 52; // ユニットのデータサイズ
             max_level_address = 0x029C0E; //Ist das die richtige Addresse?
             max_luck_address = 0x029FFA; //Ist das die richtige Addresse?
-            class_pointer = 0x178f0; //クラスの開始位置
+            class_pointer = 0x017CF4; //Ist das der richtige Pointer?
             class_datasize = 84;  // ユニットのデータサイズ
             bg_pointer = 0xB9D0; //Ist das der richtige Pointer? 
-            portrait_pointer = 0x6b30; //顔ベースアドレス
+            portrait_pointer = 0x6C64; //Ist das der richtige Pointer?
             portrait_datasize = 28;
-            icon_pointer = 0x4E20; // アイコンの開始位置
+            icon_pointer = 0x4E5C; // Ist das der richtige Pointer?
             icon_orignal_address = 0x1E64E0; //Sollte die richtige Addresse sein.
             icon_orignal_max = 0xAC; // アイコンの最大数
 
             icon_palette_pointer = 0x4D78; //Ist das der richtige Pointer?
-            unit_wait_icon_pointer = 0x024DA0; // ユニット待機アイコンの開始位置
-            unit_wait_barista_anime_address = 0x25844;  // ユニット待機アイコンのバリスタのアニメ指定アドレス
+            unit_wait_icon_pointer = 0x0252A4; // Ist das der richtige Pointer?
+            unit_wait_barista_anime_address = 0x025D54;  // Ist das der richtige Pointer?
             unit_wait_barista_id = 0x52;  // ユニット待機アイコンのバリスタの位置
             unit_icon_palette_address = 0x0D13F4; //Ist das die richtige Addresse?
             unit_icon_enemey_palette_address = 0x0D1414; //Ist das die richtige Addresse?
@@ -45,7 +45,7 @@ namespace FEBuilderGBA
             unit_icon_lightrune_palette_address = 0x0D1494; //Ist das die richtige Addresse?
             unit_icon_sepia_palette_address = 0x0D14B4; //Ist das die richtige Addresse?
 
-            unit_move_icon_pointer = 0x6D574; // ユニット移動アイコンの開始位置
+            unit_move_icon_pointer = 0x06D5CC; // Ist das der richtige Pointer?
             lightrune_uniticon_id = 0x57; // ユニット(光の結界)のユニットアイコンのID
             map_setting_pointer = 0x031BA0;  //Ist das der richtige Pointer? 
             map_setting_datasize = 152; //マップ設定のデータサイズ
@@ -65,7 +65,7 @@ namespace FEBuilderGBA
             map_map_pointer_list_default_size = 0xF7; //PLIST拡張をしていない時のバニラでのPLISTの数
             image_battle_animelist_pointer = 0x0541F4;   // 戦闘アニメリストの開始位置
             support_unit_pointer = 0xCDC968;   //Ist das der richtige Pointer?
-            support_talk_pointer = 0x78A94;   // 支援会話の開始位置
+            support_talk_pointer = 0x078B74;   // Ist das der richtige Pointer?
             unit_palette_color_pointer = 0x0;  // ユニットのパレット(カラー)の開始位置
             unit_palette_class_pointer = 0x0;  // ユニットのパレット(クラス)の開始位置
             support_attribute_pointer = 0x026EC4;  //Ist das der richtige Pointer?
@@ -80,7 +80,7 @@ namespace FEBuilderGBA
             image_chapter_title_pointer = 0x0; //不明 章タイトルの開始位置
             image_chapter_title_palette = 0x4CCB04; //Ist das die richtige Addresse?
             image_unit_palette_pointer = 0x054144; //Ist das der richtige Pointer?
-            item_pointer = 0x174D4; //アイテムの開始位置
+            item_pointer = 0x0175E0; //Ist das der richtige Pointer?
             item_datasize = 36; // アイテムのデータサイズ
             item_effect_pointer = 0x052A48; //Ist das der richtige Pointer?
             sound_table_pointer = 0x3F5C; //Ist das der richtige Pointer?
@@ -114,7 +114,7 @@ namespace FEBuilderGBA
             ed_3a_pointer = 0xcee630;  //ED その後 エリウッド編　
             ed_3b_pointer = 0xcee634;  //ED その後 ヘクトル編
             ed_3c_pointer = 0xcedd48;  //ED その後 FE7 リン編(ポインタ指定できない)
-            generic_enemy_portrait_pointer = 0x75C0; //一般兵の顔
+            generic_enemy_portrait_pointer = 0x7700; //Ist das der richtige Pointer?
             generic_enemy_portrait_count = 0x8-2; //一般兵の顔の個数
 
             cc_item_hero_crest_itemid = 0x63;  //CCアイテム 英雄の証
