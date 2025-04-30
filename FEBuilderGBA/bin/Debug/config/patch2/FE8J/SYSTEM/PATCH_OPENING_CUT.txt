@@ -1,5 +1,6 @@
 NAME=オープニングカット いきなりタイトルロゴ
 NAME.en=Skip:Opening(OPENING_CUT)
+NAME.de=Skip:Opening(OPENING_CUT)
 NAME.zh=跳过标题logo
 
 //アドレスパッチとして実装します
@@ -7,6 +8,7 @@ TYPE=SWITCH
 TAG=#ENGINE #ESSENTIALFIXES
 COMBO=Default: カットしない|ONN|いきなりタイトルロゴ|OFF
 COMBO.en=Default: Don't Skip|ONN|Skip|OFF
+COMBO.de=Default: Don't Skip|ONN|Skip|OFF
 
 ONN:0x0CB660=0x09 0xD0
 ONN:0x0D0DC4=0x03 0xD0
@@ -19,10 +21,12 @@ AUTHOR=出典:aeraさんの資料より\r\nhttps://dw.ngmansion.xyz/doku.php?id=
 
 AUTHOR.zh=来源:从aera的数据\r\nhttps://dw.ngmansion.xyz/doku.php?id=data:%E3%83%91%E3%83%83%E3%83%81
 AUTHOR.en=Source: From aera's data\r\nhttps://dw.ngmansion.xyz/doku.php?id=data:%E3%83%91%E3%83%83%E3%83%81
+AUTHOR.de=Source: From aera's data\r\nhttps://dw.ngmansion.xyz/doku.php?id=data:%E3%83%91%E3%83%83%E3%83%81
 
 COMBO.zh=Default: 跳过|ONN|不跳过|OFF
 
 
 
 
-INFO.en=H&S,Nintendo log,IS Logo,Opening Demo.\r\nSkip all these.
+INFO.en=Nintendo log, IS Logo, Opening Demo.\r\nSkip all these.
+INFO.de=Nintendo log, IS Logo, Opening Demo.\r\nSkip all these.
