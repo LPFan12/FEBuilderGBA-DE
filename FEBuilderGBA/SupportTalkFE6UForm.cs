@@ -24,7 +24,7 @@ namespace FEBuilderGBA
         {
             return new InputFormRef(self
                 , ""
-                , Program.ROM.RomInfo.support_talk_pointer(addr + 16)
+                , Program.ROM.RomInfo.support_talk_pointer
                 , 16
                 , (int i, uint addr) =>
                 {//とりあえず 0x00 00 まで読む.
@@ -100,13 +100,13 @@ namespace FEBuilderGBA
             {
                 uint id = (uint)i;
 
-                uint textid = Program.ROM.u32(battletalk_addr + 4);
+                uint textid = Program.ROM.u32(battletalk_addr + 20);
                 FELint.ConversationTextMessage(textid, errors, FELint.Type.SUPPORT_TALK, battletalk_addr, (uint)i);
 
-                textid = Program.ROM.u32(battletalk_addr + 8);
+                textid = Program.ROM.u32(battletalk_addr + 24);
                 FELint.ConversationTextMessage(textid, errors, FELint.Type.SUPPORT_TALK, battletalk_addr, (uint)i);
 
-                textid = Program.ROM.u32(battletalk_addr + 12);
+                textid = Program.ROM.u32(battletalk_addr + 28);
                 FELint.ConversationTextMessage(textid, errors, FELint.Type.SUPPORT_TALK, battletalk_addr, (uint)i);
             }
         }
