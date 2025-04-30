@@ -1,11 +1,13 @@
 NAME=難易度選択画面をスキップする
 NAME.en=Toggle Difficulty Select Skip
+NAME.de=Toggle Difficulty Select Skip
 
 TYPE=SWITCH
 TAG=#ENGINE
 
 COMBO=Default: スキップしない|OFF|簡単に固定する|ON0|普通に固定する|ON1|難しいに固定する|ON2
 COMBO.en=Default: Do not skip|OFF|Fix to Easy|ON0|Fix to Normal|ON1|Fix to Hard|ON2
+COMBO.de=Default: Do not skip|OFF|Fix to Easy|ON0|Fix to Normal|ON1|Fix to Hard|ON2
 
 DETERMINATION_ADDRESS=0xB0E88
 
