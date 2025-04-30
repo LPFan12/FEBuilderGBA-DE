@@ -1,5 +1,6 @@
 NAME=呼魔_魔王の一度に大量に召喚するを実行できるクラス
 NAME.en=Demon King Multi-Summon Class
+NAME.de=Demon King Multi-Summon Class
 
 //アドレスパッチとして実装します
 TYPE=ADDR
