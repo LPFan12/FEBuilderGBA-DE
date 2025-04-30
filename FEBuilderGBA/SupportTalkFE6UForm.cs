@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace FEBuilderGBA
 {
-    public partial class SupportTalkFE6Form : Form
+    public partial class SupportTalkFE6UForm : Form
     {
-        public SupportTalkFE6Form()
+        public SupportTalkFE6UForm()
         {
             InitializeComponent();
 
@@ -52,7 +52,7 @@ namespace FEBuilderGBA
                 );
         }
 
-        private void SupportTalkFE6Form_Load(object sender, EventArgs e)
+        private void SupportTalkFE6UForm_Load(object sender, EventArgs e)
         {
         }
         public void JumpTo(uint unit1, uint unit2)
