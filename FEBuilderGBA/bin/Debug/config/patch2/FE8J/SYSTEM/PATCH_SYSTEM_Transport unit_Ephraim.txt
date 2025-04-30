@@ -1,7 +1,7 @@
 
 NAME=輸送隊ユニット エフラム編
 NAME.en=Ephraim Campaign Supply
-
+NAME.de=Ephraim Campaign Supply
 
 
 TYPE=ADDR
@@ -11,10 +11,15 @@ ADDRESS=0x23F50
 ADDRESS_TYPE=UNIT
 
 AUTHOR=7743
-INFO=隣接すると輸送隊メニューを出すユニットを設定します。
+INFO=隣接すると輸送隊メニューを出すユニットを設定します。
+
 HINT=輸送体
-INFO.en=Sets the unit that the "Supply" menu option is attached to during Ephraim's campaign.
+INFO.en=Sets the unit that the "Supply" menu option is attached to during Ephraim's campaign.
+
 HINT.en=convoy,supply,transporter,merlinus,wagon
+INFO.de=Sets the unit that the "Supply" menu option is attached to during Ephraim's campaign.
+
+HINT.de=convoy,supply,transporter,merlinus,wagon
 NAME.zh=运输人物 伊弗列姆故事
 INFO.zh=设置相邻时将显示运输菜单的人物。
 
