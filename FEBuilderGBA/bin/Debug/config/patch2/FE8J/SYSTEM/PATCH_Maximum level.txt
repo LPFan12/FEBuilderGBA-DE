@@ -1,6 +1,6 @@
-
 NAME=最大レベル
 NAME.en=Default Max Level
+NAME.de=Default Max Level
 
 
 
@@ -19,5 +19,5 @@ INFO.zh=注意:最大31。要超过那个，需要上限突破补丁。
 AUTHOR.zh=来源:从aera的数据\r\nhttps://dw.ngmansion.xyz/doku.php?id=data:%E3%83%91%E3%83%83%E3%83%81
 INFO.en=Sets the default max level for all playable units.
 AUTHOR.en=Source: From aera's data\r\nhttps://dw.ngmansion.xyz/doku.php?id=data:%E3%83%91%E3%83%83%E3%83%81
-
-
+INFO.de=Sets the default max level for all playable units.
+AUTHOR.de=Source: From aera's data\r\nhttps://dw.ngmansion.xyz/doku.php?id=data:%E3%83%91%E3%83%83%E3%83%81
