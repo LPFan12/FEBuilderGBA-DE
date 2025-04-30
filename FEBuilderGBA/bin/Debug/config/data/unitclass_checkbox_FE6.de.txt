@@ -18,7 +18,7 @@
 18=Boss	Sets importance and displays the boss marker on a unit's map sprite.\r\nIf set on an enemy, bonus experience will be earned in combat.
 //特性3
 21=Roy-Bindung	Erlaubt es, Waffen mit Eirika-Bindung auszurüsten.\r\nStandardmäßig schaltet dies das Rapier und das Binding Blade frei.
-22=Myrmidone/Schwertmeis.	Erlaubt Ausrüstung von Myrmidonen/Schwertmeister-Waffen.\r\nStandardmäßig schaltet dies das Wo Dao frei.
+22=Myrmidone/Schwertm.	Erlaubt Ausrüstung von Myrmidonen/Schwertmeister-Waffen.\r\nStandardmäßig schaltet dies das Wo Dao frei.
 23=Manakete-Bindung	Erlaubt es, Drachensteine auszurüsten.\r\nStandardmäßig wird dies für Manaketen verwendet.
 24=Zephiel-Bindung	Erlaubt es, Waffen mit Zephiel-Bindung auszurüsten.\r\nStandardmäßig schaltet dies das Eckesachs frei.
 25=Einheit-Ausw. sprerren	Sperrt Auswahl einer Einheit.\r\nUnbenutzt in FE6.
