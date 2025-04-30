@@ -1,6 +1,6 @@
-
 NAME=杖命中の基礎値
 NAME.en=Staff Basal Hit Value(Modifying status staff accuracy)
+NAME.de=Staff Basal Hit Value(Modifying status staff accuracy)
 
 //アドレスパッチとして実装します
 TYPE=ADDR
@@ -13,12 +13,12 @@ AUTHOR=出典:aeraさんの資料より\r\nhttps://dw.ngmansion.xyz/doku.php?id=
 NAME.zh=杖命中的基础值
 AUTHOR.zh=来源:从aera的数据\r\nhttps://dw.ngmansion.xyz/doku.php?id=data:%E3%83%91%E3%83%83%E3%83%81
 AUTHOR.en=Source: From aera's data\r\nhttps://dw.ngmansion.xyz/doku.php?id=data:%E3%83%91%E3%83%83%E3%83%81
-
+AUTHOR.de=Source: From aera's data\r\nhttps://dw.ngmansion.xyz/doku.php?id=data:%E3%83%91%E3%83%83%E3%83%81
 
 
 INFO=杖の命中率の基礎値となる値を定義します。\r\nバーサク、スリープ、サイレスなどで利用されます。
 INFO.en=Define the value that will be the base value of the staff's hit rate.
-
+INFO.de=Define the value that will be the base value of the staff's hit rate.
 
 
 INFO.zh=定义将成为魔杖命中率基值的值。\r\n它用于狂暴，睡眠，沉默等。
