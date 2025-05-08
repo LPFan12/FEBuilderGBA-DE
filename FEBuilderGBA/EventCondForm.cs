@@ -1759,7 +1759,7 @@ namespace FEBuilderGBA
             }
             else if (Program.ROM.RomInfo.version == 531)
             {
-                return object_type == 0x14;
+                return object_type == 0x13;
             }
             else
             {
@@ -1772,9 +1772,9 @@ namespace FEBuilderGBA
             {
                 return object_type == 0x16 || object_type == 0x17 || object_type == 0x18;
             }
-            if (Program.ROM.RomInfo.version == 531)
+            if else (Program.ROM.RomInfo.version == 531)
             {
-                return object_type == 0x16 || object_type == 0x17 || object_type == 0x18;
+                return object_type == 0x14 || object_type == 0x15 || object_type == 0x16;
             }
             else
             {
@@ -2896,11 +2896,6 @@ namespace FEBuilderGBA
                             else if(IsChestObjectType(object_type))
                             {//宝箱
                                 if (Program.ROM.RomInfo.version == 8
-                                    && type == 0x5)
-                                {
-                                    ItemRandomChestForm.MakeAllDataLength(list, base_addr + 4, mapidString);
-                                }
-                                if (Program.ROM.RomInfo.version == 531
                                     && type == 0x5)
                                 {
                                     ItemRandomChestForm.MakeAllDataLength(list, base_addr + 4, mapidString);
@@ -4385,7 +4380,7 @@ namespace FEBuilderGBA
                 else if (objecttype == 0x0F)
                 {
                     out_bitmap = ImageSystemIconForm.Village();
-                    return U.ToHexString(type) + ":" + R._("0F=制圧");
+                    return U.ToHexString(type) + ":" + R._("0F=民家");
                 }
                 else if (objecttype == 0x13 && type == 0x5)
                 {
@@ -4549,45 +4544,45 @@ namespace FEBuilderGBA
             }
             if (Program.ROM.RomInfo.version == 531)
             {
-                if (objecttype == 0x11)
+                if (objecttype == 0x10)
                 {
-                    return U.ToHexString(type) + ":" + R._("11=制圧");
+                    return U.ToHexString(type) + ":" + R._("10=制圧");
                 }
-                else if (objecttype == 0x20)
+                else if (objecttype == 0x1E)
                 {
-                    return U.ToHexString(type) + ":" + R._("20=村の中心(盗賊のターゲット)");
+                    return U.ToHexString(type) + ":" + R._("1E=村の中心(盗賊のターゲット)");
                 }
-                else if (objecttype == 0x10 && type == 0x5)
+                else if (objecttype == 0xF && type == 0x5)
                 {
-                    return U.ToHexString(type) + ":" + R._("10=民家");
+                    return U.ToHexString(type) + ":" + R._("0F=民家");
                 }
-                else if (objecttype == 0x10)
+                else if (objecttype == 0xF)
                 {
-                    return U.ToHexString(type) + ":" + R._("10=民家");
+                    return U.ToHexString(type) + ":" + R._("0F=民家");
                 }
-                else if (objecttype == 0x14 && type == 0x5)
+                else if (objecttype == 0x13 && type == 0x5)
                 {
-                    return U.ToHexString(type) + ":" + R._("14=ランダム宝箱");
+                    return U.ToHexString(type) + ":" + R._("13=ランダム宝箱");
                 }
-                else if (objecttype == 0x14 && type == 0x7)
+                else if (objecttype == 0x13 && type == 0x7)
                 {
-                    return U.ToHexString(type) + ":" + R._("14=宝箱");
+                    return U.ToHexString(type) + ":" + R._("13=宝箱");
                 }
-                else if (objecttype == 0x12 && type == 0x8)
+                else if (objecttype == 0x11 && type == 0x8)
                 {
-                    return U.ToHexString(type) + ":" + R._("12=扉");
+                    return U.ToHexString(type) + ":" + R._("11=扉");
+                }
+                else if (objecttype == 0x14)
+                {
+                    return U.ToHexString(type) + ":" + R._("14=武器屋");
+                }
+                else if (objecttype == 0x15)
+                {
+                    return U.ToHexString(type) + ":" + R._("15=道具屋");
                 }
                 else if (objecttype == 0x16)
                 {
-                    return U.ToHexString(type) + ":" + R._("16=武器屋");
-                }
-                else if (objecttype == 0x17)
-                {
-                    return U.ToHexString(type) + ":" + R._("17=道具屋");
-                }
-                else if (objecttype == 0x18)
-                {
-                    return U.ToHexString(type) + ":" + R._("18=秘密の店");
+                    return U.ToHexString(type) + ":" + R._("16=秘密の店");
                 }
             }
             else
@@ -5816,7 +5811,7 @@ namespace FEBuilderGBA
                 return;
             }
             if (Program.ROM.RomInfo.version == 531 
-                && OBJECT_N05_W10.Value == 0x14)
+                && OBJECT_N05_W10.Value == 0x13)
             {
                 OBJECT_N05_J_4_EVENTORCHEST.Text = R._("宝箱の中身");
                 return;
