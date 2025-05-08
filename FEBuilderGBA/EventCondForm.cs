@@ -1224,7 +1224,40 @@ namespace FEBuilderGBA
             uint objectTypeOfArmory = 0x16;
             uint objectTypeOfVendor = 0x17;
             uint objectTypeOfSecret = 0x18;
+            if (Program.ROM.RomInfo.version == 531)
+            {
+//                objectTypeOfSeize = 0x10;
+                objectTypeOfDoor = 0x11;
+                objectTypeOfTownCenter = 0x1E;
+                objectTypeOfHouse = 0xF;
+                objectTypeOfChest = 0x13;
+                objectTypeOfArmory = 0x14;
+                objectTypeOfVendor = 0x15;
+                objectTypeOfSecret = 0x16;
+            }
             if (Program.ROM.RomInfo.version <= 7)
+            {
+//                objectTypeOfSeize = 0xF;
+                objectTypeOfDoor = 0x10;
+                objectTypeOfTownCenter = 0x1D;
+                objectTypeOfHouse = 0xE;
+                objectTypeOfChest = 0x12;
+                objectTypeOfArmory = 0x13;
+                objectTypeOfVendor = 0x14;
+                objectTypeOfSecret = 0x15;
+            }
+            if (Program.ROM.RomInfo.version == 206)
+            {
+//                objectTypeOfSeize = 0xF;
+                objectTypeOfDoor = 0x10;
+                objectTypeOfTownCenter = 0x1D;
+                objectTypeOfHouse = 0xE;
+                objectTypeOfChest = 0x12;
+                objectTypeOfArmory = 0x13;
+                objectTypeOfVendor = 0x14;
+                objectTypeOfSecret = 0x15;
+            }
+            if (Program.ROM.RomInfo.version == 209)
             {
 //                objectTypeOfSeize = 0xF;
                 objectTypeOfDoor = 0x10;
@@ -4334,55 +4367,55 @@ namespace FEBuilderGBA
             }
             else if (Program.ROM.RomInfo.version == 531)
             {
-                if (objecttype == 0x11)
+                if (objecttype == 0x10)
                 {
                     out_bitmap = ImageSystemIconForm.Throne();
-                    return U.ToHexString(type) + ":" + R._("11=民家");
-                }
-                else if (objecttype == 0x20)
-                {
-                    out_bitmap = ImageSystemIconForm.VillageCenter();
-                    return U.ToHexString(type) + ":" + R._("20=村の中心(盗賊のターゲット)");
-                }
-                else if (objecttype == 0x10 && type == 0x5)
-                {
-                    out_bitmap = ImageSystemIconForm.House();
-                    return U.ToHexString(type) + ":" + R._("10=民家");
-                }
-                else if (objecttype == 0x10)
-                {
-                    out_bitmap = ImageSystemIconForm.Village();
                     return U.ToHexString(type) + ":" + R._("10=制圧");
                 }
-                else if (objecttype == 0x14 && type == 0x5)
+                else if (objecttype == 0x1E)
+                {
+                    out_bitmap = ImageSystemIconForm.VillageCenter();
+                    return U.ToHexString(type) + ":" + R._("1E=村の中心(盗賊のターゲット)");
+                }
+                else if (objecttype == 0x0F && type == 0x5)
+                {
+                    out_bitmap = ImageSystemIconForm.House();
+                    return U.ToHexString(type) + ":" + R._("0F=民家");
+                }
+                else if (objecttype == 0x0F)
+                {
+                    out_bitmap = ImageSystemIconForm.Village();
+                    return U.ToHexString(type) + ":" + R._("0F=制圧");
+                }
+                else if (objecttype == 0x13 && type == 0x5)
                 {
                     out_bitmap = ImageSystemIconForm.Chest();
-                    return U.ToHexString(type) + ":" + R._("14=ランダム宝箱");
+                    return U.ToHexString(type) + ":" + R._("13=ランダム宝箱");
                 }
-                else if (objecttype == 0x14 && type == 0x7 )
+                else if (objecttype == 0x13 && type == 0x7 )
                 {
                     out_bitmap = ImageSystemIconForm.Chest();
-                    return U.ToHexString(type) + ":" + R._("14=宝箱");
+                    return U.ToHexString(type) + ":" + R._("13=宝箱");
                 }
-                else if (objecttype == 0x12 && type == 0x8 )
+                else if (objecttype == 0x11 && type == 0x8 )
                 {
                     out_bitmap = ImageSystemIconForm.Door();
-                    return U.ToHexString(type) + ":" + R._("12=扉");
+                    return U.ToHexString(type) + ":" + R._("11=扉");
+                }
+                else if (objecttype == 0x14 )
+                {
+                    out_bitmap = ImageSystemIconForm.Armory();
+                    return U.ToHexString(type) + ":" + R._("14=武器屋");
+                }
+                else if (objecttype == 0x15 )
+                {
+                    out_bitmap = ImageSystemIconForm.Vendor();
+                    return U.ToHexString(type) + ":" + R._("15=道具屋");
                 }
                 else if (objecttype == 0x16 )
                 {
-                    out_bitmap = ImageSystemIconForm.Armory();
-                    return U.ToHexString(type) + ":" + R._("16=武器屋");
-                }
-                else if (objecttype == 0x17 )
-                {
-                    out_bitmap = ImageSystemIconForm.Vendor();
-                    return U.ToHexString(type) + ":" + R._("17=道具屋");
-                }
-                else if (objecttype == 0x18 )
-                {
                     out_bitmap = ImageSystemIconForm.SecretShop();
-                    return U.ToHexString(type) + ":" + R._("18=秘密の店");
+                    return U.ToHexString(type) + ":" + R._("16=秘密の店");
                 }
             }
             else
