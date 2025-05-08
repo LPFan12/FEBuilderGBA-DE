@@ -158,7 +158,9 @@ namespace FEBuilderGBA
                 OBJECT_N05_L_10_COMBO.Items.Add(R._("0=--"));
 
 
+                OBJECT_N06_L_10_COMBO.Items.Add(R._("20=村の中心(盗賊のターゲット)"));
                 OBJECT_N06_L_10_COMBO.AddIcon(0x20, ImageSystemIconForm.VillageCenter()); //20=村の中心(盗賊のターゲット)
+                OBJECT_N06_L_10_COMBO.Items.Add(R._("10=民家"));
                 OBJECT_N06_L_10_COMBO.AddIcon(0x10, ImageSystemIconForm.Village()); //10=民家
 
                 OBJECT_N07_L_10_COMBO.AddIcon(0x14, ImageSystemIconForm.Chest()); //14=宝箱
@@ -193,8 +195,10 @@ namespace FEBuilderGBA
                
                 OBJECT_N05_L_10_COMBO.Items.Add(R._("0=--"));
 
-                OBJECT_N0F_L_10_COMBO.AddIcon(0x1E, ImageSystemIconForm.VillageCenter()); //1E=村の中心(盗賊のターゲット)
-                OBJECT_N0F_L_10_COMBO.AddIcon(0x0F, ImageSystemIconForm.Village()); //0F=民家
+                OBJECT_N06_L_10_COMBO.Items.Add(R._("1E=村の中心(盗賊のターゲット)"));
+                OBJECT_N06_L_10_COMBO.AddIcon(0x1E, ImageSystemIconForm.VillageCenter()); //1E=村の中心(盗賊のターゲット)
+                OBJECT_N06_L_10_COMBO.Items.Add(R._("0F=民家"));
+                OBJECT_N06_L_10_COMBO.AddIcon(0x0F, ImageSystemIconForm.Village()); //0F=民家
 
                 OBJECT_N0G_L_10_COMBO.AddIcon(0x13, ImageSystemIconForm.Chest()); //13=宝箱
 
