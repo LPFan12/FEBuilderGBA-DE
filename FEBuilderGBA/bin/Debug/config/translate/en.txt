@@ -1810,8 +1810,14 @@ Specify the gold available.\r\nGold must be 256 gold or higher.
 :20=村の中心(盗賊のターゲット)
 20=Village Center (Thief Target)
 
+:1E=村の中心(盗賊のターゲット)
+1E=Village Center (Thief Target)
+
 :10=民家
 10=Home
+
+:0F=民家
+0F=Home
 
 :14=ランダム宝箱
 14=Random Chest
@@ -1831,6 +1837,9 @@ C0=Run on 4th Army Phase
 :0F=制圧
 0F=Seize
 
+:10=制圧
+10=Seize
+
 :1D=村の中心(盗賊のターゲット)
 1D=Village Center (Thief's Target)
 
@@ -1846,17 +1855,32 @@ C0=Run on 4th Army Phase
 :12=宝箱
 12=Chest
 
+:13=宝箱
+13=Chest
+
 :10=扉
 10=Door
+
+:10=扉
+11=Door
 
 :13=武器屋
 13=Armory
 
+:14=武器屋
+14=Armory
+
 :14=道具屋
 14=Vendor
 
+:15=道具屋
+15=Vendor
+
 :15=秘密の店
 15=Secret Shop
+
+:16=秘密の店
+16=Secret Shop
 
 :34=ロングアーチ
 34=Ballista
