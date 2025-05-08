@@ -1861,7 +1861,7 @@ C0=Run on 4th Army Phase
 :10=扉
 10=Door
 
-:10=扉
+:11=扉
 11=Door
 
 :13=武器屋
