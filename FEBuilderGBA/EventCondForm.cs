@@ -731,10 +731,6 @@ namespace FEBuilderGBA
             OBJECT_N07_EXPLAIN.Text += "\r\n\r\n" + ExplainSampleAchievementFlag();//宝箱
             OBJECT_N08_EXPLAIN.Text += "\r\n\r\n" + ExplainSampleAchievementFlag();//扉
             OBJECT_N0A_EXPLAIN.Text += "\r\n\r\n" + ExplainSampleAchievementFlag();//店
-            OBJECT_N0F_EXPLAIN.Text += "\r\n\r\n" + ExplainSampleAchievementFlag();
-            OBJECT_N0G_EXPLAIN.Text += "\r\n\r\n" + ExplainSampleAchievementFlag();
-            OBJECT_N0H_EXPLAIN.Text += "\r\n\r\n" + ExplainSampleAchievementFlag();
-            OBJECT_N0I_EXPLAIN.Text += "\r\n\r\n" + ExplainSampleAchievementFlag();
 
             if (Program.ROM.RomInfo.version == 6)
             {//FE6の常時条件は、0xD
