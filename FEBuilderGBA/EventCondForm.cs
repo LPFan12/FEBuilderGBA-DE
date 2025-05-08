@@ -104,13 +104,9 @@ namespace FEBuilderGBA
 
             OBJECT_N05_L_10_COMBO.OwnerDraw(ComboBoxEx.DrawIconAndText, DrawMode.OwnerDrawFixed);
             OBJECT_N06_L_10_COMBO.OwnerDraw(ComboBoxEx.DrawIconAndText, DrawMode.OwnerDrawFixed);
-            OBJECT_N0F_L_10_COMBO.OwnerDraw(ComboBoxEx.DrawIconAndText, DrawMode.OwnerDrawFixed);
             OBJECT_N07_L_10_COMBO.OwnerDraw(ComboBoxEx.DrawIconAndText, DrawMode.OwnerDrawFixed);
-            OBJECT_N0G_L_10_COMBO.OwnerDraw(ComboBoxEx.DrawIconAndText, DrawMode.OwnerDrawFixed);
             OBJECT_N08_L_10_COMBO.OwnerDraw(ComboBoxEx.DrawIconAndText, DrawMode.OwnerDrawFixed);
-            OBJECT_N0H_L_10_COMBO.OwnerDraw(ComboBoxEx.DrawIconAndText, DrawMode.OwnerDrawFixed);
             OBJECT_N0A_L_10_COMBO.OwnerDraw(ComboBoxEx.DrawIconAndText, DrawMode.OwnerDrawFixed);
-            OBJECT_N0I_L_10_COMBO.OwnerDraw(ComboBoxEx.DrawIconAndText, DrawMode.OwnerDrawFixed);
 
             TALK_L_0_COMBO.OwnerDraw(ComboBoxEx.DrawIconAndText, DrawMode.OwnerDrawFixed);
             N02_L_0_COMBO.OwnerDraw(ComboBoxEx.DrawIconAndText, DrawMode.OwnerDrawFixed);
