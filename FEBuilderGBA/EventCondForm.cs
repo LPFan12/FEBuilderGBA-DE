@@ -239,6 +239,15 @@ namespace FEBuilderGBA
             OBJECT_N06_L_10_COMBO.AddIcon(0x1D, ImageSystemIconForm.VillageCenter()); //20=村の中心(盗賊のターゲット)
             OBJECT_N06_L_10_COMBO.AddIcon(0x0E, ImageSystemIconForm.Village()); //0E=民家
 
+            OBJECT_N06_L_11_COMBO.BeginUpdate();
+            OBJECT_N06_L_11_COMBO.Items.Clear();
+            OBJECT_N06_L_11_COMBO.Items.Add(R._("1D=村の中心(盗賊のターゲット)"));
+            OBJECT_N06_L_11_COMBO.Items.Add(R._("0E=民家"));
+            OBJECT_N06_L_11_COMBO.Items.Add(R._("0=--"));
+            OBJECT_N06_L_11_COMBO.EndUpdate();
+            OBJECT_N06_L_11_COMBO.AddIcon(0x1D, ImageSystemIconForm.VillageCenter()); //20=村の中心(盗賊のターゲット)
+            OBJECT_N06_L_11_COMBO.AddIcon(0x0E, ImageSystemIconForm.Village()); //0E=民家
+
             OBJECT_N07_L_10_COMBO.BeginUpdate();
             OBJECT_N07_L_10_COMBO.Items.Clear();
             OBJECT_N07_L_10_COMBO.Items.Add(R._("12=宝箱"));
@@ -246,12 +255,26 @@ namespace FEBuilderGBA
             OBJECT_N07_L_10_COMBO.EndUpdate();
             OBJECT_N07_L_10_COMBO.AddIcon(0x12, ImageSystemIconForm.Chest()); //12=宝箱
 
+            OBJECT_N07_L_11_COMBO.BeginUpdate();
+            OBJECT_N07_L_11_COMBO.Items.Clear();
+            OBJECT_N07_L_11_COMBO.Items.Add(R._("12=宝箱"));
+            OBJECT_N07_L_11_COMBO.Items.Add(R._("0=--"));
+            OBJECT_N07_L_11_COMBO.EndUpdate();
+            OBJECT_N07_L_11_COMBO.AddIcon(0x12, ImageSystemIconForm.Chest()); //12=宝箱
+
             OBJECT_N08_L_10_COMBO.BeginUpdate();
             OBJECT_N08_L_10_COMBO.Items.Clear();
             OBJECT_N08_L_10_COMBO.Items.Add(R._("10=扉"));
             OBJECT_N08_L_10_COMBO.Items.Add(R._("0=--"));
             OBJECT_N08_L_10_COMBO.EndUpdate();
             OBJECT_N08_L_10_COMBO.AddIcon(0x10, ImageSystemIconForm.Door()); //10=扉
+
+            OBJECT_N08_L_11_COMBO.BeginUpdate();
+            OBJECT_N08_L_11_COMBO.Items.Clear();
+            OBJECT_N08_L_11_COMBO.Items.Add(R._("10=扉"));
+            OBJECT_N08_L_11_COMBO.Items.Add(R._("0=--"));
+            OBJECT_N08_L_11_COMBO.EndUpdate();
+            OBJECT_N08_L_11_COMBO.AddIcon(0x10, ImageSystemIconForm.Door()); //10=扉
 
             OBJECT_N0A_L_10_COMBO.BeginUpdate();
             OBJECT_N0A_L_10_COMBO.Items.Clear();
@@ -263,6 +286,17 @@ namespace FEBuilderGBA
             OBJECT_N0A_L_10_COMBO.AddIcon(0x13, ImageSystemIconForm.Armory()); //13=武器屋
             OBJECT_N0A_L_10_COMBO.AddIcon(0x14, ImageSystemIconForm.Vendor()); //14=道具屋
             OBJECT_N0A_L_10_COMBO.AddIcon(0x15, ImageSystemIconForm.SecretShop()); //15=秘密の店
+
+            OBJECT_N0A_L_11_COMBO.BeginUpdate();
+            OBJECT_N0A_L_11_COMBO.Items.Clear();
+            OBJECT_N0A_L_11_COMBO.Items.Add(R._("13=武器屋"));
+            OBJECT_N0A_L_11_COMBO.Items.Add(R._("14=道具屋"));
+            OBJECT_N0A_L_11_COMBO.Items.Add(R._("15=秘密の店"));
+            OBJECT_N0A_L_11_COMBO.Items.Add(R._("0=--"));
+            OBJECT_N0A_L_11_COMBO.EndUpdate();
+            OBJECT_N0A_L_11_COMBO.AddIcon(0x13, ImageSystemIconForm.Armory()); //13=武器屋
+            OBJECT_N0A_L_11_COMBO.AddIcon(0x14, ImageSystemIconForm.Vendor()); //14=道具屋
+            OBJECT_N0A_L_11_COMBO.AddIcon(0x15, ImageSystemIconForm.SecretShop()); //15=秘密の店
 
             TRAP_L_0_COMBO.BeginUpdate();
             TRAP_L_0_COMBO.Items.RemoveAt(TRAP_L_0_COMBO.Items.Count - 1); //0xCゴーゴンの卵を消す
