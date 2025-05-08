@@ -1856,6 +1856,7 @@ C0=Run on 4th Army Phase
 
 :15=秘密の店
 15=Geheimladen
+
 :34=ロングアーチ
 34=Ballista
 
