@@ -497,7 +497,7 @@ namespace FEBuilderGBA
             vanilla_casle_image_address = 0x17B398; 
             vanilla_plain_config_address = 0x197170; 
             vanilla_plain_image_address = 0x174C50; 
-            map_minimap_tile_array_pointer = 0xAC44C;  //minimapのチップ割り当て
+            map_minimap_tile_array_pointer = 0x0BA904;  //Ist das der richtige Pointer?
             bg_reserve_black_bgid = 0x4f; 
             bg_reserve_random_bgid = 0x51;
 
