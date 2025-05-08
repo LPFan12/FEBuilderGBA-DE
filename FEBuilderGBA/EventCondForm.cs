@@ -104,9 +104,13 @@ namespace FEBuilderGBA
 
             OBJECT_N05_L_10_COMBO.OwnerDraw(ComboBoxEx.DrawIconAndText, DrawMode.OwnerDrawFixed);
             OBJECT_N06_L_10_COMBO.OwnerDraw(ComboBoxEx.DrawIconAndText, DrawMode.OwnerDrawFixed);
+            OBJECT_N06_L_11_COMBO.OwnerDraw(ComboBoxEx.DrawIconAndText, DrawMode.OwnerDrawFixed);
             OBJECT_N07_L_10_COMBO.OwnerDraw(ComboBoxEx.DrawIconAndText, DrawMode.OwnerDrawFixed);
+            OBJECT_N07_L_11_COMBO.OwnerDraw(ComboBoxEx.DrawIconAndText, DrawMode.OwnerDrawFixed);
             OBJECT_N08_L_10_COMBO.OwnerDraw(ComboBoxEx.DrawIconAndText, DrawMode.OwnerDrawFixed);
+            OBJECT_N08_L_11_COMBO.OwnerDraw(ComboBoxEx.DrawIconAndText, DrawMode.OwnerDrawFixed);
             OBJECT_N0A_L_10_COMBO.OwnerDraw(ComboBoxEx.DrawIconAndText, DrawMode.OwnerDrawFixed);
+            OBJECT_N0A_L_11_COMBO.OwnerDraw(ComboBoxEx.DrawIconAndText, DrawMode.OwnerDrawFixed);
 
             TALK_L_0_COMBO.OwnerDraw(ComboBoxEx.DrawIconAndText, DrawMode.OwnerDrawFixed);
             N02_L_0_COMBO.OwnerDraw(ComboBoxEx.DrawIconAndText, DrawMode.OwnerDrawFixed);
@@ -189,16 +193,16 @@ namespace FEBuilderGBA
                
                 OBJECT_N05_L_10_COMBO.Items.Add(R._("0=--"));
 
-                OBJECT_N06_L_10_COMBO.AddIcon(0x1E, ImageSystemIconForm.VillageCenter()); //1E=村の中心(盗賊のターゲット)
-                OBJECT_N06_L_10_COMBO.AddIcon(0x0F, ImageSystemIconForm.Village()); //0F=民家
+                OBJECT_N06_L_11_COMBO.AddIcon(0x1E, ImageSystemIconForm.VillageCenter()); //1E=村の中心(盗賊のターゲット)
+                OBJECT_N06_L_11_COMBO.AddIcon(0x0F, ImageSystemIconForm.Village()); //0F=民家
 
-                OBJECT_N07_L_10_COMBO.AddIcon(0x13, ImageSystemIconForm.Chest()); //13=宝箱
+                OBJECT_N07_L_11_COMBO.AddIcon(0x13, ImageSystemIconForm.Chest()); //13=宝箱
 
-                OBJECT_N08_L_10_COMBO.AddIcon(0x11, ImageSystemIconForm.Door()); //11=扉
+                OBJECT_N08_L_11_COMBO.AddIcon(0x11, ImageSystemIconForm.Door()); //11=扉
 
-                OBJECT_N0A_L_10_COMBO.AddIcon(0x14, ImageSystemIconForm.Armory()); //16=武器屋
-                OBJECT_N0A_L_10_COMBO.AddIcon(0x15, ImageSystemIconForm.Vendor()); //Muss getestet werden
-                OBJECT_N0A_L_10_COMBO.AddIcon(0x16, ImageSystemIconForm.SecretShop()); //Muss getestet werden
+                OBJECT_N0A_L_11_COMBO.AddIcon(0x14, ImageSystemIconForm.Armory()); //16=武器屋
+                OBJECT_N0A_L_11_COMBO.AddIcon(0x15, ImageSystemIconForm.Vendor()); //Muss getestet werden
+                OBJECT_N0A_L_11_COMBO.AddIcon(0x16, ImageSystemIconForm.SecretShop()); //Muss getestet werden
 
                 return;
             }
