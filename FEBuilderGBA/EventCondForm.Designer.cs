@@ -1602,10 +1602,6 @@
             // 
             this.OBJECT_N06_L_10_COMBO.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.OBJECT_N06_L_10_COMBO.FormattingEnabled = true;
-            this.OBJECT_N06_L_10_COMBO.Items.AddRange(new object[] {
-            "20=村の中心(盗賊のターゲット)",
-            "10=民家",
-            "0=--"});
             this.OBJECT_N06_L_10_COMBO.Location = new System.Drawing.Point(273, 116);
             this.OBJECT_N06_L_10_COMBO.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.OBJECT_N06_L_10_COMBO.Name = "OBJECT_N06_L_10_COMBO";
