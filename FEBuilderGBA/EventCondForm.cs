@@ -104,13 +104,13 @@ namespace FEBuilderGBA
 
             OBJECT_N05_L_10_COMBO.OwnerDraw(ComboBoxEx.DrawIconAndText, DrawMode.OwnerDrawFixed);
             OBJECT_N06_L_10_COMBO.OwnerDraw(ComboBoxEx.DrawIconAndText, DrawMode.OwnerDrawFixed);
-            OBJECT_N06_L_11_COMBO.OwnerDraw(ComboBoxEx.DrawIconAndText, DrawMode.OwnerDrawFixed);
+            OBJECT_N0F_L_10_COMBO.OwnerDraw(ComboBoxEx.DrawIconAndText, DrawMode.OwnerDrawFixed);
             OBJECT_N07_L_10_COMBO.OwnerDraw(ComboBoxEx.DrawIconAndText, DrawMode.OwnerDrawFixed);
-            OBJECT_N07_L_11_COMBO.OwnerDraw(ComboBoxEx.DrawIconAndText, DrawMode.OwnerDrawFixed);
+            OBJECT_N0G_L_10_COMBO.OwnerDraw(ComboBoxEx.DrawIconAndText, DrawMode.OwnerDrawFixed);
             OBJECT_N08_L_10_COMBO.OwnerDraw(ComboBoxEx.DrawIconAndText, DrawMode.OwnerDrawFixed);
-            OBJECT_N08_L_11_COMBO.OwnerDraw(ComboBoxEx.DrawIconAndText, DrawMode.OwnerDrawFixed);
+            OBJECT_N0H_L_10_COMBO.OwnerDraw(ComboBoxEx.DrawIconAndText, DrawMode.OwnerDrawFixed);
             OBJECT_N0A_L_10_COMBO.OwnerDraw(ComboBoxEx.DrawIconAndText, DrawMode.OwnerDrawFixed);
-            OBJECT_N0A_L_11_COMBO.OwnerDraw(ComboBoxEx.DrawIconAndText, DrawMode.OwnerDrawFixed);
+            OBJECT_N0I_L_10_COMBO.OwnerDraw(ComboBoxEx.DrawIconAndText, DrawMode.OwnerDrawFixed);
 
             TALK_L_0_COMBO.OwnerDraw(ComboBoxEx.DrawIconAndText, DrawMode.OwnerDrawFixed);
             N02_L_0_COMBO.OwnerDraw(ComboBoxEx.DrawIconAndText, DrawMode.OwnerDrawFixed);
@@ -193,16 +193,16 @@ namespace FEBuilderGBA
                
                 OBJECT_N05_L_10_COMBO.Items.Add(R._("0=--"));
 
-                OBJECT_N06_L_11_COMBO.AddIcon(0x1E, ImageSystemIconForm.VillageCenter()); //1E=村の中心(盗賊のターゲット)
-                OBJECT_N06_L_11_COMBO.AddIcon(0x0F, ImageSystemIconForm.Village()); //0F=民家
+                OBJECT_N0F_L_10_COMBO.AddIcon(0x1E, ImageSystemIconForm.VillageCenter()); //1E=村の中心(盗賊のターゲット)
+                OBJECT_N0F_L_10_COMBO.AddIcon(0x0F, ImageSystemIconForm.Village()); //0F=民家
 
-                OBJECT_N07_L_11_COMBO.AddIcon(0x13, ImageSystemIconForm.Chest()); //13=宝箱
+                OBJECT_N0G_L_10_COMBO.AddIcon(0x13, ImageSystemIconForm.Chest()); //13=宝箱
 
-                OBJECT_N08_L_11_COMBO.AddIcon(0x11, ImageSystemIconForm.Door()); //11=扉
+                OBJECT_N0H_L_10_COMBO.AddIcon(0x11, ImageSystemIconForm.Door()); //11=扉
 
-                OBJECT_N0A_L_11_COMBO.AddIcon(0x14, ImageSystemIconForm.Armory()); //16=武器屋
-                OBJECT_N0A_L_11_COMBO.AddIcon(0x15, ImageSystemIconForm.Vendor()); //Muss getestet werden
-                OBJECT_N0A_L_11_COMBO.AddIcon(0x16, ImageSystemIconForm.SecretShop()); //Muss getestet werden
+                OBJECT_N0I_L_10_COMBO.AddIcon(0x14, ImageSystemIconForm.Armory()); //16=武器屋
+                OBJECT_N0I_L_10_COMBO.AddIcon(0x15, ImageSystemIconForm.Vendor()); //Muss getestet werden
+                OBJECT_N0I_L_10_COMBO.AddIcon(0x16, ImageSystemIconForm.SecretShop()); //Muss getestet werden
 
                 return;
             }
@@ -651,7 +651,7 @@ namespace FEBuilderGBA
         {
             return new InputFormRef(self
                 , "OBJECT_"
-                , new List<string>() { "N05_", "N06_", "N07_", "N08_", "N0A_" }
+                , new List<string>() { "N05_", "N06_", "N07_", "N08_", "N0A_", "N0F", "N0G", "N0H", "N0I" }
                 , 0
                 , 12
                 , (int i, uint addr) =>
@@ -765,6 +765,10 @@ namespace FEBuilderGBA
             OBJECT_N07_EXPLAIN.Text += "\r\n\r\n" + ExplainSampleAchievementFlag();//宝箱
             OBJECT_N08_EXPLAIN.Text += "\r\n\r\n" + ExplainSampleAchievementFlag();//扉
             OBJECT_N0A_EXPLAIN.Text += "\r\n\r\n" + ExplainSampleAchievementFlag();//店
+            OBJECT_N0F_EXPLAIN.Text += "\r\n\r\n" + ExplainSampleAchievementFlag();
+            OBJECT_N0G_EXPLAIN.Text += "\r\n\r\n" + ExplainSampleAchievementFlag();
+            OBJECT_N0H_EXPLAIN.Text += "\r\n\r\n" + ExplainSampleAchievementFlag();
+            OBJECT_N0I_EXPLAIN.Text += "\r\n\r\n" + ExplainSampleAchievementFlag();
 
             if (Program.ROM.RomInfo.version == 6)
             {//FE6の常時条件は、0xD
