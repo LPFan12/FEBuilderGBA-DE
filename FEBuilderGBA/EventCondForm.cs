@@ -186,28 +186,11 @@ namespace FEBuilderGBA
                 OBJECT_N05_L_10_COMBO.Items.Add(R._("0F=民家"));
                 OBJECT_N05_L_10_COMBO.AddIcon(0x0F, ImageSystemIconForm.House()); //10=民家
                 //Im finalen Spiel ist hier noch der "Zufällige Truhen" Objekttyp, aber den scheint es noch nicht zu geben?
-                if (PatchUtil.SearchEscapePatch() != PatchUtil.Escape_enum.NO)
-                {
-                    OBJECT_N05_L_10_COMBO.Items.Add(R._("13=離脱"));
-                    OBJECT_N05_L_10_COMBO.AddIcon(0x13, ImageSystemIconForm.ExitPoint()); //13=離脱
-                    OBJECT_N05_L_10_COMBO.Items.Add(R._("19=到着"));
-                    OBJECT_N05_L_10_COMBO.AddIcon(0x19, ImageSystemIconForm.Castle()); //19=到着
-                }
-                if (PatchUtil.SearchRaidPatch() != PatchUtil.Raid_enum.NO)
-                {
-                    OBJECT_N05_L_10_COMBO.Items.Add(R._("21=Raid"));
-                    OBJECT_N05_L_10_COMBO.AddIcon(0x21, ClassForm.DrawWaitIcon(0x41)); //21=Raid
-                }
-                if (PatchUtil.SearchStairsHackPatch() != PatchUtil.StairsHack_enum.NO)
-                {
-                    OBJECT_N05_L_10_COMBO.Items.Add(R._("22=階段拡張"));
-                    OBJECT_N05_L_10_COMBO.AddIcon(0x22, ImageSystemIconForm.Stairs()); //22=階段
-                }
+               
                 OBJECT_N05_L_10_COMBO.Items.Add(R._("0=--"));
 
-
-                OBJECT_N06_L_10_COMBO.AddIcon(0x1E, ImageSystemIconForm.VillageCenter()); //20=村の中心(盗賊のターゲット)
-                OBJECT_N06_L_10_COMBO.AddIcon(0x0F, ImageSystemIconForm.Village()); //10=民家
+                OBJECT_N06_L_10_COMBO.AddIcon(0x1E, ImageSystemIconForm.VillageCenter()); //1E=村の中心(盗賊のターゲット)
+                OBJECT_N06_L_10_COMBO.AddIcon(0x0F, ImageSystemIconForm.Village()); //0F=民家
 
                 OBJECT_N07_L_10_COMBO.AddIcon(0x13, ImageSystemIconForm.Chest()); //13=宝箱
 
@@ -216,16 +199,6 @@ namespace FEBuilderGBA
                 OBJECT_N0A_L_10_COMBO.AddIcon(0x14, ImageSystemIconForm.Armory()); //16=武器屋
                 OBJECT_N0A_L_10_COMBO.AddIcon(0x15, ImageSystemIconForm.Vendor()); //Muss getestet werden
                 OBJECT_N0A_L_10_COMBO.AddIcon(0x16, ImageSystemIconForm.SecretShop()); //Muss getestet werden
-
-                if (PatchUtil.SearchSkillSystem() == PatchUtil.skill_system_enum.SkillSystem)
-                {
-                    TRAP_L_0_COMBO.Items.Insert(4, R._("06=DragonVein"));
-                }
-                if (PatchUtil.SearchCache_FourthAllegiance() == PatchUtil.FourthAllegiance_extends.FourthAllegiance)
-                {
-                    N02_L_10_COMBO.Items.Add("C0=第4軍ターンに実行");
-                    N02_L_10_COMBO.AddIcon(0xC0, ImageUnitWaitIconFrom.DrawWaitUnitIconBitmap(10, 4, true)); //C0=第4軍
-                }
 
                 return;
             }
@@ -4364,7 +4337,7 @@ namespace FEBuilderGBA
                 if (objecttype == 0x11)
                 {
                     out_bitmap = ImageSystemIconForm.Throne();
-                    return U.ToHexString(type) + ":" + R._("11=制圧");
+                    return U.ToHexString(type) + ":" + R._("11=民家");
                 }
                 else if (objecttype == 0x20)
                 {
@@ -4379,7 +4352,7 @@ namespace FEBuilderGBA
                 else if (objecttype == 0x10)
                 {
                     out_bitmap = ImageSystemIconForm.Village();
-                    return U.ToHexString(type) + ":" + R._("10=民家");
+                    return U.ToHexString(type) + ":" + R._("10=制圧");
                 }
                 else if (objecttype == 0x14 && type == 0x5)
                 {
