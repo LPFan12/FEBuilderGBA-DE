@@ -31,7 +31,7 @@ namespace FEBuilderGBA
             portrait_datasize = 28;
             icon_pointer = 0x5268; // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             icon_orignal_address = 0xEA3E0;  // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
-            icon_orignal_max = 0xDF;  // アイコンの最大数
+            icon_orignal_max = 0xBF;  // Sollte richtige Anzahl sein.
 
             icon_palette_pointer = 0x5170;  // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             unit_wait_icon_pointer = 0x31254;  // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
@@ -68,15 +68,15 @@ namespace FEBuilderGBA
             support_talk_pointer = 0x09114C;    // Ist das der richtige Pointer?
             unit_palette_color_pointer = 0x582F4;   // ユニットのパレット(カラー)の開始位置
             unit_palette_class_pointer = 0xD1E90;   // ユニットのパレット(クラス)の開始位置
-            support_attribute_pointer = 0x284C8;   //支援効果の開始位置
-            terrain_recovery_pointer = 0x19F34;  //地形回復 全クラス共通
-            terrain_bad_status_recovery_pointer = 0x019F44;  //地形回復 全クラス共通
-            terrain_show_infomation_pointer = 0x8ED58;  //地形ウィンドウに情報表示 全クラス共通
-            ballista_movcost_pointer = 0x18A74; //地形ウィンドウに情報表示 全クラス共通
+            support_attribute_pointer = 0x034280;   //Ist das der richtige Pointer?
+            terrain_recovery_pointer = 0x01D500;  //Ist das der richtige Pointer?
+            terrain_bad_status_recovery_pointer = 0x01D524;  //Ist das der richtige Pointer?
+            terrain_show_infomation_pointer = 0x099BE0;  //Ist das der richtige Pointer?
+            ballista_movcost_pointer = 0x01BBD4; //Ist das der richtige Pointer?
             ccbranch_pointer = 0xD14EC;  // CC分岐の開始位置
             ccbranch2_pointer = 0xD14E4;  // CC分岐の開始位置2 見習いのCCにのみ利用 CC分岐の開始位置+1の場所を指す
             class_alphaname_pointer = 0xD18CC;  // クラスのアルファベット表記の開始位置
-            map_terrain_name_pointer = 0x19f24;   // マップの地名表記の開始位置
+            map_terrain_name_pointer = 0x01D4DC;   // Ist das der Pointer
             image_chapter_title_pointer = 0x96A98;  // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             image_chapter_title_palette = 0x3A087C;  // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             image_unit_palette_pointer = 0x7018C;   // Ist das der richtige Pointer?
@@ -90,7 +90,7 @@ namespace FEBuilderGBA
             sound_room_cg_pointer = 0x0;  // サウンドルームの背景リスト(FE7のみ)
             event_ballte_talk_pointer = 0x86978;  // 交戦時セリフの開始位置
             event_ballte_talk2_pointer = 0;  // 交戦時セリフの開始位置2 (FE6だとボス汎用会話テーブルがある)
-            event_haiku_pointer = 0x869F8;  // 死亡時セリフの開始位置
+            event_haiku_pointer = 0x0910F4;  // Ist das der richtige Pointer?
             event_haiku_tutorial_1_pointer = 0x0;  // リン編チュートリアル 死亡時セリフの開始位置 FE7のみ
             event_haiku_tutorial_2_pointer = 0x0;  // エリウッド編チュートリアル 死亡時セリフの開始位置 FE7のみ
             event_force_sortie_pointer = 0x86B08;  // 強制出撃の開始位置
@@ -103,7 +103,7 @@ namespace FEBuilderGBA
             sound_foot_steps_switch2_address = 0x7b1d6;
             sound_foot_steps_data_pointer = 0x7B440;    //足音のデータ構造の先頭
             worldmap_scroll_somedata_pointer = 0xC3314; //ワールドマップのスクロール関係のデータ
-            worldmap_point_pointer = 0xC8DC0;  // ワールドマップ拠点の開始位置
+            worldmap_point_pointer = 0x0D0030;  // Ist das der richtige Pointer?
             worldmap_bgm_pointer = 0xBEE28;  // ワールドマップのBGMテーブルの開始位置
             worldmap_icon_data_pointer = 0xC04A4;  // ワールドマップのアイコンデータのテーブルの開始位置
             worldmap_event_on_stageclear_pointer = 0xBF264;  // ワールドマップイベント 拠点クリア時
@@ -111,7 +111,7 @@ namespace FEBuilderGBA
             worldmap_county_border_pointer = 0xC792C;  // ワールドマップ国名の表示
             worldmap_county_border_palette_pointer = 0xC755C;  // ワールドマップ国名の表示のパレット
             item_shop_hensei_pointer = 0x9C144;  //編成準備店
-            item_cornered_pointer = 0x2c704;  //すくみの開始位置
+            item_cornered_pointer = 0x03AEC4;  //Ist das der richtige Pointer?
             ed_1_pointer = 0xBB224;   //ED 倒れたら撤退するかどうか
             ed_2_pointer = 0xBB200;  //ED 通り名
             ed_3a_pointer = 0xAC09E0;   //ED その後 エイルーク編　
@@ -159,7 +159,7 @@ namespace FEBuilderGBA
             arena_enemy_weapon_basic_pointer = 0x31B04;  // 闘技場 敵武器テーブル基本武器
             arena_enemy_weapon_rankup_pointer = 0x31B24;  // 闘技場 敵武器テーブルランクアップ武器
             link_arena_deny_unit_pointer = 0x9A164;  //通信闘技場 禁止ユニット 
-            worldmap_road_pointer = 0xC598;  // ワールドマップの道
+            worldmap_road_pointer = 0xE4E4;  // Ist das der richtige Pointer?
 
             uint submenu_pointer = PatchUtil.SearchSubMenuMenuDefinePointerFE8J(rom);
             menu_definiton_pointer = U.FindROMPointer(rom, 8, new uint[] { submenu_pointer, 0x1BCBC, 0x1BF84, 0x1BD7C, 0x1BF70, 0x33398, 0x29940, 0x242AC, 0x1DC34 });  //メニュー定義
@@ -248,13 +248,13 @@ namespace FEBuilderGBA
             monster_wmap_probability_2_pointer = 0xC65B8; 
             monster_wmap_probability_after_1_pointer = 0xC65D0; 
             monster_wmap_probability_after_2_pointer = 0xC6690;
-            worldmap_skirmish_startevent_pointer = 0x015430;
-            worldmap_skirmish_endevent_pointer = 0x0855F8;
+            worldmap_skirmish_startevent_pointer = 0x0; //Scheint nicht zu existieren?
+            worldmap_skirmish_endevent_pointer = 0x0; //Scheint nicht zu existieren?
             battle_bg_pointer = 0x86BE4;  //Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             battle_terrain_pointer = 0x68388;  //Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             senseki_comment_pointer = 0x0;  //戦績コメント FE8にはない
             unit_custom_battle_anime_pointer = 0x0;  //ユニット専用アニメ FE7にある
-            magic_effect_pointer = 0x5C19C;  //魔法効果へのポインタ
+            magic_effect_pointer = 0x071898;  //Ist das die richtige Addresse?
             magic_effect_original_data_count = 0x48;  //もともとあった魔法数
      
             system_move_allowicon_pointer = 0x32db0; //移動するときの矢印アイコン
