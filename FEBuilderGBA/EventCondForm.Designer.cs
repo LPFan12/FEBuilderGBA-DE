@@ -88,7 +88,7 @@
             this.label114 = new System.Windows.Forms.Label();
             this.OBJECT_N06_L_8_MAPXY_9 = new System.Windows.Forms.Label();
             this.OBJECT_N06_L_10_COMBO = new FEBuilderGBA.ComboBoxEx();
-            this.OBJECT_N06_L_11_COMBO = new FEBuilderGBA.ComboBoxEx();
+            this.OBJECT_N0F_L_10_COMBO = new FEBuilderGBA.ComboBoxEx();
             this.OBJECT_N06_EXPLAIN = new FEBuilderGBA.TextBoxEx();
             this.OBJECT_N06_L_2_FLAG = new FEBuilderGBA.TextBoxEx();
             this.OBJECT_N06_L_4_EVENT = new FEBuilderGBA.TextBoxEx();
@@ -111,7 +111,7 @@
             this.label90 = new System.Windows.Forms.Label();
             this.OBJECT_N07_L_8_MAPXY_9 = new System.Windows.Forms.Label();
             this.OBJECT_N07_L_10_COMBO = new FEBuilderGBA.ComboBoxEx();
-            this.OBJECT_N07_L_11_COMBO = new FEBuilderGBA.ComboBoxEx();
+            this.OBJECT_N0G_L_10_COMBO = new FEBuilderGBA.ComboBoxEx();
             this.OBJECT_N07_L_4_ITEMICON = new FEBuilderGBA.InterpolatedPictureBox();
             this.OBJECT_N07_EXPLAIN = new FEBuilderGBA.TextBoxEx();
             this.OBJECT_N07_L_2_FLAG = new FEBuilderGBA.TextBoxEx();
@@ -137,7 +137,7 @@
             this.label115 = new System.Windows.Forms.Label();
             this.OBJECT_N08_L_8_MAPXY_9 = new System.Windows.Forms.Label();
             this.OBJECT_N08_L_10_COMBO = new FEBuilderGBA.ComboBoxEx();
-            this.OBJECT_N08_L_11_COMBO = new FEBuilderGBA.ComboBoxEx();
+            this.OBJECT_N0H_L_10_COMBO = new FEBuilderGBA.ComboBoxEx();
             this.OBJECT_N08_EXPLAIN = new FEBuilderGBA.TextBoxEx();
             this.OBJECT_N08_L_2_FLAG = new FEBuilderGBA.TextBoxEx();
             this.OBJECT_N08_L_4_EVENT = new FEBuilderGBA.TextBoxEx();
@@ -156,7 +156,7 @@
             this.label81 = new System.Windows.Forms.Label();
             this.OBJECT_N0A_L_8_MAPXY_9 = new System.Windows.Forms.Label();
             this.OBJECT_N0A_L_10_COMBO = new FEBuilderGBA.ComboBoxEx();
-            this.OBJECT_N0A_L_11_COMBO = new FEBuilderGBA.ComboBoxEx();
+            this.OBJECT_N0I_L_10_COMBO = new FEBuilderGBA.ComboBoxEx();
             this.OBJECT_N0A_J_2_FLAG = new FEBuilderGBA.LabelEx();
             this.OBJECT_N0A_EXPLAIN = new FEBuilderGBA.TextBoxEx();
             this.OBJECT_N0A_L_2_FLAG = new FEBuilderGBA.TextBoxEx();
@@ -1431,7 +1431,7 @@
             this.OBJECT_UNIONTAB_N06.Controls.Add(this.label114);
             this.OBJECT_UNIONTAB_N06.Controls.Add(this.OBJECT_N06_L_8_MAPXY_9);
             this.OBJECT_UNIONTAB_N06.Controls.Add(this.OBJECT_N06_L_10_COMBO);
-            this.OBJECT_UNIONTAB_N06.Controls.Add(this.OBJECT_N06_L_11_COMBO);
+            this.OBJECT_UNIONTAB_N06.Controls.Add(this.OBJECT_N0F_L_10_COMBO);
             this.OBJECT_UNIONTAB_N06.Controls.Add(this.OBJECT_N06_EXPLAIN);
             this.OBJECT_UNIONTAB_N06.Controls.Add(this.OBJECT_N06_L_2_FLAG);
             this.OBJECT_UNIONTAB_N06.Controls.Add(this.OBJECT_N06_L_4_EVENT);
@@ -1612,19 +1612,19 @@
             this.OBJECT_N06_L_10_COMBO.Size = new System.Drawing.Size(302, 26);
             this.OBJECT_N06_L_10_COMBO.TabIndex = 235;
             // 
-            // OBJECT_N06_L_11_COMBO
+            // OBJECT_N0F_L_10_COMBO
             // 
-            this.OBJECT_N06_L_11_COMBO.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.OBJECT_N06_L_11_COMBO.FormattingEnabled = true;
-            this.OBJECT_N06_L_11_COMBO.Items.AddRange(new object[] {
+            this.OBJECT_N0F_L_10_COMBO.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.OBJECT_N0F_L_10_COMBO.FormattingEnabled = true;
+            this.OBJECT_N0F_L_10_COMBO.Items.AddRange(new object[] {
             "1E=村の中心(盗賊のターゲット)",
             "0F=民家",
             "0=--"});
-            this.OBJECT_N06_L_11_COMBO.Location = new System.Drawing.Point(273, 116);
-            this.OBJECT_N06_L_11_COMBO.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.OBJECT_N06_L_11_COMBO.Name = "OBJECT_N06_L_11_COMBO";
-            this.OBJECT_N06_L_11_COMBO.Size = new System.Drawing.Size(302, 26);
-            this.OBJECT_N06_L_11_COMBO.TabIndex = 300;
+            this.OBJECT_N0F_L_10_COMBO.Location = new System.Drawing.Point(273, 116);
+            this.OBJECT_N0F_L_10_COMBO.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.OBJECT_N0F_L_10_COMBO.Name = "OBJECT_N0F_L_10_COMBO";
+            this.OBJECT_N0F_L_10_COMBO.Size = new System.Drawing.Size(302, 26);
+            this.OBJECT_N0F_L_10_COMBO.TabIndex = 300;
             // 
             // OBJECT_N06_EXPLAIN
             // 
@@ -1679,7 +1679,7 @@
             this.OBJECT_UNIONTAB_N07.Controls.Add(this.label90);
             this.OBJECT_UNIONTAB_N07.Controls.Add(this.OBJECT_N07_L_8_MAPXY_9);
             this.OBJECT_UNIONTAB_N07.Controls.Add(this.OBJECT_N07_L_10_COMBO);
-            this.OBJECT_UNIONTAB_N07.Controls.Add(this.OBJECT_N07_L_11_COMBO);
+            this.OBJECT_UNIONTAB_N07.Controls.Add(this.OBJECT_N0G_L_10_COMBO);
             this.OBJECT_UNIONTAB_N07.Controls.Add(this.OBJECT_N07_L_4_ITEMICON);
             this.OBJECT_UNIONTAB_N07.Controls.Add(this.OBJECT_N07_EXPLAIN);
             this.OBJECT_UNIONTAB_N07.Controls.Add(this.OBJECT_N07_L_2_FLAG);
@@ -1897,18 +1897,18 @@
             this.OBJECT_N07_L_10_COMBO.Size = new System.Drawing.Size(290, 26);
             this.OBJECT_N07_L_10_COMBO.TabIndex = 198;
             // 
-            // OBJECT_N07_L_11_COMBO
+            // OBJECT_N0G_L_10_COMBO
             // 
-            this.OBJECT_N07_L_11_COMBO.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.OBJECT_N07_L_11_COMBO.FormattingEnabled = true;
-            this.OBJECT_N07_L_11_COMBO.Items.AddRange(new object[] {
+            this.OBJECT_N0G_L_10_COMBO.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.OBJECT_N0G_L_10_COMBO.FormattingEnabled = true;
+            this.OBJECT_N0G_L_10_COMBO.Items.AddRange(new object[] {
             "13=宝箱",
             "0=--"});
-            this.OBJECT_N07_L_11_COMBO.Location = new System.Drawing.Point(278, 146);
-            this.OBJECT_N07_L_11_COMBO.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.OBJECT_N07_L_11_COMBO.Name = "OBJECT_N07_L_11_COMBO";
-            this.OBJECT_N07_L_11_COMBO.Size = new System.Drawing.Size(290, 26);
-            this.OBJECT_N07_L_11_COMBO.TabIndex = 301;
+            this.OBJECT_N0G_L_10_COMBO.Location = new System.Drawing.Point(278, 146);
+            this.OBJECT_N0G_L_10_COMBO.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.OBJECT_N0G_L_10_COMBO.Name = "OBJECT_N0G_L_10_COMBO";
+            this.OBJECT_N0G_L_10_COMBO.Size = new System.Drawing.Size(290, 26);
+            this.OBJECT_N0G_L_10_COMBO.TabIndex = 301;
             // 
             // OBJECT_N07_L_4_ITEMICON
             // 
@@ -2033,7 +2033,7 @@
             this.OBJECT_UNIONTAB_N08.Controls.Add(this.label115);
             this.OBJECT_UNIONTAB_N08.Controls.Add(this.OBJECT_N08_L_8_MAPXY_9);
             this.OBJECT_UNIONTAB_N08.Controls.Add(this.OBJECT_N08_L_10_COMBO);
-            this.OBJECT_UNIONTAB_N08.Controls.Add(this.OBJECT_N08_L_11_COMBO);
+            this.OBJECT_UNIONTAB_N08.Controls.Add(this.OBJECT_N0H_L_10_COMBO);
             this.OBJECT_UNIONTAB_N08.Controls.Add(this.OBJECT_N08_EXPLAIN);
             this.OBJECT_UNIONTAB_N08.Controls.Add(this.OBJECT_N08_L_2_FLAG);
             this.OBJECT_UNIONTAB_N08.Controls.Add(this.OBJECT_N08_L_4_EVENT);
@@ -2213,18 +2213,18 @@
             this.OBJECT_N08_L_10_COMBO.Size = new System.Drawing.Size(294, 26);
             this.OBJECT_N08_L_10_COMBO.TabIndex = 235;
             // 
-            // OBJECT_N08_L_11_COMBO
+            // OBJECT_N0H_L_10_COMBO
             // 
-            this.OBJECT_N08_L_11_COMBO.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.OBJECT_N08_L_11_COMBO.FormattingEnabled = true;
-            this.OBJECT_N08_L_11_COMBO.Items.AddRange(new object[] {
+            this.OBJECT_N0H_L_10_COMBO.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.OBJECT_N0H_L_10_COMBO.FormattingEnabled = true;
+            this.OBJECT_N0H_L_10_COMBO.Items.AddRange(new object[] {
             "11=扉",
             "0=--"});
-            this.OBJECT_N08_L_11_COMBO.Location = new System.Drawing.Point(277, 114);
-            this.OBJECT_N08_L_11_COMBO.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.OBJECT_N08_L_11_COMBO.Name = "OBJECT_N08_L_11_COMBO";
-            this.OBJECT_N08_L_11_COMBO.Size = new System.Drawing.Size(294, 26);
-            this.OBJECT_N08_L_11_COMBO.TabIndex = 302;
+            this.OBJECT_N0H_L_10_COMBO.Location = new System.Drawing.Point(277, 114);
+            this.OBJECT_N0H_L_10_COMBO.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.OBJECT_N0H_L_10_COMBO.Name = "OBJECT_N0H_L_10_COMBO";
+            this.OBJECT_N0H_L_10_COMBO.Size = new System.Drawing.Size(294, 26);
+            this.OBJECT_N0H_L_10_COMBO.TabIndex = 302;
             // 
             // OBJECT_N08_EXPLAIN
             // 
@@ -2279,7 +2279,7 @@
             this.OBJECT_UNIONTAB_N0A.Controls.Add(this.label81);
             this.OBJECT_UNIONTAB_N0A.Controls.Add(this.OBJECT_N0A_L_8_MAPXY_9);
             this.OBJECT_UNIONTAB_N0A.Controls.Add(this.OBJECT_N0A_L_10_COMBO);
-            this.OBJECT_UNIONTAB_N0A.Controls.Add(this.OBJECT_N0A_L_11_COMBO);
+            this.OBJECT_UNIONTAB_N0A.Controls.Add(this.OBJECT_N0I_L_10_COMBO);
             this.OBJECT_UNIONTAB_N0A.Controls.Add(this.OBJECT_N0A_J_2_FLAG);
             this.OBJECT_UNIONTAB_N0A.Controls.Add(this.OBJECT_N0A_EXPLAIN);
             this.OBJECT_UNIONTAB_N0A.Controls.Add(this.OBJECT_N0A_L_2_FLAG);
@@ -2451,20 +2451,20 @@
             this.OBJECT_N0A_L_10_COMBO.Size = new System.Drawing.Size(300, 26);
             this.OBJECT_N0A_L_10_COMBO.TabIndex = 180;
             // 
-            // OBJECT_N0A_L_11_COMBO
+            // OBJECT_N0I_L_10_COMBO
             // 
-            this.OBJECT_N0A_L_11_COMBO.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.OBJECT_N0A_L_11_COMBO.FormattingEnabled = true;
-            this.OBJECT_N0A_L_11_COMBO.Items.AddRange(new object[] {
+            this.OBJECT_N0I_L_10_COMBO.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.OBJECT_N0I_L_10_COMBO.FormattingEnabled = true;
+            this.OBJECT_N0I_L_10_COMBO.Items.AddRange(new object[] {
             "14=武器屋",
             "15=道具屋",
             "16=秘密の店",
             "0=--"});
-            this.OBJECT_N0A_L_11_COMBO.Location = new System.Drawing.Point(271, 119);
-            this.OBJECT_N0A_L_11_COMBO.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
-            this.OBJECT_N0A_L_11_COMBO.Name = "OBJECT_N0A_L_11_COMBO";
-            this.OBJECT_N0A_L_11_COMBO.Size = new System.Drawing.Size(300, 26);
-            this.OBJECT_N0A_L_11_COMBO.TabIndex = 303;
+            this.OBJECT_N0I_L_10_COMBO.Location = new System.Drawing.Point(271, 119);
+            this.OBJECT_N0I_L_10_COMBO.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.OBJECT_N0I_L_10_COMBO.Name = "OBJECT_N0I_L_10_COMBO";
+            this.OBJECT_N0I_L_10_COMBO.Size = new System.Drawing.Size(300, 26);
+            this.OBJECT_N0I_L_10_COMBO.TabIndex = 303;
             // 
             // OBJECT_N0A_J_2_FLAG
             // 
@@ -8750,9 +8750,9 @@
         private ComboBoxEx OBJECT_N06_L_10_COMBO;
         private System.Windows.Forms.NumericUpDown OBJECT_N06_W10;
         private System.Windows.Forms.Label OBJECT_N06_J_10;
-        private ComboBoxEx OBJECT_N06_L_11_COMBO;
-        private System.Windows.Forms.NumericUpDown OBJECT_N06_W11;
-        private System.Windows.Forms.Label OBJECT_N06_J_11;
+        private ComboBoxEx OBJECT_N0F_L_10_COMBO;
+        private System.Windows.Forms.NumericUpDown OBJECT_N0F_W10;
+        private System.Windows.Forms.Label OBJECT_N0F_J_10;
         private System.Windows.Forms.NumericUpDown OBJECT_N06_W2;
         private System.Windows.Forms.NumericUpDown OBJECT_N06_P4;
         private System.Windows.Forms.Label OBJECT_N06_J_4_EVENT;
@@ -8767,9 +8767,9 @@
         private ComboBoxEx OBJECT_N07_L_10_COMBO;
         private System.Windows.Forms.NumericUpDown OBJECT_N07_W10;
         private System.Windows.Forms.Label OBJECT_N07_J_10;
-        private ComboBoxEx OBJECT_N07_L_11_COMBO;
-        private System.Windows.Forms.NumericUpDown OBJECT_N07_W11;
-        private System.Windows.Forms.Label OBJECT_N07_J_11;
+        private ComboBoxEx OBJECT_N0G_L_10_COMBO;
+        private System.Windows.Forms.NumericUpDown OBJECT_N0G_W10;
+        private System.Windows.Forms.Label OBJECT_N0G_J_10;
         private System.Windows.Forms.NumericUpDown OBJECT_N07_W2;
         private System.Windows.Forms.NumericUpDown OBJECT_N07_B4;
         private System.Windows.Forms.Label OBJECT_N07_J_4_ITEM;
@@ -8783,9 +8783,9 @@
         private ComboBoxEx OBJECT_N08_L_10_COMBO;
         private System.Windows.Forms.NumericUpDown OBJECT_N08_W10;
         private System.Windows.Forms.Label OBJECT_N08_J_10;
-        private ComboBoxEx OBJECT_N08_L_11_COMBO;
-        private System.Windows.Forms.NumericUpDown OBJECT_N08_W11;
-        private System.Windows.Forms.Label OBJECT_N08_J_11;
+        private ComboBoxEx OBJECT_N0H_L_10_COMBO;
+        private System.Windows.Forms.NumericUpDown OBJECT_N0H_W10;
+        private System.Windows.Forms.Label OBJECT_N0H_J_10;
         private System.Windows.Forms.NumericUpDown OBJECT_N08_W2;
         private System.Windows.Forms.NumericUpDown OBJECT_N08_P4;
         private System.Windows.Forms.Label OBJECT_N08_J_4_EVENT;
@@ -8799,9 +8799,9 @@
         private ComboBoxEx OBJECT_N0A_L_10_COMBO;
         private System.Windows.Forms.NumericUpDown OBJECT_N0A_W10;
         private System.Windows.Forms.Label OBJECT_N0A_J_10;
-        private ComboBoxEx OBJECT_N0A_L_11_COMBO;
-        private System.Windows.Forms.NumericUpDown OBJECT_N0A_W11;
-        private System.Windows.Forms.Label OBJECT_N0A_J_11;
+        private ComboBoxEx OBJECT_N0I_L_10_COMBO;
+        private System.Windows.Forms.NumericUpDown OBJECT_N0I_W10;
+        private System.Windows.Forms.Label OBJECT_N0I_J_10;
         private System.Windows.Forms.NumericUpDown OBJECT_N0A_W2;
         private System.Windows.Forms.NumericUpDown OBJECT_N0A_P4;
         private System.Windows.Forms.Label OBJECT_N0A_J_4_ITEMSHOP;
