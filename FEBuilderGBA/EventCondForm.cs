@@ -1772,7 +1772,7 @@ namespace FEBuilderGBA
             {
                 return object_type == 0x16 || object_type == 0x17 || object_type == 0x18;
             }
-            if else (Program.ROM.RomInfo.version == 531)
+            else if (Program.ROM.RomInfo.version == 531)
             {
                 return object_type == 0x14 || object_type == 0x15 || object_type == 0x16;
             }
