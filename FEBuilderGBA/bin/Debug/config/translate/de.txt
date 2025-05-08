@@ -1804,16 +1804,22 @@ Map
 Specify the gold available.\r\nGold must be 256 gold or higher.
 
 :11=制圧
-11=Seize
+11=Besetzen
 
 :20=村の中心(盗賊のターゲット)
-20=Village Center (Thief Target)
+20=Dorfzentrum (Banditenziel)
+
+:1E=村の中心(盗賊のターゲット)
+1E=Dorfzentrum (Banditenziel)
 
 :10=民家
 10=Haus
 
+:0F=民家
+0F=Haus
+
 :14=ランダム宝箱
-14=Random Chest
+14=Zufällige Truhe
 
 :13=離脱
 13=Escape
@@ -1828,16 +1834,19 @@ Specify the gold available.\r\nGold must be 256 gold or higher.
 C0=Run on 4th Army Phase
 
 :0F=制圧
-0F=Seize
+0F=Besetzen
+
+:10=制圧
+10=Besetzen
 
 :1D=村の中心(盗賊のターゲット)
-1D=Village Center (Thief's Target)
+1D=Dorfzentrum (Banditenziel)
 
 :0E=民家
 0E=Haus
 
 :12=イベント付き宝箱
-12=Chest w/ Event
+12=Truhe mit Ereignis
 
 :0=不明
 0=Unbekannt
@@ -1845,26 +1854,41 @@ C0=Run on 4th Army Phase
 :12=宝箱
 12=Truhe
 
+:13=宝箱
+13=Truhe
+
 :10=扉
 10=Tür
+
+:11=扉
+11=Tür
 
 :13=武器屋
 13=Arsenal
 
+:14=武器屋
+14=Arsenal
+
 :14=道具屋
 14=Laden
 
+:15=道具屋
+15=Laden
+
 :15=秘密の店
 15=Geheimladen
+
+:16=秘密の店
+16=Geheimladen
 
 :34=ロングアーチ
 34=Ballista
 
 :35=アイアンアーチ
-35=Iron Ballista
+35=Eisenballista
 
 :36=キラーアーチ
-36=Killer Ballista
+36=Meisterballista
 
 :0D=ASM条件
 0D=ASM Condition
