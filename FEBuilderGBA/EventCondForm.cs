@@ -179,14 +179,13 @@ namespace FEBuilderGBA
             }
             if (Program.ROM.RomInfo.version == 531)
             {//FE8.
-                OBJECT_N05_L_10_COMBO.Items.Add(R._("11=制圧"));
-                OBJECT_N05_L_10_COMBO.AddIcon(0x11, ImageSystemIconForm.Throne()); //11=制圧
-                OBJECT_N05_L_10_COMBO.Items.Add(R._("20=村の中心(盗賊のターゲット)"));
-                OBJECT_N05_L_10_COMBO.AddIcon(0x20, ImageSystemIconForm.VillageCenter()); //20=村の中心(盗賊のターゲット)
-                OBJECT_N05_L_10_COMBO.Items.Add(R._("10=民家"));
-                OBJECT_N05_L_10_COMBO.AddIcon(0x10, ImageSystemIconForm.House()); //10=民家
-                OBJECT_N05_L_10_COMBO.Items.Add(R._("14=ランダム宝箱"));
-                OBJECT_N05_L_10_COMBO.AddIcon(0x14, ImageSystemIconForm.Chest()); //14=ランダム宝箱
+                OBJECT_N05_L_10_COMBO.Items.Add(R._("10=制圧"));
+                OBJECT_N05_L_10_COMBO.AddIcon(0x10, ImageSystemIconForm.Throne()); //10=制圧
+                OBJECT_N05_L_10_COMBO.Items.Add(R._("1E=村の中心(盗賊のターゲット)"));
+                OBJECT_N05_L_10_COMBO.AddIcon(0x1E, ImageSystemIconForm.VillageCenter()); //20=村の中心(盗賊のターゲット)
+                OBJECT_N05_L_10_COMBO.Items.Add(R._("0F=民家"));
+                OBJECT_N05_L_10_COMBO.AddIcon(0x0F, ImageSystemIconForm.House()); //10=民家
+                //Im finalen Spiel ist hier noch der "Zufällige Truhen" Objekttyp, aber den scheint es noch nicht zu geben?
                 if (PatchUtil.SearchEscapePatch() != PatchUtil.Escape_enum.NO)
                 {
                     OBJECT_N05_L_10_COMBO.Items.Add(R._("13=離脱"));
@@ -207,16 +206,16 @@ namespace FEBuilderGBA
                 OBJECT_N05_L_10_COMBO.Items.Add(R._("0=--"));
 
 
-                OBJECT_N06_L_10_COMBO.AddIcon(0x20, ImageSystemIconForm.VillageCenter()); //20=村の中心(盗賊のターゲット)
-                OBJECT_N06_L_10_COMBO.AddIcon(0x10, ImageSystemIconForm.Village()); //10=民家
+                OBJECT_N06_L_10_COMBO.AddIcon(0x1E, ImageSystemIconForm.VillageCenter()); //20=村の中心(盗賊のターゲット)
+                OBJECT_N06_L_10_COMBO.AddIcon(0x0F, ImageSystemIconForm.Village()); //10=民家
 
-                OBJECT_N07_L_10_COMBO.AddIcon(0x14, ImageSystemIconForm.Chest()); //14=宝箱
+                OBJECT_N07_L_10_COMBO.AddIcon(0x13, ImageSystemIconForm.Chest()); //13=宝箱
 
-                OBJECT_N08_L_10_COMBO.AddIcon(0x12, ImageSystemIconForm.Door()); //12=扉
+                OBJECT_N08_L_10_COMBO.AddIcon(0x11, ImageSystemIconForm.Door()); //11=扉
 
-                OBJECT_N0A_L_10_COMBO.AddIcon(0x16, ImageSystemIconForm.Armory()); //16=武器屋
-                OBJECT_N0A_L_10_COMBO.AddIcon(0x17, ImageSystemIconForm.Vendor()); //17=道具屋
-                OBJECT_N0A_L_10_COMBO.AddIcon(0x18, ImageSystemIconForm.SecretShop()); //18=秘密の店
+                OBJECT_N0A_L_10_COMBO.AddIcon(0x14, ImageSystemIconForm.Armory()); //16=武器屋
+                OBJECT_N0A_L_10_COMBO.AddIcon(0x15, ImageSystemIconForm.Vendor()); //Muss getestet werden
+                OBJECT_N0A_L_10_COMBO.AddIcon(0x16, ImageSystemIconForm.SecretShop()); //Muss getestet werden
 
                 if (PatchUtil.SearchSkillSystem() == PatchUtil.skill_system_enum.SkillSystem)
                 {
