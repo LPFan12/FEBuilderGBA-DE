@@ -198,6 +198,7 @@ namespace FEBuilderGBA
 
                 OBJECT_N0G_L_10_COMBO.AddIcon(0x13, ImageSystemIconForm.Chest()); //13=宝箱
 
+                OBJECT_N0H_L_10_COMBO.Items.Add(R._("11=扉"));
                 OBJECT_N0H_L_10_COMBO.AddIcon(0x11, ImageSystemIconForm.Door()); //11=扉
 
                 OBJECT_N0I_L_10_COMBO.AddIcon(0x14, ImageSystemIconForm.Armory()); //16=武器屋
