@@ -133,7 +133,7 @@ namespace FEBuilderGBA
                 EventFunctionPointerFE7Form.MakeAllDataLength(list);
                 return;
             }
-            if (Program.ROM.RomInfo.version == 209)
+            if (Program.ROM.RomInfo.version == 219)
             {
                 EventFunctionPointerFE7Form.MakeAllDataLength(list);
                 return;
