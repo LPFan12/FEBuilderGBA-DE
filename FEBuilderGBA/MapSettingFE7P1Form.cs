@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace FEBuilderGBA
 {
-    public partial class MapSettingFE7Form : Form
+    public partial class MapSettingFE7P1Form : Form
     {
-        public MapSettingFE7Form()
+        public MapSettingFE7P1Form()
         {
             InitializeComponent();
 
@@ -45,7 +45,7 @@ namespace FEBuilderGBA
         }
 
         public InputFormRef InputFormRef;
-        static InputFormRef Init(MapSettingFE7Form self)
+        static InputFormRef Init(MapSettingFE7P1Form self)
         {
             return new InputFormRef(self
                 , ""
@@ -111,7 +111,7 @@ namespace FEBuilderGBA
 //            return false;
         }
 
-        private void MapSettingFE7Form_Load(object sender, EventArgs e)
+        private void MapSettingFE7P1Form_Load(object sender, EventArgs e)
         {
             //章拡張を表示するかどうか
             if (MapSettingForm.IsShowChapterExetdns(this.AddressList.Items.Count))
@@ -133,7 +133,7 @@ namespace FEBuilderGBA
             uint mappointer_plist = (uint)B8.Value;
             MapPictureBox.LoadMap(ImageUtilMap.DrawMap(obj_plist, palette_plist, config_plist, mappointer_plist));
         }
-        //輸送隊の位置(FE7のみ)
+        //輸送隊の位置(FE7P1のみ)
         public static Point GetTransporter(uint mapid, bool isElwood)
         {
             InputFormRef InputFormRef = Init(null);
