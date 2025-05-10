@@ -245,7 +245,7 @@ namespace FEBuilderGBA
             {
                 return;
             }
-            if (Program.ROM.RomInfo.version == 209)
+            if (Program.ROM.RomInfo.version == 219)
             {
                 return;
             }
@@ -480,7 +480,7 @@ namespace FEBuilderGBA
                 palette_plist = 0x1e;
                 config_plist = 0x1f;
             }
-            else if (Program.ROM.RomInfo.version == 209)
+            else if (Program.ROM.RomInfo.version == 219)
             {//FE7
                 obj_plist = 0x1d1c;
                 palette_plist = 0x1e;
@@ -531,7 +531,7 @@ namespace FEBuilderGBA
                 palette_plist = 0x11;
                 config_plist = 0x12;
             }
-            else if (Program.ROM.RomInfo.version == 209)
+            else if (Program.ROM.RomInfo.version == 219)
             {//FE7
                 obj_plist = 0x10;
                 palette_plist = 0x11;
