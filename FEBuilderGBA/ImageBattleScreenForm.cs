@@ -986,7 +986,7 @@ namespace FEBuilderGBA
                 ImageUtil.BitBlt(ret, 0, 6 * 8, 32 * 8, 7 * 8, black, 0, 0);
                 black.Dispose();
             }
-            if (Program.ROM.RomInfo.version == 209)
+            if (Program.ROM.RomInfo.version == 219)
             {
                 Bitmap black = ImageUtil.Blank(32*8,7*8, ret);
                 ImageUtil.BitBlt(ret, 0, 6 * 8, 32 * 8, 7 * 8, black, 0, 0);
