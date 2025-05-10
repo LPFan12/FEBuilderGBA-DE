@@ -110,7 +110,7 @@ namespace FEBuilderGBA
             {//FE7Uだけ別ルーチン.
                 return ImageCGFE7UForm.DrawImageByID(id);
             }
-            if (Program.ROM.RomInfo.version == 209
+            if (Program.ROM.RomInfo.version == 219
                 && !Program.ROM.RomInfo.is_multibyte)
             {//FE7Uだけ別ルーチン.
                 return ImageCGFE7UForm.DrawImageByID(id);
@@ -313,7 +313,7 @@ namespace FEBuilderGBA
             {//FE7Uだけ別ルーチン.
                 return ImageCGFE7UForm.MakeList();
             }
-            if (Program.ROM.RomInfo.version == 209
+            if (Program.ROM.RomInfo.version == 219
                 && !Program.ROM.RomInfo.is_multibyte)
             {//FE7Uだけ別ルーチン.
                 return ImageCGFE7UForm.MakeList();
@@ -347,7 +347,7 @@ namespace FEBuilderGBA
             {
                 return;
             }
-            if (Program.ROM.RomInfo.version == 209)
+            if (Program.ROM.RomInfo.version == 219)
             {
                 return;
             }
