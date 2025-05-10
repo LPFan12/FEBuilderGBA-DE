@@ -184,7 +184,7 @@ namespace FEBuilderGBA
                 {
                     return false;
                 }
-                if (Program.ROM.RomInfo.version == 209)
+                if (Program.ROM.RomInfo.version == 219)
                 {
                     return false;
                 }
@@ -228,7 +228,7 @@ namespace FEBuilderGBA
                 {
                     return false;
                 }
-                if (Program.ROM.RomInfo.version == 209)
+                if (Program.ROM.RomInfo.version == 219)
                 {
                     return false;
                 }
@@ -257,7 +257,7 @@ namespace FEBuilderGBA
                 {
                     return false;
                 }
-                if (Program.ROM.RomInfo.version == 209)
+                if (Program.ROM.RomInfo.version == 219)
                 {
                     return false;
                 }
@@ -286,7 +286,7 @@ namespace FEBuilderGBA
                 {
                     return false;
                 }
-                if (Program.ROM.RomInfo.version == 209)
+                if (Program.ROM.RomInfo.version == 219)
                 {
                     return false;
                 }
@@ -315,7 +315,7 @@ namespace FEBuilderGBA
                 {
                     return false;
                 }
-                if (Program.ROM.RomInfo.version == 209)
+                if (Program.ROM.RomInfo.version == 219)
                 {
                     return false;
                 }
@@ -344,7 +344,7 @@ namespace FEBuilderGBA
                 {
                     return false;
                 }
-                if (Program.ROM.RomInfo.version == 209)
+                if (Program.ROM.RomInfo.version == 219)
                 {
                     return false;
                 }
@@ -373,7 +373,7 @@ namespace FEBuilderGBA
                 {
                     return false;
                 }
-                if (Program.ROM.RomInfo.version == 209)
+                if (Program.ROM.RomInfo.version == 219)
                 {
                     return false;
                 }
@@ -402,7 +402,7 @@ namespace FEBuilderGBA
                 {
                     return false;
                 }
-                if (Program.ROM.RomInfo.version == 209)
+                if (Program.ROM.RomInfo.version == 219)
                 {
                     return false;
                 }
@@ -452,7 +452,7 @@ namespace FEBuilderGBA
                 {//FE8以外ではダメ
                     return false;
                 }
-                if (Program.ROM.RomInfo.version == 209)
+                if (Program.ROM.RomInfo.version == 219)
                 {//FE8以外ではダメ
                     return false;
                 }
@@ -516,7 +516,7 @@ namespace FEBuilderGBA
                 {//FE8ではないとダメ
                     return false;
                 }
-                if (Program.ROM.RomInfo.version == 209)
+                if (Program.ROM.RomInfo.version == 219)
                 {//FE8ではないとダメ
                     return false;
                 }
@@ -555,7 +555,7 @@ namespace FEBuilderGBA
                 {
                     return false;
                 }
-                if (Program.ROM.RomInfo.version == 209)
+                if (Program.ROM.RomInfo.version == 219)
                 {
                     return false;
                 }
@@ -583,7 +583,7 @@ namespace FEBuilderGBA
                 {
                     return false;
                 }
-                if (Program.ROM.RomInfo.version == 209)
+                if (Program.ROM.RomInfo.version == 219)
                 {
                     return false;
                 }
