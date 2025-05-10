@@ -804,7 +804,7 @@ namespace FEBuilderGBA
                     //FELint.CheckPrologeEventPointer(0, errors);
                 }
             }
-            else if (Program.ROM.RomInfo.version == 209)
+            else if (Program.ROM.RomInfo.version == 219)
             {
                 if (InputFormRef.DoEvents(null, null)) return errors;
                 WorldMapEventPointerFE7Form.MakeCheckErrors(mapid, errors);
@@ -1023,8 +1023,8 @@ namespace FEBuilderGBA
                 if (InputFormRef.DoEvents(null, "ScanSystem EventBattleTalkFE7Form")) return;
                 EventBattleTalkFE7Form.MakeCheckError(errors);
 
-                if (InputFormRef.DoEvents(null, "ScanSystem SupportTalkFE7Form")) return;
-                SupportTalkFE7Form.MakeCheckError(errors);
+                if (InputFormRef.DoEvents(null, "ScanSystem SupportTalkFE6Form")) return;
+                SupportTalkFE6Form.MakeCheckError(errors);
 
                 if (InputFormRef.DoEvents(null, "ScanSystem SupportUnitForm")) return;
                 SupportUnitForm.MakeCheckError(errors);
@@ -1035,7 +1035,7 @@ namespace FEBuilderGBA
                 if (InputFormRef.DoEvents(null, "ScanSystem EDForm")) return;
                 EDFE7Form.MakeCheckError(errors);
             }
-            else if (Program.ROM.RomInfo.version == 209)
+            else if (Program.ROM.RomInfo.version == 219)
             {
                 if (InputFormRef.DoEvents(null, "ScanSystem ImagePortraitForm")) return;
                 ImagePortraitForm.MakeCheckError(errors);
@@ -1046,8 +1046,8 @@ namespace FEBuilderGBA
                 if (InputFormRef.DoEvents(null, "ScanSystem EventBattleTalkFE7Form")) return;
                 EventBattleTalkFE7Form.MakeCheckError(errors);
 
-                if (InputFormRef.DoEvents(null, "ScanSystem SupportTalkFE7Form")) return;
-                SupportTalkFE7Form.MakeCheckError(errors);
+                if (InputFormRef.DoEvents(null, "ScanSystem SupportTalkFE6Form")) return;
+                SupportTalkFE6Form.MakeCheckError(errors);
 
                 if (InputFormRef.DoEvents(null, "ScanSystem SupportUnitForm")) return;
                 SupportUnitForm.MakeCheckError(errors);
