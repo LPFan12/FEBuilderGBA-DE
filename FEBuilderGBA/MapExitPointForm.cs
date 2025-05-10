@@ -77,7 +77,7 @@ namespace FEBuilderGBA
                     bitmap = ImageUnitWaitIconFrom.DrawWaitUnitIconBitmap(0x3E, 1, true);
                 }
             }
-            else if (Program.ROM.RomInfo.version == 209)
+            else if (Program.ROM.RomInfo.version == 219)
             {
                 if (index == 0)
                 {//Enemy

@@ -63,7 +63,7 @@ namespace FEBuilderGBA
             {//英語版FE7は、章タイトルをテキストで保持していて、40260c nazo fontで、描画している.
                 ImageChapterTitleButton.Hide();
             }
-            else if (Program.ROM.RomInfo.version == 209 && Program.ROM.RomInfo.is_multibyte == false)
+            else if (Program.ROM.RomInfo.version == 219 && Program.ROM.RomInfo.is_multibyte == false)
             {//英語版FE7は、章タイトルをテキストで保持していて、40260c nazo fontで、描画している.
                 ImageChapterTitleButton.Hide();
             }
@@ -191,7 +191,7 @@ namespace FEBuilderGBA
                     return;
                 }
             }
-            else if (Program.ROM.RomInfo.version == 209)
+            else if (Program.ROM.RomInfo.version == 219)
             {
                 if (!Program.ROM.RomInfo.is_multibyte)
                 {
@@ -281,7 +281,7 @@ namespace FEBuilderGBA
             {
                 InputFormRef.JumpForm<WorldMapImageFE7Form>();
             }
-            else if (Program.ROM.RomInfo.version == 209)
+            else if (Program.ROM.RomInfo.version == 219)
             {
                 InputFormRef.JumpForm<WorldMapImageFE7Form>();
             }
@@ -315,7 +315,7 @@ namespace FEBuilderGBA
                     InputFormRef.JumpForm<ImageChapterTitleFE7Form>();
                 }
             }
-            else if (Program.ROM.RomInfo.version == 209)
+            else if (Program.ROM.RomInfo.version == 219)
             {
                 if (Program.ROM.RomInfo.is_multibyte)
                 {

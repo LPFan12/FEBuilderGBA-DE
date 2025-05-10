@@ -620,7 +620,7 @@ namespace FEBuilderGBA
                     }
                 }
             }
-            if (Program.ROM.RomInfo.version == 209)
+            if (Program.ROM.RomInfo.version == 219)
             {
                 if (Program.ROM.RomInfo.is_multibyte)
                 {

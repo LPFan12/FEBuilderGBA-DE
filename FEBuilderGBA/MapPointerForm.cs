@@ -723,7 +723,7 @@ namespace FEBuilderGBA
             {
                 text += R._("FE7では、6倍に増やせます。\r\n1.(オブジェクト), 2.(マップチップ画像、パレット), 3.(アニメーション), 4.(マップの並び順) , 5.(マップ変更) ,6.(イベント) \r\n");
             }
-            else if (Program.ROM.RomInfo.version == 209)
+            else if (Program.ROM.RomInfo.version == 219)
             {
                 text += R._("FE7では、6倍に増やせます。\r\n1.(オブジェクト), 2.(マップチップ画像、パレット), 3.(アニメーション), 4.(マップの並び順) , 5.(マップ変更) ,6.(イベント) \r\n");
             }

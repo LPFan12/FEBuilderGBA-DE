@@ -78,7 +78,7 @@ namespace FEBuilderGBA
                 eearg.IsCancel = true;
                 return;
             }
-            if (Program.ROM.RomInfo.version == 209)
+            if (Program.ROM.RomInfo.version == 219)
             {
                 Debug.Assert(false);
                 eearg.IsCancel = true;

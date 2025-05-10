@@ -186,7 +186,7 @@ namespace FEBuilderGBA
             {
                 return ImageUtil.BlankDummy();
             }
-            if (Program.ROM.RomInfo.version == 209)
+            if (Program.ROM.RomInfo.version == 219)
             {
                 return ImageUtil.BlankDummy();
             }
@@ -228,7 +228,7 @@ namespace FEBuilderGBA
             {
                 return "";
             }
-            if (Program.ROM.RomInfo.version == 209)
+            if (Program.ROM.RomInfo.version == 219)
             {
                 return "";
             }

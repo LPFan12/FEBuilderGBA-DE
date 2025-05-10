@@ -127,7 +127,7 @@ namespace FEBuilderGBA
             {
                 addr = WorldMapEventPointerFE7Form.GetEventByMapID(mapid);
             }
-            else if (Program.ROM.RomInfo.version == 209)
+            else if (Program.ROM.RomInfo.version == 219)
             {
                 addr = WorldMapEventPointerFE7Form.GetEventByMapID(mapid);
             }
@@ -170,7 +170,7 @@ namespace FEBuilderGBA
             {
                 return;
             }
-            else if (Program.ROM.RomInfo.version == 209)
+            else if (Program.ROM.RomInfo.version == 219)
             {
                 return;
             }
@@ -287,7 +287,7 @@ namespace FEBuilderGBA
                 ((EventBattleTalkFE7Form)InputFormRef.JumpFormLow<EventBattleTalkFE7Form>()).N1_InputFormRef.SaveDumpAutomatic(sb, saveDir);
                 ((EventHaikuFE7Form)InputFormRef.JumpFormLow<EventHaikuFE7Form>()).InputFormRef.SaveDumpAutomatic(sb, saveDir);
             }
-            else if (Program.ROM.RomInfo.version == 209)
+            else if (Program.ROM.RomInfo.version == 219)
             {//FE7
                 ((UnitFE7Form)InputFormRef.JumpFormLow<UnitFE7Form>()).InputFormRef.SaveDumpAutomatic(sb, saveDir);
                 ((ClassForm)InputFormRef.JumpFormLow<ClassForm>()).InputFormRef.SaveDumpAutomatic(sb, saveDir);

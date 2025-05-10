@@ -60,8 +60,8 @@ namespace FEBuilderGBA
                 EventHaikuFE7Form.MakeFlagIDArray(flagListInner);
                 EventBattleTalkFE7Form.MakeFlagIDArray(flagListInner);
             }
-            else if (Program.ROM.RomInfo.version == 209)
-            {//7 Prototype 209
+            else if (Program.ROM.RomInfo.version == 219)
+            {//7 Prototype 219
                 EventHaikuFE7Form.MakeFlagIDArray(flagListInner);
                 EventBattleTalkFE7Form.MakeFlagIDArray(flagListInner);
             }
