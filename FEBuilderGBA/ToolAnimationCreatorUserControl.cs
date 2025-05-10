@@ -44,7 +44,7 @@ namespace FEBuilderGBA
                 {
                     U.SelectedIndexSafety(this.BattleTerrain, 0x12 + 1);
                 }
-                else if (Program.ROM.RomInfo.version == 209)
+                else if (Program.ROM.RomInfo.version == 219)
                 {
                     U.SelectedIndexSafety(this.BattleTerrain, 0x12 + 1);
                 }
@@ -96,7 +96,7 @@ namespace FEBuilderGBA
                     U.SelectedIndexSafety(this.TargetEnemy, 0x19);
                     U.SelectedIndexSafety(this.PlayerUnit, 0x6F);
                 }
-                else if (Program.ROM.RomInfo.version == 209)
+                else if (Program.ROM.RomInfo.version == 219)
                 {
                     U.SelectedIndexSafety(this.TargetEnemy, 0x19);
                     U.SelectedIndexSafety(this.PlayerUnit, 0x6F);
