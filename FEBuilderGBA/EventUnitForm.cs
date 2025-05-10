@@ -1789,7 +1789,7 @@ namespace FEBuilderGBA
                     , basename + " EVENT UNIT"
                     , new uint[] {} );
             }
-            else if (Program.ROM.RomInfo.version == 209)
+            else if (Program.ROM.RomInfo.version == 219)
             {
                 FEBuilderGBA.Address.AddAddress(recycle
                     , InputFormRef
@@ -1910,7 +1910,7 @@ namespace FEBuilderGBA
             {
                 return EventUnitFE7Form.CheckUnitsEvenetArg(units_address);
             }
-            else if (Program.ROM.RomInfo.version == 209)
+            else if (Program.ROM.RomInfo.version == 219)
             {
                 return EventUnitFE7Form.CheckUnitsEvenetArg(units_address);
             }
