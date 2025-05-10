@@ -667,7 +667,7 @@ namespace FEBuilderGBA
                             ExportText(writer, U.toPointer(text_pointer), str, tralnslate_from, tralnslate_to, transDic, isModifiedTextOnly, isOneLiner);
                         }
                     }
-                    if (Program.ROM.RomInfo.is_multibyte && Program.ROM.RomInfo.version == 209)
+                    if (Program.ROM.RomInfo.is_multibyte && Program.ROM.RomInfo.version == 219)
                     {
                         List<U.AddrResult> list = SoundRoomForm.MakeList();
                         for (int i = 0; i < list.Count; i++)
