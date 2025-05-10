@@ -376,7 +376,7 @@ namespace FEBuilderGBA
                 this.Close();
                 return;
             }
-            if (Program.ROM.RomInfo.version == 209)
+            if (Program.ROM.RomInfo.version == 219)
             {
                 this.Close();
                 return;
