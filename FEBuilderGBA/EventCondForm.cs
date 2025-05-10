@@ -635,7 +635,7 @@ namespace FEBuilderGBA
         {
             return new InputFormRef(self
                 , "OBJECT_"
-                , new List<string>() { "N05_", "N06_", "N07_", "N08_", "N0A_", "N0F", "N0G", "N0H", "N0I" }
+                , new List<string>() { "N05_", "N06_", "N07_", "N08_", "N0A_"}
                 , 0
                 , 12
                 , (int i, uint addr) =>
