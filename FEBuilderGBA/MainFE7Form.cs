@@ -115,6 +115,12 @@ namespace FEBuilderGBA
 
         private void MapSettingButton_Click(object sender, EventArgs e)
         {
+        if (Program.ROM.RomInfo.version == 206)
+            {
+                InputFormRef.JumpForm<MapSettingFE7P1Form>();
+            }
+        else 
+            {
             if (!Program.ROM.RomInfo.is_multibyte)
             {
                 InputFormRef.JumpForm<MapSettingFE7UForm>();
@@ -122,6 +128,7 @@ namespace FEBuilderGBA
             else
             {
                 InputFormRef.JumpForm<MapSettingFE7Form>();
+            }
             }
         }
 
