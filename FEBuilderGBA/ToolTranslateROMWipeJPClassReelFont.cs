@@ -27,7 +27,7 @@ namespace FEBuilderGBA
             {
                 return ;
             }
-            if (Program.ROM.RomInfo.version == 209)
+            if (Program.ROM.RomInfo.version == 219)
             {
                 return ;
             }
