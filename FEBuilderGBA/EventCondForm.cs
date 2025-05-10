@@ -305,7 +305,7 @@ namespace FEBuilderGBA
                 TRAP_N01_L_3_COMBO.Items.Add(R._("0=--"));
                 TRAP_N01_L_3_COMBO.EndUpdate();
             }
-            if (Program.ROM.RomInfo.version == 209)
+            if (Program.ROM.RomInfo.version == 219)
             {//バリスタの並び順が異なるので作り直す
                 TRAP_N01_L_3_COMBO.BeginUpdate();
                 TRAP_N01_L_3_COMBO.Items.Clear();
@@ -546,7 +546,7 @@ namespace FEBuilderGBA
                     }
                     );
             }
-            else if (Program.ROM.RomInfo.version == 209)
+            else if (Program.ROM.RomInfo.version == 219)
             {//FE7だけサイズが違う.
                 return new InputFormRef(self
                     , "NFE702_"
@@ -826,7 +826,7 @@ namespace FEBuilderGBA
                 {//FE7だけターン条件のサイズが違う
                     this.CondTabControl.SelectedTab = tabPage02FE7;
                 }
-                else if (Program.ROM.RomInfo.version == 209)
+                else if (Program.ROM.RomInfo.version == 219)
                 {//FE7だけターン条件のサイズが違う
                     this.CondTabControl.SelectedTab = tabPage02FE7;
                 }
@@ -1081,7 +1081,7 @@ namespace FEBuilderGBA
                         {//信じられないがFE7は12バイトの短いターンイベントが存在する
                             addr += 12;
                         }
-                        else if (Program.ROM.RomInfo.version == 209
+                        else if (Program.ROM.RomInfo.version == 219
                             && type == 1)
                         {//信じられないがFE7は12バイトの短いターンイベントが存在する
                             addr += 12;
@@ -1279,7 +1279,7 @@ namespace FEBuilderGBA
                 objectTypeOfVendor = 0x14;
                 objectTypeOfSecret = 0x15;
             }
-            if (Program.ROM.RomInfo.version == 209)
+            if (Program.ROM.RomInfo.version == 219)
             {
 //                objectTypeOfSeize = 0xF;
                 objectTypeOfDoor = 0x10;
@@ -1510,7 +1510,7 @@ namespace FEBuilderGBA
                     //ターン1はサイズが小さい
                     //ターン2はサイズが大きい
                 }
-                else if (Program.ROM.RomInfo.version == 209 && (type == 0x1 || type == 0x2))
+                else if (Program.ROM.RomInfo.version == 219 && (type == 0x1 || type == 0x2))
                 {//FE7 には、ターン1-2まである
                     //ターン1はサイズが小さい
                     //ターン2はサイズが大きい
@@ -1660,7 +1660,7 @@ namespace FEBuilderGBA
                 FELint.CheckEventPointer(start_addr, errors, CONDTYPE.START_EVENT, (uint)(mapcond_addr + (4 * 14)), true, tracelist);
                 FELint.CheckEventPointer(end_addr, errors, CONDTYPE.END_EVENT, (uint)(mapcond_addr + (4 * 15)), true, tracelist);
             }
-            else if (Program.ROM.RomInfo.version == 209)
+            else if (Program.ROM.RomInfo.version == 219)
             {
                 uint eliwood_enemy_addr = Program.ROM.u32((uint)(mapcond_addr + (4 * 6)));
                 uint eliwood_enemy_hard_addr = Program.ROM.u32((uint)(mapcond_addr + (4 * 7)));
@@ -1750,7 +1750,7 @@ namespace FEBuilderGBA
                 FELint.CheckPointer(trap1_cond_addr, errors, CONDTYPE.TRAP, (uint)(mapcond_addr + (4 * 4)));
                 FELint.CheckPointer(trap2_cond_addr, errors, CONDTYPE.TRAP, (uint)(mapcond_addr + (4 * 5)));
             }
-            else if (Program.ROM.RomInfo.version == 209)
+            else if (Program.ROM.RomInfo.version == 219)
             {
                 uint trap1_cond_addr = Program.ROM.u32((uint)(mapcond_addr + (4 * 4)));
                 uint trap2_cond_addr = Program.ROM.u32((uint)(mapcond_addr + (4 * 5)));
@@ -1847,7 +1847,7 @@ namespace FEBuilderGBA
         {
             List<uint> tracelist = new List<uint>();
             List<U.AddrResult> list = new List<U.AddrResult>();
-            bool isFE7 = Program.ROM.RomInfo.version == 7; //todo: Was macht das? Wie kann man das auf Version 206 und 209 übertragen?
+            bool isFE7 = Program.ROM.RomInfo.version == 7; //todo: Was macht das? Wie kann man das auf Version 206 und 219 übertragen?
             uint rom_length = (uint)Program.ROM.Data.Length;
 
             uint mapcond_addr = MapSettingForm.GetEventAddrWhereMapID(mapid);
@@ -2196,7 +2196,7 @@ namespace FEBuilderGBA
         public static List<U.AddrResult> MakeEventScriptForFE7Tutorial(uint mapid)
         {
             List<U.AddrResult> list = new List<U.AddrResult>();
-            Debug.Assert(Program.ROM.RomInfo.version == 7); //todo: Was macht das? Wie kann man das auf Version 206 und 209 übertragen?
+            Debug.Assert(Program.ROM.RomInfo.version == 7); //todo: Was macht das? Wie kann man das auf Version 206 und 219 übertragen?
 
             if (mapid > 0x30)
             {
@@ -2250,7 +2250,7 @@ namespace FEBuilderGBA
         public static List<U.AddrResult> MakeEventScriptPointer(uint mapid)
         {
             List<U.AddrResult> list = new List<U.AddrResult>();
-            bool isFE7 = Program.ROM.RomInfo.version == 7; //todo: Was macht das? Wie kann man das auf Version 206 und 209 übertragen?
+            bool isFE7 = Program.ROM.RomInfo.version == 7; //todo: Was macht das? Wie kann man das auf Version 206 und 219 übertragen?
 
             uint mapcond_addr = MapSettingForm.GetEventAddrWhereMapID(mapid);
             if (!U.isSafetyOffset(mapcond_addr))
@@ -2607,7 +2607,7 @@ namespace FEBuilderGBA
                             return;
                         }
                     }
-                    else if (Program.ROM.RomInfo.version == 209)
+                    else if (Program.ROM.RomInfo.version == 219)
                     {
                         uint select = InputFormRef.AddrToSelect(NFE702_AddressList, addr);
                         if (select != U.NOT_FOUND)
@@ -2820,7 +2820,7 @@ namespace FEBuilderGBA
                             {//信じられないがFE7は12バイトの短いターンイベントが存在する
                                 base_addr += 12;
                             }
-                            else if (Program.ROM.RomInfo.version == 209 
+                            else if (Program.ROM.RomInfo.version == 219 
                                 && type == 1)
                             {//信じられないがFE7は12バイトの短いターンイベントが存在する
                                 base_addr += 12;
@@ -3603,7 +3603,7 @@ namespace FEBuilderGBA
                 //Program.ROM.write_p32(write_addr + 56, 0, undodata); //start event
                 //Program.ROM.write_p32(write_addr + 60, 0, undodata); //end event
             }
-            else if (Program.ROM.RomInfo.version == 209)
+            else if (Program.ROM.RomInfo.version == 219)
             {
                 uint eventSize = (uint)(EventCondForm.MapCond.Count * 4);
                 uint turn = eventSize;
@@ -5311,7 +5311,7 @@ namespace FEBuilderGBA
                         break;
                 }
             }
-            else if (Program.ROM.RomInfo.version == 209)
+            else if (Program.ROM.RomInfo.version == 219)
             {
                 switch (index + 1)
                 {
@@ -5562,7 +5562,7 @@ namespace FEBuilderGBA
                     List<U.AddrResult> tutorialCondList = MakeEventScriptForFE7Tutorial(mapid);
                     eventCondList.AddRange(tutorialCondList);
                 }
-                if (Program.ROM.RomInfo.version == 209)
+                if (Program.ROM.RomInfo.version == 219)
                 {
                     List<U.AddrResult> tutorialCondList = MakeEventScriptForFE7Tutorial(mapid);
                     eventCondList.AddRange(tutorialCondList);
@@ -5775,7 +5775,7 @@ namespace FEBuilderGBA
                     NFE702_W2.Value = 0;
                 }
             }
-            else if (Program.ROM.RomInfo.version == 209)
+            else if (Program.ROM.RomInfo.version == 219)
             {
                 if (this.NFE702_W0.Value == 0)
                 {
@@ -6045,7 +6045,7 @@ namespace FEBuilderGBA
                 MakeFlagIDArrayOne(mapid, start_addr, 0, flaglist);
                 MakeFlagIDArrayOne(mapid, end_addr, 0, flaglist);
             }
-            else if (Program.ROM.RomInfo.version == 209)
+            else if (Program.ROM.RomInfo.version == 219)
             {
                 uint start_addr = Program.ROM.u32((uint)(mapcond_addr + (4 * 14)));
                 uint end_addr = Program.ROM.u32((uint)(mapcond_addr + (4 * 15)));
