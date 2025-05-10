@@ -1,6 +1,6 @@
 ﻿namespace FEBuilderGBA
 {
-    partial class MapSettingFE7Form
+    partial class MapSettingFE7P1Form
     {
         /// <summary>
         /// Required designer variable.
@@ -3700,7 +3700,7 @@
             this.AddressListExpandsButton_255.Text = "リストの拡張";
             this.AddressListExpandsButton_255.UseVisualStyleBackColor = true;
             // 
-            // MapSettingFE7Form
+            // MapSettingFE7P1Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(144F, 144F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
@@ -3709,9 +3709,9 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel14);
-            this.Name = "MapSettingFE7Form";
+            this.Name = "MapSettingFE7P1Form";
             this.Text = "マップ設定";
-            this.Load += new System.EventHandler(this.MapSettingFE7Form_Load);
+            this.Load += new System.EventHandler(this.MapSettingFE7P1Form_Load);
             ((System.ComponentModel.ISupportInitialize)(this.W36)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
