@@ -258,7 +258,7 @@ namespace FEBuilderGBA
 
         public static void CHEAT_WARP_FE7(EmulatorMemoryForm form, uint warp_chapter, uint edtion)
         {
-            Debug.Assert(Program.ROM.RomInfo.version == 7); //Todo: Was genau macht das? Wie man man es auf Version 206 und 209 übertragen?
+            Debug.Assert(Program.ROM.RomInfo.version == 7); //Todo: Was genau macht das? Wie man man es auf Version 206 und 219 übertragen?
 
             uint work_address = Program.ROM.RomInfo.workmemory_last_string_address - 0x70; //テキストバッファの一番下をデータ置き場として利用する.
             uint eventExecuteFucntion;
@@ -503,7 +503,7 @@ namespace FEBuilderGBA
                     callEndEventFunction = 0x08079A38;
                 }
             }
-            else if (Program.ROM.RomInfo.version == 209)
+            else if (Program.ROM.RomInfo.version == 219)
             {
                 if (Program.ROM.RomInfo.is_multibyte)
                 {//FE7J
@@ -739,7 +739,7 @@ namespace FEBuilderGBA
                     SetCursorMapPosition = 0x08015a90;
                 }
             }
-            else if (Program.ROM.RomInfo.version == 209)
+            else if (Program.ROM.RomInfo.version == 219)
             {
                 if (Program.ROM.RomInfo.is_multibyte)
                 {//FE7J
