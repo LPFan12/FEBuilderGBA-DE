@@ -96,14 +96,7 @@ namespace FEBuilderGBA
             }
             else if (Program.ROM.RomInfo.version == 206)
             {
-                if (!Program.ROM.RomInfo.is_multibyte)
-                {
-                    InputFormRef.JumpForm<MapSettingFE7UForm>((uint)MAP_LISTBOX.SelectedIndex);
-                }
-                else
-                {
-                    InputFormRef.JumpForm<MapSettingFE7Form>((uint)MAP_LISTBOX.SelectedIndex);
-                }
+             InputFormRef.JumpForm<MapSettingFE7P1Form>((uint)MAP_LISTBOX.SelectedIndex);
             }
             else if (Program.ROM.RomInfo.version == 209)
             {
