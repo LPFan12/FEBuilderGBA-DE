@@ -473,7 +473,7 @@ namespace FEBuilderGBA
                     LabelTranslateToROMFilename.Text = R._("無改造 FE7U");
                 }
             }
-            else if (Program.ROM.RomInfo.version == 209)
+            else if (Program.ROM.RomInfo.version == 219)
             {
                 if (Program.ROM.RomInfo.is_multibyte)
                 {
