@@ -851,14 +851,7 @@ namespace FEBuilderGBA
             {//FE7のみ輸送隊の位置
                 if (clickx == MapTransporter.X && clicky == MapTransporter.Y)
                 {
-                    if (Program.ROM.RomInfo.is_multibyte)
-                    {
-                        InputFormRef.JumpForm<MapSettingFE7Form>(mapid);
-                    }
-                    else
-                    {
-                        InputFormRef.JumpForm<MapSettingFE7UForm>(mapid);
-                    }
+                    InputFormRef.JumpForm<MapSettingFE7P1Form>(mapid);
                     return true;
                 }
             }
