@@ -55,7 +55,7 @@ namespace FEBuilderGBA
             {
                 InputFormRef.JumpForm<UnitFE7Form>();
             }
-            else if (Program.ROM.RomInfo.version == 209)
+            else if (Program.ROM.RomInfo.version == 219)
             {
                 InputFormRef.JumpForm<UnitFE7Form>();
             }
@@ -98,7 +98,7 @@ namespace FEBuilderGBA
             {
              InputFormRef.JumpForm<MapSettingFE7P1Form>((uint)MAP_LISTBOX.SelectedIndex);
             }
-            else if (Program.ROM.RomInfo.version == 209)
+            else if (Program.ROM.RomInfo.version == 219)
             {
                 if (!Program.ROM.RomInfo.is_multibyte)
                 {
@@ -138,7 +138,7 @@ namespace FEBuilderGBA
                 EventUnitFE7Form f = (EventUnitFE7Form)InputFormRef.JumpForm<EventUnitFE7Form>(U.NOT_FOUND);
                 f.JumpToMap((uint)MAP_LISTBOX.SelectedIndex);
             }
-            else if (Program.ROM.RomInfo.version == 209)
+            else if (Program.ROM.RomInfo.version == 219)
             {
                 EventUnitFE7Form f = (EventUnitFE7Form)InputFormRef.JumpForm<EventUnitFE7Form>(U.NOT_FOUND);
                 f.JumpToMap((uint)MAP_LISTBOX.SelectedIndex);
@@ -333,7 +333,7 @@ namespace FEBuilderGBA
                 MainFE7Form f = (MainFE7Form)InputFormRef.JumpForm<MainFE7Form>();
                 f.SetFilter();
             }
-            else if (Program.ROM.RomInfo.version == 209)
+            else if (Program.ROM.RomInfo.version == 219)
             {
                 MainFE7Form f = (MainFE7Form)InputFormRef.JumpForm<MainFE7Form>();
                 f.SetFilter();
@@ -483,7 +483,7 @@ namespace FEBuilderGBA
                     , yusoutai
                     );
             }
-            if (Program.ROM.RomInfo.version == 209 && this.MapTransporter.X < 255)
+            if (Program.ROM.RomInfo.version == 219 && this.MapTransporter.X < 255)
             {//FE7のみ輸送隊の位置
                 Bitmap yusoutai = ImageUnitWaitIconFrom.DrawWaitUnitIconBitmap(0x3A, 0, true);
                 Map.SetStaticItem("yusoutai"
@@ -568,7 +568,7 @@ namespace FEBuilderGBA
                     this.EventAddrList.Add(new U.AddrResult(addr, "WorldMapEvent", WORLDMAP_EVENT));
                 }
             }
-            else if (Program.ROM.RomInfo.version == 209)
+            else if (Program.ROM.RomInfo.version == 219)
             {
                 uint addr = WorldMapEventPointerFE7Form.GetEventByMapID(mapid);
                 if (addr != U.NOT_FOUND)
@@ -788,7 +788,7 @@ namespace FEBuilderGBA
                             EventUnitFE7Form f = (EventUnitFE7Form)InputFormRef.JumpForm<EventUnitFE7Form>(U.NOT_FOUND);
                             f.JumpTo(UnitsAddrList[i].addr, n);
                         }
-                        else if (Program.ROM.RomInfo.version == 209)
+                        else if (Program.ROM.RomInfo.version == 219)
                         {
                             EventUnitFE7Form f = (EventUnitFE7Form)InputFormRef.JumpForm<EventUnitFE7Form>(U.NOT_FOUND);
                             f.JumpTo(UnitsAddrList[i].addr, n);
@@ -855,7 +855,7 @@ namespace FEBuilderGBA
                     return true;
                 }
             }
-            if (Program.ROM.RomInfo.version == 209 && this.MapTransporter.X < 255)
+            if (Program.ROM.RomInfo.version == 219 && this.MapTransporter.X < 255)
             {//FE7のみ輸送隊の位置
                 if (clickx == MapTransporter.X && clicky == MapTransporter.Y)
                 {
@@ -1268,7 +1268,7 @@ namespace FEBuilderGBA
                     EventScriptForm f = (EventScriptForm)InputFormRef.JumpForm<EventScriptForm>(U.NOT_FOUND);
                     f.JumpTo(ar.addr);
                 }
-                else if (Program.ROM.RomInfo.version == 209)
+                else if (Program.ROM.RomInfo.version == 219)
                 {
                     EventScriptForm f = (EventScriptForm)InputFormRef.JumpForm<EventScriptForm>(U.NOT_FOUND);
                     f.JumpTo(ar.addr);
