@@ -28,7 +28,7 @@ Momentane Änderungen:
 Offizielle Spielversionen:
  * FE6C (Spiel-ID: AFECFQ); Dies ist die Chinesische Version.
  * FE7 206-Prototyp (Spiel-ID: AE7B01); Die Spiel-ID muss in der ROM manuell geändert werden, auf natürliche Weise hat es die selbe ID wie die japanische Version von FE6.
- * FE7 209-Prototyp (Spiel-ID: AE7G01); Die Spiel-ID muss in der ROM manuell geändert werden, auf natürliche Weise hat es die selbe ID wie die japanische Version von FE6.
+ * FE7 219-Prototyp (Spiel-ID: AE7G01); Die Spiel-ID muss in der ROM manuell geändert werden, auf natürliche Weise hat es die selbe ID wie die japanische Version von FE6.
  * FE7E (Spiel-ID: AE7X01); Dies ist die ROM mit Deutsch, die andere Europäische ROM ist noch nicht unterstüztzt.
  * FE8 531-Prototyp (Spiel-ID: BE8A01); Die Spiel-ID muss in der ROM manuell geändert werden, auf natürliche Weise hat es die selbe ID wie die japanische Version von FE7.
  * FE8E (Spiel-ID: BE8P01); Selbst wenn die Unterstüzung dieser ROM allerdings irgendwann stabil ist, ist sie nicht als Basis für ROMhacks empfohlen, da sie bereits die maximale Größe für GBA Spiele hat und davon den Großteil bereits mit Daten belegt.
