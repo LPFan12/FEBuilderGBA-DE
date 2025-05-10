@@ -1130,7 +1130,7 @@ namespace FEBuilderGBA
                             distance = d;
                         }
                     }
-                    else if (Program.ROM.RomInfo.version == 209)
+                    else if (Program.ROM.RomInfo.version == 219)
                     {
                         //00＝自軍通常 01＝自軍移動中 02＝自軍選択時　
                         //20＝敵軍通常 21＝敵軍移動中 22＝敵軍選択時
@@ -1210,7 +1210,7 @@ namespace FEBuilderGBA
                             distance = d;
                         }
                     }
-                    else if (Program.ROM.RomInfo.version == 209)
+                    else if (Program.ROM.RomInfo.version == 219)
                     {
                         if (v == 0x1C)
                         {//自軍
