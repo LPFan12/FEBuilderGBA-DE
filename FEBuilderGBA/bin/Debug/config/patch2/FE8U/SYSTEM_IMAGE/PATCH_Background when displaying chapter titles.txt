@@ -1,5 +1,6 @@
 NAME=章タイトルを表示するときの背景
 NAME.en=Background when displaying chapter titles
+NAME.de=Background when displaying chapter titles
 
 TYPE=IMAGE
 TAG=#IMAGE
