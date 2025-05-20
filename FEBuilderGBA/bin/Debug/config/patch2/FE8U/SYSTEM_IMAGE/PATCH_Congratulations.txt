@@ -1,6 +1,7 @@
 NAME=Congratulations!
 INFO=塔や遺跡をクリアした時の画像
 INFO.en=Image when clearing towers and ruins.
+INFO.de=Image when clearing towers and ruins.
 INFO.zh=Image when clearing towers and ruins.
 
 
