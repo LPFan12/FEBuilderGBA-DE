@@ -1,5 +1,6 @@
 NAME=IMAGE_進撃準備側面の右側のメニューの装飾
 NAME.en=Menu decoration on right side of preparation.
+NAME.de=Menu decoration on right side of preparation.
 NAME.zh=Menu decoration on right side of preparation.
 
 
