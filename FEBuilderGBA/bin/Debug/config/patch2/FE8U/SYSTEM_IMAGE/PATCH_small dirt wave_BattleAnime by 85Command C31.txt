@@ -1,5 +1,6 @@
 NAME=砂煙 戦闘アニメの 85Command C31
 NAME.en=small dirt wave_BattleAnime by 85Command C31
+NAME.de=small dirt wave_BattleAnime by 85Command C31
 
 TYPE=IMAGE
 
