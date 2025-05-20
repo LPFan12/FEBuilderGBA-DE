@@ -12,6 +12,7 @@ PALETTE_POINTER=0x0007BB0C//0x08A1D79C
 
 
 NAME.en=Battle anime off number
+NAME.de=Battle anime off number
 NAME.zh=战斗画面_NUMBER图像
 
 AUTHOR=レイファ
