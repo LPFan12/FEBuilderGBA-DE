@@ -1,8 +1,10 @@
 NAME=マップアニメのパレット1(赤/敵)
 NAME.en=Map animation palette 1 (red/enemy)
+NAME.de=Map animation palette 1 (red/enemy)
 NAME.zh=Map animation palette 1 (red/enemy)
 INFO=マップ戦闘の画面の描画に使うパレット
 INFO.en=This is the palette used to draw the map battle screen.
+INFO.de=This is the palette used to draw the map battle screen.
 INFO.zh=This is the palette used to draw the map battle screen.
 
 TYPE=IMAGE
