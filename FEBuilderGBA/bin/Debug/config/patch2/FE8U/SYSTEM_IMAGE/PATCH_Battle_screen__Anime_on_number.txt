@@ -11,6 +11,7 @@ IMAGE_POINTER=0x00051154//0x088026E4
 PALETTE_ADDRESS=0x08802B24
 
 NAME.en=Battle anime on number
+NAME.de=Battle anime on number
 NAME.zh=战斗画面_NUMBER图像 Anime ON
 
 AUTHOR=7743
