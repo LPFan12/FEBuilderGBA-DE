@@ -1,5 +1,6 @@
 NAME=画像 戦闘開始時の回転する床
 NAME.en=Image: Rotating floor at start of battle.
+NAME.de=Image: Rotating floor at start of battle.
 
 TYPE=IMAGE
 
