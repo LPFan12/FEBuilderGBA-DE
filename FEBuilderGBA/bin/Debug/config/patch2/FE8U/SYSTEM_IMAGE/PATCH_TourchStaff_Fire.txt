@@ -1,5 +1,6 @@
 NAME=トーチの杖の炎
 NAME.en=TourchStaff_Fire
+NAME.de=TourchStaff_Fire
 NAME.zh=TourchStaff_Fire
 
 TYPE=IMAGE
