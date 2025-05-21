@@ -1,4 +1,3 @@
-
 NAME=FIN
 
 //画像パッチとして実装します
@@ -19,7 +18,6 @@ ZHEADERTSA_POINTER=0xB74A0
 PALETTE_POINTER=0xB7494
 
 NAME.en=FIN
+NAME.de=FIN
 
 NAME.zh=系统_FIN图像
-
-
