@@ -1,6 +1,6 @@
-
 NAME=Nintendo LOGO
 NAME.en=Nintendo LOGO
+NAME.de=Nintendo LOGO
 
 //画像パッチとして実装します
 TYPE=IMAGE
