@@ -1,5 +1,6 @@
 NAME=通信闘技場と名前入力画面
 NAME.en=Network arena and Name Input Screen
+NAME.de=Network arena and Name Input Screen
 NAME.zh=Network arena and Name Input Screen
 
 TYPE=IMAGE
