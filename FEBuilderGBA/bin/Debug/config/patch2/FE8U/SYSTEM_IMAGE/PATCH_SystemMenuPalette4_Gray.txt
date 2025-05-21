@@ -1,5 +1,6 @@
 NAME=システムメニューのパレット4(グレー)
 NAME.en=SystemMenu Palette4 (Gray)
+NAME.de=SystemMenu Palette4 (Gray)
 NAME.zh=SystemMenu Palette4 (Gray)
 TYPE=IMAGE
 
