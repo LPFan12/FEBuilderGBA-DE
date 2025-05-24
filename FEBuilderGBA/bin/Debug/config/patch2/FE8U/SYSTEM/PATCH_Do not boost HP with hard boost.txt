@@ -1,5 +1,6 @@
 NAME=ハードブーストでもHPをブーストしない
 NAME.en=Do not boost HP with hard boost
+NAME.de=Do not boost HP with hard boost
 
 //アドレスパッチとして実装します
 TYPE=SWITCH
@@ -13,5 +14,6 @@ FIX:0x17FE0=0x00 0x00
 INFO=ハードブーストでもHPをブーストさせない
 AUTHOR=7743
 INFO.en=Do not boost HP even with hard boost.
+INFO.de=Do not boost HP even with hard boost.
 NAME.zh=即使使用硬加速也不要提升HP。
 INFO.zh=即使使用硬加速也不要提升HP。
