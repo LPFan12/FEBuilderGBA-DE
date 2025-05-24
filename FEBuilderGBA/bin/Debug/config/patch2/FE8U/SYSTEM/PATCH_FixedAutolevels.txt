@@ -1,5 +1,6 @@
 NAME=敵の自動成長オートレベルの計算式を変更する
 NAME.en=Change formula of automatic growth auto level of enemy.
+NAME.de=Change formula of automatic growth auto level of enemy.
 NAME.zh=Change formula of automatic growth auto level of enemy.
 
 //アドレスパッチとして実装します
