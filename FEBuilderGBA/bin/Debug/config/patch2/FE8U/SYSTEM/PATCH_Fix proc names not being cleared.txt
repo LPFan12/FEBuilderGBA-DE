@@ -1,5 +1,6 @@
 NAME=Fix proc names not being cleared
 NAME.en=Fix proc names not being cleared
+NAME.de=Fix proc names not being cleared
 NAME.zh=Fix proc names not being cleared
 
 //アドレスパッチとして実装します
