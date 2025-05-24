@@ -1,5 +1,6 @@
 NAME=トーチの杖の視界の減衰値
 NAME.en=Attenuation value of torch staff visibility
+NAME.de=Attenuation value of torch staff visibility
 
 //アドレスパッチとして実装します
 TYPE=ADDR
@@ -12,6 +13,7 @@ AUTHOR=7743
 INFO=ターン経過で、トーチの杖で確保した視界を減らす値です。\r\nディフォルトは1です。\r\n注意: マイナスにならないようにしてください。\r\nトーチの視界のディフォルトは8で、減衰は常に1です。\r\nそして、0になったら、トーチの視界が消えます。\r\n8は2で割り切れるので、この値を2に設定することは安全です。(8-2-2-2-2 = 0)\r\nただ、3に設定すると、割り切れないためマイナス(8-3-3-3 = -1)になるため危険です。
 
 INFO.en=The value that reduces the visibility secured by the torch staff after a turn.\r\nDefault is 1.\r\nNote: It should not be negative.\r\nThe default value for torch visibility is 8, and the decay is always 1.\r\nAnd when it reaches 0, the torch's visibility disappears.\r\nSince 8 is divisible by 2, it is safe to set this value to 2. (8-2-2-2-2 = 0)\r\nHowever, setting it to 3 is dangerous because it is not divisible and will result in a negative value (8-3-3-3 = -1).
+INFO.de=The value that reduces the visibility secured by the torch staff after a turn.\r\nDefault is 1.\r\nNote: It should not be negative.\r\nThe default value for torch visibility is 8, and the decay is always 1.\r\nAnd when it reaches 0, the torch's visibility disappears.\r\nSince 8 is divisible by 2, it is safe to set this value to 2. (8-2-2-2-2 = 0)\r\nHowever, setting it to 3 is dangerous because it is not divisible and will result in a negative value (8-3-3-3 = -1).
 
 DEFAULT=0x1
 NAME.zh=手电筒视角的衰减值。
