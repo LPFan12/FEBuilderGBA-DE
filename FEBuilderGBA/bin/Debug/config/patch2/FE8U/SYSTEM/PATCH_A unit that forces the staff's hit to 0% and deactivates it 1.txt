@@ -1,4 +1,3 @@
-
 NAME=杖の命中を強制的に0%にして、無効化するユニット1
 NAME.en=These unit force the staff to hit 0% and deactivate 1
 NAME.de=These unit force the staff to hit 0% and deactivate 1
