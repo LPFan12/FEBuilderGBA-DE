@@ -1,5 +1,6 @@
 NAME=状態異常バッドステータスの期間を変更
 NAME.en=Change duration of bad status effects
+NAME.de=Change duration of bad status effects
 
 //アドレスパッチとして実装します
 TYPE=SWITCH
@@ -18,4 +19,5 @@ AUTHOR=sme
 NAME.zh=Change duration of bad status effects
 INFO=ディフォルトは5ターンです。
 INFO.en=The default is 5 turns.
+INFO.de=The default is 5 turns.
 INFO.zh=默认值为5转。
