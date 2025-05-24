@@ -1,6 +1,6 @@
 NAME=ワールドマップでのアイテム販売時のデフォルトカーソル位置の変更
-NAME.en=Change Default Cursol posstion Worldmap Item Sell
-NAME.de=Change Default Cursol posstion Worldmap Item Sell
+NAME.en=Change Default Cursor position Worldmap Item Sell
+NAME.de=Change Default Cursor position Worldmap Item Sell
 
 //アドレスパッチとして実装します
 TYPE=SWITCH
