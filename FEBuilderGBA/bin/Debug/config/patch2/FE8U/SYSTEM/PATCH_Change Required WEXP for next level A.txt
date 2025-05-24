@@ -1,5 +1,6 @@
 NAME=武器レベルAになれる武器経験値
 NAME.en=Weapon Exp Required for A Rank
+NAME.de=Weapon Exp Required for A Rank
 NAME.zh=武器经验值可以是武器级别A
 
 //アドレスパッチとして実装します
