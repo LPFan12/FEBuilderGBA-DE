@@ -1,6 +1,6 @@
-
 NAME=とびらのかぎのアイテムID
 NAME.en=Door Key ItemID
+NAME.de=Door Key ItemID
 
 //アドレスパッチとして実装します
 TYPE=ADDR
