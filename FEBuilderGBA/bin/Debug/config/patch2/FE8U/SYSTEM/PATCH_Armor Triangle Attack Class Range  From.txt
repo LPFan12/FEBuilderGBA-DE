@@ -1,5 +1,6 @@
 NAME=アーマートライアングル攻撃 クラス Range From
 NAME.en=Armor Triangle Attack Class Range From
+NAME.de=Armor Triangle Attack Class Range From
 NAME.zh=Armor Triangle Attack Class Range From
 
 //アドレスパッチとして実装します
