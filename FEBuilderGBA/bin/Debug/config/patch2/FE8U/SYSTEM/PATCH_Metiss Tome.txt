@@ -1,6 +1,6 @@
-
 NAME=メティスの書(アフアの雫)アイテムID
 NAME.en=Metis's Tome(Afa's Drops) ItemID
+NAME.de=Metis's Tome(Afa's Drops) ItemID
 
 //アドレスパッチとして実装します
 TYPE=ADDR
