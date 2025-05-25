@@ -1,5 +1,7 @@
 NAME=魔物の武器も表示できるようにする
 NAME.en=Monster Weapon display fix
+NAME.de=Monster Weapon display fix
+
 
 //アドレスパッチとして実装します
 TYPE=SWITCH
