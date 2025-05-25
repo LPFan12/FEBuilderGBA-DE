@@ -1,5 +1,6 @@
 NAME=双方反撃不可のアイテムが強制遠隔アニメーションになることを抑制する
 NAME.en=Prevent uncounterable items from becoming forced range animations
+NAME.de=Prevent uncounterable items from becoming forced range animations
 NAME.zh=Prevent uncounterable items from becoming forced range animations
 
 //アドレスパッチとして実装します
