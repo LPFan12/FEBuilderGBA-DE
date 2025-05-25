@@ -1,5 +1,6 @@
 NAME=召喚時の武器4
 NAME.en=Summoned Creature Weapon 4
+NAME.de=Summoned Creature Weapon 4
 
 //アドレスパッチとして実装します
 TYPE=ADDR
