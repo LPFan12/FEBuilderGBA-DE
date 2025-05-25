@@ -1,6 +1,6 @@
-
 NAME=騎馬系の救出値 女性用
 NAME.en=Cavalry rescue value For women
+NAME.de=Cavalry rescue value For women
 
 //アドレスパッチとして実装します
 TYPE=ADDR
@@ -9,6 +9,7 @@ HEX=FALSE
 
 INFO=騎兵がユニットを救出するときの基礎値を変更します。\r\nこの値は女性ユニットで利用される補正値を変更します。\r\n20-体格=救出値
 INFO.en=Change the base value for cavalry to rescue units.\r\nThis value changes the correction value used by female units.\r\n20-CON = rescue value\r\n
+INFO.de=Change the base value for cavalry to rescue units.\r\nThis value changes the correction value used by female units.\r\n20-CON = rescue value\r\n
 
 ADDRESS=0x00018A10
 NAME.zh=马术救援价值对于女性。
