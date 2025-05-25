@@ -1,5 +1,6 @@
 NAME=特効ダメージを3倍から2倍に変更する
 NAME.en=effective damage multiplier 2x
+NAME.de=effective damage multiplier 2x
 
 //アドレスパッチとして実装します
 TYPE=SWITCH
