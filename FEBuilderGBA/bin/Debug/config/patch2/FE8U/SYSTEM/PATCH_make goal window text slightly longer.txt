@@ -1,9 +1,11 @@
 NAME=目的ウィンドウのテキストを少し長くする
 NAME.en=Make goal window text slightly longer
+NAME.de=Make goal window text slightly longer
 NAME.zh=Make goal window text slightly longer
 
 INFO=マップの右上(または右下)に表示される章の目的ウィンドウの幅を少しだけ大きくします
 INFO.en=This patch slightly increases the width of the chapter objective window displayed in the upper right (or lower right) of the map.
+INFO.de=This patch slightly increases the width of the chapter objective window displayed in the upper right (or lower right) of the map.
 INFO.zh=此补丁稍微增加了地图右上角（或右下角）显示的章节目标窗口的宽度
 
 //アドレスパッチとして実装します
