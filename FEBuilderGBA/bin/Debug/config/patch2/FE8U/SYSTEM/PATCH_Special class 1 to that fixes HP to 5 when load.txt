@@ -1,8 +1,10 @@
 NAME=Load時に、HPを5に固定する特殊クラス1
 NAME.en=Special class 1 to that fixes HP to 5 when load
+NAME.de=Special class 1 to that fixes HP to 5 when load
 
 INFO=バニラでは、ゴーゴンの卵は、HPを5に固定されます。
 INFO.en=In vanilla, Gorgon's eggs are fixed at 5 HP
+INFO.de=In vanilla, Gorgon's eggs are fixed at 5 HP
 
 TYPE=ADDR
 TAG=#ENGINE
