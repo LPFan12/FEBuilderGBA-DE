@@ -1,5 +1,6 @@
 NAME=敵将強制アニメON
 NAME.en=Boss Animation ON
+NAME.de=Boss Animation ON
 NAME.zh=敌将强制动画开启
 TYPE=BIN
 TAG=#ENGINE
@@ -10,6 +11,7 @@ BIN:0x0057A7A=00057A7A.bin
 
 INFO=設定でアニメをオフにしても、ボスフラグを持つ敵と戦うときは、強制的にアニメーションをONにします。
 INFO.en=Even if you turn off animation in settings, when you fight an enemy with a boss flag, turn on animation forcibly.
+INFO.de=Even if you turn off animation in settings, when you fight an enemy with a boss flag, turn on animation forcibly.
 INFO.zh=即使您在设置中关闭动画，当您使用敌将标志与敌人战斗时，也会强行打开动画。
 
 
