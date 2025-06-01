@@ -1,5 +1,6 @@
 NAME=Skill SkillSystems 20240910 (CSkillSys) (スキル拡張)
 NAME.en=Skill SkillSystems 20240910 (CSkillSys)
+NAME.de=Skill SkillSystems 20240910 (CSkillSys)
 NAME.zh=技能 SkillSystems 20240910 (CSkillSys)（技能扩展）
 TYPE=BIN
 TAG=#ENGINE
