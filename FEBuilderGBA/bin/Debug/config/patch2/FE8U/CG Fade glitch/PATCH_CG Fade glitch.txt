@@ -1,4 +1,6 @@
+NAME=Fix CG Fade Glitch
 NAME.en=Fix CG Fade Glitch
+NAME.de=Fix CG Fade Glitch
 
 TYPE=BIN
 TAG=#ENGINE #ESSENTIALFIXES
