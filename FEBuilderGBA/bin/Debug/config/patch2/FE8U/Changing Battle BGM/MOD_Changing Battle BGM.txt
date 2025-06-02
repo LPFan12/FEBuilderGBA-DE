@@ -17,6 +17,14 @@ J_28:HINT.en=Set Battle BGM during the player phase.
 J_30:HINT.en=Set Battle BGM during the enemy phase.
 J_32:HINT.en=Set Battle BGM during the ally phase.
 
+J_28.de=Player Battle BGM
+J_30.de=Enemy Battle BGM
+J_32.de=Ally Battle BGM
+
+J_28:HINT.de=Set Battle BGM during the player phase.
+J_30:HINT.de=Set Battle BGM during the enemy phase.
+J_32:HINT.de=Set Battle BGM during the ally phase.
+
 J_28.zh=当从朋友BGM进行攻击时
 J_30.zh=从敌方BGM进攻时
 J_32.zh=BGM从朋友进攻时
