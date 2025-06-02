@@ -27,13 +27,16 @@ B1:UNIT=PlayerUnit(00=ANY)
 B2:DECIMAL=Enemy Lv >=
 B3:$COMBO Option.combo.jp.txt:.ja=Option
 B3:$COMBO Option.combo.en.txt:.en=Option
+B3:$COMBO Option.combo.de.txt:.de=Option
 B3:$COMBO Option.combo.en.txt:.zh=Option
 W4:FLAG=CheckFlag(0=ANY)
 W6:SONG=ChangeBGM
 
 HINT=ソング 音楽 Song Music
 NAME.en=Flexible change of Arena BGM(Editor)
-INFO.en=This patch allows you to change the Arena BGM according to the conditions such as the enemy class and player unit that appear.\r\nThe list is searched from the top, and if none of them match, the default arena BGM is played.\r\n
+INFO.en=This patch allows you to change the Arena BGM according to the conditions such as the enemy class and player unit that appear.\r\nThe list is searched from the top, and if none of them match, the default arena BGM is played.
+NAME.de=Flexible change of Arena BGM(Editor)
+INFO.de=This patch allows you to change the Arena BGM according to the conditions such as the enemy class and player unit that appear.\r\nThe list is searched from the top, and if none of them match, the default arena BGM is played.
 
 NAME.zh=Flexible change of Arena BGM(Editor)
 INFO.zh=This patch allows you to change the Arena BGM according to the conditions such as the enemy class and player unit that appear.\r\nThe list is searched from the top, and if none of them match, the default arena BGM is played.\r\n
