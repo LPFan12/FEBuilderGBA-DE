@@ -4,6 +4,8 @@ INFO=杖を振ったときの経験値を固定化します。\r\nトーチで�
 
 NAME.en=Fixed Exp value of staff(Editor)
 INFO.en=Fix the experience value when use staff.\r\nThe purpose of this is to make it harder to earn infinite exp with the torch staff.\r\nYou can specify the experience value that can be obtained for each staff.\r\nIf you specify 0 for the experience gained, the default behavior will be used.\r\nIf the staff is not listed, it will also default behavior.
+NAME.de=Fixed Exp value of staff(Editor)
+INFO.de=Fix the experience value when use staff.\r\nThe purpose of this is to make it harder to earn infinite exp with the torch staff.\r\nYou can specify the experience value that can be obtained for each staff.\r\nIf you specify 0 for the experience gained, the default behavior will be used.\r\nIf the staff is not listed, it will also default behavior.
 NAME.zh=Fixed Exp value of staff(Editor)
 INFO.zh=Fix the experience value when use staff.\r\nThe purpose of this is to make it harder to earn infinite exp with the torch staff.\r\nYou can specify the experience value that can be obtained for each staff.\r\nIf you specify 0 for the experience gained, the default behavior will be used.\r\nIf the staff is not listed, it will also default behavior.
 
@@ -32,6 +34,9 @@ B1:DECIMAL=取得経験値
 
 B0:ITEM.en=Item
 B1:DECIMAL.en=GetExp
+
+B0:ITEM.de=Item
+B1:DECIMAL.de=GetExp
 
 B0:ITEM.zh=Item
 B1:DECIMAL.zh=GetExp
