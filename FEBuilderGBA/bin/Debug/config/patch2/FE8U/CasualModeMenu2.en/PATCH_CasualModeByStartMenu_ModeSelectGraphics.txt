@@ -19,5 +19,7 @@ PALETTE=1
 KEEPPALETTE=true
 NAME.en=Casual mode(Menu at game start)(Mode Select Graphics)
 INFO.en=When starting from the beginning, the casual mode selection screen is displayed after the difficulty level selection.\r\nWith this patch, you can change the menu image displayed at that time.
+NAME.de=Casual mode(Menu at game start)(Mode Select Graphics)
+INFO.de=When starting from the beginning, the casual mode selection screen is displayed after the difficulty level selection.\r\nWith this patch, you can change the menu image displayed at that time.
 NAME.zh=Casual mode(Menu at game start)(Mode Select Graphics)
 INFO.zh=When starting from the beginning, the casual mode selection screen is displayed after the difficulty level selection.\r\nWith this patch, you can change the menu image displayed at that time.
