@@ -1,8 +1,10 @@
 NAME=ファイアとエルファイアのパレットを動的に変更する(StartBG Palette)
 NAME.en=Dynamically Change the Fire and ElFire palette.(StartBG Palette)
+NAME.de=Dynamically Change the Fire and ElFire palette.(StartBG Palette)
 NAME.zh=Dynamically Change the Fire and ElFire palette.(StartBG Palette)
 INFO=EffectID:0x16 "ファイア"とEffectID:0x17 "エルファイア"のエフェクトの色を変更します。\r\n
 INFO.en=The Fire And ElFire palette is dynamically changed depending on the weapon used and the user.\r\nEffectID: 0x16 and EffectID: 0x17 Change the color of the "Fire" and "ElFire" flame effect.
+INFO.de=The Fire And ElFire palette is dynamically changed depending on the weapon used and the user.\r\nEffectID: 0x16 and EffectID: 0x17 Change the color of the "Fire" and "ElFire" flame effect.
 INFO.zh=The Fire And ElFire palette is dynamically changed depending on the weapon used and the user.\r\nEffectID: 0x16 and EffectID: 0x17 Change the color of the "Fire" and "ElFire" flame effect.
 
 IF:0x5DC8C=0x00 0x4B
