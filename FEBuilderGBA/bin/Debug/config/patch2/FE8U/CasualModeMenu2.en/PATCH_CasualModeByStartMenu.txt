@@ -13,9 +13,12 @@ INFO=最初から始める時に、難易度選択の後にカジュアルモー
 AUTHOR=HyperGammaSpaces ,7743 ,Vesly https://feuniverse.us/t/hypergammaspaces-assorted-asm/4085/10
 EVENTSCRIPT:1=400D0000{$L1:ASMC_CheckCasual.dmp}	カジュアルモード判定命令	{COND}
 EVENTSCRIPT:1.en=400D0000{$L1:ASMC_CheckCasual.dmp}	CheckCasual	{COND}
+EVENTSCRIPT:1.de=400D0000{$L1:ASMC_CheckCasual.dmp}	CheckCasual	{COND}
 EVENTSCRIPT:1.zh=400D0000{$L1:ASMC_CheckCasual.dmp}	CheckCasual	{COND}
 NAME.en=Casual mode(Menu at game start)(Installer)
 INFO.en=When starting from the beginning, the casual mode selection screen is displayed after the difficulty level selection.
+NAME.de=Casual mode(Menu at game start)(Installer)
+INFO.de=When starting from the beginning, the casual mode selection screen is displayed after the difficulty level selection.
 NAME.zh=Casual mode(Menu at game start)(Installer)
 INFO.zh=When starting from the beginning, the casual mode selection screen is displayed after the difficulty level selection.
 
