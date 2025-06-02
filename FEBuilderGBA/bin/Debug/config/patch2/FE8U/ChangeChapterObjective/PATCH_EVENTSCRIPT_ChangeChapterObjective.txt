@@ -1,5 +1,6 @@
 ﻿NAME=章のクリア目的を動的に変更できるようにする
 NAME.en=AddEvent: ChangeChapterObjective
+NAME.de=AddEvent: ChangeChapterObjective
 NAME.zh=启用动态更改章节清除目的
 
 TYPE=EA
@@ -8,6 +9,7 @@ EA=Installer.event
 
 INFO=章のクリア目的をイベント命令から、動的に変更できるようにします。\r\nデータはトラップデータ(0xEF)として保持されるので、セーブにも反映されます。
 INFO.en=Enables you to dynamically Change purpose of clearing a chapter from an event script.\r\nThe data is retained as trap data(0xEF), so it is reflected in the save.
+INFO.de=Enables you to dynamically Change purpose of clearing a chapter from an event script.\r\nThe data is retained as trap data(0xEF), so it is reflected in the save.
 INFO.zh=允许从事件指令动态更改章节清除目的。\r\n数据保留为陷阱数据(0xEF)，因此它会反映在保存中。
 
 
@@ -19,10 +21,11 @@ EVENTSCRIPT:2=40050100XXXX000040050200YYYY0000400D0000{$L1:SetChapterObjective.d
 
 EVENTSCRIPT:1.en=400D0000{$L1:SetChapterObjective.dmp}	Change chapter Objective(LOW)
 EVENTSCRIPT:2.en=40050100XXXX000040050200YYYY0000400D0000{$L1:SetChapterObjective.dmp}	Change chapter Objective[XX:TEXT:Objective][YY:TEXT:Status Objective]
+EVENTSCRIPT:1.de=400D0000{$L1:SetChapterObjective.dmp}	Change chapter Objective(LOW)
+EVENTSCRIPT:2.de=40050100XXXX000040050200YYYY0000400D0000{$L1:SetChapterObjective.dmp}	Change chapter Objective[XX:TEXT:Objective][YY:TEXT:Status Objective]
 
 EVENTSCRIPT:1.zh=400D0000{$L1:SetChapterObjective.dmp}	更改清除章节的目的(LOW)
 EVENTSCRIPT:2.zh=40050100XXXX000040050200YYYY0000400D0000{$L1:SetChapterObjective.dmp}	更改清除章节的目的[XX:TEXT:目的][YY:TEXT:更多细节]
 
 
 AUTHOR=Zeta / Rewrite:7743 https://feuniverse.us/t/zetas-asm-c-spellbook/4824/18
-
