@@ -25,10 +25,13 @@ P0:ITEMSHOP=店ポインタ
 INFO=進撃準備(編成準備)店を章ごとに切り替えます。\r\n未設定(0x00)の場合は、ディフォルトの販売店になります。\r\n
 
 P0:ITEMSHOP.en=Shop Pointer
+P0:ITEMSHOP.de=Shop Pointer
 P0:ITEMSHOP.zh=店指针
 
 NAME.en=Switch preparation shop by chapter ver2(Editor)
-INFO.en=Switch the preparation shop(store, department) for each chapter.\r\nIf it is not set (0x00), it will be the default dealer.\r\n
+INFO.en=Switch the preparation shop(store, department) for each chapter.\r\nIf it is not set (0x00), it will be the default dealer.
+NAME.de=Switch preparation shop by chapter ver2(Editor)
+INFO.de=Switch the preparation shop(store, department) for each chapter.\r\nIf it is not set (0x00), it will be the default dealer.
 NAME.zh=按章切换组织准备部门 ver2(Editor)
 INFO.zh=切换每章的准备准备车间。\r\n如果未设置（0x00），则它将成为默认经销商。\r\n
 
