@@ -15,5 +15,7 @@ HINT=ソング 音楽 Song Music
 
 NAME.en=Flexible change of Arena BGM(Installer)
 INFO.en=This patch allows you to change the Arena BGM according to the conditions such as the enemy class and player unit that appear.
+NAME.de=Flexible change of Arena BGM(Installer)
+INFO.de=This patch allows you to change the Arena BGM according to the conditions such as the enemy class and player unit that appear.
 NAME.zh=Flexible change of Arena BGM(Installer)
 INFO.zh=This patch allows you to change the Arena BGM according to the conditions such as the enemy class and player unit that appear.
