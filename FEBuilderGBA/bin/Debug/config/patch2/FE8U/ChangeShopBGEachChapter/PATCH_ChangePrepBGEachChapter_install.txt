@@ -1,5 +1,6 @@
 NAME=お店の背景BGを章ごとに変更する(Install)
 NAME.en=Change Shop Backgound BG for each chapter Installer
+NAME.de=Change Shop Backgound BG for each chapter Installer
 
 INFO=章ごとにお店の背景BGを変更します。\r\n武器屋、道具屋、秘密の店のBGを変更することができます。\r\nもし、リストにマッチしない場合は、ディフォルトのBGが利用されます。
 
@@ -13,5 +14,6 @@ EA=install.event
 
 AUTHOR=7743
 INFO.en=Change shop's BG for each chapter.\r\nYou can change backgound image BG of weapons shop, tool store, secret shop.\r\nIf it does not match the list, the default BG will be used.
+INFO.de=Change shop's BG for each chapter.\r\nYou can change backgound image BG of weapons shop, tool store, secret shop.\r\nIf it does not match the list, the default BG will be used.
 NAME.zh=更改每个章节的商店背景 BG(Install)
 INFO.zh=每章更换店铺背景BG。\r\n武器店、工具店、秘密商店的BG可以更换。\r\n如果列表中没有匹配项，将使用默认 BG。
