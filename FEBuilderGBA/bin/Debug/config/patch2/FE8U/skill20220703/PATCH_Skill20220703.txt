@@ -1,5 +1,6 @@
 NAME=Skill SkillSystems 20220703 (スキル拡張)
 NAME.en=Skill SkillSystems 20220703
+NAME.de=Skill SkillSystems 20220703
 NAME.zh=技能 SkillSystems 20220703（技能扩展）
 TYPE=BIN
 TAG=#ENGINE
@@ -1139,6 +1140,17 @@ EVENTSCRIPT:7.en=40050200XXXX000040050100YY000000400D0000{$L1:ASMC_ForgetSkill.b
 EVENTSCRIPT:8.en=212E00002006C20040050100YY000000400D0000{$L1:ASMC_ForgetSkill.bin}	Forget [YY:SKILL:SkillID] by currently operating unit(ForgetSkill)	{UNIT}
 EVENTSCRIPT:9.en=400D0000{$L1:ASMC_ClearDebuff.bin}	Clear all debuff tables(ClearDebuff)
 EVENTSCRIPT:10.en=400D0000{$L1:ASMC_ForgetSkill.bin}	Forget Skill(ForgetSkill)(LOW)	slot2=UnitID, slot1=SkillID	{UNIT}
+
+EVENTSCRIPT:1.de=400D0000{$L1:ASMC_HasSkill.bin}	Check if unit has skill(HasSkill)(LOW)	@STOREC	slot2=UnitID, slot1=SkillID
+EVENTSCRIPT:2.de=40050200XXXX000040050100YY000000400D0000{$L1:ASMC_HasSkill.bin}	Check if [XX:UNIT:Unit] has [YY:SKILL:SkillID](HasSkill)	@STOREC	{UNIT}	{COND}
+EVENTSCRIPT:3.de=212E00002006C20040050100YY000000400D0000{$L1:ASMC_HasSkill.bin}	Check if currently operating unit has [YY:SKILL:SkillID](HasSkill)	@STOREC	{UNIT}	{COND}
+EVENTSCRIPT:4.de=400D0000{$L1:ASMC_LearnSkill.bin}	Learn unit acquire skill(LearnSkill)(LOW)	@RETC	slot2=UnitID, slot1=SkillID
+EVENTSCRIPT:5.de=40050200XXXX000040050100YY000000400D0000{$L1:ASMC_LearnSkill.bin}	Make specified [XX:UNIT:Unit] learn [YY:SKILL:SkillID](LearnSkill)	{UNIT}
+EVENTSCRIPT:6.de=212E00002006C20040050100YY000000400D0000{$L1:ASMC_LearnSkill.bin}	Make currently operating unit learn [YY:SKILL:SkillID](LearnSkill)	{UNIT}
+EVENTSCRIPT:7.de=40050200XXXX000040050100YY000000400D0000{$L1:ASMC_ForgetSkill.bin}	Forget [YY:SKILL:SkillID] by [XX:UNIT:Unit](ForgetSkill)	{UNIT}
+EVENTSCRIPT:8.de=212E00002006C20040050100YY000000400D0000{$L1:ASMC_ForgetSkill.bin}	Forget [YY:SKILL:SkillID] by currently operating unit(ForgetSkill)	{UNIT}
+EVENTSCRIPT:9.de=400D0000{$L1:ASMC_ClearDebuff.bin}	Clear all debuff tables(ClearDebuff)
+EVENTSCRIPT:10.de=400D0000{$L1:ASMC_ForgetSkill.bin}	Forget Skill(ForgetSkill)(LOW)	slot2=UnitID, slot1=SkillID	{UNIT}
 
 
 EVENTSCRIPT:1.zh=400D0000{$L1:ASMC_HasSkill.bin}	人物是不是有着技艺(HasSkill)(LOW)	@STOREC	slot2=UnitID, slot1=SkillID
