@@ -1,5 +1,6 @@
 ﻿NAME=トラップの存在を判定する(イベント命令)
 NAME.en=Add Event: Is Exist Trap
+NAME.de=Add Event: Is Exist Trap
 NAME.zh=Add Event: Is Exist Trap
 
 AUTHOR=7743
@@ -18,6 +19,9 @@ EVENTSCRIPT:2=40050B00XXXXYYYY400DTT00{$L1:IsTrap.dmp}	トラップの存在判�
 
 EVENTSCRIPT:1.en=400DTT00{$L1:IsTrap.dmp}	Is Exist Trap[TT:TRAP:Trap] by In SlotB Coord	@STOREC	{MAP}	{COND}
 EVENTSCRIPT:2.en=40050B00XXXXYYYY400DTT00{$L1:IsTrap.dmp}	Is Exist Trap[TT:TRAP:Trap][XX:MAPX:X][YY:MAPY:Y]	@STOREC	{MAP}	{COND}
+
+EVENTSCRIPT:1.de=400DTT00{$L1:IsTrap.dmp}	Is Exist Trap[TT:TRAP:Trap] by In SlotB Coord	@STOREC	{MAP}	{COND}
+EVENTSCRIPT:2.de=40050B00XXXXYYYY400DTT00{$L1:IsTrap.dmp}	Is Exist Trap[TT:TRAP:Trap][XX:MAPX:X][YY:MAPY:Y]	@STOREC	{MAP}	{COND}
 
 EVENTSCRIPT:1.zh=400DTT00{$L1:IsTrap.dmp}	Is Exist Trap[TT:TRAP:Trap] by In SlotB Coord	@STOREC	{MAP}	{COND}
 EVENTSCRIPT:2.zh=40050B00XXXXYYYY400DTT00{$L1:IsTrap.dmp}	Is Exist Trap[TT:TRAP:Trap][XX:MAPX:X][YY:MAPY:Y]	@STOREC	{MAP}	{COND}
