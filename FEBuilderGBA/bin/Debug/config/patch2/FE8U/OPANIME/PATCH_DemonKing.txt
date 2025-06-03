@@ -1,5 +1,6 @@
 NAME=OP-DemonKing
 NAME.en=OP-DemonKing
+NAME.de=OP-DemonKing
 NAME.zh=OP-魔王
 
 TYPE=IMAGE
