@@ -1,5 +1,6 @@
 NAME=OPANIME_FACE_デュッセル_影
 NAME.en=OP Anime Face: Duessel (Shadow)
+NAME.de=OP Anime Face: Duessel (Shadow)
 NAME.zh=OP动画_脸_杜塞尔_阴影
 
 TYPE=IMAGE
