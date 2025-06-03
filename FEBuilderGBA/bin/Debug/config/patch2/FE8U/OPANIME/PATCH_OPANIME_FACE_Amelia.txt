@@ -1,5 +1,6 @@
 NAME=OPANIME_FACE_アメリア
 NAME.en=OP Anime Face: Amelia
+NAME.de=OP Anime Face: Amelia
 NAME.zh=OP动画_脸_阿米莉亚
 
 TYPE=IMAGE
