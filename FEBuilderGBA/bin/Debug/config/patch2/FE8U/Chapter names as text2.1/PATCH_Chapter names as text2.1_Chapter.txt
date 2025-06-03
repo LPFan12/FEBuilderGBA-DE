@@ -1,4 +1,5 @@
 NAME=Convert Chapter Titles to Text_ver2.1 Support Lat1(Edit)
+NAME.de=Convert Chapter Titles to Text_ver2.1 Support Lat1(Edit)
 TYPE=STRUCT
 TAG=#ENGINE
 
