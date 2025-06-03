@@ -1,5 +1,6 @@
 NAME=OPANIME_FACE_ガルシア_影
 NAME.en=OP Anime Face: Garcia (Shadow)
+NAME.de=OP Anime Face: Garcia (Shadow)
 NAME.zh=OP动画_脸_加西亚_阴影
 
 TYPE=IMAGE
