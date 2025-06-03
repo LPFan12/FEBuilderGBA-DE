@@ -1,5 +1,6 @@
 NAME=OPANIME_FACE_モルダー_影
 NAME.en=OP Anime Face: Moulder (Shadow)
+NAME.de=OP Anime Face: Moulder (Shadow)
 NAME.zh=OP动画_脸_摩达_阴影
 
 TYPE=IMAGE
