@@ -1,8 +1,10 @@
 NAME=カスタム手斧(TypeList)
 NAME.en=Custom HandAxs(TypeList)
+NAME.de=Custom HandAxs(TypeList)
 NAME.zh=Custom HandAxs(TypeList)
 INFO=手斧以外のアイテムを投げられるようにします。\r\n手斧の代わりに、大きい手斧(Big HandAxs)、衝撃派(Shock Wave)、ブーメラン(Boomerang)、メタルブレード(Metal Blade)を投げられるようになります。
 INFO.en=Allows you to throw items other than hand axes. \r\nAllows you to throw Big HandAxs, Shock Wave, Boomerang, and Metal Blade instead of Hand Axes.
+INFO.de=Allows you to throw items other than hand axes. \r\nAllows you to throw Big HandAxs, Shock Wave, Boomerang, and Metal Blade instead of Hand Axes.
 INFO.zh=Allows you to throw items other than hand axes. \r\nAllows you to throw Big HandAxs, Shock Wave, Boomerang, and Metal Blade instead of Hand Axes.
 
 IF:0x5BF0C=0x00 0x4B
