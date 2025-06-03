@@ -1,5 +1,6 @@
 ﻿NAME=アイテムチェック(ユニット単位)(イベント命令)
 NAME.en=Add Event Condition: Item Check(Unit)
+NAME.de=Add Event Condition: Item Check(Unit)
 NAME.zh=物品检查(人物)(Add Event)
 
 TYPE=BIN
@@ -28,6 +29,12 @@ EVENTSCRIPT:2.en=410D00YY{$L1:item_find_by_unit.dmp}	[YY:ITEM:Item]Check SVAL1's
 EVENTSCRIPT:3.en=4B0D00YY{$L1:item_find_by_unit.dmp}	[YY:ITEM:Item]Check SVALB's Unit coordinates has item(LOW)	{COND}
 EVENTSCRIPT:4.en=40050B00ZZZZWWWW4B0D00YY{$L1:item_find_by_unit.dmp}	[ZZ:MAPX:X][WW:MAPY:Y]Check Unit possessed item[YY:ITEM:Item]	{COND}
 EVENTSCRIPT:5.en=212E00002006C100410D00YY{$L1:item_find_by_unit.dmp}	[YY:ITEM:Item]Check Item of the Unit currently operated	{COND}
+
+EVENTSCRIPT:1.de=400DXXYY{$L1:item_find_by_unit.dmp}	[XX:UNIT:Unit][YY:ITEM:Item]Check Unit's item	{COND}
+EVENTSCRIPT:2.de=410D00YY{$L1:item_find_by_unit.dmp}	[YY:ITEM:Item]Check SVAL1's Unit possessed item(LOW)	{COND}
+EVENTSCRIPT:3.de=4B0D00YY{$L1:item_find_by_unit.dmp}	[YY:ITEM:Item]Check SVALB's Unit coordinates has item(LOW)	{COND}
+EVENTSCRIPT:4.de=40050B00ZZZZWWWW4B0D00YY{$L1:item_find_by_unit.dmp}	[ZZ:MAPX:X][WW:MAPY:Y]Check Unit possessed item[YY:ITEM:Item]	{COND}
+EVENTSCRIPT:5.de=212E00002006C100410D00YY{$L1:item_find_by_unit.dmp}	[YY:ITEM:Item]Check Item of the Unit currently operated	{COND}
 
 EVENTSCRIPT:1.zh=400DXXYY{$L1:item_find_by_unit.dmp}	[XX:UNIT:Unit][YY:ITEM:Item]检查人物的项目
 	{COND}
