@@ -1,5 +1,6 @@
 NAME=アイテム没収(ユニット単位)(イベント命令)
 NAME.en=Add Event: Lose Item(unit)
+NAME.de=Add Event: Lose Item(unit)
 NAME.zh=项目确认(人物)(Add Event)
 
 TYPE=BIN
@@ -12,7 +13,8 @@ PATCHED_IF:$GREP4 0x30 0xB5 0x84 0x6B 0x20 0x78 0x0F 0x21 0x08 0x40 0x01 0x28 0x
 BIN:$FREEAREA:1=item_collect_by_unit.dmp
 
 INFO=特定のアイテムをユニットから没収します.
-INFO.en=Patches the ROM with a callable event that removes specified items from specified character they're in.\r\n
+INFO.en=Patches the ROM with a callable event that removes specified items from specified character they're in.
+INFO.de=Patches the ROM with a callable event that removes specified items from specified character they're in.
 
 AUTHOR=7743
 
@@ -27,6 +29,12 @@ EVENTSCRIPT:2.en=410D00YY{$L1:item_collect_by_unit.dmp}	[YY:ITEM:Item]Erase item
 EVENTSCRIPT:3.en=4B0D00YY{$L1:item_collect_by_unit.dmp}	[YY:ITEM:Item]Erase items of SVALB coordinates will be confiscated from the unit(LOW)
 EVENTSCRIPT:4.en=40050B00ZZZZWWWW4B0D00YY{$L1:item_collect_by_unit.dmp}	Erase coordinates[ZZ:MAPX:X][WW:MAPY:Y]unit have Item[YY:ITEM:Item]
 EVENTSCRIPT:5.en=212E00002006C100410D00YY{$L1:item_collect_by_unit.dmp}	[YY:ITEM:items]Erase item of the currently operating unit	{UNITPERSOLNAL}
+
+EVENTSCRIPT:1.de=400DXXYY{$L1:item_collect_by_unit.dmp}	[XX:UNIT:Unit][YY:ITEM:Item]Erase item from the unit	{UNITPERSOLNAL}
+EVENTSCRIPT:2.de=410D00YY{$L1:item_collect_by_unit.dmp}	[YY:ITEM:Item]Erase items of SVAL1 from the unit(LOW)
+EVENTSCRIPT:3.de=4B0D00YY{$L1:item_collect_by_unit.dmp}	[YY:ITEM:Item]Erase items of SVALB coordinates will be confiscated from the unit(LOW)
+EVENTSCRIPT:4.de=40050B00ZZZZWWWW4B0D00YY{$L1:item_collect_by_unit.dmp}	Erase coordinates[ZZ:MAPX:X][WW:MAPY:Y]unit have Item[YY:ITEM:Item]
+EVENTSCRIPT:5.de=212E00002006C100410D00YY{$L1:item_collect_by_unit.dmp}	[YY:ITEM:items]Erase item of the currently operating unit	{UNITPERSOLNAL}
 
 EVENTSCRIPT:1.zh=400DXXYY{$L1:item_collect_by_unit.dmp}	[XX:UNIT:Unit][YY:ITEM:Item]擦除本机中的项目	{UNITPERSOLNAL}
 EVENTSCRIPT:2.zh=410D00YY{$L1:item_collect_by_unit.dmp}	[YY:ITEM:Item]从设备中删除SVAL1的项目(LOW)
