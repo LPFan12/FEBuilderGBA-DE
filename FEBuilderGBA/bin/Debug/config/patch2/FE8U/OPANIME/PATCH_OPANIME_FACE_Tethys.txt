@@ -1,5 +1,6 @@
 NAME=OPANIME_FACE_ティティス
 NAME.en=OP Anime Face: Tethys
+NAME.de=OP Anime Face: Tethys
 NAME.zh=OP动画_脸_特缇斯
 
 TYPE=IMAGE
