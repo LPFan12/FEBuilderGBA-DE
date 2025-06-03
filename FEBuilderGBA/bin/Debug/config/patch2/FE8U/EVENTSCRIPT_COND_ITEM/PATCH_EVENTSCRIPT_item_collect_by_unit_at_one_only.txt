@@ -1,5 +1,6 @@
 NAME=アイテム没収(ユニット単位/一つだけ減らす)(イベント命令)
 NAME.en=Add Event: Lose Item(unit/Decrement by one)
+NAME.de=Add Event: Lose Item(unit/Decrement by one)
 NAME.zh=项目确认(人物/减少一个)(Add Event)
 
 TYPE=BIN
@@ -26,7 +27,14 @@ EVENTSCRIPT:3.en=4B0D00YY{$L1:item_collect_by_unit_at_one_only.dmp}	[YY:ITEM:Ite
 EVENTSCRIPT:4.en=40050B00ZZZZWWWW4B0D00YY{$L1:item_collect_by_unit_at_one_only.dmp}	Erase coordinates[ZZ:MAPX:X][WW:MAPY:Y]unit have one Item[YY:ITEM:Item]
 EVENTSCRIPT:5.en=212E00002006C100410D00YY{$L1:item_collect_by_unit_at_one_only.dmp}	[YY:ITEM:items]Erase one Item of the currently operating unit	{UNITPERSOLNAL}
 
+EVENTSCRIPT:1.de=400DXXYY{$L1:item_collect_by_unit_at_one_only.dmp}	[XX:UNIT:Unit][YY:ITEM:Item]Erase one item from the unit	{UNITPERSOLNAL}
+EVENTSCRIPT:2.de=410D00YY{$L1:item_collect_by_unit_at_one_only.dmp}	[YY:ITEM:Item]Erase one items of SVAL1 from the unit(LOW)
+EVENTSCRIPT:3.de=4B0D00YY{$L1:item_collect_by_unit_at_one_only.dmp}	[YY:ITEM:Item]Erase one items of SVALB coordinates will be confiscated from the unit(LOW)
+EVENTSCRIPT:4.de=40050B00ZZZZWWWW4B0D00YY{$L1:item_collect_by_unit_at_one_only.dmp}	Erase coordinates[ZZ:MAPX:X][WW:MAPY:Y]unit have one Item[YY:ITEM:Item]
+EVENTSCRIPT:5.de=212E00002006C100410D00YY{$L1:item_collect_by_unit_at_one_only.dmp}	[YY:ITEM:items]Erase one Item of the currently operating unit	{UNITPERSOLNAL}
+
 INFO.en=This patch also confiscate one particular item from the unit.
+INFO.de=This patch also confiscate one particular item from the unit.
 INFO.zh=该补丁还没收该人物的一个特定项目。
 EVENTSCRIPT:1.zh=400DXXYY {$ L1：item_collect_by_unit_at_one_only。dmp} [XX：UNIT：Unit] [YY：ITEM：Item]我们没收了人物{UNITPERSOLNAL}中的一个特定项目。
 EVENTSCRIPT:2.zh=410D00YY {$ L1：item_collect_by_unit_at_one_only。dmp} [YY：ITEM：Item]我们将从人物(LOW)中没收一个SVAL 1的特定项目。
