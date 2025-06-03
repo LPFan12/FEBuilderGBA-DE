@@ -1,5 +1,6 @@
 NAME=OPANIMEミルラ
 NAME.en=OP Anime Myrrh
+NAME.de=OP Anime Myrrh
 NAME.zh=OP动画梅尔
 
 //画像パッチとして実装します
@@ -21,4 +22,5 @@ PALETTE_POINTER=0x000C9D44//0x08AD54DC
 INFO=これは表示用に用意しています。データを編集は未対応です。\r\nOP Anime Graphic for the Myrrh image.
 WARNING=1
 INFO.en=It is provided for display purposes.Edit data is not supported.\r\nOP Anime Graphic for the Myrrh image.
+INFO.de=It is provided for display purposes.Edit data is not supported.\r\nOP Anime Graphic for the Myrrh image.
 INFO.zh=它用于显示目的。不支持编辑数据。\r\n没药图像的 OP 动画图形。
