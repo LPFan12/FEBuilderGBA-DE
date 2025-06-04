@@ -1,5 +1,6 @@
 NAME=所持金を減らす(イベント命令)
 NAME.en=Add Event: Lose Gold
+NAME.de=Add Event: Lose Gold
 NAME.zh=事件命令_所持金没收(Add Event)
 
 TYPE=BIN
@@ -12,15 +13,17 @@ PATCHED_IF:$GREP4 0x00 0xB5 0x80 0x6B 0x42 0x88 0xC0 0x46 0x04 0x4B 0x19 0x68 0x
 BIN:$FREEAREA:1=gold_collect.bin
 
 INFO=所持金から指定金額を没収します.
-INFO.en=Patches the ROM with a callable event that removes a specified amount of gold from the player.\r\n
+INFO.en=Patches the ROM with a callable event that removes a specified amount of gold from the player.
+INFO.de=Patches the ROM with a callable event that removes a specified amount of gold from the player.
 INFO.zh=从所持有的钱上，被指定金额.
 
 AUTHOR.en=Kaito Port:7743
-
+AUTHOR.de=Kaito Port:7743
 
 
 
 
 EVENTSCRIPT=400DYYYY{$L1:gold_collect.bin}	[YYYY:DECIMAL:ゴールド]お金を没収 	{GOLD}
 EVENTSCRIPT.en=400DYYYY{$L1:gold_collect.bin}	[YYYY:DECIMAL:Gold] confiscated money.	{GOLD}
+EVENTSCRIPT.de=400DYYYY{$L1:gold_collect.bin}	[YYYY:DECIMAL:Gold] confiscated money.	{GOLD}
 EVENTSCRIPT.zh=400DYYYY{$L1:gold_collect.bin}	[YYYY:DECIMAL:Gold]没收钱	{GOLD}
