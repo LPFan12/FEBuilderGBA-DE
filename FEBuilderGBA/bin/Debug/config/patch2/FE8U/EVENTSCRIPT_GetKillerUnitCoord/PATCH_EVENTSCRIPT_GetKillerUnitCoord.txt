@@ -18,6 +18,11 @@ INFO.en=Obtains the unit Coord that defeated the opponent in the last battle and
 
 EVENTSCRIPT:1.en=400D0000{$L1:ASMC_GetKillerUnitCoord.dmp}	GetDeathUnitCoord	@STOREC	{COND}
 
+NAME.de=Add Event: GetDeathUnitCoord
+INFO.de=Obtains the unit Coord that defeated the opponent in the last battle and returns it to SlotC.\r\nFor example, if Seth defeats O'Neill, Seth's coordinates are returned. format is XXXXYYYY.
+
+EVENTSCRIPT:1.de=400D0000{$L1:ASMC_GetKillerUnitCoord.dmp}	GetDeathUnitCoord	@STOREC	{COND}
+
 NAME.zh=Add Event: GetDeathUnitCoord
 INFO.zh=Obtains the unit Coord that defeated the opponent in the last battle and returns it to SlotC.\r\nFor example, if Seth defeats O'Neill, Seth's coordinates are returned. format is XXXXYYYY.
 EVENTSCRIPT:1.zh=400D0000{$L1:ASMC_GetKillerUnitCoord.dmp}	GetDeathUnitCoord	@STOREC	{COND}
