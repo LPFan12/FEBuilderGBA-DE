@@ -1,5 +1,6 @@
 NAME=ユニットにアイテムを密かにアイテムを渡す(イベント命令)
 NAME.en=Add Event: SilentGiveItem
+NAME.de=Add Event: SilentGiveItem
 NAME.zh=秘密地给予该人物的道具(Add Event)
 
 TYPE=BIN
@@ -28,6 +29,13 @@ EVENTSCRIPT:4.en=40050B00ZZZZWWWW4B0D00YY{$L1:SilentGiveItem.dmp}	[ZZ:MAPX:X][WW
 EVENTSCRIPT:5.en=212E00002006C100410D00YY{$L1:SilentGiveItem.dmp}	Silent give [YY:ITEM:Item] to the Unit currently operated	{ITEM}
 EVENTSCRIPT:6.en=420D00YY{$L1:SilentGiveItem.dmp}	[YY:ITEM:Item]Silent give item to the Supply	{ITEM}
 
+EVENTSCRIPT:1.de=400DXXYY{$L1:SilentGiveItem.dmp}	[XX:UNIT:Unit][YY:ITEM:Item]Silent give to Item on the Unit	{ITEM}
+EVENTSCRIPT:2.de=410D00YY{$L1:SilentGiveItem.dmp}	[YY:ITEM:Item]Silent give to Item on SVAL1's Unit(LOW)	{ITEM}
+EVENTSCRIPT:3.de=4B0D00YY{$L1:SilentGiveItem.dmp}	[YY:ITEM:Item]Silent give to Item on SVALB's Unit coordinates(LOW)	{ITEM}
+EVENTSCRIPT:4.de=40050B00ZZZZWWWW4B0D00YY{$L1:SilentGiveItem.dmp}	[ZZ:MAPX:X][WW:MAPY:Y]Silent give [YY:ITEM:Item] to the Unit	{ITEM}
+EVENTSCRIPT:5.de=212E00002006C100410D00YY{$L1:SilentGiveItem.dmp}	Silent give [YY:ITEM:Item] to the Unit currently operated	{ITEM}
+EVENTSCRIPT:6.de=420D00YY{$L1:SilentGiveItem.dmp}	[YY:ITEM:Item]Silent give item to the Supply	{ITEM}
+
 
 EVENTSCRIPT:1.zh=400DXXYY{$L1:SilentGiveItem.dmp}	[XX:UNIT:Unit][YY:ITEM:Item]秘密地给予该人物的道具	{ITEM}
 EVENTSCRIPT:2.zh=410D00YY{$L1:SilentGiveItem.dmp}	[YY:ITEM:Item]秘密地给SVAL1人物的道具(LOW)	{ITEM}
@@ -38,4 +46,5 @@ EVENTSCRIPT:6.zh=420D00YY{$L1:SilentGiveItem.dmp}	[YY:ITEM:Item]秘密地将道�
 
 INFO=ユニットまたは、輸送隊に、指定したアイテムを密かに渡します。(静かに渡します。)\r\nこの機能は、アイテムを入手したというホップアップを表示しません。\r\n敵や輸送隊にも渡すことができます。\r\n味方のアイテムの空きがなければ、自動的に輸送隊に送られます。\r\nもし、輸送隊も満杯であれば、指令は無視されます。\r\nそのため、重要なアイテムで使う場合は注意してください。
 INFO.en=Secretly give the specified item to the unit or Supply.\r\nThis feature does not show a hopup that says you got an item. You can also Enemy and Supply.\r\nIf there is no space for a player unit's item, it will be sent to Supply automatically.\r\nIf Supply is also full, the directive will be ignored.\r\nTherefore, be careful when using it with important items.
+INFO.de=Secretly give the specified item to the unit or Supply.\r\nThis feature does not show a hopup that says you got an item. You can also Enemy and Supply.\r\nIf there is no space for a player unit's item, it will be sent to Supply automatically.\r\nIf Supply is also full, the directive will be ignored.\r\nTherefore, be careful when using it with important items.
 INFO.zh=秘密地将指定的项目提供给人物或供应。\r\n此功能不显示表示您有项目的跳跃。您也可以传递给敌人和供应。\r\n如果玩家人物的道具没有空间，它将自动发送到供应。\r\n如果供应也已满，指令将被忽略。\r\n因此，是与重要道具一起使用时要小心。
