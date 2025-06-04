@@ -40,4 +40,5 @@ ALLOC_MUST_HIGH_ADDRESS=1		//このパッチは複雑なので、必ず上位ア
 ALLOC_SIZE_HINT=15236			//パッチ全体のサイズ
 ALLOC_PROGRAM_ONLY_SIZE=740	//コード部だけのサイズ, FEBUILDER_DATA_ORGでデータ部を分離します
 INFO.en=This patch brings to FE8 the screen effects for the thunder-dropping cutscenes found in FE7.
+INFO.de=This patch brings to FE8 the screen effects for the thunder-dropping cutscenes found in FE7.
 INFO.zh=该补丁为 FE8 带来了 FE7 中雷霆万钧的过场动画的屏幕效果。
