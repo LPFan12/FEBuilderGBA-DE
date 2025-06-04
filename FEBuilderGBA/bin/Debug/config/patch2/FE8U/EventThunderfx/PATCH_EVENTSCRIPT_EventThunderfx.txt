@@ -1,5 +1,6 @@
 NAME=FE7のサンダー EventThunderfx(イベント命令)
 NAME.en=Add Event: FE7 style Thunder EventThunderfx
+NAME.de=Add Event: FE7 style Thunder EventThunderfx
 NAME.zh=Add Event: FE7 style Thunder EventThunderfx
 
 AUTHOR=Mokha https://feuniverse.us/t/mokhas-hacks-sundries/16204/36
@@ -23,6 +24,11 @@ EVENTSCRIPT:11.en=400A0000{$L0:EventScr_CallThunderfx00000000.bin}	FE7 style Thu
 EVENTSCRIPT:12.en=40050200XXXXXXXX400A0000{$L0:EventScr_CallThunderfx00000000.bin}	FE7 style thunder on [XX:UNIT:UNIT](CALL EventScr_CallThunderfx)
 EVENTSCRIPT:13.en=400A0000{$L0:EventScr_CallThunderfxAtPosition00000000.bin}	FE7 style Thunder at map(CALL EventScr_CallThunderfxAtPosition)(LOW)	Slot3=MapX Slot4=MapY
 EVENTSCRIPT:14.en=40050300XXXXXXXX40050400YYYYYYYY400A0000{$L0:EventScr_CallThunderfxAtPosition00000000.bin}	FE7 style Thunder at [XX:MAPX:X][YY:MAPY:Y](CALL EventScr_CallThunderfxAtPosition)
+
+EVENTSCRIPT:11.de=400A0000{$L0:EventScr_CallThunderfx00000000.bin}	FE7 style Thunder(CALL EventScr_CallThunderfx)(LOW)	Slot2=UnitID
+EVENTSCRIPT:12.de=40050200XXXXXXXX400A0000{$L0:EventScr_CallThunderfx00000000.bin}	FE7 style thunder on [XX:UNIT:UNIT](CALL EventScr_CallThunderfx)
+EVENTSCRIPT:13.de=400A0000{$L0:EventScr_CallThunderfxAtPosition00000000.bin}	FE7 style Thunder at map(CALL EventScr_CallThunderfxAtPosition)(LOW)	Slot3=MapX Slot4=MapY
+EVENTSCRIPT:14.de=40050300XXXXXXXX40050400YYYYYYYY400A0000{$L0:EventScr_CallThunderfxAtPosition00000000.bin}	FE7 style Thunder at [XX:MAPX:X][YY:MAPY:Y](CALL EventScr_CallThunderfxAtPosition)
 
 EVENTSCRIPT:11.zh=400A0000{$L0:EventScr_CallThunderfx00000000.bin}	FE7 style Thunder(CALL EventScr_CallThunderfx)(LOW)	Slot2=UnitID
 EVENTSCRIPT:12.zh=40050200XXXXXXXX400A0000{$L0:EventScr_CallThunderfx00000000.bin}	FE7 style thunder on [XX:UNIT:UNIT](CALL EventScr_CallThunderfx)
