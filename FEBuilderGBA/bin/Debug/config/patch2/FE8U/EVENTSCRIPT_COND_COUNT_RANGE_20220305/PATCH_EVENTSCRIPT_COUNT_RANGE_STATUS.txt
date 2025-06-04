@@ -1,5 +1,6 @@
 ﻿NAME=特定範囲のユニットの数を数える 20220305(イベント命令)
 NAME.en=AddEvent: Get the number of Count number of units in a specific range 20220305
+NAME.de=AddEvent: Get the number of Count number of units in a specific range 20220305
 NAME.zh=Get the number of Count number of units in a specific range 20220305(Add Event)
 
 TYPE=BIN
@@ -7,6 +8,7 @@ TAG=#EVENT
 
 INFO=条件にマッチするユニットの数を数えます。
 INFO.en=Count the number of units that match the conditions.
+INFO.de=Count the number of units that match the conditions.
 INFO.zh=Count the number of units that match the conditions.
 
 //既に適応されたかどうか
@@ -17,6 +19,9 @@ EVENTSCRIPT:2=40050100XXXX000040050200YYYY000040050300ZZZZ000040050400WWWW000040
 
 EVENTSCRIPT:1.en=400D0000{$L1:CountRangeState.dmp}	Get the number of Count number of units in a specific range(LOW)	{COND}
 EVENTSCRIPT:2.en=40050100XXXX000040050200YYYY000040050300ZZZZ000040050400WWWW000040050500PPPPPPPP40050600RRRRRRRR40050700UUUUUUUU400D0000{$L1:CountRangeState.dmp}	Get the number of Count number of units in a specific range If Cond conditions[XXXX:UNIT:CheckUnit 00=ANY][YYYY:CLASS:CheckClass 00=ANY][ZZZZ:ITEM:CheckItem 00=ANY][WWWW:WMAPAFFILIATION:FF=ANY][UU:RAM_UNIT_STATE:UnitState 00=ANY]in[PP:MAPXY:StartRange][RR:MAPXY:EndRange 00=ANY]	{COND}
+
+EVENTSCRIPT:1.de=400D0000{$L1:CountRangeState.dmp}	Get the number of Count number of units in a specific range(LOW)	{COND}
+EVENTSCRIPT:2.de=40050100XXXX000040050200YYYY000040050300ZZZZ000040050400WWWW000040050500PPPPPPPP40050600RRRRRRRR40050700UUUUUUUU400D0000{$L1:CountRangeState.dmp}	Get the number of Count number of units in a specific range If Cond conditions[XXXX:UNIT:CheckUnit 00=ANY][YYYY:CLASS:CheckClass 00=ANY][ZZZZ:ITEM:CheckItem 00=ANY][WWWW:WMAPAFFILIATION:FF=ANY][UU:RAM_UNIT_STATE:UnitState 00=ANY]in[PP:MAPXY:StartRange][RR:MAPXY:EndRange 00=ANY]	{COND}
 
 EVENTSCRIPT:1.zh=400D0000{$L1:CountRangeState.dmp}	Get the number of Count number of units in a specific range(LOW)	{COND}
 EVENTSCRIPT:2.zh=40050100XXXX000040050200YYYY000040050300ZZZZ000040050400WWWW000040050500PPPPPPPP40050600RRRRRRRR40050700UUUUUUUU400D0000{$L1:CountRangeState.dmp}	Get the number of Count number of units in a specific range If Cond conditions[XXXX:UNIT:CheckUnit 00=ANY][YYYY:CLASS:CheckClass 00=ANY][ZZZZ:ITEM:CheckItem 00=ANY][WWWW:WMAPAFFILIATION:FF=ANY][UU:RAM_UNIT_STATE:UnitState 00=ANY]in[PP:MAPXY:StartRange][RR:MAPXY:EndRange 00=ANY]	{COND}
