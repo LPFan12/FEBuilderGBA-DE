@@ -2,7 +2,8 @@ NAME=敵を解放した時に、フレイボムでバグる問題の修正
 TYPE=BIN
 TAG=#ENGINE #ESSENTIALFIXES
 
-NAME.en=Fixed issue with glitch on mine when drop enemy
+NAME.en=Fixed a glitch when enemy is dropped on a mine
+NAME.de=Fixed a glitch when enemy is dropped on a mine
 
 //既に適応されたかどうか
 PATCHED_IF:0x321BC=0x00 0x4B 0x9F 0x46
