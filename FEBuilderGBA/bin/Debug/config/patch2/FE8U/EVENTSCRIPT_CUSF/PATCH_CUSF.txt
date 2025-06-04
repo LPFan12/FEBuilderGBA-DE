@@ -1,5 +1,6 @@
 NAME=ユニットの所属を第4軍に変更する
 NAME.en=AddEvent: Change the unit's allegiance to the 4th Army
+NAME.de=AddEvent: Change the unit's allegiance to the 4th Army
 NAME.zh=AddEvent: Change the unit's allegiance to the 4th Army
 
 TYPE=BIN
@@ -7,6 +8,7 @@ TAG=#EVENT
 
 INFO=このパッチの動作には"Fourth Allegiance"パッチが必要です。\r\nこれは、CUSA、CUSE、CUSNのようなものなので、ユニットの所属を第4軍に変更します。\r\nこのパッチを利用する前に以下のURLの内容を確認してください。\r\nhttps://discord.com/channels/144670830150811649/470029781795078175/1105552878866812928
 INFO.en=The "Fourth Allegiance" Patch is required for this patch to work.\r\nThis is like CUSA, CUSE, and CUSN, so change the unit's affiliation to the 4th Army.\r\nPlease review the contents of the following URL before using this patch.\r\nhttps://discord.com/channels/144670830150811649/470029781795078175/1105552878866812928
+INFO.de=The "Fourth Allegiance" Patch is required for this patch to work.\r\nThis is like CUSA, CUSE, and CUSN, so change the unit's affiliation to the 4th Army.\r\nPlease review the contents of the following URL before using this patch.\r\nhttps://discord.com/channels/144670830150811649/470029781795078175/1105552878866812928
 INFO.zh=The "Fourth Allegiance" Patch is required for this patch to work.\r\nThis is like CUSA, CUSE, and CUSN, so change the unit's affiliation to the 4th Army.\r\nPlease review the contents of the following URL before using this patch.\r\nhttps://discord.com/channels/144670830150811649/470029781795078175/1105552878866812928
 
 //既に適応されたかどうか
@@ -17,6 +19,9 @@ EVENTSCRIPT:2=40050100XXXXXXXX400D0000{$L1:CUSF.dmp}	[XX:UNIT:ユニット]の�
 
 EVENTSCRIPT:1.en=400D0000{$L1:CUSF.dmp}	Change the affiliation of unit in Slot 1 to the 4th Army(LOW)	{UNITPERSOLNAL}
 EVENTSCRIPT:2.en=40050100XXXXXXXX400D0000{$L1:CUSF.dmp}	Change the affiliation of [XX:UNIT:Unit] to the 4th Army	{UNITPERSOLNAL}
+
+EVENTSCRIPT:1.de=400D0000{$L1:CUSF.dmp}	Change the affiliation of unit in Slot 1 to the 4th Army(LOW)	{UNITPERSOLNAL}
+EVENTSCRIPT:2.de=40050100XXXXXXXX400D0000{$L1:CUSF.dmp}	Change the affiliation of [XX:UNIT:Unit] to the 4th Army	{UNITPERSOLNAL}
 
 EVENTSCRIPT:1.zh=400D0000{$L1:CUSF.dmp}	Change the affiliation of unit in Slot 1 to the 4th Army(LOW)	{UNITPERSOLNAL}
 EVENTSCRIPT:2.zh=40050100XXXXXXXX400D0000{$L1:CUSF.dmp}	Change the affiliation of [XX:UNIT:Unit] to the 4th Army	{UNITPERSOLNAL}
