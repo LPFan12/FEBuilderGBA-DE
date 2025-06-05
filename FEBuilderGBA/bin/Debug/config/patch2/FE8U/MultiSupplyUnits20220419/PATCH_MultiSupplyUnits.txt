@@ -34,7 +34,10 @@ W6=00
 
 HINT=輸送体
 HINT.en=convoy,supply,transporter,merlinus,wagon
+HINT.de=convoy,supply,transporter,merlinus,wagon
 INFO.zh=提示：运输车。
 NAME.en=Change to have multiple units that can call supply 20220419(Editor)
 INFO.en=Change so that you can set multiple units that can call supply.
+NAME.de=Change to have multiple units that can call supply 20220419(Editor)
+INFO.de=Change so that you can set multiple units that can call supply.
 NAME.zh=更改为具有多个可以呼叫护卫队的人物 20220419(Editor)
