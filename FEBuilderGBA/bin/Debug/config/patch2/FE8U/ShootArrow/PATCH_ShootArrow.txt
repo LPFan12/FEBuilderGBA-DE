@@ -1,5 +1,6 @@
 NAME=神の矢をイベントで発動させて敵を攻撃する(イベント命令)
 NAME.en=Add Event: ShootArrow
+NAME.de=Add Event: ShootArrow
 NAME.zh=Add Event: ShootArrow
 
 TYPE=EA
@@ -18,10 +19,14 @@ EVENTSCRIPT:02=40050B00XXXXYYYY40050100WWWW0000400D0000{$L1:ShootArrowASMC.dmp}	
 EVENTSCRIPT:01.en=400D0000{$L1:ShootArrowASMC.dmp}	Activates Arrow Trap with event to attack the enemy(ShootArrowASMC)(LOW)	Slot1=Damage ,SlotB=Range	{MAP}
 EVENTSCRIPT:02.en=40050B00XXXXYYYY40050100WWWW0000400D0000{$L1:ShootArrowASMC.dmp}	Activates Arrow Trap with event to attack the enemy[XX:MAPX:X],[YY:MAPY:Y] [WW:DECIMAL:Damage](ShootArrowASMC)	Slot1=Damage ,SlotB=Range	{MAP}
 
+EVENTSCRIPT:01.de=400D0000{$L1:ShootArrowASMC.dmp}	Activates Arrow Trap with event to attack the enemy(ShootArrowASMC)(LOW)	Slot1=Damage ,SlotB=Range	{MAP}
+EVENTSCRIPT:02.de=40050B00XXXXYYYY40050100WWWW0000400D0000{$L1:ShootArrowASMC.dmp}	Activates Arrow Trap with event to attack the enemy[XX:MAPX:X],[YY:MAPY:Y] [WW:DECIMAL:Damage](ShootArrowASMC)	Slot1=Damage ,SlotB=Range	{MAP}
+
 EVENTSCRIPT:01.zh=400D0000{$L1:ShootArrowASMC.dmp}	Activates Arrow Trap with event to attack the enemy(ShootArrowASMC)(LOW)	Slot1=Damage ,SlotB=Range	{MAP}
 EVENTSCRIPT:02.zh=40050B00XXXXYYYY40050100WWWW0000400D0000{$L1:ShootArrowASMC.dmp}	Activates Arrow Trap with event to attack the enemy[XX:MAPX:X],[YY:MAPY:Y] [WW:DECIMAL:Damage](ShootArrowASMC)	Slot1=Damage ,SlotB=Range	{MAP}
 
 
 INFO=神の矢のトラップをイベントで発動させて敵を攻撃する
 INFO.en=Activates Arrow Trap with event to attack the enemy
+INFO.de=Activates Arrow Trap with event to attack the enemy
 INFO.zh=Activates Arrow Trap with event to attack the enemy
