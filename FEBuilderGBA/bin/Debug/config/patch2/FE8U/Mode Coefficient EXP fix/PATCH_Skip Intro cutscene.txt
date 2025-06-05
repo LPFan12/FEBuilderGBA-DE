@@ -1,5 +1,6 @@
 NAME=Skip Intro cutscene
 NAME.en=Toggle New Game Intro Cutscene
+NAME.de=Toggle New Game Intro Cutscene
 NAME.zh=Skip Intro cutscene
 
 TYPE=ADDR
