@@ -1,4 +1,5 @@
 NAME.en=Game Over BGM
+NAME.de=Game Over BGM
 NAME.zh=MUSIC_GAMEOVER
 //アドレスパッチとして実装します
 TYPE=ADDR
