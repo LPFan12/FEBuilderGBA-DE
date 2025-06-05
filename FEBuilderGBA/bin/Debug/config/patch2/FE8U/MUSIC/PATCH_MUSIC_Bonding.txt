@@ -1,5 +1,6 @@
 NAME=MUSIC_戦績
 NAME.en=Record Reel BGM
+NAME.de=Record Reel BGM
 NAME.zh=MUSIC_科斯
 //アドレスパッチとして実装します
 TYPE=ADDR
