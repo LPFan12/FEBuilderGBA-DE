@@ -1,5 +1,6 @@
 NAME=ResをMagicとして利用するパッチ 20190715(Install)
 NAME.en=Patch that uses Res as Magic 20190715(Install)
+NAME.de=Patch that uses Res as Magic 20190715(Install)
 
 TYPE=EA
 TAG=#ENGINE #MUSIC #SONG #SOUND #BGM
@@ -11,6 +12,7 @@ EA=StrenghtAsRes.txt
 
 INFO=魔力の項目を新設して、魔法を分離します。\r\nこのパッチは魔防を魔力として扱います。
 INFO.en=This Patch will set up magical items and separate magic.\r\nThis patch treats Res as Magic.
+INFO.de=This Patch will set up magical items and separate magic.\r\nThis patch treats Res as Magic.
 NAME.zh=Patch that uses Res as Magic 20190715(Install)
 INFO.zh=该补丁还设置魔法物品并分开魔法。
 
