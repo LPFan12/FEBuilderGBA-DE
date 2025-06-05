@@ -12,5 +12,7 @@ EA=SetSuperArenaFlagIfWinByArena_installer.event
 AUTHOR=7743
 NAME.en=Set the Super Arena status flag when you win in Arena(Installer)
 INFO.en=When the unit wins in the arena, if it meets the specified time requirements, it will set the SuperArena status flag.
+NAME.de=Set the Super Arena status flag when you win in Arena(Installer)
+INFO.de=When the unit wins in the arena, if it meets the specified time requirements, it will set the SuperArena status flag.
 NAME.zh=Set the Super Arena status flag when you win in Arena(Installer)
 INFO.zh=When the unit wins in the arena, if it meets the specified time requirements, it will set the SuperArena status flag.
