@@ -1,5 +1,6 @@
 NAME=ChangeUnitName(Editor)
 NAME.en=ChangeUnitName(Editor)
+NAME.de=ChangeUnitName(Editor)
 NAME.zh=ChangeUnitName(Editor)
 
 IF:0x7BEAC=0x00 0x4B 0x18 0x47
@@ -34,4 +35,5 @@ W6:FLAG=Flag
 CONFLICT_IF:0x0800=0x0 0xC0 0x9F 0xE5 0x1C 0xFF 0x2F 0xE1
 CONFLICT_MESSAGE=SkillSystems
 INFO.en=Change the name of the unit under certain conditions.
+INFO.de=Change the name of the unit under certain conditions.
 INFO.zh=在某些条件下更改单位名称。
