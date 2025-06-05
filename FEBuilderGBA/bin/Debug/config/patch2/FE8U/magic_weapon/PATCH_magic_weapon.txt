@@ -29,13 +29,19 @@ B0:ITEM.en=Item
 B1:$COMBO WeaponType.en.txt:.en=Weapon attributes
 B2:$COMBO WeaponRange.en.txt:.en=Melle range type
 
+B0:ITEM.de=Item
+B1:$COMBO WeaponType.de.txt:.en=Weapon attributes
+B2:$COMBO WeaponRange.de.txt:.en=Melle range type
+
 B0:ITEM.zh=Item
 B1:$COMBO WeaponType.zh.txt:.zh=Weapon attributes
 B2:$COMBO WeaponRange.zh.txt:.zh=Melle range type
 
 AUTHOR=midori
 NAME.en=Magic Weapon(Editor)
-INFO.en=When attacking with a magic sword, it can be attacked by anything other than magic.\r\nFor example, in the case of a light sword, it is possible to attack with the light attribute.\r\nThe activation requirement is only a magic sword.Physical weapons have no effect.
+INFO.en=When attacking with a magic sword, it can be attacked by anything other than magic.\r\nFor example, in the case of a light sword, it is possible to attack with the light attribute.\r\nThe activation requirement is only a magic sword. Physical weapons have no effect.
+NAME.de=Magic Weapon(Editor)
+INFO.de=When attacking with a magic sword, it can be attacked by anything other than magic.\r\nFor example, in the case of a light sword, it is possible to attack with the light attribute.\r\nThe activation requirement is only a magic sword. Physical weapons have no effect.
 NAME.zh=魔法武器(Editor)
 INFO.zh=当用魔法剑攻击时，它可以被除魔法以外的任何东西攻击。\r\n例如，在轻剑的情况下，可以使用light属性进行攻击。\r\n激活要求只是一把魔剑。物理武器没有效果。
 
