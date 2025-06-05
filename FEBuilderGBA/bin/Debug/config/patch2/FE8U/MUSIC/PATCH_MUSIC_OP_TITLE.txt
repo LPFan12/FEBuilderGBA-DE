@@ -1,4 +1,5 @@
 NAME.en=Title Screen BGM
+NAME.de=Title Screen BGM
 NAME.zh=MUSIC_OP_TITLE
 //アドレスパッチとして実装します
 TYPE=ADDR
