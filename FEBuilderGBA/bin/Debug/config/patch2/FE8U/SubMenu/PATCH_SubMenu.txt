@@ -15,7 +15,9 @@ EXTENDS:0x1100=TEXT
 //PATCHED_IF:0x050110=0x00 0x4B 0x9F 0x46	//{J}
 PATCHED_IF:0x04F39C=0x00 0x4B 0x9F 0x46	//{U}
 
-NAME.en=Display submenu.
+NAME.en=Display submenu
 INFO.en=Displays a submenu.\r\nReuse menu items used as debugging functions as submenus.
+NAME.de=Display submenu
+INFO.de=Displays a submenu.\r\nReuse menu items used as debugging functions as submenus.
 NAME.zh=显示子菜单。
 INFO.zh=显示子菜单。\r\n重用用作调试功能的菜单项作为子菜单。
