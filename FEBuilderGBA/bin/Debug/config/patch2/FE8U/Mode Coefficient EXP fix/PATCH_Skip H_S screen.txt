@@ -1,5 +1,6 @@
 NAME=Skip H&S screen
 NAME.en=Toggle Health & Safety Warning
+NAME.de=Toggle Health & Safety Warning
 NAME.zh=Skip H&S screen
 
 TYPE=ADDR
@@ -8,8 +9,7 @@ TAG=#ENGINE #ESSENTIALFIXES #IMAGE
 ADDRESS=0xCC20C
 COMBO=Skip|0x00 0x00|Default|0x06 0xD1
 
-INFO.en=Edit field to toggle whether to skip the "Health & Safety" warning that plays upon bootup.\r\nThe ROM is default set to not skip.\r\n
+INFO.en=Edit field to toggle whether to skip the "Health & Safety" warning that plays upon bootup.\r\nThe ROM is default set to not skip.
+INFO.de=Edit field to toggle whether to skip the "Health & Safety" warning that plays upon bootup.\r\nThe ROM is default set to not skip.
 
 AUTHOR=circleseverywhere https://feuniverse.us/t/fe7-8-skip-the-intro-cutscene/1225/17
-
-
