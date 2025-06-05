@@ -2,6 +2,7 @@ TYPE=EA
 TAG=#ENGINE
 NAME=SummonEXP: 召喚されたモンスターが、敵を倒すと召喚士が経験値を得るようにする.
 NAME.en=SummonEXP: When summoned monster defeats an enemy, the summoner gains EXP.
+NAME.de=SummonEXP: When summoned monster defeats an enemy, the summoner gains EXP.
 
 EA=Summon.event
 
