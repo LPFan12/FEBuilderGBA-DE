@@ -1,8 +1,10 @@
 NAME=サイレスの杖のターゲット (Status)
 NAME.en=Silence Staff Target (Status)
+NAME.de=Silence Staff Target (Status)
 NAME.zh=Silence Staff Target (Status)
 INFO=バニラでは、サイレスの杖を持つユニットがステータス異常を持たないか、すでに沈黙している場合にのみ、そのユニットを対象にすることができます。他のステータスを上書きできるように変更することができます。これはプレイヤーの杖の使い方にのみ影響し、AIの使い方は変わりません。
 INFO.en=In vanilla you can only target a unit with the Silence staff if the unit has no status or is already silenced. You can change it to make it able to override other status. This only affects the player's usage of the staff, it doesn't change the AI's usage.
+INFO.de=In vanilla you can only target a unit with the Silence staff if the unit has no status or is already silenced. You can change it to make it able to override other status. This only affects the player's usage of the staff, it doesn't change the AI's usage.
 INFO.zh=In vanilla you can only target a unit with the Silence staff if the unit has no status or is already silenced. You can change it to make it able to override other status. This only affects the player's usage of the staff, it doesn't change the AI's usage.
 AUTHOR=Shuusuke https://discord.com/channels/144670830150811649/725478895226191892/1105242529877729451
 
