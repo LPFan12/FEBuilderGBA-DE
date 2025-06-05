@@ -1,4 +1,5 @@
 NAME.en=Opening Demo BGM
+NAME.de=Opening Demo BGM
 NAME.zh=MUSIC_OP_DEMO
 //アドレスパッチとして実装します
 TYPE=ADDR
