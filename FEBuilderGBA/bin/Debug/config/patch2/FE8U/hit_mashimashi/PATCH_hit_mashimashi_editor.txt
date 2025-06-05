@@ -1,5 +1,6 @@
 NAME=敵の命中率を底上げする(Editor)
 NAME.en=Increase Enemy's hit rate(Editor)
+NAME.de=Increase Enemy's hit rate(Editor)
 
 TYPE=STRUCT
 IF:0x2ABB8=0x00 0x4B 0x18 0x47
@@ -33,6 +34,14 @@ B4:$COMBO Combo_Phase.en.txt:.en=Phase
 B5:.en=00
 W6:FLAG:.en=FLAG(00=ANY)
 
+B0:DECIMAL:.de=Additional hit rate
+B1:MAP_ANYFF:.de=MAPID(FF=ANY)
+B2:$COMBO Combo_Difficulty.de.txt:.de=Difficulty
+B3:$COMBO Combo_Promoted.de.txt:.de=Promoted
+B4:$COMBO Combo_Phase.de.txt:.de=Phase
+B5:.de=00
+W6:FLAG:.de=FLAG(00=ANY)
+
 B0:DECIMAL:.zh=Additional hit rate
 B1:MAP_ANYFF:.zh=MAPID(FF=ANY)
 B2:$COMBO Combo_Difficulty.zh.txt:.zh=Difficulty
@@ -46,4 +55,5 @@ NAME.zh=提高敌人的命中率(Editor)
 
 INFO=敵が攻撃する時の命中率を底上げします。\r\nもし、命中率が30%だったとして、このパッチで20を指定した場合、20+30=50%の命中率になります。\r\nこのパッチは、マップや敵の種類、難易度ごとに敵の命中率を補正します。
 INFO.en=Increases the hit rate when the enemy attacks.\r\nIf the hit rate is 30% and you specify 20 in this patch, the hit rate is 20+30 = 50%.\r\nThis patch corrects the enemy's hit rate for each map, enemy type, and difficulty level.
+INFO.de=Increases the hit rate when the enemy attacks.\r\nIf the hit rate is 30% and you specify 20 in this patch, the hit rate is 20+30 = 50%.\r\nThis patch corrects the enemy's hit rate for each map, enemy type, and difficulty level.
 INFO.zh=Increases the hit rate when the enemy attacks.\r\nIf the hit rate is 30% and you specify 20 in this patch, the hit rate is 20+30 = 50%.\r\nThis patch corrects the enemy's hit rate for each map, enemy type, and difficulty level.
