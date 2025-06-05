@@ -1,5 +1,6 @@
 NAME=ストーンのマップアニメーションが、no$gbaをクラッシュさせるバグの修正
 NAME.en=Fix Stone's map animation crashing no$ due to a bad decompression
+NAME.de=Fix Stone's map animation crashing no$ due to a bad decompression
 
 TYPE=ADDR
 TAG=#ENGINE #ESSENTIALFIXES
