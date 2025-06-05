@@ -1,6 +1,6 @@
 NAME=マップ戦闘での踊り子の効果音を複数設定する(Install)
 NAME.en=Setting sound effect of a many dancer in map battle (Installer)
-
+NAME.de=Setting sound effect of a many dancer in map battle (Installer)
 
 TYPE=EA
 TAG=#ENGINE
