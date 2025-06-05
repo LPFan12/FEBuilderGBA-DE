@@ -1,6 +1,6 @@
 NAME=マップ戦闘での踊り子の効果音を複数設定する(Editor)
 NAME.en=Setting sound effect of a many dancer in map battle(Editor)
-
+NAME.de=Setting sound effect of a many dancer in map battle(Editor)
 
 IF:0x812D4=0x00 0x4B
 
