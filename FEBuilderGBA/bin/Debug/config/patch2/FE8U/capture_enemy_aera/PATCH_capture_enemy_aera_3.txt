@@ -1,5 +1,6 @@
 ﻿NAME=敵捕獲_aera [9 >= 敵HP] の時、敵を捕獲
 NAME.en=Capture enemy_aera When 9>=Enemy HP
+NAME.de=Capture enemy_aera When 9>=Enemy HP
 NAME.zh=敌俘获 [9 >= 敌HP] 之时、敌捕获
 
 PATCHED_IF:$FGREP4 hokaku3.dmp=0x70 0xB5 0x04 0x1C
