@@ -15,5 +15,8 @@ INFO=エンディングのクリアターン一覧で、クリアターンを記
 NAME.en=Crash prevention in the clear turn list(Editor)
 INFO.en=This patch solves the problem of crashing in the ending clear turn list when the table that records the clear turns contains rare noise.\r\nThis patch is a preventive patch.\r\nIf any strange data is stored, it should be ignored.\r\nThe default is to set the last value of MapID to 0x4F.\r\nMapID: If any data after 0x4F is included, it will be considered as noise and will be skipped.
 
+NAME.de=Crash prevention in the clear turn list(Editor)
+INFO.de=This patch solves the problem of crashing in the ending clear turn list when the table that records the clear turns contains rare noise.\r\nThis patch is a preventive patch.\r\nIf any strange data is stored, it should be ignored.\r\nThe default is to set the last value of MapID to 0x4F.\r\nMapID: If any data after 0x4F is included, it will be considered as noise and will be skipped.
+
 NAME.zh=Crash prevention in the clear turn list(Editor)
 INFO.zh=This patch solves the problem of crashing in the ending clear turn list when the table that records the clear turns contains rare noise.\r\nThis patch is a preventive patch.\r\nIf any strange data is stored, it should be ignored.\r\nThe default is to set the last value of MapID to 0x4F.\r\nMapID: If any data after 0x4F is included, it will be considered as noise and will be skipped.
