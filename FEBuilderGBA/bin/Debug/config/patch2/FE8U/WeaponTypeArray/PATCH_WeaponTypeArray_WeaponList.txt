@@ -10,5 +10,5 @@ DATACOUNT=256
 LISTNAME=ITEM
 B0:$COMBO WeaponType.txt:=Weapon type for this slot
 
-INFO= Assigns weapon types to items for weapon triangle purposes, without changing actual weapon type.
+INFO=Assigns weapon types to items for weapon triangle purposes, without changing actual weapon type.
 AUTHOR=Lisandra_Brave https://feuniverse.us/t/liss-asm-stuff/12801
