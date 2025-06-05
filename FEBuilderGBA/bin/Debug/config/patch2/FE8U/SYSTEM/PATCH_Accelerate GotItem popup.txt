@@ -1,5 +1,6 @@
 NAME=アイテム入手時のポップアップの表示時間の高速化
 NAME.en=Accelerate Got item popup
+NAME.de=Accelerate Got item popup
 
 //アドレスパッチとして実装します
 TYPE=SWITCH
@@ -28,8 +29,10 @@ ON25:0x1166C=25	// frames to show "got gold" popup
 AUTHOR=Vesly https://discord.com/channels/144670830150811649/725478895226191892/1032840060430725242
 INFO=アイテム取得、ゴールド取得のポップアップの表示時間を短くします。\r\nディフォルトは96フレームです。
 INFO.en=Speed up for popups for got items and got gold.\r\nDefault is 96 frames.
+INFO.de=Speed up for popups for got items and got gold.\r\nDefault is 96 frames.
 
 COMBO.en=Default:96 frame|OFFF|1.5x speed: 65 frame|ON65|2x speed: 45 frame|ON45|3x speed: 32 frame|ON32|4x speed: 25 frame|ON25
+COMBO.de=Default:96 frame|OFFF|1.5x speed: 65 frame|ON65|2x speed: 45 frame|ON45|3x speed: 32 frame|ON32|4x speed: 25 frame|ON25
 
 NAME.zh=Accelerate Got item popup
 INFO.zh=Speed up for popups for got items and got gold.\r\nDefault is 96 frames.

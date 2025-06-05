@@ -1,8 +1,10 @@
 NAME=カスタム手斧(Editor)
 NAME.en=Custom HandAxs(Editor)
+NAME.de=Custom HandAxs(Editor)
 NAME.zh=Custom HandAxs(Editor)
 INFO=リストにないものはディフォルトの挙動を行います。\r\n手斧の代わりに、大きい手斧(Big HandAxs)、衝撃派(Shock Wave)、ブーメラン(Boomerang)、メタルブレード(Metal Blade)を投げられるようになります。
 INFO.en=Those not on the list behave by default.\r\nAllows you to throw items other than hand axes.\r\n\r\nAllows you to throw Big HandAxs, Shock Wave, Boomerang, and Metal Blade instead of Hand Axes.
+INFO.de=Those not on the list behave by default.\r\nAllows you to throw items other than hand axes.\r\n\r\nAllows you to throw Big HandAxs, Shock Wave, Boomerang, and Metal Blade instead of Hand Axes.
 INFO.zh=Those not on the list behave by default.\r\nAllows you to throw items other than hand axes.\r\n\r\nAllows you to throw Big HandAxs, Shock Wave, Boomerang, and Metal Blade instead of Hand Axes.
 
 

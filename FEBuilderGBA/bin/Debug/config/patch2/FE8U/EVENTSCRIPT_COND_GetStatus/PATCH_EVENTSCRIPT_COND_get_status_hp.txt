@@ -1,5 +1,6 @@
 NAME=ユニットのHPを取得する(イベント命令)
 NAME.en=AddEvent: Get HP
+NAME.de=AddEvent: Get HP
 TYPE=BIN
 TAG=#EVENT
 
@@ -13,6 +14,7 @@ INFO=ユニットのHPを取得します。\r\n結果は、メモリスロット
 
 AUTHOR=7743
 INFO.en=Add Event:Get the unit HP.\r\nThe result is returned in memory slot C.
+INFO.de=Add Event:Get the unit HP.\r\nThe result is returned in memory slot C.
 
 EVENTSCRIPT:1=400DXX00{$L1:get_status_hp.dmp}	[XX:UNIT:ユニット]ユニットのHPを取得	{COND}
 EVENTSCRIPT:2=410D0000{$L1:get_status_hp.dmp}	SVAL1のユニットのHPを取得(LOW)	{COND}
@@ -25,6 +27,11 @@ EVENTSCRIPT:2.en=410D0000{$L1:get_status_hp.dmp}	Get the HP of the unit of SVAL1
 EVENTSCRIPT:3.en=4B0D0000{$L1:get_status_hp.dmp}	Get the unit's HP of coordinates of SVALB (LOW)	{COND}
 EVENTSCRIPT:4.en=40050B00ZZZZWWWW4B0D0000{$L1:get_status_hp.dmp}	coordinate[ZZ:MAPX:X][WW:MAPY:Y]Get the unit HP	{COND}
 EVENTSCRIPT:5.en=212E00002006C100410D0000{$L1:get_status_hp.dmp}	Get the HP of the unit currently being operated	{COND}
+EVENTSCRIPT:1.de=400DXX00{$L1:get_status_hp.dmp}	[XX:UNIT:Unit] Get HP of unit	{COND}
+EVENTSCRIPT:2.de=410D0000{$L1:get_status_hp.dmp}	Get the HP of the unit of SVAL1 (LOW)	{COND}
+EVENTSCRIPT:3.de=4B0D0000{$L1:get_status_hp.dmp}	Get the unit's HP of coordinates of SVALB (LOW)	{COND}
+EVENTSCRIPT:4.de=40050B00ZZZZWWWW4B0D0000{$L1:get_status_hp.dmp}	coordinate[ZZ:MAPX:X][WW:MAPY:Y]Get the unit HP	{COND}
+EVENTSCRIPT:5.de=212E00002006C100410D0000{$L1:get_status_hp.dmp}	Get the HP of the unit currently being operated	{COND}
 NAME.zh=获取人物级别的事件指令(Add Event)
 INFO.zh=获得人物级别。\r\n结果在内存插槽C中返回。
 EVENTSCRIPT:1.zh=400DXX00{$L1:get_status_hp.dmp}	[XX:UNIT:Unit]获得人物等级	{COND}

@@ -1,9 +1,11 @@
 NAME=プレイヤーユニットを成長させる(イベント命令)
 NAME.en=Add Event: Autolevel Player Unit
+NAME.de=Add Event: Autolevel Player Unit
 NAME.zh=Add Event: Autolevel Player Unit
 
 INFO=イベント命令から、プレイヤーユニットを成長させます。\r\n既存の「ユニットを成長させる」と比べて、ユニットの成長を利用する違いがあります。\r\n基本的に、自動成長は敵用のクラスの成長で行うためです。\r\nこのパッチは、プレイヤーユニット用に作られているので、もしターゲットにプレイヤー以外のユニットを指定した場合、無視されます。\r\nこのルーチンはバニラでエイリークとエフラムが合流する際のレベルアップルーチンを参考に作られました。\r\n\r\nこれを利用すると、離脱したユニットが再び仲間になってパーティに再加入する時に、ボーナスとしてレベルを上げることができます。
 INFO.en=This patch adds a command to give a playable unit an amount of additional levels, using the same routine that the route split uses for Eirika and Ephraim. This version uses the unit's Character Growths, while Vesly's Autolevel patch uses Class Growths.
+INFO.de=This patch adds a command to give a playable unit an amount of additional levels, using the same routine that the route split uses for Eirika and Ephraim. This version uses the unit's Character Growths, while Vesly's Autolevel patch uses Class Growths.
 INFO.zh=This patch adds a command to give a playable unit an amount of additional levels, using the same routine that the route split uses for Eirika and Ephraim. This version uses the unit's Character Growths, while Vesly's Autolevel patch uses Class Growths.
 
 
@@ -17,6 +19,10 @@ EVENTSCRIPT:02.en=40050700XXXXXXXX40050800ZZZZZZZZ400D0000{$L1:ASMC_AutoLevelPla
 EVENTSCRIPT:03.en=40050B00XXXXYYYY40050700FEFFFFFF40050800ZZZZZZZZ400D0000{$L1:ASMC_AutoLevelPlayerUnit.dmp}	Grow Coordinates[XX:MAPX:X][YY:MAPY:Y] Player Unit to by [ZZ:DECIMAL:Level] times.(ASMC_AutoLevelPlayerUnits)
 EVENTSCRIPT:04.en=40050700FFFFFFFF40050800ZZZZZZZZ400D0000{$L1:ASMC_AutoLevelPlayerUnit.dmp}	Grow Current Player Unit to by [ZZ:DECIMAL:Level] times.(ASMC_AutoLevelPlayerUnits)
 
+EVENTSCRIPT:01.de=400D0000{$L1:ASMC_AutoLevelPlayerUnit.dmp}	ASMC_AutoLevelPlayerUnits(LOW)	Slot7=UnitID Slot8=GiveLV
+EVENTSCRIPT:02.de=40050700XXXXXXXX40050800ZZZZZZZZ400D0000{$L1:ASMC_AutoLevelPlayerUnit.dmp}	Grow [XX:UNIT:PlayerUnit] by [ZZ:DECIMAL:Level] times.(ASMC_AutoLevelPlayerUnits)
+EVENTSCRIPT:03.de=40050B00XXXXYYYY40050700FEFFFFFF40050800ZZZZZZZZ400D0000{$L1:ASMC_AutoLevelPlayerUnit.dmp}	Grow Coordinates[XX:MAPX:X][YY:MAPY:Y] Player Unit to by [ZZ:DECIMAL:Level] times.(ASMC_AutoLevelPlayerUnits)
+EVENTSCRIPT:04.de=40050700FFFFFFFF40050800ZZZZZZZZ400D0000{$L1:ASMC_AutoLevelPlayerUnit.dmp}	Grow Current Player Unit to by [ZZ:DECIMAL:Level] times.(ASMC_AutoLevelPlayerUnits)
 
 EVENTSCRIPT:01.zh=400D0000{$L1:ASMC_AutoLevelPlayerUnit.dmp}	ASMC_AutoLevelPlayerUnits(LOW)	Slot7=UnitID Slot8=GiveLV
 EVENTSCRIPT:02.zh=40050700XXXXXXXX40050800ZZZZZZZZ400D0000{$L1:ASMC_AutoLevelPlayerUnit.dmp}	Grow [XX:UNIT:PlayerUnit] to by [ZZ:DECIMAL:Level] times.(ASMC_AutoLevelPlayerUnits)

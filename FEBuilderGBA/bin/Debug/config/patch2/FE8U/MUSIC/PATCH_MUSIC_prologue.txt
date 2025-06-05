@@ -1,4 +1,5 @@
 NAME.en=Prologue Text Reel BGM
+NAME.de=Prologue Text Reel BGM
 NAME.zh=MUSIC_prologue
 //アドレスパッチとして実装します
 TYPE=ADDR

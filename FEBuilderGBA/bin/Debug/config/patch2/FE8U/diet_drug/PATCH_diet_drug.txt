@@ -1,4 +1,5 @@
 NAME.en=Con-Reducing Diet Drug
+NAME.de=Con-Reducing Diet Drug
 NAME.zh=温和的药物_ diet_drug
 
 TYPE=BIN
@@ -15,10 +16,11 @@ BIN:$FREEAREA:1=yase.bin
 JUMP:0x29468:$r0=yase.bin
 
 INFO=体格を減らすアイテムを作れます.
-INFO.en=Patches the ROM to allow for items that reduce CON.\r\nTo do this, set the CON value of the reducing item to 255 (ie -1)\r\n
+INFO.en=Patches the ROM to allow for items that reduce CON.\r\nTo do this, set the CON value of the reducing item to 255 (ie -1)
+INFO.de=Patches the ROM to allow for items that reduce CON.\r\nTo do this, set the CON value of the reducing item to 255 (ie -1)\r\n
 INFO.zh=你可以制作减少体质的物品。
 
 AUTHOR=怪盗パッチ 7743
 AUTHOR.zh=Kaito补丁7743
 AUTHOR.en=Kaito patch:7743
-
+AUTHOR.de=Kaito patch:7743

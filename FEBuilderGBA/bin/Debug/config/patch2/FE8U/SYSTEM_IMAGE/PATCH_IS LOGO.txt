@@ -1,6 +1,6 @@
-
 NAME=IS LOGO
 NAME.en=IS LOGO
+NAME.de=IS LOGO
 
 //画像パッチとして実装します
 TYPE=IMAGE

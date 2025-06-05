@@ -1,5 +1,6 @@
 NAME=ChangeUnitName(Install)
 NAME.en=ChangeUnitName(Install)
+NAME.de=ChangeUnitName(Install)
 NAME.zh=ChangeUnitName(Install)
 
 TYPE=EA
@@ -15,4 +16,5 @@ AUTHOR=epicer https://discord.com/channels/144670830150811649/470029781795078175
 CONFLICT_IF:0x0800=0x0 0xC0 0x9F 0xE5 0x1C 0xFF 0x2F 0xE1
 CONFLICT_MESSAGE=SkillSystems
 INFO.en=Change the name of the unit under certain conditions.
+INFO.de=Change the name of the unit under certain conditions.
 INFO.zh=在某些条件下更改单位名称。

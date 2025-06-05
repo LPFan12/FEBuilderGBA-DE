@@ -1,11 +1,14 @@
 NAME=状態異常バッドステータスの期間を変更
 NAME.en=Change duration of bad status effects
+NAME.de=Change duration of bad status effects
 
 //アドレスパッチとして実装します
 TYPE=SWITCH
 TAG=#ENGINE
 
 COMBO=Default: 5turn|5TT|4turn|4TT|3turn|3TT|2turn|2TT|1turn|1TT|Infinite|0TT
+COMBO.en=Default: 5turns|5TT|4turns|4TT|3turns|3TT|2turns|2TT|1turn|1TT|Infinite|0TT
+COMBO.de=Default: 5turns|5TT|4turns|4TT|3turns|3TT|2turns|2TT|1turn|1TT|Infinite|0TT
 
 5TT:0x178EA=0x50
 4TT:0x178EA=0x40
@@ -18,4 +21,5 @@ AUTHOR=sme
 NAME.zh=Change duration of bad status effects
 INFO=ディフォルトは5ターンです。
 INFO.en=The default is 5 turns.
+INFO.de=The default is 5 turns.
 INFO.zh=默认值为5转。

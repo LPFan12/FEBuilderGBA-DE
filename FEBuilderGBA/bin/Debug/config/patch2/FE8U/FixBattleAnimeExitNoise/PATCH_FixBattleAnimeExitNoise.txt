@@ -4,6 +4,9 @@ INFO=魔法エフェクトを実行した時に、戦闘アニメ終了エフェ
 NAME.en=Fix glitch that causes noise to run on the screen after the battle animation ends
 INFO.en=Fix noise in the combat animation end effect when magic effects are executed.\r\nThis problem seems to occur when attacking with a very long range of 4 or more and loading magic effects in the attack effect. \r\nThis is due to the StartEkrBaseKaiten function decompressing the null pointer image with the LZ77UnCompVram function. \r\nThis patch forcefully fixes this behavior.
 
+NAME.de=Fix glitch that causes noise to run on the screen after the battle animation ends
+INFO.de=Fix noise in the combat animation end effect when magic effects are executed.\r\nThis problem seems to occur when attacking with a very long range of 4 or more and loading magic effects in the attack effect. \r\nThis is due to the StartEkrBaseKaiten function decompressing the null pointer image with the LZ77UnCompVram function. \r\nThis patch forcefully fixes this behavior.
+
 NAME.zh=Fix glitch that causes noise to run on the screen after the battle animation ends
 INFO.zh=Fix noise in the combat animation end effect when magic effects are executed.\r\nThis problem seems to occur when attacking with a very long range of 4 or more and loading magic effects in the attack effect. \r\nThis is due to the StartEkrBaseKaiten function decompressing the null pointer image with the LZ77UnCompVram function. \r\nThis patch forcefully fixes this behavior.
 

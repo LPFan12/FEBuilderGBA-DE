@@ -1,5 +1,6 @@
 NAME=OPANIME_FACE_ヒーニアス_影
 NAME.en=OP Anime Face: Innes (Shadow)
+NAME.de=OP Anime Face: Innes (Shadow)
 
 TYPE=IMAGE
 TAG=#IMAGE

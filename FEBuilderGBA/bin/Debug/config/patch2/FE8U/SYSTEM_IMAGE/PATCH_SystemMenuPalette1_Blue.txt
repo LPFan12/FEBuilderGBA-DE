@@ -1,5 +1,6 @@
 NAME=システムメニューのパレット1(青)
 NAME.en=SystemMenu Palette1 (Blue)
+NAME.de=SystemMenu Palette1 (Blue)
 NAME.zh=SystemMenu Palette1 (Blue)
 
 TYPE=IMAGE

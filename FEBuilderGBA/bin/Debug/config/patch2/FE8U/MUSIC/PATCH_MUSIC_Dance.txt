@@ -1,5 +1,6 @@
 NAME=MUSIC_踊り
 NAME.en=Dance BGM
+NAME.de=Dance BGM
 NAME.zh=音乐_舞蹈
 //アドレスパッチとして実装します
 

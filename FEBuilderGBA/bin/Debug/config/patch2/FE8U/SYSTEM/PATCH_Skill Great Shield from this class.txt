@@ -1,5 +1,6 @@
 NAME=スキル大盾_このクラスから
 NAME.en=Great Shield First Class
+NAME.de=Great Shield First Class
 NAME.zh=技能大盾_这个职业前
 
 //アドレスパッチとして実装します
@@ -9,7 +10,8 @@ TAG=#ENGINE
 ADDRESS=0x02B34A
 ADDRESS_TYPE=CLASS
 
-INFO.en=Sets which class Great Shield is attached to.\r\n
+INFO.en=Sets which class Great Shield is attached to.
+INFO.de=Sets which class Great Shield is attached to.
 
 AUTHOR=出典:Chap@FE8_GIRLS 09.10.01 の資料より\r\nhttps://dw.ngmansion.xyz/doku.php?id=data:%E3%83%91%E3%83%83%E3%83%81
 AUTHOR.zh=来源:Chap@FE8_GIRLS 09.10.01的材料。\r\nhttps://dw.ngmansion.xyz/doku.php?id=data:%E3%83%91%E3%83%83%E3%83%81

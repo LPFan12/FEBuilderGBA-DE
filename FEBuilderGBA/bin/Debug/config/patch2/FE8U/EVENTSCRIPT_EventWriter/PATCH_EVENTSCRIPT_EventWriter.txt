@@ -1,5 +1,6 @@
 NAME=任意のメモリの読み書き EventWriter(イベント命令)
 NAME.en=AddEvent:EventWriter
+NAME.de=AddEvent:EventWriter
 TYPE=BIN
 TAG=#EVENT
 
@@ -12,6 +13,7 @@ BIN:$FREEAREA:2=eventreader.dmp
 
 INFO=任意のメモリのデータを読み書きできる命令を追加します。
 INFO.en=Writing to arbitrary memory.
+INFO.de=Writing to arbitrary memory.
 INFO.zh=Writing to arbitrary memory.
 
 

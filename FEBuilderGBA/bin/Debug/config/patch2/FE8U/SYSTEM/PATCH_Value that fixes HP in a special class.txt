@@ -1,8 +1,10 @@
 NAME=特殊クラスで、HPを固定する値
 NAME.en=Value that fixes HP in a special class
+NAME.de=Value that fixes HP in a special class
 
 INFO=バニラでは、ゴーゴンの卵は、HPを5に固定されます。
 INFO.en=In vanilla, Gorgon's eggs are fixed at 5 HP
+INFO.de=In vanilla, Gorgon's eggs are fixed at 5 HP
 
 TYPE=ADDR
 TAG=#ENGINE

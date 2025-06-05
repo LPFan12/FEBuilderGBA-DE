@@ -17,4 +17,5 @@ OFF:0x02E7E=0x30
 
 AUTHOR=7743
 INFO.en=This patch is a function for debugging.\r\nMake sure that the address of Exe6C_ being executed is loaded on the stack.\r\nThis makes it easier to locate the Procs running in the debugger.
+INFO.de=This patch is a function for debugging.\r\nMake sure that the address of Exe6C_ being executed is loaded on the stack.\r\nThis makes it easier to locate the Procs running in the debugger.
 INFO.zh=该补丁是一个调试功能。\r\n确保正在执行的Exe6C_的地址已加载到堆栈中。\r\n这样可以更轻松地找到在调试器中运行的Procs。

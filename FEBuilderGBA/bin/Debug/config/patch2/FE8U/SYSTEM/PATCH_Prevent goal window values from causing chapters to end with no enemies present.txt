@@ -15,5 +15,7 @@ ONN:0x83ED6=0x1F 0xE0
 AUTHOR=Contro https://discord.com/channels/144670830150811649/470029781795078175/1071563678131961977
 NAME.en=Prevent goal window values from causing chapters to end with no enemies present
 INFO.en=In vanilla, if the chapter objective is to choose to annihilate the enemies or destroy the boss, the game is cleared when all the enemies are defeated. \r\nPlease note that this is probably a feature for world map skirmishes, but this patch suppresses that behavior. \r\n
+NAME.de=Prevent goal window values from causing chapters to end with no enemies present
+INFO.de=In vanilla, if the chapter objective is to choose to annihilate the enemies or destroy the boss, the game is cleared when all the enemies are defeated. \r\nPlease note that this is probably a feature for world map skirmishes, but this patch suppresses that behavior. \r\n
 NAME.zh=根据章节的目标，防止章节在没有敌人的情况下结束。
 INFO.zh=在原版中，如果该章节的目标是杀死敌人或击败 Boss，则击败所有敌人即可完成该章节。\r\n这可能是免费地图的一个功能，但这个补丁抑制了这种行为。\r\n

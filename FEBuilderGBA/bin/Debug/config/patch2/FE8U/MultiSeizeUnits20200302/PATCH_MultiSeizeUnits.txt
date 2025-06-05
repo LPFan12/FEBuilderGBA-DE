@@ -28,5 +28,7 @@ W4:FLAG=Flag(0x00=ANY)
 W6=00
 NAME.en=Change to have multiple units that can be seize 20200302(Editor)
 INFO.en=Change so that multiple units can be seize.
+NAME.de=Change to have multiple units that can be seize 20200302(Editor)
+INFO.de=Change so that multiple units can be seize.
 NAME.zh=更改为具有多个可以抑制的人物 20200302(Editor)
 INFO.zh=进行更改，以便可以控制多个人物。

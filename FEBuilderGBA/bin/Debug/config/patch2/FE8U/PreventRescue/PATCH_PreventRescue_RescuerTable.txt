@@ -1,5 +1,6 @@
 NAME=救出できなくする RescuerTable(Editor)
 NAME.en=Prevent Rescue RescuerTable(Editor)
+NAME.de=Prevent Rescue RescuerTable(Editor)
 TYPE=STRUCT
 TAG=#ENGINE
 
@@ -20,12 +21,14 @@ LISTNAME=UNIT
 //データを定義します
 B0:$COMBO Combo.ja.txt:.ja=救出する禁止
 B0:$COMBO Combo.en.txt:.en=Prevent Rescuer
+B0:$COMBO Combo.de.txt:.de=Prevent Rescuer
 B0:$COMBO Combo.en.txt:.zh=Prevent Rescuer
 
 INFO=指定したユニットは、他人を救出できなくなります。
 
 AUTHOR=Pikmin1211 https://feuniverse.us/t/pikmin-asm/8148/5
 INFO.en=The designated unit will not be able to rescue others.\r\nAllows for the prevention of both rescuing and being rescued (separately) by unit id. Also removes phantom rescuing hardcoding.
+INFO.de=The designated unit will not be able to rescue others.\r\nAllows for the prevention of both rescuing and being rescued (separately) by unit id. Also removes phantom rescuing hardcoding.
 
 NAME.zh=RescueTable（编辑器）使救援变得不可能。
 INFO.zh=指定单位将不再能够营救其他单位。

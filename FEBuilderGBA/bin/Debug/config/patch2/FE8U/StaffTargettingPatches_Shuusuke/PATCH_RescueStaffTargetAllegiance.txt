@@ -1,8 +1,10 @@
 NAME=レスキューの杖のターゲット (Allegiance)
 NAME.en=Rescue Staff Target (Allegiance)
+NAME.de=Rescue Staff Target (Allegiance)
 NAME.zh=Rescue Staff Target (Allegiance)
 INFO=バニラでは、レスキューの杖でユニットが同盟関係にある場合、そのユニットをターゲットにすることができます。このパッチにより、プレイヤーは同じ所属を持つユニットだけをターゲットにできるようになったり、代わりにどんなユニットでもターゲットにできるようになったりします。
 INFO.en=In vanilla you can target a unit with the Rescue staff if the unit is allied. This patch can allow the player to be able to target only units with the same allegiance, or any unit instead.
+INFO.de=In vanilla you can target a unit with the Rescue staff if the unit is allied. This patch can allow the player to be able to target only units with the same allegiance, or any unit instead.
 INFO.zh=In vanilla you can target a unit with the Rescue staff if the unit is allied. This patch can allow the player to be able to target only units with the same allegiance, or any unit instead.
 AUTHOR=Shuusuke 
 

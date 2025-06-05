@@ -1,5 +1,6 @@
 NAME=全員回復(イベント命令)
 NAME.en=Add Event: ASMC_RecoverAll
+NAME.de=Add Event: ASMC_RecoverAll
 NAME.zh=Add Event: ASMC_RecoverAll
 
 TYPE=BIN
@@ -18,9 +19,13 @@ EVENTSCRIPT:2=40050100XXXX0000400D0000{$L1:ASMC_RecoverAll.dmp}	[XX:WMAPAFFILIAT
 EVENTSCRIPT:1.en=400D0000{$L1:ASMC_RecoverAll.dmp}	Full recovery of Slot 1 type all units.(LOW)	00 is Player(blue), 01 Enemy(red), 02 NPC (green).
 EVENTSCRIPT:2.en=40050100XXXX0000400D0000{$L1:ASMC_RecoverAll.dmp}	Full recovery of [XX:WMAPAFFILIATION:Affiliation]'s all units.
 
+EVENTSCRIPT:1.de=400D0000{$L1:ASMC_RecoverAll.dmp}	Full recovery of Slot 1 type all units.(LOW)	00 is Player(blue), 01 Enemy(red), 02 NPC (green).
+EVENTSCRIPT:2.de=40050100XXXX0000400D0000{$L1:ASMC_RecoverAll.dmp}	Full recovery of [XX:WMAPAFFILIATION:Affiliation]'s all units.
+
 EVENTSCRIPT:1.zh=400D0000{$L1:ASMC_RecoverAll.dmp}	Full recovery of Slot 1 type all units.(LOW)	00 is Player(blue), 01 Enemy(red), 02 NPC (green).
 EVENTSCRIPT:2.zh=40050100XXXX0000400D0000{$L1:ASMC_RecoverAll.dmp}	Full recovery of [XX:WMAPAFFILIATION:Affiliation]'s all units.
 
 INFO=自軍や敵軍、NPCなどの特定の所属の全ユニット達を全回復
 INFO.en=Fully recover all units of a specific affiliation such as Player(Blue), Enemy(Red), NPC(Green)
+INFO.de=Fully recover all units of a specific affiliation such as Player(Blue), Enemy(Red), NPC(Green)
 INFO.zh=Fully recover all units of a specific affiliation such as Player(Blue), Enemy(Red), NPC(Green)

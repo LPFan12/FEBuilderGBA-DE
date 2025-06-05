@@ -1,5 +1,6 @@
 NAME=ジュナの実 下げるレベルの設定
 NAME.en=JunaFruits Decliment level setting
+NAME.de=JunaFruits Decliment level setting
 
 //アドレスパッチとして実装します
 TYPE=SWITCH
@@ -23,5 +24,6 @@ SET10:0x2F9BE=0x0A 0x20 0x2C 0x7A 0x24 0x1A
 
 INFO=ジュナの実の動作を変更します。\r\nディフォルトはレベルを5-6ぐらい下げます。\r\n乱数ではなく必ずLv1下げたり、特定のレベルに戻したりできるようになります。
 INFO.en=Change the behavior of Juna's fruit.\r\nThe default is to lower the level by 5-6.\r\nInstead of random numbers, you can always lower Lv1 and return to a specific level.
+INFO.de=Change the behavior of Juna's fruit.\r\nThe default is to lower the level by 5-6.\r\nInstead of random numbers, you can always lower Lv1 and return to a specific level.
 NAME.zh=设置Juna降低的级别。
 INFO.zh=改变朱纳水果的行为。\r\n默认值是将等级降低5-6。\r\n您可以始终降低Lv1并返回特定级别，而不用使用随机数。

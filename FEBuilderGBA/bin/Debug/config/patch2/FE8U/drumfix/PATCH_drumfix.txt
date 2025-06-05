@@ -1,5 +1,6 @@
 NAME=drumfix
 NAME.en=drumfix
+NAME.de=drumfix
 NAME.zh=drumfix
 
 //BINパッチとして実装します

@@ -1,5 +1,6 @@
 NAME=操作しているキャラの保持している支援をすべて消す(イベント命令)
 NAME.en=Add Event: Remove Support/Divorce
+NAME.de=Add Event: Remove Support/Divorce
 NAME.zh=事件命令_消除支援(Add Event)
 
 TYPE=BIN
@@ -14,13 +15,16 @@ BIN:$FREEAREA:1=wakaresaseya_run_divorce.bin
 INFO=操作キャラから支援をすべて消します. 被支援キャラからも自動的に消えます.\r\nCommentary:\r\nhttps://feuniverse.us/t/fe-builder-gba/2845/2519
 INFO.zh=从操作角色的支援全部消除，从支援角色也会自动地消失.\r\nCommentary:\r\nhttps://feuniverse.us/t/fe-builder-gba/2845/2519
 INFO.en=Patches the ROM with a callable event that erases all supports from a designated character.\r\nCommentary:\r\nhttps://feuniverse.us/t/fe-builder-gba/2845/2519
+INFO.de=Patches the ROM with a callable event that erases all supports from a designated character.\r\nCommentary:\r\nhttps://feuniverse.us/t/fe-builder-gba/2845/2519
 
 AUTHOR=怪盗パッチ 7743
 AUTHOR.zh=Kaito补丁7743
 AUTHOR.en=Kaito Port:7743
+AUTHOR.de=Kaito Port:7743
 
 
 
 EVENTSCRIPT=400D0000{$L1:wakaresaseya_run_divorce.bin}	操作中のキャラから支援を消す
 EVENTSCRIPT.en=400D0000{$L1:wakaresaseya_run_divorce.bin}	Clear support from the Current unit	Clear support from the Active unit
+EVENTSCRIPT.de=400D0000{$L1:wakaresaseya_run_divorce.bin}	Clear support from the Current unit	Clear support from the Active unit
 EVENTSCRIPT.zh=400D0000{$L1:wakaresaseya_run_divorce.bin}	从操作字符中删除辅助

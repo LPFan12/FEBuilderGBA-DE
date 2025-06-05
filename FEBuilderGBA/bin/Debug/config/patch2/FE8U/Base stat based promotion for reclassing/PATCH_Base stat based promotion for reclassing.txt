@@ -1,5 +1,6 @@
 NAME=Base stat based promotion for reclassing
 NAME.en=Base stat based promotion for reclassing
+NAME.de=Base stat based promotion for reclassing
 
 TYPE=EA
 TAG=#ENGINE

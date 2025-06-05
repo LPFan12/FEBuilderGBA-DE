@@ -1,5 +1,6 @@
 ﻿NAME=マップ変化が発生しているか(イベント命令)
 NAME.en=Add Event: Is tile change triggered
+NAME.de=Add Event: Is tile change triggered
 NAME.zh=Add Event: Is tile change triggered
 
 TYPE=BIN
@@ -15,8 +16,10 @@ AUTHOR=7743
 
 EVENTSCRIPT:01=400DTT00{$L1:ASMC_IsTileChangeTriggered.dmp}	マップ変化が発生しているか[TT:MAP_CHANGE:マップ変化ID](ASMC_IsTileChangeTriggered)	@STOREC	{COND}
 EVENTSCRIPT:01.en=400DTT00{$L1:ASMC_IsTileChangeTriggered.dmp}	Is tile change triggered[TT:MAP_CHANGE:TileChangeID](ASMC_IsTileChangeTriggered)	@STOREC	{COND}
+EVENTSCRIPT:01.de=400DTT00{$L1:ASMC_IsTileChangeTriggered.dmp}	Is tile change triggered[TT:MAP_CHANGE:TileChangeID](ASMC_IsTileChangeTriggered)	@STOREC	{COND}
 EVENTSCRIPT:01.zh=400DTT00{$L1:ASMC_IsTileChangeTriggered.dmp}	Is tile change triggered[TT:MAP_CHANGE:TileChangeID](ASMC_IsTileChangeTriggered)	@STOREC	{COND}
 
 INFO=マップ変化(タイルチェンジ)が発生しているかどうか調べ、bool値をSlotCに格納します。\r\nそのマップ変化が発生していれば1、発生しないなのであれば0が返されます。
 INFO.en=Checks if a tile change(map change) has occurred and stores the bool value in SlotC.\r\nIf the tile change has occurred, 1 is returned, otherwise 0 is returned.
+INFO.de=Checks if a tile change(map change) has occurred and stores the bool value in SlotC.\r\nIf the tile change has occurred, 1 is returned, otherwise 0 is returned.
 INFO.zh=Checks if a tile change(map change) has occurred and stores the bool value in SlotC.\r\nIf the tile change has occurred, 1 is returned, otherwise 0 is returned.

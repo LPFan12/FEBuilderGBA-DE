@@ -1,5 +1,6 @@
 NAME=進撃準備画面のマップ確認でも章目的を表示する
 NAME.en=Change Show chapter purpose in map confirmation on preparation screen
+NAME.de=Change Show chapter purpose in map confirmation on preparation screen
 
 //アドレスパッチとして実装します
 TYPE=SWITCH
@@ -7,6 +8,7 @@ TAG=#ENGINE
 
 COMBO=Default|OFF|Show|FIX
 COMBO.en=Default|OFF|Show|FIX
+COMBO.de=Default|OFF|Show|FIX
 COMBO.zh=Default|OFF|Show|FIX
 
 DETERMINATION_ADDRESS=0x08D09C

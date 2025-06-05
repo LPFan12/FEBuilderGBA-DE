@@ -1,5 +1,6 @@
 NAME=オートセーブ機能(SkillSystems/EMS対応)
 NAME.en=Auto save function(with SkillSystems/EMS)
+NAME.de=Auto save function(with SkillSystems/EMS)
 TYPE=EA
 TAG=#EVENT
 EA=EA.txt
@@ -16,6 +17,8 @@ INFO=中断から再開した時に、直前の行動ではなく、ターン開
 
 AUTHOR=7743,aera,FE8 Girls
 INFO.en=When resuming from an interruption, add a setting that can be returned at the beginning of the turn, not the last action.\r\nThis patch rewinds one turn time, like Do-Over(Turnwheel, Divine Pulse).\r\nThe original version allows players to switch by hijacking terrain options, but this version doesn't.\r\nJust install this patch and it will take effect.
+
+INFO.de=When resuming from an interruption, add a setting that can be returned at the beginning of the turn, not the last action.\r\nThis patch rewinds one turn time, like Do-Over(Turnwheel, Divine Pulse).\r\nThe original version allows players to switch by hijacking terrain options, but this version doesn't.\r\nJust install this patch and it will take effect.
 
 
 NAME.zh=自动保存功能(with SkillSystems/EMS)

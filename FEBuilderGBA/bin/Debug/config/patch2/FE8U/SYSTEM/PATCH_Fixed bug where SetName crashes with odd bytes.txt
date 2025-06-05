@@ -4,6 +4,8 @@ INFO=テキストのエスケープシーケンスのSetName(@0080@0023)で、�
 
 NAME.en=Fixed bug where SetName crashes with odd bytes
 INFO.en=Fixes a bug in SetName(@0080@0023) for text escape sequences that caused a crash when trying to set a name with an odd number of bytes.\r\nThis is a glitch problem caused by the processing of two bytes in Japanese.\r\nThis patch will fix this process to scan for single bytes.\r\nIf it were any other character encoding, the newline would be 0x01, so there would be no weird side effects.
+NAME.de=Fixed bug where SetName crashes with odd bytes
+INFO.de=Fixes a bug in SetName(@0080@0023) for text escape sequences that caused a crash when trying to set a name with an odd number of bytes.\r\nThis is a glitch problem caused by the processing of two bytes in Japanese.\r\nThis patch will fix this process to scan for single bytes.\r\nIf it were any other character encoding, the newline would be 0x01, so there would be no weird side effects.
 NAME.zh=Fixed bug where SetName crashes with odd bytes
 INFO.zh=Fixes a bug in SetName(@0080@0023) for text escape sequences that caused a crash when trying to set a name with an odd number of bytes.\r\nThis is a glitch problem caused by the processing of two bytes in Japanese.\r\nThis patch will fix this process to scan for single bytes.\r\nIf it were any other character encoding, the newline would be 0x01, so there would be no weird side effects.
 AUTHOR=7743 https://feuniverse.us/t/fe-builder-gba-if-you-have-any-questions-attach-report7z/2845/3910

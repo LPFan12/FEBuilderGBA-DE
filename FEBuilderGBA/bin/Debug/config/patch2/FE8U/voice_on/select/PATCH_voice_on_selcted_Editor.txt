@@ -1,5 +1,6 @@
 NAME=ユニットを選択した時に音声を再生する(Editor)
 NAME.en=voice on selcted(Editor)
+NAME.de=voice on selcted(Editor)
 
 IF:0x1CAA8=0x00 0x4B 0x18 0x47
 
@@ -35,5 +36,6 @@ W22:SONG=Voice10
 
 INFO=ユニットを選択した時に、音声を再生します。\r\nVoice2以降が設定されている場合は、ランダムで切り替えます。\r\n音声データは、0x60006(Low SFX)で入れてください。\r\n毎回しゃべるのが、うざい場合は、余白として0x7FFFを入れてください。
 INFO.en=Plays audio when a unit is selected.\r\nIf Voice2 or later is set, it will be switched randomly.\r\nFor voice data, enter 0x60006 (Low SFX).\r\nIf you don't like to speak every time, please insert 0x7FFF as a margin.\r\n
+INFO.de=Plays audio when a unit is selected.\r\nIf Voice2 or later is set, it will be switched randomly.\r\nFor voice data, enter 0x60006 (Low SFX).\r\nIf you don't like to speak every time, please insert 0x7FFF as a margin.\r\n
 NAME.zh=选择一个装置时播放音频（编辑器）。
 INFO.zh=选择一个装置时播放音频。\r\n如果设置了Voice2或更高版本，它将被随机切换。\r\nFor voice data, enter 0x60006 (Low SFX).\r\nIf you don't like to speak every time, please insert 0x7FFF as a margin.\r\n

@@ -1,5 +1,6 @@
 NAME=章タイトルの霧
 NAME.en=Chapter title fog
+NAME.de=Chapter title fog
 
 TYPE=IMAGE
 

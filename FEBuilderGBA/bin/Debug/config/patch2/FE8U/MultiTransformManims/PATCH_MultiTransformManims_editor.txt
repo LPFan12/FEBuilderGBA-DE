@@ -1,5 +1,6 @@
 NAME=マップアニメでの複数の変身アニメ(Editor)
 NAME.en=MultiTransformManims(Editor)
+NAME.de=MultiTransformManims(Editor)
 NAME.zh=MultiTransformManims(Editor)
 
 TYPE=STRUCT
@@ -10,6 +11,7 @@ HINT=Battle Translate, Map Anime
 
 INFO=マップアニメで攻撃する時に、複数の変身処理を実行します。\r\nバニラではマムクートだけが対象ですが、このパッチではすべてのクラスに対して、実行できるようにします。
 INFO.en=This patch performs multiple transformations when attacking with map animations.\r\nIn vanilla, it only applies to Manakete, but this patch allows it to be performed on all classes.
+INFO.de=This patch performs multiple transformations when attacking with map animations.\r\nIn vanilla, it only applies to Manakete, but this patch allows it to be performed on all classes.
 INFO.zh=This patch performs multiple transformations when attacking with map animations.\r\nIn vanilla, it only applies to Manakete, but this patch allows it to be performed on all classes.
 
 

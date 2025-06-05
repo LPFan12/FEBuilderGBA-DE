@@ -1,5 +1,6 @@
 NAME=SkillSystemsスペイン語翻訳リソース
 NAME.en=SkillSystems Spanish translation resource
+NAME.de=SkillSystems Spanish translation resource
 NAME.zh=SkillSystems Spanish translation resource
 
 TYPE=BIN

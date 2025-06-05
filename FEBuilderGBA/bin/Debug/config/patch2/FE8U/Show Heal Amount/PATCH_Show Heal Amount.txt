@@ -1,5 +1,6 @@
 NAME=ライブの杖で回復量を表示します
 NAME.en=Show Heal Amount
+NAME.de=Show Heal Amount
 
 TYPE=BIN
 TAG=#ENGINE

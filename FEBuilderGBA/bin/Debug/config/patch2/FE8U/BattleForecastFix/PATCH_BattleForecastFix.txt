@@ -4,6 +4,9 @@ INFO=攻撃アイテムを選択した後のバトル予測で、ABボタンを�
 NAME.en=Battle Forecast Fix
 INFO.en=Small bug fix for entering and exiting the battle forecast quickly causing graphical issues.\r\nIn vanilla, the grace frame is 1 second (4 seconds in SkillSystems), and if the button is pressed repeatedly at a speed exceeding that, the graphics are destroyed.
 
+NAME.de=Battle Forecast Fix
+INFO.de=Small bug fix for entering and exiting the battle forecast quickly causing graphical issues.\r\nIn vanilla, the grace frame is 1 second (4 seconds in SkillSystems), and if the button is pressed repeatedly at a speed exceeding that, the graphics are destroyed.
+
 NAME.zh=Battle Forecast Fix
 INFO.zh=Small bug fix for entering and exiting the battle forecast quickly causing graphical issues.\r\nIn vanilla, the grace frame is 1 second (4 seconds in SkillSystems), and if the button is pressed repeatedly at a speed exceeding that, the graphics are destroyed.
 

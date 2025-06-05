@@ -1,6 +1,6 @@
-
 NAME=とうぞくのかぎのアイテムID
 NAME.en=Lockpick ItemID
+NAME.de=Lockpick ItemID
 
 //アドレスパッチとして実装します
 TYPE=ADDR

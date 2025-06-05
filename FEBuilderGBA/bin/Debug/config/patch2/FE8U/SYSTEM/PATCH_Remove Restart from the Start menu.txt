@@ -1,5 +1,6 @@
 NAME=スタートメニューから「記録から始める」メニューを消す
 NAME.en=Remove Restart Chapter from the Start menu
+NAME.de=Remove Restart Chapter from the Start menu
 NAME.zh=Remove Restart Chapter from the Start menu
 
 TYPE=ADDR

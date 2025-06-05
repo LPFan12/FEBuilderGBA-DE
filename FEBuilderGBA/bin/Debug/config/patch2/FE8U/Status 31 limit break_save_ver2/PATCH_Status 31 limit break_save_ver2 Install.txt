@@ -1,4 +1,4 @@
-NAME.en=Double Maximum Possible Stats ver2 (Breaks Saves)
+NAME=Double Maximum Possible Stats ver2 (Breaks Saves)
 
 TYPE=BIN
 TAG=#ENGINE
@@ -63,11 +63,15 @@ HINT=輸送体
 INFO.en=If you want to use SkillSystems, we recommend using ExModularSave instead.\r\n\r\nPatches the ROM save game data to modify several stat caps.\r\nStats that normally cap at 31 can now reach up to 63.\r\nHP can increase up to 120 rather than 60. \r\nItem Storage space is expanded from 100 to 200.\r\nApplying this patch breaks existing Save Files, so the game must be started fresh.
 
 HINT.en=convoy,supply,transporter,merlinus,wagon
+INFO.de=If you want to use SkillSystems, we recommend using ExModularSave instead.\r\n\r\nPatches the ROM save game data to modify several stat caps.\r\nStats that normally cap at 31 can now reach up to 63.\r\nHP can increase up to 120 rather than 60. \r\nItem Storage space is expanded from 100 to 200.\r\nApplying this patch breaks existing Save Files, so the game must be started fresh.
+
+HINT.de=convoy,supply,transporter,merlinus,wagon
 INFO.zh=If you want to use SkillSystems, we recommend using ExModularSave instead.\r\n\r\n该修补程序允许您重新保存数据并保存超过31个状态参数。\r\n我们还将运输车延伸至200个物品。\r\n由于保存数据的变化，与现有数据的兼容性将被打破，因此删除所有保存的数据并开始新的游戏。\r\n
 
 AUTHOR=プログラム出典元:https://github.com/ngmansion/FE8/tree/master/break_save
 AUTHOR.zh=程式来源:https://github.com/ngmansion/FE8/tree/master/break_save
 AUTHOR.en=Program https://github.com/ngmansion/FE8/tree/master/break_save
+AUTHOR.de=Program https://github.com/ngmansion/FE8/tree/master/break_save
 
 CONFLICT_IF:0x0A575C=0x1F 0xFE 0xFF 0xFF
 CONFLICT_IF:0x0a533c=0x78 0x47 0xC0 0x46 0x00 0xC0 0x9F 0xE5

@@ -17,6 +17,10 @@ NAME.en=Add Event: Call Supply 20191022
 INFO.en=Call the convoy(supply) from the event script.\r\nPlease use it when you want to make something like the FE5(Thrace) depository.
 EVENTSCRIPT:1.en=400D0000{$L1:ASMC_azukarizyo.dmp}	Call Supply
 
+NAME.de=Add Event: Call Supply 20191022
+INFO.de=Call the convoy(supply) from the event script.\r\nPlease use it when you want to make something like the FE5(Thrace) depository.
+EVENTSCRIPT:1.de=400D0000{$L1:ASMC_azukarizyo.dmp}	Call Supply
+
 NAME.zh=事件命令 从事件订单调用护航的附加命令(Add Event) 20191022
 INFO.zh=从活动订单中呼叫车队。\r\n当你想制作像FE5 存放处这样的东西时，请使用它。
 

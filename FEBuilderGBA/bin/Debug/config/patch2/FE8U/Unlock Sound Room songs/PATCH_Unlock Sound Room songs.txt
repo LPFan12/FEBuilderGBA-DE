@@ -1,4 +1,6 @@
+NAME=Sound Room 100% Unlocked
 NAME.en=Sound Room 100% Unlocked
+NAME.de=Sound Room 100% Unlocked
 NAME.zh=Unlock Sound Room songs
 INFO=サウンドルームを全開放します。
 
@@ -12,4 +14,5 @@ AUTHOR=Transplant:7743
 
 
 INFO.en=The sound room will be fully opened.
+INFO.de=The sound room will be fully opened.
 INFO.zh=音室将完全开放。

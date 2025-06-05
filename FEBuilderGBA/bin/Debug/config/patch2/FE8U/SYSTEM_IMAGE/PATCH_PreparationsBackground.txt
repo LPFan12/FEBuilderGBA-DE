@@ -1,6 +1,6 @@
-
 NAME=進撃開始の背景
 NAME.en=PreparationsBackground
+NAME.de=PreparationsBackground
 
 //画像パッチとして実装します
 TYPE=IMAGE
@@ -16,6 +16,5 @@ PALETTE=2
 ZIMAGE_POINTER=0x2008C
 //非圧縮パレット
 PALETTE_POINTER=0x20088
-
 
 NAME.zh=系统_进击开始的背景

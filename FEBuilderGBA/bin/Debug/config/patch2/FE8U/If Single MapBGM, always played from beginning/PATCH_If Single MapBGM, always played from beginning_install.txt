@@ -12,5 +12,8 @@ AUTHOR=7743
 NAME.en=If Single MapBGM, always played from beginning.
 INFO.en=In the case of SingleBGM using wav, when you revert from battle background music to map background music, you may revert to silent space.\r\nThis patch ensures that if you are playing SingleBGM, it will always play from the beginning.
 
+NAME.de=If Single MapBGM, always played from beginning.
+INFO.de=In the case of SingleBGM using wav, when you revert from battle background music to map background music, you may revert to silent space.\r\nThis patch ensures that if you are playing SingleBGM, it will always play from the beginning.
+
 NAME.zh=If Single MapBGM, always played from beginning.
 INFO.zh=In the case of SingleBGM using wav, when you revert from battle background music to map background music, you may revert to silent space.\r\nThis patch ensures that if you are playing SingleBGM, it will always play from the beginning.

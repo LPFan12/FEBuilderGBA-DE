@@ -38,5 +38,8 @@ INFO=進撃準備画面の説明やダイアログ表示に利用されている
 NAME.en=Move the gray palette for preparation from the menu palette
 INFO.en=Move the gray palette used for the explanation of the advance preparation screen and the dialog display.\r\nThis makes it easier to change the menu palette.\r\nThe default is to use the 4th color (gray) of the menu palette.
 
+NAME.de=Move the gray palette for preparation from the menu palette
+INFO.de=Move the gray palette used for the explanation of the advance preparation screen and the dialog display.\r\nThis makes it easier to change the menu palette.\r\nThe default is to use the 4th color (gray) of the menu palette.
+
 NAME.zh=Move the gray palette for preparation from the menu palette
 INFO.zh=Move the gray palette used for the explanation of the advance preparation screen and the dialog display.\r\nThis makes it easier to change the menu palette.\r\nThe default is to use the 4th color (gray) of the menu palette.

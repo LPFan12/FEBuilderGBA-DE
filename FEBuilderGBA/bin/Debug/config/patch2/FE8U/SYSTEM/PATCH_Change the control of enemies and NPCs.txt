@@ -3,6 +3,8 @@ INFO=敵とNPCをAIによる自動操作ではなく、プレイヤーが操作�
 
 NAME.en=Debug: Change the control of enemies and/or NPCs
 INFO.en=Enemies and NPCs are controlled by AI, with this patch you can individually set them to player control.
+NAME.de=Debug: Change the control of enemies and/or NPCs
+INFO.de=Enemies and NPCs are controlled by AI, with this patch you can individually set them to player control.
 
 NAME.zh=Debug: Change the control of enemies and/or NPCs
 INFO.zh=Enemies and NPCs are controlled by AI, with this patch you can individually set them to player control.

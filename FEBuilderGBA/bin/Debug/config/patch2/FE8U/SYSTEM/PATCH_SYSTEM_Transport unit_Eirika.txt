@@ -1,5 +1,6 @@
 NAME=輸送隊ユニット 序盤とエイリーク編
 NAME.en=Eirika Campaign Supply
+NAME.de=Eirika Campaign Supply
 NAME.zh=运输人物 序章艾瑞克故事
 
 TYPE=ADDR
@@ -8,10 +9,14 @@ TAG=#ENGINE
 ADDRESS=0x23F88
 ADDRESS_TYPE=UNIT
 
-INFO=隣接すると輸送隊メニューを出すユニットを設定します。
+INFO=隣接すると輸送隊メニューを出すユニットを設定します。
+
 HINT=輸送体
-INFO.en=Sets the unit that the "Supply" menu option is attached to during Chapters 1-8 and Eirika's campaign.
+INFO.en=Sets the unit that the "Supply" menu option is attached to during Chapters 1-8 and Eirika's campaign.
+INFO.de=Sets the unit that the "Supply" menu option is attached to during Chapters 1-8 and Eirika's campaign.
+
 HINT.en=convoy,supply,transporter,merlinus,wagon
+HINT.de=convoy,supply,transporter,merlinus,wagon
 INFO.zh=设置相邻时将显示运输菜单的人物。
 
 AUTHOR=7743

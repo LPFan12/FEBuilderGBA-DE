@@ -1,5 +1,6 @@
 NAME=貴重品を交換できなくする ListVersion(Editor)
 NAME.en=Prevent exchange of valuables ListVersion(Editor)
+NAME.de=Prevent exchange of valuables ListVersion(Editor)
 
 TYPE=STRUCT
 TAG=#ENGINE
@@ -27,5 +28,6 @@ INFO=リストで指定したアイテムを交換できないようにします
 AUTHOR=Vesly, Orignal:Circle https://feuniverse.us/t/fe7-fe8-trading/632  trade_fix
 
 INFO.en=Prevents the items specified in the list from being exchanged.\r\nIf it is a replacement, an error sound will be played and the replacement will be cancelled.
+INFO.de=Prevents the items specified in the list from being exchanged.\r\nIf it is a replacement, an error sound will be played and the replacement will be cancelled.
 NAME.zh=防止更换贵重物品 ListVersion（Editor）
 INFO.zh=Prevents the items specified in the list from being exchanged.\r\nIf it is a replacement, an error sound will be played and the replacement will be cancelled.

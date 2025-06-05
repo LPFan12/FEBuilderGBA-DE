@@ -1,5 +1,6 @@
 NAME=システムメニューのパレット3(緑)
 NAME.en=SystemMenu Palette3 (Green)
+NAME.de=SystemMenu Palette3 (Green)
 NAME.zh=SystemMenu Palette3 (Green)
 TYPE=IMAGE
 

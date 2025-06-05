@@ -13,11 +13,14 @@ INFO=プレイヤーユニットを殺して死亡させます。\r\nUNCM(UNIT,0
 
 AUTHOR=7743
 NAME.en=Add Event: Death to Player Unit
+NAME.de=Add Event: Death to Player Unit
 
 EVENTSCRIPT=400DYY00{$L1:ASMC_KillPlayerUnit.dmp}	[YY:UNIT:ユニット]プレイヤーユニットを死亡させる
 EVENTSCRIPT.en=400DYY00{$L1:ASMC_KillPlayerUnit.dmp}	[YY:UNIT:Unit]Death to Player Unit
+EVENTSCRIPT.de=400DYY00{$L1:ASMC_KillPlayerUnit.dmp}	[YY:UNIT:Unit]Death to Player Unit
 EVENTSCRIPT.zh=400DYY00{$L1:ASMC_KillPlayerUnit.dmp}	[YY:UNIT:人物]Death to Player Unit
 
 INFO.en=This Patch kill the player unit.\r\nEven UNCM (UNIT, 0x5) can be killed, but it is not recorded in which map it is killed.\r\nThis patch writes to the BWL table the information that the current chapter has died.\r\nConversely, if you want to revive, please UNCR (UNIT, 0x5)\r\n0x05 = death | hidden.
+INFO.de=This Patch kill the player unit.\r\nEven UNCM (UNIT, 0x5) can be killed, but it is not recorded in which map it is killed.\r\nThis patch writes to the BWL table the information that the current chapter has died.\r\nConversely, if you want to revive, please UNCR (UNIT, 0x5)\r\n0x05 = death | hidden.
 NAME.zh=杀死一个玩家人物(Add Event)
 INFO.zh=杀死玩家人物。\r\n即使UNCM（UNIT，0x5）也可以被杀死，但它不会记录在哪个地图中被杀死。\r\n该补丁向BWL表写入当前章节已经死亡的信息。\r\n相反，如果你想复活，请UNCR（UNIT，0x5）\r\n0x05 =死亡|隐藏。

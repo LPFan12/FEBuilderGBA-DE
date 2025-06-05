@@ -1,5 +1,6 @@
 NAME=移動アイコンをFFまで拡張
 NAME.en=Extended Moving Map Animation List
+NAME.de=Extended Moving Map Animation List
 NAME.zh=将移动图标扩展到FF
 
 TYPE=SWITCH
@@ -60,6 +61,7 @@ ONN:0x26F28=0x48 0xF1 0x01 0x02
 
 INFO=ユニットが移動する、または待機するときに利用されるユニットアイコンを255まで利用できるように修正します。\r\nクラス拡張では必須となるパッチです。\r\n
 INFO.en=Toggles whether to limit class moving animations(Standing Map Animation) to 127 (Default) or 255 (Extended)\r\nIf moving map animations exceed 127 without being patched, there will be errors.\r\n
+INFO.de=Toggles whether to limit class moving animations(Standing Map Animation) to 127 (Default) or 255 (Extended)\r\nIf moving map animations exceed 127 without being patched, there will be errors.\r\n
 HINT=fixed unit's standing map animations
 
 AUTHOR=Icecube https://feuniverse.us/t/max-number-of-standing-map-sprites/773/10 , Snakey1 https://feuniverse.us/t/max-number-of-standing-map-sprites/773/29

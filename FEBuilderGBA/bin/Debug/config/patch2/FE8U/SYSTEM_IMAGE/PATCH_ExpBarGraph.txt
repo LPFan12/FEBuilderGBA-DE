@@ -1,5 +1,6 @@
 NAME=経験値バーのグラフのメモリ
 NAME.en=Experience bar scale
+NAME.de=Experience bar scale
 
 TYPE=IMAGE
 

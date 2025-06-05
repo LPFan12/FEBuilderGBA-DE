@@ -20,4 +20,5 @@ LISTNAME=$B0:CLASS
 //データを定義します
 B0:CLASS=Class
 NAME.en=Define multiple classes to suppress status display(Editor)
+NAME.de=Define multiple classes to suppress status display(Editor)
 NAME.zh=定义多个类以禁止状态显示(Editor)

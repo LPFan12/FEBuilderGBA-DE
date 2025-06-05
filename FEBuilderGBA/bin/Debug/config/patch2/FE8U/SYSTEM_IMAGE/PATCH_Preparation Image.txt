@@ -1,5 +1,6 @@
 NAME=進撃準備画像
 NAME.en=Preparation Image
+NAME.de=Preparation Image
 NAME.zh=Preparation Image
 
 TYPE=IMAGE

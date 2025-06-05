@@ -1,5 +1,6 @@
 NAME=MUSIC_戦闘BGM-攻撃(バトルBGM)
 NAME.en=MUSIC_Battle-Attack BGM
+NAME.de=MUSIC_Battle-Attack BGM
 NAME.zh=音乐_战斗_攻击_BGM
 
 

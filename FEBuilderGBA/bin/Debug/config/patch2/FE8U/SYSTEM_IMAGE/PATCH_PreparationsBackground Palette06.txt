@@ -1,6 +1,7 @@
 
 NAME=進撃開始の背景 パレット06
 NAME.en=PreparationsBackground Palette 06
+NAME.de=PreparationsBackground Palette 06
 
 //画像パッチとして実装します
 TYPE=IMAGE

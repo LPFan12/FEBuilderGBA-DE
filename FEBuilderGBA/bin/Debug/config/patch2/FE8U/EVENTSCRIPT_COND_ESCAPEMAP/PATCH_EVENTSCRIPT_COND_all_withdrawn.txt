@@ -24,6 +24,15 @@ AUTHOR.en=Source: Source: https://github.com/ngmansion/FE8/tree/master/escapemap
 EVENTSCRIPT.en=400D0000{$L1:all_withdrawn.bin}	Check whether all members have withdrawn	{COND}
 AUTHOR.zh=来源:https://github.com/ngmansion/FE8/tree/master/escapemap。
 
+NAME.de=COND Check whether all members have withdrawn
+INFO.de=Check whether all members have withdrawn from the withdrawal(Escape) map.\r\nIf all members have withdrawn, 1 is returned.\r\nIt returns 0 if it is still there.\r\nThe result is returned in memory slot C.\r\nSample: https://cdn.discordapp.com/attachments/145137778710151168/630348123197407233/fe8U.WithdrawMap.Sample.7z
+
+
+AUTHOR.de=Source: Source: https://github.com/ngmansion/FE8/tree/master/escapemap.
+
+EVENTSCRIPT.de=400D0000{$L1:all_withdrawn.bin}	Check whether all members have withdrawn	{COND}
+AUTHOR.zh=来源:https://github.com/ngmansion/FE8/tree/master/escapemap。
+
 EVENTSCRIPT.zh=400D0000{$L1:all_withdrawn.bin}	用于检查所有成员是否已从撤回地图中撤回。	{COND}
 
 

@@ -1,5 +1,6 @@
 NAME=ユニットの持ち物をすべて輸送隊に送る(イベント命令)
 NAME.en=Add Event: Send unit's all items to transporter
+NAME.de=Add Event: Send unit's all items to transporter
 NAME.zh=我会把人物的所有物品送到运输车(Add Event)
 
 TYPE=BIN
@@ -22,6 +23,12 @@ EVENTSCRIPT:3.en=4B0D0000{$L1:SendAllTransporter.dmp}	Send SVALB coordinates Uni
 EVENTSCRIPT:4.en=40050B00ZZZZWWWW4B0D0000{$L1:SendAllTransporter.dmp}	Send coordinates[ZZ:MAPX:X][WW:MAPY:Y] Unit's all items to transporter	{UNIT}
 EVENTSCRIPT:5.en=4F0D0000{$L1:SendAllTransporter.dmp}	Send currently being operated unit's all items to transporter	{UNIT}
 
+EVENTSCRIPT:1.de=400DXX00{$L1:SendAllTransporter.dmp}	Send unit's all items to transporter[XX:UNIT:Unit]	{UNIT}
+EVENTSCRIPT:2.de=410D0000{$L1:SendAllTransporter.dmp}	Send SVAL1 Unit's all items to transporter.(LOW)
+EVENTSCRIPT:3.de=4B0D0000{$L1:SendAllTransporter.dmp}	Send SVALB coordinates Unit's all items to transporter(LOW)
+EVENTSCRIPT:4.de=40050B00ZZZZWWWW4B0D0000{$L1:SendAllTransporter.dmp}	Send coordinates[ZZ:MAPX:X][WW:MAPY:Y] Unit's all items to transporter	{UNIT}
+EVENTSCRIPT:5.de=4F0D0000{$L1:SendAllTransporter.dmp}	Send currently being operated unit's all items to transporter	{UNIT}
+
 EVENTSCRIPT:1.zh=400DXX00{$L1:SendAllTransporter.dmp}	我会把人物的所有物品送到运输车。[XX:UNIT:人物]	{UNIT}
 EVENTSCRIPT:2.zh=410D0000{$L1:SendAllTransporter.dmp}	我们会将SVAL1装置的所有物品发送给运输车(LOW)
 EVENTSCRIPT:3.zh=4B0D0000{$L1:SendAllTransporter.dmp}	我们将属于SVALB坐标的所有项目发送到运输车(LOW)
@@ -37,4 +44,7 @@ AUTHOR=7743
 INFO.en=Send all belongings of the specified unit to the transporter.
 
 HINT.en=convoy,supply,transporter,merlinus,wagon
+INFO.de=Send all belongings of the specified unit to the transporter.
+
+HINT.de=convoy,supply,transporter,merlinus,wagon
 INFO.zh=将指定人物的所有物品发送给运输商。

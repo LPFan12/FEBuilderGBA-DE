@@ -1,8 +1,10 @@
 NAME=マップアニメのパレット1(青/プレイヤー)
 NAME.en=Map animation palette 1 (blue/player)
+NAME.de=Map animation palette 1 (blue/player)
 NAME.zh=Map animation palette 1 (blue/player)
 INFO=マップ戦闘の画面の描画に使うパレット。
 INFO.en=This is the palette used to draw the map battle screen.
+INFO.de=This is the palette used to draw the map battle screen.
 INFO.zh=This is the palette used to draw the map battle screen.
 
 TYPE=IMAGE

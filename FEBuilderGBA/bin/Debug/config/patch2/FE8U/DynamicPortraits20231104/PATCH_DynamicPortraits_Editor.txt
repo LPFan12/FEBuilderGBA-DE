@@ -10,6 +10,8 @@ IF:0x5514=0x00 0x4B
 AUTHOR=Scraiza https://feuniverse.us/t/scraizas-crazy-asm/5624/8
 NAME.en=Switch Portrait images by class, flag. 20231104(Editor)
 INFO.en=Switch Portrait to the status screen and MiniMug class, flags.\r\nThis patch can also switch portrait(face image) during conversations.\r\nWhen specifying a non-zero value for Class, specify a non-zero value for Unit as well.
+NAME.de=Switch Portrait images by class, flag. 20231104(Editor)
+INFO.de=Switch Portrait to the status screen and MiniMug class, flags.\r\nThis patch can also switch portrait(face image) during conversations.\r\nWhen specifying a non-zero value for Class, specify a non-zero value for Unit as well.
 
 NAME.zh=按类，旗切换面部图像 20231104(Editor)
 INFO.zh=切换到状态屏幕和MiniMug类，标志\r\nThis patch can also switch portrait(face image) during conversations.\r\nWhen specifying a non-zero value for Class, specify a non-zero value for Unit as well.

@@ -1,5 +1,6 @@
 NAME=オートセーブ機能 vesly's custom(SkillSystems/EMS対応)
 NAME.en=Auto save function vesly's custom(with SkillSystems/EMS)
+NAME.de=Auto save function vesly's custom(with SkillSystems/EMS)
 TYPE=EA
 TAG=#EVENT
 EA=Installer.event
@@ -16,7 +17,7 @@ INFO=中断から再開した時に、直前の行動ではなく、ターン開
 AUTHOR=7743,aera,FE8 Girls , Vesly https://feuniverse.us/t/veslys-asm/12011/95
 INFO.en=When resuming from an interruption, add a setting that can be returned at the beginning of the turn, not the last action.\r\nThis patch rewinds one turn time, like Do-Over(Turnwheel, Divine Pulse).\r\nThe original version allows players to switch by hijacking terrain options, but this version doesn't.\r\nJust install this patch and it will take effect.\r\nit so it'll only autosave at the start of your turn if you have the same number (or more) units as you did last turn. This way if a player is late to reset, they can still resume to the previous turn.\r\nThis uses a byte in ram. I've made the default 0x202bd33 which is padding in gChapterData.
 
-
+INFO.de=When resuming from an interruption, add a setting that can be returned at the beginning of the turn, not the last action.\r\nThis patch rewinds one turn time, like Do-Over(Turnwheel, Divine Pulse).\r\nThe original version allows players to switch by hijacking terrain options, but this version doesn't.\r\nJust install this patch and it will take effect.\r\nit so it'll only autosave at the start of your turn if you have the same number (or more) units as you did last turn. This way if a player is late to reset, they can still resume to the previous turn.\r\nThis uses a byte in ram. I've made the default 0x202bd33 which is padding in gChapterData.
 
 NAME.zh=自动保存功能 vesly's custom(with SkillSystems/EMS)
 INFO.zh=When resuming from an interruption, add a setting that can be returned at the beginning of the turn, not the last action.\r\nThis patch rewinds one turn time, like Do-Over(Turnwheel, Divine Pulse).\r\nThe original version allows players to switch by hijacking terrain options, but this version doesn't.\r\nJust install this patch and it will take effect.\r\nit so it'll only autosave at the start of your turn if you have the same number (or more) units as you did last turn. This way if a player is late to reset, they can still resume to the previous turn.\r\nThis uses a byte in ram. I've made the default 0x202bd33 which is padding in gChapterData.

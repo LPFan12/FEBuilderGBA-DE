@@ -1,5 +1,6 @@
 NAME=システムで利用するステータスアップの数字 無圧縮
 NAME.en=SystemNumberImage_StatusUp_NonCompression
+NAME.de=SystemNumberImage_StatusUp_NonCompression
 NAME.zh=SystemNumberImage_StatusUp_NonCompression
 
 TYPE=IMAGE

@@ -1,5 +1,6 @@
 NAME=ワールドマップのテキストウィンドウのパーツ
 NAME.en=WorldMap_TextWindow_Parts
+NAME.de=WorldMap_TextWindow_Parts
 
 TYPE=IMAGE
 TAG=#IMAGE

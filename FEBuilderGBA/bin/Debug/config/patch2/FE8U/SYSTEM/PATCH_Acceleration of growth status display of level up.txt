@@ -1,5 +1,6 @@
 NAME=レベルアップの成長ステータス表示の高速化
 NAME.en=Faster Level Ups
+NAME.de=Faster Level Ups
 NAME.zh=加速升级成长状态显示
 
 //アドレスパッチとして実装します
@@ -30,5 +31,6 @@ ON0:0x0741E0=0x01
 OFF:0x0741E0=0x14
 
 INFO.en=Patches the ROM to speed up the level up menu.\r\n
+INFO.de=Patches the ROM to speed up the level up menu.\r\n
 
 AUTHOR=Tequila https://feuniverse.us/t/teqs-minor-assembly-shenanigans/1655/75

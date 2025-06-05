@@ -1,8 +1,10 @@
 NAME=ファイアとエルファイアのパレットを動的に変更する(Editor)
 NAME.en=Dynamically Change the Fire and ElFire palette.(Editor)
+NAME.de=Dynamically Change the Fire and ElFire palette.(Editor)
 NAME.zh=Dynamically Change the Fire and ElFire palette.(Editor)
 INFO=リストにないものはディフォルトの挙動を行います。\r\n\r\n使用する武器や、使用者によって、ファイアとエルファイアのパレットを動的に変更します。\r\nEffectID:0x16 "ファイア"とEffectID:0x17 "エルファイア"のエフェクトの色を変更します。\r\n
 INFO.en=Those not on the list behave by default.\r\n\r\nThe Fire And ElFire palette is dynamically changed depending on the weapon used and the user.\r\nEffectID: 0x16 and EffectID: 0x17 Change the color of the "Fire" and "ElFire" flame effect.
+INFO.de=Those not on the list behave by default.\r\n\r\nThe Fire And ElFire palette is dynamically changed depending on the weapon used and the user.\r\nEffectID: 0x16 and EffectID: 0x17 Change the color of the "Fire" and "ElFire" flame effect.
 INFO.zh=Those not on the list behave by default.\r\n\r\nThe Fire And ElFire palette is dynamically changed depending on the weapon used and the user.\r\nEffectID: 0x16 and EffectID: 0x17 Change the color of the "Fire" and "ElFire" flame effect.
 
 IF:0x5DC8C=0x00 0x4B

@@ -18,6 +18,11 @@ NAME.en=AddEvent: GetCurrentlyPressedKeys
 INFO.en=Get the entered key.
 EVENTSCRIPT:2.en=400D0000{$L1:GetCurrentlyPressedKeys.dmp}40050700YYYYYYYY2506CC07	Check if [YYYY:KEYS:Keys] has been pressed(GetCurrentlyPressedKeys)	If any key is pressed, SlotC will store a non-zero value. If none are pressed, 0 is assigned to SlotC.	@STOREC
 
+EVENTSCRIPT:1.de=400D0000{$L1:GetCurrentlyPressedKeys.dmp}	GetCurrentlyPressedKeys	{COND}
+NAME.de=AddEvent: GetCurrentlyPressedKeys
+INFO.de=Get the entered key.
+EVENTSCRIPT:2.de=400D0000{$L1:GetCurrentlyPressedKeys.dmp}40050700YYYYYYYY2506CC07	Check if [YYYY:KEYS:Keys] has been pressed(GetCurrentlyPressedKeys)	If any key is pressed, SlotC will store a non-zero value. If none are pressed, 0 is assigned to SlotC.	@STOREC
+
 EVENTSCRIPT:1.zh=400D0000{$L1:GetCurrentlyPressedKeys.dmp}	GetCurrentlyPressedKeys	{COND}
 EVENTSCRIPT:2.zh=400D0000{$L1:GetCurrentlyPressedKeys.dmp}40050700YYYYYYYY2506CC07	Check if [YYYY:KEYS:Keys] has been pressed(GetCurrentlyPressedKeys)	If any key is pressed, SlotC will store a non-zero value. If none are pressed, 0 is assigned to SlotC.	@STOREC
 NAME.zh=AddEvent: GetCurrentlyPressedKeys

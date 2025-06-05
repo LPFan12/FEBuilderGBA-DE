@@ -1,6 +1,6 @@
-
 NAME=フリーマップの魔物の配置LV20上限解除
 NAME.en=Unlock LV20 upper limit to Monster of world map skirmishes
+NAME.de=Unlock LV20 upper limit to Monster of world map skirmishes
 
 //アドレスパッチとして実装します
 TYPE=ADDR

@@ -1,5 +1,6 @@
 NAME=セーブ画面のメニュー ActivePalette
 NAME.en=SaveControlMenu ActivePalette
+NAME.de=SaveControlMenu ActivePalette
 
 TYPE=IMAGE
 TAG=#IMAGE

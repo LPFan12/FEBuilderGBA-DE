@@ -1,8 +1,10 @@
 NAME=物理攻撃がヒットした時に、魔法モーションをロードする(Editor)
 NAME.en=Use magic motion when physical attack hits.(Editor)
+NAME.de=Use magic motion when physical attack hits.(Editor)
 NAME.zh=Use magic motion when physical attack hits.(Editor)
 INFO=リストにないものはディフォルトの挙動を行います。\r\n物理モーションは利用できないので、EffecID:0x11以降から指定できます。\r\n\r\n使用する武器や、使用者によって、通常の攻撃が命中した時の命中モーションを魔法モーションに変更します。
 INFO.en=If it is not listed, it will perform the default behavior.\r\nPhysical motion is not available and can be specified from EffecID:0x11 onwards.\r\n\r\nChanges the hit motion to a magic motion when a normal attack hits, depending on the weapon used and the user.
+INFO.de=If it is not listed, it will perform the default behavior.\r\nPhysical motion is not available and can be specified from EffecID:0x11 onwards.\r\n\r\nChanges the hit motion to a magic motion when a normal attack hits, depending on the weapon used and the user.
 INFO.zh=If it is not listed, it will perform the default behavior.\r\nPhysical motion is not available and can be specified from EffecID:0x11 onwards.\r\n\r\nChanges the hit motion to a magic motion when a normal attack hits, depending on the weapon used and the user.
 
 IF:0x6C720=0x00 0x4B

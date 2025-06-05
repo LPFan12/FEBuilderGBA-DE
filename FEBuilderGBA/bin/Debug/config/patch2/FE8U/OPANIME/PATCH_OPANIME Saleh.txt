@@ -1,5 +1,6 @@
 NAME=OPANIMEサレフ
 NAME.en=OP Anime Saleh
+NAME.de=OP Anime Saleh
 NAME.zh=OP动画塞勒夫
 
 //画像パッチとして実装します
@@ -19,5 +20,6 @@ PALETTE_POINTER=0x000C9D98//0x08AD89A8
 
 INFO=これは表示用に用意しています。データを編集は未対応です。\r\nOP Anime Graphic for the Saleh image.
 WARNING=1
-INFO.en=It is provided for display purposes.Edit data is not supported.\r\nOP Anime Graphic for the Saleh image.
+INFO.en=It is provided for display purposes. Edit data is not supported.\r\nOP Anime Graphic for the Saleh image.
+INFO.de=It is provided for display purposes. Edit data is not supported.\r\nOP Anime Graphic for the Saleh image.
 INFO.zh=它用于显示目的。不支持编辑数据。\r\n萨利赫形象的 OP 动漫图形。

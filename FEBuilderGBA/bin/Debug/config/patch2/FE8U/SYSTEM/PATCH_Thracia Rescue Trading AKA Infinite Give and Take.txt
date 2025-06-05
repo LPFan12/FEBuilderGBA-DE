@@ -1,8 +1,9 @@
 NAME=トラキアのように、救出しているユニットを、無限に引受け、引渡しできるようにする
 NAME.en=Thracia Rescue Trading AKA Infinite Give and Take
+NAME.de=Thracia Rescue Trading AKA Infinite Give and Take
 NAME.zh=Change increases support level continuously even with one map
 
-INFO=This patch allows you to give and take unlimited units of rescued units, like Thrace.
+INFO=This patch allows you to give and take unlimited units of rescued units, like Thracia.
 
 //アドレスパッチとして実装します
 TYPE=SWITCH

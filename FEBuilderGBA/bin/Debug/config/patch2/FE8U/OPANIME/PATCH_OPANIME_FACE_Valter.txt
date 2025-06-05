@@ -1,5 +1,6 @@
 NAME=OPANIME_FACE_ヴァルター
 NAME.en=OP Anime Face: Valter
+NAME.de=OP Anime Face: Valter
 NAME.zh=OP动画_脸_沃尔塔
 
 TYPE=IMAGE

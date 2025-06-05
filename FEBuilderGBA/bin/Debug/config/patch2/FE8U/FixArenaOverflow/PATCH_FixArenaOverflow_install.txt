@@ -12,5 +12,7 @@ EA=FixArenaOverflow.event
 AUTHOR=7743
 NAME.en=Make strong enemy units appear in Arena(Installer)
 INFO.en=Make enemy units that exceed level 31 appear in Arena.\r\nIn vanilla, there is a bug where if you exceed level 31,level will overflow then level 1 unit will appear.\r\nIt this patch also allows you to add a correction to your opponent's status based on your level.
+NAME.de=Make strong enemy units appear in Arena(Installer)
+INFO.de=Make enemy units that exceed level 31 appear in Arena.\r\nIn vanilla, there is a bug where if you exceed level 31,level will overflow then level 1 unit will appear.\r\nIt this patch also allows you to add a correction to your opponent's status based on your level.
 NAME.zh=Make strong enemy units appear in Arena(Installer)
 INFO.zh=Make enemy units that exceed level 31 appear in Arena.\r\nIn vanilla, there is a bug where if you exceed level 31,level will overflow then level 1 unit will appear.\r\nIt this patch also allows you to add a correction to your opponent's status based on your level.
