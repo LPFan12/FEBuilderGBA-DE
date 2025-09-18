@@ -160,7 +160,7 @@ namespace FEBuilderGBA
                     FEBuilderGBA.Address.AddAddress(list,songname, (uint)length , addr+12 ,name , FEBuilderGBA.Address.DataTypeEnum.BIN);
                 }
             }
-            if (Program.ROM.RomInfo.version == 209)
+            if (Program.ROM.RomInfo.version == 219)
             {
                 //FE7だと、曲名は C-String
                 uint addr = InputFormRef.BaseAddress;
