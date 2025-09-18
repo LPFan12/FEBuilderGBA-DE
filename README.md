@@ -55,7 +55,7 @@ Die benutzte Tabelle ist **Johab**, welche anscheinend nur Hangul-Sylben unterst
 
 Die koreanische Unterstützung ist unvollständig, weshalb manche Zeichen nicht richtig angezeigt werden, z.b. '@61A0' anstatt '마' (0xA061). Dies ist möglicherweise weil die oberen Bytes von 0xA0 bis 0xDF in Shift-JIS und Windows-932 für Einzelbyte-Darstellungen verwendet werden.
 
-Wie bei den deutschen Tabellen muss man momentan die Text-Enkodierung bei jedem Öffnen der ROM im Editor in den Optionen manuell einstellen wenn man sie verwenden will.
+Man muss momentan die Text-Enkodierung bei jedem Öffnen der ROM im Editor in den Optionen manuell einstellen wenn man sie verwenden will.
 
 Ursprüngliche FEBuilderGBA Informationen(Momentan unübersetzt/uneditiert)
 ===
