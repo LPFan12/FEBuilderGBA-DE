@@ -68,7 +68,7 @@ namespace FEBuilderGBA
             support_talk_pointer = 0x07B674;   // Ist das der richtige Pointer?
             unit_palette_color_pointer = 0x0;  // ユニットのパレット(カラー)の開始位置
             unit_palette_class_pointer = 0x0;  // ユニットのパレット(クラス)の開始位置
-            support_attribute_pointer = 0x26E24;  //支援効果の開始位置
+            support_attribute_pointer = 0x027C90;  //Ist das der richtige Pointer?
             terrain_recovery_pointer = 0x19F0C; //地形回復 全クラス共通
             terrain_bad_status_recovery_pointer = 0x019F1C; //地形回復 全クラス共通
             terrain_show_infomation_pointer = 0x85F78; //地形ウィンドウに情報表示 全クラス共通
@@ -76,9 +76,9 @@ namespace FEBuilderGBA
             ccbranch_pointer = 0x0; // CC分岐の開始位置
             ccbranch2_pointer = 0x0; // CC分岐の開始位置2 見習いのCCにのみ利用 CC分岐の開始位置+1の場所を指す
             class_alphaname_pointer = 0x0; // クラスのアルファベット表記の開始位置
-            map_terrain_name_pointer = 0x19efc; // マップの地名表記の開始位置
+            map_terrain_name_pointer = 0x019DE0; // Ist das der richtige Pointer?
             image_chapter_title_pointer = 0x0845B8; // Ist das der richtige Pointer?
-            image_chapter_title_palette = 0x404f10; // 章タイトルのパレット 多分違う
+            image_chapter_title_palette = 0x3D0780; // Ist das die richtige Palette?
             image_unit_palette_pointer = 0x057314; // Ist das der richtige Pointer?
             item_pointer = 0x160A8; // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             item_datasize = 36; // アイテムのデータサイズ
@@ -87,8 +87,8 @@ namespace FEBuilderGBA
             sound_room_pointer = 0x1B844; // サウンドルームの開始位置
             sound_room_datasize = 16; // サウンドルームのデータサイズ
             sound_room_cg_pointer = 0xAC3A4; // サウンドルームの背景リスト(FE7のみ)
-            event_ballte_talk_pointer = 0x79ab0; // 交戦時セリフの開始位置
-            event_ballte_talk2_pointer = 0x79c24; // 交戦時セリフの開始位置2 (FE6だとボス汎用会話テーブルがある)
+            event_ballte_talk_pointer = 0x07BE10; // Ist das der richtige Pointer?
+            event_ballte_talk2_pointer = 0x07BF84; // Ist das der richtige Pointer?
             event_haiku_pointer = 0x79d20; // 死亡時セリフの開始位置
             event_haiku_tutorial_1_pointer = 0x79D2C; // リン編チュートリアル 死亡時セリフの開始位置 FE7のみ
             event_haiku_tutorial_2_pointer = 0x79D28; // エリウッド編チュートリアル 死亡時セリフの開始位置 FE7のみ
@@ -114,7 +114,7 @@ namespace FEBuilderGBA
             ed_3a_pointer = 0xdc2894;  //ED その後 エリウッド編　
             ed_3b_pointer = 0xdc2898;  //ED その後 ヘクトル編
             ed_3c_pointer = 0xDC1FBC;  //ED その後 FE7 リン編(ポインタ指定できない)
-            generic_enemy_portrait_pointer = 0x7450; //一般兵の顔
+            generic_enemy_portrait_pointer = 0x73E8; //Ist das der richtige Pointer?
             generic_enemy_portrait_count = 0x8-2; //一般兵の顔の個数
 
             cc_item_hero_crest_itemid = 0x63;  //CCアイテム 英雄の証
