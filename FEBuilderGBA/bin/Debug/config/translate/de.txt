@@ -12699,7 +12699,7 @@ Wähle bitte die Entwicklungsumgebung aus.\r\nEine Entwicklungsumgebung zu insta
 Setze ein Programm um Musik zu konvertieren.
 
 :必要なプログラムのダウンロードと、設定をしています。
-Führe das Herunterladen und Kofigirieren der wichtigen Programme durch...
+Führe das Herunterladen und Konfigurieren der wichtigen Programme durch...
 
 :開発のやり方\r\n\r\n何か変更したら、F5キーを押して、エミュレータを起動します。\r\n動作を確認します。\r\n\r\n期待通りに動作していたら、「メニュー」->「ファイル」->「上書き保存」でセーブします。\r\n\r\nもし、予想外の動作をしていたら、保存せずにFEBuilderGBAを終了してください。\r\nそうすれば、ROMを壊すことなく開発できるでしょう。\r\n\r\nどうしても解決できない問題が発生した場合は、report7zをコミニティに送ってください。\r\nreport7zを作成するには、「メニュー」->「ファイル」->「問題報告ツール」を選択してください。
 Wie man testet:\r\n\r\nNachdem du jegliche Änderungen vorgenommen hast solltest du die F5-Taste drücken um den Emulator zu starten.\r\nTeste deine Änderungen im Spiel.\r\n\r\n\r\nWenn du nach dem Testen mit deinen Änderungen zufrieden bist, dann kannst du sie unter Datei -> Speichern sichern.\r\nWenn es ein Problem gibt das nicht gelöst werden kann, dann solltest du das Programm schließen ohne zu speichern, oder alternativ eine report7z generieren.\r\nWenn du ausversehen gespeichert hast, dann versuche zu einem vorherigen Backup zurückzugehen.
@@ -13879,4 +13879,5 @@ Open source file
 
 :ソースフォルダーを開く
 Open source folder
+
 
