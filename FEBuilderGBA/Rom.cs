@@ -613,6 +613,12 @@ namespace FEBuilderGBA
                 this.RomInfo = new ROMFE7E1(this);
                 return true;
             }
+            if (data.Length >= 0x1000000
+                && version.IndexOf("AE7Y01") >= 0)
+            {
+                this.RomInfo = new ROMFE7E2(this);
+                return true;
+            }
             if (data.Length >= 0x800000
                 && version.IndexOf("AFEJ01") >= 0)
             {
@@ -709,6 +715,10 @@ namespace FEBuilderGBA
             else if (forceversion.IndexOf("FE7E1") >= 0)
             {
                 version = "AE7X01";
+            }
+            else if (forceversion.IndexOf("FE7E2") >= 0)
+            {
+                version = "AE7Y01";
             }
             else if (forceversion.IndexOf("FE6") >= 0)
             {
