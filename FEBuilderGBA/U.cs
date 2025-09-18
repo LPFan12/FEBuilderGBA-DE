@@ -2678,7 +2678,7 @@ namespace FEBuilderGBA
                     OPClassDemoFE7UForm.MakeAllDataLength(list);
                 }
             }
-	    else if (Program.ROM.RomInfo.version == 209)
+	    else if (Program.ROM.RomInfo.version == 219)
             {
                 ImageTSAAnimeForm.MakeAllDataLength(list, isPointerOnly);
                 EDFE7Form.MakeAllDataLength(list);
@@ -2925,7 +2925,7 @@ namespace FEBuilderGBA
                 EventFinalSerifFE7Form.MakeVarsIDArray(list);
                 WorldMapEventPointerFE7Form.MakeVarsIDArray(list);
             }
-	    else if (Program.ROM.RomInfo.version == 209)
+	    else if (Program.ROM.RomInfo.version == 219)
             {//7
                 if (Program.ROM.RomInfo.is_multibyte)
                 {
