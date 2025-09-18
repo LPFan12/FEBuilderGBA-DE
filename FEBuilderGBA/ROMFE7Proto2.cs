@@ -30,7 +30,7 @@ namespace FEBuilderGBA
             portrait_pointer = 0x6A54; //Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
             portrait_datasize = 28;
             icon_pointer = 0x4C24; // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
-            icon_orignal_address = 0xC12F4; // アイコンの初期値
+            icon_orignal_address = 0xC344C; // Sollte die richtige Addresse sein.
             icon_orignal_max = 0xAC; // アイコンの最大数
 
             icon_palette_pointer = 0x4B30; // Von der Dokumentation bei (https://feuniverse.us/t/fe7-fe8-prototype-offsets-findings/17220) entnommen.
