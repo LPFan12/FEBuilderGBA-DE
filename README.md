@@ -5,6 +5,8 @@ README(Unfertig)
 
 Diese Version von FEBuilderGBA wird speziell für die deutsche Fire Emblem-Community erweitert, aber ich hoffe darauf zu achten, dass sie auch für andere Sprachen verwendbar und hilfreich ist. Sie basiert auf der Version bei (https://github.com/laqieer/FEBuilderGBA).
 
+Momentane Probleme: Aus unbekannten Gründen kann das Programm bestimmte Dinge in der FE7E Rom mit deutsch nicht lesen, obwohl intern die richtigen Pointer angegeben sind. Dies bedarf tieferer Nachforschung.
+
 Unsere Änderungen und Pläne
 ===
 Änderungen sind verglichen mit der uns übergestellten Version von FEBuilderGBA.
@@ -27,7 +29,8 @@ Offizielle Spielversionen:
  * FE6C (Spiel-ID: AFECFQ); Dies ist die Chinesische Version.
  * FE7 206-Prototyp (Spiel-ID: AE7B01); Die Spiel-ID muss in der ROM manuell geändert werden, auf natürliche Weise hat es die selbe ID wie die japanische Version von FE6.
  * FE7 219-Prototyp (Spiel-ID: AE7G01); Die Spiel-ID muss in der ROM manuell geändert werden, auf natürliche Weise hat es die selbe ID wie die japanische Version von FE6.
- * FE7E (Spiel-ID: AE7X01); Dies ist die ROM mit Deutsch, die andere Europäische ROM ist noch nicht unterstüztzt.
+ * FE7E1 (Spiel-ID: AE7X01); Dies ist die ROM mit Deutsch.
+ * FE7E2 (Spiel-ID: AE7Y01); Dies ist die ROM ohne Deutsch.
  * FE8 531-Prototyp (Spiel-ID: BE8A01); Die Spiel-ID muss in der ROM manuell geändert werden, auf natürliche Weise hat es die selbe ID wie die japanische Version von FE7.
  * FE8E (Spiel-ID: BE8P01); Selbst wenn die Unterstüzung dieser ROM allerdings irgendwann stabil ist, ist sie nicht als Basis für ROMhacks empfohlen, da sie bereits die maximale Größe für GBA Spiele hat und davon den Großteil bereits mit Daten belegt.
    
