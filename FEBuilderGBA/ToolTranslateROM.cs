@@ -160,7 +160,6 @@ namespace FEBuilderGBA
                 return;
             }
             Program.ROM.write_p32( U.toOffset(pointer), newaddr, undodata);
-            );
         }
         void ApplyAntiHuffmanPatch()
         {
