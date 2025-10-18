@@ -20,6 +20,7 @@ namespace FEBuilderGBA
             TranslateToROMFilename.AllowDropFilename();
             SimpleTranslateFromROMFilename.AllowDropFilename();
             SimpleTranslateToROMFilename.AllowDropFilename();
+            ExtraFontToROMFilename.AllowDropFilename();
             SimpleTranslateToTranslateDataFilename.AllowDropFilename();
             SimpleTranslateToTranslateDataFilename.Placeholder = R._("無指定の場合は定型文のみ翻訳します。");
 
@@ -140,7 +141,7 @@ namespace FEBuilderGBA
             Undo.UndoData undodata = Program.Undo.NewUndoData("ImportFont");
 
             ToolTranslateROM trans = new ToolTranslateROM();
-            trans.ImportFont(this, this.FontROMTextBox.Text, FontAutoGenelateCheckBox.Checked, UseFontNameTextEdit.Font, undodata);
+            trans.ImportFont(this, this.FontROMTextBox.Text, this.ExtraFontToROMFilename.Text, FontAutoGenelateCheckBox.Checked, UseFontNameTextEdit.Font, undodata);
             trans.BlackOut(undodata);
             Program.Undo.Push(undodata);
         }
@@ -280,6 +281,7 @@ namespace FEBuilderGBA
             string to = U.InnerSplit(Translate_to.Text, "=", 0);
             string fromrom = SimpleTranslateFromROMFilename.Text;
             string torom = SimpleTranslateToROMFilename.Text;
+            string extrafontrom = ExtraFontToROMFilename.Text;
             if (from == to)
             {
                 return;
@@ -312,7 +314,7 @@ namespace FEBuilderGBA
                 trans.ExportallText(this, writeTextFileName, from, to, fromrom, torom,  false,false);
                 trans.ImportAllText(this, writeTextFileName, false, undodata);
 
-                trans.ImportFont(this, torom, true, FontAutoGenelateCheckBox.Font, undodata);
+                trans.ImportFont(this, torom, extrafontrom, true, FontAutoGenelateCheckBox.Font, undodata);
 
                 File.Delete(writeTextFileName);
             }
@@ -422,23 +424,6 @@ namespace FEBuilderGBA
                     LabelTranslateToROMFilename.Text = R._("無改造 FE8J");
                 }
             }
-            else if (Program.ROM.RomInfo.version == 531)
-            {
-                if (Program.ROM.RomInfo.is_multibyte)
-                {
-                    LabelSimpleTranslateFromROMFilename.Text = R._("無改造 FE8J");
-                    LabelSimpleTranslateToROMFilename.Text = R._("無改造 FE8U");
-                    LabelTranslateFormROMFilename.Text = R._("無改造 FE8J");
-                    LabelTranslateToROMFilename.Text = R._("無改造 FE8U");
-                }
-                else
-                {
-                    LabelSimpleTranslateFromROMFilename.Text = R._("無改造 FE8U");
-                    LabelSimpleTranslateToROMFilename.Text = R._("無改造 FE8J");
-                    LabelTranslateFormROMFilename.Text = R._("無改造 FE8U");
-                    LabelTranslateToROMFilename.Text = R._("無改造 FE8J");
-                }
-            }
             else if (Program.ROM.RomInfo.version == 7)
             {
                 if (Program.ROM.RomInfo.is_multibyte)
@@ -456,40 +441,34 @@ namespace FEBuilderGBA
                     LabelTranslateToROMFilename.Text = R._("無改造 FE7U");
                 }
             }
-            else if (Program.ROM.RomInfo.version == 206)
+        }
+
+        private void ExtraFontToROMFilenameSelectButton_Click(object sender, EventArgs e)
+        {
+            string title = R._("追加でフォントを取り出すROMがあれば指定してください。ないなら空白にして。");
+            string filter = R._("GBA ROMs|*.gba|Binary files|*.bin|All files|*");
+
+            OpenFileDialog open = new OpenFileDialog();
+            open.Title = title;
+            open.Filter = filter;
+            Program.LastSelectedFilename.Load(this, "", open);
+            DialogResult dr = open.ShowDialog();
+            if (dr != DialogResult.OK)
             {
-                if (Program.ROM.RomInfo.is_multibyte)
-                {
-                    LabelSimpleTranslateFromROMFilename.Text = R._("無改造 FE7U");
-                    LabelSimpleTranslateToROMFilename.Text = R._("無改造 FE7J");
-                    LabelTranslateFormROMFilename.Text = R._("無改造 FE7U");
-                    LabelTranslateToROMFilename.Text = R._("無改造 FE7J");
-                }
-                else
-                {
-                    LabelSimpleTranslateFromROMFilename.Text = R._("無改造 FE7J");
-                    LabelSimpleTranslateToROMFilename.Text = R._("無改造 FE7U");
-                    LabelTranslateFormROMFilename.Text = R._("無改造 FE7J");
-                    LabelTranslateToROMFilename.Text = R._("無改造 FE7U");
-                }
+                return;
             }
-            else if (Program.ROM.RomInfo.version == 219)
+            if (!U.CanReadFileRetry(open))
             {
-                if (Program.ROM.RomInfo.is_multibyte)
-                {
-                    LabelSimpleTranslateFromROMFilename.Text = R._("無改造 FE7U");
-                    LabelSimpleTranslateToROMFilename.Text = R._("無改造 FE7J");
-                    LabelTranslateFormROMFilename.Text = R._("無改造 FE7U");
-                    LabelTranslateToROMFilename.Text = R._("無改造 FE7J");
-                }
-                else
-                {
-                    LabelSimpleTranslateFromROMFilename.Text = R._("無改造 FE7J");
-                    LabelSimpleTranslateToROMFilename.Text = R._("無改造 FE7U");
-                    LabelTranslateFormROMFilename.Text = R._("無改造 FE7J");
-                    LabelTranslateToROMFilename.Text = R._("無改造 FE7U");
-                }
+                return;
             }
+
+            Program.LastSelectedFilename.Save(this, "", open);
+            this.ExtraFontToROMFilename.Text = open.FileNames[0];
+        }
+
+        private void ExtraFontToROMFilenameSelectButton_Click(object sender, MouseEventArgs e)
+        {
+            ExtraFontToROMFilenameSelectButton.PerformClick();
         }
     }
 }
