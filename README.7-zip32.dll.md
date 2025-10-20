@@ -1,5 +1,13 @@
 7-zip32.dll
 ===
+7-zip32 ist eine dll die vom common archiver project dazu erstellt wurde, um 7z zu nutzen.
+Besuche für Details und den Quellcode bitte diese Seite.
+http://www.madobe.net/archiver/lib/7-zip32.html
+
+Lizenz: LGPL 2.1
+
+7-zip32.dll
+===
 7-zip32 is a dll to use 7z created by the common archiver project.
 For details and source code please visit this site.
 http://www.madobe.net/archiver/lib/7-zip32.html
@@ -14,4 +22,3 @@ License: LGPL 2.1
 http://www.madobe.net/archiver/lib/7-zip32.html
 
 License: LGPL 2.1
-
