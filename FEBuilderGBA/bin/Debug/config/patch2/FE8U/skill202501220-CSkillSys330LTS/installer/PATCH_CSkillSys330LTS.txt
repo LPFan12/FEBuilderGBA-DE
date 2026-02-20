@@ -1,5 +1,6 @@
 NAME=Skill SkillSystems 20251221 (CSkillSys 3.3.0-LTS) (スキル拡張)
 NAME.en=Skill SkillSystems 20251221 (CSkillSys 3.3.0-LTS)
+NAME.de=Skill SkillSystems 20251221 (CSkillSys 3.3.0-LTS)
 NAME.zh=技能 SkillSystems 20251221 (CSkillSys 3.3.0-LTS)（技能扩展）
 TYPE=BIN
 TAG=#ENGINE
@@ -625,3 +626,4 @@ UPDATE_UNINSTALL:15=..\ChangeStaffExp\PATCH_ChangeStaffExp Installer.txt
 UPDATE_UNINSTALL:16=..\MultiSupplyUnits\PATCH_MultiSupplyUnits_install.txt
 UPDATE_UNINSTALL:17=..\MultiSupplyUnits20200302\PATCH_MultiSupplyUnits_install.txt
 UPDATE_UNINSTALL:18=..\MultiSupplyUnits20220419\PATCH_MultiSupplyUnits_install.tx
+
