@@ -2756,6 +2756,7 @@ namespace FEBuilderGBA
         {
             ToolTranslateROM trans = new ToolTranslateROM();
             trans.InitExportFilter((uint)X_ExportFilterCombo.SelectedIndex);
+			trans.SetAppedAIHint(X_ExportFilterAIHint.Checked);
             trans.ExportallText(this);
         }
 
