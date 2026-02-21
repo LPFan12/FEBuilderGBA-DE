@@ -3241,31 +3241,77 @@ namespace FEBuilderGBA
                 {//日本語版で英語版専用項目はいらない
                     return true;
                 }
-		if (line.IndexOf("\t{E}") >= 0)
+				if (line.IndexOf("\t{E}") >= 0)
+                {//日本語版で英語版専用項目はいらない
+                    return true;
+                } 
+				if (line.IndexOf("\t{E1}") >= 0)
+                {//日本語版で英語版専用項目はいらない
+                    return true;
+                } 
+				if (line.IndexOf("\t{E2}") >= 0)
                 {//日本語版で英語版専用項目はいらない
                     return true;
                 } 
             }
             else
             {
-	    if (Program.ROM.RomInfo.VersionToFilename == "FE8E")
+	    	if (Program.ROM.RomInfo.VersionToFilename == "FE8E")
             {
             if (line.IndexOf("\t{J}") >= 0)
             {//英語版で日本語版専用項目はいらない
             return true;
             }
-	    if (line.IndexOf("\t{U}") >= 0)
+	    	if (line.IndexOf("\t{U}") >= 0)
             {//英語版で日本語版専用項目はいらない
             return true;
             } 
             }
-	    else
-	    {
-	    if (line.IndexOf("\t{J}") >= 0)
+			else if (Program.ROM.RomInfo.VersionToFilename == "FE7E1")
+            {
+            if (line.IndexOf("\t{J}") >= 0)
+            {//英語版で日本語版専用項目はいらない
+            return true;
+            }
+	    	if (line.IndexOf("\t{U}") >= 0)
+            {//英語版で日本語版専用項目はいらない
+            return true;
+            }
+			if (line.IndexOf("\t{E2}") >= 0)
+            {//英語版で日本語版専用項目はいらない
+            return true;
+            }
+            }
+			else if (Program.ROM.RomInfo.VersionToFilename == "FE7E2")
+            {
+            if (line.IndexOf("\t{J}") >= 0)
+            {//英語版で日本語版専用項目はいらない
+            return true;
+            }
+	    	if (line.IndexOf("\t{U}") >= 0)
+            {//英語版で日本語版専用項目はいらない
+            return true;
+            }
+			if (line.IndexOf("\t{E1}") >= 0)
+            {//英語版で日本語版専用項目はいらない
+            return true;
+            }
+            }
+	    	else
+	    	{
+	    	if (line.IndexOf("\t{J}") >= 0)
             {//英語版で日本語版専用項目はいらない
             return true;
             }
             if (line.IndexOf("\t{E}") >= 0)
+            {//英語版で日本語版専用項目はいらない
+            return true;
+            }
+			if (line.IndexOf("\t{E1}") >= 0)
+            {//英語版で日本語版専用項目はいらない
+            return true;
+            }
+			if (line.IndexOf("\t{E2}") >= 0)
             {//英語版で日本語版専用項目はいらない
             return true;
             }
