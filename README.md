@@ -1,5 +1,6 @@
 README(Unfertig)
 ===
+Notiz: Diese Version von FEBuilderGBA hat keine weitere Zukunft darin, die neuen Änderungen von der übergestellten Version zu übernehmen weil durch die Nutzung von KI plötzlich hunderte von neuen Änderungen erschienen sind und das nicht zu bewältigen ist. Statdessen werde ich ein paar Wochen oder Monate warten bis sich der Sturm von Änderungen gelegt hat und werde dann das Gegenteil machen indem ich die Änderungen von hier auf eine neue Kopie von der übergestellten Version rüberkopiere. Ich bitte um Verständnis!
 
 [![MSBuild](https://github.com/LPFan12/FEBuilderGBA-DE/actions/workflows/msbuild.yml/badge.svg)](https://github.com/LPFan12/FEBuilderGBA-DE/actions/workflows/msbuild.yml)
 
